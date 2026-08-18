@@ -18,22 +18,10 @@ public final class RoutePointChangeInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RoutePointChangeInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>uint32 point_index = 2;</code>
-     * @return The pointIndex.
-     */
     int getPointIndex();
 
-    /**
-     * <code>float target_velocity = 9;</code>
-     * @return The targetVelocity.
-     */
     float getTargetVelocity();
 
-    /**
-     * <code>float wait_time = 12;</code>
-     * @return The waitTime.
-     */
     float getWaitTime();
   }
   /**
@@ -81,17 +69,17 @@ public final class RoutePointChangeInfoOuterClass {
             case 0:
               done = true;
               break;
+            case 117: {
+
+              targetVelocity_ = input.readFloat();
+              break;
+            }
             case 16: {
 
               pointIndex_ = input.readUInt32();
               break;
             }
-            case 77: {
-
-              targetVelocity_ = input.readFloat();
-              break;
-            }
-            case 101: {
+            case 29: {
 
               waitTime_ = input.readFloat();
               break;
@@ -130,32 +118,23 @@ public final class RoutePointChangeInfoOuterClass {
 
     public static final int POINT_INDEX_FIELD_NUMBER = 2;
     private int pointIndex_;
-    /**
-     * <code>uint32 point_index = 2;</code>
-     * @return The pointIndex.
-     */
+
     @java.lang.Override
     public int getPointIndex() {
       return pointIndex_;
     }
 
-    public static final int TARGET_VELOCITY_FIELD_NUMBER = 9;
+    public static final int TARGET_VELOCITY_FIELD_NUMBER = 14;
     private float targetVelocity_;
-    /**
-     * <code>float target_velocity = 9;</code>
-     * @return The targetVelocity.
-     */
+
     @java.lang.Override
     public float getTargetVelocity() {
       return targetVelocity_;
     }
 
-    public static final int WAIT_TIME_FIELD_NUMBER = 12;
+    public static final int WAIT_TIME_FIELD_NUMBER = 3;
     private float waitTime_;
-    /**
-     * <code>float wait_time = 12;</code>
-     * @return The waitTime.
-     */
+
     @java.lang.Override
     public float getWaitTime() {
       return waitTime_;
@@ -175,14 +154,14 @@ public final class RoutePointChangeInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (targetVelocity_ != 0F) {
+        output.writeFloat(14, targetVelocity_);
+      }
       if (pointIndex_ != 0) {
         output.writeUInt32(2, pointIndex_);
       }
-      if (targetVelocity_ != 0F) {
-        output.writeFloat(9, targetVelocity_);
-      }
       if (waitTime_ != 0F) {
-        output.writeFloat(12, waitTime_);
+        output.writeFloat(3, waitTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +172,17 @@ public final class RoutePointChangeInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (targetVelocity_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(14, targetVelocity_);
+      }
       if (pointIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, pointIndex_);
       }
-      if (targetVelocity_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(9, targetVelocity_);
-      }
       if (waitTime_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(12, waitTime_);
+          .computeFloatSize(3, waitTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -502,93 +481,63 @@ public final class RoutePointChangeInfoOuterClass {
       }
 
       private int pointIndex_ ;
-      /**
-       * <code>uint32 point_index = 2;</code>
-       * @return The pointIndex.
-       */
+
       @java.lang.Override
       public int getPointIndex() {
         return pointIndex_;
       }
-      /**
-       * <code>uint32 point_index = 2;</code>
-       * @param value The pointIndex to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setPointIndex(int value) {
-        
+
         pointIndex_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint32 point_index = 2;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearPointIndex() {
-        
+
         pointIndex_ = 0;
         onChanged();
         return this;
       }
 
       private float targetVelocity_ ;
-      /**
-       * <code>float target_velocity = 9;</code>
-       * @return The targetVelocity.
-       */
+
       @java.lang.Override
       public float getTargetVelocity() {
         return targetVelocity_;
       }
-      /**
-       * <code>float target_velocity = 9;</code>
-       * @param value The targetVelocity to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setTargetVelocity(float value) {
-        
+
         targetVelocity_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>float target_velocity = 9;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearTargetVelocity() {
-        
+
         targetVelocity_ = 0F;
         onChanged();
         return this;
       }
 
       private float waitTime_ ;
-      /**
-       * <code>float wait_time = 12;</code>
-       * @return The waitTime.
-       */
+
       @java.lang.Override
       public float getWaitTime() {
         return waitTime_;
       }
-      /**
-       * <code>float wait_time = 12;</code>
-       * @param value The waitTime to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setWaitTime(float value) {
-        
+
         waitTime_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>float wait_time = 12;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearWaitTime() {
-        
+
         waitTime_ = 0F;
         onChanged();
         return this;
@@ -604,7 +553,6 @@ public final class RoutePointChangeInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RoutePointChangeInfo)
     }
@@ -648,7 +596,7 @@ public final class RoutePointChangeInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoutePointChangeInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoutePointChangeInfo_fieldAccessorTable;
 
@@ -661,10 +609,9 @@ public final class RoutePointChangeInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032RoutePointChangeInfo.proto\"W\n\024RoutePoi" +
-      "ntChangeInfo\022\023\n\013point_index\030\002 \001(\r\022\027\n\017tar" +
-      "get_velocity\030\t \001(\002\022\021\n\twait_time\030\014 \001(\002B;\n" +
-      "\031emu.grasscutter.net.protoB\036RoutePointCh" +
-      "angeInfoOuterClassb\006proto3"
+      "ntChangeInfo\022\023\n\013point_index\030\n \001(\r\022\027\n\017tar" +
+      "get_velocity\030\005 \001(\002\022\021\n\twait_time\030\r \001(\002B\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

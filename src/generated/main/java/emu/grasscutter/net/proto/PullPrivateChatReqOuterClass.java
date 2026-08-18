@@ -37,10 +37,6 @@ public final class PullPrivateChatReqOuterClass {
     int getPullNum();
   }
   /**
-   * <pre>
-   * CmdID: 4614
-   * </pre>
-   *
    * Protobuf type {@code PullPrivateChatReq}
    */
   public static final class PullPrivateChatReq extends
@@ -343,10 +339,6 @@ public final class PullPrivateChatReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4614
-     * </pre>
-     *
      * Protobuf type {@code PullPrivateChatReq}
      */
     public static final class Builder extends

@@ -43,10 +43,6 @@ public final class HomeAvatarSummonAllEventNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 24235
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarSummonAllEventNotify}
    */
   public static final class HomeAvatarSummonAllEventNotify extends
@@ -335,10 +331,6 @@ public final class HomeAvatarSummonAllEventNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24235
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarSummonAllEventNotify}
      */
     public static final class Builder extends

@@ -65,10 +65,6 @@ public final class ForgeGetQueueDataRspOuterClass {
         int key);
   }
   /**
-   * <pre>
-   * CmdID: 3484
-   * </pre>
-   *
    * Protobuf type {@code ForgeGetQueueDataRsp}
    */
   public static final class ForgeGetQueueDataRsp extends
@@ -473,10 +469,6 @@ public final class ForgeGetQueueDataRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3484
-     * </pre>
-     *
      * Protobuf type {@code ForgeGetQueueDataRsp}
      */
     public static final class Builder extends

@@ -73,10 +73,6 @@ public final class GetPlayerFriendListRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 29071
-   * </pre>
-   *
    * Protobuf type {@code GetPlayerFriendListRsp}
    */
   public static final class GetPlayerFriendListRsp extends
@@ -458,10 +454,6 @@ public final class GetPlayerFriendListRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29071
-     * </pre>
-     *
      * Protobuf type {@code GetPlayerFriendListRsp}
      */
     public static final class Builder extends

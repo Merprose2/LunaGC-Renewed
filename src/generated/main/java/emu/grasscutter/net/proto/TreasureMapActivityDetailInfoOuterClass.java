@@ -97,10 +97,10 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         int index);
 
     /**
-     * <code>uint32 PJBOPNEPNFA = 13;</code>
-     * @return The pJBOPNEPNFA.
+     * <code>uint32 fjeocgnlcej = 13;</code>
+     * @return The fjeocgnlcej.
      */
-    int getPJBOPNEPNFA();
+    int getFjeocgnlcej();
 
     /**
      * <code>uint32 treasure_close_time = 15;</code>
@@ -201,7 +201,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
             }
             case 104: {
 
-              pJBOPNEPNFA_ = input.readUInt32();
+              fjeocgnlcej_ = input.readUInt32();
               break;
             }
             case 120: {
@@ -382,15 +382,15 @@ public final class TreasureMapActivityDetailInfoOuterClass {
       return bonusChallengeList_.get(index);
     }
 
-    public static final int PJBOPNEPNFA_FIELD_NUMBER = 13;
-    private int pJBOPNEPNFA_;
+    public static final int FJEOCGNLCEJ_FIELD_NUMBER = 13;
+    private int fjeocgnlcej_;
     /**
-     * <code>uint32 PJBOPNEPNFA = 13;</code>
-     * @return The pJBOPNEPNFA.
+     * <code>uint32 fjeocgnlcej = 13;</code>
+     * @return The fjeocgnlcej.
      */
     @java.lang.Override
-    public int getPJBOPNEPNFA() {
-      return pJBOPNEPNFA_;
+    public int getFjeocgnlcej() {
+      return fjeocgnlcej_;
     }
 
     public static final int TREASURE_CLOSE_TIME_FIELD_NUMBER = 15;
@@ -439,8 +439,8 @@ public final class TreasureMapActivityDetailInfoOuterClass {
       for (int i = 0; i < bonusChallengeList_.size(); i++) {
         output.writeMessage(12, bonusChallengeList_.get(i));
       }
-      if (pJBOPNEPNFA_ != 0) {
-        output.writeUInt32(13, pJBOPNEPNFA_);
+      if (fjeocgnlcej_ != 0) {
+        output.writeUInt32(13, fjeocgnlcej_);
       }
       if (treasureCloseTime_ != 0) {
         output.writeUInt32(15, treasureCloseTime_);
@@ -482,9 +482,9 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(12, bonusChallengeList_.get(i));
       }
-      if (pJBOPNEPNFA_ != 0) {
+      if (fjeocgnlcej_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, pJBOPNEPNFA_);
+          .computeUInt32Size(13, fjeocgnlcej_);
       }
       if (treasureCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -519,8 +519,8 @@ public final class TreasureMapActivityDetailInfoOuterClass {
           != other.getIsMpChallengeTouched()) return false;
       if (!getBonusChallengeListList()
           .equals(other.getBonusChallengeListList())) return false;
-      if (getPJBOPNEPNFA()
-          != other.getPJBOPNEPNFA()) return false;
+      if (getFjeocgnlcej()
+          != other.getFjeocgnlcej()) return false;
       if (getTreasureCloseTime()
           != other.getTreasureCloseTime()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -553,8 +553,8 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         hash = (37 * hash) + BONUS_CHALLENGE_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getBonusChallengeListList().hashCode();
       }
-      hash = (37 * hash) + PJBOPNEPNFA_FIELD_NUMBER;
-      hash = (53 * hash) + getPJBOPNEPNFA();
+      hash = (37 * hash) + FJEOCGNLCEJ_FIELD_NUMBER;
+      hash = (53 * hash) + getFjeocgnlcej();
       hash = (37 * hash) + TREASURE_CLOSE_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getTreasureCloseTime();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -714,7 +714,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         } else {
           bonusChallengeListBuilder_.clear();
         }
-        pJBOPNEPNFA_ = 0;
+        fjeocgnlcej_ = 0;
 
         treasureCloseTime_ = 0;
 
@@ -768,7 +768,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         } else {
           result.bonusChallengeList_ = bonusChallengeListBuilder_.build();
         }
-        result.pJBOPNEPNFA_ = pJBOPNEPNFA_;
+        result.fjeocgnlcej_ = fjeocgnlcej_;
         result.treasureCloseTime_ = treasureCloseTime_;
         onBuilt();
         return result;
@@ -885,8 +885,8 @@ public final class TreasureMapActivityDetailInfoOuterClass {
             }
           }
         }
-        if (other.getPJBOPNEPNFA() != 0) {
-          setPJBOPNEPNFA(other.getPJBOPNEPNFA());
+        if (other.getFjeocgnlcej() != 0) {
+          setFjeocgnlcej(other.getFjeocgnlcej());
         }
         if (other.getTreasureCloseTime() != 0) {
           setTreasureCloseTime(other.getTreasureCloseTime());
@@ -1556,33 +1556,33 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         return bonusChallengeListBuilder_;
       }
 
-      private int pJBOPNEPNFA_ ;
+      private int fjeocgnlcej_ ;
       /**
-       * <code>uint32 PJBOPNEPNFA = 13;</code>
-       * @return The pJBOPNEPNFA.
+       * <code>uint32 fjeocgnlcej = 13;</code>
+       * @return The fjeocgnlcej.
        */
       @java.lang.Override
-      public int getPJBOPNEPNFA() {
-        return pJBOPNEPNFA_;
+      public int getFjeocgnlcej() {
+        return fjeocgnlcej_;
       }
       /**
-       * <code>uint32 PJBOPNEPNFA = 13;</code>
-       * @param value The pJBOPNEPNFA to set.
+       * <code>uint32 fjeocgnlcej = 13;</code>
+       * @param value The fjeocgnlcej to set.
        * @return This builder for chaining.
        */
-      public Builder setPJBOPNEPNFA(int value) {
+      public Builder setFjeocgnlcej(int value) {
         
-        pJBOPNEPNFA_ = value;
+        fjeocgnlcej_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 PJBOPNEPNFA = 13;</code>
+       * <code>uint32 fjeocgnlcej = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPJBOPNEPNFA() {
+      public Builder clearFjeocgnlcej() {
         
-        pJBOPNEPNFA_ = 0;
+        fjeocgnlcej_ = 0;
         onChanged();
         return this;
       }
@@ -1693,7 +1693,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
       "\020region_info_list\030\010 \003(\0132\026.TreasureMapReg" +
       "ionInfo\022\037\n\027is_mp_challenge_touched\030\n \001(\010" +
       "\022<\n\024bonus_challenge_list\030\014 \003(\0132\036.Treasur" +
-      "eMapBonusChallengeInfo\022\023\n\013PJBOPNEPNFA\030\r " +
+      "eMapBonusChallengeInfo\022\023\n\013fjeocgnlcej\030\r " +
       "\001(\r\022\033\n\023treasure_close_time\030\017 \001(\rBD\n\031emu." +
       "grasscutter.net.protoB\'TreasureMapActivi" +
       "tyDetailInfoOuterClassb\006proto3"
@@ -1709,7 +1709,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
     internal_static_TreasureMapActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TreasureMapActivityDetailInfo_descriptor,
-        new java.lang.String[] { "MinOpenPlayerLevel", "KDGCGILDGOH", "PreviewRewardId", "FMCDPDEMHLH", "RegionInfoList", "IsMpChallengeTouched", "BonusChallengeList", "PJBOPNEPNFA", "TreasureCloseTime", });
+        new java.lang.String[] { "MinOpenPlayerLevel", "KDGCGILDGOH", "PreviewRewardId", "FMCDPDEMHLH", "RegionInfoList", "IsMpChallengeTouched", "BonusChallengeList", "Fjeocgnlcej", "TreasureCloseTime", });
     emu.grasscutter.net.proto.TreasureMapBonusChallengeInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.getDescriptor();
   }

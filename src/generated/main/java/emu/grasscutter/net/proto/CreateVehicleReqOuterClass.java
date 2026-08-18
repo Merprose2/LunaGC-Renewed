@@ -61,10 +61,6 @@ public final class CreateVehicleReqOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 28262
-   * </pre>
-   *
    * Protobuf type {@code CreateVehicleReq}
    */
   public static final class CreateVehicleReq extends
@@ -450,10 +446,6 @@ public final class CreateVehicleReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28262
-     * </pre>
-     *
      * Protobuf type {@code CreateVehicleReq}
      */
     public static final class Builder extends

@@ -49,10 +49,6 @@ public final class PullPrivateChatRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 9720
-   * </pre>
-   *
    * Protobuf type {@code PullPrivateChatRsp}
    */
   public static final class PullPrivateChatRsp extends
@@ -368,10 +364,6 @@ public final class PullPrivateChatRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9720
-     * </pre>
-     *
      * Protobuf type {@code PullPrivateChatRsp}
      */
     public static final class Builder extends

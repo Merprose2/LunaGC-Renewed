@@ -37,10 +37,6 @@ public final class LevelupCityReqOuterClass {
     int getItemNum();
   }
   /**
-   * <pre>
-   * CmdID: 8730
-   * </pre>
-   *
    * Protobuf type {@code LevelupCityReq}
    */
   public static final class LevelupCityReq extends
@@ -343,10 +339,6 @@ public final class LevelupCityReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8730
-     * </pre>
-     *
      * Protobuf type {@code LevelupCityReq}
      */
     public static final class Builder extends

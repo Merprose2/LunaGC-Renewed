@@ -54,10 +54,6 @@ public final class ClientScriptEventNotifyOuterClass {
     int getTargetEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 4935
-   * </pre>
-   *
    * Protobuf type {@code ClientScriptEventNotify}
    */
   public static final class ClientScriptEventNotify extends
@@ -442,10 +438,6 @@ public final class ClientScriptEventNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4935
-     * </pre>
-     *
      * Protobuf type {@code ClientScriptEventNotify}
      */
     public static final class Builder extends

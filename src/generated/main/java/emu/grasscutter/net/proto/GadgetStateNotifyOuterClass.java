@@ -37,10 +37,6 @@ public final class GadgetStateNotifyOuterClass {
     int getGadgetState();
   }
   /**
-   * <pre>
-   * CmdID: 22839
-   * </pre>
-   *
    * Protobuf type {@code GadgetStateNotify}
    */
   public static final class GadgetStateNotify extends
@@ -344,10 +340,6 @@ public final class GadgetStateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22839
-     * </pre>
-     *
      * Protobuf type {@code GadgetStateNotify}
      */
     public static final class Builder extends

@@ -19,6 +19,36 @@ public final class SceneMonsterInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>.SceneFishInfo fish_info = 50;</code>
+     * @return Whether the fishInfo field is set.
+     */
+    boolean hasFishInfo();
+    /**
+     * <code>.SceneFishInfo fish_info = 50;</code>
+     * @return The fishInfo.
+     */
+    emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo getFishInfo();
+    /**
+     * <code>.SceneFishInfo fish_info = 50;</code>
+     */
+    emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder getFishInfoOrBuilder();
+
+    /**
+     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+     * @return Whether the fishtankFishInfo field is set.
+     */
+    boolean hasFishtankFishInfo();
+    /**
+     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+     * @return The fishtankFishInfo.
+     */
+    emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo getFishtankFishInfo();
+    /**
+     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+     */
+    emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder getFishtankFishInfoOrBuilder();
+
+    /**
      * <code>uint32 monster_id = 1;</code>
      * @return The monsterId.
      */
@@ -205,36 +235,6 @@ public final class SceneMonsterInfoOuterClass {
      * @return The isLight.
      */
     boolean getIsLight();
-
-    /**
-     * <code>.SceneFishInfo fish_info = 50;</code>
-     * @return Whether the fishInfo field is set.
-     */
-    boolean hasFishInfo();
-    /**
-     * <code>.SceneFishInfo fish_info = 50;</code>
-     * @return The fishInfo.
-     */
-    emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo getFishInfo();
-    /**
-     * <code>.SceneFishInfo fish_info = 50;</code>
-     */
-    emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder getFishInfoOrBuilder();
-
-    /**
-     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-     * @return Whether the fishtankFishInfo field is set.
-     */
-    boolean hasFishtankFishInfo();
-    /**
-     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-     * @return The fishtankFishInfo.
-     */
-    emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo getFishtankFishInfo();
-    /**
-     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-     */
-    emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder getFishtankFishInfoOrBuilder();
 
     public emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.SceneMonsterInfo.ContentCase getContentCase();
   }
@@ -538,6 +538,68 @@ public final class SceneMonsterInfoOuterClass {
     getContentCase() {
       return ContentCase.forNumber(
           contentCase_);
+    }
+
+    public static final int FISH_INFO_FIELD_NUMBER = 50;
+    /**
+     * <code>.SceneFishInfo fish_info = 50;</code>
+     * @return Whether the fishInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasFishInfo() {
+      return contentCase_ == 50;
+    }
+    /**
+     * <code>.SceneFishInfo fish_info = 50;</code>
+     * @return The fishInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo getFishInfo() {
+      if (contentCase_ == 50) {
+         return (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_;
+      }
+      return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
+    }
+    /**
+     * <code>.SceneFishInfo fish_info = 50;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder getFishInfoOrBuilder() {
+      if (contentCase_ == 50) {
+         return (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_;
+      }
+      return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
+    }
+
+    public static final int FISHTANK_FISH_INFO_FIELD_NUMBER = 51;
+    /**
+     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+     * @return Whether the fishtankFishInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasFishtankFishInfo() {
+      return contentCase_ == 51;
+    }
+    /**
+     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+     * @return The fishtankFishInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo getFishtankFishInfo() {
+      if (contentCase_ == 51) {
+         return (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_;
+      }
+      return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
+    }
+    /**
+     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder getFishtankFishInfoOrBuilder() {
+      if (contentCase_ == 51) {
+         return (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_;
+      }
+      return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
     }
 
     public static final int MONSTER_ID_FIELD_NUMBER = 1;
@@ -893,68 +955,6 @@ public final class SceneMonsterInfoOuterClass {
     @java.lang.Override
     public boolean getIsLight() {
       return isLight_;
-    }
-
-    public static final int FISH_INFO_FIELD_NUMBER = 50;
-    /**
-     * <code>.SceneFishInfo fish_info = 50;</code>
-     * @return Whether the fishInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasFishInfo() {
-      return contentCase_ == 50;
-    }
-    /**
-     * <code>.SceneFishInfo fish_info = 50;</code>
-     * @return The fishInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo getFishInfo() {
-      if (contentCase_ == 50) {
-         return (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_;
-      }
-      return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
-    }
-    /**
-     * <code>.SceneFishInfo fish_info = 50;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder getFishInfoOrBuilder() {
-      if (contentCase_ == 50) {
-         return (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_;
-      }
-      return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
-    }
-
-    public static final int FISHTANK_FISH_INFO_FIELD_NUMBER = 51;
-    /**
-     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-     * @return Whether the fishtankFishInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasFishtankFishInfo() {
-      return contentCase_ == 51;
-    }
-    /**
-     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-     * @return The fishtankFishInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo getFishtankFishInfo() {
-      if (contentCase_ == 51) {
-         return (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_;
-      }
-      return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
-    }
-    /**
-     * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder getFishtankFishInfoOrBuilder() {
-      if (contentCase_ == 51) {
-         return (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_;
-      }
-      return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1537,6 +1537,20 @@ public final class SceneMonsterInfoOuterClass {
       public emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.SceneMonsterInfo buildPartial() {
         emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.SceneMonsterInfo result = new emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.SceneMonsterInfo(this);
         int from_bitField0_ = bitField0_;
+        if (contentCase_ == 50) {
+          if (fishInfoBuilder_ == null) {
+            result.content_ = content_;
+          } else {
+            result.content_ = fishInfoBuilder_.build();
+          }
+        }
+        if (contentCase_ == 51) {
+          if (fishtankFishInfoBuilder_ == null) {
+            result.content_ = content_;
+          } else {
+            result.content_ = fishtankFishInfoBuilder_.build();
+          }
+        }
         result.monsterId_ = monsterId_;
         result.groupId_ = groupId_;
         result.configId_ = configId_;
@@ -1571,20 +1585,6 @@ public final class SceneMonsterInfoOuterClass {
         result.levelRouteId_ = levelRouteId_;
         result.initPoseId_ = initPoseId_;
         result.isLight_ = isLight_;
-        if (contentCase_ == 50) {
-          if (fishInfoBuilder_ == null) {
-            result.content_ = content_;
-          } else {
-            result.content_ = fishInfoBuilder_.build();
-          }
-        }
-        if (contentCase_ == 51) {
-          if (fishtankFishInfoBuilder_ == null) {
-            result.content_ = content_;
-          } else {
-            result.content_ = fishtankFishInfoBuilder_.build();
-          }
-        }
         result.contentCase_ = contentCase_;
         onBuilt();
         return result;
@@ -1783,6 +1783,288 @@ public final class SceneMonsterInfoOuterClass {
       }
 
       private int bitField0_;
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder> fishInfoBuilder_;
+      /**
+       * <code>.SceneFishInfo fish_info = 50;</code>
+       * @return Whether the fishInfo field is set.
+       */
+      @java.lang.Override
+      public boolean hasFishInfo() {
+        return contentCase_ == 50;
+      }
+      /**
+       * <code>.SceneFishInfo fish_info = 50;</code>
+       * @return The fishInfo.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo getFishInfo() {
+        if (fishInfoBuilder_ == null) {
+          if (contentCase_ == 50) {
+            return (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_;
+          }
+          return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
+        } else {
+          if (contentCase_ == 50) {
+            return fishInfoBuilder_.getMessage();
+          }
+          return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.SceneFishInfo fish_info = 50;</code>
+       */
+      public Builder setFishInfo(emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo value) {
+        if (fishInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          content_ = value;
+          onChanged();
+        } else {
+          fishInfoBuilder_.setMessage(value);
+        }
+        contentCase_ = 50;
+        return this;
+      }
+      /**
+       * <code>.SceneFishInfo fish_info = 50;</code>
+       */
+      public Builder setFishInfo(
+          emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder builderForValue) {
+        if (fishInfoBuilder_ == null) {
+          content_ = builderForValue.build();
+          onChanged();
+        } else {
+          fishInfoBuilder_.setMessage(builderForValue.build());
+        }
+        contentCase_ = 50;
+        return this;
+      }
+      /**
+       * <code>.SceneFishInfo fish_info = 50;</code>
+       */
+      public Builder mergeFishInfo(emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo value) {
+        if (fishInfoBuilder_ == null) {
+          if (contentCase_ == 50 &&
+              content_ != emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance()) {
+            content_ = emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.newBuilder((emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            content_ = value;
+          }
+          onChanged();
+        } else {
+          if (contentCase_ == 50) {
+            fishInfoBuilder_.mergeFrom(value);
+          }
+          fishInfoBuilder_.setMessage(value);
+        }
+        contentCase_ = 50;
+        return this;
+      }
+      /**
+       * <code>.SceneFishInfo fish_info = 50;</code>
+       */
+      public Builder clearFishInfo() {
+        if (fishInfoBuilder_ == null) {
+          if (contentCase_ == 50) {
+            contentCase_ = 0;
+            content_ = null;
+            onChanged();
+          }
+        } else {
+          if (contentCase_ == 50) {
+            contentCase_ = 0;
+            content_ = null;
+          }
+          fishInfoBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>.SceneFishInfo fish_info = 50;</code>
+       */
+      public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder getFishInfoBuilder() {
+        return getFishInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.SceneFishInfo fish_info = 50;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder getFishInfoOrBuilder() {
+        if ((contentCase_ == 50) && (fishInfoBuilder_ != null)) {
+          return fishInfoBuilder_.getMessageOrBuilder();
+        } else {
+          if (contentCase_ == 50) {
+            return (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_;
+          }
+          return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.SceneFishInfo fish_info = 50;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder> 
+          getFishInfoFieldBuilder() {
+        if (fishInfoBuilder_ == null) {
+          if (!(contentCase_ == 50)) {
+            content_ = emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
+          }
+          fishInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_,
+                  getParentForChildren(),
+                  isClean());
+          content_ = null;
+        }
+        contentCase_ = 50;
+        onChanged();;
+        return fishInfoBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder> fishtankFishInfoBuilder_;
+      /**
+       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+       * @return Whether the fishtankFishInfo field is set.
+       */
+      @java.lang.Override
+      public boolean hasFishtankFishInfo() {
+        return contentCase_ == 51;
+      }
+      /**
+       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+       * @return The fishtankFishInfo.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo getFishtankFishInfo() {
+        if (fishtankFishInfoBuilder_ == null) {
+          if (contentCase_ == 51) {
+            return (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_;
+          }
+          return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
+        } else {
+          if (contentCase_ == 51) {
+            return fishtankFishInfoBuilder_.getMessage();
+          }
+          return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+       */
+      public Builder setFishtankFishInfo(emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo value) {
+        if (fishtankFishInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          content_ = value;
+          onChanged();
+        } else {
+          fishtankFishInfoBuilder_.setMessage(value);
+        }
+        contentCase_ = 51;
+        return this;
+      }
+      /**
+       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+       */
+      public Builder setFishtankFishInfo(
+          emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder builderForValue) {
+        if (fishtankFishInfoBuilder_ == null) {
+          content_ = builderForValue.build();
+          onChanged();
+        } else {
+          fishtankFishInfoBuilder_.setMessage(builderForValue.build());
+        }
+        contentCase_ = 51;
+        return this;
+      }
+      /**
+       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+       */
+      public Builder mergeFishtankFishInfo(emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo value) {
+        if (fishtankFishInfoBuilder_ == null) {
+          if (contentCase_ == 51 &&
+              content_ != emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance()) {
+            content_ = emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.newBuilder((emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            content_ = value;
+          }
+          onChanged();
+        } else {
+          if (contentCase_ == 51) {
+            fishtankFishInfoBuilder_.mergeFrom(value);
+          }
+          fishtankFishInfoBuilder_.setMessage(value);
+        }
+        contentCase_ = 51;
+        return this;
+      }
+      /**
+       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+       */
+      public Builder clearFishtankFishInfo() {
+        if (fishtankFishInfoBuilder_ == null) {
+          if (contentCase_ == 51) {
+            contentCase_ = 0;
+            content_ = null;
+            onChanged();
+          }
+        } else {
+          if (contentCase_ == 51) {
+            contentCase_ = 0;
+            content_ = null;
+          }
+          fishtankFishInfoBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+       */
+      public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder getFishtankFishInfoBuilder() {
+        return getFishtankFishInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder getFishtankFishInfoOrBuilder() {
+        if ((contentCase_ == 51) && (fishtankFishInfoBuilder_ != null)) {
+          return fishtankFishInfoBuilder_.getMessageOrBuilder();
+        } else {
+          if (contentCase_ == 51) {
+            return (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_;
+          }
+          return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder> 
+          getFishtankFishInfoFieldBuilder() {
+        if (fishtankFishInfoBuilder_ == null) {
+          if (!(contentCase_ == 51)) {
+            content_ = emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
+          }
+          fishtankFishInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_,
+                  getParentForChildren(),
+                  isClean());
+          content_ = null;
+        }
+        contentCase_ = 51;
+        onChanged();;
+        return fishtankFishInfoBuilder_;
+      }
 
       private int monsterId_ ;
       /**
@@ -2811,288 +3093,6 @@ public final class SceneMonsterInfoOuterClass {
         onChanged();
         return this;
       }
-
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder> fishInfoBuilder_;
-      /**
-       * <code>.SceneFishInfo fish_info = 50;</code>
-       * @return Whether the fishInfo field is set.
-       */
-      @java.lang.Override
-      public boolean hasFishInfo() {
-        return contentCase_ == 50;
-      }
-      /**
-       * <code>.SceneFishInfo fish_info = 50;</code>
-       * @return The fishInfo.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo getFishInfo() {
-        if (fishInfoBuilder_ == null) {
-          if (contentCase_ == 50) {
-            return (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_;
-          }
-          return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
-        } else {
-          if (contentCase_ == 50) {
-            return fishInfoBuilder_.getMessage();
-          }
-          return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>.SceneFishInfo fish_info = 50;</code>
-       */
-      public Builder setFishInfo(emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo value) {
-        if (fishInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          content_ = value;
-          onChanged();
-        } else {
-          fishInfoBuilder_.setMessage(value);
-        }
-        contentCase_ = 50;
-        return this;
-      }
-      /**
-       * <code>.SceneFishInfo fish_info = 50;</code>
-       */
-      public Builder setFishInfo(
-          emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder builderForValue) {
-        if (fishInfoBuilder_ == null) {
-          content_ = builderForValue.build();
-          onChanged();
-        } else {
-          fishInfoBuilder_.setMessage(builderForValue.build());
-        }
-        contentCase_ = 50;
-        return this;
-      }
-      /**
-       * <code>.SceneFishInfo fish_info = 50;</code>
-       */
-      public Builder mergeFishInfo(emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo value) {
-        if (fishInfoBuilder_ == null) {
-          if (contentCase_ == 50 &&
-              content_ != emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance()) {
-            content_ = emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.newBuilder((emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_)
-                .mergeFrom(value).buildPartial();
-          } else {
-            content_ = value;
-          }
-          onChanged();
-        } else {
-          if (contentCase_ == 50) {
-            fishInfoBuilder_.mergeFrom(value);
-          }
-          fishInfoBuilder_.setMessage(value);
-        }
-        contentCase_ = 50;
-        return this;
-      }
-      /**
-       * <code>.SceneFishInfo fish_info = 50;</code>
-       */
-      public Builder clearFishInfo() {
-        if (fishInfoBuilder_ == null) {
-          if (contentCase_ == 50) {
-            contentCase_ = 0;
-            content_ = null;
-            onChanged();
-          }
-        } else {
-          if (contentCase_ == 50) {
-            contentCase_ = 0;
-            content_ = null;
-          }
-          fishInfoBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>.SceneFishInfo fish_info = 50;</code>
-       */
-      public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder getFishInfoBuilder() {
-        return getFishInfoFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.SceneFishInfo fish_info = 50;</code>
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder getFishInfoOrBuilder() {
-        if ((contentCase_ == 50) && (fishInfoBuilder_ != null)) {
-          return fishInfoBuilder_.getMessageOrBuilder();
-        } else {
-          if (contentCase_ == 50) {
-            return (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_;
-          }
-          return emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>.SceneFishInfo fish_info = 50;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder> 
-          getFishInfoFieldBuilder() {
-        if (fishInfoBuilder_ == null) {
-          if (!(contentCase_ == 50)) {
-            content_ = emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance();
-          }
-          fishInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) content_,
-                  getParentForChildren(),
-                  isClean());
-          content_ = null;
-        }
-        contentCase_ = 50;
-        onChanged();;
-        return fishInfoBuilder_;
-      }
-
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder> fishtankFishInfoBuilder_;
-      /**
-       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-       * @return Whether the fishtankFishInfo field is set.
-       */
-      @java.lang.Override
-      public boolean hasFishtankFishInfo() {
-        return contentCase_ == 51;
-      }
-      /**
-       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-       * @return The fishtankFishInfo.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo getFishtankFishInfo() {
-        if (fishtankFishInfoBuilder_ == null) {
-          if (contentCase_ == 51) {
-            return (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_;
-          }
-          return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
-        } else {
-          if (contentCase_ == 51) {
-            return fishtankFishInfoBuilder_.getMessage();
-          }
-          return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-       */
-      public Builder setFishtankFishInfo(emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo value) {
-        if (fishtankFishInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          content_ = value;
-          onChanged();
-        } else {
-          fishtankFishInfoBuilder_.setMessage(value);
-        }
-        contentCase_ = 51;
-        return this;
-      }
-      /**
-       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-       */
-      public Builder setFishtankFishInfo(
-          emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder builderForValue) {
-        if (fishtankFishInfoBuilder_ == null) {
-          content_ = builderForValue.build();
-          onChanged();
-        } else {
-          fishtankFishInfoBuilder_.setMessage(builderForValue.build());
-        }
-        contentCase_ = 51;
-        return this;
-      }
-      /**
-       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-       */
-      public Builder mergeFishtankFishInfo(emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo value) {
-        if (fishtankFishInfoBuilder_ == null) {
-          if (contentCase_ == 51 &&
-              content_ != emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance()) {
-            content_ = emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.newBuilder((emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_)
-                .mergeFrom(value).buildPartial();
-          } else {
-            content_ = value;
-          }
-          onChanged();
-        } else {
-          if (contentCase_ == 51) {
-            fishtankFishInfoBuilder_.mergeFrom(value);
-          }
-          fishtankFishInfoBuilder_.setMessage(value);
-        }
-        contentCase_ = 51;
-        return this;
-      }
-      /**
-       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-       */
-      public Builder clearFishtankFishInfo() {
-        if (fishtankFishInfoBuilder_ == null) {
-          if (contentCase_ == 51) {
-            contentCase_ = 0;
-            content_ = null;
-            onChanged();
-          }
-        } else {
-          if (contentCase_ == 51) {
-            contentCase_ = 0;
-            content_ = null;
-          }
-          fishtankFishInfoBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-       */
-      public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder getFishtankFishInfoBuilder() {
-        return getFishtankFishInfoFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder getFishtankFishInfoOrBuilder() {
-        if ((contentCase_ == 51) && (fishtankFishInfoBuilder_ != null)) {
-          return fishtankFishInfoBuilder_.getMessageOrBuilder();
-        } else {
-          if (contentCase_ == 51) {
-            return (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_;
-          }
-          return emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder> 
-          getFishtankFishInfoFieldBuilder() {
-        if (fishtankFishInfoBuilder_ == null) {
-          if (!(contentCase_ == 51)) {
-            content_ = emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.getDefaultInstance();
-          }
-          fishtankFishInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo) content_,
-                  getParentForChildren(),
-                  isClean());
-          content_ = null;
-        }
-        contentCase_ = 51;
-        onChanged();;
-        return fishtankFishInfoBuilder_;
-      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -3168,22 +3168,22 @@ public final class SceneMonsterInfoOuterClass {
       "\n\026SceneMonsterInfo.proto\032\026FishtankFishIn" +
       "fo.proto\032\025MonsterBornType.proto\032\023SceneFi" +
       "shInfo.proto\032\025SceneWeaponInfo.proto\"\253\005\n\020" +
-      "SceneMonsterInfo\022\022\n\nmonster_id\030\001 \001(\r\022\020\n\010" +
-      "group_id\030\002 \001(\r\022\021\n\tconfig_id\030\003 \001(\r\022%\n\013wea" +
-      "pon_list\030\004 \003(\0132\020.SceneWeaponInfo\022\031\n\021auth" +
-      "ority_peer_id\030\005 \001(\r\022\022\n\naffix_list\030\006 \003(\r\022" +
-      "\020\n\010is_elite\030\007 \001(\010\022\027\n\017owner_entity_id\030\010 \001" +
-      "(\r\022\024\n\014summoned_tag\030\t \001(\r\022;\n\016summon_tag_m" +
-      "ap\030\n \003(\0132#.SceneMonsterInfo.SummonTagMap" +
-      "Entry\022\017\n\007pose_id\030\013 \001(\r\022#\n\tborn_type\030\014 \001(" +
-      "\0162\020.MonsterBornType\022\020\n\010block_id\030\r \001(\r\022\021\n" +
-      "\tmark_flag\030\016 \001(\r\022\020\n\010title_id\030\017 \001(\r\022\027\n\017sp" +
-      "ecial_name_id\030\020 \001(\r\022\030\n\020attack_target_id\030" +
-      "\021 \001(\r\022\024\n\014ai_config_id\030\023 \001(\r\022\026\n\016level_rou" +
-      "te_id\030\024 \001(\r\022\024\n\014init_pose_id\030\025 \001(\r\022\020\n\010is_" +
-      "light\030\026 \001(\010\022#\n\tfish_info\0302 \001(\0132\016.SceneFi" +
-      "shInfoH\000\022/\n\022fishtank_fish_info\0303 \001(\0132\021.F" +
-      "ishtankFishInfoH\000\0323\n\021SummonTagMapEntry\022\013" +
+      "SceneMonsterInfo\022#\n\tfish_info\0302 \001(\0132\016.Sc" +
+      "eneFishInfoH\000\022/\n\022fishtank_fish_info\0303 \001(" +
+      "\0132\021.FishtankFishInfoH\000\022\022\n\nmonster_id\030\001 \001" +
+      "(\r\022\020\n\010group_id\030\002 \001(\r\022\021\n\tconfig_id\030\003 \001(\r\022" +
+      "%\n\013weapon_list\030\004 \003(\0132\020.SceneWeaponInfo\022\031" +
+      "\n\021authority_peer_id\030\005 \001(\r\022\022\n\naffix_list\030" +
+      "\006 \003(\r\022\020\n\010is_elite\030\007 \001(\010\022\027\n\017owner_entity_" +
+      "id\030\010 \001(\r\022\024\n\014summoned_tag\030\t \001(\r\022;\n\016summon" +
+      "_tag_map\030\n \003(\0132#.SceneMonsterInfo.Summon" +
+      "TagMapEntry\022\017\n\007pose_id\030\013 \001(\r\022#\n\tborn_typ" +
+      "e\030\014 \001(\0162\020.MonsterBornType\022\020\n\010block_id\030\r " +
+      "\001(\r\022\021\n\tmark_flag\030\016 \001(\r\022\020\n\010title_id\030\017 \001(\r" +
+      "\022\027\n\017special_name_id\030\020 \001(\r\022\030\n\020attack_targ" +
+      "et_id\030\021 \001(\r\022\024\n\014ai_config_id\030\023 \001(\r\022\026\n\016lev" +
+      "el_route_id\030\024 \001(\r\022\024\n\014init_pose_id\030\025 \001(\r\022" +
+      "\020\n\010is_light\030\026 \001(\010\0323\n\021SummonTagMapEntry\022\013" +
       "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\t\n\007conten" +
       "tB7\n\031emu.grasscutter.net.protoB\032SceneMon" +
       "sterInfoOuterClassb\006proto3"
@@ -3201,7 +3201,7 @@ public final class SceneMonsterInfoOuterClass {
     internal_static_SceneMonsterInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SceneMonsterInfo_descriptor,
-        new java.lang.String[] { "MonsterId", "GroupId", "ConfigId", "WeaponList", "AuthorityPeerId", "AffixList", "IsElite", "OwnerEntityId", "SummonedTag", "SummonTagMap", "PoseId", "BornType", "BlockId", "MarkFlag", "TitleId", "SpecialNameId", "AttackTargetId", "AiConfigId", "LevelRouteId", "InitPoseId", "IsLight", "FishInfo", "FishtankFishInfo", "Content", });
+        new java.lang.String[] { "FishInfo", "FishtankFishInfo", "MonsterId", "GroupId", "ConfigId", "WeaponList", "AuthorityPeerId", "AffixList", "IsElite", "OwnerEntityId", "SummonedTag", "SummonTagMap", "PoseId", "BornType", "BlockId", "MarkFlag", "TitleId", "SpecialNameId", "AttackTargetId", "AiConfigId", "LevelRouteId", "InitPoseId", "IsLight", "Content", });
     internal_static_SceneMonsterInfo_SummonTagMapEntry_descriptor =
       internal_static_SceneMonsterInfo_descriptor.getNestedTypes().get(0);
     internal_static_SceneMonsterInfo_SummonTagMapEntry_fieldAccessorTable = new

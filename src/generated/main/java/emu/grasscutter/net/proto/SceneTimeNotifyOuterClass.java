@@ -37,10 +37,6 @@ public final class SceneTimeNotifyOuterClass {
     long getSceneTime();
   }
   /**
-   * <pre>
-   * CmdID: 26896
-   * </pre>
-   *
    * Protobuf type {@code SceneTimeNotify}
    */
   public static final class SceneTimeNotify extends
@@ -345,10 +341,6 @@ public final class SceneTimeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26896
-     * </pre>
-     *
      * Protobuf type {@code SceneTimeNotify}
      */
     public static final class Builder extends

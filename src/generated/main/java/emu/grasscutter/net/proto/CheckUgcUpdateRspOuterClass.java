@@ -53,10 +53,6 @@ public final class CheckUgcUpdateRspOuterClass {
     long getUpdateUgcGuidList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 1725
-   * </pre>
-   *
    * Protobuf type {@code CheckUgcUpdateRsp}
    */
   public static final class CheckUgcUpdateRsp extends
@@ -423,10 +419,6 @@ public final class CheckUgcUpdateRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1725
-     * </pre>
-     *
      * Protobuf type {@code CheckUgcUpdateRsp}
      */
     public static final class Builder extends

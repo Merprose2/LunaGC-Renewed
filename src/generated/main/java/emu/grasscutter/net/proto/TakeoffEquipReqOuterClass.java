@@ -31,10 +31,6 @@ public final class TakeoffEquipReqOuterClass {
     long getAvatarGuid();
   }
   /**
-   * <pre>
-   * CmdID: 22967
-   * </pre>
-   *
    * Protobuf type {@code TakeoffEquipReq}
    */
   public static final class TakeoffEquipReq extends
@@ -311,10 +307,6 @@ public final class TakeoffEquipReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22967
-     * </pre>
-     *
      * Protobuf type {@code TakeoffEquipReq}
      */
     public static final class Builder extends

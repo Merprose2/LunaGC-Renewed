@@ -188,15 +188,15 @@ public final class EvtCreateGadgetNotifyOuterClass {
     emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJEOrBuilder getBHJNCGINIJBOrBuilder();
 
     /**
-     * <code>._LifeByOwnerType _life_by_owner_type = 885;</code>
+     * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
      * @return The enum numeric value on the wire for lifeByOwnerType.
      */
     int getLifeByOwnerTypeValue();
     /**
-     * <code>._LifeByOwnerType _life_by_owner_type = 885;</code>
+     * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
      * @return The lifeByOwnerType.
      */
-    emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType getLifeByOwnerType();
+    emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType getLifeByOwnerType();
 
     /**
      * <code>repeated uint32 target_entity_id_list = 1239;</code>
@@ -249,10 +249,6 @@ public final class EvtCreateGadgetNotifyOuterClass {
     int getInitPoseId();
   }
   /**
-   * <pre>
-   * CmdID: 9156
-   * </pre>
-   *
    * Protobuf type {@code EvtCreateGadgetNotify}
    */
   public static final class EvtCreateGadgetNotify extends
@@ -845,20 +841,20 @@ public final class EvtCreateGadgetNotifyOuterClass {
     public static final int _LIFE_BY_OWNER_TYPE_FIELD_NUMBER = 885;
     private int LifeByOwnerType_;
     /**
-     * <code>._LifeByOwnerType _life_by_owner_type = 885;</code>
+     * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
      * @return The enum numeric value on the wire for lifeByOwnerType.
      */
     @java.lang.Override public int getLifeByOwnerTypeValue() {
       return LifeByOwnerType_;
     }
     /**
-     * <code>._LifeByOwnerType _life_by_owner_type = 885;</code>
+     * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
      * @return The lifeByOwnerType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType getLifeByOwnerType() {
+    @java.lang.Override public emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType getLifeByOwnerType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType result = emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType.valueOf(LifeByOwnerType_);
-      return result == null ? emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType result = emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.valueOf(LifeByOwnerType_);
+      return result == null ? emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.UNRECOGNIZED : result;
     }
 
     public static final int TARGET_ENTITY_ID_LIST_FIELD_NUMBER = 1239;
@@ -1030,7 +1026,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       if (bHJNCGINIJB_ != null) {
         output.writeMessage(850, getBHJNCGINIJB());
       }
-      if (LifeByOwnerType_ != emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType._LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
+      if (LifeByOwnerType_ != emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
         output.writeEnum(885, LifeByOwnerType_);
       }
       if (getTargetEntityIdListList().size() > 0) {
@@ -1155,7 +1151,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(850, getBHJNCGINIJB());
       }
-      if (LifeByOwnerType_ != emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType._LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
+      if (LifeByOwnerType_ != emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(885, LifeByOwnerType_);
       }
@@ -1446,10 +1442,6 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9156
-     * </pre>
-     *
      * Protobuf type {@code EvtCreateGadgetNotify}
      */
     public static final class Builder extends
@@ -2796,14 +2788,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int LifeByOwnerType_ = 0;
       /**
-       * <code>._LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
        * @return The enum numeric value on the wire for lifeByOwnerType.
        */
       @java.lang.Override public int getLifeByOwnerTypeValue() {
         return LifeByOwnerType_;
       }
       /**
-       * <code>._LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
        * @param value The enum numeric value on the wire for lifeByOwnerType to set.
        * @return This builder for chaining.
        */
@@ -2814,21 +2806,21 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>._LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
        * @return The lifeByOwnerType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType getLifeByOwnerType() {
+      public emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType getLifeByOwnerType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType result = emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType.valueOf(LifeByOwnerType_);
-        return result == null ? emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType result = emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.valueOf(LifeByOwnerType_);
+        return result == null ? emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.UNRECOGNIZED : result;
       }
       /**
-       * <code>._LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
        * @param value The lifeByOwnerType to set.
        * @return This builder for chaining.
        */
-      public Builder setLifeByOwnerType(emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass._LifeByOwnerType value) {
+      public Builder setLifeByOwnerType(emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -2838,7 +2830,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>._LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
        * @return This builder for chaining.
        */
       public Builder clearLifeByOwnerType() {
@@ -3207,28 +3199,28 @@ public final class EvtCreateGadgetNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033EvtCreateGadgetNotify.proto\032\023AbilitySt" +
       "ring.proto\032\021CEAFBJOBFJE.proto\032\021ForwardTy" +
-      "pe.proto\032\014Vector.proto\032\026_LifeByOwnerType" +
-      ".proto\"\335\005\n\025EvtCreateGadgetNotify\022\017\n\007camp" +
-      "_id\030\001 \001(\r\022\023\n\013LMLMALLLGBB\030\002 \001(\010\022\"\n\021init_e" +
-      "uler_angles\030\003 \001(\0132\007.Vector\022\031\n\010init_pos\030\004" +
-      " \001(\0132\007.Vector\022\021\n\tconfig_id\030\005 \001(\r\022\014\n\004guid" +
-      "\030\006 \001(\004\022\030\n\020target_entity_id\030\007 \001(\r\022\027\n\017owne" +
-      "r_entity_id\030\010 \001(\r\022\017\n\007room_id\030\t \001(\r\022\"\n\014fo" +
-      "rward_type\030\n \001(\0162\014.ForwardType\022\021\n\tentity" +
-      "_id\030\013 \001(\r\022\023\n\013PBLACGNNCDF\030\014 \001(\010\022\021\n\tcamp_t" +
-      "ype\030\r \001(\r\022\023\n\013AAMABJDMIFN\030\016 \001(\r\022\034\n\024prop_o" +
-      "wner_entity_id\030\017 \001(\r\022\024\n\013KMDOFBPMGAI\030\220\003 \001" +
-      "(\r\022\021\n\010local_id\030\230\003 \001(\005\022\024\n\013NHNFGNMNDDE\030\204\004 " +
-      "\001(\010\022\037\n\026is_peer_id_from_player\030\264\004 \001(\010\022%\n\034" +
-      "target_lock_point_index_list\030\214\006 \003(\r\022\"\n\013B" +
-      "HJNCGINIJB\030\322\006 \001(\0132\014.CEAFBJOBFJE\022/\n\023_life" +
-      "_by_owner_type\030\365\006 \001(\0162\021._LifeByOwnerType" +
-      "\022\036\n\025target_entity_id_list\030\327\t \003(\r\022\024\n\013LDAO" +
-      "DDFLPGB\030\260\n \001(\r\022\030\n\017born_slot_index\030\342\n \001(\r" +
-      "\022%\n\014ability_name\030\364\n \001(\0132\016.AbilityString\022" +
-      "\025\n\014init_pose_id\030\365\013 \001(\rB<\n\031emu.grasscutte" +
-      "r.net.protoB\037EvtCreateGadgetNotifyOuterC" +
-      "lassb\006proto3"
+      "pe.proto\032\025LifeByOwnerType.proto\032\014Vector." +
+      "proto\"\334\005\n\025EvtCreateGadgetNotify\022\017\n\007camp_" +
+      "id\030\001 \001(\r\022\023\n\013LMLMALLLGBB\030\002 \001(\010\022\"\n\021init_eu" +
+      "ler_angles\030\003 \001(\0132\007.Vector\022\031\n\010init_pos\030\004 " +
+      "\001(\0132\007.Vector\022\021\n\tconfig_id\030\005 \001(\r\022\014\n\004guid\030" +
+      "\006 \001(\004\022\030\n\020target_entity_id\030\007 \001(\r\022\027\n\017owner" +
+      "_entity_id\030\010 \001(\r\022\017\n\007room_id\030\t \001(\r\022\"\n\014for" +
+      "ward_type\030\n \001(\0162\014.ForwardType\022\021\n\tentity_" +
+      "id\030\013 \001(\r\022\023\n\013PBLACGNNCDF\030\014 \001(\010\022\021\n\tcamp_ty" +
+      "pe\030\r \001(\r\022\023\n\013AAMABJDMIFN\030\016 \001(\r\022\034\n\024prop_ow" +
+      "ner_entity_id\030\017 \001(\r\022\024\n\013KMDOFBPMGAI\030\220\003 \001(" +
+      "\r\022\021\n\010local_id\030\230\003 \001(\005\022\024\n\013NHNFGNMNDDE\030\204\004 \001" +
+      "(\010\022\037\n\026is_peer_id_from_player\030\264\004 \001(\010\022%\n\034t" +
+      "arget_lock_point_index_list\030\214\006 \003(\r\022\"\n\013BH" +
+      "JNCGINIJB\030\322\006 \001(\0132\014.CEAFBJOBFJE\022.\n\023_life_" +
+      "by_owner_type\030\365\006 \001(\0162\020.LifeByOwnerType\022\036" +
+      "\n\025target_entity_id_list\030\327\t \003(\r\022\024\n\013LDAODD" +
+      "FLPGB\030\260\n \001(\r\022\030\n\017born_slot_index\030\342\n \001(\r\022%" +
+      "\n\014ability_name\030\364\n \001(\0132\016.AbilityString\022\025\n" +
+      "\014init_pose_id\030\365\013 \001(\rB<\n\031emu.grasscutter." +
+      "net.protoB\037EvtCreateGadgetNotifyOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3236,8 +3228,8 @@ public final class EvtCreateGadgetNotifyOuterClass {
           emu.grasscutter.net.proto.AbilityStringOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ForwardTypeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.VectorOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass.getDescriptor(),
         });
     internal_static_EvtCreateGadgetNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3248,8 +3240,8 @@ public final class EvtCreateGadgetNotifyOuterClass {
     emu.grasscutter.net.proto.AbilityStringOuterClass.getDescriptor();
     emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ForwardTypeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._LifeByOwnerTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

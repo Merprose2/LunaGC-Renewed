@@ -31,10 +31,6 @@ public final class PlayerPropChangeNotifyOuterClass {
     int getPropDelta();
   }
   /**
-   * <pre>
-   * CmdID: 24450
-   * </pre>
-   *
    * Protobuf type {@code PlayerPropChangeNotify}
    */
   public static final class PlayerPropChangeNotify extends
@@ -310,10 +306,6 @@ public final class PlayerPropChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24450
-     * </pre>
-     *
      * Protobuf type {@code PlayerPropChangeNotify}
      */
     public static final class Builder extends

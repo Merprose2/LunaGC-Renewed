@@ -19,18 +19,6 @@ public final class GKOENKALADAOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool HFFJGFBKIFL = 7;</code>
-     * @return The hFFJGFBKIFL.
-     */
-    boolean getHFFJGFBKIFL();
-
-    /**
-     * <code>uint32 buff_id = 11;</code>
-     * @return The buffId.
-     */
-    int getBuffId();
-
-    /**
      * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
      * @return Whether the actionPointsNoCostInfo field is set.
      */
@@ -59,6 +47,18 @@ public final class GKOENKALADAOuterClass {
      * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
      */
     emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder();
+
+    /**
+     * <code>bool HFFJGFBKIFL = 7;</code>
+     * @return The hFFJGFBKIFL.
+     */
+    boolean getHFFJGFBKIFL();
+
+    /**
+     * <code>uint32 buff_id = 11;</code>
+     * @return The buffId.
+     */
+    int getBuffId();
 
     public emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA.DetailCase getDetailCase();
   }
@@ -218,28 +218,6 @@ public final class GKOENKALADAOuterClass {
           detailCase_);
     }
 
-    public static final int HFFJGFBKIFL_FIELD_NUMBER = 7;
-    private boolean hFFJGFBKIFL_;
-    /**
-     * <code>bool HFFJGFBKIFL = 7;</code>
-     * @return The hFFJGFBKIFL.
-     */
-    @java.lang.Override
-    public boolean getHFFJGFBKIFL() {
-      return hFFJGFBKIFL_;
-    }
-
-    public static final int BUFF_ID_FIELD_NUMBER = 11;
-    private int buffId_;
-    /**
-     * <code>uint32 buff_id = 11;</code>
-     * @return The buffId.
-     */
-    @java.lang.Override
-    public int getBuffId() {
-      return buffId_;
-    }
-
     public static final int ACTION_POINTS_NO_COST_INFO_FIELD_NUMBER = 631;
     /**
      * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
@@ -300,6 +278,28 @@ public final class GKOENKALADAOuterClass {
          return (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_;
       }
       return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
+    }
+
+    public static final int HFFJGFBKIFL_FIELD_NUMBER = 7;
+    private boolean hFFJGFBKIFL_;
+    /**
+     * <code>bool HFFJGFBKIFL = 7;</code>
+     * @return The hFFJGFBKIFL.
+     */
+    @java.lang.Override
+    public boolean getHFFJGFBKIFL() {
+      return hFFJGFBKIFL_;
+    }
+
+    public static final int BUFF_ID_FIELD_NUMBER = 11;
+    private int buffId_;
+    /**
+     * <code>uint32 buff_id = 11;</code>
+     * @return The buffId.
+     */
+    @java.lang.Override
+    public int getBuffId() {
+      return buffId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -578,8 +578,6 @@ public final class GKOENKALADAOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA buildPartial() {
         emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA result = new emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA(this);
-        result.hFFJGFBKIFL_ = hFFJGFBKIFL_;
-        result.buffId_ = buffId_;
         if (detailCase_ == 631) {
           if (actionPointsNoCostInfoBuilder_ == null) {
             result.detail_ = detail_;
@@ -594,6 +592,8 @@ public final class GKOENKALADAOuterClass {
             result.detail_ = revenueBonusInfoBuilder_.build();
           }
         }
+        result.hFFJGFBKIFL_ = hFFJGFBKIFL_;
+        result.buffId_ = buffId_;
         result.detailCase_ = detailCase_;
         onBuilt();
         return result;
@@ -705,68 +705,6 @@ public final class GKOENKALADAOuterClass {
         return this;
       }
 
-
-      private boolean hFFJGFBKIFL_ ;
-      /**
-       * <code>bool HFFJGFBKIFL = 7;</code>
-       * @return The hFFJGFBKIFL.
-       */
-      @java.lang.Override
-      public boolean getHFFJGFBKIFL() {
-        return hFFJGFBKIFL_;
-      }
-      /**
-       * <code>bool HFFJGFBKIFL = 7;</code>
-       * @param value The hFFJGFBKIFL to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHFFJGFBKIFL(boolean value) {
-        
-        hFFJGFBKIFL_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool HFFJGFBKIFL = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHFFJGFBKIFL() {
-        
-        hFFJGFBKIFL_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int buffId_ ;
-      /**
-       * <code>uint32 buff_id = 11;</code>
-       * @return The buffId.
-       */
-      @java.lang.Override
-      public int getBuffId() {
-        return buffId_;
-      }
-      /**
-       * <code>uint32 buff_id = 11;</code>
-       * @param value The buffId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setBuffId(int value) {
-        
-        buffId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 buff_id = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearBuffId() {
-        
-        buffId_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder> actionPointsNoCostInfoBuilder_;
@@ -1049,6 +987,68 @@ public final class GKOENKALADAOuterClass {
         onChanged();;
         return revenueBonusInfoBuilder_;
       }
+
+      private boolean hFFJGFBKIFL_ ;
+      /**
+       * <code>bool HFFJGFBKIFL = 7;</code>
+       * @return The hFFJGFBKIFL.
+       */
+      @java.lang.Override
+      public boolean getHFFJGFBKIFL() {
+        return hFFJGFBKIFL_;
+      }
+      /**
+       * <code>bool HFFJGFBKIFL = 7;</code>
+       * @param value The hFFJGFBKIFL to set.
+       * @return This builder for chaining.
+       */
+      public Builder setHFFJGFBKIFL(boolean value) {
+        
+        hFFJGFBKIFL_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool HFFJGFBKIFL = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearHFFJGFBKIFL() {
+        
+        hFFJGFBKIFL_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int buffId_ ;
+      /**
+       * <code>uint32 buff_id = 11;</code>
+       * @return The buffId.
+       */
+      @java.lang.Override
+      public int getBuffId() {
+        return buffId_;
+      }
+      /**
+       * <code>uint32 buff_id = 11;</code>
+       * @param value The buffId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBuffId(int value) {
+        
+        buffId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 buff_id = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBuffId() {
+        
+        buffId_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1118,11 +1118,11 @@ public final class GKOENKALADAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021GKOENKALADA.proto\032\035_ActionPointsNoCost" +
       "Info.proto\032\027_RevenueBonusInfo.proto\"\261\001\n\013" +
-      "GKOENKALADA\022\023\n\013HFFJGFBKIFL\030\007 \001(\010\022\017\n\007buff" +
-      "_id\030\013 \001(\r\022?\n\032action_points_no_cost_info\030" +
-      "\367\004 \001(\0132\030._ActionPointsNoCostInfoH\000\0221\n\022re" +
-      "venue_bonus_info\030\324\013 \001(\0132\022._RevenueBonusI" +
-      "nfoH\000B\010\n\006detailB2\n\031emu.grasscutter.net.p" +
+      "GKOENKALADA\022?\n\032action_points_no_cost_inf" +
+      "o\030\367\004 \001(\0132\030._ActionPointsNoCostInfoH\000\0221\n\022" +
+      "revenue_bonus_info\030\324\013 \001(\0132\022._RevenueBonu" +
+      "sInfoH\000\022\023\n\013HFFJGFBKIFL\030\007 \001(\010\022\017\n\007buff_id\030" +
+      "\013 \001(\rB\010\n\006detailB2\n\031emu.grasscutter.net.p" +
       "rotoB\025GKOENKALADAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1136,7 +1136,7 @@ public final class GKOENKALADAOuterClass {
     internal_static_GKOENKALADA_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GKOENKALADA_descriptor,
-        new java.lang.String[] { "HFFJGFBKIFL", "BuffId", "ActionPointsNoCostInfo", "RevenueBonusInfo", "Detail", });
+        new java.lang.String[] { "ActionPointsNoCostInfo", "RevenueBonusInfo", "HFFJGFBKIFL", "BuffId", "Detail", });
     emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._RevenueBonusInfoOuterClass.getDescriptor();
   }

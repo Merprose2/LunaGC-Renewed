@@ -42,10 +42,6 @@ public final class DungeonWayPointNotifyOuterClass {
     boolean getIsAdd();
   }
   /**
-   * <pre>
-   * CmdID: 20221
-   * </pre>
-   *
    * Protobuf type {@code DungeonWayPointNotify}
    */
   public static final class DungeonWayPointNotify extends
@@ -377,10 +373,6 @@ public final class DungeonWayPointNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20221
-     * </pre>
-     *
      * Protobuf type {@code DungeonWayPointNotify}
      */
     public static final class Builder extends

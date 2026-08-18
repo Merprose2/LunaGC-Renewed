@@ -34,10 +34,6 @@ public final class LaunchFireworksReqOuterClass {
     emu.grasscutter.net.proto.FireworksLaunchSchemeDataOuterClass.FireworksLaunchSchemeDataOrBuilder getSchemeDataOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 29516
-   * </pre>
-   *
    * Protobuf type {@code LaunchFireworksReq}
    */
   public static final class LaunchFireworksReq extends
@@ -314,10 +310,6 @@ public final class LaunchFireworksReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29516
-     * </pre>
-     *
      * Protobuf type {@code LaunchFireworksReq}
      */
     public static final class Builder extends

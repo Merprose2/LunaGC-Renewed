@@ -34,19 +34,19 @@ public final class _LanV6LanternGiftDetailOuterClass {
     emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetailOrBuilder getCardOrBuilder();
 
     /**
-     * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
-     * @return Whether the cHCECLJJEJB field is set.
+     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * @return Whether the source field is set.
      */
-    boolean hasCHCECLJJEJB();
+    boolean hasSource();
     /**
-     * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
-     * @return The cHCECLJJEJB.
+     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * @return The source.
      */
-    emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource getCHCECLJJEJB();
+    emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource getSource();
     /**
-     * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
+     * <code>._LanV6LanternGiftSource source = 9;</code>
      */
-    emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder getCHCECLJJEJBOrBuilder();
+    emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder getSourceOrBuilder();
   }
   /**
    * Protobuf type {@code _LanV6LanternGiftDetail}
@@ -108,13 +108,13 @@ public final class _LanV6LanternGiftDetailOuterClass {
             }
             case 74: {
               emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder subBuilder = null;
-              if (cHCECLJJEJB_ != null) {
-                subBuilder = cHCECLJJEJB_.toBuilder();
+              if (source_ != null) {
+                subBuilder = source_.toBuilder();
               }
-              cHCECLJJEJB_ = input.readMessage(emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.parser(), extensionRegistry);
+              source_ = input.readMessage(emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(cHCECLJJEJB_);
-                cHCECLJJEJB_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(source_);
+                source_ = subBuilder.buildPartial();
               }
 
               break;
@@ -177,30 +177,30 @@ public final class _LanV6LanternGiftDetailOuterClass {
       return getCard();
     }
 
-    public static final int CHCECLJJEJB_FIELD_NUMBER = 9;
-    private emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource cHCECLJJEJB_;
+    public static final int SOURCE_FIELD_NUMBER = 9;
+    private emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource source_;
     /**
-     * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
-     * @return Whether the cHCECLJJEJB field is set.
+     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * @return Whether the source field is set.
      */
     @java.lang.Override
-    public boolean hasCHCECLJJEJB() {
-      return cHCECLJJEJB_ != null;
+    public boolean hasSource() {
+      return source_ != null;
     }
     /**
-     * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
-     * @return The cHCECLJJEJB.
+     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * @return The source.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource getCHCECLJJEJB() {
-      return cHCECLJJEJB_ == null ? emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.getDefaultInstance() : cHCECLJJEJB_;
+    public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource getSource() {
+      return source_ == null ? emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.getDefaultInstance() : source_;
     }
     /**
-     * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
+     * <code>._LanV6LanternGiftSource source = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder getCHCECLJJEJBOrBuilder() {
-      return getCHCECLJJEJB();
+    public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder getSourceOrBuilder() {
+      return getSource();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -220,8 +220,8 @@ public final class _LanV6LanternGiftDetailOuterClass {
       if (card_ != null) {
         output.writeMessage(7, getCard());
       }
-      if (cHCECLJJEJB_ != null) {
-        output.writeMessage(9, getCHCECLJJEJB());
+      if (source_ != null) {
+        output.writeMessage(9, getSource());
       }
       unknownFields.writeTo(output);
     }
@@ -236,9 +236,9 @@ public final class _LanV6LanternGiftDetailOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(7, getCard());
       }
-      if (cHCECLJJEJB_ != null) {
+      if (source_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getCHCECLJJEJB());
+          .computeMessageSize(9, getSource());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -260,10 +260,10 @@ public final class _LanV6LanternGiftDetailOuterClass {
         if (!getCard()
             .equals(other.getCard())) return false;
       }
-      if (hasCHCECLJJEJB() != other.hasCHCECLJJEJB()) return false;
-      if (hasCHCECLJJEJB()) {
-        if (!getCHCECLJJEJB()
-            .equals(other.getCHCECLJJEJB())) return false;
+      if (hasSource() != other.hasSource()) return false;
+      if (hasSource()) {
+        if (!getSource()
+            .equals(other.getSource())) return false;
       }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
@@ -280,9 +280,9 @@ public final class _LanV6LanternGiftDetailOuterClass {
         hash = (37 * hash) + CARD_FIELD_NUMBER;
         hash = (53 * hash) + getCard().hashCode();
       }
-      if (hasCHCECLJJEJB()) {
-        hash = (37 * hash) + CHCECLJJEJB_FIELD_NUMBER;
-        hash = (53 * hash) + getCHCECLJJEJB().hashCode();
+      if (hasSource()) {
+        hash = (37 * hash) + SOURCE_FIELD_NUMBER;
+        hash = (53 * hash) + getSource().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -423,11 +423,11 @@ public final class _LanV6LanternGiftDetailOuterClass {
           card_ = null;
           cardBuilder_ = null;
         }
-        if (cHCECLJJEJBBuilder_ == null) {
-          cHCECLJJEJB_ = null;
+        if (sourceBuilder_ == null) {
+          source_ = null;
         } else {
-          cHCECLJJEJB_ = null;
-          cHCECLJJEJBBuilder_ = null;
+          source_ = null;
+          sourceBuilder_ = null;
         }
         return this;
       }
@@ -460,10 +460,10 @@ public final class _LanV6LanternGiftDetailOuterClass {
         } else {
           result.card_ = cardBuilder_.build();
         }
-        if (cHCECLJJEJBBuilder_ == null) {
-          result.cHCECLJJEJB_ = cHCECLJJEJB_;
+        if (sourceBuilder_ == null) {
+          result.source_ = source_;
         } else {
-          result.cHCECLJJEJB_ = cHCECLJJEJBBuilder_.build();
+          result.source_ = sourceBuilder_.build();
         }
         onBuilt();
         return result;
@@ -516,8 +516,8 @@ public final class _LanV6LanternGiftDetailOuterClass {
         if (other.hasCard()) {
           mergeCard(other.getCard());
         }
-        if (other.hasCHCECLJJEJB()) {
-          mergeCHCECLJJEJB(other.getCHCECLJJEJB());
+        if (other.hasSource()) {
+          mergeSource(other.getSource());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -667,123 +667,123 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return cardBuilder_;
       }
 
-      private emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource cHCECLJJEJB_;
+      private emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource source_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder> cHCECLJJEJBBuilder_;
+          emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder> sourceBuilder_;
       /**
-       * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
-       * @return Whether the cHCECLJJEJB field is set.
+       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * @return Whether the source field is set.
        */
-      public boolean hasCHCECLJJEJB() {
-        return cHCECLJJEJBBuilder_ != null || cHCECLJJEJB_ != null;
+      public boolean hasSource() {
+        return sourceBuilder_ != null || source_ != null;
       }
       /**
-       * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
-       * @return The cHCECLJJEJB.
+       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * @return The source.
        */
-      public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource getCHCECLJJEJB() {
-        if (cHCECLJJEJBBuilder_ == null) {
-          return cHCECLJJEJB_ == null ? emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.getDefaultInstance() : cHCECLJJEJB_;
+      public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource getSource() {
+        if (sourceBuilder_ == null) {
+          return source_ == null ? emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.getDefaultInstance() : source_;
         } else {
-          return cHCECLJJEJBBuilder_.getMessage();
+          return sourceBuilder_.getMessage();
         }
       }
       /**
-       * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 9;</code>
        */
-      public Builder setCHCECLJJEJB(emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource value) {
-        if (cHCECLJJEJBBuilder_ == null) {
+      public Builder setSource(emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource value) {
+        if (sourceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          cHCECLJJEJB_ = value;
+          source_ = value;
           onChanged();
         } else {
-          cHCECLJJEJBBuilder_.setMessage(value);
+          sourceBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 9;</code>
        */
-      public Builder setCHCECLJJEJB(
+      public Builder setSource(
           emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder builderForValue) {
-        if (cHCECLJJEJBBuilder_ == null) {
-          cHCECLJJEJB_ = builderForValue.build();
+        if (sourceBuilder_ == null) {
+          source_ = builderForValue.build();
           onChanged();
         } else {
-          cHCECLJJEJBBuilder_.setMessage(builderForValue.build());
+          sourceBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 9;</code>
        */
-      public Builder mergeCHCECLJJEJB(emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource value) {
-        if (cHCECLJJEJBBuilder_ == null) {
-          if (cHCECLJJEJB_ != null) {
-            cHCECLJJEJB_ =
-              emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.newBuilder(cHCECLJJEJB_).mergeFrom(value).buildPartial();
+      public Builder mergeSource(emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource value) {
+        if (sourceBuilder_ == null) {
+          if (source_ != null) {
+            source_ =
+              emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.newBuilder(source_).mergeFrom(value).buildPartial();
           } else {
-            cHCECLJJEJB_ = value;
+            source_ = value;
           }
           onChanged();
         } else {
-          cHCECLJJEJBBuilder_.mergeFrom(value);
+          sourceBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 9;</code>
        */
-      public Builder clearCHCECLJJEJB() {
-        if (cHCECLJJEJBBuilder_ == null) {
-          cHCECLJJEJB_ = null;
+      public Builder clearSource() {
+        if (sourceBuilder_ == null) {
+          source_ = null;
           onChanged();
         } else {
-          cHCECLJJEJB_ = null;
-          cHCECLJJEJBBuilder_ = null;
+          source_ = null;
+          sourceBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 9;</code>
        */
-      public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder getCHCECLJJEJBBuilder() {
+      public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder getSourceBuilder() {
         
         onChanged();
-        return getCHCECLJJEJBFieldBuilder().getBuilder();
+        return getSourceFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 9;</code>
        */
-      public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder getCHCECLJJEJBOrBuilder() {
-        if (cHCECLJJEJBBuilder_ != null) {
-          return cHCECLJJEJBBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder getSourceOrBuilder() {
+        if (sourceBuilder_ != null) {
+          return sourceBuilder_.getMessageOrBuilder();
         } else {
-          return cHCECLJJEJB_ == null ?
-              emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.getDefaultInstance() : cHCECLJJEJB_;
+          return source_ == null ?
+              emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.getDefaultInstance() : source_;
         }
       }
       /**
-       * <code>._LanV6LanternGiftSource CHCECLJJEJB = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder> 
-          getCHCECLJJEJBFieldBuilder() {
-        if (cHCECLJJEJBBuilder_ == null) {
-          cHCECLJJEJBBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getSourceFieldBuilder() {
+        if (sourceBuilder_ == null) {
+          sourceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder>(
-                  getCHCECLJJEJB(),
+                  getSource(),
                   getParentForChildren(),
                   isClean());
-          cHCECLJJEJB_ = null;
+          source_ = null;
         }
-        return cHCECLJJEJBBuilder_;
+        return sourceBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -854,11 +854,11 @@ public final class _LanV6LanternGiftDetailOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035_LanV6LanternGiftDetail.proto\032\026_LanV6C" +
       "ardDetail.proto\032\035_LanV6LanternGiftSource" +
-      ".proto\"i\n\027_LanV6LanternGiftDetail\022\037\n\004car" +
-      "d\030\007 \001(\0132\021._LanV6CardDetail\022-\n\013CHCECLJJEJ" +
-      "B\030\t \001(\0132\030._LanV6LanternGiftSourceB>\n\031emu" +
-      ".grasscutter.net.protoB!_LanV6LanternGif" +
-      "tDetailOuterClassb\006proto3"
+      ".proto\"d\n\027_LanV6LanternGiftDetail\022\037\n\004car" +
+      "d\030\007 \001(\0132\021._LanV6CardDetail\022(\n\006source\030\t \001" +
+      "(\0132\030._LanV6LanternGiftSourceB>\n\031emu.gras" +
+      "scutter.net.protoB!_LanV6LanternGiftDeta" +
+      "ilOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -871,7 +871,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
     internal_static__LanV6LanternGiftDetail_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__LanV6LanternGiftDetail_descriptor,
-        new java.lang.String[] { "Card", "CHCECLJJEJB", });
+        new java.lang.String[] { "Card", "Source", });
     emu.grasscutter.net.proto._LanV6CardDetailOuterClass.getDescriptor();
     emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass.getDescriptor();
   }

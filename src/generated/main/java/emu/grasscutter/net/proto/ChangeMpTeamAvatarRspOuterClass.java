@@ -48,10 +48,6 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 7158
-   * </pre>
-   *
    * Protobuf type {@code ChangeMpTeamAvatarRsp}
    */
   public static final class ChangeMpTeamAvatarRsp extends
@@ -410,10 +406,6 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7158
-     * </pre>
-     *
      * Protobuf type {@code ChangeMpTeamAvatarRsp}
      */
     public static final class Builder extends

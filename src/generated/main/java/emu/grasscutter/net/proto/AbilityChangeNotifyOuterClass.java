@@ -40,10 +40,6 @@ public final class AbilityChangeNotifyOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 4479
-   * </pre>
-   *
    * Protobuf type {@code AbilityChangeNotify}
    */
   public static final class AbilityChangeNotify extends
@@ -347,10 +343,6 @@ public final class AbilityChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4479
-     * </pre>
-     *
      * Protobuf type {@code AbilityChangeNotify}
      */
     public static final class Builder extends

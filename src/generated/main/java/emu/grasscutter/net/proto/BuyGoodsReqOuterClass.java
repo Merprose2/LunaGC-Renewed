@@ -46,10 +46,6 @@ public final class BuyGoodsReqOuterClass {
     emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoodsOrBuilder getGoodsOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 23328
-   * </pre>
-   *
    * Protobuf type {@code BuyGoodsReq}
    */
   public static final class BuyGoodsReq extends
@@ -380,10 +376,6 @@ public final class BuyGoodsReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 23328
-     * </pre>
-     *
      * Protobuf type {@code BuyGoodsReq}
      */
     public static final class Builder extends

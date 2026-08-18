@@ -37,10 +37,10 @@ public final class BlessingActivityDetailInfoOuterClass {
     int getNextRefreshTime();
 
     /**
-     * <code>uint32 LLCFNEBDEJG = 9;</code>
-     * @return The lLCFNEBDEJG.
+     * <code>uint32 ppbchanjknf = 9;</code>
+     * @return The ppbchanjknf.
      */
-    int getLLCFNEBDEJG();
+    int getPpbchanjknf();
 
     /**
      * <code>bool is_activated = 11;</code>
@@ -157,7 +157,7 @@ public final class BlessingActivityDetailInfoOuterClass {
             }
             case 72: {
 
-              lLCFNEBDEJG_ = input.readUInt32();
+              ppbchanjknf_ = input.readUInt32();
               break;
             }
             case 88: {
@@ -265,15 +265,15 @@ public final class BlessingActivityDetailInfoOuterClass {
       return nextRefreshTime_;
     }
 
-    public static final int LLCFNEBDEJG_FIELD_NUMBER = 9;
-    private int lLCFNEBDEJG_;
+    public static final int PPBCHANJKNF_FIELD_NUMBER = 9;
+    private int ppbchanjknf_;
     /**
-     * <code>uint32 LLCFNEBDEJG = 9;</code>
-     * @return The lLCFNEBDEJG.
+     * <code>uint32 ppbchanjknf = 9;</code>
+     * @return The ppbchanjknf.
      */
     @java.lang.Override
-    public int getLLCFNEBDEJG() {
-      return lLCFNEBDEJG_;
+    public int getPpbchanjknf() {
+      return ppbchanjknf_;
     }
 
     public static final int IS_ACTIVATED_FIELD_NUMBER = 11;
@@ -413,8 +413,8 @@ public final class BlessingActivityDetailInfoOuterClass {
       if (nextRefreshTime_ != 0) {
         output.writeUInt32(7, nextRefreshTime_);
       }
-      if (lLCFNEBDEJG_ != 0) {
-        output.writeUInt32(9, lLCFNEBDEJG_);
+      if (ppbchanjknf_ != 0) {
+        output.writeUInt32(9, ppbchanjknf_);
       }
       if (isActivated_ != false) {
         output.writeBool(11, isActivated_);
@@ -452,9 +452,9 @@ public final class BlessingActivityDetailInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(7, nextRefreshTime_);
       }
-      if (lLCFNEBDEJG_ != 0) {
+      if (ppbchanjknf_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, lLCFNEBDEJG_);
+          .computeUInt32Size(9, ppbchanjknf_);
       }
       if (isActivated_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -499,8 +499,8 @@ public final class BlessingActivityDetailInfoOuterClass {
           != other.getIsContentClosed()) return false;
       if (getNextRefreshTime()
           != other.getNextRefreshTime()) return false;
-      if (getLLCFNEBDEJG()
-          != other.getLLCFNEBDEJG()) return false;
+      if (getPpbchanjknf()
+          != other.getPpbchanjknf()) return false;
       if (getIsActivated()
           != other.getIsActivated()) return false;
       if (!internalGetPicNumMap().equals(
@@ -527,8 +527,8 @@ public final class BlessingActivityDetailInfoOuterClass {
           getIsContentClosed());
       hash = (37 * hash) + NEXT_REFRESH_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getNextRefreshTime();
-      hash = (37 * hash) + LLCFNEBDEJG_FIELD_NUMBER;
-      hash = (53 * hash) + getLLCFNEBDEJG();
+      hash = (37 * hash) + PPBCHANJKNF_FIELD_NUMBER;
+      hash = (53 * hash) + getPpbchanjknf();
       hash = (37 * hash) + IS_ACTIVATED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsActivated());
@@ -701,7 +701,7 @@ public final class BlessingActivityDetailInfoOuterClass {
 
         nextRefreshTime_ = 0;
 
-        lLCFNEBDEJG_ = 0;
+        ppbchanjknf_ = 0;
 
         isActivated_ = false;
 
@@ -740,7 +740,7 @@ public final class BlessingActivityDetailInfoOuterClass {
         result.hLGJOMHPMDA_ = hLGJOMHPMDA_;
         result.isContentClosed_ = isContentClosed_;
         result.nextRefreshTime_ = nextRefreshTime_;
-        result.lLCFNEBDEJG_ = lLCFNEBDEJG_;
+        result.ppbchanjknf_ = ppbchanjknf_;
         result.isActivated_ = isActivated_;
         result.picNumMap_ = internalGetPicNumMap();
         result.picNumMap_.makeImmutable();
@@ -803,8 +803,8 @@ public final class BlessingActivityDetailInfoOuterClass {
         if (other.getNextRefreshTime() != 0) {
           setNextRefreshTime(other.getNextRefreshTime());
         }
-        if (other.getLLCFNEBDEJG() != 0) {
-          setLLCFNEBDEJG(other.getLLCFNEBDEJG());
+        if (other.getPpbchanjknf() != 0) {
+          setPpbchanjknf(other.getPpbchanjknf());
         }
         if (other.getIsActivated() != false) {
           setIsActivated(other.getIsActivated());
@@ -940,33 +940,33 @@ public final class BlessingActivityDetailInfoOuterClass {
         return this;
       }
 
-      private int lLCFNEBDEJG_ ;
+      private int ppbchanjknf_ ;
       /**
-       * <code>uint32 LLCFNEBDEJG = 9;</code>
-       * @return The lLCFNEBDEJG.
+       * <code>uint32 ppbchanjknf = 9;</code>
+       * @return The ppbchanjknf.
        */
       @java.lang.Override
-      public int getLLCFNEBDEJG() {
-        return lLCFNEBDEJG_;
+      public int getPpbchanjknf() {
+        return ppbchanjknf_;
       }
       /**
-       * <code>uint32 LLCFNEBDEJG = 9;</code>
-       * @param value The lLCFNEBDEJG to set.
+       * <code>uint32 ppbchanjknf = 9;</code>
+       * @param value The ppbchanjknf to set.
        * @return This builder for chaining.
        */
-      public Builder setLLCFNEBDEJG(int value) {
+      public Builder setPpbchanjknf(int value) {
         
-        lLCFNEBDEJG_ = value;
+        ppbchanjknf_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 LLCFNEBDEJG = 9;</code>
+       * <code>uint32 ppbchanjknf = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLLCFNEBDEJG() {
+      public Builder clearPpbchanjknf() {
         
-        lLCFNEBDEJG_ = 0;
+        ppbchanjknf_ = 0;
         onChanged();
         return this;
       }
@@ -1266,7 +1266,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       "\n BlessingActivityDetailInfo.proto\"\266\002\n\032B" +
       "lessingActivityDetailInfo\022\023\n\013HLGJOMHPMDA" +
       "\030\001 \001(\r\022\031\n\021is_content_closed\030\005 \001(\010\022\031\n\021nex" +
-      "t_refresh_time\030\007 \001(\r\022\023\n\013LLCFNEBDEJG\030\t \001(" +
+      "t_refresh_time\030\007 \001(\r\022\023\n\013ppbchanjknf\030\t \001(" +
       "\r\022\024\n\014is_activated\030\013 \001(\010\022?\n\013pic_num_map\030\014" +
       " \003(\0132*.BlessingActivityDetailInfo.PicNum" +
       "MapEntry\022\023\n\013DKHOJDNIKGN\030\r \001(\r\022\032\n\022content" +
@@ -1284,7 +1284,7 @@ public final class BlessingActivityDetailInfoOuterClass {
     internal_static_BlessingActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BlessingActivityDetailInfo_descriptor,
-        new java.lang.String[] { "HLGJOMHPMDA", "IsContentClosed", "NextRefreshTime", "LLCFNEBDEJG", "IsActivated", "PicNumMap", "DKHOJDNIKGN", "ContentCloseTime", });
+        new java.lang.String[] { "HLGJOMHPMDA", "IsContentClosed", "NextRefreshTime", "Ppbchanjknf", "IsActivated", "PicNumMap", "DKHOJDNIKGN", "ContentCloseTime", });
     internal_static_BlessingActivityDetailInfo_PicNumMapEntry_descriptor =
       internal_static_BlessingActivityDetailInfo_descriptor.getNestedTypes().get(0);
     internal_static_BlessingActivityDetailInfo_PicNumMapEntry_fieldAccessorTable = new

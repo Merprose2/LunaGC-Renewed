@@ -31,7 +31,7 @@ public final class ProfilePictureOuterClass {
     int getCostumeId();
 
     /**
-     * <code>uint32 profile_picture_id = 3;</code>
+     * <code>uint32 _profile_picture_id = 3;</code>
      * @return The profilePictureId.
      */
     int getProfilePictureId();
@@ -99,7 +99,7 @@ public final class ProfilePictureOuterClass {
             }
             case 24: {
 
-              profilePictureId_ = input.readUInt32();
+              ProfilePictureId_ = input.readUInt32();
               break;
             }
             case 32: {
@@ -161,15 +161,15 @@ public final class ProfilePictureOuterClass {
       return costumeId_;
     }
 
-    public static final int PROFILE_PICTURE_ID_FIELD_NUMBER = 3;
-    private int profilePictureId_;
+    public static final int _PROFILE_PICTURE_ID_FIELD_NUMBER = 3;
+    private int ProfilePictureId_;
     /**
-     * <code>uint32 profile_picture_id = 3;</code>
+     * <code>uint32 _profile_picture_id = 3;</code>
      * @return The profilePictureId.
      */
     @java.lang.Override
     public int getProfilePictureId() {
-      return profilePictureId_;
+      return ProfilePictureId_;
     }
 
     public static final int _PROFILE_FRAME_ID_FIELD_NUMBER = 4;
@@ -203,8 +203,8 @@ public final class ProfilePictureOuterClass {
       if (costumeId_ != 0) {
         output.writeUInt32(2, costumeId_);
       }
-      if (profilePictureId_ != 0) {
-        output.writeUInt32(3, profilePictureId_);
+      if (ProfilePictureId_ != 0) {
+        output.writeUInt32(3, ProfilePictureId_);
       }
       if (ProfileFrameId_ != 0) {
         output.writeUInt32(4, ProfileFrameId_);
@@ -226,9 +226,9 @@ public final class ProfilePictureOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, costumeId_);
       }
-      if (profilePictureId_ != 0) {
+      if (ProfilePictureId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, profilePictureId_);
+          .computeUInt32Size(3, ProfilePictureId_);
       }
       if (ProfileFrameId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -272,7 +272,7 @@ public final class ProfilePictureOuterClass {
       hash = (53 * hash) + getAvatarId();
       hash = (37 * hash) + COSTUME_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCostumeId();
-      hash = (37 * hash) + PROFILE_PICTURE_ID_FIELD_NUMBER;
+      hash = (37 * hash) + _PROFILE_PICTURE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getProfilePictureId();
       hash = (37 * hash) + _PROFILE_FRAME_ID_FIELD_NUMBER;
       hash = (53 * hash) + getProfileFrameId();
@@ -413,7 +413,7 @@ public final class ProfilePictureOuterClass {
 
         costumeId_ = 0;
 
-        profilePictureId_ = 0;
+        ProfilePictureId_ = 0;
 
         ProfileFrameId_ = 0;
 
@@ -445,7 +445,7 @@ public final class ProfilePictureOuterClass {
         emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture result = new emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture(this);
         result.avatarId_ = avatarId_;
         result.costumeId_ = costumeId_;
-        result.profilePictureId_ = profilePictureId_;
+        result.ProfilePictureId_ = ProfilePictureId_;
         result.ProfileFrameId_ = ProfileFrameId_;
         onBuilt();
         return result;
@@ -598,33 +598,33 @@ public final class ProfilePictureOuterClass {
         return this;
       }
 
-      private int profilePictureId_ ;
+      private int ProfilePictureId_ ;
       /**
-       * <code>uint32 profile_picture_id = 3;</code>
+       * <code>uint32 _profile_picture_id = 3;</code>
        * @return The profilePictureId.
        */
       @java.lang.Override
       public int getProfilePictureId() {
-        return profilePictureId_;
+        return ProfilePictureId_;
       }
       /**
-       * <code>uint32 profile_picture_id = 3;</code>
+       * <code>uint32 _profile_picture_id = 3;</code>
        * @param value The profilePictureId to set.
        * @return This builder for chaining.
        */
       public Builder setProfilePictureId(int value) {
         
-        profilePictureId_ = value;
+        ProfilePictureId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 profile_picture_id = 3;</code>
+       * <code>uint32 _profile_picture_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearProfilePictureId() {
         
-        profilePictureId_ = 0;
+        ProfilePictureId_ = 0;
         onChanged();
         return this;
       }
@@ -726,11 +726,11 @@ public final class ProfilePictureOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024ProfilePicture.proto\"n\n\016ProfilePicture" +
+      "\n\024ProfilePicture.proto\"o\n\016ProfilePicture" +
       "\022\021\n\tavatar_id\030\001 \001(\r\022\022\n\ncostume_id\030\002 \001(\r\022" +
-      "\032\n\022profile_picture_id\030\003 \001(\r\022\031\n\021_profile_" +
-      "frame_id\030\004 \001(\rB5\n\031emu.grasscutter.net.pr" +
-      "otoB\030ProfilePictureOuterClassb\006proto3"
+      "\033\n\023_profile_picture_id\030\003 \001(\r\022\031\n\021_profile" +
+      "_frame_id\030\004 \001(\rB5\n\031emu.grasscutter.net.p" +
+      "rotoB\030ProfilePictureOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

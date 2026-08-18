@@ -36,10 +36,6 @@ public final class DungeonDieOptionReqOuterClass {
     boolean getIsQuitImmediately();
   }
   /**
-   * <pre>
-   * CmdID: 7341
-   * </pre>
-   *
    * Protobuf type {@code DungeonDieOptionReq}
    */
   public static final class DungeonDieOptionReq extends
@@ -172,7 +168,7 @@ public final class DungeonDieOptionReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.PlayerDieOption_DIE_OPT_NONE.getNumber()) {
+      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.DIE_OPT_NONE.getNumber()) {
         output.writeEnum(5, dieOption_);
       }
       if (isQuitImmediately_ != false) {
@@ -187,7 +183,7 @@ public final class DungeonDieOptionReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.PlayerDieOption_DIE_OPT_NONE.getNumber()) {
+      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.DIE_OPT_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(5, dieOption_);
       }
@@ -325,10 +321,6 @@ public final class DungeonDieOptionReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7341
-     * </pre>
-     *
      * Protobuf type {@code DungeonDieOptionReq}
      */
     public static final class Builder extends

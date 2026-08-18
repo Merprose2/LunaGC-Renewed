@@ -25,10 +25,6 @@ public final class GetDailyDungeonEntryInfoReqOuterClass {
     int getSceneId();
   }
   /**
-   * <pre>
-   * CmdID: 28445
-   * </pre>
-   *
    * Protobuf type {@code GetDailyDungeonEntryInfoReq}
    */
   public static final class GetDailyDungeonEntryInfoReq extends
@@ -277,10 +273,6 @@ public final class GetDailyDungeonEntryInfoReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28445
-     * </pre>
-     *
      * Protobuf type {@code GetDailyDungeonEntryInfoReq}
      */
     public static final class Builder extends

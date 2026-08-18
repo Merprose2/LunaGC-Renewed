@@ -25,10 +25,10 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
     int getExtraLevel();
 
     /**
-     * <code>uint32 PLKBGPNJANP = 2;</code>
-     * @return The pLKBGPNJANP.
+     * <code>uint32 talent_index = 2;</code>
+     * @return The talentIndex.
      */
-    int getPLKBGPNJANP();
+    int getTalentIndex();
 
     /**
      * <code>uint64 avatar_guid = 10;</code>
@@ -37,16 +37,12 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
     long getAvatarGuid();
 
     /**
-     * <code>uint32 DAGHKHFOMDA = 11;</code>
-     * @return The dAGHKHFOMDA.
+     * <code>uint32 talent_type = 11;</code>
+     * @return The talentType.
      */
-    int getDAGHKHFOMDA();
+    int getTalentType();
   }
   /**
-   * <pre>
-   * CmdID: 4108
-   * </pre>
-   *
    * Protobuf type {@code ProudSkillExtraLevelNotify}
    */
   public static final class ProudSkillExtraLevelNotify extends
@@ -98,7 +94,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
             }
             case 16: {
 
-              pLKBGPNJANP_ = input.readUInt32();
+              talentIndex_ = input.readUInt32();
               break;
             }
             case 80: {
@@ -108,7 +104,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
             }
             case 88: {
 
-              dAGHKHFOMDA_ = input.readUInt32();
+              talentType_ = input.readUInt32();
               break;
             }
             default: {
@@ -154,15 +150,15 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
       return extraLevel_;
     }
 
-    public static final int PLKBGPNJANP_FIELD_NUMBER = 2;
-    private int pLKBGPNJANP_;
+    public static final int TALENT_INDEX_FIELD_NUMBER = 2;
+    private int talentIndex_;
     /**
-     * <code>uint32 PLKBGPNJANP = 2;</code>
-     * @return The pLKBGPNJANP.
+     * <code>uint32 talent_index = 2;</code>
+     * @return The talentIndex.
      */
     @java.lang.Override
-    public int getPLKBGPNJANP() {
-      return pLKBGPNJANP_;
+    public int getTalentIndex() {
+      return talentIndex_;
     }
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 10;
@@ -176,15 +172,15 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
       return avatarGuid_;
     }
 
-    public static final int DAGHKHFOMDA_FIELD_NUMBER = 11;
-    private int dAGHKHFOMDA_;
+    public static final int TALENT_TYPE_FIELD_NUMBER = 11;
+    private int talentType_;
     /**
-     * <code>uint32 DAGHKHFOMDA = 11;</code>
-     * @return The dAGHKHFOMDA.
+     * <code>uint32 talent_type = 11;</code>
+     * @return The talentType.
      */
     @java.lang.Override
-    public int getDAGHKHFOMDA() {
-      return dAGHKHFOMDA_;
+    public int getTalentType() {
+      return talentType_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -204,14 +200,14 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
       if (extraLevel_ != 0) {
         output.writeUInt32(1, extraLevel_);
       }
-      if (pLKBGPNJANP_ != 0) {
-        output.writeUInt32(2, pLKBGPNJANP_);
+      if (talentIndex_ != 0) {
+        output.writeUInt32(2, talentIndex_);
       }
       if (avatarGuid_ != 0L) {
         output.writeUInt64(10, avatarGuid_);
       }
-      if (dAGHKHFOMDA_ != 0) {
-        output.writeUInt32(11, dAGHKHFOMDA_);
+      if (talentType_ != 0) {
+        output.writeUInt32(11, talentType_);
       }
       unknownFields.writeTo(output);
     }
@@ -226,17 +222,17 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, extraLevel_);
       }
-      if (pLKBGPNJANP_ != 0) {
+      if (talentIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, pLKBGPNJANP_);
+          .computeUInt32Size(2, talentIndex_);
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(10, avatarGuid_);
       }
-      if (dAGHKHFOMDA_ != 0) {
+      if (talentType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, dAGHKHFOMDA_);
+          .computeUInt32Size(11, talentType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -255,12 +251,12 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
 
       if (getExtraLevel()
           != other.getExtraLevel()) return false;
-      if (getPLKBGPNJANP()
-          != other.getPLKBGPNJANP()) return false;
+      if (getTalentIndex()
+          != other.getTalentIndex()) return false;
       if (getAvatarGuid()
           != other.getAvatarGuid()) return false;
-      if (getDAGHKHFOMDA()
-          != other.getDAGHKHFOMDA()) return false;
+      if (getTalentType()
+          != other.getTalentType()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -274,13 +270,13 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + EXTRA_LEVEL_FIELD_NUMBER;
       hash = (53 * hash) + getExtraLevel();
-      hash = (37 * hash) + PLKBGPNJANP_FIELD_NUMBER;
-      hash = (53 * hash) + getPLKBGPNJANP();
+      hash = (37 * hash) + TALENT_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getTalentIndex();
       hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getAvatarGuid());
-      hash = (37 * hash) + DAGHKHFOMDA_FIELD_NUMBER;
-      hash = (53 * hash) + getDAGHKHFOMDA();
+      hash = (37 * hash) + TALENT_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getTalentType();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -377,10 +373,6 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4108
-     * </pre>
-     *
      * Protobuf type {@code ProudSkillExtraLevelNotify}
      */
     public static final class Builder extends
@@ -420,11 +412,11 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
         super.clear();
         extraLevel_ = 0;
 
-        pLKBGPNJANP_ = 0;
+        talentIndex_ = 0;
 
         avatarGuid_ = 0L;
 
-        dAGHKHFOMDA_ = 0;
+        talentType_ = 0;
 
         return this;
       }
@@ -453,9 +445,9 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
       public emu.grasscutter.net.proto.ProudSkillExtraLevelNotifyOuterClass.ProudSkillExtraLevelNotify buildPartial() {
         emu.grasscutter.net.proto.ProudSkillExtraLevelNotifyOuterClass.ProudSkillExtraLevelNotify result = new emu.grasscutter.net.proto.ProudSkillExtraLevelNotifyOuterClass.ProudSkillExtraLevelNotify(this);
         result.extraLevel_ = extraLevel_;
-        result.pLKBGPNJANP_ = pLKBGPNJANP_;
+        result.talentIndex_ = talentIndex_;
         result.avatarGuid_ = avatarGuid_;
-        result.dAGHKHFOMDA_ = dAGHKHFOMDA_;
+        result.talentType_ = talentType_;
         onBuilt();
         return result;
       }
@@ -507,14 +499,14 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
         if (other.getExtraLevel() != 0) {
           setExtraLevel(other.getExtraLevel());
         }
-        if (other.getPLKBGPNJANP() != 0) {
-          setPLKBGPNJANP(other.getPLKBGPNJANP());
+        if (other.getTalentIndex() != 0) {
+          setTalentIndex(other.getTalentIndex());
         }
         if (other.getAvatarGuid() != 0L) {
           setAvatarGuid(other.getAvatarGuid());
         }
-        if (other.getDAGHKHFOMDA() != 0) {
-          setDAGHKHFOMDA(other.getDAGHKHFOMDA());
+        if (other.getTalentType() != 0) {
+          setTalentType(other.getTalentType());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -576,33 +568,33 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
         return this;
       }
 
-      private int pLKBGPNJANP_ ;
+      private int talentIndex_ ;
       /**
-       * <code>uint32 PLKBGPNJANP = 2;</code>
-       * @return The pLKBGPNJANP.
+       * <code>uint32 talent_index = 2;</code>
+       * @return The talentIndex.
        */
       @java.lang.Override
-      public int getPLKBGPNJANP() {
-        return pLKBGPNJANP_;
+      public int getTalentIndex() {
+        return talentIndex_;
       }
       /**
-       * <code>uint32 PLKBGPNJANP = 2;</code>
-       * @param value The pLKBGPNJANP to set.
+       * <code>uint32 talent_index = 2;</code>
+       * @param value The talentIndex to set.
        * @return This builder for chaining.
        */
-      public Builder setPLKBGPNJANP(int value) {
+      public Builder setTalentIndex(int value) {
         
-        pLKBGPNJANP_ = value;
+        talentIndex_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 PLKBGPNJANP = 2;</code>
+       * <code>uint32 talent_index = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPLKBGPNJANP() {
+      public Builder clearTalentIndex() {
         
-        pLKBGPNJANP_ = 0;
+        talentIndex_ = 0;
         onChanged();
         return this;
       }
@@ -638,33 +630,33 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
         return this;
       }
 
-      private int dAGHKHFOMDA_ ;
+      private int talentType_ ;
       /**
-       * <code>uint32 DAGHKHFOMDA = 11;</code>
-       * @return The dAGHKHFOMDA.
+       * <code>uint32 talent_type = 11;</code>
+       * @return The talentType.
        */
       @java.lang.Override
-      public int getDAGHKHFOMDA() {
-        return dAGHKHFOMDA_;
+      public int getTalentType() {
+        return talentType_;
       }
       /**
-       * <code>uint32 DAGHKHFOMDA = 11;</code>
-       * @param value The dAGHKHFOMDA to set.
+       * <code>uint32 talent_type = 11;</code>
+       * @param value The talentType to set.
        * @return This builder for chaining.
        */
-      public Builder setDAGHKHFOMDA(int value) {
+      public Builder setTalentType(int value) {
         
-        dAGHKHFOMDA_ = value;
+        talentType_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 DAGHKHFOMDA = 11;</code>
+       * <code>uint32 talent_type = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDAGHKHFOMDA() {
+      public Builder clearTalentType() {
         
-        dAGHKHFOMDA_ = 0;
+        talentType_ = 0;
         onChanged();
         return this;
       }
@@ -735,12 +727,12 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n ProudSkillExtraLevelNotify.proto\"p\n\032Pr" +
+      "\n ProudSkillExtraLevelNotify.proto\"q\n\032Pr" +
       "oudSkillExtraLevelNotify\022\023\n\013extra_level\030" +
-      "\001 \001(\r\022\023\n\013PLKBGPNJANP\030\002 \001(\r\022\023\n\013avatar_gui" +
-      "d\030\n \001(\004\022\023\n\013DAGHKHFOMDA\030\013 \001(\rBA\n\031emu.gras" +
-      "scutter.net.protoB$ProudSkillExtraLevelN" +
-      "otifyOuterClassb\006proto3"
+      "\001 \001(\r\022\024\n\014talent_index\030\002 \001(\r\022\023\n\013avatar_gu" +
+      "id\030\n \001(\004\022\023\n\013talent_type\030\013 \001(\rBA\n\031emu.gra" +
+      "sscutter.net.protoB$ProudSkillExtraLevel" +
+      "NotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -751,7 +743,7 @@ public final class ProudSkillExtraLevelNotifyOuterClass {
     internal_static_ProudSkillExtraLevelNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ProudSkillExtraLevelNotify_descriptor,
-        new java.lang.String[] { "ExtraLevel", "PLKBGPNJANP", "AvatarGuid", "DAGHKHFOMDA", });
+        new java.lang.String[] { "ExtraLevel", "TalentIndex", "AvatarGuid", "TalentType", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

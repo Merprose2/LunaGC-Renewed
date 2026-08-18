@@ -435,16 +435,16 @@ public final class AvatarInfoOuterClass {
     emu.grasscutter.net.proto.MirrorAvatarInfoOuterClass.MirrorAvatarInfoOrBuilder getMirrorAvatarInfoOrBuilder();
 
     /**
-     * <code>uint32 JMFFNNBEHGG = 29;</code>
-     * @return The jMFFNNBEHGG.
+     * <code>uint32 dpeciabdbpg = 29;</code>
+     * @return The dpeciabdbpg.
      */
-    int getJMFFNNBEHGG();
+    int getDpeciabdbpg();
 
     /**
-     * <code>uint32 LDHKKNPGIMH = 30;</code>
-     * @return The lDHKKNPGIMH.
+     * <code>uint32 eigifnbdicm = 30;</code>
+     * @return The eigifnbdicm.
      */
-    int getLDHKKNPGIMH();
+    int getEigifnbdicm();
 
     /**
      * <code>uint32 _trace_effect_id = 31;</code>
@@ -887,12 +887,12 @@ public final class AvatarInfoOuterClass {
             }
             case 232: {
 
-              jMFFNNBEHGG_ = input.readUInt32();
+              dpeciabdbpg_ = input.readUInt32();
               break;
             }
             case 240: {
 
-              lDHKKNPGIMH_ = input.readUInt32();
+              eigifnbdicm_ = input.readUInt32();
               break;
             }
             case 248: {
@@ -1882,26 +1882,26 @@ public final class AvatarInfoOuterClass {
       return getMirrorAvatarInfo();
     }
 
-    public static final int JMFFNNBEHGG_FIELD_NUMBER = 29;
-    private int jMFFNNBEHGG_;
+    public static final int DPECIABDBPG_FIELD_NUMBER = 29;
+    private int dpeciabdbpg_;
     /**
-     * <code>uint32 JMFFNNBEHGG = 29;</code>
-     * @return The jMFFNNBEHGG.
+     * <code>uint32 dpeciabdbpg = 29;</code>
+     * @return The dpeciabdbpg.
      */
     @java.lang.Override
-    public int getJMFFNNBEHGG() {
-      return jMFFNNBEHGG_;
+    public int getDpeciabdbpg() {
+      return dpeciabdbpg_;
     }
 
-    public static final int LDHKKNPGIMH_FIELD_NUMBER = 30;
-    private int lDHKKNPGIMH_;
+    public static final int EIGIFNBDICM_FIELD_NUMBER = 30;
+    private int eigifnbdicm_;
     /**
-     * <code>uint32 LDHKKNPGIMH = 30;</code>
-     * @return The lDHKKNPGIMH.
+     * <code>uint32 eigifnbdicm = 30;</code>
+     * @return The eigifnbdicm.
      */
     @java.lang.Override
-    public int getLDHKKNPGIMH() {
-      return lDHKKNPGIMH_;
+    public int getEigifnbdicm() {
+      return eigifnbdicm_;
     }
 
     public static final int _TRACE_EFFECT_ID_FIELD_NUMBER = 31;
@@ -2190,11 +2190,11 @@ public final class AvatarInfoOuterClass {
       if (mirrorAvatarInfo_ != null) {
         output.writeMessage(28, getMirrorAvatarInfo());
       }
-      if (jMFFNNBEHGG_ != 0) {
-        output.writeUInt32(29, jMFFNNBEHGG_);
+      if (dpeciabdbpg_ != 0) {
+        output.writeUInt32(29, dpeciabdbpg_);
       }
-      if (lDHKKNPGIMH_ != 0) {
-        output.writeUInt32(30, lDHKKNPGIMH_);
+      if (eigifnbdicm_ != 0) {
+        output.writeUInt32(30, eigifnbdicm_);
       }
       if (TraceEffectId_ != 0) {
         output.writeUInt32(31, TraceEffectId_);
@@ -2422,13 +2422,13 @@ public final class AvatarInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(28, getMirrorAvatarInfo());
       }
-      if (jMFFNNBEHGG_ != 0) {
+      if (dpeciabdbpg_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(29, jMFFNNBEHGG_);
+          .computeUInt32Size(29, dpeciabdbpg_);
       }
-      if (lDHKKNPGIMH_ != 0) {
+      if (eigifnbdicm_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(30, lDHKKNPGIMH_);
+          .computeUInt32Size(30, eigifnbdicm_);
       }
       if (TraceEffectId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2558,10 +2558,10 @@ public final class AvatarInfoOuterClass {
         if (!getMirrorAvatarInfo()
             .equals(other.getMirrorAvatarInfo())) return false;
       }
-      if (getJMFFNNBEHGG()
-          != other.getJMFFNNBEHGG()) return false;
-      if (getLDHKKNPGIMH()
-          != other.getLDHKKNPGIMH()) return false;
+      if (getDpeciabdbpg()
+          != other.getDpeciabdbpg()) return false;
+      if (getEigifnbdicm()
+          != other.getEigifnbdicm()) return false;
       if (getTraceEffectId()
           != other.getTraceEffectId()) return false;
       if (getWeaponSkinId()
@@ -2676,10 +2676,10 @@ public final class AvatarInfoOuterClass {
         hash = (37 * hash) + MIRROR_AVATAR_INFO_FIELD_NUMBER;
         hash = (53 * hash) + getMirrorAvatarInfo().hashCode();
       }
-      hash = (37 * hash) + JMFFNNBEHGG_FIELD_NUMBER;
-      hash = (53 * hash) + getJMFFNNBEHGG();
-      hash = (37 * hash) + LDHKKNPGIMH_FIELD_NUMBER;
-      hash = (53 * hash) + getLDHKKNPGIMH();
+      hash = (37 * hash) + DPECIABDBPG_FIELD_NUMBER;
+      hash = (53 * hash) + getDpeciabdbpg();
+      hash = (37 * hash) + EIGIFNBDICM_FIELD_NUMBER;
+      hash = (53 * hash) + getEigifnbdicm();
       hash = (37 * hash) + _TRACE_EFFECT_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTraceEffectId();
       hash = (37 * hash) + _WEAPON_SKIN_ID_FIELD_NUMBER;
@@ -2944,9 +2944,9 @@ public final class AvatarInfoOuterClass {
           mirrorAvatarInfo_ = null;
           mirrorAvatarInfoBuilder_ = null;
         }
-        jMFFNNBEHGG_ = 0;
+        dpeciabdbpg_ = 0;
 
-        lDHKKNPGIMH_ = 0;
+        eigifnbdicm_ = 0;
 
         TraceEffectId_ = 0;
 
@@ -3073,8 +3073,8 @@ public final class AvatarInfoOuterClass {
         } else {
           result.mirrorAvatarInfo_ = mirrorAvatarInfoBuilder_.build();
         }
-        result.jMFFNNBEHGG_ = jMFFNNBEHGG_;
-        result.lDHKKNPGIMH_ = lDHKKNPGIMH_;
+        result.dpeciabdbpg_ = dpeciabdbpg_;
+        result.eigifnbdicm_ = eigifnbdicm_;
         result.TraceEffectId_ = TraceEffectId_;
         result.WeaponSkinId_ = WeaponSkinId_;
         if (AvatarCostumeSetBuilder_ == null) {
@@ -3284,11 +3284,11 @@ public final class AvatarInfoOuterClass {
         if (other.hasMirrorAvatarInfo()) {
           mergeMirrorAvatarInfo(other.getMirrorAvatarInfo());
         }
-        if (other.getJMFFNNBEHGG() != 0) {
-          setJMFFNNBEHGG(other.getJMFFNNBEHGG());
+        if (other.getDpeciabdbpg() != 0) {
+          setDpeciabdbpg(other.getDpeciabdbpg());
         }
-        if (other.getLDHKKNPGIMH() != 0) {
-          setLDHKKNPGIMH(other.getLDHKKNPGIMH());
+        if (other.getEigifnbdicm() != 0) {
+          setEigifnbdicm(other.getEigifnbdicm());
         }
         if (other.getTraceEffectId() != 0) {
           setTraceEffectId(other.getTraceEffectId());
@@ -5524,64 +5524,64 @@ public final class AvatarInfoOuterClass {
         return mirrorAvatarInfoBuilder_;
       }
 
-      private int jMFFNNBEHGG_ ;
+      private int dpeciabdbpg_ ;
       /**
-       * <code>uint32 JMFFNNBEHGG = 29;</code>
-       * @return The jMFFNNBEHGG.
+       * <code>uint32 dpeciabdbpg = 29;</code>
+       * @return The dpeciabdbpg.
        */
       @java.lang.Override
-      public int getJMFFNNBEHGG() {
-        return jMFFNNBEHGG_;
+      public int getDpeciabdbpg() {
+        return dpeciabdbpg_;
       }
       /**
-       * <code>uint32 JMFFNNBEHGG = 29;</code>
-       * @param value The jMFFNNBEHGG to set.
+       * <code>uint32 dpeciabdbpg = 29;</code>
+       * @param value The dpeciabdbpg to set.
        * @return This builder for chaining.
        */
-      public Builder setJMFFNNBEHGG(int value) {
+      public Builder setDpeciabdbpg(int value) {
         
-        jMFFNNBEHGG_ = value;
+        dpeciabdbpg_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 JMFFNNBEHGG = 29;</code>
+       * <code>uint32 dpeciabdbpg = 29;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJMFFNNBEHGG() {
+      public Builder clearDpeciabdbpg() {
         
-        jMFFNNBEHGG_ = 0;
+        dpeciabdbpg_ = 0;
         onChanged();
         return this;
       }
 
-      private int lDHKKNPGIMH_ ;
+      private int eigifnbdicm_ ;
       /**
-       * <code>uint32 LDHKKNPGIMH = 30;</code>
-       * @return The lDHKKNPGIMH.
+       * <code>uint32 eigifnbdicm = 30;</code>
+       * @return The eigifnbdicm.
        */
       @java.lang.Override
-      public int getLDHKKNPGIMH() {
-        return lDHKKNPGIMH_;
+      public int getEigifnbdicm() {
+        return eigifnbdicm_;
       }
       /**
-       * <code>uint32 LDHKKNPGIMH = 30;</code>
-       * @param value The lDHKKNPGIMH to set.
+       * <code>uint32 eigifnbdicm = 30;</code>
+       * @param value The eigifnbdicm to set.
        * @return This builder for chaining.
        */
-      public Builder setLDHKKNPGIMH(int value) {
+      public Builder setEigifnbdicm(int value) {
         
-        lDHKKNPGIMH_ = value;
+        eigifnbdicm_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 LDHKKNPGIMH = 30;</code>
+       * <code>uint32 eigifnbdicm = 30;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLDHKKNPGIMH() {
+      public Builder clearEigifnbdicm() {
         
-        lDHKKNPGIMH_ = 0;
+        eigifnbdicm_ = 0;
         onChanged();
         return this;
       }
@@ -6317,8 +6317,8 @@ public final class AvatarInfoOuterClass {
       "t\030\030 \003(\r\022\022\n\ncostume_id\030\031 \001(\r\022$\n\nexcel_inf" +
       "o\030\032 \001(\0132\020.AvatarExcelInfo\022\021\n\tanim_hash\030\033" +
       " \001(\r\022-\n\022mirror_avatar_info\030\034 \001(\0132\021.Mirro" +
-      "rAvatarInfo\022\023\n\013JMFFNNBEHGG\030\035 \001(\r\022\023\n\013LDHK" +
-      "KNPGIMH\030\036 \001(\r\022\030\n\020_trace_effect_id\030\037 \001(\r\022" +
+      "rAvatarInfo\022\023\n\013dpeciabdbpg\030\035 \001(\r\022\023\n\013eigi" +
+      "fnbdicm\030\036 \001(\r\022\030\n\020_trace_effect_id\030\037 \001(\r\022" +
       "\027\n\017_weapon_skin_id\030  \001(\r\0223\n\023_avatar_cost" +
       "ume_set\030! \001(\0132\026._BeyondCostumeSetInfo\022\021\n" +
       "\t_voice_id\030\" \001(\r\022!\n\031_special_proud_skill" +
@@ -6354,7 +6354,7 @@ public final class AvatarInfoOuterClass {
     internal_static_AvatarInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarInfo_descriptor,
-        new java.lang.String[] { "AvatarId", "Guid", "PropMap", "LifeState", "EquipGuidList", "TalentIdList", "FightPropMap", "TrialAvatarInfo", "SkillMap", "SkillDepotId", "FetterInfo", "CoreProudSkillLevel", "InherentProudSkillList", "SkillLevelMap", "ExpeditionState", "ProudSkillExtraLevelMap", "IsFocus", "AvatarType", "TeamResonanceList", "WearingFlycloakId", "EquipAffixList", "BornTime", "PendingPromoteRewardList", "CostumeId", "ExcelInfo", "AnimHash", "MirrorAvatarInfo", "JMFFNNBEHGG", "LDHKKNPGIMH", "TraceEffectId", "WeaponSkinId", "AvatarCostumeSet", "VoiceId", "SpecialProudSkillList", "UnlockedSkillDepotIdList", "KPJFLNKEFBC", });
+        new java.lang.String[] { "AvatarId", "Guid", "PropMap", "LifeState", "EquipGuidList", "TalentIdList", "FightPropMap", "TrialAvatarInfo", "SkillMap", "SkillDepotId", "FetterInfo", "CoreProudSkillLevel", "InherentProudSkillList", "SkillLevelMap", "ExpeditionState", "ProudSkillExtraLevelMap", "IsFocus", "AvatarType", "TeamResonanceList", "WearingFlycloakId", "EquipAffixList", "BornTime", "PendingPromoteRewardList", "CostumeId", "ExcelInfo", "AnimHash", "MirrorAvatarInfo", "Dpeciabdbpg", "Eigifnbdicm", "TraceEffectId", "WeaponSkinId", "AvatarCostumeSet", "VoiceId", "SpecialProudSkillList", "UnlockedSkillDepotIdList", "KPJFLNKEFBC", });
     internal_static_AvatarInfo_PropMapEntry_descriptor =
       internal_static_AvatarInfo_descriptor.getNestedTypes().get(0);
     internal_static_AvatarInfo_PropMapEntry_fieldAccessorTable = new

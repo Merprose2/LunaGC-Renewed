@@ -25,10 +25,6 @@ public final class SceneEntityDrownReqOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 20113
-   * </pre>
-   *
    * Protobuf type {@code SceneEntityDrownReq}
    */
   public static final class SceneEntityDrownReq extends
@@ -277,10 +273,6 @@ public final class SceneEntityDrownReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20113
-     * </pre>
-     *
      * Protobuf type {@code SceneEntityDrownReq}
      */
     public static final class Builder extends

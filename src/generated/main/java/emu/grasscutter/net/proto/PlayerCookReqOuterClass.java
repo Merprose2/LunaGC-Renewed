@@ -55,10 +55,6 @@ public final class PlayerCookReqOuterClass {
     int getJJPABEHGMCH();
   }
   /**
-   * <pre>
-   * CmdID: 7575
-   * </pre>
-   *
    * Protobuf type {@code PlayerCookReq}
    */
   public static final class PlayerCookReq extends
@@ -442,10 +438,6 @@ public final class PlayerCookReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7575
-     * </pre>
-     *
      * Protobuf type {@code PlayerCookReq}
      */
     public static final class Builder extends

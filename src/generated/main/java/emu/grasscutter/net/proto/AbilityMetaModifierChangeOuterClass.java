@@ -586,7 +586,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       if (applyEntityId_ != 0) {
         output.writeUInt32(10, applyEntityId_);
       }
-      if (action_ != emu.grasscutter.net.proto.ModifierActionOuterClass.ModifierAction.ModifierAction_ADDED.getNumber()) {
+      if (action_ != emu.grasscutter.net.proto.ModifierActionOuterClass.ModifierAction.MODIFIER_ACTION_ADDED.getNumber()) {
         output.writeEnum(11, action_);
       }
       if (serverBuffUid_ != 0) {
@@ -642,7 +642,7 @@ public final class AbilityMetaModifierChangeOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, applyEntityId_);
       }
-      if (action_ != emu.grasscutter.net.proto.ModifierActionOuterClass.ModifierAction.ModifierAction_ADDED.getNumber()) {
+      if (action_ != emu.grasscutter.net.proto.ModifierActionOuterClass.ModifierAction.MODIFIER_ACTION_ADDED.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(11, action_);
       }

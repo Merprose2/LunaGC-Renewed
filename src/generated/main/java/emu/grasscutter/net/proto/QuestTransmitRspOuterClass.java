@@ -37,10 +37,6 @@ public final class QuestTransmitRspOuterClass {
     int getPointId();
   }
   /**
-   * <pre>
-   * CmdID: 9178
-   * </pre>
-   *
    * Protobuf type {@code QuestTransmitRsp}
    */
   public static final class QuestTransmitRsp extends
@@ -343,10 +339,6 @@ public final class QuestTransmitRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9178
-     * </pre>
-     *
      * Protobuf type {@code QuestTransmitRsp}
      */
     public static final class Builder extends

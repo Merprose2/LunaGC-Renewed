@@ -49,10 +49,6 @@ public final class CookDataNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 20254
-   * </pre>
-   *
    * Protobuf type {@code CookDataNotify}
    */
   public static final class CookDataNotify extends
@@ -368,10 +364,6 @@ public final class CookDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20254
-     * </pre>
-     *
      * Protobuf type {@code CookDataNotify}
      */
     public static final class Builder extends

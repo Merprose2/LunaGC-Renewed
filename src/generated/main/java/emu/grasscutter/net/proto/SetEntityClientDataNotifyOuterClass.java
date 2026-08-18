@@ -40,10 +40,6 @@ public final class SetEntityClientDataNotifyOuterClass {
     emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder getEntityClientDataOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 1989
-   * </pre>
-   *
    * Protobuf type {@code SetEntityClientDataNotify}
    */
   public static final class SetEntityClientDataNotify extends
@@ -347,10 +343,6 @@ public final class SetEntityClientDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1989
-     * </pre>
-     *
      * Protobuf type {@code SetEntityClientDataNotify}
      */
     public static final class Builder extends

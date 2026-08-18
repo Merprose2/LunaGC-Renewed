@@ -53,10 +53,6 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     int getDelQuestIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 21524
-   * </pre>
-   *
    * Protobuf type {@code ServerCondMeetQuestListUpdateNotify}
    */
   public static final class ServerCondMeetQuestListUpdateNotify extends
@@ -440,10 +436,6 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21524
-     * </pre>
-     *
      * Protobuf type {@code ServerCondMeetQuestListUpdateNotify}
      */
     public static final class Builder extends

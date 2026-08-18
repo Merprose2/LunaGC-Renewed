@@ -48,10 +48,6 @@ public final class CodexDataUpdateNotifyOuterClass {
     int getId();
   }
   /**
-   * <pre>
-   * CmdID: 4232
-   * </pre>
-   *
    * Protobuf type {@code CodexDataUpdateNotify}
    */
   public static final class CodexDataUpdateNotify extends
@@ -391,10 +387,6 @@ public final class CodexDataUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4232
-     * </pre>
-     *
      * Protobuf type {@code CodexDataUpdateNotify}
      */
     public static final class Builder extends

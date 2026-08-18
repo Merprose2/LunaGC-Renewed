@@ -37,10 +37,6 @@ public final class TakeFurnitureMakeReqOuterClass {
     int getIndex();
   }
   /**
-   * <pre>
-   * CmdID: 6030
-   * </pre>
-   *
    * Protobuf type {@code TakeFurnitureMakeReq}
    */
   public static final class TakeFurnitureMakeReq extends
@@ -344,10 +340,6 @@ public final class TakeFurnitureMakeReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6030
-     * </pre>
-     *
      * Protobuf type {@code TakeFurnitureMakeReq}
      */
     public static final class Builder extends

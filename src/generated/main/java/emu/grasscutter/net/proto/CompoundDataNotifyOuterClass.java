@@ -60,10 +60,6 @@ public final class CompoundDataNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 6229
-   * </pre>
-   *
    * Protobuf type {@code CompoundDataNotify}
    */
   public static final class CompoundDataNotify extends
@@ -433,10 +429,6 @@ public final class CompoundDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6229
-     * </pre>
-     *
      * Protobuf type {@code CompoundDataNotify}
      */
     public static final class Builder extends

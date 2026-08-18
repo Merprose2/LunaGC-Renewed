@@ -42,10 +42,6 @@ public final class GetAllUnlockNameCardRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 8350
-   * </pre>
-   *
    * Protobuf type {@code GetAllUnlockNameCardRsp}
    */
   public static final class GetAllUnlockNameCardRsp extends
@@ -376,10 +372,6 @@ public final class GetAllUnlockNameCardRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8350
-     * </pre>
-     *
      * Protobuf type {@code GetAllUnlockNameCardRsp}
      */
     public static final class Builder extends

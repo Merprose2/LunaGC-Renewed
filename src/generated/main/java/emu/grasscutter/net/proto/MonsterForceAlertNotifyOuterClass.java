@@ -25,10 +25,6 @@ public final class MonsterForceAlertNotifyOuterClass {
     int getMonsterEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 20305
-   * </pre>
-   *
    * Protobuf type {@code MonsterForceAlertNotify}
    */
   public static final class MonsterForceAlertNotify extends
@@ -277,10 +273,6 @@ public final class MonsterForceAlertNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20305
-     * </pre>
-     *
      * Protobuf type {@code MonsterForceAlertNotify}
      */
     public static final class Builder extends

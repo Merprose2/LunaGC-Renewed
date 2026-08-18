@@ -31,10 +31,6 @@ public final class HomeAvatarTalkReqOuterClass {
     int getTalkId();
   }
   /**
-   * <pre>
-   * CmdID: 28188
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarTalkReq}
    */
   public static final class HomeAvatarTalkReq extends
@@ -310,10 +306,6 @@ public final class HomeAvatarTalkReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28188
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarTalkReq}
      */
     public static final class Builder extends

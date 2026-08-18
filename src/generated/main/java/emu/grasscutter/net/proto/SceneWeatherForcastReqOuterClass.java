@@ -19,14 +19,15 @@ public final class SceneWeatherForcastReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 weather_area_id = 14;</code>
+     * <code>uint32 weather_area_id = 2;</code>
      * @return The weatherAreaId.
      */
     int getWeatherAreaId();
   }
   /**
    * <pre>
-   * CmdID: 28216
+   * CmdId: 27174
+   * Obf: DLNOGFFHMHA
    * </pre>
    *
    * Protobuf type {@code SceneWeatherForcastReq}
@@ -73,7 +74,7 @@ public final class SceneWeatherForcastReqOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 120: {
 
               weatherAreaId_ = input.readUInt32();
               break;
@@ -110,10 +111,10 @@ public final class SceneWeatherForcastReqOuterClass {
               emu.grasscutter.net.proto.SceneWeatherForcastReqOuterClass.SceneWeatherForcastReq.class, emu.grasscutter.net.proto.SceneWeatherForcastReqOuterClass.SceneWeatherForcastReq.Builder.class);
     }
 
-    public static final int WEATHER_AREA_ID_FIELD_NUMBER = 14;
+    public static final int WEATHER_AREA_ID_FIELD_NUMBER = 15;
     private int weatherAreaId_;
     /**
-     * <code>uint32 weather_area_id = 14;</code>
+     * <code>uint32 weather_area_id = 2;</code>
      * @return The weatherAreaId.
      */
     @java.lang.Override
@@ -136,7 +137,7 @@ public final class SceneWeatherForcastReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (weatherAreaId_ != 0) {
-        output.writeUInt32(14, weatherAreaId_);
+        output.writeUInt32(15, weatherAreaId_);
       }
       unknownFields.writeTo(output);
     }
@@ -149,7 +150,7 @@ public final class SceneWeatherForcastReqOuterClass {
       size = 0;
       if (weatherAreaId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, weatherAreaId_);
+          .computeUInt32Size(15, weatherAreaId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,7 +279,8 @@ public final class SceneWeatherForcastReqOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 28216
+     * CmdId: 27174
+     * Obf: DLNOGFFHMHA
      * </pre>
      *
      * Protobuf type {@code SceneWeatherForcastReq}
@@ -429,7 +431,7 @@ public final class SceneWeatherForcastReqOuterClass {
 
       private int weatherAreaId_ ;
       /**
-       * <code>uint32 weather_area_id = 14;</code>
+       * <code>uint32 weather_area_id = 2;</code>
        * @return The weatherAreaId.
        */
       @java.lang.Override
@@ -437,7 +439,7 @@ public final class SceneWeatherForcastReqOuterClass {
         return weatherAreaId_;
       }
       /**
-       * <code>uint32 weather_area_id = 14;</code>
+       * <code>uint32 weather_area_id = 2;</code>
        * @param value The weatherAreaId to set.
        * @return This builder for chaining.
        */
@@ -448,7 +450,7 @@ public final class SceneWeatherForcastReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 weather_area_id = 14;</code>
+       * <code>uint32 weather_area_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearWeatherAreaId() {
@@ -525,9 +527,8 @@ public final class SceneWeatherForcastReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034SceneWeatherForcastReq.proto\"1\n\026SceneW" +
-      "eatherForcastReq\022\027\n\017weather_area_id\030\016 \001(" +
-      "\rB=\n\031emu.grasscutter.net.protoB SceneWea" +
-      "therForcastReqOuterClassb\006proto3"
+      "eatherForcastReq\022\027\n\017weather_area_id\030\002 \001(" +
+      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

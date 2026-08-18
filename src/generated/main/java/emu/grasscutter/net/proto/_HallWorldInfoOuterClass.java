@@ -25,10 +25,10 @@ public final class _HallWorldInfoOuterClass {
     long getIGBAONPMDHF();
 
     /**
-     * <code>bool is_enter_edit_mode = 2;</code>
-     * @return The isEnterEditMode.
+     * <code>bool FDCEGNBMOIK = 2;</code>
+     * @return The fDCEGNBMOIK.
      */
-    boolean getIsEnterEditMode();
+    boolean getFDCEGNBMOIK();
 
     /**
      * <code>uint32 GNNMNEGOHDN = 3;</code>
@@ -88,7 +88,7 @@ public final class _HallWorldInfoOuterClass {
             }
             case 16: {
 
-              isEnterEditMode_ = input.readBool();
+              fDCEGNBMOIK_ = input.readBool();
               break;
             }
             case 24: {
@@ -139,15 +139,15 @@ public final class _HallWorldInfoOuterClass {
       return iGBAONPMDHF_;
     }
 
-    public static final int IS_ENTER_EDIT_MODE_FIELD_NUMBER = 2;
-    private boolean isEnterEditMode_;
+    public static final int FDCEGNBMOIK_FIELD_NUMBER = 2;
+    private boolean fDCEGNBMOIK_;
     /**
-     * <code>bool is_enter_edit_mode = 2;</code>
-     * @return The isEnterEditMode.
+     * <code>bool FDCEGNBMOIK = 2;</code>
+     * @return The fDCEGNBMOIK.
      */
     @java.lang.Override
-    public boolean getIsEnterEditMode() {
-      return isEnterEditMode_;
+    public boolean getFDCEGNBMOIK() {
+      return fDCEGNBMOIK_;
     }
 
     public static final int GNNMNEGOHDN_FIELD_NUMBER = 3;
@@ -178,8 +178,8 @@ public final class _HallWorldInfoOuterClass {
       if (iGBAONPMDHF_ != 0L) {
         output.writeUInt64(1, iGBAONPMDHF_);
       }
-      if (isEnterEditMode_ != false) {
-        output.writeBool(2, isEnterEditMode_);
+      if (fDCEGNBMOIK_ != false) {
+        output.writeBool(2, fDCEGNBMOIK_);
       }
       if (gNNMNEGOHDN_ != 0) {
         output.writeUInt32(3, gNNMNEGOHDN_);
@@ -197,9 +197,9 @@ public final class _HallWorldInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(1, iGBAONPMDHF_);
       }
-      if (isEnterEditMode_ != false) {
+      if (fDCEGNBMOIK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isEnterEditMode_);
+          .computeBoolSize(2, fDCEGNBMOIK_);
       }
       if (gNNMNEGOHDN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -222,8 +222,8 @@ public final class _HallWorldInfoOuterClass {
 
       if (getIGBAONPMDHF()
           != other.getIGBAONPMDHF()) return false;
-      if (getIsEnterEditMode()
-          != other.getIsEnterEditMode()) return false;
+      if (getFDCEGNBMOIK()
+          != other.getFDCEGNBMOIK()) return false;
       if (getGNNMNEGOHDN()
           != other.getGNNMNEGOHDN()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -240,9 +240,9 @@ public final class _HallWorldInfoOuterClass {
       hash = (37 * hash) + IGBAONPMDHF_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getIGBAONPMDHF());
-      hash = (37 * hash) + IS_ENTER_EDIT_MODE_FIELD_NUMBER;
+      hash = (37 * hash) + FDCEGNBMOIK_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsEnterEditMode());
+          getFDCEGNBMOIK());
       hash = (37 * hash) + GNNMNEGOHDN_FIELD_NUMBER;
       hash = (53 * hash) + getGNNMNEGOHDN();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -380,7 +380,7 @@ public final class _HallWorldInfoOuterClass {
         super.clear();
         iGBAONPMDHF_ = 0L;
 
-        isEnterEditMode_ = false;
+        fDCEGNBMOIK_ = false;
 
         gNNMNEGOHDN_ = 0;
 
@@ -411,7 +411,7 @@ public final class _HallWorldInfoOuterClass {
       public emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo buildPartial() {
         emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo result = new emu.grasscutter.net.proto._HallWorldInfoOuterClass._HallWorldInfo(this);
         result.iGBAONPMDHF_ = iGBAONPMDHF_;
-        result.isEnterEditMode_ = isEnterEditMode_;
+        result.fDCEGNBMOIK_ = fDCEGNBMOIK_;
         result.gNNMNEGOHDN_ = gNNMNEGOHDN_;
         onBuilt();
         return result;
@@ -464,8 +464,8 @@ public final class _HallWorldInfoOuterClass {
         if (other.getIGBAONPMDHF() != 0L) {
           setIGBAONPMDHF(other.getIGBAONPMDHF());
         }
-        if (other.getIsEnterEditMode() != false) {
-          setIsEnterEditMode(other.getIsEnterEditMode());
+        if (other.getFDCEGNBMOIK() != false) {
+          setFDCEGNBMOIK(other.getFDCEGNBMOIK());
         }
         if (other.getGNNMNEGOHDN() != 0) {
           setGNNMNEGOHDN(other.getGNNMNEGOHDN());
@@ -530,33 +530,33 @@ public final class _HallWorldInfoOuterClass {
         return this;
       }
 
-      private boolean isEnterEditMode_ ;
+      private boolean fDCEGNBMOIK_ ;
       /**
-       * <code>bool is_enter_edit_mode = 2;</code>
-       * @return The isEnterEditMode.
+       * <code>bool FDCEGNBMOIK = 2;</code>
+       * @return The fDCEGNBMOIK.
        */
       @java.lang.Override
-      public boolean getIsEnterEditMode() {
-        return isEnterEditMode_;
+      public boolean getFDCEGNBMOIK() {
+        return fDCEGNBMOIK_;
       }
       /**
-       * <code>bool is_enter_edit_mode = 2;</code>
-       * @param value The isEnterEditMode to set.
+       * <code>bool FDCEGNBMOIK = 2;</code>
+       * @param value The fDCEGNBMOIK to set.
        * @return This builder for chaining.
        */
-      public Builder setIsEnterEditMode(boolean value) {
+      public Builder setFDCEGNBMOIK(boolean value) {
         
-        isEnterEditMode_ = value;
+        fDCEGNBMOIK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_enter_edit_mode = 2;</code>
+       * <code>bool FDCEGNBMOIK = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsEnterEditMode() {
+      public Builder clearFDCEGNBMOIK() {
         
-        isEnterEditMode_ = false;
+        fDCEGNBMOIK_ = false;
         onChanged();
         return this;
       }
@@ -658,11 +658,11 @@ public final class _HallWorldInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024_HallWorldInfo.proto\"V\n\016_HallWorldInfo" +
-      "\022\023\n\013IGBAONPMDHF\030\001 \001(\004\022\032\n\022is_enter_edit_m" +
-      "ode\030\002 \001(\010\022\023\n\013GNNMNEGOHDN\030\003 \001(\rB5\n\031emu.gr" +
-      "asscutter.net.protoB\030_HallWorldInfoOuter" +
-      "Classb\006proto3"
+      "\n\024_HallWorldInfo.proto\"O\n\016_HallWorldInfo" +
+      "\022\023\n\013IGBAONPMDHF\030\001 \001(\004\022\023\n\013FDCEGNBMOIK\030\002 \001" +
+      "(\010\022\023\n\013GNNMNEGOHDN\030\003 \001(\rB5\n\031emu.grasscutt" +
+      "er.net.protoB\030_HallWorldInfoOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -673,7 +673,7 @@ public final class _HallWorldInfoOuterClass {
     internal_static__HallWorldInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__HallWorldInfo_descriptor,
-        new java.lang.String[] { "IGBAONPMDHF", "IsEnterEditMode", "GNNMNEGOHDN", });
+        new java.lang.String[] { "IGBAONPMDHF", "FDCEGNBMOIK", "GNNMNEGOHDN", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

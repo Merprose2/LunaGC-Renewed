@@ -25,10 +25,6 @@ public final class AvatarGainFlycloakNotifyOuterClass {
     int getFlycloakId();
   }
   /**
-   * <pre>
-   * CmdID: 4865
-   * </pre>
-   *
    * Protobuf type {@code AvatarGainFlycloakNotify}
    */
   public static final class AvatarGainFlycloakNotify extends
@@ -277,10 +273,6 @@ public final class AvatarGainFlycloakNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4865
-     * </pre>
-     *
      * Protobuf type {@code AvatarGainFlycloakNotify}
      */
     public static final class Builder extends

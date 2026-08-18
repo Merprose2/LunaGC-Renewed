@@ -31,10 +31,6 @@ public final class BuyResinRspOuterClass {
     int getCurValue();
   }
   /**
-   * <pre>
-   * CmdID: 28034
-   * </pre>
-   *
    * Protobuf type {@code BuyResinRsp}
    */
   public static final class BuyResinRsp extends
@@ -310,10 +306,6 @@ public final class BuyResinRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28034
-     * </pre>
-     *
      * Protobuf type {@code BuyResinRsp}
      */
     public static final class Builder extends

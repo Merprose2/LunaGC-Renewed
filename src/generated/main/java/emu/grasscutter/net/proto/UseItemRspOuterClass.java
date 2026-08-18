@@ -66,10 +66,6 @@ public final class UseItemRspOuterClass {
     int getOptionIdxList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 25795
-   * </pre>
-   *
    * Protobuf type {@code UseItemRsp}
    */
   public static final class UseItemRsp extends
@@ -510,10 +506,6 @@ public final class UseItemRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25795
-     * </pre>
-     *
      * Protobuf type {@code UseItemRsp}
      */
     public static final class Builder extends

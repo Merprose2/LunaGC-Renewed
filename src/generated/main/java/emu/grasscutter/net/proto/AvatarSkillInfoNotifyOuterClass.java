@@ -59,10 +59,6 @@ public final class AvatarSkillInfoNotifyOuterClass {
     long getGuid();
   }
   /**
-   * <pre>
-   * CmdID: 9517
-   * </pre>
-   *
    * Protobuf type {@code AvatarSkillInfoNotify}
    */
   public static final class AvatarSkillInfoNotify extends
@@ -441,10 +437,6 @@ public final class AvatarSkillInfoNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9517
-     * </pre>
-     *
      * Protobuf type {@code AvatarSkillInfoNotify}
      */
     public static final class Builder extends

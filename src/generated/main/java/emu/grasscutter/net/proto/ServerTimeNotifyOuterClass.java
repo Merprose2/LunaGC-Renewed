@@ -25,10 +25,6 @@ public final class ServerTimeNotifyOuterClass {
     long getServerTime();
   }
   /**
-   * <pre>
-   * CmdID: 8925
-   * </pre>
-   *
    * Protobuf type {@code ServerTimeNotify}
    */
   public static final class ServerTimeNotify extends
@@ -278,10 +274,6 @@ public final class ServerTimeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8925
-     * </pre>
-     *
      * Protobuf type {@code ServerTimeNotify}
      */
     public static final class Builder extends

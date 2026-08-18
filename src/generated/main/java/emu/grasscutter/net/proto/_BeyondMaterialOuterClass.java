@@ -25,19 +25,19 @@ public final class _BeyondMaterialOuterClass {
     int getCount();
 
     /**
-     * <code>.HDEMKKOHJMP delete_info = 2;</code>
+     * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
      * @return Whether the deleteInfo field is set.
      */
     boolean hasDeleteInfo();
     /**
-     * <code>.HDEMKKOHJMP delete_info = 2;</code>
+     * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
      * @return The deleteInfo.
      */
-    emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP getDeleteInfo();
+    emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo getDeleteInfo();
     /**
-     * <code>.HDEMKKOHJMP delete_info = 2;</code>
+     * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
      */
-    emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMPOrBuilder getDeleteInfoOrBuilder();
+    emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfoOrBuilder getDeleteInfoOrBuilder();
   }
   /**
    * Protobuf type {@code _BeyondMaterial}
@@ -90,11 +90,11 @@ public final class _BeyondMaterialOuterClass {
               break;
             }
             case 18: {
-              emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.Builder subBuilder = null;
+              emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.Builder subBuilder = null;
               if (deleteInfo_ != null) {
                 subBuilder = deleteInfo_.toBuilder();
               }
-              deleteInfo_ = input.readMessage(emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.parser(), extensionRegistry);
+              deleteInfo_ = input.readMessage(emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteInfo_);
                 deleteInfo_ = subBuilder.buildPartial();
@@ -146,9 +146,9 @@ public final class _BeyondMaterialOuterClass {
     }
 
     public static final int DELETE_INFO_FIELD_NUMBER = 2;
-    private emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP deleteInfo_;
+    private emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo deleteInfo_;
     /**
-     * <code>.HDEMKKOHJMP delete_info = 2;</code>
+     * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
      * @return Whether the deleteInfo field is set.
      */
     @java.lang.Override
@@ -156,18 +156,18 @@ public final class _BeyondMaterialOuterClass {
       return deleteInfo_ != null;
     }
     /**
-     * <code>.HDEMKKOHJMP delete_info = 2;</code>
+     * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
      * @return The deleteInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP getDeleteInfo() {
-      return deleteInfo_ == null ? emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.getDefaultInstance() : deleteInfo_;
+    public emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo getDeleteInfo() {
+      return deleteInfo_ == null ? emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.getDefaultInstance() : deleteInfo_;
     }
     /**
-     * <code>.HDEMKKOHJMP delete_info = 2;</code>
+     * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMPOrBuilder getDeleteInfoOrBuilder() {
+    public emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfoOrBuilder getDeleteInfoOrBuilder() {
       return getDeleteInfo();
     }
 
@@ -534,31 +534,31 @@ public final class _BeyondMaterialOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP deleteInfo_;
+      private emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo deleteInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP, emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.Builder, emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMPOrBuilder> deleteInfoBuilder_;
+          emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo, emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.Builder, emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfoOrBuilder> deleteInfoBuilder_;
       /**
-       * <code>.HDEMKKOHJMP delete_info = 2;</code>
+       * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
        * @return Whether the deleteInfo field is set.
        */
       public boolean hasDeleteInfo() {
         return deleteInfoBuilder_ != null || deleteInfo_ != null;
       }
       /**
-       * <code>.HDEMKKOHJMP delete_info = 2;</code>
+       * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
        * @return The deleteInfo.
        */
-      public emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP getDeleteInfo() {
+      public emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo getDeleteInfo() {
         if (deleteInfoBuilder_ == null) {
-          return deleteInfo_ == null ? emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.getDefaultInstance() : deleteInfo_;
+          return deleteInfo_ == null ? emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.getDefaultInstance() : deleteInfo_;
         } else {
           return deleteInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>.HDEMKKOHJMP delete_info = 2;</code>
+       * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
        */
-      public Builder setDeleteInfo(emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP value) {
+      public Builder setDeleteInfo(emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo value) {
         if (deleteInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -572,10 +572,10 @@ public final class _BeyondMaterialOuterClass {
         return this;
       }
       /**
-       * <code>.HDEMKKOHJMP delete_info = 2;</code>
+       * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
        */
       public Builder setDeleteInfo(
-          emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.Builder builderForValue) {
+          emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.Builder builderForValue) {
         if (deleteInfoBuilder_ == null) {
           deleteInfo_ = builderForValue.build();
           onChanged();
@@ -586,13 +586,13 @@ public final class _BeyondMaterialOuterClass {
         return this;
       }
       /**
-       * <code>.HDEMKKOHJMP delete_info = 2;</code>
+       * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
        */
-      public Builder mergeDeleteInfo(emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP value) {
+      public Builder mergeDeleteInfo(emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo value) {
         if (deleteInfoBuilder_ == null) {
           if (deleteInfo_ != null) {
             deleteInfo_ =
-              emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.newBuilder(deleteInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.newBuilder(deleteInfo_).mergeFrom(value).buildPartial();
           } else {
             deleteInfo_ = value;
           }
@@ -604,7 +604,7 @@ public final class _BeyondMaterialOuterClass {
         return this;
       }
       /**
-       * <code>.HDEMKKOHJMP delete_info = 2;</code>
+       * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
        */
       public Builder clearDeleteInfo() {
         if (deleteInfoBuilder_ == null) {
@@ -618,33 +618,33 @@ public final class _BeyondMaterialOuterClass {
         return this;
       }
       /**
-       * <code>.HDEMKKOHJMP delete_info = 2;</code>
+       * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
        */
-      public emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.Builder getDeleteInfoBuilder() {
+      public emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.Builder getDeleteInfoBuilder() {
         
         onChanged();
         return getDeleteInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.HDEMKKOHJMP delete_info = 2;</code>
+       * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
        */
-      public emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMPOrBuilder getDeleteInfoOrBuilder() {
+      public emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfoOrBuilder getDeleteInfoOrBuilder() {
         if (deleteInfoBuilder_ != null) {
           return deleteInfoBuilder_.getMessageOrBuilder();
         } else {
           return deleteInfo_ == null ?
-              emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.getDefaultInstance() : deleteInfo_;
+              emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.getDefaultInstance() : deleteInfo_;
         }
       }
       /**
-       * <code>.HDEMKKOHJMP delete_info = 2;</code>
+       * <code>._BeyondMaterialDeleteInfo delete_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP, emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.Builder, emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMPOrBuilder> 
+          emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo, emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.Builder, emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfoOrBuilder> 
           getDeleteInfoFieldBuilder() {
         if (deleteInfoBuilder_ == null) {
           deleteInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP, emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMP.Builder, emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.HDEMKKOHJMPOrBuilder>(
+              emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo, emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfo.Builder, emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass._BeyondMaterialDeleteInfoOrBuilder>(
                   getDeleteInfo(),
                   getParentForChildren(),
                   isClean());
@@ -719,16 +719,17 @@ public final class _BeyondMaterialOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025_BeyondMaterial.proto\032\021HDEMKKOHJMP.pro" +
-      "to\"C\n\017_BeyondMaterial\022\r\n\005count\030\001 \001(\r\022!\n\013" +
-      "delete_info\030\002 \001(\0132\014.HDEMKKOHJMPB6\n\031emu.g" +
-      "rasscutter.net.protoB\031_BeyondMaterialOut" +
-      "erClassb\006proto3"
+      "\n\025_BeyondMaterial.proto\032\037_BeyondMaterial" +
+      "DeleteInfo.proto\"Q\n\017_BeyondMaterial\022\r\n\005c" +
+      "ount\030\001 \001(\r\022/\n\013delete_info\030\002 \001(\0132\032._Beyon" +
+      "dMaterialDeleteInfoB6\n\031emu.grasscutter.n" +
+      "et.protoB\031_BeyondMaterialOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass.getDescriptor(),
         });
     internal_static__BeyondMaterial_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -736,7 +737,7 @@ public final class _BeyondMaterialOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__BeyondMaterial_descriptor,
         new java.lang.String[] { "Count", "DeleteInfo", });
-    emu.grasscutter.net.proto.HDEMKKOHJMPOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._BeyondMaterialDeleteInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

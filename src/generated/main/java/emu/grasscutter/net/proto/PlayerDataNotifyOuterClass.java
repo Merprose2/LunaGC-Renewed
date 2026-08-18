@@ -83,10 +83,6 @@ public final class PlayerDataNotifyOuterClass {
     int getRegionId();
   }
   /**
-   * <pre>
-   * CmdID: 4626
-   * </pre>
-   *
    * Protobuf type {@code PlayerDataNotify}
    */
   public static final class PlayerDataNotify extends
@@ -575,10 +571,6 @@ public final class PlayerDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4626
-     * </pre>
-     *
      * Protobuf type {@code PlayerDataNotify}
      */
     public static final class Builder extends

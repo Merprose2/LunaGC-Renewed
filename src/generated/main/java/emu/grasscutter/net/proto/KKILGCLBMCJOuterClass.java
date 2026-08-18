@@ -19,23 +19,6 @@ public final class KKILGCLBMCJOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-     * @return A list containing the bJPDBEKODPL.
-     */
-    java.util.List<java.lang.Integer> getBJPDBEKODPLList();
-    /**
-     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-     * @return The count of bJPDBEKODPL.
-     */
-    int getBJPDBEKODPLCount();
-    /**
-     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-     * @param index The index of the element to return.
-     * @return The bJPDBEKODPL at the given index.
-     */
-    int getBJPDBEKODPL(int index);
-
-    /**
      * <code>._ExamInfo exam_info = 9;</code>
      * @return Whether the examInfo field is set.
      */
@@ -64,6 +47,23 @@ public final class KKILGCLBMCJOuterClass {
      * <code>._OrderInfo order_info = 12;</code>
      */
     emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfoOrBuilder getOrderInfoOrBuilder();
+
+    /**
+     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+     * @return A list containing the bJPDBEKODPL.
+     */
+    java.util.List<java.lang.Integer> getBJPDBEKODPLList();
+    /**
+     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+     * @return The count of bJPDBEKODPL.
+     */
+    int getBJPDBEKODPLCount();
+    /**
+     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+     * @param index The index of the element to return.
+     * @return The bJPDBEKODPL at the given index.
+     */
+    int getBJPDBEKODPL(int index);
 
     public emu.grasscutter.net.proto.KKILGCLBMCJOuterClass.KKILGCLBMCJ.DetailCase getDetailCase();
   }
@@ -239,34 +239,6 @@ public final class KKILGCLBMCJOuterClass {
           detailCase_);
     }
 
-    public static final int BJPDBEKODPL_FIELD_NUMBER = 8;
-    private com.google.protobuf.Internal.IntList bJPDBEKODPL_;
-    /**
-     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-     * @return A list containing the bJPDBEKODPL.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getBJPDBEKODPLList() {
-      return bJPDBEKODPL_;
-    }
-    /**
-     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-     * @return The count of bJPDBEKODPL.
-     */
-    public int getBJPDBEKODPLCount() {
-      return bJPDBEKODPL_.size();
-    }
-    /**
-     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-     * @param index The index of the element to return.
-     * @return The bJPDBEKODPL at the given index.
-     */
-    public int getBJPDBEKODPL(int index) {
-      return bJPDBEKODPL_.getInt(index);
-    }
-    private int bJPDBEKODPLMemoizedSerializedSize = -1;
-
     public static final int EXAM_INFO_FIELD_NUMBER = 9;
     /**
      * <code>._ExamInfo exam_info = 9;</code>
@@ -328,6 +300,34 @@ public final class KKILGCLBMCJOuterClass {
       }
       return emu.grasscutter.net.proto._OrderInfoOuterClass._OrderInfo.getDefaultInstance();
     }
+
+    public static final int BJPDBEKODPL_FIELD_NUMBER = 8;
+    private com.google.protobuf.Internal.IntList bJPDBEKODPL_;
+    /**
+     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+     * @return A list containing the bJPDBEKODPL.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getBJPDBEKODPLList() {
+      return bJPDBEKODPL_;
+    }
+    /**
+     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+     * @return The count of bJPDBEKODPL.
+     */
+    public int getBJPDBEKODPLCount() {
+      return bJPDBEKODPL_.size();
+    }
+    /**
+     * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+     * @param index The index of the element to return.
+     * @return The bJPDBEKODPL at the given index.
+     */
+    public int getBJPDBEKODPL(int index) {
+      return bJPDBEKODPL_.getInt(index);
+    }
+    private int bJPDBEKODPLMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -609,11 +609,6 @@ public final class KKILGCLBMCJOuterClass {
       public emu.grasscutter.net.proto.KKILGCLBMCJOuterClass.KKILGCLBMCJ buildPartial() {
         emu.grasscutter.net.proto.KKILGCLBMCJOuterClass.KKILGCLBMCJ result = new emu.grasscutter.net.proto.KKILGCLBMCJOuterClass.KKILGCLBMCJ(this);
         int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) != 0)) {
-          bJPDBEKODPL_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.bJPDBEKODPL_ = bJPDBEKODPL_;
         if (detailCase_ == 9) {
           if (examInfoBuilder_ == null) {
             result.detail_ = detail_;
@@ -628,6 +623,11 @@ public final class KKILGCLBMCJOuterClass {
             result.detail_ = orderInfoBuilder_.build();
           }
         }
+        if (((bitField0_ & 0x00000001) != 0)) {
+          bJPDBEKODPL_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.bJPDBEKODPL_ = bJPDBEKODPL_;
         result.detailCase_ = detailCase_;
         onBuilt();
         return result;
@@ -744,85 +744,6 @@ public final class KKILGCLBMCJOuterClass {
       }
 
       private int bitField0_;
-
-      private com.google.protobuf.Internal.IntList bJPDBEKODPL_ = emptyIntList();
-      private void ensureBJPDBEKODPLIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          bJPDBEKODPL_ = mutableCopy(bJPDBEKODPL_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-       * @return A list containing the bJPDBEKODPL.
-       */
-      public java.util.List<java.lang.Integer>
-          getBJPDBEKODPLList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(bJPDBEKODPL_) : bJPDBEKODPL_;
-      }
-      /**
-       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-       * @return The count of bJPDBEKODPL.
-       */
-      public int getBJPDBEKODPLCount() {
-        return bJPDBEKODPL_.size();
-      }
-      /**
-       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-       * @param index The index of the element to return.
-       * @return The bJPDBEKODPL at the given index.
-       */
-      public int getBJPDBEKODPL(int index) {
-        return bJPDBEKODPL_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-       * @param index The index to set the value at.
-       * @param value The bJPDBEKODPL to set.
-       * @return This builder for chaining.
-       */
-      public Builder setBJPDBEKODPL(
-          int index, int value) {
-        ensureBJPDBEKODPLIsMutable();
-        bJPDBEKODPL_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-       * @param value The bJPDBEKODPL to add.
-       * @return This builder for chaining.
-       */
-      public Builder addBJPDBEKODPL(int value) {
-        ensureBJPDBEKODPLIsMutable();
-        bJPDBEKODPL_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-       * @param values The bJPDBEKODPL to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllBJPDBEKODPL(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureBJPDBEKODPLIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, bJPDBEKODPL_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearBJPDBEKODPL() {
-        bJPDBEKODPL_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo, emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.Builder, emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfoOrBuilder> examInfoBuilder_;
@@ -1105,6 +1026,85 @@ public final class KKILGCLBMCJOuterClass {
         onChanged();;
         return orderInfoBuilder_;
       }
+
+      private com.google.protobuf.Internal.IntList bJPDBEKODPL_ = emptyIntList();
+      private void ensureBJPDBEKODPLIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          bJPDBEKODPL_ = mutableCopy(bJPDBEKODPL_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+       * @return A list containing the bJPDBEKODPL.
+       */
+      public java.util.List<java.lang.Integer>
+          getBJPDBEKODPLList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(bJPDBEKODPL_) : bJPDBEKODPL_;
+      }
+      /**
+       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+       * @return The count of bJPDBEKODPL.
+       */
+      public int getBJPDBEKODPLCount() {
+        return bJPDBEKODPL_.size();
+      }
+      /**
+       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+       * @param index The index of the element to return.
+       * @return The bJPDBEKODPL at the given index.
+       */
+      public int getBJPDBEKODPL(int index) {
+        return bJPDBEKODPL_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+       * @param index The index to set the value at.
+       * @param value The bJPDBEKODPL to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBJPDBEKODPL(
+          int index, int value) {
+        ensureBJPDBEKODPLIsMutable();
+        bJPDBEKODPL_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+       * @param value The bJPDBEKODPL to add.
+       * @return This builder for chaining.
+       */
+      public Builder addBJPDBEKODPL(int value) {
+        ensureBJPDBEKODPLIsMutable();
+        bJPDBEKODPL_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+       * @param values The bJPDBEKODPL to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllBJPDBEKODPL(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureBJPDBEKODPLIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, bJPDBEKODPL_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 BJPDBEKODPL = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBJPDBEKODPL() {
+        bJPDBEKODPL_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1173,9 +1173,9 @@ public final class KKILGCLBMCJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KKILGCLBMCJ.proto\032\017_ExamInfo.proto\032\020_O" +
-      "rderInfo.proto\"p\n\013KKILGCLBMCJ\022\023\n\013BJPDBEK" +
-      "ODPL\030\010 \003(\r\022\037\n\texam_info\030\t \001(\0132\n._ExamInf" +
-      "oH\000\022!\n\norder_info\030\014 \001(\0132\013._OrderInfoH\000B\010" +
+      "rderInfo.proto\"p\n\013KKILGCLBMCJ\022\037\n\texam_in" +
+      "fo\030\t \001(\0132\n._ExamInfoH\000\022!\n\norder_info\030\014 \001" +
+      "(\0132\013._OrderInfoH\000\022\023\n\013BJPDBEKODPL\030\010 \003(\rB\010" +
       "\n\006detailB2\n\031emu.grasscutter.net.protoB\025K" +
       "KILGCLBMCJOuterClassb\006proto3"
     };
@@ -1190,7 +1190,7 @@ public final class KKILGCLBMCJOuterClass {
     internal_static_KKILGCLBMCJ_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_KKILGCLBMCJ_descriptor,
-        new java.lang.String[] { "BJPDBEKODPL", "ExamInfo", "OrderInfo", "Detail", });
+        new java.lang.String[] { "ExamInfo", "OrderInfo", "BJPDBEKODPL", "Detail", });
     emu.grasscutter.net.proto._ExamInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._OrderInfoOuterClass.getDescriptor();
   }

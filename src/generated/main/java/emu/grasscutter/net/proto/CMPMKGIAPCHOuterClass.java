@@ -19,6 +19,36 @@ public final class CMPMKGIAPCHOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>._NormalStuff normal_stuff = 100;</code>
+     * @return Whether the normalStuff field is set.
+     */
+    boolean hasNormalStuff();
+    /**
+     * <code>._NormalStuff normal_stuff = 100;</code>
+     * @return The normalStuff.
+     */
+    emu.grasscutter.net.proto._NormalStuffOuterClass._NormalStuff getNormalStuff();
+    /**
+     * <code>._NormalStuff normal_stuff = 100;</code>
+     */
+    emu.grasscutter.net.proto._NormalStuffOuterClass._NormalStuffOrBuilder getNormalStuffOrBuilder();
+
+    /**
+     * <code>._EquipStuff equip_stuff = 101;</code>
+     * @return Whether the equipStuff field is set.
+     */
+    boolean hasEquipStuff();
+    /**
+     * <code>._EquipStuff equip_stuff = 101;</code>
+     * @return The equipStuff.
+     */
+    emu.grasscutter.net.proto._EquipStuffOuterClass._EquipStuff getEquipStuff();
+    /**
+     * <code>._EquipStuff equip_stuff = 101;</code>
+     */
+    emu.grasscutter.net.proto._EquipStuffOuterClass._EquipStuffOrBuilder getEquipStuffOrBuilder();
+
+    /**
      * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
      * @return Whether the kDPEFOBKJON field is set.
      */
@@ -49,36 +79,6 @@ public final class CMPMKGIAPCHOuterClass {
      * @return The guid.
      */
     int getGuid();
-
-    /**
-     * <code>._NormalStuff normal_stuff = 100;</code>
-     * @return Whether the normalStuff field is set.
-     */
-    boolean hasNormalStuff();
-    /**
-     * <code>._NormalStuff normal_stuff = 100;</code>
-     * @return The normalStuff.
-     */
-    emu.grasscutter.net.proto._NormalStuffOuterClass._NormalStuff getNormalStuff();
-    /**
-     * <code>._NormalStuff normal_stuff = 100;</code>
-     */
-    emu.grasscutter.net.proto._NormalStuffOuterClass._NormalStuffOrBuilder getNormalStuffOrBuilder();
-
-    /**
-     * <code>._EquipStuff equip_stuff = 101;</code>
-     * @return Whether the equipStuff field is set.
-     */
-    boolean hasEquipStuff();
-    /**
-     * <code>._EquipStuff equip_stuff = 101;</code>
-     * @return The equipStuff.
-     */
-    emu.grasscutter.net.proto._EquipStuffOuterClass._EquipStuff getEquipStuff();
-    /**
-     * <code>._EquipStuff equip_stuff = 101;</code>
-     */
-    emu.grasscutter.net.proto._EquipStuffOuterClass._EquipStuffOrBuilder getEquipStuffOrBuilder();
 
     public emu.grasscutter.net.proto.CMPMKGIAPCHOuterClass.CMPMKGIAPCH.DetailCase getDetailCase();
   }
@@ -253,62 +253,6 @@ public final class CMPMKGIAPCHOuterClass {
           detailCase_);
     }
 
-    public static final int KDPEFOBKJON_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase kDPEFOBKJON_;
-    /**
-     * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-     * @return Whether the kDPEFOBKJON field is set.
-     */
-    @java.lang.Override
-    public boolean hasKDPEFOBKJON() {
-      return kDPEFOBKJON_ != null;
-    }
-    /**
-     * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-     * @return The kDPEFOBKJON.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getKDPEFOBKJON() {
-      return kDPEFOBKJON_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : kDPEFOBKJON_;
-    }
-    /**
-     * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getKDPEFOBKJONOrBuilder() {
-      return getKDPEFOBKJON();
-    }
-
-    public static final int OHBGNHAAMIB_FIELD_NUMBER = 2;
-    private int oHBGNHAAMIB_;
-    /**
-     * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
-     * @return The enum numeric value on the wire for oHBGNHAAMIB.
-     */
-    @java.lang.Override public int getOHBGNHAAMIBValue() {
-      return oHBGNHAAMIB_;
-    }
-    /**
-     * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
-     * @return The oHBGNHAAMIB.
-     */
-    @java.lang.Override public emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN getOHBGNHAAMIB() {
-      @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN result = emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN.valueOf(oHBGNHAAMIB_);
-      return result == null ? emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN.UNRECOGNIZED : result;
-    }
-
-    public static final int GUID_FIELD_NUMBER = 3;
-    private int guid_;
-    /**
-     * <code>uint32 guid = 3;</code>
-     * @return The guid.
-     */
-    @java.lang.Override
-    public int getGuid() {
-      return guid_;
-    }
-
     public static final int NORMAL_STUFF_FIELD_NUMBER = 100;
     /**
      * <code>._NormalStuff normal_stuff = 100;</code>
@@ -369,6 +313,62 @@ public final class CMPMKGIAPCHOuterClass {
          return (emu.grasscutter.net.proto._EquipStuffOuterClass._EquipStuff) detail_;
       }
       return emu.grasscutter.net.proto._EquipStuffOuterClass._EquipStuff.getDefaultInstance();
+    }
+
+    public static final int KDPEFOBKJON_FIELD_NUMBER = 1;
+    private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase kDPEFOBKJON_;
+    /**
+     * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+     * @return Whether the kDPEFOBKJON field is set.
+     */
+    @java.lang.Override
+    public boolean hasKDPEFOBKJON() {
+      return kDPEFOBKJON_ != null;
+    }
+    /**
+     * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+     * @return The kDPEFOBKJON.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getKDPEFOBKJON() {
+      return kDPEFOBKJON_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : kDPEFOBKJON_;
+    }
+    /**
+     * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getKDPEFOBKJONOrBuilder() {
+      return getKDPEFOBKJON();
+    }
+
+    public static final int OHBGNHAAMIB_FIELD_NUMBER = 2;
+    private int oHBGNHAAMIB_;
+    /**
+     * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
+     * @return The enum numeric value on the wire for oHBGNHAAMIB.
+     */
+    @java.lang.Override public int getOHBGNHAAMIBValue() {
+      return oHBGNHAAMIB_;
+    }
+    /**
+     * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
+     * @return The oHBGNHAAMIB.
+     */
+    @java.lang.Override public emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN getOHBGNHAAMIB() {
+      @SuppressWarnings("deprecation")
+      emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN result = emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN.valueOf(oHBGNHAAMIB_);
+      return result == null ? emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN.UNRECOGNIZED : result;
+    }
+
+    public static final int GUID_FIELD_NUMBER = 3;
+    private int guid_;
+    /**
+     * <code>uint32 guid = 3;</code>
+     * @return The guid.
+     */
+    @java.lang.Override
+    public int getGuid() {
+      return guid_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -667,13 +667,6 @@ public final class CMPMKGIAPCHOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.CMPMKGIAPCHOuterClass.CMPMKGIAPCH buildPartial() {
         emu.grasscutter.net.proto.CMPMKGIAPCHOuterClass.CMPMKGIAPCH result = new emu.grasscutter.net.proto.CMPMKGIAPCHOuterClass.CMPMKGIAPCH(this);
-        if (kDPEFOBKJONBuilder_ == null) {
-          result.kDPEFOBKJON_ = kDPEFOBKJON_;
-        } else {
-          result.kDPEFOBKJON_ = kDPEFOBKJONBuilder_.build();
-        }
-        result.oHBGNHAAMIB_ = oHBGNHAAMIB_;
-        result.guid_ = guid_;
         if (detailCase_ == 100) {
           if (normalStuffBuilder_ == null) {
             result.detail_ = detail_;
@@ -688,6 +681,13 @@ public final class CMPMKGIAPCHOuterClass {
             result.detail_ = equipStuffBuilder_.build();
           }
         }
+        if (kDPEFOBKJONBuilder_ == null) {
+          result.kDPEFOBKJON_ = kDPEFOBKJON_;
+        } else {
+          result.kDPEFOBKJON_ = kDPEFOBKJONBuilder_.build();
+        }
+        result.oHBGNHAAMIB_ = oHBGNHAAMIB_;
+        result.guid_ = guid_;
         result.detailCase_ = detailCase_;
         onBuilt();
         return result;
@@ -802,210 +802,6 @@ public final class CMPMKGIAPCHOuterClass {
         return this;
       }
 
-
-      private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase kDPEFOBKJON_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> kDPEFOBKJONBuilder_;
-      /**
-       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-       * @return Whether the kDPEFOBKJON field is set.
-       */
-      public boolean hasKDPEFOBKJON() {
-        return kDPEFOBKJONBuilder_ != null || kDPEFOBKJON_ != null;
-      }
-      /**
-       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-       * @return The kDPEFOBKJON.
-       */
-      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getKDPEFOBKJON() {
-        if (kDPEFOBKJONBuilder_ == null) {
-          return kDPEFOBKJON_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : kDPEFOBKJON_;
-        } else {
-          return kDPEFOBKJONBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-       */
-      public Builder setKDPEFOBKJON(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
-        if (kDPEFOBKJONBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          kDPEFOBKJON_ = value;
-          onChanged();
-        } else {
-          kDPEFOBKJONBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-       */
-      public Builder setKDPEFOBKJON(
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
-        if (kDPEFOBKJONBuilder_ == null) {
-          kDPEFOBKJON_ = builderForValue.build();
-          onChanged();
-        } else {
-          kDPEFOBKJONBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-       */
-      public Builder mergeKDPEFOBKJON(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
-        if (kDPEFOBKJONBuilder_ == null) {
-          if (kDPEFOBKJON_ != null) {
-            kDPEFOBKJON_ =
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder(kDPEFOBKJON_).mergeFrom(value).buildPartial();
-          } else {
-            kDPEFOBKJON_ = value;
-          }
-          onChanged();
-        } else {
-          kDPEFOBKJONBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-       */
-      public Builder clearKDPEFOBKJON() {
-        if (kDPEFOBKJONBuilder_ == null) {
-          kDPEFOBKJON_ = null;
-          onChanged();
-        } else {
-          kDPEFOBKJON_ = null;
-          kDPEFOBKJONBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-       */
-      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getKDPEFOBKJONBuilder() {
-        
-        onChanged();
-        return getKDPEFOBKJONFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-       */
-      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getKDPEFOBKJONOrBuilder() {
-        if (kDPEFOBKJONBuilder_ != null) {
-          return kDPEFOBKJONBuilder_.getMessageOrBuilder();
-        } else {
-          return kDPEFOBKJON_ == null ?
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : kDPEFOBKJON_;
-        }
-      }
-      /**
-       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
-          getKDPEFOBKJONFieldBuilder() {
-        if (kDPEFOBKJONBuilder_ == null) {
-          kDPEFOBKJONBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
-                  getKDPEFOBKJON(),
-                  getParentForChildren(),
-                  isClean());
-          kDPEFOBKJON_ = null;
-        }
-        return kDPEFOBKJONBuilder_;
-      }
-
-      private int oHBGNHAAMIB_ = 0;
-      /**
-       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
-       * @return The enum numeric value on the wire for oHBGNHAAMIB.
-       */
-      @java.lang.Override public int getOHBGNHAAMIBValue() {
-        return oHBGNHAAMIB_;
-      }
-      /**
-       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
-       * @param value The enum numeric value on the wire for oHBGNHAAMIB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOHBGNHAAMIBValue(int value) {
-        
-        oHBGNHAAMIB_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
-       * @return The oHBGNHAAMIB.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN getOHBGNHAAMIB() {
-        @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN result = emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN.valueOf(oHBGNHAAMIB_);
-        return result == null ? emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN.UNRECOGNIZED : result;
-      }
-      /**
-       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
-       * @param value The oHBGNHAAMIB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOHBGNHAAMIB(emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        
-        oHBGNHAAMIB_ = value.getNumber();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOHBGNHAAMIB() {
-        
-        oHBGNHAAMIB_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int guid_ ;
-      /**
-       * <code>uint32 guid = 3;</code>
-       * @return The guid.
-       */
-      @java.lang.Override
-      public int getGuid() {
-        return guid_;
-      }
-      /**
-       * <code>uint32 guid = 3;</code>
-       * @param value The guid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGuid(int value) {
-        
-        guid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 guid = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGuid() {
-        
-        guid_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._NormalStuffOuterClass._NormalStuff, emu.grasscutter.net.proto._NormalStuffOuterClass._NormalStuff.Builder, emu.grasscutter.net.proto._NormalStuffOuterClass._NormalStuffOrBuilder> normalStuffBuilder_;
@@ -1288,6 +1084,210 @@ public final class CMPMKGIAPCHOuterClass {
         onChanged();;
         return equipStuffBuilder_;
       }
+
+      private emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase kDPEFOBKJON_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> kDPEFOBKJONBuilder_;
+      /**
+       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+       * @return Whether the kDPEFOBKJON field is set.
+       */
+      public boolean hasKDPEFOBKJON() {
+        return kDPEFOBKJONBuilder_ != null || kDPEFOBKJON_ != null;
+      }
+      /**
+       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+       * @return The kDPEFOBKJON.
+       */
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase getKDPEFOBKJON() {
+        if (kDPEFOBKJONBuilder_ == null) {
+          return kDPEFOBKJON_ == null ? emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : kDPEFOBKJON_;
+        } else {
+          return kDPEFOBKJONBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+       */
+      public Builder setKDPEFOBKJON(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
+        if (kDPEFOBKJONBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          kDPEFOBKJON_ = value;
+          onChanged();
+        } else {
+          kDPEFOBKJONBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+       */
+      public Builder setKDPEFOBKJON(
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder builderForValue) {
+        if (kDPEFOBKJONBuilder_ == null) {
+          kDPEFOBKJON_ = builderForValue.build();
+          onChanged();
+        } else {
+          kDPEFOBKJONBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+       */
+      public Builder mergeKDPEFOBKJON(emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase value) {
+        if (kDPEFOBKJONBuilder_ == null) {
+          if (kDPEFOBKJON_ != null) {
+            kDPEFOBKJON_ =
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.newBuilder(kDPEFOBKJON_).mergeFrom(value).buildPartial();
+          } else {
+            kDPEFOBKJON_ = value;
+          }
+          onChanged();
+        } else {
+          kDPEFOBKJONBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+       */
+      public Builder clearKDPEFOBKJON() {
+        if (kDPEFOBKJONBuilder_ == null) {
+          kDPEFOBKJON_ = null;
+          onChanged();
+        } else {
+          kDPEFOBKJON_ = null;
+          kDPEFOBKJONBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+       */
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder getKDPEFOBKJONBuilder() {
+        
+        onChanged();
+        return getKDPEFOBKJONFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+       */
+      public emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder getKDPEFOBKJONOrBuilder() {
+        if (kDPEFOBKJONBuilder_ != null) {
+          return kDPEFOBKJONBuilder_.getMessageOrBuilder();
+        } else {
+          return kDPEFOBKJON_ == null ?
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.getDefaultInstance() : kDPEFOBKJON_;
+        }
+      }
+      /**
+       * <code>._CurrentPhase KDPEFOBKJON = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder> 
+          getKDPEFOBKJONFieldBuilder() {
+        if (kDPEFOBKJONBuilder_ == null) {
+          kDPEFOBKJONBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhase.Builder, emu.grasscutter.net.proto._CurrentPhaseOuterClass._CurrentPhaseOrBuilder>(
+                  getKDPEFOBKJON(),
+                  getParentForChildren(),
+                  isClean());
+          kDPEFOBKJON_ = null;
+        }
+        return kDPEFOBKJONBuilder_;
+      }
+
+      private int oHBGNHAAMIB_ = 0;
+      /**
+       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
+       * @return The enum numeric value on the wire for oHBGNHAAMIB.
+       */
+      @java.lang.Override public int getOHBGNHAAMIBValue() {
+        return oHBGNHAAMIB_;
+      }
+      /**
+       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
+       * @param value The enum numeric value on the wire for oHBGNHAAMIB to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOHBGNHAAMIBValue(int value) {
+        
+        oHBGNHAAMIB_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
+       * @return The oHBGNHAAMIB.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN getOHBGNHAAMIB() {
+        @SuppressWarnings("deprecation")
+        emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN result = emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN.valueOf(oHBGNHAAMIB_);
+        return result == null ? emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN.UNRECOGNIZED : result;
+      }
+      /**
+       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
+       * @param value The oHBGNHAAMIB to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOHBGNHAAMIB(emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.LIBEGKHPMPN value) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        
+        oHBGNHAAMIB_ = value.getNumber();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>.LIBEGKHPMPN OHBGNHAAMIB = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOHBGNHAAMIB() {
+        
+        oHBGNHAAMIB_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int guid_ ;
+      /**
+       * <code>uint32 guid = 3;</code>
+       * @return The guid.
+       */
+      @java.lang.Override
+      public int getGuid() {
+        return guid_;
+      }
+      /**
+       * <code>uint32 guid = 3;</code>
+       * @param value The guid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGuid(int value) {
+        
+        guid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 guid = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGuid() {
+        
+        guid_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1357,11 +1357,11 @@ public final class CMPMKGIAPCHOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CMPMKGIAPCH.proto\032\021LIBEGKHPMPN.proto\032\023" +
       "_CurrentPhase.proto\032\021_EquipStuff.proto\032\022" +
-      "_NormalStuff.proto\"\271\001\n\013CMPMKGIAPCH\022#\n\013KD" +
-      "PEFOBKJON\030\001 \001(\0132\016._CurrentPhase\022!\n\013OHBGN" +
-      "HAAMIB\030\002 \001(\0162\014.LIBEGKHPMPN\022\014\n\004guid\030\003 \001(\r" +
-      "\022%\n\014normal_stuff\030d \001(\0132\r._NormalStuffH\000\022" +
-      "#\n\013equip_stuff\030e \001(\0132\014._EquipStuffH\000B\010\n\006" +
+      "_NormalStuff.proto\"\271\001\n\013CMPMKGIAPCH\022%\n\014no" +
+      "rmal_stuff\030d \001(\0132\r._NormalStuffH\000\022#\n\013equ" +
+      "ip_stuff\030e \001(\0132\014._EquipStuffH\000\022#\n\013KDPEFO" +
+      "BKJON\030\001 \001(\0132\016._CurrentPhase\022!\n\013OHBGNHAAM" +
+      "IB\030\002 \001(\0162\014.LIBEGKHPMPN\022\014\n\004guid\030\003 \001(\rB\010\n\006" +
       "detailB2\n\031emu.grasscutter.net.protoB\025CMP" +
       "MKGIAPCHOuterClassb\006proto3"
     };
@@ -1378,7 +1378,7 @@ public final class CMPMKGIAPCHOuterClass {
     internal_static_CMPMKGIAPCH_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CMPMKGIAPCH_descriptor,
-        new java.lang.String[] { "KDPEFOBKJON", "OHBGNHAAMIB", "Guid", "NormalStuff", "EquipStuff", "Detail", });
+        new java.lang.String[] { "NormalStuff", "EquipStuff", "KDPEFOBKJON", "OHBGNHAAMIB", "Guid", "Detail", });
     emu.grasscutter.net.proto.LIBEGKHPMPNOuterClass.getDescriptor();
     emu.grasscutter.net.proto._CurrentPhaseOuterClass.getDescriptor();
     emu.grasscutter.net.proto._EquipStuffOuterClass.getDescriptor();

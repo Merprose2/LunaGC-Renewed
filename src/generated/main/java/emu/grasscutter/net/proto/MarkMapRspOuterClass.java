@@ -49,10 +49,6 @@ public final class MarkMapRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 21638
-   * </pre>
-   *
    * Protobuf type {@code MarkMapRsp}
    */
   public static final class MarkMapRsp extends
@@ -368,10 +364,6 @@ public final class MarkMapRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21638
-     * </pre>
-     *
      * Protobuf type {@code MarkMapRsp}
      */
     public static final class Builder extends

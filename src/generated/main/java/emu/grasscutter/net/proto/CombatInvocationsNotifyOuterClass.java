@@ -49,10 +49,6 @@ public final class CombatInvocationsNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 1185
-   * </pre>
-   *
    * Protobuf type {@code CombatInvocationsNotify}
    */
   public static final class CombatInvocationsNotify extends
@@ -368,10 +364,6 @@ public final class CombatInvocationsNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1185
-     * </pre>
-     *
      * Protobuf type {@code CombatInvocationsNotify}
      */
     public static final class Builder extends

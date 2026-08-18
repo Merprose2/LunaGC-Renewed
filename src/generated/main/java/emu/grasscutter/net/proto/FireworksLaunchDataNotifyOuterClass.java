@@ -49,10 +49,6 @@ public final class FireworksLaunchDataNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 25769
-   * </pre>
-   *
    * Protobuf type {@code FireworksLaunchDataNotify}
    */
   public static final class FireworksLaunchDataNotify extends
@@ -368,10 +364,6 @@ public final class FireworksLaunchDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25769
-     * </pre>
-     *
      * Protobuf type {@code FireworksLaunchDataNotify}
      */
     public static final class Builder extends

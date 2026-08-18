@@ -49,10 +49,6 @@ public final class GetMapAreaRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 9836
-   * </pre>
-   *
    * Protobuf type {@code GetMapAreaRsp}
    */
   public static final class GetMapAreaRsp extends
@@ -368,10 +364,6 @@ public final class GetMapAreaRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9836
-     * </pre>
-     *
      * Protobuf type {@code GetMapAreaRsp}
      */
     public static final class Builder extends

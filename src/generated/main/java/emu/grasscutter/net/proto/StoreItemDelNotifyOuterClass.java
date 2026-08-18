@@ -47,10 +47,6 @@ public final class StoreItemDelNotifyOuterClass {
     long getGuidList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 27983
-   * </pre>
-   *
    * Protobuf type {@code StoreItemDelNotify}
    */
   public static final class StoreItemDelNotify extends
@@ -390,10 +386,6 @@ public final class StoreItemDelNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27983
-     * </pre>
-     *
      * Protobuf type {@code StoreItemDelNotify}
      */
     public static final class Builder extends

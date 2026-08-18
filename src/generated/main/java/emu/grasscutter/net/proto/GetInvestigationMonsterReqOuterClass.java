@@ -42,10 +42,6 @@ public final class GetInvestigationMonsterReqOuterClass {
     boolean getIsForMark();
   }
   /**
-   * <pre>
-   * CmdID: 24395
-   * </pre>
-   *
    * Protobuf type {@code GetInvestigationMonsterReq}
    */
   public static final class GetInvestigationMonsterReq extends
@@ -377,10 +373,6 @@ public final class GetInvestigationMonsterReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24395
-     * </pre>
-     *
      * Protobuf type {@code GetInvestigationMonsterReq}
      */
     public static final class Builder extends

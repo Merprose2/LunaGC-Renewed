@@ -43,10 +43,6 @@ public final class NpcTalkRspOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 20956
-   * </pre>
-   *
    * Protobuf type {@code NpcTalkRsp}
    */
   public static final class NpcTalkRsp extends
@@ -376,10 +372,6 @@ public final class NpcTalkRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20956
-     * </pre>
-     *
      * Protobuf type {@code NpcTalkRsp}
      */
     public static final class Builder extends

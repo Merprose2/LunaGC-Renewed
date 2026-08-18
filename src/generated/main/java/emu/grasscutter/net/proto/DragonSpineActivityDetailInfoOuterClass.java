@@ -19,10 +19,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 IKKMKCFOINJ = 4;</code>
-     * @return The iKKMKCFOINJ.
+     * <code>uint32 dnodgcmpoan = 4;</code>
+     * @return The dnodgcmpoan.
      */
-    int getIKKMKCFOINJ();
+    int getDnodgcmpoan();
 
     /**
      * <code>uint32 ABBFOLNPGNE = 6;</code>
@@ -127,7 +127,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
               break;
             case 32: {
 
-              iKKMKCFOINJ_ = input.readUInt32();
+              dnodgcmpoan_ = input.readUInt32();
               break;
             }
             case 48: {
@@ -199,15 +199,15 @@ public final class DragonSpineActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo.class, emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo.Builder.class);
     }
 
-    public static final int IKKMKCFOINJ_FIELD_NUMBER = 4;
-    private int iKKMKCFOINJ_;
+    public static final int DNODGCMPOAN_FIELD_NUMBER = 4;
+    private int dnodgcmpoan_;
     /**
-     * <code>uint32 IKKMKCFOINJ = 4;</code>
-     * @return The iKKMKCFOINJ.
+     * <code>uint32 dnodgcmpoan = 4;</code>
+     * @return The dnodgcmpoan.
      */
     @java.lang.Override
-    public int getIKKMKCFOINJ() {
-      return iKKMKCFOINJ_;
+    public int getDnodgcmpoan() {
+      return dnodgcmpoan_;
     }
 
     public static final int ABBFOLNPGNE_FIELD_NUMBER = 6;
@@ -319,8 +319,8 @@ public final class DragonSpineActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (iKKMKCFOINJ_ != 0) {
-        output.writeUInt32(4, iKKMKCFOINJ_);
+      if (dnodgcmpoan_ != 0) {
+        output.writeUInt32(4, dnodgcmpoan_);
       }
       if (aBBFOLNPGNE_ != 0) {
         output.writeUInt32(6, aBBFOLNPGNE_);
@@ -349,9 +349,9 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (iKKMKCFOINJ_ != 0) {
+      if (dnodgcmpoan_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, iKKMKCFOINJ_);
+          .computeUInt32Size(4, dnodgcmpoan_);
       }
       if (aBBFOLNPGNE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -392,8 +392,8 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo other = (emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo) obj;
 
-      if (getIKKMKCFOINJ()
-          != other.getIKKMKCFOINJ()) return false;
+      if (getDnodgcmpoan()
+          != other.getDnodgcmpoan()) return false;
       if (getABBFOLNPGNE()
           != other.getABBFOLNPGNE()) return false;
       if (getIsContentClosed()
@@ -417,8 +417,8 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + IKKMKCFOINJ_FIELD_NUMBER;
-      hash = (53 * hash) + getIKKMKCFOINJ();
+      hash = (37 * hash) + DNODGCMPOAN_FIELD_NUMBER;
+      hash = (53 * hash) + getDnodgcmpoan();
       hash = (37 * hash) + ABBFOLNPGNE_FIELD_NUMBER;
       hash = (53 * hash) + getABBFOLNPGNE();
       hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
@@ -568,7 +568,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        iKKMKCFOINJ_ = 0;
+        dnodgcmpoan_ = 0;
 
         aBBFOLNPGNE_ = 0;
 
@@ -613,7 +613,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo result = new emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        result.iKKMKCFOINJ_ = iKKMKCFOINJ_;
+        result.dnodgcmpoan_ = dnodgcmpoan_;
         result.aBBFOLNPGNE_ = aBBFOLNPGNE_;
         result.isContentClosed_ = isContentClosed_;
         result.contentFinishTime_ = contentFinishTime_;
@@ -676,8 +676,8 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo.getDefaultInstance()) return this;
-        if (other.getIKKMKCFOINJ() != 0) {
-          setIKKMKCFOINJ(other.getIKKMKCFOINJ());
+        if (other.getDnodgcmpoan() != 0) {
+          setDnodgcmpoan(other.getDnodgcmpoan());
         }
         if (other.getABBFOLNPGNE() != 0) {
           setABBFOLNPGNE(other.getABBFOLNPGNE());
@@ -750,33 +750,33 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private int iKKMKCFOINJ_ ;
+      private int dnodgcmpoan_ ;
       /**
-       * <code>uint32 IKKMKCFOINJ = 4;</code>
-       * @return The iKKMKCFOINJ.
+       * <code>uint32 dnodgcmpoan = 4;</code>
+       * @return The dnodgcmpoan.
        */
       @java.lang.Override
-      public int getIKKMKCFOINJ() {
-        return iKKMKCFOINJ_;
+      public int getDnodgcmpoan() {
+        return dnodgcmpoan_;
       }
       /**
-       * <code>uint32 IKKMKCFOINJ = 4;</code>
-       * @param value The iKKMKCFOINJ to set.
+       * <code>uint32 dnodgcmpoan = 4;</code>
+       * @param value The dnodgcmpoan to set.
        * @return This builder for chaining.
        */
-      public Builder setIKKMKCFOINJ(int value) {
+      public Builder setDnodgcmpoan(int value) {
         
-        iKKMKCFOINJ_ = value;
+        dnodgcmpoan_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 IKKMKCFOINJ = 4;</code>
+       * <code>uint32 dnodgcmpoan = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIKKMKCFOINJ() {
+      public Builder clearDnodgcmpoan() {
         
-        iKKMKCFOINJ_ = 0;
+        dnodgcmpoan_ = 0;
         onChanged();
         return this;
       }
@@ -1244,7 +1244,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n#DragonSpineActivityDetailInfo.proto\032\034D" +
       "ragonSpineChapterInfo.proto\"\350\001\n\035DragonSp" +
-      "ineActivityDetailInfo\022\023\n\013IKKMKCFOINJ\030\004 \001" +
+      "ineActivityDetailInfo\022\023\n\013dnodgcmpoan\030\004 \001" +
       "(\r\022\023\n\013ABBFOLNPGNE\030\006 \001(\r\022\031\n\021is_content_cl" +
       "osed\030\007 \001(\010\022\033\n\023content_finish_time\030\010 \001(\r\022" +
       "\034\n\024weapon_enhance_level\030\n \001(\r\022\023\n\013GNADEDJ" +
@@ -1263,7 +1263,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
     internal_static_DragonSpineActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DragonSpineActivityDetailInfo_descriptor,
-        new java.lang.String[] { "IKKMKCFOINJ", "ABBFOLNPGNE", "IsContentClosed", "ContentFinishTime", "WeaponEnhanceLevel", "GNADEDJKAJM", "ChapterInfoList", });
+        new java.lang.String[] { "Dnodgcmpoan", "ABBFOLNPGNE", "IsContentClosed", "ContentFinishTime", "WeaponEnhanceLevel", "GNADEDJKAJM", "ChapterInfoList", });
     emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.getDescriptor();
   }
 

@@ -82,10 +82,6 @@ public final class BattlePassAllDataNotifyOuterClass {
     boolean getIsViewed();
   }
   /**
-   * <pre>
-   * CmdID: 27518
-   * </pre>
-   *
    * Protobuf type {@code BattlePassAllDataNotify}
    */
   public static final class BattlePassAllDataNotify extends
@@ -540,10 +536,6 @@ public final class BattlePassAllDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27518
-     * </pre>
-     *
      * Protobuf type {@code BattlePassAllDataNotify}
      */
     public static final class Builder extends

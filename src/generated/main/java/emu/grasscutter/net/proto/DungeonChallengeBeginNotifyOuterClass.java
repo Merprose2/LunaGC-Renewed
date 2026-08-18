@@ -77,10 +77,6 @@ public final class DungeonChallengeBeginNotifyOuterClass {
     int getParamList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 26930
-   * </pre>
-   *
    * Protobuf type {@code DungeonChallengeBeginNotify}
    */
   public static final class DungeonChallengeBeginNotify extends
@@ -572,10 +568,6 @@ public final class DungeonChallengeBeginNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26930
-     * </pre>
-     *
      * Protobuf type {@code DungeonChallengeBeginNotify}
      */
     public static final class Builder extends

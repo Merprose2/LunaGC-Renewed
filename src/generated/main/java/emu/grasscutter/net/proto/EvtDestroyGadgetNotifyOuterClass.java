@@ -36,10 +36,6 @@ public final class EvtDestroyGadgetNotifyOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 7100
-   * </pre>
-   *
    * Protobuf type {@code EvtDestroyGadgetNotify}
    */
   public static final class EvtDestroyGadgetNotify extends
@@ -324,10 +320,6 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7100
-     * </pre>
-     *
      * Protobuf type {@code EvtDestroyGadgetNotify}
      */
     public static final class Builder extends

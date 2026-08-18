@@ -65,10 +65,6 @@ public final class AvatarWearFlycloakRspOuterClass {
     long getMNCEBDCODIE(int index);
   }
   /**
-   * <pre>
-   * CmdID: 4578
-   * </pre>
-   *
    * Protobuf type {@code AvatarWearFlycloakRsp}
    */
   public static final class AvatarWearFlycloakRsp extends
@@ -506,10 +502,6 @@ public final class AvatarWearFlycloakRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4578
-     * </pre>
-     *
      * Protobuf type {@code AvatarWearFlycloakRsp}
      */
     public static final class Builder extends

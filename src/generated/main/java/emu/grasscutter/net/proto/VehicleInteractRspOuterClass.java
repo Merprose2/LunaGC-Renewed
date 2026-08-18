@@ -110,10 +110,6 @@ public final class VehicleInteractRspOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getVehiclePosOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 26293
-   * </pre>
-   *
    * Protobuf type {@code VehicleInteractRsp}
    */
   public static final class VehicleInteractRsp extends
@@ -680,10 +676,6 @@ public final class VehicleInteractRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26293
-     * </pre>
-     *
      * Protobuf type {@code VehicleInteractRsp}
      */
     public static final class Builder extends

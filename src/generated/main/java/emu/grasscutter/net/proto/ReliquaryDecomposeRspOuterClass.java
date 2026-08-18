@@ -42,10 +42,6 @@ public final class ReliquaryDecomposeRspOuterClass {
     long getGuidList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 1730
-   * </pre>
-   *
    * Protobuf type {@code ReliquaryDecomposeRsp}
    */
   public static final class ReliquaryDecomposeRsp extends
@@ -376,10 +372,6 @@ public final class ReliquaryDecomposeRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1730
-     * </pre>
-     *
      * Protobuf type {@code ReliquaryDecomposeRsp}
      */
     public static final class Builder extends

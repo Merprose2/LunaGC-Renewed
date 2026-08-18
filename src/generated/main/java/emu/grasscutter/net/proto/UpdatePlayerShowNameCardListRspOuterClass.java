@@ -42,10 +42,6 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 28596
-   * </pre>
-   *
    * Protobuf type {@code UpdatePlayerShowNameCardListRsp}
    */
   public static final class UpdatePlayerShowNameCardListRsp extends
@@ -376,10 +372,6 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28596
-     * </pre>
-     *
      * Protobuf type {@code UpdatePlayerShowNameCardListRsp}
      */
     public static final class Builder extends

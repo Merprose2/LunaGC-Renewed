@@ -37,10 +37,6 @@ public final class ChangeAvatarRspOuterClass {
     long getCurGuid();
   }
   /**
-   * <pre>
-   * CmdID: 119
-   * </pre>
-   *
    * Protobuf type {@code ChangeAvatarRsp}
    */
   public static final class ChangeAvatarRsp extends
@@ -344,10 +340,6 @@ public final class ChangeAvatarRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 119
-     * </pre>
-     *
      * Protobuf type {@code ChangeAvatarRsp}
      */
     public static final class Builder extends

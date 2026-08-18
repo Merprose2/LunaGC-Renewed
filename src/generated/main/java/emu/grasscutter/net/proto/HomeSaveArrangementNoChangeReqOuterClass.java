@@ -25,10 +25,6 @@ public final class HomeSaveArrangementNoChangeReqOuterClass {
     int getSceneId();
   }
   /**
-   * <pre>
-   * CmdID: 27352
-   * </pre>
-   *
    * Protobuf type {@code HomeSaveArrangementNoChangeReq}
    */
   public static final class HomeSaveArrangementNoChangeReq extends
@@ -277,10 +273,6 @@ public final class HomeSaveArrangementNoChangeReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27352
-     * </pre>
-     *
      * Protobuf type {@code HomeSaveArrangementNoChangeReq}
      */
     public static final class Builder extends

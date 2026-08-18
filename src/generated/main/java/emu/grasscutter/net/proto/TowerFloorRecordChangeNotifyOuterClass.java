@@ -49,10 +49,6 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 1352
-   * </pre>
-   *
    * Protobuf type {@code TowerFloorRecordChangeNotify}
    */
   public static final class TowerFloorRecordChangeNotify extends
@@ -369,10 +365,6 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1352
-     * </pre>
-     *
      * Protobuf type {@code TowerFloorRecordChangeNotify}
      */
     public static final class Builder extends

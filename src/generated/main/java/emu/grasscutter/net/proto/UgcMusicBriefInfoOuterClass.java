@@ -73,10 +73,10 @@ public final class UgcMusicBriefInfoOuterClass {
     long getUgcGuid();
 
     /**
-     * <code>uint32 CDEMBFGJAPH = 9;</code>
-     * @return The cDEMBFGJAPH.
+     * <code>uint32 jbgofomfahf = 9;</code>
+     * @return The jbgofomfahf.
      */
-    int getCDEMBFGJAPH();
+    int getJbgofomfahf();
 
     /**
      * <code>uint32 LDDCHDFKLGO = 10;</code>
@@ -309,7 +309,7 @@ public final class UgcMusicBriefInfoOuterClass {
             }
             case 72: {
 
-              cDEMBFGJAPH_ = input.readUInt32();
+              jbgofomfahf_ = input.readUInt32();
               break;
             }
             case 80: {
@@ -604,15 +604,15 @@ public final class UgcMusicBriefInfoOuterClass {
       return ugcGuid_;
     }
 
-    public static final int CDEMBFGJAPH_FIELD_NUMBER = 9;
-    private int cDEMBFGJAPH_;
+    public static final int JBGOFOMFAHF_FIELD_NUMBER = 9;
+    private int jbgofomfahf_;
     /**
-     * <code>uint32 CDEMBFGJAPH = 9;</code>
-     * @return The cDEMBFGJAPH.
+     * <code>uint32 jbgofomfahf = 9;</code>
+     * @return The jbgofomfahf.
      */
     @java.lang.Override
-    public int getCDEMBFGJAPH() {
-      return cDEMBFGJAPH_;
+    public int getJbgofomfahf() {
+      return jbgofomfahf_;
     }
 
     public static final int LDDCHDFKLGO_FIELD_NUMBER = 10;
@@ -896,8 +896,8 @@ public final class UgcMusicBriefInfoOuterClass {
       if (ugcGuid_ != 0L) {
         output.writeUInt64(8, ugcGuid_);
       }
-      if (cDEMBFGJAPH_ != 0) {
-        output.writeUInt32(9, cDEMBFGJAPH_);
+      if (jbgofomfahf_ != 0) {
+        output.writeUInt32(9, jbgofomfahf_);
       }
       if (lDDCHDFKLGO_ != 0) {
         output.writeUInt32(10, lDDCHDFKLGO_);
@@ -999,9 +999,9 @@ public final class UgcMusicBriefInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(8, ugcGuid_);
       }
-      if (cDEMBFGJAPH_ != 0) {
+      if (jbgofomfahf_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, cDEMBFGJAPH_);
+          .computeUInt32Size(9, jbgofomfahf_);
       }
       if (lDDCHDFKLGO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1128,8 +1128,8 @@ public final class UgcMusicBriefInfoOuterClass {
           != other.getSaveTime()) return false;
       if (getUgcGuid()
           != other.getUgcGuid()) return false;
-      if (getCDEMBFGJAPH()
-          != other.getCDEMBFGJAPH()) return false;
+      if (getJbgofomfahf()
+          != other.getJbgofomfahf()) return false;
       if (getLDDCHDFKLGO()
           != other.getLDDCHDFKLGO()) return false;
       if (getIsChangedAfterPublish()
@@ -1195,8 +1195,8 @@ public final class UgcMusicBriefInfoOuterClass {
       hash = (37 * hash) + UGC_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getUgcGuid());
-      hash = (37 * hash) + CDEMBFGJAPH_FIELD_NUMBER;
-      hash = (53 * hash) + getCDEMBFGJAPH();
+      hash = (37 * hash) + JBGOFOMFAHF_FIELD_NUMBER;
+      hash = (53 * hash) + getJbgofomfahf();
       hash = (37 * hash) + LDDCHDFKLGO_FIELD_NUMBER;
       hash = (53 * hash) + getLDDCHDFKLGO();
       hash = (37 * hash) + IS_CHANGED_AFTER_PUBLISH_FIELD_NUMBER;
@@ -1389,7 +1389,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
         ugcGuid_ = 0L;
 
-        cDEMBFGJAPH_ = 0;
+        jbgofomfahf_ = 0;
 
         lDDCHDFKLGO_ = 0;
 
@@ -1462,7 +1462,7 @@ public final class UgcMusicBriefInfoOuterClass {
         result.musicId_ = musicId_;
         result.saveTime_ = saveTime_;
         result.ugcGuid_ = ugcGuid_;
-        result.cDEMBFGJAPH_ = cDEMBFGJAPH_;
+        result.jbgofomfahf_ = jbgofomfahf_;
         result.lDDCHDFKLGO_ = lDDCHDFKLGO_;
         result.isChangedAfterPublish_ = isChangedAfterPublish_;
         result.isPublished_ = isPublished_;
@@ -1568,8 +1568,8 @@ public final class UgcMusicBriefInfoOuterClass {
         if (other.getUgcGuid() != 0L) {
           setUgcGuid(other.getUgcGuid());
         }
-        if (other.getCDEMBFGJAPH() != 0) {
-          setCDEMBFGJAPH(other.getCDEMBFGJAPH());
+        if (other.getJbgofomfahf() != 0) {
+          setJbgofomfahf(other.getJbgofomfahf());
         }
         if (other.getLDDCHDFKLGO() != 0) {
           setLDDCHDFKLGO(other.getLDDCHDFKLGO());
@@ -1963,33 +1963,33 @@ public final class UgcMusicBriefInfoOuterClass {
         return this;
       }
 
-      private int cDEMBFGJAPH_ ;
+      private int jbgofomfahf_ ;
       /**
-       * <code>uint32 CDEMBFGJAPH = 9;</code>
-       * @return The cDEMBFGJAPH.
+       * <code>uint32 jbgofomfahf = 9;</code>
+       * @return The jbgofomfahf.
        */
       @java.lang.Override
-      public int getCDEMBFGJAPH() {
-        return cDEMBFGJAPH_;
+      public int getJbgofomfahf() {
+        return jbgofomfahf_;
       }
       /**
-       * <code>uint32 CDEMBFGJAPH = 9;</code>
-       * @param value The cDEMBFGJAPH to set.
+       * <code>uint32 jbgofomfahf = 9;</code>
+       * @param value The jbgofomfahf to set.
        * @return This builder for chaining.
        */
-      public Builder setCDEMBFGJAPH(int value) {
+      public Builder setJbgofomfahf(int value) {
         
-        cDEMBFGJAPH_ = value;
+        jbgofomfahf_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 CDEMBFGJAPH = 9;</code>
+       * <code>uint32 jbgofomfahf = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCDEMBFGJAPH() {
+      public Builder clearJbgofomfahf() {
         
-        cDEMBFGJAPH_ = 0;
+        jbgofomfahf_ = 0;
         onChanged();
         return this;
       }
@@ -2793,8 +2793,8 @@ public final class UgcMusicBriefInfoOuterClass {
       "core\030\001 \001(\r\022\030\n\020creator_nickname\030\002 \001(\t\022\027\n\017" +
       "is_psn_platform\030\003 \001(\010\022\017\n\007version\030\004 \001(\r\022\021" +
       "\n\tis_played\030\005 \001(\010\022\020\n\010music_id\030\006 \001(\r\022\021\n\ts" +
-      "ave_time\030\007 \001(\r\022\020\n\010ugc_guid\030\010 \001(\004\022\023\n\013CDEM" +
-      "BFGJAPH\030\t \001(\r\022\023\n\013LDDCHDFKLGO\030\n \001(\r\022 \n\030is" +
+      "ave_time\030\007 \001(\r\022\020\n\010ugc_guid\030\010 \001(\004\022\023\n\013jbgo" +
+      "fomfahf\030\t \001(\r\022\023\n\013LDDCHDFKLGO\030\n \001(\r\022 \n\030is" +
       "_changed_after_publish\030\013 \001(\010\022\024\n\014is_publi" +
       "shed\030\014 \001(\010\022\023\n\013KFHNNAIABLG\030\r \001(\r\022\024\n\014publi" +
       "sh_time\030\016 \001(\r\022\034\n\024import_from_ugc_guid\030\017 " +
@@ -2817,7 +2817,7 @@ public final class UgcMusicBriefInfoOuterClass {
     internal_static_UgcMusicBriefInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UgcMusicBriefInfo_descriptor,
-        new java.lang.String[] { "MaxScore", "CreatorNickname", "IsPsnPlatform", "Version", "IsPlayed", "MusicId", "SaveTime", "UgcGuid", "CDEMBFGJAPH", "LDDCHDFKLGO", "IsChangedAfterPublish", "IsPublished", "KFHNNAIABLG", "PublishTime", "ImportFromUgcGuid", "BeatmapCategoryIdList", "CCJOGFPEKID", "Social", "HHBOBIJKFPJ", "PGHGCGNLNPG", "IIPJKAOBBBD", "MOIDOMCHPFG", "COAEPKLMKPE", "NLCMMJILBKJ", "MLAJCIMGINA", });
+        new java.lang.String[] { "MaxScore", "CreatorNickname", "IsPsnPlatform", "Version", "IsPlayed", "MusicId", "SaveTime", "UgcGuid", "Jbgofomfahf", "LDDCHDFKLGO", "IsChangedAfterPublish", "IsPublished", "KFHNNAIABLG", "PublishTime", "ImportFromUgcGuid", "BeatmapCategoryIdList", "CCJOGFPEKID", "Social", "HHBOBIJKFPJ", "PGHGCGNLNPG", "IIPJKAOBBBD", "MOIDOMCHPFG", "COAEPKLMKPE", "NLCMMJILBKJ", "MLAJCIMGINA", });
     emu.grasscutter.net.proto._MusicGameSocialOuterClass.getDescriptor();
   }
 

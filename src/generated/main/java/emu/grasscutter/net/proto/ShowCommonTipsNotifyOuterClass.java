@@ -49,10 +49,6 @@ public final class ShowCommonTipsNotifyOuterClass {
     int getCloseTime();
   }
   /**
-   * <pre>
-   * CmdID: 22835
-   * </pre>
-   *
    * Protobuf type {@code ShowCommonTipsNotify}
    */
   public static final class ShowCommonTipsNotify extends
@@ -411,10 +407,6 @@ public final class ShowCommonTipsNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22835
-     * </pre>
-     *
      * Protobuf type {@code ShowCommonTipsNotify}
      */
     public static final class Builder extends

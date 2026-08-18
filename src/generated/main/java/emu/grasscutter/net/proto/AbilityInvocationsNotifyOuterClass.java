@@ -43,10 +43,6 @@ public final class AbilityInvocationsNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 20355
-   * </pre>
-   *
    * Protobuf type {@code AbilityInvocationsNotify}
    */
   public static final class AbilityInvocationsNotify extends
@@ -335,10 +331,6 @@ public final class AbilityInvocationsNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20355
-     * </pre>
-     *
      * Protobuf type {@code AbilityInvocationsNotify}
      */
     public static final class Builder extends

@@ -19,48 +19,31 @@ public final class GetProfilePictureDataRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
-     * @return A list containing the bHAOIFIIFNE.
+     * <code>repeated uint32 special_profile_picture_list = 4;</code>
+     * @return A list containing the specialProfilePictureList.
      */
-    java.util.List<java.lang.Integer> getBHAOIFIIFNEList();
+    java.util.List<java.lang.Integer> getSpecialProfilePictureListList();
     /**
-     * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
-     * @return The count of bHAOIFIIFNE.
+     * <code>repeated uint32 special_profile_picture_list = 4;</code>
+     * @return The count of specialProfilePictureList.
      */
-    int getBHAOIFIIFNECount();
+    int getSpecialProfilePictureListCount();
     /**
-     * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
+     * <code>repeated uint32 special_profile_picture_list = 4;</code>
      * @param index The index of the element to return.
-     * @return The bHAOIFIIFNE at the given index.
+     * @return The specialProfilePictureList at the given index.
      */
-    int getBHAOIFIIFNE(int index);
+    int getSpecialProfilePictureList(int index);
 
     /**
-     * <code>int32 retcode = 10;</code>
+     * <code>int32 retcode = 11;</code>
      * @return The retcode.
      */
     int getRetcode();
-
-    /**
-     * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-     * @return A list containing the nHMKPOIKDMP.
-     */
-    java.util.List<java.lang.Integer> getNHMKPOIKDMPList();
-    /**
-     * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-     * @return The count of nHMKPOIKDMP.
-     */
-    int getNHMKPOIKDMPCount();
-    /**
-     * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-     * @param index The index of the element to return.
-     * @return The nHMKPOIKDMP at the given index.
-     */
-    int getNHMKPOIKDMP(int index);
   }
   /**
    * <pre>
-   * CmdID: 20816
+   * CmdId: 7323
    * </pre>
    *
    * Protobuf type {@code GetProfilePictureDataRsp}
@@ -75,8 +58,7 @@ public final class GetProfilePictureDataRspOuterClass {
       super(builder);
     }
     private GetProfilePictureDataRsp() {
-      bHAOIFIIFNE_ = emptyIntList();
-      nHMKPOIKDMP_ = emptyIntList();
+      specialProfilePictureList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -110,51 +92,30 @@ public final class GetProfilePictureDataRspOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                bHAOIFIIFNE_ = newIntList();
+                specialProfilePictureList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              bHAOIFIIFNE_.addInt(input.readUInt32());
+              specialProfilePictureList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                bHAOIFIIFNE_ = newIntList();
+                specialProfilePictureList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                bHAOIFIIFNE_.addInt(input.readUInt32());
+                specialProfilePictureList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 80: {
-
-              retcode_ = input.readInt32();
               break;
             }
             case 88: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                nHMKPOIKDMP_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              nHMKPOIKDMP_.addInt(input.readUInt32());
-              break;
-            }
-            case 90: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                nHMKPOIKDMP_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                nHMKPOIKDMP_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
+
+              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -173,10 +134,7 @@ public final class GetProfilePictureDataRspOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          bHAOIFIIFNE_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          nHMKPOIKDMP_.makeImmutable(); // C
+          specialProfilePictureList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -195,72 +153,44 @@ public final class GetProfilePictureDataRspOuterClass {
               emu.grasscutter.net.proto.GetProfilePictureDataRspOuterClass.GetProfilePictureDataRsp.class, emu.grasscutter.net.proto.GetProfilePictureDataRspOuterClass.GetProfilePictureDataRsp.Builder.class);
     }
 
-    public static final int BHAOIFIIFNE_FIELD_NUMBER = 6;
-    private com.google.protobuf.Internal.IntList bHAOIFIIFNE_;
+    public static final int SPECIAL_PROFILE_PICTURE_LIST_FIELD_NUMBER = 4;
+    private com.google.protobuf.Internal.IntList specialProfilePictureList_;
     /**
-     * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
-     * @return A list containing the bHAOIFIIFNE.
+     * <code>repeated uint32 special_profile_picture_list = 4;</code>
+     * @return A list containing the specialProfilePictureList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getBHAOIFIIFNEList() {
-      return bHAOIFIIFNE_;
+        getSpecialProfilePictureListList() {
+      return specialProfilePictureList_;
     }
     /**
-     * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
-     * @return The count of bHAOIFIIFNE.
+     * <code>repeated uint32 special_profile_picture_list = 4;</code>
+     * @return The count of specialProfilePictureList.
      */
-    public int getBHAOIFIIFNECount() {
-      return bHAOIFIIFNE_.size();
+    public int getSpecialProfilePictureListCount() {
+      return specialProfilePictureList_.size();
     }
     /**
-     * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
+     * <code>repeated uint32 special_profile_picture_list = 4;</code>
      * @param index The index of the element to return.
-     * @return The bHAOIFIIFNE at the given index.
+     * @return The specialProfilePictureList at the given index.
      */
-    public int getBHAOIFIIFNE(int index) {
-      return bHAOIFIIFNE_.getInt(index);
+    public int getSpecialProfilePictureList(int index) {
+      return specialProfilePictureList_.getInt(index);
     }
-    private int bHAOIFIIFNEMemoizedSerializedSize = -1;
+    private int specialProfilePictureListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
     /**
-     * <code>int32 retcode = 10;</code>
+     * <code>int32 retcode = 11;</code>
      * @return The retcode.
      */
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
     }
-
-    public static final int NHMKPOIKDMP_FIELD_NUMBER = 11;
-    private com.google.protobuf.Internal.IntList nHMKPOIKDMP_;
-    /**
-     * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-     * @return A list containing the nHMKPOIKDMP.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getNHMKPOIKDMPList() {
-      return nHMKPOIKDMP_;
-    }
-    /**
-     * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-     * @return The count of nHMKPOIKDMP.
-     */
-    public int getNHMKPOIKDMPCount() {
-      return nHMKPOIKDMP_.size();
-    }
-    /**
-     * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-     * @param index The index of the element to return.
-     * @return The nHMKPOIKDMP at the given index.
-     */
-    public int getNHMKPOIKDMP(int index) {
-      return nHMKPOIKDMP_.getInt(index);
-    }
-    private int nHMKPOIKDMPMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -277,22 +207,15 @@ public final class GetProfilePictureDataRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getBHAOIFIIFNEList().size() > 0) {
-        output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(bHAOIFIIFNEMemoizedSerializedSize);
+      if (getSpecialProfilePictureListList().size() > 0) {
+        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(specialProfilePictureListMemoizedSerializedSize);
       }
-      for (int i = 0; i < bHAOIFIIFNE_.size(); i++) {
-        output.writeUInt32NoTag(bHAOIFIIFNE_.getInt(i));
+      for (int i = 0; i < specialProfilePictureList_.size(); i++) {
+        output.writeUInt32NoTag(specialProfilePictureList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
-      }
-      if (getNHMKPOIKDMPList().size() > 0) {
-        output.writeUInt32NoTag(90);
-        output.writeUInt32NoTag(nHMKPOIKDMPMemoizedSerializedSize);
-      }
-      for (int i = 0; i < nHMKPOIKDMP_.size(); i++) {
-        output.writeUInt32NoTag(nHMKPOIKDMP_.getInt(i));
+        output.writeInt32(11, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -305,35 +228,21 @@ public final class GetProfilePictureDataRspOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < bHAOIFIIFNE_.size(); i++) {
+        for (int i = 0; i < specialProfilePictureList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(bHAOIFIIFNE_.getInt(i));
+            .computeUInt32SizeNoTag(specialProfilePictureList_.getInt(i));
         }
         size += dataSize;
-        if (!getBHAOIFIIFNEList().isEmpty()) {
+        if (!getSpecialProfilePictureListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        bHAOIFIIFNEMemoizedSerializedSize = dataSize;
+        specialProfilePictureListMemoizedSerializedSize = dataSize;
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < nHMKPOIKDMP_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(nHMKPOIKDMP_.getInt(i));
-        }
-        size += dataSize;
-        if (!getNHMKPOIKDMPList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        nHMKPOIKDMPMemoizedSerializedSize = dataSize;
+          .computeInt32Size(11, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -350,12 +259,10 @@ public final class GetProfilePictureDataRspOuterClass {
       }
       emu.grasscutter.net.proto.GetProfilePictureDataRspOuterClass.GetProfilePictureDataRsp other = (emu.grasscutter.net.proto.GetProfilePictureDataRspOuterClass.GetProfilePictureDataRsp) obj;
 
-      if (!getBHAOIFIIFNEList()
-          .equals(other.getBHAOIFIIFNEList())) return false;
+      if (!getSpecialProfilePictureListList()
+          .equals(other.getSpecialProfilePictureListList())) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
-      if (!getNHMKPOIKDMPList()
-          .equals(other.getNHMKPOIKDMPList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -367,16 +274,12 @@ public final class GetProfilePictureDataRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getBHAOIFIIFNECount() > 0) {
-        hash = (37 * hash) + BHAOIFIIFNE_FIELD_NUMBER;
-        hash = (53 * hash) + getBHAOIFIIFNEList().hashCode();
+      if (getSpecialProfilePictureListCount() > 0) {
+        hash = (37 * hash) + SPECIAL_PROFILE_PICTURE_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getSpecialProfilePictureListList().hashCode();
       }
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
-      if (getNHMKPOIKDMPCount() > 0) {
-        hash = (37 * hash) + NHMKPOIKDMP_FIELD_NUMBER;
-        hash = (53 * hash) + getNHMKPOIKDMPList().hashCode();
-      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -474,7 +377,7 @@ public final class GetProfilePictureDataRspOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 20816
+     * CmdId: 7323
      * </pre>
      *
      * Protobuf type {@code GetProfilePictureDataRsp}
@@ -514,12 +417,10 @@ public final class GetProfilePictureDataRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        bHAOIFIIFNE_ = emptyIntList();
+        specialProfilePictureList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         retcode_ = 0;
 
-        nHMKPOIKDMP_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
 
@@ -548,16 +449,11 @@ public final class GetProfilePictureDataRspOuterClass {
         emu.grasscutter.net.proto.GetProfilePictureDataRspOuterClass.GetProfilePictureDataRsp result = new emu.grasscutter.net.proto.GetProfilePictureDataRspOuterClass.GetProfilePictureDataRsp(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          bHAOIFIIFNE_.makeImmutable();
+          specialProfilePictureList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.bHAOIFIIFNE_ = bHAOIFIIFNE_;
+        result.specialProfilePictureList_ = specialProfilePictureList_;
         result.retcode_ = retcode_;
-        if (((bitField0_ & 0x00000002) != 0)) {
-          nHMKPOIKDMP_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.nHMKPOIKDMP_ = nHMKPOIKDMP_;
         onBuilt();
         return result;
       }
@@ -606,28 +502,18 @@ public final class GetProfilePictureDataRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GetProfilePictureDataRspOuterClass.GetProfilePictureDataRsp other) {
         if (other == emu.grasscutter.net.proto.GetProfilePictureDataRspOuterClass.GetProfilePictureDataRsp.getDefaultInstance()) return this;
-        if (!other.bHAOIFIIFNE_.isEmpty()) {
-          if (bHAOIFIIFNE_.isEmpty()) {
-            bHAOIFIIFNE_ = other.bHAOIFIIFNE_;
+        if (!other.specialProfilePictureList_.isEmpty()) {
+          if (specialProfilePictureList_.isEmpty()) {
+            specialProfilePictureList_ = other.specialProfilePictureList_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureBHAOIFIIFNEIsMutable();
-            bHAOIFIIFNE_.addAll(other.bHAOIFIIFNE_);
+            ensureSpecialProfilePictureListIsMutable();
+            specialProfilePictureList_.addAll(other.specialProfilePictureList_);
           }
           onChanged();
         }
         if (other.getRetcode() != 0) {
           setRetcode(other.getRetcode());
-        }
-        if (!other.nHMKPOIKDMP_.isEmpty()) {
-          if (nHMKPOIKDMP_.isEmpty()) {
-            nHMKPOIKDMP_ = other.nHMKPOIKDMP_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureNHMKPOIKDMPIsMutable();
-            nHMKPOIKDMP_.addAll(other.nHMKPOIKDMP_);
-          }
-          onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -659,80 +545,80 @@ public final class GetProfilePictureDataRspOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList bHAOIFIIFNE_ = emptyIntList();
-      private void ensureBHAOIFIIFNEIsMutable() {
+      private com.google.protobuf.Internal.IntList specialProfilePictureList_ = emptyIntList();
+      private void ensureSpecialProfilePictureListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          bHAOIFIIFNE_ = mutableCopy(bHAOIFIIFNE_);
+          specialProfilePictureList_ = mutableCopy(specialProfilePictureList_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
-       * @return A list containing the bHAOIFIIFNE.
+       * <code>repeated uint32 special_profile_picture_list = 4;</code>
+       * @return A list containing the specialProfilePictureList.
        */
       public java.util.List<java.lang.Integer>
-          getBHAOIFIIFNEList() {
+          getSpecialProfilePictureListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(bHAOIFIIFNE_) : bHAOIFIIFNE_;
+                 java.util.Collections.unmodifiableList(specialProfilePictureList_) : specialProfilePictureList_;
       }
       /**
-       * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
-       * @return The count of bHAOIFIIFNE.
+       * <code>repeated uint32 special_profile_picture_list = 4;</code>
+       * @return The count of specialProfilePictureList.
        */
-      public int getBHAOIFIIFNECount() {
-        return bHAOIFIIFNE_.size();
+      public int getSpecialProfilePictureListCount() {
+        return specialProfilePictureList_.size();
       }
       /**
-       * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
+       * <code>repeated uint32 special_profile_picture_list = 4;</code>
        * @param index The index of the element to return.
-       * @return The bHAOIFIIFNE at the given index.
+       * @return The specialProfilePictureList at the given index.
        */
-      public int getBHAOIFIIFNE(int index) {
-        return bHAOIFIIFNE_.getInt(index);
+      public int getSpecialProfilePictureList(int index) {
+        return specialProfilePictureList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
+       * <code>repeated uint32 special_profile_picture_list = 4;</code>
        * @param index The index to set the value at.
-       * @param value The bHAOIFIIFNE to set.
+       * @param value The specialProfilePictureList to set.
        * @return This builder for chaining.
        */
-      public Builder setBHAOIFIIFNE(
+      public Builder setSpecialProfilePictureList(
           int index, int value) {
-        ensureBHAOIFIIFNEIsMutable();
-        bHAOIFIIFNE_.setInt(index, value);
+        ensureSpecialProfilePictureListIsMutable();
+        specialProfilePictureList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
-       * @param value The bHAOIFIIFNE to add.
+       * <code>repeated uint32 special_profile_picture_list = 4;</code>
+       * @param value The specialProfilePictureList to add.
        * @return This builder for chaining.
        */
-      public Builder addBHAOIFIIFNE(int value) {
-        ensureBHAOIFIIFNEIsMutable();
-        bHAOIFIIFNE_.addInt(value);
+      public Builder addSpecialProfilePictureList(int value) {
+        ensureSpecialProfilePictureListIsMutable();
+        specialProfilePictureList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
-       * @param values The bHAOIFIIFNE to add.
+       * <code>repeated uint32 special_profile_picture_list = 4;</code>
+       * @param values The specialProfilePictureList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllBHAOIFIIFNE(
+      public Builder addAllSpecialProfilePictureList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureBHAOIFIIFNEIsMutable();
+        ensureSpecialProfilePictureListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, bHAOIFIIFNE_);
+            values, specialProfilePictureList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 BHAOIFIIFNE = 6;</code>
+       * <code>repeated uint32 special_profile_picture_list = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBHAOIFIIFNE() {
-        bHAOIFIIFNE_ = emptyIntList();
+      public Builder clearSpecialProfilePictureList() {
+        specialProfilePictureList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
@@ -740,7 +626,7 @@ public final class GetProfilePictureDataRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 10;</code>
+       * <code>int32 retcode = 11;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -748,7 +634,7 @@ public final class GetProfilePictureDataRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 10;</code>
+       * <code>int32 retcode = 11;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -759,91 +645,12 @@ public final class GetProfilePictureDataRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 10;</code>
+       * <code>int32 retcode = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
         
         retcode_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList nHMKPOIKDMP_ = emptyIntList();
-      private void ensureNHMKPOIKDMPIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          nHMKPOIKDMP_ = mutableCopy(nHMKPOIKDMP_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-       * @return A list containing the nHMKPOIKDMP.
-       */
-      public java.util.List<java.lang.Integer>
-          getNHMKPOIKDMPList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(nHMKPOIKDMP_) : nHMKPOIKDMP_;
-      }
-      /**
-       * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-       * @return The count of nHMKPOIKDMP.
-       */
-      public int getNHMKPOIKDMPCount() {
-        return nHMKPOIKDMP_.size();
-      }
-      /**
-       * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-       * @param index The index of the element to return.
-       * @return The nHMKPOIKDMP at the given index.
-       */
-      public int getNHMKPOIKDMP(int index) {
-        return nHMKPOIKDMP_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-       * @param index The index to set the value at.
-       * @param value The nHMKPOIKDMP to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNHMKPOIKDMP(
-          int index, int value) {
-        ensureNHMKPOIKDMPIsMutable();
-        nHMKPOIKDMP_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-       * @param value The nHMKPOIKDMP to add.
-       * @return This builder for chaining.
-       */
-      public Builder addNHMKPOIKDMP(int value) {
-        ensureNHMKPOIKDMPIsMutable();
-        nHMKPOIKDMP_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-       * @param values The nHMKPOIKDMP to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllNHMKPOIKDMP(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureNHMKPOIKDMPIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, nHMKPOIKDMP_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 NHMKPOIKDMP = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNHMKPOIKDMP() {
-        nHMKPOIKDMP_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
@@ -914,11 +721,10 @@ public final class GetProfilePictureDataRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036GetProfilePictureDataRsp.proto\"U\n\030GetP" +
-      "rofilePictureDataRsp\022\023\n\013BHAOIFIIFNE\030\006 \003(" +
-      "\r\022\017\n\007retcode\030\n \001(\005\022\023\n\013NHMKPOIKDMP\030\013 \003(\rB" +
-      "?\n\031emu.grasscutter.net.protoB\"GetProfile" +
-      "PictureDataRspOuterClassb\006proto3"
+      "\n\036GetProfilePictureDataRsp.proto\"Q\n\030GetP" +
+      "rofilePictureDataRsp\022$\n\034special_profile_" +
+      "picture_list\030\004 \003(\r\022\017\n\007retcode\030\013 \001(\005B\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -929,7 +735,7 @@ public final class GetProfilePictureDataRspOuterClass {
     internal_static_GetProfilePictureDataRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetProfilePictureDataRsp_descriptor,
-        new java.lang.String[] { "BHAOIFIIFNE", "Retcode", "NHMKPOIKDMP", });
+        new java.lang.String[] { "SpecialProfilePictureList", "Retcode", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -42,10 +42,6 @@ public final class HomeModuleSeenRspOuterClass {
     int getSeenModuleIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 25425
-   * </pre>
-   *
    * Protobuf type {@code HomeModuleSeenRsp}
    */
   public static final class HomeModuleSeenRsp extends
@@ -376,10 +372,6 @@ public final class HomeModuleSeenRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25425
-     * </pre>
-     *
      * Protobuf type {@code HomeModuleSeenRsp}
      */
     public static final class Builder extends

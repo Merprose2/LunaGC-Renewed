@@ -20,48 +20,48 @@ public final class ExpeditionStateOuterClass {
   public enum ExpeditionState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>ExpeditionState_EXPEDITION_NONE = 0;</code>
+     * <code>EXPEDITION_NONE = 0;</code>
      */
-    ExpeditionState_EXPEDITION_NONE(0),
+    EXPEDITION_NONE(0),
     /**
-     * <code>ExpeditionState_EXPEDITION_STARTED = 1;</code>
+     * <code>EXPEDITION_STARTED = 1;</code>
      */
-    ExpeditionState_EXPEDITION_STARTED(1),
+    EXPEDITION_STARTED(1),
     /**
-     * <code>ExpeditionState_EXPEDITION_FINISHED = 2;</code>
+     * <code>EXPEDITION_FINISHED = 2;</code>
      */
-    ExpeditionState_EXPEDITION_FINISHED(2),
+    EXPEDITION_FINISHED(2),
     /**
-     * <code>ExpeditionState_EXPEDITION_REWARDED = 3;</code>
+     * <code>EXPEDITION_REWARDED = 3;</code>
      */
-    ExpeditionState_EXPEDITION_REWARDED(3),
+    EXPEDITION_REWARDED(3),
     /**
-     * <code>ExpeditionState_EXPEDITION_LOCKED = 4;</code>
+     * <code>EXPEDITION_LOCKED = 4;</code>
      */
-    ExpeditionState_EXPEDITION_LOCKED(4),
+    EXPEDITION_LOCKED(4),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>ExpeditionState_EXPEDITION_NONE = 0;</code>
+     * <code>EXPEDITION_NONE = 0;</code>
      */
-    public static final int ExpeditionState_EXPEDITION_NONE_VALUE = 0;
+    public static final int EXPEDITION_NONE_VALUE = 0;
     /**
-     * <code>ExpeditionState_EXPEDITION_STARTED = 1;</code>
+     * <code>EXPEDITION_STARTED = 1;</code>
      */
-    public static final int ExpeditionState_EXPEDITION_STARTED_VALUE = 1;
+    public static final int EXPEDITION_STARTED_VALUE = 1;
     /**
-     * <code>ExpeditionState_EXPEDITION_FINISHED = 2;</code>
+     * <code>EXPEDITION_FINISHED = 2;</code>
      */
-    public static final int ExpeditionState_EXPEDITION_FINISHED_VALUE = 2;
+    public static final int EXPEDITION_FINISHED_VALUE = 2;
     /**
-     * <code>ExpeditionState_EXPEDITION_REWARDED = 3;</code>
+     * <code>EXPEDITION_REWARDED = 3;</code>
      */
-    public static final int ExpeditionState_EXPEDITION_REWARDED_VALUE = 3;
+    public static final int EXPEDITION_REWARDED_VALUE = 3;
     /**
-     * <code>ExpeditionState_EXPEDITION_LOCKED = 4;</code>
+     * <code>EXPEDITION_LOCKED = 4;</code>
      */
-    public static final int ExpeditionState_EXPEDITION_LOCKED_VALUE = 4;
+    public static final int EXPEDITION_LOCKED_VALUE = 4;
 
 
     public final int getNumber() {
@@ -88,11 +88,11 @@ public final class ExpeditionStateOuterClass {
      */
     public static ExpeditionState forNumber(int value) {
       switch (value) {
-        case 0: return ExpeditionState_EXPEDITION_NONE;
-        case 1: return ExpeditionState_EXPEDITION_STARTED;
-        case 2: return ExpeditionState_EXPEDITION_FINISHED;
-        case 3: return ExpeditionState_EXPEDITION_REWARDED;
-        case 4: return ExpeditionState_EXPEDITION_LOCKED;
+        case 0: return EXPEDITION_NONE;
+        case 1: return EXPEDITION_STARTED;
+        case 2: return EXPEDITION_FINISHED;
+        case 3: return EXPEDITION_REWARDED;
+        case 4: return EXPEDITION_LOCKED;
         default: return null;
       }
     }
@@ -158,12 +158,10 @@ public final class ExpeditionStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025ExpeditionState.proto*\327\001\n\017ExpeditionSt" +
-      "ate\022#\n\037ExpeditionState_EXPEDITION_NONE\020\000" +
-      "\022&\n\"ExpeditionState_EXPEDITION_STARTED\020\001" +
-      "\022\'\n#ExpeditionState_EXPEDITION_FINISHED\020" +
-      "\002\022\'\n#ExpeditionState_EXPEDITION_REWARDED" +
-      "\020\003\022%\n!ExpeditionState_EXPEDITION_LOCKED\020" +
+      "\n\025ExpeditionState.proto*\207\001\n\017ExpeditionSt" +
+      "ate\022\023\n\017EXPEDITION_NONE\020\000\022\026\n\022EXPEDITION_S" +
+      "TARTED\020\001\022\027\n\023EXPEDITION_FINISHED\020\002\022\027\n\023EXP" +
+      "EDITION_REWARDED\020\003\022\025\n\021EXPEDITION_LOCKED\020" +
       "\004B6\n\031emu.grasscutter.net.protoB\031Expediti" +
       "onStateOuterClassb\006proto3"
     };

@@ -37,10 +37,6 @@ public final class SceneTransToPointRspOuterClass {
     int getPointId();
   }
   /**
-   * <pre>
-   * CmdID: 4731
-   * </pre>
-   *
    * Protobuf type {@code SceneTransToPointRsp}
    */
   public static final class SceneTransToPointRsp extends
@@ -343,10 +339,6 @@ public final class SceneTransToPointRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4731
-     * </pre>
-     *
      * Protobuf type {@code SceneTransToPointRsp}
      */
     public static final class Builder extends

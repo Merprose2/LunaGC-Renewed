@@ -43,10 +43,6 @@ public final class AchievementUpdateNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 27283
-   * </pre>
-   *
    * Protobuf type {@code AchievementUpdateNotify}
    */
   public static final class AchievementUpdateNotify extends
@@ -335,10 +331,6 @@ public final class AchievementUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27283
-     * </pre>
-     *
      * Protobuf type {@code AchievementUpdateNotify}
      */
     public static final class Builder extends

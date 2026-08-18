@@ -31,10 +31,6 @@ public final class AddQuestContentProgressRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 7507
-   * </pre>
-   *
    * Protobuf type {@code AddQuestContentProgressRsp}
    */
   public static final class AddQuestContentProgressRsp extends
@@ -310,10 +306,6 @@ public final class AddQuestContentProgressRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7507
-     * </pre>
-     *
      * Protobuf type {@code AddQuestContentProgressRsp}
      */
     public static final class Builder extends

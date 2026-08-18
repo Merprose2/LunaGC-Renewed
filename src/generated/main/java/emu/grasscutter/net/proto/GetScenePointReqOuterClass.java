@@ -37,10 +37,6 @@ public final class GetScenePointReqOuterClass {
     int getSceneId();
   }
   /**
-   * <pre>
-   * CmdID: 26108
-   * </pre>
-   *
    * Protobuf type {@code GetScenePointReq}
    */
   public static final class GetScenePointReq extends
@@ -344,10 +340,6 @@ public final class GetScenePointReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26108
-     * </pre>
-     *
      * Protobuf type {@code GetScenePointReq}
      */
     public static final class Builder extends

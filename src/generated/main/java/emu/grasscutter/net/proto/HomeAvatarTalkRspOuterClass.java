@@ -40,10 +40,6 @@ public final class HomeAvatarTalkRspOuterClass {
     emu.grasscutter.net.proto.HomeAvatarTalkFinishInfoOuterClass.HomeAvatarTalkFinishInfoOrBuilder getAvatarTalkInfoOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 2053
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarTalkRsp}
    */
   public static final class HomeAvatarTalkRsp extends
@@ -347,10 +343,6 @@ public final class HomeAvatarTalkRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2053
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarTalkRsp}
      */
     public static final class Builder extends

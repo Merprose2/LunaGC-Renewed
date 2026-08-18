@@ -60,10 +60,6 @@ public final class PlayerStoreNotifyOuterClass {
     int getWeightLimit();
   }
   /**
-   * <pre>
-   * CmdID: 8132
-   * </pre>
-   *
    * Protobuf type {@code PlayerStoreNotify}
    */
   public static final class PlayerStoreNotify extends
@@ -415,10 +411,6 @@ public final class PlayerStoreNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8132
-     * </pre>
-     *
      * Protobuf type {@code PlayerStoreNotify}
      */
     public static final class Builder extends

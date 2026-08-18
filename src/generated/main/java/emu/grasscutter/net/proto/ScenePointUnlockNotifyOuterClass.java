@@ -93,10 +93,6 @@ public final class ScenePointUnlockNotifyOuterClass {
     int getSceneId();
   }
   /**
-   * <pre>
-   * CmdID: 7929
-   * </pre>
-   *
    * Protobuf type {@code ScenePointUnlockNotify}
    */
   public static final class ScenePointUnlockNotify extends
@@ -667,10 +663,6 @@ public final class ScenePointUnlockNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7929
-     * </pre>
-     *
      * Protobuf type {@code ScenePointUnlockNotify}
      */
     public static final class Builder extends

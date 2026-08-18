@@ -42,10 +42,6 @@ public final class DealAddFriendRspOuterClass {
     int getTargetUid();
   }
   /**
-   * <pre>
-   * CmdID: 8496
-   * </pre>
-   *
    * Protobuf type {@code DealAddFriendRsp}
    */
   public static final class DealAddFriendRsp extends
@@ -357,10 +353,6 @@ public final class DealAddFriendRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8496
-     * </pre>
-     *
      * Protobuf type {@code DealAddFriendRsp}
      */
     public static final class Builder extends

@@ -49,10 +49,6 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 23952
-   * </pre>
-   *
    * Protobuf type {@code ClientAbilityInitFinishNotify}
    */
   public static final class ClientAbilityInitFinishNotify extends
@@ -368,10 +364,6 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 23952
-     * </pre>
-     *
      * Protobuf type {@code ClientAbilityInitFinishNotify}
      */
     public static final class Builder extends

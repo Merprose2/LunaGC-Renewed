@@ -55,10 +55,6 @@ public final class CutSceneBeginNotifyOuterClass {
     int getCutsceneId();
   }
   /**
-   * <pre>
-   * CmdID: 6811
-   * </pre>
-   *
    * Protobuf type {@code CutSceneBeginNotify}
    */
   public static final class CutSceneBeginNotify extends
@@ -402,10 +398,6 @@ public final class CutSceneBeginNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6811
-     * </pre>
-     *
      * Protobuf type {@code CutSceneBeginNotify}
      */
     public static final class Builder extends

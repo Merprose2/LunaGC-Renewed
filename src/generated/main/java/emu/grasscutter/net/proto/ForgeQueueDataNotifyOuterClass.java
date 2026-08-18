@@ -70,10 +70,6 @@ public final class ForgeQueueDataNotifyOuterClass {
     int getRemovedForgeQueueList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 1698
-   * </pre>
-   *
    * Protobuf type {@code ForgeQueueDataNotify}
    */
   public static final class ForgeQueueDataNotify extends
@@ -505,10 +501,6 @@ public final class ForgeQueueDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1698
-     * </pre>
-     *
      * Protobuf type {@code ForgeQueueDataNotify}
      */
     public static final class Builder extends

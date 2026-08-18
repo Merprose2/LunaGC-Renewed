@@ -326,10 +326,10 @@ public final class SocialDetailOuterClass {
     int getRoleCombatStarNum();
 
     /**
-     * <code>bool CGCGPFKDHAE = 33;</code>
-     * @return The cGCGPFKDHAE.
+     * <code>bool is_show_constellation_num = 33;</code>
+     * @return The isShowConstellationNum.
      */
-    boolean getCGCGPFKDHAE();
+    boolean getIsShowConstellationNum();
 
     /**
      * <code>uint32 _friendship_max_count = 34;</code>
@@ -710,7 +710,7 @@ public final class SocialDetailOuterClass {
             }
             case 264: {
 
-              cGCGPFKDHAE_ = input.readBool();
+              isShowConstellationNum_ = input.readBool();
               break;
             }
             case 272: {
@@ -837,32 +837,32 @@ public final class SocialDetailOuterClass {
     public enum _DetailVersionType
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>_DetailVersionType_VERSION_NONE = 0;</code>
+       * <code>VERSION_NONE = 0;</code>
        */
-      _DetailVersionType_VERSION_NONE(0),
+      VERSION_NONE(0),
       /**
-       * <code>_DetailVersionType_V_50 = 1;</code>
+       * <code>V50 = 1;</code>
        */
-      _DetailVersionType_V_50(1),
+      V50(1),
       /**
-       * <code>_DetailVersionType_V_57 = 2;</code>
+       * <code>V57 = 2;</code>
        */
-      _DetailVersionType_V_57(2),
+      V57(2),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>_DetailVersionType_VERSION_NONE = 0;</code>
+       * <code>VERSION_NONE = 0;</code>
        */
-      public static final int _DetailVersionType_VERSION_NONE_VALUE = 0;
+      public static final int VERSION_NONE_VALUE = 0;
       /**
-       * <code>_DetailVersionType_V_50 = 1;</code>
+       * <code>V50 = 1;</code>
        */
-      public static final int _DetailVersionType_V_50_VALUE = 1;
+      public static final int V50_VALUE = 1;
       /**
-       * <code>_DetailVersionType_V_57 = 2;</code>
+       * <code>V57 = 2;</code>
        */
-      public static final int _DetailVersionType_V_57_VALUE = 2;
+      public static final int V57_VALUE = 2;
 
 
       public final int getNumber() {
@@ -889,9 +889,9 @@ public final class SocialDetailOuterClass {
        */
       public static _DetailVersionType forNumber(int value) {
         switch (value) {
-          case 0: return _DetailVersionType_VERSION_NONE;
-          case 1: return _DetailVersionType_V_50;
-          case 2: return _DetailVersionType_V_57;
+          case 0: return VERSION_NONE;
+          case 1: return V50;
+          case 2: return V57;
           default: return null;
         }
       }
@@ -1606,15 +1606,15 @@ public final class SocialDetailOuterClass {
       return RoleCombatStarNum_;
     }
 
-    public static final int CGCGPFKDHAE_FIELD_NUMBER = 33;
-    private boolean cGCGPFKDHAE_;
+    public static final int IS_SHOW_CONSTELLATION_NUM_FIELD_NUMBER = 33;
+    private boolean isShowConstellationNum_;
     /**
-     * <code>bool CGCGPFKDHAE = 33;</code>
-     * @return The cGCGPFKDHAE.
+     * <code>bool is_show_constellation_num = 33;</code>
+     * @return The isShowConstellationNum.
      */
     @java.lang.Override
-    public boolean getCGCGPFKDHAE() {
-      return cGCGPFKDHAE_;
+    public boolean getIsShowConstellationNum() {
+      return isShowConstellationNum_;
     }
 
     public static final int _FRIENDSHIP_MAX_COUNT_FIELD_NUMBER = 34;
@@ -1912,8 +1912,8 @@ public final class SocialDetailOuterClass {
       if (RoleCombatStarNum_ != 0) {
         output.writeUInt32(32, RoleCombatStarNum_);
       }
-      if (cGCGPFKDHAE_ != false) {
-        output.writeBool(33, cGCGPFKDHAE_);
+      if (isShowConstellationNum_ != false) {
+        output.writeBool(33, isShowConstellationNum_);
       }
       if (FriendshipMaxCount_ != 0) {
         output.writeUInt32(34, FriendshipMaxCount_);
@@ -1921,7 +1921,7 @@ public final class SocialDetailOuterClass {
       if (TowerStarCount_ != 0) {
         output.writeUInt32(35, TowerStarCount_);
       }
-      if (dataVersion_ != emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail._DetailVersionType._DetailVersionType_VERSION_NONE.getNumber()) {
+      if (dataVersion_ != emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail._DetailVersionType.VERSION_NONE.getNumber()) {
         output.writeEnum(36, dataVersion_);
       }
       if (LeyLineChallengeLastDifficulty_ != 0) {
@@ -2102,9 +2102,9 @@ public final class SocialDetailOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(32, RoleCombatStarNum_);
       }
-      if (cGCGPFKDHAE_ != false) {
+      if (isShowConstellationNum_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(33, cGCGPFKDHAE_);
+          .computeBoolSize(33, isShowConstellationNum_);
       }
       if (FriendshipMaxCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2114,7 +2114,7 @@ public final class SocialDetailOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(35, TowerStarCount_);
       }
-      if (dataVersion_ != emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail._DetailVersionType._DetailVersionType_VERSION_NONE.getNumber()) {
+      if (dataVersion_ != emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail._DetailVersionType.VERSION_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(36, dataVersion_);
       }
@@ -2240,8 +2240,8 @@ public final class SocialDetailOuterClass {
       if (platformType_ != other.platformType_) return false;
       if (getRoleCombatStarNum()
           != other.getRoleCombatStarNum()) return false;
-      if (getCGCGPFKDHAE()
-          != other.getCGCGPFKDHAE()) return false;
+      if (getIsShowConstellationNum()
+          != other.getIsShowConstellationNum()) return false;
       if (getFriendshipMaxCount()
           != other.getFriendshipMaxCount()) return false;
       if (getTowerStarCount()
@@ -2352,9 +2352,9 @@ public final class SocialDetailOuterClass {
       hash = (53 * hash) + platformType_;
       hash = (37 * hash) + _ROLE_COMBAT_STAR_NUM_FIELD_NUMBER;
       hash = (53 * hash) + getRoleCombatStarNum();
-      hash = (37 * hash) + CGCGPFKDHAE_FIELD_NUMBER;
+      hash = (37 * hash) + IS_SHOW_CONSTELLATION_NUM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getCGCGPFKDHAE());
+          getIsShowConstellationNum());
       hash = (37 * hash) + _FRIENDSHIP_MAX_COUNT_FIELD_NUMBER;
       hash = (53 * hash) + getFriendshipMaxCount();
       hash = (37 * hash) + _TOWER_STAR_COUNT_FIELD_NUMBER;
@@ -2591,7 +2591,7 @@ public final class SocialDetailOuterClass {
 
         RoleCombatStarNum_ = 0;
 
-        cGCGPFKDHAE_ = false;
+        isShowConstellationNum_ = false;
 
         FriendshipMaxCount_ = 0;
 
@@ -2698,7 +2698,7 @@ public final class SocialDetailOuterClass {
         result.Xuid_ = Xuid_;
         result.platformType_ = platformType_;
         result.RoleCombatStarNum_ = RoleCombatStarNum_;
-        result.cGCGPFKDHAE_ = cGCGPFKDHAE_;
+        result.isShowConstellationNum_ = isShowConstellationNum_;
         result.FriendshipMaxCount_ = FriendshipMaxCount_;
         result.TowerStarCount_ = TowerStarCount_;
         result.dataVersion_ = dataVersion_;
@@ -2902,8 +2902,8 @@ public final class SocialDetailOuterClass {
         if (other.getRoleCombatStarNum() != 0) {
           setRoleCombatStarNum(other.getRoleCombatStarNum());
         }
-        if (other.getCGCGPFKDHAE() != false) {
-          setCGCGPFKDHAE(other.getCGCGPFKDHAE());
+        if (other.getIsShowConstellationNum() != false) {
+          setIsShowConstellationNum(other.getIsShowConstellationNum());
         }
         if (other.getFriendshipMaxCount() != 0) {
           setFriendshipMaxCount(other.getFriendshipMaxCount());
@@ -4832,33 +4832,33 @@ public final class SocialDetailOuterClass {
         return this;
       }
 
-      private boolean cGCGPFKDHAE_ ;
+      private boolean isShowConstellationNum_ ;
       /**
-       * <code>bool CGCGPFKDHAE = 33;</code>
-       * @return The cGCGPFKDHAE.
+       * <code>bool is_show_constellation_num = 33;</code>
+       * @return The isShowConstellationNum.
        */
       @java.lang.Override
-      public boolean getCGCGPFKDHAE() {
-        return cGCGPFKDHAE_;
+      public boolean getIsShowConstellationNum() {
+        return isShowConstellationNum_;
       }
       /**
-       * <code>bool CGCGPFKDHAE = 33;</code>
-       * @param value The cGCGPFKDHAE to set.
+       * <code>bool is_show_constellation_num = 33;</code>
+       * @param value The isShowConstellationNum to set.
        * @return This builder for chaining.
        */
-      public Builder setCGCGPFKDHAE(boolean value) {
+      public Builder setIsShowConstellationNum(boolean value) {
         
-        cGCGPFKDHAE_ = value;
+        isShowConstellationNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool CGCGPFKDHAE = 33;</code>
+       * <code>bool is_show_constellation_num = 33;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCGCGPFKDHAE() {
+      public Builder clearIsShowConstellationNum() {
         
-        cGCGPFKDHAE_ = false;
+        isShowConstellationNum_ = false;
         onChanged();
         return this;
       }
@@ -5406,7 +5406,7 @@ public final class SocialDetailOuterClass {
       "atureBlockType.proto\032\033FriendEnterHomeOpt" +
       "ion.proto\032\027FriendOnlineState.proto\032\022Plat" +
       "formType.proto\032\024ProfilePicture.proto\032\032So" +
-      "cialShowAvatarInfo.proto\"\354\n\n\014SocialDetai" +
+      "cialShowAvatarInfo.proto\"\277\n\n\014SocialDetai" +
       "l\022\013\n\003uid\030\001 \001(\r\022\020\n\010nickname\030\002 \001(\t\022\r\n\005leve" +
       "l\030\003 \001(\r\022\021\n\tavatar_id\030\004 \001(\r\022\021\n\tsignature\030" +
       "\005 \001(\t\022\033\n\010birthday\030\006 \001(\0132\t.Birthday\022\023\n\013wo" +
@@ -5428,21 +5428,20 @@ public final class SocialDetailOuterClass {
       "\022\"\n\032_role_combat_difficulty_id\030\034 \001(\r\022\026\n\016" +
       "_xbox_gamertag\030\035 \001(\t\022\r\n\005_xuid\030\036 \001(\t\022$\n\rp" +
       "latform_type\030\037 \001(\0162\r.PlatformType\022\035\n\025_ro" +
-      "le_combat_star_num\030  \001(\r\022\023\n\013CGCGPFKDHAE\030" +
-      "! \001(\010\022\035\n\025_friendship_max_count\030\" \001(\r\022\031\n\021" +
-      "_tower_star_count\030# \001(\r\0226\n\014data_version\030" +
-      "$ \001(\0162 .SocialDetail._DetailVersionType\022" +
-      "+\n#_ley_line_challenge_last_difficulty\030%" +
-      " \001(\r\022*\n\"_ley_line_challenge_last_best_ti" +
-      "me\030& \001(\r\022,\n$_ley_line_challenge_last_sch" +
-      "edule_id\030\' \001(\r\022\023\n\013LMBOLJGNPMP\030( \001(\010\022\023\n\013E" +
-      "BHKKOIGCAO\030) \001(\r\022\023\n\013LDKHOKLNEBP\030* \001(\010\022&\n" +
-      "\013BJDNNEJJPOL\030+ \003(\0162\021.FeatureBlockType\022\023\n" +
-      "\013OMGDPJCAAAI\030, \001(\r\"s\n\022_DetailVersionType" +
-      "\022#\n\037_DetailVersionType_VERSION_NONE\020\000\022\033\n" +
-      "\027_DetailVersionType_V_50\020\001\022\033\n\027_DetailVer" +
-      "sionType_V_57\020\002B3\n\031emu.grasscutter.net.p" +
-      "rotoB\026SocialDetailOuterClassb\006proto3"
+      "le_combat_star_num\030  \001(\r\022!\n\031is_show_cons" +
+      "tellation_num\030! \001(\010\022\035\n\025_friendship_max_c" +
+      "ount\030\" \001(\r\022\031\n\021_tower_star_count\030# \001(\r\0226\n" +
+      "\014data_version\030$ \001(\0162 .SocialDetail._Deta" +
+      "ilVersionType\022+\n#_ley_line_challenge_las" +
+      "t_difficulty\030% \001(\r\022*\n\"_ley_line_challeng" +
+      "e_last_best_time\030& \001(\r\022,\n$_ley_line_chal" +
+      "lenge_last_schedule_id\030\' \001(\r\022\023\n\013LMBOLJGN" +
+      "PMP\030( \001(\010\022\023\n\013EBHKKOIGCAO\030) \001(\r\022\023\n\013LDKHOK" +
+      "LNEBP\030* \001(\010\022&\n\013BJDNNEJJPOL\030+ \003(\0162\021.Featu" +
+      "reBlockType\022\023\n\013OMGDPJCAAAI\030, \001(\r\"8\n\022_Det" +
+      "ailVersionType\022\020\n\014VERSION_NONE\020\000\022\007\n\003V50\020" +
+      "\001\022\007\n\003V57\020\002B3\n\031emu.grasscutter.net.protoB" +
+      "\026SocialDetailOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -5460,7 +5459,7 @@ public final class SocialDetailOuterClass {
     internal_static_SocialDetail_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SocialDetail_descriptor,
-        new java.lang.String[] { "Uid", "Nickname", "Level", "AvatarId", "Signature", "Birthday", "WorldLevel", "ReservedList", "OnlineState", "Param", "IsFriend", "IsMpModeAvailable", "OnlineId", "NameCardId", "IsInBlacklist", "IsChatNoDisturb", "RemarkName", "FinishAchievementNum", "TowerFloorIndex", "TowerLevelIndex", "IsShowAvatar", "ShowAvatarInfoList", "ShowNameCardIdList", "FriendEnterHomeOption", "ProfilePicture", "IpCode", "RoleCombatRound", "RoleCombatDifficultyId", "XboxGamertag", "Xuid", "PlatformType", "RoleCombatStarNum", "CGCGPFKDHAE", "FriendshipMaxCount", "TowerStarCount", "DataVersion", "LeyLineChallengeLastDifficulty", "LeyLineChallengeLastBestTime", "LeyLineChallengeLastScheduleId", "LMBOLJGNPMP", "EBHKKOIGCAO", "LDKHOKLNEBP", "BJDNNEJJPOL", "OMGDPJCAAAI", });
+        new java.lang.String[] { "Uid", "Nickname", "Level", "AvatarId", "Signature", "Birthday", "WorldLevel", "ReservedList", "OnlineState", "Param", "IsFriend", "IsMpModeAvailable", "OnlineId", "NameCardId", "IsInBlacklist", "IsChatNoDisturb", "RemarkName", "FinishAchievementNum", "TowerFloorIndex", "TowerLevelIndex", "IsShowAvatar", "ShowAvatarInfoList", "ShowNameCardIdList", "FriendEnterHomeOption", "ProfilePicture", "IpCode", "RoleCombatRound", "RoleCombatDifficultyId", "XboxGamertag", "Xuid", "PlatformType", "RoleCombatStarNum", "IsShowConstellationNum", "FriendshipMaxCount", "TowerStarCount", "DataVersion", "LeyLineChallengeLastDifficulty", "LeyLineChallengeLastBestTime", "LeyLineChallengeLastScheduleId", "LMBOLJGNPMP", "EBHKKOIGCAO", "LDKHOKLNEBP", "BJDNNEJJPOL", "OMGDPJCAAAI", });
     emu.grasscutter.net.proto.BirthdayOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FeatureBlockTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FriendEnterHomeOptionOuterClass.getDescriptor();

@@ -132,16 +132,16 @@ public final class MotionInfoOuterClass {
     long getIntervalVelocity();
 
     /**
-     * <code>uint32 HMHCGLCNBMK = 10;</code>
-     * @return The hMHCGLCNBMK.
+     * <code>uint32 kgnfjlofkem = 10;</code>
+     * @return The kgnfjlofkem.
      */
-    int getHMHCGLCNBMK();
+    int getKgnfjlofkem();
 
     /**
-     * <code>uint32 CLALDLOODKP = 11;</code>
-     * @return The cLALDLOODKP.
+     * <code>uint32 olboiljdoai = 11;</code>
+     * @return The olboiljdoai.
      */
-    int getCLALDLOODKP();
+    int getOlboiljdoai();
 
     /**
      * <code>repeated int32 IEKGKKEMLMI = 100;</code>
@@ -293,12 +293,12 @@ public final class MotionInfoOuterClass {
             }
             case 80: {
 
-              hMHCGLCNBMK_ = input.readUInt32();
+              kgnfjlofkem_ = input.readUInt32();
               break;
             }
             case 88: {
 
-              cLALDLOODKP_ = input.readUInt32();
+              olboiljdoai_ = input.readUInt32();
               break;
             }
             case 800: {
@@ -556,26 +556,26 @@ public final class MotionInfoOuterClass {
       return intervalVelocity_;
     }
 
-    public static final int HMHCGLCNBMK_FIELD_NUMBER = 10;
-    private int hMHCGLCNBMK_;
+    public static final int KGNFJLOFKEM_FIELD_NUMBER = 10;
+    private int kgnfjlofkem_;
     /**
-     * <code>uint32 HMHCGLCNBMK = 10;</code>
-     * @return The hMHCGLCNBMK.
+     * <code>uint32 kgnfjlofkem = 10;</code>
+     * @return The kgnfjlofkem.
      */
     @java.lang.Override
-    public int getHMHCGLCNBMK() {
-      return hMHCGLCNBMK_;
+    public int getKgnfjlofkem() {
+      return kgnfjlofkem_;
     }
 
-    public static final int CLALDLOODKP_FIELD_NUMBER = 11;
-    private int cLALDLOODKP_;
+    public static final int OLBOILJDOAI_FIELD_NUMBER = 11;
+    private int olboiljdoai_;
     /**
-     * <code>uint32 CLALDLOODKP = 11;</code>
-     * @return The cLALDLOODKP.
+     * <code>uint32 olboiljdoai = 11;</code>
+     * @return The olboiljdoai.
      */
     @java.lang.Override
-    public int getCLALDLOODKP() {
-      return cLALDLOODKP_;
+    public int getOlboiljdoai() {
+      return olboiljdoai_;
     }
 
     public static final int IEKGKKEMLMI_FIELD_NUMBER = 100;
@@ -648,11 +648,11 @@ public final class MotionInfoOuterClass {
       if (intervalVelocity_ != 0L) {
         output.writeUInt64(9, intervalVelocity_);
       }
-      if (hMHCGLCNBMK_ != 0) {
-        output.writeUInt32(10, hMHCGLCNBMK_);
+      if (kgnfjlofkem_ != 0) {
+        output.writeUInt32(10, kgnfjlofkem_);
       }
-      if (cLALDLOODKP_ != 0) {
-        output.writeUInt32(11, cLALDLOODKP_);
+      if (olboiljdoai_ != 0) {
+        output.writeUInt32(11, olboiljdoai_);
       }
       if (getIEKGKKEMLMIList().size() > 0) {
         output.writeUInt32NoTag(802);
@@ -706,13 +706,13 @@ public final class MotionInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(9, intervalVelocity_);
       }
-      if (hMHCGLCNBMK_ != 0) {
+      if (kgnfjlofkem_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, hMHCGLCNBMK_);
+          .computeUInt32Size(10, kgnfjlofkem_);
       }
-      if (cLALDLOODKP_ != 0) {
+      if (olboiljdoai_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, cLALDLOODKP_);
+          .computeUInt32Size(11, olboiljdoai_);
       }
       {
         int dataSize = 0;
@@ -772,10 +772,10 @@ public final class MotionInfoOuterClass {
           != other.getSceneTime()) return false;
       if (getIntervalVelocity()
           != other.getIntervalVelocity()) return false;
-      if (getHMHCGLCNBMK()
-          != other.getHMHCGLCNBMK()) return false;
-      if (getCLALDLOODKP()
-          != other.getCLALDLOODKP()) return false;
+      if (getKgnfjlofkem()
+          != other.getKgnfjlofkem()) return false;
+      if (getOlboiljdoai()
+          != other.getOlboiljdoai()) return false;
       if (!getIEKGKKEMLMIList()
           .equals(other.getIEKGKKEMLMIList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -818,10 +818,10 @@ public final class MotionInfoOuterClass {
       hash = (37 * hash) + INTERVAL_VELOCITY_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getIntervalVelocity());
-      hash = (37 * hash) + HMHCGLCNBMK_FIELD_NUMBER;
-      hash = (53 * hash) + getHMHCGLCNBMK();
-      hash = (37 * hash) + CLALDLOODKP_FIELD_NUMBER;
-      hash = (53 * hash) + getCLALDLOODKP();
+      hash = (37 * hash) + KGNFJLOFKEM_FIELD_NUMBER;
+      hash = (53 * hash) + getKgnfjlofkem();
+      hash = (37 * hash) + OLBOILJDOAI_FIELD_NUMBER;
+      hash = (53 * hash) + getOlboiljdoai();
       if (getIEKGKKEMLMICount() > 0) {
         hash = (37 * hash) + IEKGKKEMLMI_FIELD_NUMBER;
         hash = (53 * hash) + getIEKGKKEMLMIList().hashCode();
@@ -998,9 +998,9 @@ public final class MotionInfoOuterClass {
 
         intervalVelocity_ = 0L;
 
-        hMHCGLCNBMK_ = 0;
+        kgnfjlofkem_ = 0;
 
-        cLALDLOODKP_ = 0;
+        olboiljdoai_ = 0;
 
         iEKGKKEMLMI_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -1064,8 +1064,8 @@ public final class MotionInfoOuterClass {
         result.refId_ = refId_;
         result.sceneTime_ = sceneTime_;
         result.intervalVelocity_ = intervalVelocity_;
-        result.hMHCGLCNBMK_ = hMHCGLCNBMK_;
-        result.cLALDLOODKP_ = cLALDLOODKP_;
+        result.kgnfjlofkem_ = kgnfjlofkem_;
+        result.olboiljdoai_ = olboiljdoai_;
         if (((bitField0_ & 0x00000002) != 0)) {
           iEKGKKEMLMI_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
@@ -1169,11 +1169,11 @@ public final class MotionInfoOuterClass {
         if (other.getIntervalVelocity() != 0L) {
           setIntervalVelocity(other.getIntervalVelocity());
         }
-        if (other.getHMHCGLCNBMK() != 0) {
-          setHMHCGLCNBMK(other.getHMHCGLCNBMK());
+        if (other.getKgnfjlofkem() != 0) {
+          setKgnfjlofkem(other.getKgnfjlofkem());
         }
-        if (other.getCLALDLOODKP() != 0) {
-          setCLALDLOODKP(other.getCLALDLOODKP());
+        if (other.getOlboiljdoai() != 0) {
+          setOlboiljdoai(other.getOlboiljdoai());
         }
         if (!other.iEKGKKEMLMI_.isEmpty()) {
           if (iEKGKKEMLMI_.isEmpty()) {
@@ -2078,64 +2078,64 @@ public final class MotionInfoOuterClass {
         return this;
       }
 
-      private int hMHCGLCNBMK_ ;
+      private int kgnfjlofkem_ ;
       /**
-       * <code>uint32 HMHCGLCNBMK = 10;</code>
-       * @return The hMHCGLCNBMK.
+       * <code>uint32 kgnfjlofkem = 10;</code>
+       * @return The kgnfjlofkem.
        */
       @java.lang.Override
-      public int getHMHCGLCNBMK() {
-        return hMHCGLCNBMK_;
+      public int getKgnfjlofkem() {
+        return kgnfjlofkem_;
       }
       /**
-       * <code>uint32 HMHCGLCNBMK = 10;</code>
-       * @param value The hMHCGLCNBMK to set.
+       * <code>uint32 kgnfjlofkem = 10;</code>
+       * @param value The kgnfjlofkem to set.
        * @return This builder for chaining.
        */
-      public Builder setHMHCGLCNBMK(int value) {
+      public Builder setKgnfjlofkem(int value) {
         
-        hMHCGLCNBMK_ = value;
+        kgnfjlofkem_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 HMHCGLCNBMK = 10;</code>
+       * <code>uint32 kgnfjlofkem = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearHMHCGLCNBMK() {
+      public Builder clearKgnfjlofkem() {
         
-        hMHCGLCNBMK_ = 0;
+        kgnfjlofkem_ = 0;
         onChanged();
         return this;
       }
 
-      private int cLALDLOODKP_ ;
+      private int olboiljdoai_ ;
       /**
-       * <code>uint32 CLALDLOODKP = 11;</code>
-       * @return The cLALDLOODKP.
+       * <code>uint32 olboiljdoai = 11;</code>
+       * @return The olboiljdoai.
        */
       @java.lang.Override
-      public int getCLALDLOODKP() {
-        return cLALDLOODKP_;
+      public int getOlboiljdoai() {
+        return olboiljdoai_;
       }
       /**
-       * <code>uint32 CLALDLOODKP = 11;</code>
-       * @param value The cLALDLOODKP to set.
+       * <code>uint32 olboiljdoai = 11;</code>
+       * @param value The olboiljdoai to set.
        * @return This builder for chaining.
        */
-      public Builder setCLALDLOODKP(int value) {
+      public Builder setOlboiljdoai(int value) {
         
-        cLALDLOODKP_ = value;
+        olboiljdoai_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 CLALDLOODKP = 11;</code>
+       * <code>uint32 olboiljdoai = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCLALDLOODKP() {
+      public Builder clearOlboiljdoai() {
         
-        cLALDLOODKP_ = 0;
+        olboiljdoai_ = 0;
         onChanged();
         return this;
       }
@@ -2292,7 +2292,7 @@ public final class MotionInfoOuterClass {
       "ate\022\027\n\006params\030\005 \003(\0132\007.Vector\022\030\n\007ref_pos\030" +
       "\006 \001(\0132\007.Vector\022\016\n\006ref_id\030\007 \001(\r\022\022\n\nscene_" +
       "time\030\010 \001(\r\022\031\n\021interval_velocity\030\t \001(\004\022\023\n" +
-      "\013HMHCGLCNBMK\030\n \001(\r\022\023\n\013CLALDLOODKP\030\013 \001(\r\022" +
+      "\013kgnfjlofkem\030\n \001(\r\022\023\n\013olboiljdoai\030\013 \001(\r\022" +
       "\023\n\013IEKGKKEMLMI\030d \003(\005B1\n\031emu.grasscutter." +
       "net.protoB\024MotionInfoOuterClassb\006proto3"
     };
@@ -2307,7 +2307,7 @@ public final class MotionInfoOuterClass {
     internal_static_MotionInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MotionInfo_descriptor,
-        new java.lang.String[] { "Pos", "Rot", "Speed", "State", "Params", "RefPos", "RefId", "SceneTime", "IntervalVelocity", "HMHCGLCNBMK", "CLALDLOODKP", "IEKGKKEMLMI", });
+        new java.lang.String[] { "Pos", "Rot", "Speed", "State", "Params", "RefPos", "RefId", "SceneTime", "IntervalVelocity", "Kgnfjlofkem", "Olboiljdoai", "IEKGKKEMLMI", });
     emu.grasscutter.net.proto.MotionStateOuterClass.getDescriptor();
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }

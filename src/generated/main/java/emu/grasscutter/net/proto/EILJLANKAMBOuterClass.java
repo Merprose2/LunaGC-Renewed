@@ -34,10 +34,10 @@ public final class EILJLANKAMBOuterClass {
     emu.grasscutter.net.proto.OKJOINFCNLJOuterClass.OKJOINFCNLJOrBuilder getCJKAEPPKOHCOrBuilder();
 
     /**
-     * <code>bool BEDBMNHLJMJ = 2;</code>
-     * @return The bEDBMNHLJMJ.
+     * <code>bool is_pause = 2;</code>
+     * @return The isPause.
      */
-    boolean getBEDBMNHLJMJ();
+    boolean getIsPause();
   }
   /**
    * Protobuf type {@code EILJLANKAMB}
@@ -99,7 +99,7 @@ public final class EILJLANKAMBOuterClass {
             }
             case 16: {
 
-              bEDBMNHLJMJ_ = input.readBool();
+              isPause_ = input.readBool();
               break;
             }
             default: {
@@ -160,15 +160,15 @@ public final class EILJLANKAMBOuterClass {
       return getCJKAEPPKOHC();
     }
 
-    public static final int BEDBMNHLJMJ_FIELD_NUMBER = 2;
-    private boolean bEDBMNHLJMJ_;
+    public static final int IS_PAUSE_FIELD_NUMBER = 2;
+    private boolean isPause_;
     /**
-     * <code>bool BEDBMNHLJMJ = 2;</code>
-     * @return The bEDBMNHLJMJ.
+     * <code>bool is_pause = 2;</code>
+     * @return The isPause.
      */
     @java.lang.Override
-    public boolean getBEDBMNHLJMJ() {
-      return bEDBMNHLJMJ_;
+    public boolean getIsPause() {
+      return isPause_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -188,8 +188,8 @@ public final class EILJLANKAMBOuterClass {
       if (cJKAEPPKOHC_ != null) {
         output.writeMessage(1, getCJKAEPPKOHC());
       }
-      if (bEDBMNHLJMJ_ != false) {
-        output.writeBool(2, bEDBMNHLJMJ_);
+      if (isPause_ != false) {
+        output.writeBool(2, isPause_);
       }
       unknownFields.writeTo(output);
     }
@@ -204,9 +204,9 @@ public final class EILJLANKAMBOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getCJKAEPPKOHC());
       }
-      if (bEDBMNHLJMJ_ != false) {
+      if (isPause_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, bEDBMNHLJMJ_);
+          .computeBoolSize(2, isPause_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -228,8 +228,8 @@ public final class EILJLANKAMBOuterClass {
         if (!getCJKAEPPKOHC()
             .equals(other.getCJKAEPPKOHC())) return false;
       }
-      if (getBEDBMNHLJMJ()
-          != other.getBEDBMNHLJMJ()) return false;
+      if (getIsPause()
+          != other.getIsPause()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -245,9 +245,9 @@ public final class EILJLANKAMBOuterClass {
         hash = (37 * hash) + CJKAEPPKOHC_FIELD_NUMBER;
         hash = (53 * hash) + getCJKAEPPKOHC().hashCode();
       }
-      hash = (37 * hash) + BEDBMNHLJMJ_FIELD_NUMBER;
+      hash = (37 * hash) + IS_PAUSE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getBEDBMNHLJMJ());
+          getIsPause());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -387,7 +387,7 @@ public final class EILJLANKAMBOuterClass {
           cJKAEPPKOHC_ = null;
           cJKAEPPKOHCBuilder_ = null;
         }
-        bEDBMNHLJMJ_ = false;
+        isPause_ = false;
 
         return this;
       }
@@ -420,7 +420,7 @@ public final class EILJLANKAMBOuterClass {
         } else {
           result.cJKAEPPKOHC_ = cJKAEPPKOHCBuilder_.build();
         }
-        result.bEDBMNHLJMJ_ = bEDBMNHLJMJ_;
+        result.isPause_ = isPause_;
         onBuilt();
         return result;
       }
@@ -472,8 +472,8 @@ public final class EILJLANKAMBOuterClass {
         if (other.hasCJKAEPPKOHC()) {
           mergeCJKAEPPKOHC(other.getCJKAEPPKOHC());
         }
-        if (other.getBEDBMNHLJMJ() != false) {
-          setBEDBMNHLJMJ(other.getBEDBMNHLJMJ());
+        if (other.getIsPause() != false) {
+          setIsPause(other.getIsPause());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -623,33 +623,33 @@ public final class EILJLANKAMBOuterClass {
         return cJKAEPPKOHCBuilder_;
       }
 
-      private boolean bEDBMNHLJMJ_ ;
+      private boolean isPause_ ;
       /**
-       * <code>bool BEDBMNHLJMJ = 2;</code>
-       * @return The bEDBMNHLJMJ.
+       * <code>bool is_pause = 2;</code>
+       * @return The isPause.
        */
       @java.lang.Override
-      public boolean getBEDBMNHLJMJ() {
-        return bEDBMNHLJMJ_;
+      public boolean getIsPause() {
+        return isPause_;
       }
       /**
-       * <code>bool BEDBMNHLJMJ = 2;</code>
-       * @param value The bEDBMNHLJMJ to set.
+       * <code>bool is_pause = 2;</code>
+       * @param value The isPause to set.
        * @return This builder for chaining.
        */
-      public Builder setBEDBMNHLJMJ(boolean value) {
+      public Builder setIsPause(boolean value) {
         
-        bEDBMNHLJMJ_ = value;
+        isPause_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool BEDBMNHLJMJ = 2;</code>
+       * <code>bool is_pause = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBEDBMNHLJMJ() {
+      public Builder clearIsPause() {
         
-        bEDBMNHLJMJ_ = false;
+        isPause_ = false;
         onChanged();
         return this;
       }
@@ -720,11 +720,11 @@ public final class EILJLANKAMBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021EILJLANKAMB.proto\032\021OKJOINFCNLJ.proto\"E" +
+      "\n\021EILJLANKAMB.proto\032\021OKJOINFCNLJ.proto\"B" +
       "\n\013EILJLANKAMB\022!\n\013CJKAEPPKOHC\030\001 \001(\0132\014.OKJ" +
-      "OINFCNLJ\022\023\n\013BEDBMNHLJMJ\030\002 \001(\010B2\n\031emu.gra" +
-      "sscutter.net.protoB\025EILJLANKAMBOuterClas" +
-      "sb\006proto3"
+      "OINFCNLJ\022\020\n\010is_pause\030\002 \001(\010B2\n\031emu.grassc" +
+      "utter.net.protoB\025EILJLANKAMBOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -736,7 +736,7 @@ public final class EILJLANKAMBOuterClass {
     internal_static_EILJLANKAMB_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EILJLANKAMB_descriptor,
-        new java.lang.String[] { "CJKAEPPKOHC", "BEDBMNHLJMJ", });
+        new java.lang.String[] { "CJKAEPPKOHC", "IsPause", });
     emu.grasscutter.net.proto.OKJOINFCNLJOuterClass.getDescriptor();
   }
 

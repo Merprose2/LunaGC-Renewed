@@ -19,27 +19,27 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO> 
-        getFKJGPDIKJOBList();
+    java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> 
+        getFishingItemInfoListList();
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
-    emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO getFKJGPDIKJOB(int index);
+    emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo getFishingItemInfoList(int index);
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
-    int getFKJGPDIKJOBCount();
+    int getFishingItemInfoListCount();
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGOOrBuilder> 
-        getFKJGPDIKJOBOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder> 
+        getFishingItemInfoListOrBuilderList();
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
-    emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGOOrBuilder getFKJGPDIKJOBOrBuilder(
+    emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder getFishingItemInfoListOrBuilder(
         int index);
 
     /**
@@ -61,7 +61,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       super(builder);
     }
     private _AquariumFishingDungeonSettleInfo() {
-      fKJGPDIKJOB_ = java.util.Collections.emptyList();
+      FishingItemInfoList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -97,11 +97,11 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
               break;
             case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                fKJGPDIKJOB_ = new java.util.ArrayList<emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO>();
+                FishingItemInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              fKJGPDIKJOB_.add(
-                  input.readMessage(emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.parser(), extensionRegistry));
+              FishingItemInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.parser(), extensionRegistry));
               break;
             }
             case 120: {
@@ -125,7 +125,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          fKJGPDIKJOB_ = java.util.Collections.unmodifiableList(fKJGPDIKJOB_);
+          FishingItemInfoList_ = java.util.Collections.unmodifiableList(FishingItemInfoList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -144,44 +144,44 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo.class, emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo.Builder.class);
     }
 
-    public static final int FKJGPDIKJOB_FIELD_NUMBER = 8;
-    private java.util.List<emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO> fKJGPDIKJOB_;
+    public static final int _FISHING_ITEM_INFO_LIST_FIELD_NUMBER = 8;
+    private java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> FishingItemInfoList_;
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO> getFKJGPDIKJOBList() {
-      return fKJGPDIKJOB_;
+    public java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> getFishingItemInfoListList() {
+      return FishingItemInfoList_;
     }
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGOOrBuilder> 
-        getFKJGPDIKJOBOrBuilderList() {
-      return fKJGPDIKJOB_;
+    public java.util.List<? extends emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder> 
+        getFishingItemInfoListOrBuilderList() {
+      return FishingItemInfoList_;
     }
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
     @java.lang.Override
-    public int getFKJGPDIKJOBCount() {
-      return fKJGPDIKJOB_.size();
+    public int getFishingItemInfoListCount() {
+      return FishingItemInfoList_.size();
     }
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO getFKJGPDIKJOB(int index) {
-      return fKJGPDIKJOB_.get(index);
+    public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo getFishingItemInfoList(int index) {
+      return FishingItemInfoList_.get(index);
     }
     /**
-     * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGOOrBuilder getFKJGPDIKJOBOrBuilder(
+    public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder getFishingItemInfoListOrBuilder(
         int index) {
-      return fKJGPDIKJOB_.get(index);
+      return FishingItemInfoList_.get(index);
     }
 
     public static final int KGPKNPNCMHA_FIELD_NUMBER = 15;
@@ -209,8 +209,8 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < fKJGPDIKJOB_.size(); i++) {
-        output.writeMessage(8, fKJGPDIKJOB_.get(i));
+      for (int i = 0; i < FishingItemInfoList_.size(); i++) {
+        output.writeMessage(8, FishingItemInfoList_.get(i));
       }
       if (kGPKNPNCMHA_ != 0) {
         output.writeUInt32(15, kGPKNPNCMHA_);
@@ -224,9 +224,9 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < fKJGPDIKJOB_.size(); i++) {
+      for (int i = 0; i < FishingItemInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, fKJGPDIKJOB_.get(i));
+          .computeMessageSize(8, FishingItemInfoList_.get(i));
       }
       if (kGPKNPNCMHA_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -247,8 +247,8 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       }
       emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo other = (emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo) obj;
 
-      if (!getFKJGPDIKJOBList()
-          .equals(other.getFKJGPDIKJOBList())) return false;
+      if (!getFishingItemInfoListList()
+          .equals(other.getFishingItemInfoListList())) return false;
       if (getKGPKNPNCMHA()
           != other.getKGPKNPNCMHA()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -262,9 +262,9 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getFKJGPDIKJOBCount() > 0) {
-        hash = (37 * hash) + FKJGPDIKJOB_FIELD_NUMBER;
-        hash = (53 * hash) + getFKJGPDIKJOBList().hashCode();
+      if (getFishingItemInfoListCount() > 0) {
+        hash = (37 * hash) + _FISHING_ITEM_INFO_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getFishingItemInfoListList().hashCode();
       }
       hash = (37 * hash) + KGPKNPNCMHA_FIELD_NUMBER;
       hash = (53 * hash) + getKGPKNPNCMHA();
@@ -396,17 +396,17 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getFKJGPDIKJOBFieldBuilder();
+          getFishingItemInfoListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (fKJGPDIKJOBBuilder_ == null) {
-          fKJGPDIKJOB_ = java.util.Collections.emptyList();
+        if (FishingItemInfoListBuilder_ == null) {
+          FishingItemInfoList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          fKJGPDIKJOBBuilder_.clear();
+          FishingItemInfoListBuilder_.clear();
         }
         kGPKNPNCMHA_ = 0;
 
@@ -437,14 +437,14 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       public emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo buildPartial() {
         emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo result = new emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo(this);
         int from_bitField0_ = bitField0_;
-        if (fKJGPDIKJOBBuilder_ == null) {
+        if (FishingItemInfoListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            fKJGPDIKJOB_ = java.util.Collections.unmodifiableList(fKJGPDIKJOB_);
+            FishingItemInfoList_ = java.util.Collections.unmodifiableList(FishingItemInfoList_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.fKJGPDIKJOB_ = fKJGPDIKJOB_;
+          result.FishingItemInfoList_ = FishingItemInfoList_;
         } else {
-          result.fKJGPDIKJOB_ = fKJGPDIKJOBBuilder_.build();
+          result.FishingItemInfoList_ = FishingItemInfoListBuilder_.build();
         }
         result.kGPKNPNCMHA_ = kGPKNPNCMHA_;
         onBuilt();
@@ -495,29 +495,29 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo other) {
         if (other == emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo.getDefaultInstance()) return this;
-        if (fKJGPDIKJOBBuilder_ == null) {
-          if (!other.fKJGPDIKJOB_.isEmpty()) {
-            if (fKJGPDIKJOB_.isEmpty()) {
-              fKJGPDIKJOB_ = other.fKJGPDIKJOB_;
+        if (FishingItemInfoListBuilder_ == null) {
+          if (!other.FishingItemInfoList_.isEmpty()) {
+            if (FishingItemInfoList_.isEmpty()) {
+              FishingItemInfoList_ = other.FishingItemInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureFKJGPDIKJOBIsMutable();
-              fKJGPDIKJOB_.addAll(other.fKJGPDIKJOB_);
+              ensureFishingItemInfoListIsMutable();
+              FishingItemInfoList_.addAll(other.FishingItemInfoList_);
             }
             onChanged();
           }
         } else {
-          if (!other.fKJGPDIKJOB_.isEmpty()) {
-            if (fKJGPDIKJOBBuilder_.isEmpty()) {
-              fKJGPDIKJOBBuilder_.dispose();
-              fKJGPDIKJOBBuilder_ = null;
-              fKJGPDIKJOB_ = other.fKJGPDIKJOB_;
+          if (!other.FishingItemInfoList_.isEmpty()) {
+            if (FishingItemInfoListBuilder_.isEmpty()) {
+              FishingItemInfoListBuilder_.dispose();
+              FishingItemInfoListBuilder_ = null;
+              FishingItemInfoList_ = other.FishingItemInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              fKJGPDIKJOBBuilder_ = 
+              FishingItemInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getFKJGPDIKJOBFieldBuilder() : null;
+                   getFishingItemInfoListFieldBuilder() : null;
             } else {
-              fKJGPDIKJOBBuilder_.addAllMessages(other.fKJGPDIKJOB_);
+              FishingItemInfoListBuilder_.addAllMessages(other.FishingItemInfoList_);
             }
           }
         }
@@ -554,244 +554,244 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO> fKJGPDIKJOB_ =
+      private java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> FishingItemInfoList_ =
         java.util.Collections.emptyList();
-      private void ensureFKJGPDIKJOBIsMutable() {
+      private void ensureFishingItemInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          fKJGPDIKJOB_ = new java.util.ArrayList<emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO>(fKJGPDIKJOB_);
+          FishingItemInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo>(FishingItemInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGOOrBuilder> fKJGPDIKJOBBuilder_;
+          emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder> FishingItemInfoListBuilder_;
 
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO> getFKJGPDIKJOBList() {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(fKJGPDIKJOB_);
+      public java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> getFishingItemInfoListList() {
+        if (FishingItemInfoListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(FishingItemInfoList_);
         } else {
-          return fKJGPDIKJOBBuilder_.getMessageList();
+          return FishingItemInfoListBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public int getFKJGPDIKJOBCount() {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          return fKJGPDIKJOB_.size();
+      public int getFishingItemInfoListCount() {
+        if (FishingItemInfoListBuilder_ == null) {
+          return FishingItemInfoList_.size();
         } else {
-          return fKJGPDIKJOBBuilder_.getCount();
+          return FishingItemInfoListBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO getFKJGPDIKJOB(int index) {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          return fKJGPDIKJOB_.get(index);
+      public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo getFishingItemInfoList(int index) {
+        if (FishingItemInfoListBuilder_ == null) {
+          return FishingItemInfoList_.get(index);
         } else {
-          return fKJGPDIKJOBBuilder_.getMessage(index);
+          return FishingItemInfoListBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public Builder setFKJGPDIKJOB(
-          int index, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO value) {
-        if (fKJGPDIKJOBBuilder_ == null) {
+      public Builder setFishingItemInfoList(
+          int index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo value) {
+        if (FishingItemInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureFKJGPDIKJOBIsMutable();
-          fKJGPDIKJOB_.set(index, value);
+          ensureFishingItemInfoListIsMutable();
+          FishingItemInfoList_.set(index, value);
           onChanged();
         } else {
-          fKJGPDIKJOBBuilder_.setMessage(index, value);
+          FishingItemInfoListBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public Builder setFKJGPDIKJOB(
-          int index, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder builderForValue) {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          ensureFKJGPDIKJOBIsMutable();
-          fKJGPDIKJOB_.set(index, builderForValue.build());
+      public Builder setFishingItemInfoList(
+          int index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder builderForValue) {
+        if (FishingItemInfoListBuilder_ == null) {
+          ensureFishingItemInfoListIsMutable();
+          FishingItemInfoList_.set(index, builderForValue.build());
           onChanged();
         } else {
-          fKJGPDIKJOBBuilder_.setMessage(index, builderForValue.build());
+          FishingItemInfoListBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public Builder addFKJGPDIKJOB(emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO value) {
-        if (fKJGPDIKJOBBuilder_ == null) {
+      public Builder addFishingItemInfoList(emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo value) {
+        if (FishingItemInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureFKJGPDIKJOBIsMutable();
-          fKJGPDIKJOB_.add(value);
+          ensureFishingItemInfoListIsMutable();
+          FishingItemInfoList_.add(value);
           onChanged();
         } else {
-          fKJGPDIKJOBBuilder_.addMessage(value);
+          FishingItemInfoListBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public Builder addFKJGPDIKJOB(
-          int index, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO value) {
-        if (fKJGPDIKJOBBuilder_ == null) {
+      public Builder addFishingItemInfoList(
+          int index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo value) {
+        if (FishingItemInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureFKJGPDIKJOBIsMutable();
-          fKJGPDIKJOB_.add(index, value);
+          ensureFishingItemInfoListIsMutable();
+          FishingItemInfoList_.add(index, value);
           onChanged();
         } else {
-          fKJGPDIKJOBBuilder_.addMessage(index, value);
+          FishingItemInfoListBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public Builder addFKJGPDIKJOB(
-          emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder builderForValue) {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          ensureFKJGPDIKJOBIsMutable();
-          fKJGPDIKJOB_.add(builderForValue.build());
+      public Builder addFishingItemInfoList(
+          emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder builderForValue) {
+        if (FishingItemInfoListBuilder_ == null) {
+          ensureFishingItemInfoListIsMutable();
+          FishingItemInfoList_.add(builderForValue.build());
           onChanged();
         } else {
-          fKJGPDIKJOBBuilder_.addMessage(builderForValue.build());
+          FishingItemInfoListBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public Builder addFKJGPDIKJOB(
-          int index, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder builderForValue) {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          ensureFKJGPDIKJOBIsMutable();
-          fKJGPDIKJOB_.add(index, builderForValue.build());
+      public Builder addFishingItemInfoList(
+          int index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder builderForValue) {
+        if (FishingItemInfoListBuilder_ == null) {
+          ensureFishingItemInfoListIsMutable();
+          FishingItemInfoList_.add(index, builderForValue.build());
           onChanged();
         } else {
-          fKJGPDIKJOBBuilder_.addMessage(index, builderForValue.build());
+          FishingItemInfoListBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public Builder addAllFKJGPDIKJOB(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO> values) {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          ensureFKJGPDIKJOBIsMutable();
+      public Builder addAllFishingItemInfoList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> values) {
+        if (FishingItemInfoListBuilder_ == null) {
+          ensureFishingItemInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, fKJGPDIKJOB_);
+              values, FishingItemInfoList_);
           onChanged();
         } else {
-          fKJGPDIKJOBBuilder_.addAllMessages(values);
+          FishingItemInfoListBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public Builder clearFKJGPDIKJOB() {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          fKJGPDIKJOB_ = java.util.Collections.emptyList();
+      public Builder clearFishingItemInfoList() {
+        if (FishingItemInfoListBuilder_ == null) {
+          FishingItemInfoList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          fKJGPDIKJOBBuilder_.clear();
+          FishingItemInfoListBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public Builder removeFKJGPDIKJOB(int index) {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          ensureFKJGPDIKJOBIsMutable();
-          fKJGPDIKJOB_.remove(index);
+      public Builder removeFishingItemInfoList(int index) {
+        if (FishingItemInfoListBuilder_ == null) {
+          ensureFishingItemInfoListIsMutable();
+          FishingItemInfoList_.remove(index);
           onChanged();
         } else {
-          fKJGPDIKJOBBuilder_.remove(index);
+          FishingItemInfoListBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder getFKJGPDIKJOBBuilder(
+      public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder getFishingItemInfoListBuilder(
           int index) {
-        return getFKJGPDIKJOBFieldBuilder().getBuilder(index);
+        return getFishingItemInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGOOrBuilder getFKJGPDIKJOBOrBuilder(
+      public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder getFishingItemInfoListOrBuilder(
           int index) {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          return fKJGPDIKJOB_.get(index);  } else {
-          return fKJGPDIKJOBBuilder_.getMessageOrBuilder(index);
+        if (FishingItemInfoListBuilder_ == null) {
+          return FishingItemInfoList_.get(index);  } else {
+          return FishingItemInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGOOrBuilder> 
-           getFKJGPDIKJOBOrBuilderList() {
-        if (fKJGPDIKJOBBuilder_ != null) {
-          return fKJGPDIKJOBBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder> 
+           getFishingItemInfoListOrBuilderList() {
+        if (FishingItemInfoListBuilder_ != null) {
+          return FishingItemInfoListBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(fKJGPDIKJOB_);
+          return java.util.Collections.unmodifiableList(FishingItemInfoList_);
         }
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder addFKJGPDIKJOBBuilder() {
-        return getFKJGPDIKJOBFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.getDefaultInstance());
+      public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder addFishingItemInfoListBuilder() {
+        return getFishingItemInfoListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder addFKJGPDIKJOBBuilder(
+      public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder addFishingItemInfoListBuilder(
           int index) {
-        return getFKJGPDIKJOBFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.getDefaultInstance());
+        return getFishingItemInfoListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .GFLKANIPEGO FKJGPDIKJOB = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder> 
-           getFKJGPDIKJOBBuilderList() {
-        return getFKJGPDIKJOBFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder> 
+           getFishingItemInfoListBuilderList() {
+        return getFishingItemInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGOOrBuilder> 
-          getFKJGPDIKJOBFieldBuilder() {
-        if (fKJGPDIKJOBBuilder_ == null) {
-          fKJGPDIKJOBBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGO.Builder, emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.GFLKANIPEGOOrBuilder>(
-                  fKJGPDIKJOB_,
+          emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder> 
+          getFishingItemInfoListFieldBuilder() {
+        if (FishingItemInfoListBuilder_ == null) {
+          FishingItemInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder>(
+                  FishingItemInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          fKJGPDIKJOB_ = null;
+          FishingItemInfoList_ = null;
         }
-        return fKJGPDIKJOBBuilder_;
+        return FishingItemInfoListBuilder_;
       }
 
       private int kGPKNPNCMHA_ ;
@@ -892,24 +892,25 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\'_AquariumFishingDungeonSettleInfo.prot" +
-      "o\032\021GFLKANIPEGO.proto\"[\n!_AquariumFishing" +
-      "DungeonSettleInfo\022!\n\013FKJGPDIKJOB\030\010 \003(\0132\014" +
-      ".GFLKANIPEGO\022\023\n\013KGPKNPNCMHA\030\017 \001(\rBH\n\031emu" +
-      ".grasscutter.net.protoB+_AquariumFishing" +
-      "DungeonSettleInfoOuterClassb\006proto3"
+      "o\032\036_AquariumFishingItemInfo.proto\"t\n!_Aq" +
+      "uariumFishingDungeonSettleInfo\022:\n\027_fishi" +
+      "ng_item_info_list\030\010 \003(\0132\031._AquariumFishi" +
+      "ngItemInfo\022\023\n\013KGPKNPNCMHA\030\017 \001(\rBH\n\031emu.g" +
+      "rasscutter.net.protoB+_AquariumFishingDu" +
+      "ngeonSettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass.getDescriptor(),
         });
     internal_static__AquariumFishingDungeonSettleInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static__AquariumFishingDungeonSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__AquariumFishingDungeonSettleInfo_descriptor,
-        new java.lang.String[] { "FKJGPDIKJOB", "KGPKNPNCMHA", });
-    emu.grasscutter.net.proto.GFLKANIPEGOOuterClass.getDescriptor();
+        new java.lang.String[] { "FishingItemInfoList", "KGPKNPNCMHA", });
+    emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

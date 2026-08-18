@@ -49,10 +49,6 @@ public final class GetAllActivatedBargainDataRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 28065
-   * </pre>
-   *
    * Protobuf type {@code GetAllActivatedBargainDataRsp}
    */
   public static final class GetAllActivatedBargainDataRsp extends
@@ -368,10 +364,6 @@ public final class GetAllActivatedBargainDataRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28065
-     * </pre>
-     *
      * Protobuf type {@code GetAllActivatedBargainDataRsp}
      */
     public static final class Builder extends

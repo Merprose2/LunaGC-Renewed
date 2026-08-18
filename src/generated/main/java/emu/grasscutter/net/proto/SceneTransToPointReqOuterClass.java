@@ -31,10 +31,6 @@ public final class SceneTransToPointReqOuterClass {
     int getPointId();
   }
   /**
-   * <pre>
-   * CmdID: 1837
-   * </pre>
-   *
    * Protobuf type {@code SceneTransToPointReq}
    */
   public static final class SceneTransToPointReq extends
@@ -310,10 +306,6 @@ public final class SceneTransToPointReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1837
-     * </pre>
-     *
      * Protobuf type {@code SceneTransToPointReq}
      */
     public static final class Builder extends

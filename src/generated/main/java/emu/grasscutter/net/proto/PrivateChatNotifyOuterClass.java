@@ -34,10 +34,6 @@ public final class PrivateChatNotifyOuterClass {
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder getChatInfoOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 20231
-   * </pre>
-   *
    * Protobuf type {@code PrivateChatNotify}
    */
   public static final class PrivateChatNotify extends
@@ -314,10 +310,6 @@ public final class PrivateChatNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20231
-     * </pre>
-     *
      * Protobuf type {@code PrivateChatNotify}
      */
     public static final class Builder extends

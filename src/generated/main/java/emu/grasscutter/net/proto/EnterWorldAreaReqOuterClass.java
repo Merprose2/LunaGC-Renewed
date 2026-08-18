@@ -31,10 +31,6 @@ public final class EnterWorldAreaReqOuterClass {
     int getAreaType();
   }
   /**
-   * <pre>
-   * CmdID: 26017
-   * </pre>
-   *
    * Protobuf type {@code EnterWorldAreaReq}
    */
   public static final class EnterWorldAreaReq extends
@@ -310,10 +306,6 @@ public final class EnterWorldAreaReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26017
-     * </pre>
-     *
      * Protobuf type {@code EnterWorldAreaReq}
      */
     public static final class Builder extends

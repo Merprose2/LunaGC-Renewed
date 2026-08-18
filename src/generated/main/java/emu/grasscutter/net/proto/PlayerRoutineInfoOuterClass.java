@@ -18,17 +18,9 @@ public final class PlayerRoutineInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerRoutineInfo)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>uint32 finished_num = 13;</code>
-     * @return The finishedNum.
-     */
-    int getFinishedNum();
-
-    /**
-     * <code>uint32 routine_type = 14;</code>
-     * @return The routineType.
-     */
     int getRoutineType();
+
+    int getFinishedNum();
   }
   /**
    * Protobuf type {@code PlayerRoutineInfo}
@@ -75,12 +67,12 @@ public final class PlayerRoutineInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 80: {
 
               finishedNum_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 56: {
 
               routineType_ = input.readUInt32();
               break;
@@ -117,26 +109,20 @@ public final class PlayerRoutineInfoOuterClass {
               emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.class, emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.Builder.class);
     }
 
-    public static final int FINISHED_NUM_FIELD_NUMBER = 13;
-    private int finishedNum_;
-    /**
-     * <code>uint32 finished_num = 13;</code>
-     * @return The finishedNum.
-     */
-    @java.lang.Override
-    public int getFinishedNum() {
-      return finishedNum_;
-    }
-
-    public static final int ROUTINE_TYPE_FIELD_NUMBER = 14;
+    public static final int ROUTINE_TYPE_FIELD_NUMBER = 7;
     private int routineType_;
-    /**
-     * <code>uint32 routine_type = 14;</code>
-     * @return The routineType.
-     */
+
     @java.lang.Override
     public int getRoutineType() {
       return routineType_;
+    }
+
+    public static final int FINISHED_NUM_FIELD_NUMBER = 10;
+    private int finishedNum_;
+
+    @java.lang.Override
+    public int getFinishedNum() {
+      return finishedNum_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -154,10 +140,10 @@ public final class PlayerRoutineInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (finishedNum_ != 0) {
-        output.writeUInt32(13, finishedNum_);
+        output.writeUInt32(10, finishedNum_);
       }
       if (routineType_ != 0) {
-        output.writeUInt32(14, routineType_);
+        output.writeUInt32(7, routineType_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +156,11 @@ public final class PlayerRoutineInfoOuterClass {
       size = 0;
       if (finishedNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, finishedNum_);
+          .computeUInt32Size(10, finishedNum_);
       }
       if (routineType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, routineType_);
+          .computeUInt32Size(7, routineType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -191,10 +177,10 @@ public final class PlayerRoutineInfoOuterClass {
       }
       emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo other = (emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo) obj;
 
-      if (getFinishedNum()
-          != other.getFinishedNum()) return false;
       if (getRoutineType()
           != other.getRoutineType()) return false;
+      if (getFinishedNum()
+          != other.getFinishedNum()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +192,10 @@ public final class PlayerRoutineInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + FINISHED_NUM_FIELD_NUMBER;
-      hash = (53 * hash) + getFinishedNum();
       hash = (37 * hash) + ROUTINE_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getRoutineType();
+      hash = (37 * hash) + FINISHED_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getFinishedNum();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -343,9 +329,9 @@ public final class PlayerRoutineInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        finishedNum_ = 0;
-
         routineType_ = 0;
+
+        finishedNum_ = 0;
 
         return this;
       }
@@ -373,8 +359,8 @@ public final class PlayerRoutineInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo buildPartial() {
         emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo result = new emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo(this);
-        result.finishedNum_ = finishedNum_;
         result.routineType_ = routineType_;
+        result.finishedNum_ = finishedNum_;
         onBuilt();
         return result;
       }
@@ -423,11 +409,11 @@ public final class PlayerRoutineInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo other) {
         if (other == emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo.getDefaultInstance()) return this;
-        if (other.getFinishedNum() != 0) {
-          setFinishedNum(other.getFinishedNum());
-        }
         if (other.getRoutineType() != 0) {
           setRoutineType(other.getRoutineType());
+        }
+        if (other.getFinishedNum() != 0) {
+          setFinishedNum(other.getFinishedNum());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,64 +444,44 @@ public final class PlayerRoutineInfoOuterClass {
         return this;
       }
 
-      private int finishedNum_ ;
-      /**
-       * <code>uint32 finished_num = 13;</code>
-       * @return The finishedNum.
-       */
-      @java.lang.Override
-      public int getFinishedNum() {
-        return finishedNum_;
-      }
-      /**
-       * <code>uint32 finished_num = 13;</code>
-       * @param value The finishedNum to set.
-       * @return This builder for chaining.
-       */
-      public Builder setFinishedNum(int value) {
-        
-        finishedNum_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 finished_num = 13;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearFinishedNum() {
-        
-        finishedNum_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int routineType_ ;
-      /**
-       * <code>uint32 routine_type = 14;</code>
-       * @return The routineType.
-       */
+
       @java.lang.Override
       public int getRoutineType() {
         return routineType_;
       }
-      /**
-       * <code>uint32 routine_type = 14;</code>
-       * @param value The routineType to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setRoutineType(int value) {
-        
+
         routineType_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint32 routine_type = 14;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearRoutineType() {
-        
+
         routineType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int finishedNum_ ;
+
+      @java.lang.Override
+      public int getFinishedNum() {
+        return finishedNum_;
+      }
+
+      public Builder setFinishedNum(int value) {
+
+        finishedNum_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearFinishedNum() {
+
+        finishedNum_ = 0;
         onChanged();
         return this;
       }
@@ -530,7 +496,6 @@ public final class PlayerRoutineInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PlayerRoutineInfo)
     }
@@ -574,7 +539,7 @@ public final class PlayerRoutineInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerRoutineInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerRoutineInfo_fieldAccessorTable;
 
@@ -587,9 +552,9 @@ public final class PlayerRoutineInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027PlayerRoutineInfo.proto\"?\n\021PlayerRouti" +
-      "neInfo\022\024\n\014finished_num\030\r \001(\r\022\024\n\014routine_" +
-      "type\030\016 \001(\rB8\n\031emu.grasscutter.net.protoB" +
-      "\033PlayerRoutineInfoOuterClassb\006proto3"
+      "neInfo\022\024\n\014routine_type\030\004 \001(\r\022\024\n\014finished" +
+      "_num\030\001 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -600,7 +565,7 @@ public final class PlayerRoutineInfoOuterClass {
     internal_static_PlayerRoutineInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerRoutineInfo_descriptor,
-        new java.lang.String[] { "FinishedNum", "RoutineType", });
+        new java.lang.String[] { "RoutineType", "FinishedNum", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

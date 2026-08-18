@@ -48,10 +48,6 @@ public final class GetShopmallDataRspOuterClass {
     int getShopTypeList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 22446
-   * </pre>
-   *
    * Protobuf type {@code GetShopmallDataRsp}
    */
   public static final class GetShopmallDataRsp extends
@@ -409,10 +405,6 @@ public final class GetShopmallDataRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22446
-     * </pre>
-     *
      * Protobuf type {@code GetShopmallDataRsp}
      */
     public static final class Builder extends

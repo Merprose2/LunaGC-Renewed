@@ -55,10 +55,10 @@ public final class GachaInfoOuterClass {
     int getScheduleId();
 
     /**
-     * <code>uint32 gacha_times_limit = 6;</code>
-     * @return The gachaTimesLimit.
+     * <code>uint32 left_gacha_times = 6;</code>
+     * @return The leftGachaTimes.
      */
-    int getGachaTimesLimit();
+    int getLeftGachaTimes();
 
     /**
      * <code>uint32 ten_cost_item_num = 7;</code>
@@ -67,10 +67,10 @@ public final class GachaInfoOuterClass {
     int getTenCostItemNum();
 
     /**
-     * <code>uint32 left_gacha_times = 8;</code>
-     * @return The leftGachaTimes.
+     * <code>uint32 gacha_times_limit = 8;</code>
+     * @return The gachaTimesLimit.
      */
-    int getLeftGachaTimes();
+    int getGachaTimesLimit();
 
     /**
      * <code>uint32 cost_item_id = 9;</code>
@@ -364,7 +364,7 @@ public final class GachaInfoOuterClass {
             }
             case 48: {
 
-              gachaTimesLimit_ = input.readUInt32();
+              leftGachaTimes_ = input.readUInt32();
               break;
             }
             case 56: {
@@ -374,7 +374,7 @@ public final class GachaInfoOuterClass {
             }
             case 64: {
 
-              leftGachaTimes_ = input.readUInt32();
+              gachaTimesLimit_ = input.readUInt32();
               break;
             }
             case 72: {
@@ -661,15 +661,15 @@ public final class GachaInfoOuterClass {
       return scheduleId_;
     }
 
-    public static final int GACHA_TIMES_LIMIT_FIELD_NUMBER = 6;
-    private int gachaTimesLimit_;
+    public static final int LEFT_GACHA_TIMES_FIELD_NUMBER = 6;
+    private int leftGachaTimes_;
     /**
-     * <code>uint32 gacha_times_limit = 6;</code>
-     * @return The gachaTimesLimit.
+     * <code>uint32 left_gacha_times = 6;</code>
+     * @return The leftGachaTimes.
      */
     @java.lang.Override
-    public int getGachaTimesLimit() {
-      return gachaTimesLimit_;
+    public int getLeftGachaTimes() {
+      return leftGachaTimes_;
     }
 
     public static final int TEN_COST_ITEM_NUM_FIELD_NUMBER = 7;
@@ -683,15 +683,15 @@ public final class GachaInfoOuterClass {
       return tenCostItemNum_;
     }
 
-    public static final int LEFT_GACHA_TIMES_FIELD_NUMBER = 8;
-    private int leftGachaTimes_;
+    public static final int GACHA_TIMES_LIMIT_FIELD_NUMBER = 8;
+    private int gachaTimesLimit_;
     /**
-     * <code>uint32 left_gacha_times = 8;</code>
-     * @return The leftGachaTimes.
+     * <code>uint32 gacha_times_limit = 8;</code>
+     * @return The gachaTimesLimit.
      */
     @java.lang.Override
-    public int getLeftGachaTimes() {
-      return leftGachaTimes_;
+    public int getGachaTimesLimit() {
+      return gachaTimesLimit_;
     }
 
     public static final int COST_ITEM_ID_FIELD_NUMBER = 9;
@@ -1186,14 +1186,14 @@ public final class GachaInfoOuterClass {
       if (scheduleId_ != 0) {
         output.writeUInt32(5, scheduleId_);
       }
-      if (gachaTimesLimit_ != 0) {
-        output.writeUInt32(6, gachaTimesLimit_);
+      if (leftGachaTimes_ != 0) {
+        output.writeUInt32(6, leftGachaTimes_);
       }
       if (tenCostItemNum_ != 0) {
         output.writeUInt32(7, tenCostItemNum_);
       }
-      if (leftGachaTimes_ != 0) {
-        output.writeUInt32(8, leftGachaTimes_);
+      if (gachaTimesLimit_ != 0) {
+        output.writeUInt32(8, gachaTimesLimit_);
       }
       if (costItemId_ != 0) {
         output.writeUInt32(9, costItemId_);
@@ -1295,17 +1295,17 @@ public final class GachaInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(5, scheduleId_);
       }
-      if (gachaTimesLimit_ != 0) {
+      if (leftGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, gachaTimesLimit_);
+          .computeUInt32Size(6, leftGachaTimes_);
       }
       if (tenCostItemNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(7, tenCostItemNum_);
       }
-      if (leftGachaTimes_ != 0) {
+      if (gachaTimesLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, leftGachaTimes_);
+          .computeUInt32Size(8, gachaTimesLimit_);
       }
       if (costItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1436,12 +1436,12 @@ public final class GachaInfoOuterClass {
           != other.getBeginTime()) return false;
       if (getScheduleId()
           != other.getScheduleId()) return false;
-      if (getGachaTimesLimit()
-          != other.getGachaTimesLimit()) return false;
-      if (getTenCostItemNum()
-          != other.getTenCostItemNum()) return false;
       if (getLeftGachaTimes()
           != other.getLeftGachaTimes()) return false;
+      if (getTenCostItemNum()
+          != other.getTenCostItemNum()) return false;
+      if (getGachaTimesLimit()
+          != other.getGachaTimesLimit()) return false;
       if (getCostItemId()
           != other.getCostItemId()) return false;
       if (!getGachaRecordUrl()
@@ -1503,12 +1503,12 @@ public final class GachaInfoOuterClass {
       hash = (53 * hash) + getBeginTime();
       hash = (37 * hash) + SCHEDULE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getScheduleId();
-      hash = (37 * hash) + GACHA_TIMES_LIMIT_FIELD_NUMBER;
-      hash = (53 * hash) + getGachaTimesLimit();
-      hash = (37 * hash) + TEN_COST_ITEM_NUM_FIELD_NUMBER;
-      hash = (53 * hash) + getTenCostItemNum();
       hash = (37 * hash) + LEFT_GACHA_TIMES_FIELD_NUMBER;
       hash = (53 * hash) + getLeftGachaTimes();
+      hash = (37 * hash) + TEN_COST_ITEM_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getTenCostItemNum();
+      hash = (37 * hash) + GACHA_TIMES_LIMIT_FIELD_NUMBER;
+      hash = (53 * hash) + getGachaTimesLimit();
       hash = (37 * hash) + COST_ITEM_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCostItemId();
       hash = (37 * hash) + GACHA_RECORD_URL_FIELD_NUMBER;
@@ -1703,11 +1703,11 @@ public final class GachaInfoOuterClass {
 
         scheduleId_ = 0;
 
-        gachaTimesLimit_ = 0;
+        leftGachaTimes_ = 0;
 
         tenCostItemNum_ = 0;
 
-        leftGachaTimes_ = 0;
+        gachaTimesLimit_ = 0;
 
         costItemId_ = 0;
 
@@ -1785,9 +1785,9 @@ public final class GachaInfoOuterClass {
         result.gachaType_ = gachaType_;
         result.beginTime_ = beginTime_;
         result.scheduleId_ = scheduleId_;
-        result.gachaTimesLimit_ = gachaTimesLimit_;
-        result.tenCostItemNum_ = tenCostItemNum_;
         result.leftGachaTimes_ = leftGachaTimes_;
+        result.tenCostItemNum_ = tenCostItemNum_;
+        result.gachaTimesLimit_ = gachaTimesLimit_;
         result.costItemId_ = costItemId_;
         result.gachaRecordUrl_ = gachaRecordUrl_;
         result.costItemNum_ = costItemNum_;
@@ -1892,14 +1892,14 @@ public final class GachaInfoOuterClass {
         if (other.getScheduleId() != 0) {
           setScheduleId(other.getScheduleId());
         }
-        if (other.getGachaTimesLimit() != 0) {
-          setGachaTimesLimit(other.getGachaTimesLimit());
+        if (other.getLeftGachaTimes() != 0) {
+          setLeftGachaTimes(other.getLeftGachaTimes());
         }
         if (other.getTenCostItemNum() != 0) {
           setTenCostItemNum(other.getTenCostItemNum());
         }
-        if (other.getLeftGachaTimes() != 0) {
-          setLeftGachaTimes(other.getLeftGachaTimes());
+        if (other.getGachaTimesLimit() != 0) {
+          setGachaTimesLimit(other.getGachaTimesLimit());
         }
         if (other.getCostItemId() != 0) {
           setCostItemId(other.getCostItemId());
@@ -2241,33 +2241,33 @@ public final class GachaInfoOuterClass {
         return this;
       }
 
-      private int gachaTimesLimit_ ;
+      private int leftGachaTimes_ ;
       /**
-       * <code>uint32 gacha_times_limit = 6;</code>
-       * @return The gachaTimesLimit.
+       * <code>uint32 left_gacha_times = 6;</code>
+       * @return The leftGachaTimes.
        */
       @java.lang.Override
-      public int getGachaTimesLimit() {
-        return gachaTimesLimit_;
+      public int getLeftGachaTimes() {
+        return leftGachaTimes_;
       }
       /**
-       * <code>uint32 gacha_times_limit = 6;</code>
-       * @param value The gachaTimesLimit to set.
+       * <code>uint32 left_gacha_times = 6;</code>
+       * @param value The leftGachaTimes to set.
        * @return This builder for chaining.
        */
-      public Builder setGachaTimesLimit(int value) {
+      public Builder setLeftGachaTimes(int value) {
         
-        gachaTimesLimit_ = value;
+        leftGachaTimes_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 gacha_times_limit = 6;</code>
+       * <code>uint32 left_gacha_times = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGachaTimesLimit() {
+      public Builder clearLeftGachaTimes() {
         
-        gachaTimesLimit_ = 0;
+        leftGachaTimes_ = 0;
         onChanged();
         return this;
       }
@@ -2303,33 +2303,33 @@ public final class GachaInfoOuterClass {
         return this;
       }
 
-      private int leftGachaTimes_ ;
+      private int gachaTimesLimit_ ;
       /**
-       * <code>uint32 left_gacha_times = 8;</code>
-       * @return The leftGachaTimes.
+       * <code>uint32 gacha_times_limit = 8;</code>
+       * @return The gachaTimesLimit.
        */
       @java.lang.Override
-      public int getLeftGachaTimes() {
-        return leftGachaTimes_;
+      public int getGachaTimesLimit() {
+        return gachaTimesLimit_;
       }
       /**
-       * <code>uint32 left_gacha_times = 8;</code>
-       * @param value The leftGachaTimes to set.
+       * <code>uint32 gacha_times_limit = 8;</code>
+       * @param value The gachaTimesLimit to set.
        * @return This builder for chaining.
        */
-      public Builder setLeftGachaTimes(int value) {
+      public Builder setGachaTimesLimit(int value) {
         
-        leftGachaTimes_ = value;
+        gachaTimesLimit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 left_gacha_times = 8;</code>
+       * <code>uint32 gacha_times_limit = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLeftGachaTimes() {
+      public Builder clearGachaTimesLimit() {
         
-        leftGachaTimes_ = 0;
+        gachaTimesLimit_ = 0;
         onChanged();
         return this;
       }
@@ -3647,9 +3647,9 @@ public final class GachaInfoOuterClass {
       "\tGachaInfo\022!\n\031gacha_preview_prefab_path\030" +
       "\001 \001(\t\022\030\n\020ten_cost_item_id\030\002 \001(\r\022\022\n\ngacha" +
       "_type\030\003 \001(\r\022\022\n\nbegin_time\030\004 \001(\r\022\023\n\013sched" +
-      "ule_id\030\005 \001(\r\022\031\n\021gacha_times_limit\030\006 \001(\r\022" +
-      "\031\n\021ten_cost_item_num\030\007 \001(\r\022\030\n\020left_gacha" +
-      "_times\030\010 \001(\r\022\024\n\014cost_item_id\030\t \001(\r\022\030\n\020ga" +
+      "ule_id\030\005 \001(\r\022\030\n\020left_gacha_times\030\006 \001(\r\022\031" +
+      "\n\021ten_cost_item_num\030\007 \001(\r\022\031\n\021gacha_times" +
+      "_limit\030\010 \001(\r\022\024\n\014cost_item_id\030\t \001(\r\022\030\n\020ga" +
       "cha_record_url\030\n \001(\t\022\025\n\rcost_item_num\030\013 " +
       "\001(\r\022\026\n\016gacha_prob_url\030\014 \001(\t\022\031\n\021gacha_pre" +
       "fab_path\030\r \001(\t\022\020\n\010end_time\030\016 \001(\r\022\025\n\rgach" +
@@ -3676,7 +3676,7 @@ public final class GachaInfoOuterClass {
     internal_static_GachaInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GachaInfo_descriptor,
-        new java.lang.String[] { "GachaPreviewPrefabPath", "TenCostItemId", "GachaType", "BeginTime", "ScheduleId", "GachaTimesLimit", "TenCostItemNum", "LeftGachaTimes", "CostItemId", "GachaRecordUrl", "CostItemNum", "GachaProbUrl", "GachaPrefabPath", "EndTime", "GachaSortId", "DisplayChronicle5ItemList", "HMOJLEMLHDK", "DisplayUp4ItemList", "IsNewWish", "DisplayUp5ItemList", "GachaRecordUrlOversea", "GachaProbUrlOversea", "TitleTextmap", "WishMaxProgress", "WishProgress", "CurScheduleDailyGachaTimes", "WishItemId", "GachaUpInfoList", });
+        new java.lang.String[] { "GachaPreviewPrefabPath", "TenCostItemId", "GachaType", "BeginTime", "ScheduleId", "LeftGachaTimes", "TenCostItemNum", "GachaTimesLimit", "CostItemId", "GachaRecordUrl", "CostItemNum", "GachaProbUrl", "GachaPrefabPath", "EndTime", "GachaSortId", "DisplayChronicle5ItemList", "HMOJLEMLHDK", "DisplayUp4ItemList", "IsNewWish", "DisplayUp5ItemList", "GachaRecordUrlOversea", "GachaProbUrlOversea", "TitleTextmap", "WishMaxProgress", "WishProgress", "CurScheduleDailyGachaTimes", "WishItemId", "GachaUpInfoList", });
     emu.grasscutter.net.proto.GachaUpInfoOuterClass.getDescriptor();
   }
 

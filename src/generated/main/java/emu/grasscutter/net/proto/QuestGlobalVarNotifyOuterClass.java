@@ -43,10 +43,6 @@ public final class QuestGlobalVarNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 27513
-   * </pre>
-   *
    * Protobuf type {@code QuestGlobalVarNotify}
    */
   public static final class QuestGlobalVarNotify extends
@@ -335,10 +331,6 @@ public final class QuestGlobalVarNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27513
-     * </pre>
-     *
      * Protobuf type {@code QuestGlobalVarNotify}
      */
     public static final class Builder extends

@@ -59,10 +59,6 @@ public final class AvatarPropNotifyOuterClass {
     long getAvatarGuid();
   }
   /**
-   * <pre>
-   * CmdID: 8709
-   * </pre>
-   *
    * Protobuf type {@code AvatarPropNotify}
    */
   public static final class AvatarPropNotify extends
@@ -441,10 +437,6 @@ public final class AvatarPropNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8709
-     * </pre>
-     *
      * Protobuf type {@code AvatarPropNotify}
      */
     public static final class Builder extends

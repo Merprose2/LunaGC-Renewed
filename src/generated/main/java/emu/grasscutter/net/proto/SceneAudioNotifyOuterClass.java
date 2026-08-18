@@ -31,15 +31,15 @@ public final class SceneAudioNotifyOuterClass {
     int getType();
 
     /**
-     * <code>.SceneAudioNotify.AFEHPIONNHH business_type = 9;</code>
+     * <code>.SceneAudioNotify._SceneAudioBusinessType business_type = 9;</code>
      * @return The enum numeric value on the wire for businessType.
      */
     int getBusinessTypeValue();
     /**
-     * <code>.SceneAudioNotify.AFEHPIONNHH business_type = 9;</code>
+     * <code>.SceneAudioNotify._SceneAudioBusinessType business_type = 9;</code>
      * @return The businessType.
      */
-    emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH getBusinessType();
+    emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType getBusinessType();
 
     /**
      * <code>repeated string param3 = 11;</code>
@@ -101,10 +101,6 @@ public final class SceneAudioNotifyOuterClass {
     int getParam1(int index);
   }
   /**
-   * <pre>
-   * CmdID: 24761
-   * </pre>
-   *
    * Protobuf type {@code SceneAudioNotify}
    */
   public static final class SceneAudioNotify extends
@@ -263,29 +259,29 @@ public final class SceneAudioNotifyOuterClass {
     }
 
     /**
-     * Protobuf enum {@code SceneAudioNotify.AFEHPIONNHH}
+     * Protobuf enum {@code SceneAudioNotify._SceneAudioBusinessType}
      */
-    public enum AFEHPIONNHH
+    public enum _SceneAudioBusinessType
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>AFEHPIONNHH_NORMAL = 0;</code>
+       * <code>NORMAL = 0;</code>
        */
-      AFEHPIONNHH_NORMAL(0),
+      NORMAL(0),
       /**
-       * <code>AFEHPIONNHH_INSTRUMENT_WIDGET = 1;</code>
+       * <code>INSTRUMENT_WIDGET = 1;</code>
        */
-      AFEHPIONNHH_INSTRUMENT_WIDGET(1),
+      INSTRUMENT_WIDGET(1),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>AFEHPIONNHH_NORMAL = 0;</code>
+       * <code>NORMAL = 0;</code>
        */
-      public static final int AFEHPIONNHH_NORMAL_VALUE = 0;
+      public static final int NORMAL_VALUE = 0;
       /**
-       * <code>AFEHPIONNHH_INSTRUMENT_WIDGET = 1;</code>
+       * <code>INSTRUMENT_WIDGET = 1;</code>
        */
-      public static final int AFEHPIONNHH_INSTRUMENT_WIDGET_VALUE = 1;
+      public static final int INSTRUMENT_WIDGET_VALUE = 1;
 
 
       public final int getNumber() {
@@ -302,7 +298,7 @@ public final class SceneAudioNotifyOuterClass {
        * @deprecated Use {@link #forNumber(int)} instead.
        */
       @java.lang.Deprecated
-      public static AFEHPIONNHH valueOf(int value) {
+      public static _SceneAudioBusinessType valueOf(int value) {
         return forNumber(value);
       }
 
@@ -310,23 +306,23 @@ public final class SceneAudioNotifyOuterClass {
        * @param value The numeric wire value of the corresponding enum entry.
        * @return The enum associated with the given numeric wire value.
        */
-      public static AFEHPIONNHH forNumber(int value) {
+      public static _SceneAudioBusinessType forNumber(int value) {
         switch (value) {
-          case 0: return AFEHPIONNHH_NORMAL;
-          case 1: return AFEHPIONNHH_INSTRUMENT_WIDGET;
+          case 0: return NORMAL;
+          case 1: return INSTRUMENT_WIDGET;
           default: return null;
         }
       }
 
-      public static com.google.protobuf.Internal.EnumLiteMap<AFEHPIONNHH>
+      public static com.google.protobuf.Internal.EnumLiteMap<_SceneAudioBusinessType>
           internalGetValueMap() {
         return internalValueMap;
       }
       private static final com.google.protobuf.Internal.EnumLiteMap<
-          AFEHPIONNHH> internalValueMap =
-            new com.google.protobuf.Internal.EnumLiteMap<AFEHPIONNHH>() {
-              public AFEHPIONNHH findValueByNumber(int number) {
-                return AFEHPIONNHH.forNumber(number);
+          _SceneAudioBusinessType> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<_SceneAudioBusinessType>() {
+              public _SceneAudioBusinessType findValueByNumber(int number) {
+                return _SceneAudioBusinessType.forNumber(number);
               }
             };
 
@@ -347,9 +343,9 @@ public final class SceneAudioNotifyOuterClass {
         return emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.getDescriptor().getEnumTypes().get(0);
       }
 
-      private static final AFEHPIONNHH[] VALUES = values();
+      private static final _SceneAudioBusinessType[] VALUES = values();
 
-      public static AFEHPIONNHH valueOf(
+      public static _SceneAudioBusinessType valueOf(
           com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
         if (desc.getType() != getDescriptor()) {
           throw new java.lang.IllegalArgumentException(
@@ -363,11 +359,11 @@ public final class SceneAudioNotifyOuterClass {
 
       private final int value;
 
-      private AFEHPIONNHH(int value) {
+      private _SceneAudioBusinessType(int value) {
         this.value = value;
       }
 
-      // @@protoc_insertion_point(enum_scope:SceneAudioNotify.AFEHPIONNHH)
+      // @@protoc_insertion_point(enum_scope:SceneAudioNotify._SceneAudioBusinessType)
     }
 
     public static final int SOURCE_UID_FIELD_NUMBER = 5;
@@ -395,20 +391,20 @@ public final class SceneAudioNotifyOuterClass {
     public static final int BUSINESS_TYPE_FIELD_NUMBER = 9;
     private int businessType_;
     /**
-     * <code>.SceneAudioNotify.AFEHPIONNHH business_type = 9;</code>
+     * <code>.SceneAudioNotify._SceneAudioBusinessType business_type = 9;</code>
      * @return The enum numeric value on the wire for businessType.
      */
     @java.lang.Override public int getBusinessTypeValue() {
       return businessType_;
     }
     /**
-     * <code>.SceneAudioNotify.AFEHPIONNHH business_type = 9;</code>
+     * <code>.SceneAudioNotify._SceneAudioBusinessType business_type = 9;</code>
      * @return The businessType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH getBusinessType() {
+    @java.lang.Override public emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType getBusinessType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH result = emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH.valueOf(businessType_);
-      return result == null ? emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType result = emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType.valueOf(businessType_);
+      return result == null ? emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType.UNRECOGNIZED : result;
     }
 
     public static final int PARAM3_FIELD_NUMBER = 11;
@@ -523,7 +519,7 @@ public final class SceneAudioNotifyOuterClass {
       if (type_ != 0) {
         output.writeInt32(6, type_);
       }
-      if (businessType_ != emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH.AFEHPIONNHH_NORMAL.getNumber()) {
+      if (businessType_ != emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType.NORMAL.getNumber()) {
         output.writeEnum(9, businessType_);
       }
       for (int i = 0; i < param3_.size(); i++) {
@@ -560,7 +556,7 @@ public final class SceneAudioNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(6, type_);
       }
-      if (businessType_ != emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH.AFEHPIONNHH_NORMAL.getNumber()) {
+      if (businessType_ != emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType.NORMAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, businessType_);
       }
@@ -748,10 +744,6 @@ public final class SceneAudioNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24761
-     * </pre>
-     *
      * Protobuf type {@code SceneAudioNotify}
      */
     public static final class Builder extends
@@ -1027,14 +1019,14 @@ public final class SceneAudioNotifyOuterClass {
 
       private int businessType_ = 0;
       /**
-       * <code>.SceneAudioNotify.AFEHPIONNHH business_type = 9;</code>
+       * <code>.SceneAudioNotify._SceneAudioBusinessType business_type = 9;</code>
        * @return The enum numeric value on the wire for businessType.
        */
       @java.lang.Override public int getBusinessTypeValue() {
         return businessType_;
       }
       /**
-       * <code>.SceneAudioNotify.AFEHPIONNHH business_type = 9;</code>
+       * <code>.SceneAudioNotify._SceneAudioBusinessType business_type = 9;</code>
        * @param value The enum numeric value on the wire for businessType to set.
        * @return This builder for chaining.
        */
@@ -1045,21 +1037,21 @@ public final class SceneAudioNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.SceneAudioNotify.AFEHPIONNHH business_type = 9;</code>
+       * <code>.SceneAudioNotify._SceneAudioBusinessType business_type = 9;</code>
        * @return The businessType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH getBusinessType() {
+      public emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType getBusinessType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH result = emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH.valueOf(businessType_);
-        return result == null ? emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType result = emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType.valueOf(businessType_);
+        return result == null ? emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.SceneAudioNotify.AFEHPIONNHH business_type = 9;</code>
+       * <code>.SceneAudioNotify._SceneAudioBusinessType business_type = 9;</code>
        * @param value The businessType to set.
        * @return This builder for chaining.
        */
-      public Builder setBusinessType(emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify.AFEHPIONNHH value) {
+      public Builder setBusinessType(emu.grasscutter.net.proto.SceneAudioNotifyOuterClass.SceneAudioNotify._SceneAudioBusinessType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1069,7 +1061,7 @@ public final class SceneAudioNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.SceneAudioNotify.AFEHPIONNHH business_type = 9;</code>
+       * <code>.SceneAudioNotify._SceneAudioBusinessType business_type = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearBusinessType() {
@@ -1415,10 +1407,10 @@ public final class SceneAudioNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026SceneAudioNotify.proto\"\344\001\n\020SceneAudioN" +
       "otify\022\022\n\nsource_uid\030\005 \001(\r\022\014\n\004type\030\006 \001(\005\022" +
-      "4\n\rbusiness_type\030\t \001(\0162\035.SceneAudioNotif" +
-      "y.AFEHPIONNHH\022\016\n\006param3\030\013 \003(\t\022\016\n\006param2\030" +
-      "\r \003(\002\022\016\n\006param1\030\016 \003(\r\"H\n\013AFEHPIONNHH\022\026\n\022" +
-      "AFEHPIONNHH_NORMAL\020\000\022!\n\035AFEHPIONNHH_INST" +
+      "@\n\rbusiness_type\030\t \001(\0162).SceneAudioNotif" +
+      "y._SceneAudioBusinessType\022\016\n\006param3\030\013 \003(" +
+      "\t\022\016\n\006param2\030\r \003(\002\022\016\n\006param1\030\016 \003(\r\"<\n\027_Sc" +
+      "eneAudioBusinessType\022\n\n\006NORMAL\020\000\022\025\n\021INST" +
       "RUMENT_WIDGET\020\001B7\n\031emu.grasscutter.net.p" +
       "rotoB\032SceneAudioNotifyOuterClassb\006proto3"
     };

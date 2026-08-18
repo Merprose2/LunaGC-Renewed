@@ -31,10 +31,6 @@ public final class SetPlayerNameReqOuterClass {
         getNickNameBytes();
   }
   /**
-   * <pre>
-   * CmdID: 7384
-   * </pre>
-   *
    * Protobuf type {@code SetPlayerNameReq}
    */
   public static final class SetPlayerNameReq extends
@@ -311,10 +307,6 @@ public final class SetPlayerNameReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7384
-     * </pre>
-     *
      * Protobuf type {@code SetPlayerNameReq}
      */
     public static final class Builder extends

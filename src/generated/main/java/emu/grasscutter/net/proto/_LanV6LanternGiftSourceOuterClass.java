@@ -19,18 +19,6 @@ public final class _LanV6LanternGiftSourceOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>fixed32 timestamp = 1;</code>
-     * @return The timestamp.
-     */
-    int getTimestamp();
-
-    /**
-     * <code>fixed32 BNBMJMEHPLJ = 3;</code>
-     * @return The bNBMJMEHPLJ.
-     */
-    int getBNBMJMEHPLJ();
-
-    /**
      * <code>.FIEHCAPFKFI npc = 1639;</code>
      * @return Whether the npc field is set.
      */
@@ -59,6 +47,18 @@ public final class _LanV6LanternGiftSourceOuterClass {
      * <code>.EDLMACJNHGP player = 1981;</code>
      */
     emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGPOrBuilder getPlayerOrBuilder();
+
+    /**
+     * <code>fixed32 timestamp = 1;</code>
+     * @return The timestamp.
+     */
+    int getTimestamp();
+
+    /**
+     * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+     * @return The bNBMJMEHPLJ.
+     */
+    int getBNBMJMEHPLJ();
 
     public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.DetailCase getDetailCase();
   }
@@ -218,28 +218,6 @@ public final class _LanV6LanternGiftSourceOuterClass {
           detailCase_);
     }
 
-    public static final int TIMESTAMP_FIELD_NUMBER = 1;
-    private int timestamp_;
-    /**
-     * <code>fixed32 timestamp = 1;</code>
-     * @return The timestamp.
-     */
-    @java.lang.Override
-    public int getTimestamp() {
-      return timestamp_;
-    }
-
-    public static final int BNBMJMEHPLJ_FIELD_NUMBER = 3;
-    private int bNBMJMEHPLJ_;
-    /**
-     * <code>fixed32 BNBMJMEHPLJ = 3;</code>
-     * @return The bNBMJMEHPLJ.
-     */
-    @java.lang.Override
-    public int getBNBMJMEHPLJ() {
-      return bNBMJMEHPLJ_;
-    }
-
     public static final int NPC_FIELD_NUMBER = 1639;
     /**
      * <code>.FIEHCAPFKFI npc = 1639;</code>
@@ -300,6 +278,28 @@ public final class _LanV6LanternGiftSourceOuterClass {
          return (emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_;
       }
       return emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.getDefaultInstance();
+    }
+
+    public static final int TIMESTAMP_FIELD_NUMBER = 1;
+    private int timestamp_;
+    /**
+     * <code>fixed32 timestamp = 1;</code>
+     * @return The timestamp.
+     */
+    @java.lang.Override
+    public int getTimestamp() {
+      return timestamp_;
+    }
+
+    public static final int BNBMJMEHPLJ_FIELD_NUMBER = 3;
+    private int bNBMJMEHPLJ_;
+    /**
+     * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+     * @return The bNBMJMEHPLJ.
+     */
+    @java.lang.Override
+    public int getBNBMJMEHPLJ() {
+      return bNBMJMEHPLJ_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -577,8 +577,6 @@ public final class _LanV6LanternGiftSourceOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource buildPartial() {
         emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource result = new emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource(this);
-        result.timestamp_ = timestamp_;
-        result.bNBMJMEHPLJ_ = bNBMJMEHPLJ_;
         if (detailCase_ == 1639) {
           if (npcBuilder_ == null) {
             result.detail_ = detail_;
@@ -593,6 +591,8 @@ public final class _LanV6LanternGiftSourceOuterClass {
             result.detail_ = playerBuilder_.build();
           }
         }
+        result.timestamp_ = timestamp_;
+        result.bNBMJMEHPLJ_ = bNBMJMEHPLJ_;
         result.detailCase_ = detailCase_;
         onBuilt();
         return result;
@@ -704,68 +704,6 @@ public final class _LanV6LanternGiftSourceOuterClass {
         return this;
       }
 
-
-      private int timestamp_ ;
-      /**
-       * <code>fixed32 timestamp = 1;</code>
-       * @return The timestamp.
-       */
-      @java.lang.Override
-      public int getTimestamp() {
-        return timestamp_;
-      }
-      /**
-       * <code>fixed32 timestamp = 1;</code>
-       * @param value The timestamp to set.
-       * @return This builder for chaining.
-       */
-      public Builder setTimestamp(int value) {
-        
-        timestamp_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>fixed32 timestamp = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearTimestamp() {
-        
-        timestamp_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int bNBMJMEHPLJ_ ;
-      /**
-       * <code>fixed32 BNBMJMEHPLJ = 3;</code>
-       * @return The bNBMJMEHPLJ.
-       */
-      @java.lang.Override
-      public int getBNBMJMEHPLJ() {
-        return bNBMJMEHPLJ_;
-      }
-      /**
-       * <code>fixed32 BNBMJMEHPLJ = 3;</code>
-       * @param value The bNBMJMEHPLJ to set.
-       * @return This builder for chaining.
-       */
-      public Builder setBNBMJMEHPLJ(int value) {
-        
-        bNBMJMEHPLJ_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>fixed32 BNBMJMEHPLJ = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearBNBMJMEHPLJ() {
-        
-        bNBMJMEHPLJ_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI, emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.Builder, emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFIOrBuilder> npcBuilder_;
@@ -1048,6 +986,68 @@ public final class _LanV6LanternGiftSourceOuterClass {
         onChanged();;
         return playerBuilder_;
       }
+
+      private int timestamp_ ;
+      /**
+       * <code>fixed32 timestamp = 1;</code>
+       * @return The timestamp.
+       */
+      @java.lang.Override
+      public int getTimestamp() {
+        return timestamp_;
+      }
+      /**
+       * <code>fixed32 timestamp = 1;</code>
+       * @param value The timestamp to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTimestamp(int value) {
+        
+        timestamp_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>fixed32 timestamp = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTimestamp() {
+        
+        timestamp_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int bNBMJMEHPLJ_ ;
+      /**
+       * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+       * @return The bNBMJMEHPLJ.
+       */
+      @java.lang.Override
+      public int getBNBMJMEHPLJ() {
+        return bNBMJMEHPLJ_;
+      }
+      /**
+       * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+       * @param value The bNBMJMEHPLJ to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBNBMJMEHPLJ(int value) {
+        
+        bNBMJMEHPLJ_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBNBMJMEHPLJ() {
+        
+        bNBMJMEHPLJ_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1117,9 +1117,9 @@ public final class _LanV6LanternGiftSourceOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035_LanV6LanternGiftSource.proto\032\021EDLMACJ" +
       "NHGP.proto\032\021FIEHCAPFKFI.proto\"\212\001\n\027_LanV6" +
-      "LanternGiftSource\022\021\n\ttimestamp\030\001 \001(\007\022\023\n\013" +
-      "BNBMJMEHPLJ\030\003 \001(\007\022\034\n\003npc\030\347\014 \001(\0132\014.FIEHCA" +
+      "LanternGiftSource\022\034\n\003npc\030\347\014 \001(\0132\014.FIEHCA" +
       "PFKFIH\000\022\037\n\006player\030\275\017 \001(\0132\014.EDLMACJNHGPH\000" +
+      "\022\021\n\ttimestamp\030\001 \001(\007\022\023\n\013BNBMJMEHPLJ\030\003 \001(\007" +
       "B\010\n\006detailB>\n\031emu.grasscutter.net.protoB" +
       "!_LanV6LanternGiftSourceOuterClassb\006prot" +
       "o3"
@@ -1135,7 +1135,7 @@ public final class _LanV6LanternGiftSourceOuterClass {
     internal_static__LanV6LanternGiftSource_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__LanV6LanternGiftSource_descriptor,
-        new java.lang.String[] { "Timestamp", "BNBMJMEHPLJ", "Npc", "Player", "Detail", });
+        new java.lang.String[] { "Npc", "Player", "Timestamp", "BNBMJMEHPLJ", "Detail", });
     emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.getDescriptor();
   }

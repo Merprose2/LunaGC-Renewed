@@ -179,10 +179,6 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     int getProudSkillList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 27670
-   * </pre>
-   *
    * Protobuf type {@code AvatarSkillDepotChangeNotify}
    */
   public static final class AvatarSkillDepotChangeNotify extends
@@ -1081,10 +1077,6 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27670
-     * </pre>
-     *
      * Protobuf type {@code AvatarSkillDepotChangeNotify}
      */
     public static final class Builder extends

@@ -52,10 +52,6 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 8310
-   * </pre>
-   *
    * Protobuf type {@code EvtAvatarSitDownNotify}
    */
   public static final class EvtAvatarSitDownNotify extends
@@ -414,10 +410,6 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8310
-     * </pre>
-     *
      * Protobuf type {@code EvtAvatarSitDownNotify}
      */
     public static final class Builder extends

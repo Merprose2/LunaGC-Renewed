@@ -19,15 +19,15 @@ public final class IHNALHEKDIDOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.EDDKANMEDNL CHCECLJJEJB = 2;</code>
-     * @return The enum numeric value on the wire for cHCECLJJEJB.
+     * <code>.EDDKANMEDNL source = 2;</code>
+     * @return The enum numeric value on the wire for source.
      */
-    int getCHCECLJJEJBValue();
+    int getSourceValue();
     /**
-     * <code>.EDDKANMEDNL CHCECLJJEJB = 2;</code>
-     * @return The cHCECLJJEJB.
+     * <code>.EDDKANMEDNL source = 2;</code>
+     * @return The source.
      */
-    emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL getCHCECLJJEJB();
+    emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL getSource();
 
     /**
      * <code>uint32 NOMMHKJEGDK = 6;</code>
@@ -54,7 +54,7 @@ public final class IHNALHEKDIDOuterClass {
       super(builder);
     }
     private IHNALHEKDID() {
-      cHCECLJJEJB_ = 0;
+      source_ = 0;
     }
 
     @java.lang.Override
@@ -90,7 +90,7 @@ public final class IHNALHEKDIDOuterClass {
             case 16: {
               int rawValue = input.readEnum();
 
-              cHCECLJJEJB_ = rawValue;
+              source_ = rawValue;
               break;
             }
             case 48: {
@@ -135,22 +135,22 @@ public final class IHNALHEKDIDOuterClass {
               emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.class, emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.Builder.class);
     }
 
-    public static final int CHCECLJJEJB_FIELD_NUMBER = 2;
-    private int cHCECLJJEJB_;
+    public static final int SOURCE_FIELD_NUMBER = 2;
+    private int source_;
     /**
-     * <code>.EDDKANMEDNL CHCECLJJEJB = 2;</code>
-     * @return The enum numeric value on the wire for cHCECLJJEJB.
+     * <code>.EDDKANMEDNL source = 2;</code>
+     * @return The enum numeric value on the wire for source.
      */
-    @java.lang.Override public int getCHCECLJJEJBValue() {
-      return cHCECLJJEJB_;
+    @java.lang.Override public int getSourceValue() {
+      return source_;
     }
     /**
-     * <code>.EDDKANMEDNL CHCECLJJEJB = 2;</code>
-     * @return The cHCECLJJEJB.
+     * <code>.EDDKANMEDNL source = 2;</code>
+     * @return The source.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL getCHCECLJJEJB() {
+    @java.lang.Override public emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL getSource() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL result = emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.valueOf(cHCECLJJEJB_);
+      emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL result = emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.valueOf(source_);
       return result == null ? emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.UNRECOGNIZED : result;
     }
 
@@ -190,8 +190,8 @@ public final class IHNALHEKDIDOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (cHCECLJJEJB_ != emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.EDDKANMEDNL_NONE.getNumber()) {
-        output.writeEnum(2, cHCECLJJEJB_);
+      if (source_ != emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.EDDKANMEDNL_NONE.getNumber()) {
+        output.writeEnum(2, source_);
       }
       if (nOMMHKJEGDK_ != 0) {
         output.writeUInt32(6, nOMMHKJEGDK_);
@@ -208,9 +208,9 @@ public final class IHNALHEKDIDOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (cHCECLJJEJB_ != emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.EDDKANMEDNL_NONE.getNumber()) {
+      if (source_ != emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.EDDKANMEDNL_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(2, cHCECLJJEJB_);
+          .computeEnumSize(2, source_);
       }
       if (nOMMHKJEGDK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -235,7 +235,7 @@ public final class IHNALHEKDIDOuterClass {
       }
       emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID other = (emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID) obj;
 
-      if (cHCECLJJEJB_ != other.cHCECLJJEJB_) return false;
+      if (source_ != other.source_) return false;
       if (getNOMMHKJEGDK()
           != other.getNOMMHKJEGDK()) return false;
       if (getAvatarId()
@@ -251,8 +251,8 @@ public final class IHNALHEKDIDOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + CHCECLJJEJB_FIELD_NUMBER;
-      hash = (53 * hash) + cHCECLJJEJB_;
+      hash = (37 * hash) + SOURCE_FIELD_NUMBER;
+      hash = (53 * hash) + source_;
       hash = (37 * hash) + NOMMHKJEGDK_FIELD_NUMBER;
       hash = (53 * hash) + getNOMMHKJEGDK();
       hash = (37 * hash) + AVATAR_ID_FIELD_NUMBER;
@@ -390,7 +390,7 @@ public final class IHNALHEKDIDOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        cHCECLJJEJB_ = 0;
+        source_ = 0;
 
         nOMMHKJEGDK_ = 0;
 
@@ -422,7 +422,7 @@ public final class IHNALHEKDIDOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID buildPartial() {
         emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID result = new emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID(this);
-        result.cHCECLJJEJB_ = cHCECLJJEJB_;
+        result.source_ = source_;
         result.nOMMHKJEGDK_ = nOMMHKJEGDK_;
         result.avatarId_ = avatarId_;
         onBuilt();
@@ -473,8 +473,8 @@ public final class IHNALHEKDIDOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID other) {
         if (other == emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.getDefaultInstance()) return this;
-        if (other.cHCECLJJEJB_ != 0) {
-          setCHCECLJJEJBValue(other.getCHCECLJJEJBValue());
+        if (other.source_ != 0) {
+          setSourceValue(other.getSourceValue());
         }
         if (other.getNOMMHKJEGDK() != 0) {
           setNOMMHKJEGDK(other.getNOMMHKJEGDK());
@@ -511,56 +511,56 @@ public final class IHNALHEKDIDOuterClass {
         return this;
       }
 
-      private int cHCECLJJEJB_ = 0;
+      private int source_ = 0;
       /**
-       * <code>.EDDKANMEDNL CHCECLJJEJB = 2;</code>
-       * @return The enum numeric value on the wire for cHCECLJJEJB.
+       * <code>.EDDKANMEDNL source = 2;</code>
+       * @return The enum numeric value on the wire for source.
        */
-      @java.lang.Override public int getCHCECLJJEJBValue() {
-        return cHCECLJJEJB_;
+      @java.lang.Override public int getSourceValue() {
+        return source_;
       }
       /**
-       * <code>.EDDKANMEDNL CHCECLJJEJB = 2;</code>
-       * @param value The enum numeric value on the wire for cHCECLJJEJB to set.
+       * <code>.EDDKANMEDNL source = 2;</code>
+       * @param value The enum numeric value on the wire for source to set.
        * @return This builder for chaining.
        */
-      public Builder setCHCECLJJEJBValue(int value) {
+      public Builder setSourceValue(int value) {
         
-        cHCECLJJEJB_ = value;
+        source_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>.EDDKANMEDNL CHCECLJJEJB = 2;</code>
-       * @return The cHCECLJJEJB.
+       * <code>.EDDKANMEDNL source = 2;</code>
+       * @return The source.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL getCHCECLJJEJB() {
+      public emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL getSource() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL result = emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.valueOf(cHCECLJJEJB_);
+        emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL result = emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.valueOf(source_);
         return result == null ? emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL.UNRECOGNIZED : result;
       }
       /**
-       * <code>.EDDKANMEDNL CHCECLJJEJB = 2;</code>
-       * @param value The cHCECLJJEJB to set.
+       * <code>.EDDKANMEDNL source = 2;</code>
+       * @param value The source to set.
        * @return This builder for chaining.
        */
-      public Builder setCHCECLJJEJB(emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL value) {
+      public Builder setSource(emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.EDDKANMEDNL value) {
         if (value == null) {
           throw new NullPointerException();
         }
         
-        cHCECLJJEJB_ = value.getNumber();
+        source_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>.EDDKANMEDNL CHCECLJJEJB = 2;</code>
+       * <code>.EDDKANMEDNL source = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCHCECLJJEJB() {
+      public Builder clearSource() {
         
-        cHCECLJJEJB_ = 0;
+        source_ = 0;
         onChanged();
         return this;
       }
@@ -693,11 +693,11 @@ public final class IHNALHEKDIDOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021IHNALHEKDID.proto\032\021EDDKANMEDNL.proto\"X" +
-      "\n\013IHNALHEKDID\022!\n\013CHCECLJJEJB\030\002 \001(\0162\014.EDD" +
-      "KANMEDNL\022\023\n\013NOMMHKJEGDK\030\006 \001(\r\022\021\n\tavatar_" +
-      "id\030\014 \001(\rB2\n\031emu.grasscutter.net.protoB\025I" +
-      "HNALHEKDIDOuterClassb\006proto3"
+      "\n\021IHNALHEKDID.proto\032\021EDDKANMEDNL.proto\"S" +
+      "\n\013IHNALHEKDID\022\034\n\006source\030\002 \001(\0162\014.EDDKANME" +
+      "DNL\022\023\n\013NOMMHKJEGDK\030\006 \001(\r\022\021\n\tavatar_id\030\014 " +
+      "\001(\rB2\n\031emu.grasscutter.net.protoB\025IHNALH" +
+      "EKDIDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -709,7 +709,7 @@ public final class IHNALHEKDIDOuterClass {
     internal_static_IHNALHEKDID_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_IHNALHEKDID_descriptor,
-        new java.lang.String[] { "CHCECLJJEJB", "NOMMHKJEGDK", "AvatarId", });
+        new java.lang.String[] { "Source", "NOMMHKJEGDK", "AvatarId", });
     emu.grasscutter.net.proto.EDDKANMEDNLOuterClass.getDescriptor();
   }
 

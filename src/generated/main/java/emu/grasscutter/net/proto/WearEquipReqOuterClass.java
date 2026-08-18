@@ -31,10 +31,6 @@ public final class WearEquipReqOuterClass {
     long getAvatarGuid();
   }
   /**
-   * <pre>
-   * CmdID: 9104
-   * </pre>
-   *
    * Protobuf type {@code WearEquipReq}
    */
   public static final class WearEquipReq extends
@@ -312,10 +308,6 @@ public final class WearEquipReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9104
-     * </pre>
-     *
      * Protobuf type {@code WearEquipReq}
      */
     public static final class Builder extends

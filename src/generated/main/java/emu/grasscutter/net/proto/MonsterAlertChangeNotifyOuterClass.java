@@ -48,10 +48,6 @@ public final class MonsterAlertChangeNotifyOuterClass {
     int getAvatarEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 3564
-   * </pre>
-   *
    * Protobuf type {@code MonsterAlertChangeNotify}
    */
   public static final class MonsterAlertChangeNotify extends
@@ -409,10 +405,6 @@ public final class MonsterAlertChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3564
-     * </pre>
-     *
      * Protobuf type {@code MonsterAlertChangeNotify}
      */
     public static final class Builder extends

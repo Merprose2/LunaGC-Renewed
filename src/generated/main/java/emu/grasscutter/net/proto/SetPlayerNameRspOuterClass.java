@@ -37,10 +37,6 @@ public final class SetPlayerNameRspOuterClass {
         getNickNameBytes();
   }
   /**
-   * <pre>
-   * CmdID: 29802
-   * </pre>
-   *
    * Protobuf type {@code SetPlayerNameRsp}
    */
   public static final class SetPlayerNameRsp extends
@@ -344,10 +340,6 @@ public final class SetPlayerNameRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29802
-     * </pre>
-     *
      * Protobuf type {@code SetPlayerNameRsp}
      */
     public static final class Builder extends

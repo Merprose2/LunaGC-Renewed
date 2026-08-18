@@ -40,10 +40,6 @@ public final class BargainStartNotifyOuterClass {
     int getBargainId();
   }
   /**
-   * <pre>
-   * CmdID: 27323
-   * </pre>
-   *
    * Protobuf type {@code BargainStartNotify}
    */
   public static final class BargainStartNotify extends
@@ -347,10 +343,6 @@ public final class BargainStartNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27323
-     * </pre>
-     *
      * Protobuf type {@code BargainStartNotify}
      */
     public static final class Builder extends

@@ -31,10 +31,6 @@ public final class SetOpenStateReqOuterClass {
     int getKey();
   }
   /**
-   * <pre>
-   * CmdID: 2179
-   * </pre>
-   *
    * Protobuf type {@code SetOpenStateReq}
    */
   public static final class SetOpenStateReq extends
@@ -310,10 +306,6 @@ public final class SetOpenStateReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2179
-     * </pre>
-     *
      * Protobuf type {@code SetOpenStateReq}
      */
     public static final class Builder extends

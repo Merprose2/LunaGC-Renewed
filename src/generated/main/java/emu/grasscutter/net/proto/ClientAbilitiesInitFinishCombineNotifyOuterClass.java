@@ -43,10 +43,6 @@ public final class ClientAbilitiesInitFinishCombineNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 25444
-   * </pre>
-   *
    * Protobuf type {@code ClientAbilitiesInitFinishCombineNotify}
    */
   public static final class ClientAbilitiesInitFinishCombineNotify extends
@@ -335,10 +331,6 @@ public final class ClientAbilitiesInitFinishCombineNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25444
-     * </pre>
-     *
      * Protobuf type {@code ClientAbilitiesInitFinishCombineNotify}
      */
     public static final class Builder extends

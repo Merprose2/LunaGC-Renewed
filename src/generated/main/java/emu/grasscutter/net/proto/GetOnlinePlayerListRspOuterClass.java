@@ -55,10 +55,6 @@ public final class GetOnlinePlayerListRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 4761
-   * </pre>
-   *
    * Protobuf type {@code GetOnlinePlayerListRsp}
    */
   public static final class GetOnlinePlayerListRsp extends
@@ -401,10 +397,6 @@ public final class GetOnlinePlayerListRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4761
-     * </pre>
-     *
      * Protobuf type {@code GetOnlinePlayerListRsp}
      */
     public static final class Builder extends

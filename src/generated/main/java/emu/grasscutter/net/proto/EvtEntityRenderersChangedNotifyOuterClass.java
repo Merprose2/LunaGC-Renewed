@@ -57,10 +57,6 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
   }
   /**
-   * <pre>
-   * CmdID: 59
-   * </pre>
-   *
    * Protobuf type {@code EvtEntityRenderersChangedNotify}
    */
   public static final class EvtEntityRenderersChangedNotify extends
@@ -428,10 +424,6 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 59
-     * </pre>
-     *
      * Protobuf type {@code EvtEntityRenderersChangedNotify}
      */
     public static final class Builder extends

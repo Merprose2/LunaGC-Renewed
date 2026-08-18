@@ -25,10 +25,6 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
     boolean getIsClaimDailyAttendance();
   }
   /**
-   * <pre>
-   * CmdID: 4692
-   * </pre>
-   *
    * Protobuf type {@code _TakeDailyTaskScoreRewardReq}
    */
   public static final class _TakeDailyTaskScoreRewardReq extends
@@ -278,10 +274,6 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4692
-     * </pre>
-     *
      * Protobuf type {@code _TakeDailyTaskScoreRewardReq}
      */
     public static final class Builder extends

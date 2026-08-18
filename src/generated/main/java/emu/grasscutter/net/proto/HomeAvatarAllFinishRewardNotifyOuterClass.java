@@ -36,10 +36,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
     int getEventIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 28040
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarAllFinishRewardNotify}
    */
   public static final class HomeAvatarAllFinishRewardNotify extends
@@ -343,10 +339,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28040
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarAllFinishRewardNotify}
      */
     public static final class Builder extends

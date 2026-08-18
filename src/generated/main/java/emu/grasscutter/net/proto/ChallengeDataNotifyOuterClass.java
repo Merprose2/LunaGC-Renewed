@@ -37,10 +37,6 @@ public final class ChallengeDataNotifyOuterClass {
     int getParamIndex();
   }
   /**
-   * <pre>
-   * CmdID: 9143
-   * </pre>
-   *
    * Protobuf type {@code ChallengeDataNotify}
    */
   public static final class ChallengeDataNotify extends
@@ -343,10 +339,6 @@ public final class ChallengeDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9143
-     * </pre>
-     *
      * Protobuf type {@code ChallengeDataNotify}
      */
     public static final class Builder extends

@@ -34,10 +34,6 @@ public final class HomeUpdateArrangementInfoReqOuterClass {
     emu.grasscutter.net.proto.HomeSceneArrangementInfoOuterClass.HomeSceneArrangementInfoOrBuilder getSceneArrangementInfoOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 6208
-   * </pre>
-   *
    * Protobuf type {@code HomeUpdateArrangementInfoReq}
    */
   public static final class HomeUpdateArrangementInfoReq extends
@@ -314,10 +310,6 @@ public final class HomeUpdateArrangementInfoReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6208
-     * </pre>
-     *
      * Protobuf type {@code HomeUpdateArrangementInfoReq}
      */
     public static final class Builder extends

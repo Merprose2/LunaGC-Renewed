@@ -43,10 +43,6 @@ public final class HomeMarkPointNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 25070
-   * </pre>
-   *
    * Protobuf type {@code HomeMarkPointNotify}
    */
   public static final class HomeMarkPointNotify extends
@@ -335,10 +331,6 @@ public final class HomeMarkPointNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25070
-     * </pre>
-     *
      * Protobuf type {@code HomeMarkPointNotify}
      */
     public static final class Builder extends

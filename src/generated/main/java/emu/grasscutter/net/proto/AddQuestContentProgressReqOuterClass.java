@@ -37,10 +37,6 @@ public final class AddQuestContentProgressReqOuterClass {
     int getContentType();
   }
   /**
-   * <pre>
-   * CmdID: 7114
-   * </pre>
-   *
    * Protobuf type {@code AddQuestContentProgressReq}
    */
   public static final class AddQuestContentProgressReq extends
@@ -343,10 +339,6 @@ public final class AddQuestContentProgressReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7114
-     * </pre>
-     *
      * Protobuf type {@code AddQuestContentProgressReq}
      */
     public static final class Builder extends

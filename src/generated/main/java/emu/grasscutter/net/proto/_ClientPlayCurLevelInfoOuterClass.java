@@ -19,15 +19,15 @@ public final class _ClientPlayCurLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>._ClientPlayType _client_play_type = 7;</code>
+     * <code>.ClientPlayType _client_play_type = 7;</code>
      * @return The enum numeric value on the wire for clientPlayType.
      */
     int getClientPlayTypeValue();
     /**
-     * <code>._ClientPlayType _client_play_type = 7;</code>
+     * <code>.ClientPlayType _client_play_type = 7;</code>
      * @return The clientPlayType.
      */
-    emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType getClientPlayType();
+    emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType getClientPlayType();
 
     /**
      * <code>uint32 level_id = 14;</code>
@@ -127,20 +127,20 @@ public final class _ClientPlayCurLevelInfoOuterClass {
     public static final int _CLIENT_PLAY_TYPE_FIELD_NUMBER = 7;
     private int ClientPlayType_;
     /**
-     * <code>._ClientPlayType _client_play_type = 7;</code>
+     * <code>.ClientPlayType _client_play_type = 7;</code>
      * @return The enum numeric value on the wire for clientPlayType.
      */
     @java.lang.Override public int getClientPlayTypeValue() {
       return ClientPlayType_;
     }
     /**
-     * <code>._ClientPlayType _client_play_type = 7;</code>
+     * <code>.ClientPlayType _client_play_type = 7;</code>
      * @return The clientPlayType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType getClientPlayType() {
+    @java.lang.Override public emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType getClientPlayType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType result = emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType.valueOf(ClientPlayType_);
-      return result == null ? emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType result = emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType.valueOf(ClientPlayType_);
+      return result == null ? emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType.UNRECOGNIZED : result;
     }
 
     public static final int LEVEL_ID_FIELD_NUMBER = 14;
@@ -168,7 +168,7 @@ public final class _ClientPlayCurLevelInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (ClientPlayType_ != emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType._ClientPlayType_CLIENT_PLAY_NONE_TYPE.getNumber()) {
+      if (ClientPlayType_ != emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType.ClientPlayType_CLIENT_PLAY_NONE_TYPE.getNumber()) {
         output.writeEnum(7, ClientPlayType_);
       }
       if (levelId_ != 0) {
@@ -183,7 +183,7 @@ public final class _ClientPlayCurLevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (ClientPlayType_ != emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType._ClientPlayType_CLIENT_PLAY_NONE_TYPE.getNumber()) {
+      if (ClientPlayType_ != emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType.ClientPlayType_CLIENT_PLAY_NONE_TYPE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(7, ClientPlayType_);
       }
@@ -474,14 +474,14 @@ public final class _ClientPlayCurLevelInfoOuterClass {
 
       private int ClientPlayType_ = 0;
       /**
-       * <code>._ClientPlayType _client_play_type = 7;</code>
+       * <code>.ClientPlayType _client_play_type = 7;</code>
        * @return The enum numeric value on the wire for clientPlayType.
        */
       @java.lang.Override public int getClientPlayTypeValue() {
         return ClientPlayType_;
       }
       /**
-       * <code>._ClientPlayType _client_play_type = 7;</code>
+       * <code>.ClientPlayType _client_play_type = 7;</code>
        * @param value The enum numeric value on the wire for clientPlayType to set.
        * @return This builder for chaining.
        */
@@ -492,21 +492,21 @@ public final class _ClientPlayCurLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>._ClientPlayType _client_play_type = 7;</code>
+       * <code>.ClientPlayType _client_play_type = 7;</code>
        * @return The clientPlayType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType getClientPlayType() {
+      public emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType getClientPlayType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType result = emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType.valueOf(ClientPlayType_);
-        return result == null ? emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType result = emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType.valueOf(ClientPlayType_);
+        return result == null ? emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType.UNRECOGNIZED : result;
       }
       /**
-       * <code>._ClientPlayType _client_play_type = 7;</code>
+       * <code>.ClientPlayType _client_play_type = 7;</code>
        * @param value The clientPlayType to set.
        * @return This builder for chaining.
        */
-      public Builder setClientPlayType(emu.grasscutter.net.proto._ClientPlayTypeOuterClass._ClientPlayType value) {
+      public Builder setClientPlayType(emu.grasscutter.net.proto.ClientPlayTypeOuterClass.ClientPlayType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -516,7 +516,7 @@ public final class _ClientPlayCurLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>._ClientPlayType _client_play_type = 7;</code>
+       * <code>.ClientPlayType _client_play_type = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearClientPlayType() {
@@ -623,17 +623,17 @@ public final class _ClientPlayCurLevelInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035_ClientPlayCurLevelInfo.proto\032\025_Client" +
-      "PlayType.proto\"X\n\027_ClientPlayCurLevelInf" +
-      "o\022+\n\021_client_play_type\030\007 \001(\0162\020._ClientPl" +
-      "ayType\022\020\n\010level_id\030\016 \001(\rB>\n\031emu.grasscut" +
-      "ter.net.protoB!_ClientPlayCurLevelInfoOu" +
-      "terClassb\006proto3"
+      "\n\035_ClientPlayCurLevelInfo.proto\032\024ClientP" +
+      "layType.proto\"W\n\027_ClientPlayCurLevelInfo" +
+      "\022*\n\021_client_play_type\030\007 \001(\0162\017.ClientPlay" +
+      "Type\022\020\n\010level_id\030\016 \001(\rB>\n\031emu.grasscutte" +
+      "r.net.protoB!_ClientPlayCurLevelInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._ClientPlayTypeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ClientPlayTypeOuterClass.getDescriptor(),
         });
     internal_static__ClientPlayCurLevelInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -641,7 +641,7 @@ public final class _ClientPlayCurLevelInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__ClientPlayCurLevelInfo_descriptor,
         new java.lang.String[] { "ClientPlayType", "LevelId", });
-    emu.grasscutter.net.proto._ClientPlayTypeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.ClientPlayTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

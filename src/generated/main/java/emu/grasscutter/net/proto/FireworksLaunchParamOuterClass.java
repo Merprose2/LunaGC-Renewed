@@ -171,7 +171,7 @@ public final class FireworksLaunchParamOuterClass {
       if (value_ != 0) {
         output.writeInt32(11, value_);
       }
-      if (type_ != emu.grasscutter.net.proto.FireworksLaunchParamTypeOuterClass.FireworksLaunchParamType.FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_NONE.getNumber()) {
+      if (type_ != emu.grasscutter.net.proto.FireworksLaunchParamTypeOuterClass.FireworksLaunchParamType.FIREWORKS_LAUNCH_PARAM_NONE.getNumber()) {
         output.writeEnum(12, type_);
       }
       unknownFields.writeTo(output);
@@ -187,7 +187,7 @@ public final class FireworksLaunchParamOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(11, value_);
       }
-      if (type_ != emu.grasscutter.net.proto.FireworksLaunchParamTypeOuterClass.FireworksLaunchParamType.FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_NONE.getNumber()) {
+      if (type_ != emu.grasscutter.net.proto.FireworksLaunchParamTypeOuterClass.FireworksLaunchParamType.FIREWORKS_LAUNCH_PARAM_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(12, type_);
       }

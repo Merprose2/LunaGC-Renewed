@@ -43,10 +43,6 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
     int getTrialAvatarIndexId();
   }
   /**
-   * <pre>
-   * CmdID: 25189
-   * </pre>
-   *
    * Protobuf type {@code EnterTrialAvatarActivityDungeonReq}
    */
   public static final class EnterTrialAvatarActivityDungeonReq extends
@@ -376,10 +372,6 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25189
-     * </pre>
-     *
      * Protobuf type {@code EnterTrialAvatarActivityDungeonReq}
      */
     public static final class Builder extends

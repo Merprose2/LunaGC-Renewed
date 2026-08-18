@@ -118,19 +118,19 @@ public final class QuestOuterClass {
     int getMutualPlaceList(int index);
 
     /**
-     * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+     * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
      * @return Whether the lackingResourceInfo field is set.
      */
     boolean hasLackingResourceInfo();
     /**
-     * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+     * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
      * @return The lackingResourceInfo.
      */
-    emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo getLackingResourceInfo();
+    emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo getLackingResourceInfo();
     /**
-     * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+     * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
      */
-    emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfoOrBuilder getLackingResourceInfoOrBuilder();
+    emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder getLackingResourceInfoOrBuilder();
 
     /**
      * <code>uint32 unlock_time = 14;</code>
@@ -291,11 +291,11 @@ public final class QuestOuterClass {
               break;
             }
             case 106: {
-              emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder subBuilder = null;
               if (LackingResourceInfo_ != null) {
                 subBuilder = LackingResourceInfo_.toBuilder();
               }
-              LackingResourceInfo_ = input.readMessage(emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.parser(), extensionRegistry);
+              LackingResourceInfo_ = input.readMessage(emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(LackingResourceInfo_);
                 LackingResourceInfo_ = subBuilder.buildPartial();
@@ -522,9 +522,9 @@ public final class QuestOuterClass {
     private int MutualPlaceListMemoizedSerializedSize = -1;
 
     public static final int _LACKING_RESOURCE_INFO_FIELD_NUMBER = 13;
-    private emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo LackingResourceInfo_;
+    private emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo LackingResourceInfo_;
     /**
-     * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+     * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
      * @return Whether the lackingResourceInfo field is set.
      */
     @java.lang.Override
@@ -532,18 +532,18 @@ public final class QuestOuterClass {
       return LackingResourceInfo_ != null;
     }
     /**
-     * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+     * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
      * @return The lackingResourceInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo getLackingResourceInfo() {
-      return LackingResourceInfo_ == null ? emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.getDefaultInstance() : LackingResourceInfo_;
+    public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo getLackingResourceInfo() {
+      return LackingResourceInfo_ == null ? emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.getDefaultInstance() : LackingResourceInfo_;
     }
     /**
-     * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+     * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfoOrBuilder getLackingResourceInfoOrBuilder() {
+    public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder getLackingResourceInfoOrBuilder() {
       return getLackingResourceInfo();
     }
 
@@ -1647,31 +1647,31 @@ public final class QuestOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo LackingResourceInfo_;
+      private emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo LackingResourceInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo, emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.Builder, emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfoOrBuilder> LackingResourceInfoBuilder_;
+          emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder> LackingResourceInfoBuilder_;
       /**
-       * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+       * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
        * @return Whether the lackingResourceInfo field is set.
        */
       public boolean hasLackingResourceInfo() {
         return LackingResourceInfoBuilder_ != null || LackingResourceInfo_ != null;
       }
       /**
-       * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+       * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
        * @return The lackingResourceInfo.
        */
-      public emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo getLackingResourceInfo() {
+      public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo getLackingResourceInfo() {
         if (LackingResourceInfoBuilder_ == null) {
-          return LackingResourceInfo_ == null ? emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.getDefaultInstance() : LackingResourceInfo_;
+          return LackingResourceInfo_ == null ? emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.getDefaultInstance() : LackingResourceInfo_;
         } else {
           return LackingResourceInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+       * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
        */
-      public Builder setLackingResourceInfo(emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo value) {
+      public Builder setLackingResourceInfo(emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo value) {
         if (LackingResourceInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1685,10 +1685,10 @@ public final class QuestOuterClass {
         return this;
       }
       /**
-       * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+       * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
        */
       public Builder setLackingResourceInfo(
-          emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder builderForValue) {
         if (LackingResourceInfoBuilder_ == null) {
           LackingResourceInfo_ = builderForValue.build();
           onChanged();
@@ -1699,13 +1699,13 @@ public final class QuestOuterClass {
         return this;
       }
       /**
-       * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+       * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
        */
-      public Builder mergeLackingResourceInfo(emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo value) {
+      public Builder mergeLackingResourceInfo(emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo value) {
         if (LackingResourceInfoBuilder_ == null) {
           if (LackingResourceInfo_ != null) {
             LackingResourceInfo_ =
-              emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.newBuilder(LackingResourceInfo_).mergeFrom(value).buildPartial();
+              emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.newBuilder(LackingResourceInfo_).mergeFrom(value).buildPartial();
           } else {
             LackingResourceInfo_ = value;
           }
@@ -1717,7 +1717,7 @@ public final class QuestOuterClass {
         return this;
       }
       /**
-       * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+       * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
        */
       public Builder clearLackingResourceInfo() {
         if (LackingResourceInfoBuilder_ == null) {
@@ -1731,33 +1731,33 @@ public final class QuestOuterClass {
         return this;
       }
       /**
-       * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+       * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
        */
-      public emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.Builder getLackingResourceInfoBuilder() {
+      public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder getLackingResourceInfoBuilder() {
         
         onChanged();
         return getLackingResourceInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+       * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
        */
-      public emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfoOrBuilder getLackingResourceInfoOrBuilder() {
+      public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder getLackingResourceInfoOrBuilder() {
         if (LackingResourceInfoBuilder_ != null) {
           return LackingResourceInfoBuilder_.getMessageOrBuilder();
         } else {
           return LackingResourceInfo_ == null ?
-              emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.getDefaultInstance() : LackingResourceInfo_;
+              emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.getDefaultInstance() : LackingResourceInfo_;
         }
       }
       /**
-       * <code>._LackingResourceInfo _lacking_resource_info = 13;</code>
+       * <code>.LackingResourceInfo _lacking_resource_info = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo, emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.Builder, emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfoOrBuilder> 
+          emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder> 
           getLackingResourceInfoFieldBuilder() {
         if (LackingResourceInfoBuilder_ == null) {
           LackingResourceInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo, emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfo.Builder, emu.grasscutter.net.proto._LackingResourceInfoOuterClass._LackingResourceInfoOrBuilder>(
+              emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder>(
                   getLackingResourceInfo(),
                   getParentForChildren(),
                   isClean());
@@ -1863,22 +1863,22 @@ public final class QuestOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\013Quest.proto\032\032_LackingResourceInfo.prot" +
-      "o\"\321\002\n\005Quest\022\020\n\010quest_id\030\001 \001(\r\022\r\n\005state\030\002" +
-      " \001(\r\022\022\n\nstart_time\030\004 \001(\r\022\021\n\tis_random\030\005 " +
-      "\001(\010\022\027\n\017parent_quest_id\030\006 \001(\r\022\027\n\017quest_co" +
-      "nfig_id\030\007 \001(\r\022\027\n\017start_game_time\030\010 \001(\r\022\023" +
-      "\n\013accept_time\030\t \001(\r\022\034\n\024finish_progress_l" +
-      "ist\030\n \003(\r\022\032\n\022fail_progress_list\030\013 \003(\r\022\032\n" +
-      "\022_mutual_place_list\030\014 \003(\r\0225\n\026_lacking_re" +
-      "source_info\030\r \001(\0132\025._LackingResourceInfo" +
-      "\022\023\n\013unlock_time\030\016 \001(\rB,\n\031emu.grasscutter" +
-      ".net.protoB\017QuestOuterClassb\006proto3"
+      "\n\013Quest.proto\032\031LackingResourceInfo.proto" +
+      "\"\320\002\n\005Quest\022\020\n\010quest_id\030\001 \001(\r\022\r\n\005state\030\002 " +
+      "\001(\r\022\022\n\nstart_time\030\004 \001(\r\022\021\n\tis_random\030\005 \001" +
+      "(\010\022\027\n\017parent_quest_id\030\006 \001(\r\022\027\n\017quest_con" +
+      "fig_id\030\007 \001(\r\022\027\n\017start_game_time\030\010 \001(\r\022\023\n" +
+      "\013accept_time\030\t \001(\r\022\034\n\024finish_progress_li" +
+      "st\030\n \003(\r\022\032\n\022fail_progress_list\030\013 \003(\r\022\032\n\022" +
+      "_mutual_place_list\030\014 \003(\r\0224\n\026_lacking_res" +
+      "ource_info\030\r \001(\0132\024.LackingResourceInfo\022\023" +
+      "\n\013unlock_time\030\016 \001(\rB,\n\031emu.grasscutter.n" +
+      "et.protoB\017QuestOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto._LackingResourceInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.LackingResourceInfoOuterClass.getDescriptor(),
         });
     internal_static_Quest_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1886,7 +1886,7 @@ public final class QuestOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Quest_descriptor,
         new java.lang.String[] { "QuestId", "State", "StartTime", "IsRandom", "ParentQuestId", "QuestConfigId", "StartGameTime", "AcceptTime", "FinishProgressList", "FailProgressList", "MutualPlaceList", "LackingResourceInfo", "UnlockTime", });
-    emu.grasscutter.net.proto._LackingResourceInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.LackingResourceInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

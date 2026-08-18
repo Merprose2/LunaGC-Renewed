@@ -46,10 +46,6 @@ public final class GetPlayerSocialDetailRspOuterClass {
     int getParam();
   }
   /**
-   * <pre>
-   * CmdID: 29452
-   * </pre>
-   *
    * Protobuf type {@code GetPlayerSocialDetailRsp}
    */
   public static final class GetPlayerSocialDetailRsp extends
@@ -380,10 +376,6 @@ public final class GetPlayerSocialDetailRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29452
-     * </pre>
-     *
      * Protobuf type {@code GetPlayerSocialDetailRsp}
      */
     public static final class Builder extends

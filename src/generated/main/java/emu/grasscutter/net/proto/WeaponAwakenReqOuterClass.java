@@ -48,10 +48,6 @@ public final class WeaponAwakenReqOuterClass {
     long getTargetWeaponGuid();
   }
   /**
-   * <pre>
-   * CmdID: 25493
-   * </pre>
-   *
    * Protobuf type {@code WeaponAwakenReq}
    */
   public static final class WeaponAwakenReq extends
@@ -410,10 +406,6 @@ public final class WeaponAwakenReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25493
-     * </pre>
-     *
      * Protobuf type {@code WeaponAwakenReq}
      */
     public static final class Builder extends

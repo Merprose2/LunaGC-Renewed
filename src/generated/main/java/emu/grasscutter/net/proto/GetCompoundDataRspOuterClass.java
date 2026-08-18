@@ -66,10 +66,6 @@ public final class GetCompoundDataRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 25198
-   * </pre>
-   *
    * Protobuf type {@code GetCompoundDataRsp}
    */
   public static final class GetCompoundDataRsp extends
@@ -466,10 +462,6 @@ public final class GetCompoundDataRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25198
-     * </pre>
-     *
      * Protobuf type {@code GetCompoundDataRsp}
      */
     public static final class Builder extends

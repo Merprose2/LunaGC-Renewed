@@ -31,10 +31,6 @@ public final class SetEquipLockStateReqOuterClass {
     long getTargetEquipGuid();
   }
   /**
-   * <pre>
-   * CmdID: 2471
-   * </pre>
-   *
    * Protobuf type {@code SetEquipLockStateReq}
    */
   public static final class SetEquipLockStateReq extends
@@ -312,10 +308,6 @@ public final class SetEquipLockStateReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2471
-     * </pre>
-     *
      * Protobuf type {@code SetEquipLockStateReq}
      */
     public static final class Builder extends

@@ -53,10 +53,6 @@ public final class GroupSuiteNotifyOuterClass {
         int key);
   }
   /**
-   * <pre>
-   * CmdID: 21339
-   * </pre>
-   *
    * Protobuf type {@code GroupSuiteNotify}
    */
   public static final class GroupSuiteNotify extends
@@ -407,10 +403,6 @@ public final class GroupSuiteNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21339
-     * </pre>
-     *
      * Protobuf type {@code GroupSuiteNotify}
      */
     public static final class Builder extends

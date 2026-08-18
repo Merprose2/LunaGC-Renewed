@@ -19,19 +19,19 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
-     * @return Whether the mDKICOPEMGP field is set.
+     * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
+     * @return Whether the flightGearInfo field is set.
      */
-    boolean hasMDKICOPEMGP();
+    boolean hasFlightGearInfo();
     /**
-     * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
-     * @return The mDKICOPEMGP.
+     * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
+     * @return The flightGearInfo.
      */
-    emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN getMDKICOPEMGP();
+    emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo getFlightGearInfo();
     /**
-     * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
+     * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
      */
-    emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJNOrBuilder getMDKICOPEMGPOrBuilder();
+    emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfoOrBuilder getFlightGearInfoOrBuilder();
 
     /**
      * <code>.APGNMMCFCPD CLJOHONMNEH = 5;</code>
@@ -64,19 +64,19 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
     emu.grasscutter.net.proto.PKLEFDLHINIOuterClass.PKLEFDLHINIOrBuilder getFBHDPNAJDJOOrBuilder();
 
     /**
-     * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
-     * @return Whether the fEIBGNOLDPH field is set.
+     * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
+     * @return Whether the targetShootingInfo field is set.
      */
-    boolean hasFEIBGNOLDPH();
+    boolean hasTargetShootingInfo();
     /**
-     * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
-     * @return The fEIBGNOLDPH.
+     * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
+     * @return The targetShootingInfo.
      */
-    emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI getFEIBGNOLDPH();
+    emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo getTargetShootingInfo();
     /**
-     * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
+     * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
      */
-    emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFIOrBuilder getFEIBGNOLDPHOrBuilder();
+    emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfoOrBuilder getTargetShootingInfoOrBuilder();
 
     /**
      * <code>.GBAOLFCECGM LLHAEBMBODJ = 13;</code>
@@ -139,14 +139,14 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
               done = true;
               break;
             case 26: {
-              emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.Builder subBuilder = null;
-              if (mDKICOPEMGP_ != null) {
-                subBuilder = mDKICOPEMGP_.toBuilder();
+              emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.Builder subBuilder = null;
+              if (FlightGearInfo_ != null) {
+                subBuilder = FlightGearInfo_.toBuilder();
               }
-              mDKICOPEMGP_ = input.readMessage(emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.parser(), extensionRegistry);
+              FlightGearInfo_ = input.readMessage(emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(mDKICOPEMGP_);
-                mDKICOPEMGP_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(FlightGearInfo_);
+                FlightGearInfo_ = subBuilder.buildPartial();
               }
 
               break;
@@ -178,14 +178,14 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
               break;
             }
             case 58: {
-              emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.Builder subBuilder = null;
-              if (fEIBGNOLDPH_ != null) {
-                subBuilder = fEIBGNOLDPH_.toBuilder();
+              emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.Builder subBuilder = null;
+              if (TargetShootingInfo_ != null) {
+                subBuilder = TargetShootingInfo_.toBuilder();
               }
-              fEIBGNOLDPH_ = input.readMessage(emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.parser(), extensionRegistry);
+              TargetShootingInfo_ = input.readMessage(emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(fEIBGNOLDPH_);
-                fEIBGNOLDPH_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(TargetShootingInfo_);
+                TargetShootingInfo_ = subBuilder.buildPartial();
               }
 
               break;
@@ -235,30 +235,30 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
               emu.grasscutter.net.proto._PenumbraAdventureDetailInfoOuterClass._PenumbraAdventureDetailInfo.class, emu.grasscutter.net.proto._PenumbraAdventureDetailInfoOuterClass._PenumbraAdventureDetailInfo.Builder.class);
     }
 
-    public static final int MDKICOPEMGP_FIELD_NUMBER = 3;
-    private emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN mDKICOPEMGP_;
+    public static final int _FLIGHT_GEAR_INFO_FIELD_NUMBER = 3;
+    private emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo FlightGearInfo_;
     /**
-     * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
-     * @return Whether the mDKICOPEMGP field is set.
+     * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
+     * @return Whether the flightGearInfo field is set.
      */
     @java.lang.Override
-    public boolean hasMDKICOPEMGP() {
-      return mDKICOPEMGP_ != null;
+    public boolean hasFlightGearInfo() {
+      return FlightGearInfo_ != null;
     }
     /**
-     * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
-     * @return The mDKICOPEMGP.
+     * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
+     * @return The flightGearInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN getMDKICOPEMGP() {
-      return mDKICOPEMGP_ == null ? emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.getDefaultInstance() : mDKICOPEMGP_;
+    public emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo getFlightGearInfo() {
+      return FlightGearInfo_ == null ? emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.getDefaultInstance() : FlightGearInfo_;
     }
     /**
-     * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
+     * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJNOrBuilder getMDKICOPEMGPOrBuilder() {
-      return getMDKICOPEMGP();
+    public emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfoOrBuilder getFlightGearInfoOrBuilder() {
+      return getFlightGearInfo();
     }
 
     public static final int CLJOHONMNEH_FIELD_NUMBER = 5;
@@ -313,30 +313,30 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
       return getFBHDPNAJDJO();
     }
 
-    public static final int FEIBGNOLDPH_FIELD_NUMBER = 7;
-    private emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI fEIBGNOLDPH_;
+    public static final int _TARGET_SHOOTING_INFO_FIELD_NUMBER = 7;
+    private emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo TargetShootingInfo_;
     /**
-     * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
-     * @return Whether the fEIBGNOLDPH field is set.
+     * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
+     * @return Whether the targetShootingInfo field is set.
      */
     @java.lang.Override
-    public boolean hasFEIBGNOLDPH() {
-      return fEIBGNOLDPH_ != null;
+    public boolean hasTargetShootingInfo() {
+      return TargetShootingInfo_ != null;
     }
     /**
-     * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
-     * @return The fEIBGNOLDPH.
+     * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
+     * @return The targetShootingInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI getFEIBGNOLDPH() {
-      return fEIBGNOLDPH_ == null ? emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.getDefaultInstance() : fEIBGNOLDPH_;
+    public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo getTargetShootingInfo() {
+      return TargetShootingInfo_ == null ? emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.getDefaultInstance() : TargetShootingInfo_;
     }
     /**
-     * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
+     * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFIOrBuilder getFEIBGNOLDPHOrBuilder() {
-      return getFEIBGNOLDPH();
+    public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfoOrBuilder getTargetShootingInfoOrBuilder() {
+      return getTargetShootingInfo();
     }
 
     public static final int LLHAEBMBODJ_FIELD_NUMBER = 13;
@@ -379,8 +379,8 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (mDKICOPEMGP_ != null) {
-        output.writeMessage(3, getMDKICOPEMGP());
+      if (FlightGearInfo_ != null) {
+        output.writeMessage(3, getFlightGearInfo());
       }
       if (cLJOHONMNEH_ != null) {
         output.writeMessage(5, getCLJOHONMNEH());
@@ -388,8 +388,8 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
       if (fBHDPNAJDJO_ != null) {
         output.writeMessage(6, getFBHDPNAJDJO());
       }
-      if (fEIBGNOLDPH_ != null) {
-        output.writeMessage(7, getFEIBGNOLDPH());
+      if (TargetShootingInfo_ != null) {
+        output.writeMessage(7, getTargetShootingInfo());
       }
       if (lLHAEBMBODJ_ != null) {
         output.writeMessage(13, getLLHAEBMBODJ());
@@ -403,9 +403,9 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (mDKICOPEMGP_ != null) {
+      if (FlightGearInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getMDKICOPEMGP());
+          .computeMessageSize(3, getFlightGearInfo());
       }
       if (cLJOHONMNEH_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -415,9 +415,9 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(6, getFBHDPNAJDJO());
       }
-      if (fEIBGNOLDPH_ != null) {
+      if (TargetShootingInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getFEIBGNOLDPH());
+          .computeMessageSize(7, getTargetShootingInfo());
       }
       if (lLHAEBMBODJ_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -438,10 +438,10 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto._PenumbraAdventureDetailInfoOuterClass._PenumbraAdventureDetailInfo other = (emu.grasscutter.net.proto._PenumbraAdventureDetailInfoOuterClass._PenumbraAdventureDetailInfo) obj;
 
-      if (hasMDKICOPEMGP() != other.hasMDKICOPEMGP()) return false;
-      if (hasMDKICOPEMGP()) {
-        if (!getMDKICOPEMGP()
-            .equals(other.getMDKICOPEMGP())) return false;
+      if (hasFlightGearInfo() != other.hasFlightGearInfo()) return false;
+      if (hasFlightGearInfo()) {
+        if (!getFlightGearInfo()
+            .equals(other.getFlightGearInfo())) return false;
       }
       if (hasCLJOHONMNEH() != other.hasCLJOHONMNEH()) return false;
       if (hasCLJOHONMNEH()) {
@@ -453,10 +453,10 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
         if (!getFBHDPNAJDJO()
             .equals(other.getFBHDPNAJDJO())) return false;
       }
-      if (hasFEIBGNOLDPH() != other.hasFEIBGNOLDPH()) return false;
-      if (hasFEIBGNOLDPH()) {
-        if (!getFEIBGNOLDPH()
-            .equals(other.getFEIBGNOLDPH())) return false;
+      if (hasTargetShootingInfo() != other.hasTargetShootingInfo()) return false;
+      if (hasTargetShootingInfo()) {
+        if (!getTargetShootingInfo()
+            .equals(other.getTargetShootingInfo())) return false;
       }
       if (hasLLHAEBMBODJ() != other.hasLLHAEBMBODJ()) return false;
       if (hasLLHAEBMBODJ()) {
@@ -474,9 +474,9 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasMDKICOPEMGP()) {
-        hash = (37 * hash) + MDKICOPEMGP_FIELD_NUMBER;
-        hash = (53 * hash) + getMDKICOPEMGP().hashCode();
+      if (hasFlightGearInfo()) {
+        hash = (37 * hash) + _FLIGHT_GEAR_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getFlightGearInfo().hashCode();
       }
       if (hasCLJOHONMNEH()) {
         hash = (37 * hash) + CLJOHONMNEH_FIELD_NUMBER;
@@ -486,9 +486,9 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
         hash = (37 * hash) + FBHDPNAJDJO_FIELD_NUMBER;
         hash = (53 * hash) + getFBHDPNAJDJO().hashCode();
       }
-      if (hasFEIBGNOLDPH()) {
-        hash = (37 * hash) + FEIBGNOLDPH_FIELD_NUMBER;
-        hash = (53 * hash) + getFEIBGNOLDPH().hashCode();
+      if (hasTargetShootingInfo()) {
+        hash = (37 * hash) + _TARGET_SHOOTING_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getTargetShootingInfo().hashCode();
       }
       if (hasLLHAEBMBODJ()) {
         hash = (37 * hash) + LLHAEBMBODJ_FIELD_NUMBER;
@@ -627,11 +627,11 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (mDKICOPEMGPBuilder_ == null) {
-          mDKICOPEMGP_ = null;
+        if (FlightGearInfoBuilder_ == null) {
+          FlightGearInfo_ = null;
         } else {
-          mDKICOPEMGP_ = null;
-          mDKICOPEMGPBuilder_ = null;
+          FlightGearInfo_ = null;
+          FlightGearInfoBuilder_ = null;
         }
         if (cLJOHONMNEHBuilder_ == null) {
           cLJOHONMNEH_ = null;
@@ -645,11 +645,11 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
           fBHDPNAJDJO_ = null;
           fBHDPNAJDJOBuilder_ = null;
         }
-        if (fEIBGNOLDPHBuilder_ == null) {
-          fEIBGNOLDPH_ = null;
+        if (TargetShootingInfoBuilder_ == null) {
+          TargetShootingInfo_ = null;
         } else {
-          fEIBGNOLDPH_ = null;
-          fEIBGNOLDPHBuilder_ = null;
+          TargetShootingInfo_ = null;
+          TargetShootingInfoBuilder_ = null;
         }
         if (lLHAEBMBODJBuilder_ == null) {
           lLHAEBMBODJ_ = null;
@@ -683,10 +683,10 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto._PenumbraAdventureDetailInfoOuterClass._PenumbraAdventureDetailInfo buildPartial() {
         emu.grasscutter.net.proto._PenumbraAdventureDetailInfoOuterClass._PenumbraAdventureDetailInfo result = new emu.grasscutter.net.proto._PenumbraAdventureDetailInfoOuterClass._PenumbraAdventureDetailInfo(this);
-        if (mDKICOPEMGPBuilder_ == null) {
-          result.mDKICOPEMGP_ = mDKICOPEMGP_;
+        if (FlightGearInfoBuilder_ == null) {
+          result.FlightGearInfo_ = FlightGearInfo_;
         } else {
-          result.mDKICOPEMGP_ = mDKICOPEMGPBuilder_.build();
+          result.FlightGearInfo_ = FlightGearInfoBuilder_.build();
         }
         if (cLJOHONMNEHBuilder_ == null) {
           result.cLJOHONMNEH_ = cLJOHONMNEH_;
@@ -698,10 +698,10 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
         } else {
           result.fBHDPNAJDJO_ = fBHDPNAJDJOBuilder_.build();
         }
-        if (fEIBGNOLDPHBuilder_ == null) {
-          result.fEIBGNOLDPH_ = fEIBGNOLDPH_;
+        if (TargetShootingInfoBuilder_ == null) {
+          result.TargetShootingInfo_ = TargetShootingInfo_;
         } else {
-          result.fEIBGNOLDPH_ = fEIBGNOLDPHBuilder_.build();
+          result.TargetShootingInfo_ = TargetShootingInfoBuilder_.build();
         }
         if (lLHAEBMBODJBuilder_ == null) {
           result.lLHAEBMBODJ_ = lLHAEBMBODJ_;
@@ -756,8 +756,8 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto._PenumbraAdventureDetailInfoOuterClass._PenumbraAdventureDetailInfo other) {
         if (other == emu.grasscutter.net.proto._PenumbraAdventureDetailInfoOuterClass._PenumbraAdventureDetailInfo.getDefaultInstance()) return this;
-        if (other.hasMDKICOPEMGP()) {
-          mergeMDKICOPEMGP(other.getMDKICOPEMGP());
+        if (other.hasFlightGearInfo()) {
+          mergeFlightGearInfo(other.getFlightGearInfo());
         }
         if (other.hasCLJOHONMNEH()) {
           mergeCLJOHONMNEH(other.getCLJOHONMNEH());
@@ -765,8 +765,8 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
         if (other.hasFBHDPNAJDJO()) {
           mergeFBHDPNAJDJO(other.getFBHDPNAJDJO());
         }
-        if (other.hasFEIBGNOLDPH()) {
-          mergeFEIBGNOLDPH(other.getFEIBGNOLDPH());
+        if (other.hasTargetShootingInfo()) {
+          mergeTargetShootingInfo(other.getTargetShootingInfo());
         }
         if (other.hasLLHAEBMBODJ()) {
           mergeLLHAEBMBODJ(other.getLLHAEBMBODJ());
@@ -800,123 +800,123 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN mDKICOPEMGP_;
+      private emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo FlightGearInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN, emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.Builder, emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJNOrBuilder> mDKICOPEMGPBuilder_;
+          emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo, emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.Builder, emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfoOrBuilder> FlightGearInfoBuilder_;
       /**
-       * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
-       * @return Whether the mDKICOPEMGP field is set.
+       * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
+       * @return Whether the flightGearInfo field is set.
        */
-      public boolean hasMDKICOPEMGP() {
-        return mDKICOPEMGPBuilder_ != null || mDKICOPEMGP_ != null;
+      public boolean hasFlightGearInfo() {
+        return FlightGearInfoBuilder_ != null || FlightGearInfo_ != null;
       }
       /**
-       * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
-       * @return The mDKICOPEMGP.
+       * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
+       * @return The flightGearInfo.
        */
-      public emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN getMDKICOPEMGP() {
-        if (mDKICOPEMGPBuilder_ == null) {
-          return mDKICOPEMGP_ == null ? emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.getDefaultInstance() : mDKICOPEMGP_;
+      public emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo getFlightGearInfo() {
+        if (FlightGearInfoBuilder_ == null) {
+          return FlightGearInfo_ == null ? emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.getDefaultInstance() : FlightGearInfo_;
         } else {
-          return mDKICOPEMGPBuilder_.getMessage();
+          return FlightGearInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
+       * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
        */
-      public Builder setMDKICOPEMGP(emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN value) {
-        if (mDKICOPEMGPBuilder_ == null) {
+      public Builder setFlightGearInfo(emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo value) {
+        if (FlightGearInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          mDKICOPEMGP_ = value;
+          FlightGearInfo_ = value;
           onChanged();
         } else {
-          mDKICOPEMGPBuilder_.setMessage(value);
+          FlightGearInfoBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
+       * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
        */
-      public Builder setMDKICOPEMGP(
-          emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.Builder builderForValue) {
-        if (mDKICOPEMGPBuilder_ == null) {
-          mDKICOPEMGP_ = builderForValue.build();
+      public Builder setFlightGearInfo(
+          emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.Builder builderForValue) {
+        if (FlightGearInfoBuilder_ == null) {
+          FlightGearInfo_ = builderForValue.build();
           onChanged();
         } else {
-          mDKICOPEMGPBuilder_.setMessage(builderForValue.build());
+          FlightGearInfoBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
+       * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
        */
-      public Builder mergeMDKICOPEMGP(emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN value) {
-        if (mDKICOPEMGPBuilder_ == null) {
-          if (mDKICOPEMGP_ != null) {
-            mDKICOPEMGP_ =
-              emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.newBuilder(mDKICOPEMGP_).mergeFrom(value).buildPartial();
+      public Builder mergeFlightGearInfo(emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo value) {
+        if (FlightGearInfoBuilder_ == null) {
+          if (FlightGearInfo_ != null) {
+            FlightGearInfo_ =
+              emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.newBuilder(FlightGearInfo_).mergeFrom(value).buildPartial();
           } else {
-            mDKICOPEMGP_ = value;
+            FlightGearInfo_ = value;
           }
           onChanged();
         } else {
-          mDKICOPEMGPBuilder_.mergeFrom(value);
+          FlightGearInfoBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
+       * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
        */
-      public Builder clearMDKICOPEMGP() {
-        if (mDKICOPEMGPBuilder_ == null) {
-          mDKICOPEMGP_ = null;
+      public Builder clearFlightGearInfo() {
+        if (FlightGearInfoBuilder_ == null) {
+          FlightGearInfo_ = null;
           onChanged();
         } else {
-          mDKICOPEMGP_ = null;
-          mDKICOPEMGPBuilder_ = null;
+          FlightGearInfo_ = null;
+          FlightGearInfoBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
+       * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
        */
-      public emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.Builder getMDKICOPEMGPBuilder() {
+      public emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.Builder getFlightGearInfoBuilder() {
         
         onChanged();
-        return getMDKICOPEMGPFieldBuilder().getBuilder();
+        return getFlightGearInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
+       * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
        */
-      public emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJNOrBuilder getMDKICOPEMGPOrBuilder() {
-        if (mDKICOPEMGPBuilder_ != null) {
-          return mDKICOPEMGPBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfoOrBuilder getFlightGearInfoOrBuilder() {
+        if (FlightGearInfoBuilder_ != null) {
+          return FlightGearInfoBuilder_.getMessageOrBuilder();
         } else {
-          return mDKICOPEMGP_ == null ?
-              emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.getDefaultInstance() : mDKICOPEMGP_;
+          return FlightGearInfo_ == null ?
+              emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.getDefaultInstance() : FlightGearInfo_;
         }
       }
       /**
-       * <code>.KOICDGPFJJN MDKICOPEMGP = 3;</code>
+       * <code>._PenumbraAdventureFlightGearInfo _flight_gear_info = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN, emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.Builder, emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJNOrBuilder> 
-          getMDKICOPEMGPFieldBuilder() {
-        if (mDKICOPEMGPBuilder_ == null) {
-          mDKICOPEMGPBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN, emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJN.Builder, emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.KOICDGPFJJNOrBuilder>(
-                  getMDKICOPEMGP(),
+          emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo, emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.Builder, emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfoOrBuilder> 
+          getFlightGearInfoFieldBuilder() {
+        if (FlightGearInfoBuilder_ == null) {
+          FlightGearInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo, emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfo.Builder, emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass._PenumbraAdventureFlightGearInfoOrBuilder>(
+                  getFlightGearInfo(),
                   getParentForChildren(),
                   isClean());
-          mDKICOPEMGP_ = null;
+          FlightGearInfo_ = null;
         }
-        return mDKICOPEMGPBuilder_;
+        return FlightGearInfoBuilder_;
       }
 
       private emu.grasscutter.net.proto.APGNMMCFCPDOuterClass.APGNMMCFCPD cLJOHONMNEH_;
@@ -1157,123 +1157,123 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
         return fBHDPNAJDJOBuilder_;
       }
 
-      private emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI fEIBGNOLDPH_;
+      private emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo TargetShootingInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI, emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.Builder, emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFIOrBuilder> fEIBGNOLDPHBuilder_;
+          emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.Builder, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfoOrBuilder> TargetShootingInfoBuilder_;
       /**
-       * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
-       * @return Whether the fEIBGNOLDPH field is set.
+       * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
+       * @return Whether the targetShootingInfo field is set.
        */
-      public boolean hasFEIBGNOLDPH() {
-        return fEIBGNOLDPHBuilder_ != null || fEIBGNOLDPH_ != null;
+      public boolean hasTargetShootingInfo() {
+        return TargetShootingInfoBuilder_ != null || TargetShootingInfo_ != null;
       }
       /**
-       * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
-       * @return The fEIBGNOLDPH.
+       * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
+       * @return The targetShootingInfo.
        */
-      public emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI getFEIBGNOLDPH() {
-        if (fEIBGNOLDPHBuilder_ == null) {
-          return fEIBGNOLDPH_ == null ? emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.getDefaultInstance() : fEIBGNOLDPH_;
+      public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo getTargetShootingInfo() {
+        if (TargetShootingInfoBuilder_ == null) {
+          return TargetShootingInfo_ == null ? emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.getDefaultInstance() : TargetShootingInfo_;
         } else {
-          return fEIBGNOLDPHBuilder_.getMessage();
+          return TargetShootingInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
+       * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
        */
-      public Builder setFEIBGNOLDPH(emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI value) {
-        if (fEIBGNOLDPHBuilder_ == null) {
+      public Builder setTargetShootingInfo(emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo value) {
+        if (TargetShootingInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          fEIBGNOLDPH_ = value;
+          TargetShootingInfo_ = value;
           onChanged();
         } else {
-          fEIBGNOLDPHBuilder_.setMessage(value);
+          TargetShootingInfoBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
+       * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
        */
-      public Builder setFEIBGNOLDPH(
-          emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.Builder builderForValue) {
-        if (fEIBGNOLDPHBuilder_ == null) {
-          fEIBGNOLDPH_ = builderForValue.build();
+      public Builder setTargetShootingInfo(
+          emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.Builder builderForValue) {
+        if (TargetShootingInfoBuilder_ == null) {
+          TargetShootingInfo_ = builderForValue.build();
           onChanged();
         } else {
-          fEIBGNOLDPHBuilder_.setMessage(builderForValue.build());
+          TargetShootingInfoBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
+       * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
        */
-      public Builder mergeFEIBGNOLDPH(emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI value) {
-        if (fEIBGNOLDPHBuilder_ == null) {
-          if (fEIBGNOLDPH_ != null) {
-            fEIBGNOLDPH_ =
-              emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.newBuilder(fEIBGNOLDPH_).mergeFrom(value).buildPartial();
+      public Builder mergeTargetShootingInfo(emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo value) {
+        if (TargetShootingInfoBuilder_ == null) {
+          if (TargetShootingInfo_ != null) {
+            TargetShootingInfo_ =
+              emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.newBuilder(TargetShootingInfo_).mergeFrom(value).buildPartial();
           } else {
-            fEIBGNOLDPH_ = value;
+            TargetShootingInfo_ = value;
           }
           onChanged();
         } else {
-          fEIBGNOLDPHBuilder_.mergeFrom(value);
+          TargetShootingInfoBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
+       * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
        */
-      public Builder clearFEIBGNOLDPH() {
-        if (fEIBGNOLDPHBuilder_ == null) {
-          fEIBGNOLDPH_ = null;
+      public Builder clearTargetShootingInfo() {
+        if (TargetShootingInfoBuilder_ == null) {
+          TargetShootingInfo_ = null;
           onChanged();
         } else {
-          fEIBGNOLDPH_ = null;
-          fEIBGNOLDPHBuilder_ = null;
+          TargetShootingInfo_ = null;
+          TargetShootingInfoBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
+       * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
        */
-      public emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.Builder getFEIBGNOLDPHBuilder() {
+      public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.Builder getTargetShootingInfoBuilder() {
         
         onChanged();
-        return getFEIBGNOLDPHFieldBuilder().getBuilder();
+        return getTargetShootingInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
+       * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
        */
-      public emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFIOrBuilder getFEIBGNOLDPHOrBuilder() {
-        if (fEIBGNOLDPHBuilder_ != null) {
-          return fEIBGNOLDPHBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfoOrBuilder getTargetShootingInfoOrBuilder() {
+        if (TargetShootingInfoBuilder_ != null) {
+          return TargetShootingInfoBuilder_.getMessageOrBuilder();
         } else {
-          return fEIBGNOLDPH_ == null ?
-              emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.getDefaultInstance() : fEIBGNOLDPH_;
+          return TargetShootingInfo_ == null ?
+              emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.getDefaultInstance() : TargetShootingInfo_;
         }
       }
       /**
-       * <code>.MCBFGENCAFI FEIBGNOLDPH = 7;</code>
+       * <code>._PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI, emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.Builder, emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFIOrBuilder> 
-          getFEIBGNOLDPHFieldBuilder() {
-        if (fEIBGNOLDPHBuilder_ == null) {
-          fEIBGNOLDPHBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI, emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFI.Builder, emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.MCBFGENCAFIOrBuilder>(
-                  getFEIBGNOLDPH(),
+          emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.Builder, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfoOrBuilder> 
+          getTargetShootingInfoFieldBuilder() {
+        if (TargetShootingInfoBuilder_ == null) {
+          TargetShootingInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.Builder, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfoOrBuilder>(
+                  getTargetShootingInfo(),
                   getParentForChildren(),
                   isClean());
-          fEIBGNOLDPH_ = null;
+          TargetShootingInfo_ = null;
         }
-        return fEIBGNOLDPHBuilder_;
+        return TargetShootingInfoBuilder_;
       }
 
       private emu.grasscutter.net.proto.GBAOLFCECGMOuterClass.GBAOLFCECGM lLHAEBMBODJ_;
@@ -1462,37 +1462,40 @@ public final class _PenumbraAdventureDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\"_PenumbraAdventureDetailInfo.proto\032\021AP" +
-      "GNMMCFCPD.proto\032\021GBAOLFCECGM.proto\032\021KOIC" +
-      "DGPFJJN.proto\032\021MCBFGENCAFI.proto\032\021PKLEFD" +
-      "LHINI.proto\"\315\001\n\034_PenumbraAdventureDetail" +
-      "Info\022!\n\013MDKICOPEMGP\030\003 \001(\0132\014.KOICDGPFJJN\022" +
-      "!\n\013CLJOHONMNEH\030\005 \001(\0132\014.APGNMMCFCPD\022!\n\013FB" +
-      "HDPNAJDJO\030\006 \001(\0132\014.PKLEFDLHINI\022!\n\013FEIBGNO" +
-      "LDPH\030\007 \001(\0132\014.MCBFGENCAFI\022!\n\013LLHAEBMBODJ\030" +
-      "\r \001(\0132\014.GBAOLFCECGMBC\n\031emu.grasscutter.n" +
-      "et.protoB&_PenumbraAdventureDetailInfoOu" +
-      "terClassb\006proto3"
+      "GNMMCFCPD.proto\032\021GBAOLFCECGM.proto\032\021PKLE" +
+      "FDLHINI.proto\032&_PenumbraAdventureFlightG" +
+      "earInfo.proto\032*_PenumbraAdventureTargetS" +
+      "hootingInfo.proto\"\213\002\n\034_PenumbraAdventure" +
+      "DetailInfo\022<\n\021_flight_gear_info\030\003 \001(\0132!." +
+      "_PenumbraAdventureFlightGearInfo\022!\n\013CLJO" +
+      "HONMNEH\030\005 \001(\0132\014.APGNMMCFCPD\022!\n\013FBHDPNAJD" +
+      "JO\030\006 \001(\0132\014.PKLEFDLHINI\022D\n\025_target_shooti" +
+      "ng_info\030\007 \001(\0132%._PenumbraAdventureTarget" +
+      "ShootingInfo\022!\n\013LLHAEBMBODJ\030\r \001(\0132\014.GBAO" +
+      "LFCECGMBC\n\031emu.grasscutter.net.protoB&_P" +
+      "enumbraAdventureDetailInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.APGNMMCFCPDOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GBAOLFCECGMOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PKLEFDLHINIOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass.getDescriptor(),
         });
     internal_static__PenumbraAdventureDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static__PenumbraAdventureDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__PenumbraAdventureDetailInfo_descriptor,
-        new java.lang.String[] { "MDKICOPEMGP", "CLJOHONMNEH", "FBHDPNAJDJO", "FEIBGNOLDPH", "LLHAEBMBODJ", });
+        new java.lang.String[] { "FlightGearInfo", "CLJOHONMNEH", "FBHDPNAJDJO", "TargetShootingInfo", "LLHAEBMBODJ", });
     emu.grasscutter.net.proto.APGNMMCFCPDOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GBAOLFCECGMOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.KOICDGPFJJNOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MCBFGENCAFIOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PKLEFDLHINIOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PenumbraAdventureFlightGearInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

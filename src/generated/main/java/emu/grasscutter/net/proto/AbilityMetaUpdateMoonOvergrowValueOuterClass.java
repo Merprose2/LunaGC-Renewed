@@ -130,24 +130,24 @@ public final class AbilityMetaUpdateMoonOvergrowValueOuterClass {
     public enum _UpdateType
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>_UpdateType_INVALUE = 0;</code>
+       * <code>INVALUE = 0;</code>
        */
-      _UpdateType_INVALUE(0),
+      INVALUE(0),
       /**
-       * <code>_UpdateType_SET = 1;</code>
+       * <code>SET = 1;</code>
        */
-      _UpdateType_SET(1),
+      SET(1),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>_UpdateType_INVALUE = 0;</code>
+       * <code>INVALUE = 0;</code>
        */
-      public static final int _UpdateType_INVALUE_VALUE = 0;
+      public static final int INVALUE_VALUE = 0;
       /**
-       * <code>_UpdateType_SET = 1;</code>
+       * <code>SET = 1;</code>
        */
-      public static final int _UpdateType_SET_VALUE = 1;
+      public static final int SET_VALUE = 1;
 
 
       public final int getNumber() {
@@ -174,8 +174,8 @@ public final class AbilityMetaUpdateMoonOvergrowValueOuterClass {
        */
       public static _UpdateType forNumber(int value) {
         switch (value) {
-          case 0: return _UpdateType_INVALUE;
-          case 1: return _UpdateType_SET;
+          case 0: return INVALUE;
+          case 1: return SET;
           default: return null;
         }
       }
@@ -276,7 +276,7 @@ public final class AbilityMetaUpdateMoonOvergrowValueOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (updateType_ != emu.grasscutter.net.proto.AbilityMetaUpdateMoonOvergrowValueOuterClass.AbilityMetaUpdateMoonOvergrowValue._UpdateType._UpdateType_INVALUE.getNumber()) {
+      if (updateType_ != emu.grasscutter.net.proto.AbilityMetaUpdateMoonOvergrowValueOuterClass.AbilityMetaUpdateMoonOvergrowValue._UpdateType.INVALUE.getNumber()) {
         output.writeEnum(2, updateType_);
       }
       if (fOMPMBNENPH_ != 0F) {
@@ -291,7 +291,7 @@ public final class AbilityMetaUpdateMoonOvergrowValueOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (updateType_ != emu.grasscutter.net.proto.AbilityMetaUpdateMoonOvergrowValueOuterClass.AbilityMetaUpdateMoonOvergrowValue._UpdateType._UpdateType_INVALUE.getNumber()) {
+      if (updateType_ != emu.grasscutter.net.proto.AbilityMetaUpdateMoonOvergrowValueOuterClass.AbilityMetaUpdateMoonOvergrowValue._UpdateType.INVALUE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(2, updateType_);
       }
@@ -734,13 +734,13 @@ public final class AbilityMetaUpdateMoonOvergrowValueOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n(AbilityMetaUpdateMoonOvergrowValue.pro" +
-      "to\"\274\001\n\"AbilityMetaUpdateMoonOvergrowValu" +
+      "to\"\244\001\n\"AbilityMetaUpdateMoonOvergrowValu" +
       "e\022D\n\013update_type\030\002 \001(\0162/.AbilityMetaUpda" +
       "teMoonOvergrowValue._UpdateType\022\023\n\013FOMPM" +
-      "BNENPH\030\017 \001(\002\";\n\013_UpdateType\022\027\n\023_UpdateTy" +
-      "pe_INVALUE\020\000\022\023\n\017_UpdateType_SET\020\001BI\n\031emu" +
-      ".grasscutter.net.protoB,AbilityMetaUpdat" +
-      "eMoonOvergrowValueOuterClassb\006proto3"
+      "BNENPH\030\017 \001(\002\"#\n\013_UpdateType\022\013\n\007INVALUE\020\000" +
+      "\022\007\n\003SET\020\001BI\n\031emu.grasscutter.net.protoB," +
+      "AbilityMetaUpdateMoonOvergrowValueOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

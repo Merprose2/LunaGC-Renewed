@@ -37,10 +37,6 @@ public final class PlayerTimeNotifyOuterClass {
     boolean getIsPaused();
   }
   /**
-   * <pre>
-   * CmdID: 21611
-   * </pre>
-   *
    * Protobuf type {@code PlayerTimeNotify}
    */
   public static final class PlayerTimeNotify extends
@@ -346,10 +342,6 @@ public final class PlayerTimeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21611
-     * </pre>
-     *
      * Protobuf type {@code PlayerTimeNotify}
      */
     public static final class Builder extends

@@ -37,10 +37,6 @@ public final class SetPlayerBornDataReqOuterClass {
         getNickNameBytes();
   }
   /**
-   * <pre>
-   * CmdID: 21146
-   * </pre>
-   *
    * Protobuf type {@code SetPlayerBornDataReq}
    */
   public static final class SetPlayerBornDataReq extends
@@ -344,10 +340,6 @@ public final class SetPlayerBornDataReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21146
-     * </pre>
-     *
      * Protobuf type {@code SetPlayerBornDataReq}
      */
     public static final class Builder extends

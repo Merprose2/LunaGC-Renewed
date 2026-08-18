@@ -25,10 +25,6 @@ public final class SetNameCardReqOuterClass {
     int getNameCardId();
   }
   /**
-   * <pre>
-   * CmdID: 1416
-   * </pre>
-   *
    * Protobuf type {@code SetNameCardReq}
    */
   public static final class SetNameCardReq extends
@@ -277,10 +273,6 @@ public final class SetNameCardReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1416
-     * </pre>
-     *
      * Protobuf type {@code SetNameCardReq}
      */
     public static final class Builder extends

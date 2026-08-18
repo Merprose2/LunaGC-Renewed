@@ -46,10 +46,6 @@ public final class PersonalSceneJumpRspOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getDestPosOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 1717
-   * </pre>
-   *
    * Protobuf type {@code PersonalSceneJumpRsp}
    */
   public static final class PersonalSceneJumpRsp extends
@@ -380,10 +376,6 @@ public final class PersonalSceneJumpRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1717
-     * </pre>
-     *
      * Protobuf type {@code PersonalSceneJumpRsp}
      */
     public static final class Builder extends

@@ -36,10 +36,6 @@ public final class GetAreaExplorePointReqOuterClass {
     int getAreaIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 25269
-   * </pre>
-   *
    * Protobuf type {@code GetAreaExplorePointReq}
    */
   public static final class GetAreaExplorePointReq extends
@@ -343,10 +339,6 @@ public final class GetAreaExplorePointReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25269
-     * </pre>
-     *
      * Protobuf type {@code GetAreaExplorePointReq}
      */
     public static final class Builder extends

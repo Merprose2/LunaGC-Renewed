@@ -244,7 +244,7 @@ public final class LunaRiteHintPointOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (type_ != emu.grasscutter.net.proto.LunaRiteHintPointTypeOuterClass.LunaRiteHintPointType.LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_NONE.getNumber()) {
+      if (type_ != emu.grasscutter.net.proto.LunaRiteHintPointTypeOuterClass.LunaRiteHintPointType.LUNA_RITE_HINT_TYPE_NONE.getNumber()) {
         output.writeEnum(6, type_);
       }
       if (index_ != 0) {
@@ -265,7 +265,7 @@ public final class LunaRiteHintPointOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (type_ != emu.grasscutter.net.proto.LunaRiteHintPointTypeOuterClass.LunaRiteHintPointType.LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_NONE.getNumber()) {
+      if (type_ != emu.grasscutter.net.proto.LunaRiteHintPointTypeOuterClass.LunaRiteHintPointType.LUNA_RITE_HINT_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(6, type_);
       }

@@ -60,10 +60,6 @@ public final class AvatarFetterLevelRewardRspOuterClass {
     long getAvatarGuid();
   }
   /**
-   * <pre>
-   * CmdID: 9573
-   * </pre>
-   *
    * Protobuf type {@code AvatarFetterLevelRewardRsp}
    */
   public static final class AvatarFetterLevelRewardRsp extends
@@ -476,10 +472,6 @@ public final class AvatarFetterLevelRewardRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9573
-     * </pre>
-     *
      * Protobuf type {@code AvatarFetterLevelRewardRsp}
      */
     public static final class Builder extends

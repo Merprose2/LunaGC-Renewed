@@ -58,10 +58,10 @@ public final class TowerAllDataRspOuterClass {
     emu.grasscutter.net.proto.TowerCurLevelRecordOuterClass.TowerCurLevelRecordOrBuilder getCurLevelRecordOrBuilder();
 
     /**
-     * <code>uint32 NJIPNEFLPBG = 6;</code>
-     * @return The nJIPNEFLPBG.
+     * <code>uint32 commemorative_reward_id = 6;</code>
+     * @return The commemorativeRewardId.
      */
-    int getNJIPNEFLPBG();
+    int getCommemorativeRewardId();
 
     /**
      * <code>map&lt;uint32, uint32&gt; skip_floor_granted_reward_item_map = 7;</code>
@@ -144,16 +144,16 @@ public final class TowerAllDataRspOuterClass {
     boolean getIsFirstInteract();
 
     /**
-     * <code>uint32 MOCEGIOCENA = 11;</code>
-     * @return The mOCEGIOCENA.
+     * <code>uint32 valid_tower_record_num = 11;</code>
+     * @return The validTowerRecordNum.
      */
-    int getMOCEGIOCENA();
+    int getValidTowerRecordNum();
 
     /**
-     * <code>uint32 JDBHADBAALI = 12;</code>
-     * @return The jDBHADBAALI.
+     * <code>uint32 skip_to_floor_index = 12;</code>
+     * @return The skipToFloorIndex.
      */
-    int getJDBHADBAALI();
+    int getSkipToFloorIndex();
 
     /**
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
@@ -233,10 +233,6 @@ public final class TowerAllDataRspOuterClass {
     emu.grasscutter.net.proto.TowerMonthlyBriefOuterClass.TowerMonthlyBriefOrBuilder getLastScheduleMonthlyBriefOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 29183
-   * </pre>
-   *
    * Protobuf type {@code TowerAllDataRsp}
    */
   public static final class TowerAllDataRsp extends
@@ -319,7 +315,7 @@ public final class TowerAllDataRspOuterClass {
             }
             case 48: {
 
-              nJIPNEFLPBG_ = input.readUInt32();
+              commemorativeRewardId_ = input.readUInt32();
               break;
             }
             case 58: {
@@ -360,12 +356,12 @@ public final class TowerAllDataRspOuterClass {
             }
             case 88: {
 
-              mOCEGIOCENA_ = input.readUInt32();
+              validTowerRecordNum_ = input.readUInt32();
               break;
             }
             case 96: {
 
-              jDBHADBAALI_ = input.readUInt32();
+              skipToFloorIndex_ = input.readUInt32();
               break;
             }
             case 106: {
@@ -474,40 +470,40 @@ public final class TowerAllDataRspOuterClass {
     public enum _TowerSkipFloorState
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>_TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_NONE = 0;</code>
+       * <code>TOWER_SKIP_FLOOR_STATE_NONE = 0;</code>
        */
-      _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_NONE(0),
+      TOWER_SKIP_FLOOR_STATE_NONE(0),
       /**
-       * <code>_TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP = 1;</code>
+       * <code>TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP = 1;</code>
        */
-      _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP(1),
+      TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP(1),
       /**
-       * <code>_TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_HAS_REWARD = 2;</code>
+       * <code>TOWER_SKIP_FLOOR_STATE_HAS_REWARD = 2;</code>
        */
-      _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_HAS_REWARD(2),
+      TOWER_SKIP_FLOOR_STATE_HAS_REWARD(2),
       /**
-       * <code>_TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD = 3;</code>
+       * <code>TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD = 3;</code>
        */
-      _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD(3),
+      TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD(3),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>_TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_NONE = 0;</code>
+       * <code>TOWER_SKIP_FLOOR_STATE_NONE = 0;</code>
        */
-      public static final int _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_NONE_VALUE = 0;
+      public static final int TOWER_SKIP_FLOOR_STATE_NONE_VALUE = 0;
       /**
-       * <code>_TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP = 1;</code>
+       * <code>TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP = 1;</code>
        */
-      public static final int _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP_VALUE = 1;
+      public static final int TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP_VALUE = 1;
       /**
-       * <code>_TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_HAS_REWARD = 2;</code>
+       * <code>TOWER_SKIP_FLOOR_STATE_HAS_REWARD = 2;</code>
        */
-      public static final int _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_HAS_REWARD_VALUE = 2;
+      public static final int TOWER_SKIP_FLOOR_STATE_HAS_REWARD_VALUE = 2;
       /**
-       * <code>_TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD = 3;</code>
+       * <code>TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD = 3;</code>
        */
-      public static final int _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD_VALUE = 3;
+      public static final int TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD_VALUE = 3;
 
 
       public final int getNumber() {
@@ -534,10 +530,10 @@ public final class TowerAllDataRspOuterClass {
        */
       public static _TowerSkipFloorState forNumber(int value) {
         switch (value) {
-          case 0: return _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_NONE;
-          case 1: return _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP;
-          case 2: return _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_HAS_REWARD;
-          case 3: return _TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD;
+          case 0: return TOWER_SKIP_FLOOR_STATE_NONE;
+          case 1: return TOWER_SKIP_FLOOR_STATE_CAN_NOT_SKIP;
+          case 2: return TOWER_SKIP_FLOOR_STATE_HAS_REWARD;
+          case 3: return TOWER_SKIP_FLOOR_STATE_TAKEN_REWARD;
           default: return null;
         }
       }
@@ -664,15 +660,15 @@ public final class TowerAllDataRspOuterClass {
       return getCurLevelRecord();
     }
 
-    public static final int NJIPNEFLPBG_FIELD_NUMBER = 6;
-    private int nJIPNEFLPBG_;
+    public static final int COMMEMORATIVE_REWARD_ID_FIELD_NUMBER = 6;
+    private int commemorativeRewardId_;
     /**
-     * <code>uint32 NJIPNEFLPBG = 6;</code>
-     * @return The nJIPNEFLPBG.
+     * <code>uint32 commemorative_reward_id = 6;</code>
+     * @return The commemorativeRewardId.
      */
     @java.lang.Override
-    public int getNJIPNEFLPBG() {
-      return nJIPNEFLPBG_;
+    public int getCommemorativeRewardId() {
+      return commemorativeRewardId_;
     }
 
     public static final int SKIP_FLOOR_GRANTED_REWARD_ITEM_MAP_FIELD_NUMBER = 7;
@@ -859,26 +855,26 @@ public final class TowerAllDataRspOuterClass {
       return isFirstInteract_;
     }
 
-    public static final int MOCEGIOCENA_FIELD_NUMBER = 11;
-    private int mOCEGIOCENA_;
+    public static final int VALID_TOWER_RECORD_NUM_FIELD_NUMBER = 11;
+    private int validTowerRecordNum_;
     /**
-     * <code>uint32 MOCEGIOCENA = 11;</code>
-     * @return The mOCEGIOCENA.
+     * <code>uint32 valid_tower_record_num = 11;</code>
+     * @return The validTowerRecordNum.
      */
     @java.lang.Override
-    public int getMOCEGIOCENA() {
-      return mOCEGIOCENA_;
+    public int getValidTowerRecordNum() {
+      return validTowerRecordNum_;
     }
 
-    public static final int JDBHADBAALI_FIELD_NUMBER = 12;
-    private int jDBHADBAALI_;
+    public static final int SKIP_TO_FLOOR_INDEX_FIELD_NUMBER = 12;
+    private int skipToFloorIndex_;
     /**
-     * <code>uint32 JDBHADBAALI = 12;</code>
-     * @return The jDBHADBAALI.
+     * <code>uint32 skip_to_floor_index = 12;</code>
+     * @return The skipToFloorIndex.
      */
     @java.lang.Override
-    public int getJDBHADBAALI() {
-      return jDBHADBAALI_;
+    public int getSkipToFloorIndex() {
+      return skipToFloorIndex_;
     }
 
     public static final int TOWER_FLOOR_RECORD_LIST_FIELD_NUMBER = 13;
@@ -1043,8 +1039,8 @@ public final class TowerAllDataRspOuterClass {
       if (curLevelRecord_ != null) {
         output.writeMessage(5, getCurLevelRecord());
       }
-      if (nJIPNEFLPBG_ != 0) {
-        output.writeUInt32(6, nJIPNEFLPBG_);
+      if (commemorativeRewardId_ != 0) {
+        output.writeUInt32(6, commemorativeRewardId_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
@@ -1064,11 +1060,11 @@ public final class TowerAllDataRspOuterClass {
       if (isFirstInteract_ != false) {
         output.writeBool(10, isFirstInteract_);
       }
-      if (mOCEGIOCENA_ != 0) {
-        output.writeUInt32(11, mOCEGIOCENA_);
+      if (validTowerRecordNum_ != 0) {
+        output.writeUInt32(11, validTowerRecordNum_);
       }
-      if (jDBHADBAALI_ != 0) {
-        output.writeUInt32(12, jDBHADBAALI_);
+      if (skipToFloorIndex_ != 0) {
+        output.writeUInt32(12, skipToFloorIndex_);
       }
       for (int i = 0; i < towerFloorRecordList_.size(); i++) {
         output.writeMessage(13, towerFloorRecordList_.get(i));
@@ -1079,7 +1075,7 @@ public final class TowerAllDataRspOuterClass {
       if (monthlyBrief_ != null) {
         output.writeMessage(15, getMonthlyBrief());
       }
-      if (TowerSkipFloorState_ != emu.grasscutter.net.proto.TowerAllDataRspOuterClass.TowerAllDataRsp._TowerSkipFloorState._TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_NONE.getNumber()) {
+      if (TowerSkipFloorState_ != emu.grasscutter.net.proto.TowerAllDataRspOuterClass.TowerAllDataRsp._TowerSkipFloorState.TOWER_SKIP_FLOOR_STATE_NONE.getNumber()) {
         output.writeEnum(660, TowerSkipFloorState_);
       }
       if (scheduleStartTime_ != 0) {
@@ -1117,9 +1113,9 @@ public final class TowerAllDataRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getCurLevelRecord());
       }
-      if (nJIPNEFLPBG_ != 0) {
+      if (commemorativeRewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, nJIPNEFLPBG_);
+          .computeUInt32Size(6, commemorativeRewardId_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetSkipFloorGrantedRewardItemMap().getMap().entrySet()) {
@@ -1149,13 +1145,13 @@ public final class TowerAllDataRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(10, isFirstInteract_);
       }
-      if (mOCEGIOCENA_ != 0) {
+      if (validTowerRecordNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, mOCEGIOCENA_);
+          .computeUInt32Size(11, validTowerRecordNum_);
       }
-      if (jDBHADBAALI_ != 0) {
+      if (skipToFloorIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, jDBHADBAALI_);
+          .computeUInt32Size(12, skipToFloorIndex_);
       }
       for (int i = 0; i < towerFloorRecordList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -1169,7 +1165,7 @@ public final class TowerAllDataRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(15, getMonthlyBrief());
       }
-      if (TowerSkipFloorState_ != emu.grasscutter.net.proto.TowerAllDataRspOuterClass.TowerAllDataRsp._TowerSkipFloorState._TowerSkipFloorState_TOWER_SKIP_FLOOR_STATE_NONE.getNumber()) {
+      if (TowerSkipFloorState_ != emu.grasscutter.net.proto.TowerAllDataRspOuterClass.TowerAllDataRsp._TowerSkipFloorState.TOWER_SKIP_FLOOR_STATE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(660, TowerSkipFloorState_);
       }
@@ -1209,8 +1205,8 @@ public final class TowerAllDataRspOuterClass {
         if (!getCurLevelRecord()
             .equals(other.getCurLevelRecord())) return false;
       }
-      if (getNJIPNEFLPBG()
-          != other.getNJIPNEFLPBG()) return false;
+      if (getCommemorativeRewardId()
+          != other.getCommemorativeRewardId()) return false;
       if (!internalGetSkipFloorGrantedRewardItemMap().equals(
           other.internalGetSkipFloorGrantedRewardItemMap())) return false;
       if (getIsFinishedEntranceFloor()
@@ -1219,10 +1215,10 @@ public final class TowerAllDataRspOuterClass {
           other.internalGetFloorOpenTimeMap())) return false;
       if (getIsFirstInteract()
           != other.getIsFirstInteract()) return false;
-      if (getMOCEGIOCENA()
-          != other.getMOCEGIOCENA()) return false;
-      if (getJDBHADBAALI()
-          != other.getJDBHADBAALI()) return false;
+      if (getValidTowerRecordNum()
+          != other.getValidTowerRecordNum()) return false;
+      if (getSkipToFloorIndex()
+          != other.getSkipToFloorIndex()) return false;
       if (!getTowerFloorRecordListList()
           .equals(other.getTowerFloorRecordListList())) return false;
       if (getGKIFECKDHKD()
@@ -1263,8 +1259,8 @@ public final class TowerAllDataRspOuterClass {
         hash = (37 * hash) + CUR_LEVEL_RECORD_FIELD_NUMBER;
         hash = (53 * hash) + getCurLevelRecord().hashCode();
       }
-      hash = (37 * hash) + NJIPNEFLPBG_FIELD_NUMBER;
-      hash = (53 * hash) + getNJIPNEFLPBG();
+      hash = (37 * hash) + COMMEMORATIVE_REWARD_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getCommemorativeRewardId();
       if (!internalGetSkipFloorGrantedRewardItemMap().getMap().isEmpty()) {
         hash = (37 * hash) + SKIP_FLOOR_GRANTED_REWARD_ITEM_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetSkipFloorGrantedRewardItemMap().hashCode();
@@ -1279,10 +1275,10 @@ public final class TowerAllDataRspOuterClass {
       hash = (37 * hash) + IS_FIRST_INTERACT_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFirstInteract());
-      hash = (37 * hash) + MOCEGIOCENA_FIELD_NUMBER;
-      hash = (53 * hash) + getMOCEGIOCENA();
-      hash = (37 * hash) + JDBHADBAALI_FIELD_NUMBER;
-      hash = (53 * hash) + getJDBHADBAALI();
+      hash = (37 * hash) + VALID_TOWER_RECORD_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getValidTowerRecordNum();
+      hash = (37 * hash) + SKIP_TO_FLOOR_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getSkipToFloorIndex();
       if (getTowerFloorRecordListCount() > 0) {
         hash = (37 * hash) + TOWER_FLOOR_RECORD_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getTowerFloorRecordListList().hashCode();
@@ -1397,10 +1393,6 @@ public final class TowerAllDataRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29183
-     * </pre>
-     *
      * Protobuf type {@code TowerAllDataRsp}
      */
     public static final class Builder extends
@@ -1479,7 +1471,7 @@ public final class TowerAllDataRspOuterClass {
           curLevelRecord_ = null;
           curLevelRecordBuilder_ = null;
         }
-        nJIPNEFLPBG_ = 0;
+        commemorativeRewardId_ = 0;
 
         internalGetMutableSkipFloorGrantedRewardItemMap().clear();
         isFinishedEntranceFloor_ = false;
@@ -1487,9 +1479,9 @@ public final class TowerAllDataRspOuterClass {
         internalGetMutableFloorOpenTimeMap().clear();
         isFirstInteract_ = false;
 
-        mOCEGIOCENA_ = 0;
+        validTowerRecordNum_ = 0;
 
-        jDBHADBAALI_ = 0;
+        skipToFloorIndex_ = 0;
 
         if (towerFloorRecordListBuilder_ == null) {
           towerFloorRecordList_ = java.util.Collections.emptyList();
@@ -1551,15 +1543,15 @@ public final class TowerAllDataRspOuterClass {
         } else {
           result.curLevelRecord_ = curLevelRecordBuilder_.build();
         }
-        result.nJIPNEFLPBG_ = nJIPNEFLPBG_;
+        result.commemorativeRewardId_ = commemorativeRewardId_;
         result.skipFloorGrantedRewardItemMap_ = internalGetSkipFloorGrantedRewardItemMap();
         result.skipFloorGrantedRewardItemMap_.makeImmutable();
         result.isFinishedEntranceFloor_ = isFinishedEntranceFloor_;
         result.floorOpenTimeMap_ = internalGetFloorOpenTimeMap();
         result.floorOpenTimeMap_.makeImmutable();
         result.isFirstInteract_ = isFirstInteract_;
-        result.mOCEGIOCENA_ = mOCEGIOCENA_;
-        result.jDBHADBAALI_ = jDBHADBAALI_;
+        result.validTowerRecordNum_ = validTowerRecordNum_;
+        result.skipToFloorIndex_ = skipToFloorIndex_;
         if (towerFloorRecordListBuilder_ == null) {
           if (((bitField0_ & 0x00000004) != 0)) {
             towerFloorRecordList_ = java.util.Collections.unmodifiableList(towerFloorRecordList_);
@@ -1645,8 +1637,8 @@ public final class TowerAllDataRspOuterClass {
         if (other.hasCurLevelRecord()) {
           mergeCurLevelRecord(other.getCurLevelRecord());
         }
-        if (other.getNJIPNEFLPBG() != 0) {
-          setNJIPNEFLPBG(other.getNJIPNEFLPBG());
+        if (other.getCommemorativeRewardId() != 0) {
+          setCommemorativeRewardId(other.getCommemorativeRewardId());
         }
         internalGetMutableSkipFloorGrantedRewardItemMap().mergeFrom(
             other.internalGetSkipFloorGrantedRewardItemMap());
@@ -1658,11 +1650,11 @@ public final class TowerAllDataRspOuterClass {
         if (other.getIsFirstInteract() != false) {
           setIsFirstInteract(other.getIsFirstInteract());
         }
-        if (other.getMOCEGIOCENA() != 0) {
-          setMOCEGIOCENA(other.getMOCEGIOCENA());
+        if (other.getValidTowerRecordNum() != 0) {
+          setValidTowerRecordNum(other.getValidTowerRecordNum());
         }
-        if (other.getJDBHADBAALI() != 0) {
-          setJDBHADBAALI(other.getJDBHADBAALI());
+        if (other.getSkipToFloorIndex() != 0) {
+          setSkipToFloorIndex(other.getSkipToFloorIndex());
         }
         if (towerFloorRecordListBuilder_ == null) {
           if (!other.towerFloorRecordList_.isEmpty()) {
@@ -1978,33 +1970,33 @@ public final class TowerAllDataRspOuterClass {
         return curLevelRecordBuilder_;
       }
 
-      private int nJIPNEFLPBG_ ;
+      private int commemorativeRewardId_ ;
       /**
-       * <code>uint32 NJIPNEFLPBG = 6;</code>
-       * @return The nJIPNEFLPBG.
+       * <code>uint32 commemorative_reward_id = 6;</code>
+       * @return The commemorativeRewardId.
        */
       @java.lang.Override
-      public int getNJIPNEFLPBG() {
-        return nJIPNEFLPBG_;
+      public int getCommemorativeRewardId() {
+        return commemorativeRewardId_;
       }
       /**
-       * <code>uint32 NJIPNEFLPBG = 6;</code>
-       * @param value The nJIPNEFLPBG to set.
+       * <code>uint32 commemorative_reward_id = 6;</code>
+       * @param value The commemorativeRewardId to set.
        * @return This builder for chaining.
        */
-      public Builder setNJIPNEFLPBG(int value) {
+      public Builder setCommemorativeRewardId(int value) {
         
-        nJIPNEFLPBG_ = value;
+        commemorativeRewardId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 NJIPNEFLPBG = 6;</code>
+       * <code>uint32 commemorative_reward_id = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNJIPNEFLPBG() {
+      public Builder clearCommemorativeRewardId() {
         
-        nJIPNEFLPBG_ = 0;
+        commemorativeRewardId_ = 0;
         onChanged();
         return this;
       }
@@ -2327,64 +2319,64 @@ public final class TowerAllDataRspOuterClass {
         return this;
       }
 
-      private int mOCEGIOCENA_ ;
+      private int validTowerRecordNum_ ;
       /**
-       * <code>uint32 MOCEGIOCENA = 11;</code>
-       * @return The mOCEGIOCENA.
+       * <code>uint32 valid_tower_record_num = 11;</code>
+       * @return The validTowerRecordNum.
        */
       @java.lang.Override
-      public int getMOCEGIOCENA() {
-        return mOCEGIOCENA_;
+      public int getValidTowerRecordNum() {
+        return validTowerRecordNum_;
       }
       /**
-       * <code>uint32 MOCEGIOCENA = 11;</code>
-       * @param value The mOCEGIOCENA to set.
+       * <code>uint32 valid_tower_record_num = 11;</code>
+       * @param value The validTowerRecordNum to set.
        * @return This builder for chaining.
        */
-      public Builder setMOCEGIOCENA(int value) {
+      public Builder setValidTowerRecordNum(int value) {
         
-        mOCEGIOCENA_ = value;
+        validTowerRecordNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 MOCEGIOCENA = 11;</code>
+       * <code>uint32 valid_tower_record_num = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMOCEGIOCENA() {
+      public Builder clearValidTowerRecordNum() {
         
-        mOCEGIOCENA_ = 0;
+        validTowerRecordNum_ = 0;
         onChanged();
         return this;
       }
 
-      private int jDBHADBAALI_ ;
+      private int skipToFloorIndex_ ;
       /**
-       * <code>uint32 JDBHADBAALI = 12;</code>
-       * @return The jDBHADBAALI.
+       * <code>uint32 skip_to_floor_index = 12;</code>
+       * @return The skipToFloorIndex.
        */
       @java.lang.Override
-      public int getJDBHADBAALI() {
-        return jDBHADBAALI_;
+      public int getSkipToFloorIndex() {
+        return skipToFloorIndex_;
       }
       /**
-       * <code>uint32 JDBHADBAALI = 12;</code>
-       * @param value The jDBHADBAALI to set.
+       * <code>uint32 skip_to_floor_index = 12;</code>
+       * @param value The skipToFloorIndex to set.
        * @return This builder for chaining.
        */
-      public Builder setJDBHADBAALI(int value) {
+      public Builder setSkipToFloorIndex(int value) {
         
-        jDBHADBAALI_ = value;
+        skipToFloorIndex_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 JDBHADBAALI = 12;</code>
+       * <code>uint32 skip_to_floor_index = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJDBHADBAALI() {
+      public Builder clearSkipToFloorIndex() {
         
-        jDBHADBAALI_ = 0;
+        skipToFloorIndex_ = 0;
         onChanged();
         return this;
       }
@@ -3061,37 +3053,35 @@ public final class TowerAllDataRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025TowerAllDataRsp.proto\032\031TowerCurLevelRe" +
       "cord.proto\032\026TowerFloorRecord.proto\032\027Towe" +
-      "rMonthlyBrief.proto\"\344\010\n\017TowerAllDataRsp\022" +
+      "rMonthlyBrief.proto\"\257\010\n\017TowerAllDataRsp\022" +
       "\031\n\021tower_schedule_id\030\001 \001(\r\022\023\n\013EFABCDDNIF" +
       "A\030\002 \001(\r\022!\n\031next_schedule_change_time\030\003 \001" +
       "(\r\022\017\n\007retcode\030\004 \001(\005\022.\n\020cur_level_record\030" +
-      "\005 \001(\0132\024.TowerCurLevelRecord\022\023\n\013NJIPNEFLP" +
-      "BG\030\006 \001(\r\022_\n\"skip_floor_granted_reward_it" +
-      "em_map\030\007 \003(\01323.TowerAllDataRsp.SkipFloor" +
-      "GrantedRewardItemMapEntry\022\"\n\032is_finished" +
-      "_entrance_floor\030\010 \001(\010\022C\n\023floor_open_time" +
-      "_map\030\t \003(\0132&.TowerAllDataRsp.FloorOpenTi" +
-      "meMapEntry\022\031\n\021is_first_interact\030\n \001(\010\022\023\n" +
-      "\013MOCEGIOCENA\030\013 \001(\r\022\023\n\013JDBHADBAALI\030\014 \001(\r\022" +
-      "2\n\027tower_floor_record_list\030\r \003(\0132\021.Tower" +
-      "FloorRecord\022\023\n\013GKIFECKDHKD\030\016 \001(\r\022)\n\rmont" +
-      "hly_brief\030\017 \001(\0132\022.TowerMonthlyBrief\022G\n\027_" +
-      "tower_skip_floor_state\030\224\005 \001(\0162%.TowerAll" +
-      "DataRsp._TowerSkipFloorState\022\034\n\023schedule" +
-      "_start_time\030\233\010 \001(\r\0228\n\033last_schedule_mont" +
-      "hly_brief\030\212\017 \001(\0132\022.TowerMonthlyBrief\032D\n\"" +
-      "SkipFloorGrantedRewardItemMapEntry\022\013\n\003ke" +
-      "y\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\0327\n\025FloorOpenT" +
-      "imeMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:" +
-      "\0028\001\"\204\002\n\024_TowerSkipFloorState\0224\n0_TowerSk" +
-      "ipFloorState_TOWER_SKIP_FLOOR_STATE_NONE" +
-      "\020\000\022<\n8_TowerSkipFloorState_TOWER_SKIP_FL" +
-      "OOR_STATE_CAN_NOT_SKIP\020\001\022:\n6_TowerSkipFl" +
-      "oorState_TOWER_SKIP_FLOOR_STATE_HAS_REWA" +
-      "RD\020\002\022<\n8_TowerSkipFloorState_TOWER_SKIP_" +
-      "FLOOR_STATE_TAKEN_REWARD\020\003B6\n\031emu.grassc" +
-      "utter.net.protoB\031TowerAllDataRspOuterCla" +
-      "ssb\006proto3"
+      "\005 \001(\0132\024.TowerCurLevelRecord\022\037\n\027commemora" +
+      "tive_reward_id\030\006 \001(\r\022_\n\"skip_floor_grant" +
+      "ed_reward_item_map\030\007 \003(\01323.TowerAllDataR" +
+      "sp.SkipFloorGrantedRewardItemMapEntry\022\"\n" +
+      "\032is_finished_entrance_floor\030\010 \001(\010\022C\n\023flo" +
+      "or_open_time_map\030\t \003(\0132&.TowerAllDataRsp" +
+      ".FloorOpenTimeMapEntry\022\031\n\021is_first_inter" +
+      "act\030\n \001(\010\022\036\n\026valid_tower_record_num\030\013 \001(" +
+      "\r\022\033\n\023skip_to_floor_index\030\014 \001(\r\0222\n\027tower_" +
+      "floor_record_list\030\r \003(\0132\021.TowerFloorReco" +
+      "rd\022\023\n\013GKIFECKDHKD\030\016 \001(\r\022)\n\rmonthly_brief" +
+      "\030\017 \001(\0132\022.TowerMonthlyBrief\022G\n\027_tower_ski" +
+      "p_floor_state\030\224\005 \001(\0162%.TowerAllDataRsp._" +
+      "TowerSkipFloorState\022\034\n\023schedule_start_ti" +
+      "me\030\233\010 \001(\r\0228\n\033last_schedule_monthly_brief" +
+      "\030\212\017 \001(\0132\022.TowerMonthlyBrief\032D\n\"SkipFloor" +
+      "GrantedRewardItemMapEntry\022\013\n\003key\030\001 \001(\r\022\r" +
+      "\n\005value\030\002 \001(\r:\0028\001\0327\n\025FloorOpenTimeMapEnt" +
+      "ry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\"\260\001\n\024_" +
+      "TowerSkipFloorState\022\037\n\033TOWER_SKIP_FLOOR_" +
+      "STATE_NONE\020\000\022\'\n#TOWER_SKIP_FLOOR_STATE_C" +
+      "AN_NOT_SKIP\020\001\022%\n!TOWER_SKIP_FLOOR_STATE_" +
+      "HAS_REWARD\020\002\022\'\n#TOWER_SKIP_FLOOR_STATE_T" +
+      "AKEN_REWARD\020\003B6\n\031emu.grasscutter.net.pro" +
+      "toB\031TowerAllDataRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3105,7 +3095,7 @@ public final class TowerAllDataRspOuterClass {
     internal_static_TowerAllDataRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TowerAllDataRsp_descriptor,
-        new java.lang.String[] { "TowerScheduleId", "EFABCDDNIFA", "NextScheduleChangeTime", "Retcode", "CurLevelRecord", "NJIPNEFLPBG", "SkipFloorGrantedRewardItemMap", "IsFinishedEntranceFloor", "FloorOpenTimeMap", "IsFirstInteract", "MOCEGIOCENA", "JDBHADBAALI", "TowerFloorRecordList", "GKIFECKDHKD", "MonthlyBrief", "TowerSkipFloorState", "ScheduleStartTime", "LastScheduleMonthlyBrief", });
+        new java.lang.String[] { "TowerScheduleId", "EFABCDDNIFA", "NextScheduleChangeTime", "Retcode", "CurLevelRecord", "CommemorativeRewardId", "SkipFloorGrantedRewardItemMap", "IsFinishedEntranceFloor", "FloorOpenTimeMap", "IsFirstInteract", "ValidTowerRecordNum", "SkipToFloorIndex", "TowerFloorRecordList", "GKIFECKDHKD", "MonthlyBrief", "TowerSkipFloorState", "ScheduleStartTime", "LastScheduleMonthlyBrief", });
     internal_static_TowerAllDataRsp_SkipFloorGrantedRewardItemMapEntry_descriptor =
       internal_static_TowerAllDataRsp_descriptor.getNestedTypes().get(0);
     internal_static_TowerAllDataRsp_SkipFloorGrantedRewardItemMapEntry_fieldAccessorTable = new

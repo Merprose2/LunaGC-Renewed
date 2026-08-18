@@ -31,21 +31,21 @@ public final class _OrderInfoOuterClass {
     boolean getLKIIDNBEBIM();
 
     /**
-     * <code>repeated uint32 FCALNNDFAEG = 9;</code>
-     * @return A list containing the fCALNNDFAEG.
+     * <code>repeated uint32 npc_id_list = 9;</code>
+     * @return A list containing the npcIdList.
      */
-    java.util.List<java.lang.Integer> getFCALNNDFAEGList();
+    java.util.List<java.lang.Integer> getNpcIdListList();
     /**
-     * <code>repeated uint32 FCALNNDFAEG = 9;</code>
-     * @return The count of fCALNNDFAEG.
+     * <code>repeated uint32 npc_id_list = 9;</code>
+     * @return The count of npcIdList.
      */
-    int getFCALNNDFAEGCount();
+    int getNpcIdListCount();
     /**
-     * <code>repeated uint32 FCALNNDFAEG = 9;</code>
+     * <code>repeated uint32 npc_id_list = 9;</code>
      * @param index The index of the element to return.
-     * @return The fCALNNDFAEG at the given index.
+     * @return The npcIdList at the given index.
      */
-    int getFCALNNDFAEG(int index);
+    int getNpcIdList(int index);
 
     /**
      * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
@@ -77,7 +77,7 @@ public final class _OrderInfoOuterClass {
       super(builder);
     }
     private _OrderInfo() {
-      fCALNNDFAEG_ = emptyIntList();
+      npcIdList_ = emptyIntList();
       bHHGGMIGHHL_ = 0;
     }
 
@@ -124,21 +124,21 @@ public final class _OrderInfoOuterClass {
             }
             case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                fCALNNDFAEG_ = newIntList();
+                npcIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              fCALNNDFAEG_.addInt(input.readUInt32());
+              npcIdList_.addInt(input.readUInt32());
               break;
             }
             case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                fCALNNDFAEG_ = newIntList();
+                npcIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                fCALNNDFAEG_.addInt(input.readUInt32());
+                npcIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -170,7 +170,7 @@ public final class _OrderInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          fCALNNDFAEG_.makeImmutable(); // C
+          npcIdList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -211,33 +211,33 @@ public final class _OrderInfoOuterClass {
       return lKIIDNBEBIM_;
     }
 
-    public static final int FCALNNDFAEG_FIELD_NUMBER = 9;
-    private com.google.protobuf.Internal.IntList fCALNNDFAEG_;
+    public static final int NPC_ID_LIST_FIELD_NUMBER = 9;
+    private com.google.protobuf.Internal.IntList npcIdList_;
     /**
-     * <code>repeated uint32 FCALNNDFAEG = 9;</code>
-     * @return A list containing the fCALNNDFAEG.
+     * <code>repeated uint32 npc_id_list = 9;</code>
+     * @return A list containing the npcIdList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getFCALNNDFAEGList() {
-      return fCALNNDFAEG_;
+        getNpcIdListList() {
+      return npcIdList_;
     }
     /**
-     * <code>repeated uint32 FCALNNDFAEG = 9;</code>
-     * @return The count of fCALNNDFAEG.
+     * <code>repeated uint32 npc_id_list = 9;</code>
+     * @return The count of npcIdList.
      */
-    public int getFCALNNDFAEGCount() {
-      return fCALNNDFAEG_.size();
+    public int getNpcIdListCount() {
+      return npcIdList_.size();
     }
     /**
-     * <code>repeated uint32 FCALNNDFAEG = 9;</code>
+     * <code>repeated uint32 npc_id_list = 9;</code>
      * @param index The index of the element to return.
-     * @return The fCALNNDFAEG at the given index.
+     * @return The npcIdList at the given index.
      */
-    public int getFCALNNDFAEG(int index) {
-      return fCALNNDFAEG_.getInt(index);
+    public int getNpcIdList(int index) {
+      return npcIdList_.getInt(index);
     }
-    private int fCALNNDFAEGMemoizedSerializedSize = -1;
+    private int npcIdListMemoizedSerializedSize = -1;
 
     public static final int BHHGGMIGHHL_FIELD_NUMBER = 10;
     private int bHHGGMIGHHL_;
@@ -290,12 +290,12 @@ public final class _OrderInfoOuterClass {
       if (lKIIDNBEBIM_ != false) {
         output.writeBool(8, lKIIDNBEBIM_);
       }
-      if (getFCALNNDFAEGList().size() > 0) {
+      if (getNpcIdListList().size() > 0) {
         output.writeUInt32NoTag(74);
-        output.writeUInt32NoTag(fCALNNDFAEGMemoizedSerializedSize);
+        output.writeUInt32NoTag(npcIdListMemoizedSerializedSize);
       }
-      for (int i = 0; i < fCALNNDFAEG_.size(); i++) {
-        output.writeUInt32NoTag(fCALNNDFAEG_.getInt(i));
+      for (int i = 0; i < npcIdList_.size(); i++) {
+        output.writeUInt32NoTag(npcIdList_.getInt(i));
       }
       if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
         output.writeEnum(10, bHHGGMIGHHL_);
@@ -322,17 +322,17 @@ public final class _OrderInfoOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < fCALNNDFAEG_.size(); i++) {
+        for (int i = 0; i < npcIdList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(fCALNNDFAEG_.getInt(i));
+            .computeUInt32SizeNoTag(npcIdList_.getInt(i));
         }
         size += dataSize;
-        if (!getFCALNNDFAEGList().isEmpty()) {
+        if (!getNpcIdListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        fCALNNDFAEGMemoizedSerializedSize = dataSize;
+        npcIdListMemoizedSerializedSize = dataSize;
       }
       if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
@@ -361,8 +361,8 @@ public final class _OrderInfoOuterClass {
           != other.getGCKDBLEMLNM()) return false;
       if (getLKIIDNBEBIM()
           != other.getLKIIDNBEBIM()) return false;
-      if (!getFCALNNDFAEGList()
-          .equals(other.getFCALNNDFAEGList())) return false;
+      if (!getNpcIdListList()
+          .equals(other.getNpcIdListList())) return false;
       if (bHHGGMIGHHL_ != other.bHHGGMIGHHL_) return false;
       if (getId()
           != other.getId()) return false;
@@ -382,9 +382,9 @@ public final class _OrderInfoOuterClass {
       hash = (37 * hash) + LKIIDNBEBIM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getLKIIDNBEBIM());
-      if (getFCALNNDFAEGCount() > 0) {
-        hash = (37 * hash) + FCALNNDFAEG_FIELD_NUMBER;
-        hash = (53 * hash) + getFCALNNDFAEGList().hashCode();
+      if (getNpcIdListCount() > 0) {
+        hash = (37 * hash) + NPC_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getNpcIdListList().hashCode();
       }
       hash = (37 * hash) + BHHGGMIGHHL_FIELD_NUMBER;
       hash = (53 * hash) + bHHGGMIGHHL_;
@@ -527,7 +527,7 @@ public final class _OrderInfoOuterClass {
 
         lKIIDNBEBIM_ = false;
 
-        fCALNNDFAEG_ = emptyIntList();
+        npcIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         bHHGGMIGHHL_ = 0;
 
@@ -563,10 +563,10 @@ public final class _OrderInfoOuterClass {
         result.gCKDBLEMLNM_ = gCKDBLEMLNM_;
         result.lKIIDNBEBIM_ = lKIIDNBEBIM_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          fCALNNDFAEG_.makeImmutable();
+          npcIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.fCALNNDFAEG_ = fCALNNDFAEG_;
+        result.npcIdList_ = npcIdList_;
         result.bHHGGMIGHHL_ = bHHGGMIGHHL_;
         result.id_ = id_;
         onBuilt();
@@ -623,13 +623,13 @@ public final class _OrderInfoOuterClass {
         if (other.getLKIIDNBEBIM() != false) {
           setLKIIDNBEBIM(other.getLKIIDNBEBIM());
         }
-        if (!other.fCALNNDFAEG_.isEmpty()) {
-          if (fCALNNDFAEG_.isEmpty()) {
-            fCALNNDFAEG_ = other.fCALNNDFAEG_;
+        if (!other.npcIdList_.isEmpty()) {
+          if (npcIdList_.isEmpty()) {
+            npcIdList_ = other.npcIdList_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureFCALNNDFAEGIsMutable();
-            fCALNNDFAEG_.addAll(other.fCALNNDFAEG_);
+            ensureNpcIdListIsMutable();
+            npcIdList_.addAll(other.npcIdList_);
           }
           onChanged();
         }
@@ -731,80 +731,80 @@ public final class _OrderInfoOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList fCALNNDFAEG_ = emptyIntList();
-      private void ensureFCALNNDFAEGIsMutable() {
+      private com.google.protobuf.Internal.IntList npcIdList_ = emptyIntList();
+      private void ensureNpcIdListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          fCALNNDFAEG_ = mutableCopy(fCALNNDFAEG_);
+          npcIdList_ = mutableCopy(npcIdList_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 FCALNNDFAEG = 9;</code>
-       * @return A list containing the fCALNNDFAEG.
+       * <code>repeated uint32 npc_id_list = 9;</code>
+       * @return A list containing the npcIdList.
        */
       public java.util.List<java.lang.Integer>
-          getFCALNNDFAEGList() {
+          getNpcIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(fCALNNDFAEG_) : fCALNNDFAEG_;
+                 java.util.Collections.unmodifiableList(npcIdList_) : npcIdList_;
       }
       /**
-       * <code>repeated uint32 FCALNNDFAEG = 9;</code>
-       * @return The count of fCALNNDFAEG.
+       * <code>repeated uint32 npc_id_list = 9;</code>
+       * @return The count of npcIdList.
        */
-      public int getFCALNNDFAEGCount() {
-        return fCALNNDFAEG_.size();
+      public int getNpcIdListCount() {
+        return npcIdList_.size();
       }
       /**
-       * <code>repeated uint32 FCALNNDFAEG = 9;</code>
+       * <code>repeated uint32 npc_id_list = 9;</code>
        * @param index The index of the element to return.
-       * @return The fCALNNDFAEG at the given index.
+       * @return The npcIdList at the given index.
        */
-      public int getFCALNNDFAEG(int index) {
-        return fCALNNDFAEG_.getInt(index);
+      public int getNpcIdList(int index) {
+        return npcIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 FCALNNDFAEG = 9;</code>
+       * <code>repeated uint32 npc_id_list = 9;</code>
        * @param index The index to set the value at.
-       * @param value The fCALNNDFAEG to set.
+       * @param value The npcIdList to set.
        * @return This builder for chaining.
        */
-      public Builder setFCALNNDFAEG(
+      public Builder setNpcIdList(
           int index, int value) {
-        ensureFCALNNDFAEGIsMutable();
-        fCALNNDFAEG_.setInt(index, value);
+        ensureNpcIdListIsMutable();
+        npcIdList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 FCALNNDFAEG = 9;</code>
-       * @param value The fCALNNDFAEG to add.
+       * <code>repeated uint32 npc_id_list = 9;</code>
+       * @param value The npcIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addFCALNNDFAEG(int value) {
-        ensureFCALNNDFAEGIsMutable();
-        fCALNNDFAEG_.addInt(value);
+      public Builder addNpcIdList(int value) {
+        ensureNpcIdListIsMutable();
+        npcIdList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 FCALNNDFAEG = 9;</code>
-       * @param values The fCALNNDFAEG to add.
+       * <code>repeated uint32 npc_id_list = 9;</code>
+       * @param values The npcIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllFCALNNDFAEG(
+      public Builder addAllNpcIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureFCALNNDFAEGIsMutable();
+        ensureNpcIdListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, fCALNNDFAEG_);
+            values, npcIdList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 FCALNNDFAEG = 9;</code>
+       * <code>repeated uint32 npc_id_list = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFCALNNDFAEG() {
-        fCALNNDFAEG_ = emptyIntList();
+      public Builder clearNpcIdList() {
+        npcIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
@@ -963,7 +963,7 @@ public final class _OrderInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020_OrderInfo.proto\032\021FGJFGPAPOHE.proto\"z\n" +
       "\n_OrderInfo\022\023\n\013GCKDBLEMLNM\030\002 \001(\r\022\023\n\013LKII" +
-      "DNBEBIM\030\010 \001(\010\022\023\n\013FCALNNDFAEG\030\t \003(\r\022!\n\013BH" +
+      "DNBEBIM\030\010 \001(\010\022\023\n\013npc_id_list\030\t \003(\r\022!\n\013BH" +
       "HGGMIGHHL\030\n \001(\0162\014.FGJFGPAPOHE\022\n\n\002id\030\013 \001(" +
       "\rB1\n\031emu.grasscutter.net.protoB\024_OrderIn" +
       "foOuterClassb\006proto3"
@@ -978,7 +978,7 @@ public final class _OrderInfoOuterClass {
     internal_static__OrderInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__OrderInfo_descriptor,
-        new java.lang.String[] { "GCKDBLEMLNM", "LKIIDNBEBIM", "FCALNNDFAEG", "BHHGGMIGHHL", "Id", });
+        new java.lang.String[] { "GCKDBLEMLNM", "LKIIDNBEBIM", "NpcIdList", "BHHGGMIGHHL", "Id", });
     emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.getDescriptor();
   }
 

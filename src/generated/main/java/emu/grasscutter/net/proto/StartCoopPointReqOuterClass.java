@@ -25,10 +25,6 @@ public final class StartCoopPointReqOuterClass {
     int getCoopPoint();
   }
   /**
-   * <pre>
-   * CmdID: 8544
-   * </pre>
-   *
    * Protobuf type {@code StartCoopPointReq}
    */
   public static final class StartCoopPointReq extends
@@ -277,10 +273,6 @@ public final class StartCoopPointReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8544
-     * </pre>
-     *
      * Protobuf type {@code StartCoopPointReq}
      */
     public static final class Builder extends

@@ -19,10 +19,10 @@ public final class EvtBulletHitNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 NDDLOLCPHND = 1;</code>
-     * @return The nDDLOLCPHND.
+     * <code>uint32 single_bullet_id = 1;</code>
+     * @return The singleBulletId.
      */
-    int getNDDLOLCPHND();
+    int getSingleBulletId();
 
     /**
      * <code>uint32 entity_id = 4;</code>
@@ -48,10 +48,10 @@ public final class EvtBulletHitNotifyOuterClass {
     emu.grasscutter.net.proto.HitColliderTypeOuterClass.HitColliderType getHitColliderType();
 
     /**
-     * <code>uint32 HHJIDBIPLMB = 10;</code>
-     * @return The hHJIDBIPLMB.
+     * <code>uint32 hit_entity_id = 10;</code>
+     * @return The hitEntityId.
      */
-    int getHHJIDBIPLMB();
+    int getHitEntityId();
 
     /**
      * <code>uint32 forward_peer = 12;</code>
@@ -101,10 +101,6 @@ public final class EvtBulletHitNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getHitNormalOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 22397
-   * </pre>
-   *
    * Protobuf type {@code EvtBulletHitNotify}
    */
   public static final class EvtBulletHitNotify extends
@@ -153,7 +149,7 @@ public final class EvtBulletHitNotifyOuterClass {
               break;
             case 8: {
 
-              nDDLOLCPHND_ = input.readUInt32();
+              singleBulletId_ = input.readUInt32();
               break;
             }
             case 32: {
@@ -174,7 +170,7 @@ public final class EvtBulletHitNotifyOuterClass {
             }
             case 80: {
 
-              hHJIDBIPLMB_ = input.readUInt32();
+              hitEntityId_ = input.readUInt32();
               break;
             }
             case 96: {
@@ -246,15 +242,15 @@ public final class EvtBulletHitNotifyOuterClass {
               emu.grasscutter.net.proto.EvtBulletHitNotifyOuterClass.EvtBulletHitNotify.class, emu.grasscutter.net.proto.EvtBulletHitNotifyOuterClass.EvtBulletHitNotify.Builder.class);
     }
 
-    public static final int NDDLOLCPHND_FIELD_NUMBER = 1;
-    private int nDDLOLCPHND_;
+    public static final int SINGLE_BULLET_ID_FIELD_NUMBER = 1;
+    private int singleBulletId_;
     /**
-     * <code>uint32 NDDLOLCPHND = 1;</code>
-     * @return The nDDLOLCPHND.
+     * <code>uint32 single_bullet_id = 1;</code>
+     * @return The singleBulletId.
      */
     @java.lang.Override
-    public int getNDDLOLCPHND() {
-      return nDDLOLCPHND_;
+    public int getSingleBulletId() {
+      return singleBulletId_;
     }
 
     public static final int ENTITY_ID_FIELD_NUMBER = 4;
@@ -298,15 +294,15 @@ public final class EvtBulletHitNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.HitColliderTypeOuterClass.HitColliderType.UNRECOGNIZED : result;
     }
 
-    public static final int HHJIDBIPLMB_FIELD_NUMBER = 10;
-    private int hHJIDBIPLMB_;
+    public static final int HIT_ENTITY_ID_FIELD_NUMBER = 10;
+    private int hitEntityId_;
     /**
-     * <code>uint32 HHJIDBIPLMB = 10;</code>
-     * @return The hHJIDBIPLMB.
+     * <code>uint32 hit_entity_id = 10;</code>
+     * @return The hitEntityId.
      */
     @java.lang.Override
-    public int getHHJIDBIPLMB() {
-      return hHJIDBIPLMB_;
+    public int getHitEntityId() {
+      return hitEntityId_;
     }
 
     public static final int FORWARD_PEER_FIELD_NUMBER = 12;
@@ -405,8 +401,8 @@ public final class EvtBulletHitNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (nDDLOLCPHND_ != 0) {
-        output.writeUInt32(1, nDDLOLCPHND_);
+      if (singleBulletId_ != 0) {
+        output.writeUInt32(1, singleBulletId_);
       }
       if (entityId_ != 0) {
         output.writeUInt32(4, entityId_);
@@ -417,8 +413,8 @@ public final class EvtBulletHitNotifyOuterClass {
       if (hitColliderType_ != emu.grasscutter.net.proto.HitColliderTypeOuterClass.HitColliderType.HitColliderType_HIT_COLLIDER_INVALID.getNumber()) {
         output.writeEnum(9, hitColliderType_);
       }
-      if (hHJIDBIPLMB_ != 0) {
-        output.writeUInt32(10, hHJIDBIPLMB_);
+      if (hitEntityId_ != 0) {
+        output.writeUInt32(10, hitEntityId_);
       }
       if (forwardPeer_ != 0) {
         output.writeUInt32(12, forwardPeer_);
@@ -441,9 +437,9 @@ public final class EvtBulletHitNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (nDDLOLCPHND_ != 0) {
+      if (singleBulletId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, nDDLOLCPHND_);
+          .computeUInt32Size(1, singleBulletId_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -457,9 +453,9 @@ public final class EvtBulletHitNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, hitColliderType_);
       }
-      if (hHJIDBIPLMB_ != 0) {
+      if (hitEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, hHJIDBIPLMB_);
+          .computeUInt32Size(10, hitEntityId_);
       }
       if (forwardPeer_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -492,15 +488,15 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       emu.grasscutter.net.proto.EvtBulletHitNotifyOuterClass.EvtBulletHitNotify other = (emu.grasscutter.net.proto.EvtBulletHitNotifyOuterClass.EvtBulletHitNotify) obj;
 
-      if (getNDDLOLCPHND()
-          != other.getNDDLOLCPHND()) return false;
+      if (getSingleBulletId()
+          != other.getSingleBulletId()) return false;
       if (getEntityId()
           != other.getEntityId()) return false;
       if (getHitBoxIndex()
           != other.getHitBoxIndex()) return false;
       if (hitColliderType_ != other.hitColliderType_) return false;
-      if (getHHJIDBIPLMB()
-          != other.getHHJIDBIPLMB()) return false;
+      if (getHitEntityId()
+          != other.getHitEntityId()) return false;
       if (getForwardPeer()
           != other.getForwardPeer()) return false;
       if (hasHitPoint() != other.hasHitPoint()) return false;
@@ -525,16 +521,16 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + NDDLOLCPHND_FIELD_NUMBER;
-      hash = (53 * hash) + getNDDLOLCPHND();
+      hash = (37 * hash) + SINGLE_BULLET_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getSingleBulletId();
       hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getEntityId();
       hash = (37 * hash) + HIT_BOX_INDEX_FIELD_NUMBER;
       hash = (53 * hash) + getHitBoxIndex();
       hash = (37 * hash) + HIT_COLLIDER_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + hitColliderType_;
-      hash = (37 * hash) + HHJIDBIPLMB_FIELD_NUMBER;
-      hash = (53 * hash) + getHHJIDBIPLMB();
+      hash = (37 * hash) + HIT_ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getHitEntityId();
       hash = (37 * hash) + FORWARD_PEER_FIELD_NUMBER;
       hash = (53 * hash) + getForwardPeer();
       if (hasHitPoint()) {
@@ -643,10 +639,6 @@ public final class EvtBulletHitNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22397
-     * </pre>
-     *
      * Protobuf type {@code EvtBulletHitNotify}
      */
     public static final class Builder extends
@@ -684,7 +676,7 @@ public final class EvtBulletHitNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        nDDLOLCPHND_ = 0;
+        singleBulletId_ = 0;
 
         entityId_ = 0;
 
@@ -692,7 +684,7 @@ public final class EvtBulletHitNotifyOuterClass {
 
         hitColliderType_ = 0;
 
-        hHJIDBIPLMB_ = 0;
+        hitEntityId_ = 0;
 
         forwardPeer_ = 0;
 
@@ -736,11 +728,11 @@ public final class EvtBulletHitNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.EvtBulletHitNotifyOuterClass.EvtBulletHitNotify buildPartial() {
         emu.grasscutter.net.proto.EvtBulletHitNotifyOuterClass.EvtBulletHitNotify result = new emu.grasscutter.net.proto.EvtBulletHitNotifyOuterClass.EvtBulletHitNotify(this);
-        result.nDDLOLCPHND_ = nDDLOLCPHND_;
+        result.singleBulletId_ = singleBulletId_;
         result.entityId_ = entityId_;
         result.hitBoxIndex_ = hitBoxIndex_;
         result.hitColliderType_ = hitColliderType_;
-        result.hHJIDBIPLMB_ = hHJIDBIPLMB_;
+        result.hitEntityId_ = hitEntityId_;
         result.forwardPeer_ = forwardPeer_;
         if (hitPointBuilder_ == null) {
           result.hitPoint_ = hitPoint_;
@@ -801,8 +793,8 @@ public final class EvtBulletHitNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EvtBulletHitNotifyOuterClass.EvtBulletHitNotify other) {
         if (other == emu.grasscutter.net.proto.EvtBulletHitNotifyOuterClass.EvtBulletHitNotify.getDefaultInstance()) return this;
-        if (other.getNDDLOLCPHND() != 0) {
-          setNDDLOLCPHND(other.getNDDLOLCPHND());
+        if (other.getSingleBulletId() != 0) {
+          setSingleBulletId(other.getSingleBulletId());
         }
         if (other.getEntityId() != 0) {
           setEntityId(other.getEntityId());
@@ -813,8 +805,8 @@ public final class EvtBulletHitNotifyOuterClass {
         if (other.hitColliderType_ != 0) {
           setHitColliderTypeValue(other.getHitColliderTypeValue());
         }
-        if (other.getHHJIDBIPLMB() != 0) {
-          setHHJIDBIPLMB(other.getHHJIDBIPLMB());
+        if (other.getHitEntityId() != 0) {
+          setHitEntityId(other.getHitEntityId());
         }
         if (other.getForwardPeer() != 0) {
           setForwardPeer(other.getForwardPeer());
@@ -857,33 +849,33 @@ public final class EvtBulletHitNotifyOuterClass {
         return this;
       }
 
-      private int nDDLOLCPHND_ ;
+      private int singleBulletId_ ;
       /**
-       * <code>uint32 NDDLOLCPHND = 1;</code>
-       * @return The nDDLOLCPHND.
+       * <code>uint32 single_bullet_id = 1;</code>
+       * @return The singleBulletId.
        */
       @java.lang.Override
-      public int getNDDLOLCPHND() {
-        return nDDLOLCPHND_;
+      public int getSingleBulletId() {
+        return singleBulletId_;
       }
       /**
-       * <code>uint32 NDDLOLCPHND = 1;</code>
-       * @param value The nDDLOLCPHND to set.
+       * <code>uint32 single_bullet_id = 1;</code>
+       * @param value The singleBulletId to set.
        * @return This builder for chaining.
        */
-      public Builder setNDDLOLCPHND(int value) {
+      public Builder setSingleBulletId(int value) {
         
-        nDDLOLCPHND_ = value;
+        singleBulletId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 NDDLOLCPHND = 1;</code>
+       * <code>uint32 single_bullet_id = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNDDLOLCPHND() {
+      public Builder clearSingleBulletId() {
         
-        nDDLOLCPHND_ = 0;
+        singleBulletId_ = 0;
         onChanged();
         return this;
       }
@@ -1004,33 +996,33 @@ public final class EvtBulletHitNotifyOuterClass {
         return this;
       }
 
-      private int hHJIDBIPLMB_ ;
+      private int hitEntityId_ ;
       /**
-       * <code>uint32 HHJIDBIPLMB = 10;</code>
-       * @return The hHJIDBIPLMB.
+       * <code>uint32 hit_entity_id = 10;</code>
+       * @return The hitEntityId.
        */
       @java.lang.Override
-      public int getHHJIDBIPLMB() {
-        return hHJIDBIPLMB_;
+      public int getHitEntityId() {
+        return hitEntityId_;
       }
       /**
-       * <code>uint32 HHJIDBIPLMB = 10;</code>
-       * @param value The hHJIDBIPLMB to set.
+       * <code>uint32 hit_entity_id = 10;</code>
+       * @param value The hitEntityId to set.
        * @return This builder for chaining.
        */
-      public Builder setHHJIDBIPLMB(int value) {
+      public Builder setHitEntityId(int value) {
         
-        hHJIDBIPLMB_ = value;
+        hitEntityId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 HHJIDBIPLMB = 10;</code>
+       * <code>uint32 hit_entity_id = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearHHJIDBIPLMB() {
+      public Builder clearHitEntityId() {
         
-        hHJIDBIPLMB_ = 0;
+        hitEntityId_ = 0;
         onChanged();
         return this;
       }
@@ -1426,15 +1418,15 @@ public final class EvtBulletHitNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030EvtBulletHitNotify.proto\032\021ForwardType." +
       "proto\032\025HitColliderType.proto\032\014Vector.pro" +
-      "to\"\210\002\n\022EvtBulletHitNotify\022\023\n\013NDDLOLCPHND" +
-      "\030\001 \001(\r\022\021\n\tentity_id\030\004 \001(\r\022\025\n\rhit_box_ind" +
-      "ex\030\006 \001(\005\022+\n\021hit_collider_type\030\t \001(\0162\020.Hi" +
-      "tColliderType\022\023\n\013HHJIDBIPLMB\030\n \001(\r\022\024\n\014fo" +
-      "rward_peer\030\014 \001(\r\022\032\n\thit_point\030\r \001(\0132\007.Ve" +
-      "ctor\022\"\n\014forward_type\030\016 \001(\0162\014.ForwardType" +
-      "\022\033\n\nhit_normal\030\017 \001(\0132\007.VectorB9\n\031emu.gra" +
-      "sscutter.net.protoB\034EvtBulletHitNotifyOu" +
-      "terClassb\006proto3"
+      "to\"\217\002\n\022EvtBulletHitNotify\022\030\n\020single_bull" +
+      "et_id\030\001 \001(\r\022\021\n\tentity_id\030\004 \001(\r\022\025\n\rhit_bo" +
+      "x_index\030\006 \001(\005\022+\n\021hit_collider_type\030\t \001(\016" +
+      "2\020.HitColliderType\022\025\n\rhit_entity_id\030\n \001(" +
+      "\r\022\024\n\014forward_peer\030\014 \001(\r\022\032\n\thit_point\030\r \001" +
+      "(\0132\007.Vector\022\"\n\014forward_type\030\016 \001(\0162\014.Forw" +
+      "ardType\022\033\n\nhit_normal\030\017 \001(\0132\007.VectorB9\n\031" +
+      "emu.grasscutter.net.protoB\034EvtBulletHitN" +
+      "otifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1448,7 +1440,7 @@ public final class EvtBulletHitNotifyOuterClass {
     internal_static_EvtBulletHitNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EvtBulletHitNotify_descriptor,
-        new java.lang.String[] { "NDDLOLCPHND", "EntityId", "HitBoxIndex", "HitColliderType", "HHJIDBIPLMB", "ForwardPeer", "HitPoint", "ForwardType", "HitNormal", });
+        new java.lang.String[] { "SingleBulletId", "EntityId", "HitBoxIndex", "HitColliderType", "HitEntityId", "ForwardPeer", "HitPoint", "ForwardType", "HitNormal", });
     emu.grasscutter.net.proto.ForwardTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.HitColliderTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();

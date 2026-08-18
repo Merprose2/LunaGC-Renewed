@@ -36,10 +36,6 @@ public final class DungeonPlayerDieReqOuterClass {
     emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType getDieType();
   }
   /**
-   * <pre>
-   * CmdID: 29627
-   * </pre>
-   *
    * Protobuf type {@code DungeonPlayerDieReq}
    */
   public static final class DungeonPlayerDieReq extends
@@ -324,10 +320,6 @@ public final class DungeonPlayerDieReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29627
-     * </pre>
-     *
      * Protobuf type {@code DungeonPlayerDieReq}
      */
     public static final class Builder extends

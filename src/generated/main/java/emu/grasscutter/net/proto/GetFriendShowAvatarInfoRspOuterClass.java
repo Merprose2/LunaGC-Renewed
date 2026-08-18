@@ -55,10 +55,6 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 5970
-   * </pre>
-   *
    * Protobuf type {@code GetFriendShowAvatarInfoRsp}
    */
   public static final class GetFriendShowAvatarInfoRsp extends
@@ -401,10 +397,6 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5970
-     * </pre>
-     *
      * Protobuf type {@code GetFriendShowAvatarInfoRsp}
      */
     public static final class Builder extends

@@ -52,10 +52,6 @@ public final class LevelupCityRspOuterClass {
     emu.grasscutter.net.proto.CityInfoOuterClass.CityInfoOrBuilder getCityInfoOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 23887
-   * </pre>
-   *
    * Protobuf type {@code LevelupCityRsp}
    */
   public static final class LevelupCityRsp extends
@@ -413,10 +409,6 @@ public final class LevelupCityRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 23887
-     * </pre>
-     *
      * Protobuf type {@code LevelupCityRsp}
      */
     public static final class Builder extends

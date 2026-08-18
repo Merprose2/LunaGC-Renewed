@@ -76,21 +76,21 @@ public final class PropChangeReasonOuterClass {
      */
     PropChangeReason_PROP_CHANGE_MANUAL_ADJUST_WORLD_LEVEL(13),
     /**
-     * <code>PropChangeReason_PROP_CHANGE_BEYOND_DUTY = 14;</code>
+     * <code>PROP_CHANGE_BEYOND_DUTY = 14;</code>
      */
-    PropChangeReason_PROP_CHANGE_BEYOND_DUTY(14),
+    PROP_CHANGE_BEYOND_DUTY(14),
     /**
-     * <code>PropChangeReason_PROP_CHANGE_BEYOND_BLUEPRINT = 15;</code>
+     * <code>PROP_CHANGE_BEYOND_BLUEPRINT = 15;</code>
      */
-    PropChangeReason_PROP_CHANGE_BEYOND_BLUEPRINT(15),
+    PROP_CHANGE_BEYOND_BLUEPRINT(15),
     /**
-     * <code>PropChangeReason_PROP_CHANGE_BEYOND_EXP = 16;</code>
+     * <code>PROP_CHANGE_BEYOND_EXP = 16;</code>
      */
-    PropChangeReason_PROP_CHANGE_BEYOND_EXP(16),
+    PROP_CHANGE_BEYOND_EXP(16),
     /**
-     * <code>PropChangeReason_PROP_CHANGE_OFFERING_LEVEL_UP = 17;</code>
+     * <code>PROP_CHANGE_OFFERING_LEVEL_UP = 17;</code>
      */
-    PropChangeReason_PROP_CHANGE_OFFERING_LEVEL_UP(17),
+    PROP_CHANGE_OFFERING_LEVEL_UP(17),
     UNRECOGNIZED(-1),
     ;
 
@@ -151,21 +151,21 @@ public final class PropChangeReasonOuterClass {
      */
     public static final int PropChangeReason_PROP_CHANGE_MANUAL_ADJUST_WORLD_LEVEL_VALUE = 13;
     /**
-     * <code>PropChangeReason_PROP_CHANGE_BEYOND_DUTY = 14;</code>
+     * <code>PROP_CHANGE_BEYOND_DUTY = 14;</code>
      */
-    public static final int PropChangeReason_PROP_CHANGE_BEYOND_DUTY_VALUE = 14;
+    public static final int PROP_CHANGE_BEYOND_DUTY_VALUE = 14;
     /**
-     * <code>PropChangeReason_PROP_CHANGE_BEYOND_BLUEPRINT = 15;</code>
+     * <code>PROP_CHANGE_BEYOND_BLUEPRINT = 15;</code>
      */
-    public static final int PropChangeReason_PROP_CHANGE_BEYOND_BLUEPRINT_VALUE = 15;
+    public static final int PROP_CHANGE_BEYOND_BLUEPRINT_VALUE = 15;
     /**
-     * <code>PropChangeReason_PROP_CHANGE_BEYOND_EXP = 16;</code>
+     * <code>PROP_CHANGE_BEYOND_EXP = 16;</code>
      */
-    public static final int PropChangeReason_PROP_CHANGE_BEYOND_EXP_VALUE = 16;
+    public static final int PROP_CHANGE_BEYOND_EXP_VALUE = 16;
     /**
-     * <code>PropChangeReason_PROP_CHANGE_OFFERING_LEVEL_UP = 17;</code>
+     * <code>PROP_CHANGE_OFFERING_LEVEL_UP = 17;</code>
      */
-    public static final int PropChangeReason_PROP_CHANGE_OFFERING_LEVEL_UP_VALUE = 17;
+    public static final int PROP_CHANGE_OFFERING_LEVEL_UP_VALUE = 17;
 
 
     public final int getNumber() {
@@ -206,10 +206,10 @@ public final class PropChangeReasonOuterClass {
         case 11: return PropChangeReason_PROP_CHANGE_FINISH_QUEST;
         case 12: return PropChangeReason_PROP_CHANGE_GM;
         case 13: return PropChangeReason_PROP_CHANGE_MANUAL_ADJUST_WORLD_LEVEL;
-        case 14: return PropChangeReason_PROP_CHANGE_BEYOND_DUTY;
-        case 15: return PropChangeReason_PROP_CHANGE_BEYOND_BLUEPRINT;
-        case 16: return PropChangeReason_PROP_CHANGE_BEYOND_EXP;
-        case 17: return PropChangeReason_PROP_CHANGE_OFFERING_LEVEL_UP;
+        case 14: return PROP_CHANGE_BEYOND_DUTY;
+        case 15: return PROP_CHANGE_BEYOND_BLUEPRINT;
+        case 16: return PROP_CHANGE_BEYOND_EXP;
+        case 17: return PROP_CHANGE_OFFERING_LEVEL_UP;
         default: return null;
       }
     }
@@ -275,7 +275,7 @@ public final class PropChangeReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026PropChangeReason.proto*\325\006\n\020PropChangeR" +
+      "\n\026PropChangeReason.proto*\221\006\n\020PropChangeR" +
       "eason\022%\n!PropChangeReason_PROP_CHANGE_NO" +
       "NE\020\000\022/\n+PropChangeReason_PROP_CHANGE_STA" +
       "TUE_RECOVER\020\001\022,\n(PropChangeReason_PROP_C" +
@@ -292,13 +292,11 @@ public final class PropChangeReasonOuterClass {
       "on_PROP_CHANGE_FINISH_QUEST\020\013\022#\n\037PropCha" +
       "ngeReason_PROP_CHANGE_GM\020\014\022:\n6PropChange" +
       "Reason_PROP_CHANGE_MANUAL_ADJUST_WORLD_L" +
-      "EVEL\020\r\022,\n(PropChangeReason_PROP_CHANGE_B" +
-      "EYOND_DUTY\020\016\0221\n-PropChangeReason_PROP_CH" +
-      "ANGE_BEYOND_BLUEPRINT\020\017\022+\n\'PropChangeRea" +
-      "son_PROP_CHANGE_BEYOND_EXP\020\020\0222\n.PropChan" +
-      "geReason_PROP_CHANGE_OFFERING_LEVEL_UP\020\021" +
-      "B7\n\031emu.grasscutter.net.protoB\032PropChang" +
-      "eReasonOuterClassb\006proto3"
+      "EVEL\020\r\022\033\n\027PROP_CHANGE_BEYOND_DUTY\020\016\022 \n\034P" +
+      "ROP_CHANGE_BEYOND_BLUEPRINT\020\017\022\032\n\026PROP_CH" +
+      "ANGE_BEYOND_EXP\020\020\022!\n\035PROP_CHANGE_OFFERIN" +
+      "G_LEVEL_UP\020\021B7\n\031emu.grasscutter.net.prot" +
+      "oB\032PropChangeReasonOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

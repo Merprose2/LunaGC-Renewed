@@ -19,10 +19,10 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool CGCGPFKDHAE = 4;</code>
-     * @return The cGCGPFKDHAE.
+     * <code>bool is_show_constellation_num = 4;</code>
+     * @return The isShowConstellationNum.
      */
-    boolean getCGCGPFKDHAE();
+    boolean getIsShowConstellationNum();
 
     /**
      * <code>bool is_show_avatar = 5;</code>
@@ -54,10 +54,6 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 20704
-   * </pre>
-   *
    * Protobuf type {@code UpdatePlayerShowAvatarListRsp}
    */
   public static final class UpdatePlayerShowAvatarListRsp extends
@@ -106,7 +102,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
               break;
             case 32: {
 
-              cGCGPFKDHAE_ = input.readBool();
+              isShowConstellationNum_ = input.readBool();
               break;
             }
             case 40: {
@@ -175,15 +171,15 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
               emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp.class, emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp.Builder.class);
     }
 
-    public static final int CGCGPFKDHAE_FIELD_NUMBER = 4;
-    private boolean cGCGPFKDHAE_;
+    public static final int IS_SHOW_CONSTELLATION_NUM_FIELD_NUMBER = 4;
+    private boolean isShowConstellationNum_;
     /**
-     * <code>bool CGCGPFKDHAE = 4;</code>
-     * @return The cGCGPFKDHAE.
+     * <code>bool is_show_constellation_num = 4;</code>
+     * @return The isShowConstellationNum.
      */
     @java.lang.Override
-    public boolean getCGCGPFKDHAE() {
-      return cGCGPFKDHAE_;
+    public boolean getIsShowConstellationNum() {
+      return isShowConstellationNum_;
     }
 
     public static final int IS_SHOW_AVATAR_FIELD_NUMBER = 5;
@@ -251,8 +247,8 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (cGCGPFKDHAE_ != false) {
-        output.writeBool(4, cGCGPFKDHAE_);
+      if (isShowConstellationNum_ != false) {
+        output.writeBool(4, isShowConstellationNum_);
       }
       if (isShowAvatar_ != false) {
         output.writeBool(5, isShowAvatar_);
@@ -276,9 +272,9 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (cGCGPFKDHAE_ != false) {
+      if (isShowConstellationNum_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, cGCGPFKDHAE_);
+          .computeBoolSize(4, isShowConstellationNum_);
       }
       if (isShowAvatar_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -317,8 +313,8 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp other = (emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp) obj;
 
-      if (getCGCGPFKDHAE()
-          != other.getCGCGPFKDHAE()) return false;
+      if (getIsShowConstellationNum()
+          != other.getIsShowConstellationNum()) return false;
       if (getIsShowAvatar()
           != other.getIsShowAvatar()) return false;
       if (!getShowAvatarIdListList()
@@ -336,9 +332,9 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + CGCGPFKDHAE_FIELD_NUMBER;
+      hash = (37 * hash) + IS_SHOW_CONSTELLATION_NUM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getCGCGPFKDHAE());
+          getIsShowConstellationNum());
       hash = (37 * hash) + IS_SHOW_AVATAR_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsShowAvatar());
@@ -444,10 +440,6 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20704
-     * </pre>
-     *
      * Protobuf type {@code UpdatePlayerShowAvatarListRsp}
      */
     public static final class Builder extends
@@ -485,7 +477,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        cGCGPFKDHAE_ = false;
+        isShowConstellationNum_ = false;
 
         isShowAvatar_ = false;
 
@@ -520,7 +512,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       public emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp buildPartial() {
         emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp result = new emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp(this);
         int from_bitField0_ = bitField0_;
-        result.cGCGPFKDHAE_ = cGCGPFKDHAE_;
+        result.isShowConstellationNum_ = isShowConstellationNum_;
         result.isShowAvatar_ = isShowAvatar_;
         if (((bitField0_ & 0x00000001) != 0)) {
           showAvatarIdList_.makeImmutable();
@@ -576,8 +568,8 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp other) {
         if (other == emu.grasscutter.net.proto.UpdatePlayerShowAvatarListRspOuterClass.UpdatePlayerShowAvatarListRsp.getDefaultInstance()) return this;
-        if (other.getCGCGPFKDHAE() != false) {
-          setCGCGPFKDHAE(other.getCGCGPFKDHAE());
+        if (other.getIsShowConstellationNum() != false) {
+          setIsShowConstellationNum(other.getIsShowConstellationNum());
         }
         if (other.getIsShowAvatar() != false) {
           setIsShowAvatar(other.getIsShowAvatar());
@@ -625,33 +617,33 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       private int bitField0_;
 
-      private boolean cGCGPFKDHAE_ ;
+      private boolean isShowConstellationNum_ ;
       /**
-       * <code>bool CGCGPFKDHAE = 4;</code>
-       * @return The cGCGPFKDHAE.
+       * <code>bool is_show_constellation_num = 4;</code>
+       * @return The isShowConstellationNum.
        */
       @java.lang.Override
-      public boolean getCGCGPFKDHAE() {
-        return cGCGPFKDHAE_;
+      public boolean getIsShowConstellationNum() {
+        return isShowConstellationNum_;
       }
       /**
-       * <code>bool CGCGPFKDHAE = 4;</code>
-       * @param value The cGCGPFKDHAE to set.
+       * <code>bool is_show_constellation_num = 4;</code>
+       * @param value The isShowConstellationNum to set.
        * @return This builder for chaining.
        */
-      public Builder setCGCGPFKDHAE(boolean value) {
+      public Builder setIsShowConstellationNum(boolean value) {
         
-        cGCGPFKDHAE_ = value;
+        isShowConstellationNum_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool CGCGPFKDHAE = 4;</code>
+       * <code>bool is_show_constellation_num = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCGCGPFKDHAE() {
+      public Builder clearIsShowConstellationNum() {
         
-        cGCGPFKDHAE_ = false;
+        isShowConstellationNum_ = false;
         onChanged();
         return this;
       }
@@ -863,12 +855,13 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n#UpdatePlayerShowAvatarListRsp.proto\"z\n" +
-      "\035UpdatePlayerShowAvatarListRsp\022\023\n\013CGCGPF" +
-      "KDHAE\030\004 \001(\010\022\026\n\016is_show_avatar\030\005 \001(\010\022\033\n\023s" +
-      "how_avatar_id_list\030\010 \003(\r\022\017\n\007retcode\030\013 \001(" +
-      "\005BD\n\031emu.grasscutter.net.protoB\'UpdatePl" +
-      "ayerShowAvatarListRspOuterClassb\006proto3"
+      "\n#UpdatePlayerShowAvatarListRsp.proto\"\210\001" +
+      "\n\035UpdatePlayerShowAvatarListRsp\022!\n\031is_sh" +
+      "ow_constellation_num\030\004 \001(\010\022\026\n\016is_show_av" +
+      "atar\030\005 \001(\010\022\033\n\023show_avatar_id_list\030\010 \003(\r\022" +
+      "\017\n\007retcode\030\013 \001(\005BD\n\031emu.grasscutter.net." +
+      "protoB\'UpdatePlayerShowAvatarListRspOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -879,7 +872,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     internal_static_UpdatePlayerShowAvatarListRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UpdatePlayerShowAvatarListRsp_descriptor,
-        new java.lang.String[] { "CGCGPFKDHAE", "IsShowAvatar", "ShowAvatarIdList", "Retcode", });
+        new java.lang.String[] { "IsShowConstellationNum", "IsShowAvatar", "ShowAvatarIdList", "Retcode", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

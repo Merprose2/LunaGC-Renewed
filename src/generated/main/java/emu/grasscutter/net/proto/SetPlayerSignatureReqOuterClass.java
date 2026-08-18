@@ -31,10 +31,6 @@ public final class SetPlayerSignatureReqOuterClass {
         getSignatureBytes();
   }
   /**
-   * <pre>
-   * CmdID: 27624
-   * </pre>
-   *
    * Protobuf type {@code SetPlayerSignatureReq}
    */
   public static final class SetPlayerSignatureReq extends
@@ -311,10 +307,6 @@ public final class SetPlayerSignatureReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27624
-     * </pre>
-     *
      * Protobuf type {@code SetPlayerSignatureReq}
      */
     public static final class Builder extends

@@ -49,10 +49,6 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 6544
-   * </pre>
-   *
    * Protobuf type {@code SyncScenePlayTeamEntityNotify}
    */
   public static final class SyncScenePlayTeamEntityNotify extends
@@ -368,10 +364,6 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6544
-     * </pre>
-     *
      * Protobuf type {@code SyncScenePlayTeamEntityNotify}
      */
     public static final class Builder extends

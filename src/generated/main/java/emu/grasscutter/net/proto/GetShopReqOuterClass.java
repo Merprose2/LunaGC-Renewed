@@ -25,10 +25,6 @@ public final class GetShopReqOuterClass {
     int getShopType();
   }
   /**
-   * <pre>
-   * CmdID: 9719
-   * </pre>
-   *
    * Protobuf type {@code GetShopReq}
    */
   public static final class GetShopReq extends
@@ -277,10 +273,6 @@ public final class GetShopReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9719
-     * </pre>
-     *
      * Protobuf type {@code GetShopReq}
      */
     public static final class Builder extends

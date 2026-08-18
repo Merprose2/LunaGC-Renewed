@@ -67,10 +67,6 @@ public final class WeaponUpgradeRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 24899
-   * </pre>
-   *
    * Protobuf type {@code WeaponUpgradeRsp}
    */
   public static final class WeaponUpgradeRsp extends
@@ -468,10 +464,6 @@ public final class WeaponUpgradeRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24899
-     * </pre>
-     *
      * Protobuf type {@code WeaponUpgradeRsp}
      */
     public static final class Builder extends

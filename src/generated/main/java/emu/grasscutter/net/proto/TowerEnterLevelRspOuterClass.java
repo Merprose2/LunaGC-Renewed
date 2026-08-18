@@ -54,10 +54,6 @@ public final class TowerEnterLevelRspOuterClass {
     int getLevelIndex();
   }
   /**
-   * <pre>
-   * CmdID: 20158
-   * </pre>
-   *
    * Protobuf type {@code TowerEnterLevelRsp}
    */
   public static final class TowerEnterLevelRsp extends
@@ -442,10 +438,6 @@ public final class TowerEnterLevelRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20158
-     * </pre>
-     *
      * Protobuf type {@code TowerEnterLevelRsp}
      */
     public static final class Builder extends

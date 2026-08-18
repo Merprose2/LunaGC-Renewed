@@ -19,10 +19,10 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 CBENILCDDCB = 2;</code>
-     * @return The cBENILCDDCB.
+     * <code>uint32 map_layer_id = 2;</code>
+     * @return The mapLayerId.
      */
-    int getCBENILCDDCB();
+    int getMapLayerId();
 
     /**
      * <code>uint32 scene_id = 4;</code>
@@ -82,10 +82,10 @@ public final class OneoffGatherPointDetectorDataOuterClass {
     int getMaterialId();
 
     /**
-     * <code>uint32 _map_layer_id = 14;</code>
-     * @return The mapLayerId.
+     * <code>uint32 _map_layer_id_x = 14;</code>
+     * @return The mapLayerIdX.
      */
-    int getMapLayerId();
+    int getMapLayerIdX();
   }
   /**
    * Protobuf type {@code OneoffGatherPointDetectorData}
@@ -134,7 +134,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
               break;
             case 16: {
 
-              cBENILCDDCB_ = input.readUInt32();
+              mapLayerId_ = input.readUInt32();
               break;
             }
             case 32: {
@@ -187,7 +187,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
             }
             case 112: {
 
-              MapLayerId_ = input.readUInt32();
+              MapLayerIdX_ = input.readUInt32();
               break;
             }
             default: {
@@ -222,15 +222,15 @@ public final class OneoffGatherPointDetectorDataOuterClass {
               emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData.class, emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData.Builder.class);
     }
 
-    public static final int CBENILCDDCB_FIELD_NUMBER = 2;
-    private int cBENILCDDCB_;
+    public static final int MAP_LAYER_ID_FIELD_NUMBER = 2;
+    private int mapLayerId_;
     /**
-     * <code>uint32 CBENILCDDCB = 2;</code>
-     * @return The cBENILCDDCB.
+     * <code>uint32 map_layer_id = 2;</code>
+     * @return The mapLayerId.
      */
     @java.lang.Override
-    public int getCBENILCDDCB() {
-      return cBENILCDDCB_;
+    public int getMapLayerId() {
+      return mapLayerId_;
     }
 
     public static final int SCENE_ID_FIELD_NUMBER = 4;
@@ -336,15 +336,15 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       return materialId_;
     }
 
-    public static final int _MAP_LAYER_ID_FIELD_NUMBER = 14;
-    private int MapLayerId_;
+    public static final int _MAP_LAYER_ID_X_FIELD_NUMBER = 14;
+    private int MapLayerIdX_;
     /**
-     * <code>uint32 _map_layer_id = 14;</code>
-     * @return The mapLayerId.
+     * <code>uint32 _map_layer_id_x = 14;</code>
+     * @return The mapLayerIdX.
      */
     @java.lang.Override
-    public int getMapLayerId() {
-      return MapLayerId_;
+    public int getMapLayerIdX() {
+      return MapLayerIdX_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -361,8 +361,8 @@ public final class OneoffGatherPointDetectorDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (cBENILCDDCB_ != 0) {
-        output.writeUInt32(2, cBENILCDDCB_);
+      if (mapLayerId_ != 0) {
+        output.writeUInt32(2, mapLayerId_);
       }
       if (sceneId_ != 0) {
         output.writeUInt32(4, sceneId_);
@@ -388,8 +388,8 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       if (materialId_ != 0) {
         output.writeUInt32(13, materialId_);
       }
-      if (MapLayerId_ != 0) {
-        output.writeUInt32(14, MapLayerId_);
+      if (MapLayerIdX_ != 0) {
+        output.writeUInt32(14, MapLayerIdX_);
       }
       unknownFields.writeTo(output);
     }
@@ -400,9 +400,9 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (cBENILCDDCB_ != 0) {
+      if (mapLayerId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, cBENILCDDCB_);
+          .computeUInt32Size(2, mapLayerId_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -436,9 +436,9 @@ public final class OneoffGatherPointDetectorDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, materialId_);
       }
-      if (MapLayerId_ != 0) {
+      if (MapLayerIdX_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, MapLayerId_);
+          .computeUInt32Size(14, MapLayerIdX_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -455,8 +455,8 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       }
       emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData other = (emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData) obj;
 
-      if (getCBENILCDDCB()
-          != other.getCBENILCDDCB()) return false;
+      if (getMapLayerId()
+          != other.getMapLayerId()) return false;
       if (getSceneId()
           != other.getSceneId()) return false;
       if (getConfigId()
@@ -476,8 +476,8 @@ public final class OneoffGatherPointDetectorDataOuterClass {
           != other.getIsHintValid()) return false;
       if (getMaterialId()
           != other.getMaterialId()) return false;
-      if (getMapLayerId()
-          != other.getMapLayerId()) return false;
+      if (getMapLayerIdX()
+          != other.getMapLayerIdX()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -489,8 +489,8 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + CBENILCDDCB_FIELD_NUMBER;
-      hash = (53 * hash) + getCBENILCDDCB();
+      hash = (37 * hash) + MAP_LAYER_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getMapLayerId();
       hash = (37 * hash) + SCENE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getSceneId();
       hash = (37 * hash) + CONFIG_ID_FIELD_NUMBER;
@@ -511,8 +511,8 @@ public final class OneoffGatherPointDetectorDataOuterClass {
           getIsHintValid());
       hash = (37 * hash) + MATERIAL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getMaterialId();
-      hash = (37 * hash) + _MAP_LAYER_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getMapLayerId();
+      hash = (37 * hash) + _MAP_LAYER_ID_X_FIELD_NUMBER;
+      hash = (53 * hash) + getMapLayerIdX();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -646,7 +646,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        cBENILCDDCB_ = 0;
+        mapLayerId_ = 0;
 
         sceneId_ = 0;
 
@@ -668,7 +668,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
 
         materialId_ = 0;
 
-        MapLayerId_ = 0;
+        MapLayerIdX_ = 0;
 
         return this;
       }
@@ -696,7 +696,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData buildPartial() {
         emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData result = new emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData(this);
-        result.cBENILCDDCB_ = cBENILCDDCB_;
+        result.mapLayerId_ = mapLayerId_;
         result.sceneId_ = sceneId_;
         result.configId_ = configId_;
         result.groupId_ = groupId_;
@@ -709,7 +709,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
         result.isAllCollected_ = isAllCollected_;
         result.isHintValid_ = isHintValid_;
         result.materialId_ = materialId_;
-        result.MapLayerId_ = MapLayerId_;
+        result.MapLayerIdX_ = MapLayerIdX_;
         onBuilt();
         return result;
       }
@@ -758,8 +758,8 @@ public final class OneoffGatherPointDetectorDataOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData other) {
         if (other == emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData.getDefaultInstance()) return this;
-        if (other.getCBENILCDDCB() != 0) {
-          setCBENILCDDCB(other.getCBENILCDDCB());
+        if (other.getMapLayerId() != 0) {
+          setMapLayerId(other.getMapLayerId());
         }
         if (other.getSceneId() != 0) {
           setSceneId(other.getSceneId());
@@ -785,8 +785,8 @@ public final class OneoffGatherPointDetectorDataOuterClass {
         if (other.getMaterialId() != 0) {
           setMaterialId(other.getMaterialId());
         }
-        if (other.getMapLayerId() != 0) {
-          setMapLayerId(other.getMapLayerId());
+        if (other.getMapLayerIdX() != 0) {
+          setMapLayerIdX(other.getMapLayerIdX());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -817,33 +817,33 @@ public final class OneoffGatherPointDetectorDataOuterClass {
         return this;
       }
 
-      private int cBENILCDDCB_ ;
+      private int mapLayerId_ ;
       /**
-       * <code>uint32 CBENILCDDCB = 2;</code>
-       * @return The cBENILCDDCB.
+       * <code>uint32 map_layer_id = 2;</code>
+       * @return The mapLayerId.
        */
       @java.lang.Override
-      public int getCBENILCDDCB() {
-        return cBENILCDDCB_;
+      public int getMapLayerId() {
+        return mapLayerId_;
       }
       /**
-       * <code>uint32 CBENILCDDCB = 2;</code>
-       * @param value The cBENILCDDCB to set.
+       * <code>uint32 map_layer_id = 2;</code>
+       * @param value The mapLayerId to set.
        * @return This builder for chaining.
        */
-      public Builder setCBENILCDDCB(int value) {
+      public Builder setMapLayerId(int value) {
         
-        cBENILCDDCB_ = value;
+        mapLayerId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 CBENILCDDCB = 2;</code>
+       * <code>uint32 map_layer_id = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCBENILCDDCB() {
+      public Builder clearMapLayerId() {
         
-        cBENILCDDCB_ = 0;
+        mapLayerId_ = 0;
         onChanged();
         return this;
       }
@@ -1184,33 +1184,33 @@ public final class OneoffGatherPointDetectorDataOuterClass {
         return this;
       }
 
-      private int MapLayerId_ ;
+      private int MapLayerIdX_ ;
       /**
-       * <code>uint32 _map_layer_id = 14;</code>
-       * @return The mapLayerId.
+       * <code>uint32 _map_layer_id_x = 14;</code>
+       * @return The mapLayerIdX.
        */
       @java.lang.Override
-      public int getMapLayerId() {
-        return MapLayerId_;
+      public int getMapLayerIdX() {
+        return MapLayerIdX_;
       }
       /**
-       * <code>uint32 _map_layer_id = 14;</code>
-       * @param value The mapLayerId to set.
+       * <code>uint32 _map_layer_id_x = 14;</code>
+       * @param value The mapLayerIdX to set.
        * @return This builder for chaining.
        */
-      public Builder setMapLayerId(int value) {
+      public Builder setMapLayerIdX(int value) {
         
-        MapLayerId_ = value;
+        MapLayerIdX_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 _map_layer_id = 14;</code>
+       * <code>uint32 _map_layer_id_x = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMapLayerId() {
+      public Builder clearMapLayerIdX() {
         
-        MapLayerId_ = 0;
+        MapLayerIdX_ = 0;
         onChanged();
         return this;
       }
@@ -1282,15 +1282,15 @@ public final class OneoffGatherPointDetectorDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n#OneoffGatherPointDetectorData.proto\032\014V" +
-      "ector.proto\"\377\001\n\035OneoffGatherPointDetecto" +
-      "rData\022\023\n\013CBENILCDDCB\030\002 \001(\r\022\020\n\010scene_id\030\004" +
-      " \001(\r\022\021\n\tconfig_id\030\005 \001(\r\022\020\n\010group_id\030\007 \001(" +
-      "\r\022\023\n\013hint_radius\030\010 \001(\r\022 \n\017hint_center_po" +
-      "s\030\n \001(\0132\007.Vector\022\030\n\020is_all_collected\030\013 \001" +
-      "(\010\022\025\n\ris_hint_valid\030\014 \001(\010\022\023\n\013material_id" +
-      "\030\r \001(\r\022\025\n\r_map_layer_id\030\016 \001(\rBD\n\031emu.gra" +
-      "sscutter.net.protoB\'OneoffGatherPointDet" +
-      "ectorDataOuterClassb\006proto3"
+      "ector.proto\"\202\002\n\035OneoffGatherPointDetecto" +
+      "rData\022\024\n\014map_layer_id\030\002 \001(\r\022\020\n\010scene_id\030" +
+      "\004 \001(\r\022\021\n\tconfig_id\030\005 \001(\r\022\020\n\010group_id\030\007 \001" +
+      "(\r\022\023\n\013hint_radius\030\010 \001(\r\022 \n\017hint_center_p" +
+      "os\030\n \001(\0132\007.Vector\022\030\n\020is_all_collected\030\013 " +
+      "\001(\010\022\025\n\ris_hint_valid\030\014 \001(\010\022\023\n\013material_i" +
+      "d\030\r \001(\r\022\027\n\017_map_layer_id_x\030\016 \001(\rBD\n\031emu." +
+      "grasscutter.net.protoB\'OneoffGatherPoint" +
+      "DetectorDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1302,7 +1302,7 @@ public final class OneoffGatherPointDetectorDataOuterClass {
     internal_static_OneoffGatherPointDetectorData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OneoffGatherPointDetectorData_descriptor,
-        new java.lang.String[] { "CBENILCDDCB", "SceneId", "ConfigId", "GroupId", "HintRadius", "HintCenterPos", "IsAllCollected", "IsHintValid", "MaterialId", "MapLayerId", });
+        new java.lang.String[] { "MapLayerId", "SceneId", "ConfigId", "GroupId", "HintRadius", "HintCenterPos", "IsAllCollected", "IsHintValid", "MaterialId", "MapLayerIdX", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

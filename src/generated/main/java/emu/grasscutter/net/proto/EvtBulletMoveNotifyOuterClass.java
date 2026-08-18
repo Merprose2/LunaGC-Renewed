@@ -57,10 +57,6 @@ public final class EvtBulletMoveNotifyOuterClass {
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
   }
   /**
-   * <pre>
-   * CmdID: 7765
-   * </pre>
-   *
    * Protobuf type {@code EvtBulletMoveNotify}
    */
   public static final class EvtBulletMoveNotify extends
@@ -428,10 +424,6 @@ public final class EvtBulletMoveNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7765
-     * </pre>
-     *
      * Protobuf type {@code EvtBulletMoveNotify}
      */
     public static final class Builder extends

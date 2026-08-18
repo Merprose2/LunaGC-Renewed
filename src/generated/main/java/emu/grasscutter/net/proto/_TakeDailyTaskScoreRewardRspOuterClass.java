@@ -89,10 +89,6 @@ public final class _TakeDailyTaskScoreRewardRspOuterClass {
     int getHCDBMIBOAJA(int index);
   }
   /**
-   * <pre>
-   * CmdID: 6869
-   * </pre>
-   *
    * Protobuf type {@code _TakeDailyTaskScoreRewardRsp}
    */
   public static final class _TakeDailyTaskScoreRewardRsp extends
@@ -597,10 +593,6 @@ public final class _TakeDailyTaskScoreRewardRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6869
-     * </pre>
-     *
      * Protobuf type {@code _TakeDailyTaskScoreRewardRsp}
      */
     public static final class Builder extends

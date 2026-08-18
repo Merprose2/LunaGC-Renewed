@@ -43,10 +43,6 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 3082
-   * </pre>
-   *
    * Protobuf type {@code BattlePassMissionUpdateNotify}
    */
   public static final class BattlePassMissionUpdateNotify extends
@@ -335,10 +331,6 @@ public final class BattlePassMissionUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3082
-     * </pre>
-     *
      * Protobuf type {@code BattlePassMissionUpdateNotify}
      */
     public static final class Builder extends

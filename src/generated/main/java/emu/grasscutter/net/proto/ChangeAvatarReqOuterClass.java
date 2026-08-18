@@ -52,16 +52,12 @@ public final class ChangeAvatarReqOuterClass {
     boolean getFGGPBEPIJOG();
 
     /**
-     * <code>bool FONOJFMKMKD = 13;</code>
-     * @return The fONOJFMKMKD.
+     * <code>bool is_move = 13;</code>
+     * @return The isMove.
      */
-    boolean getFONOJFMKMKD();
+    boolean getIsMove();
   }
   /**
-   * <pre>
-   * CmdID: 1211
-   * </pre>
-   *
    * Protobuf type {@code ChangeAvatarReq}
    */
   public static final class ChangeAvatarReq extends
@@ -136,7 +132,7 @@ public final class ChangeAvatarReqOuterClass {
             }
             case 104: {
 
-              fONOJFMKMKD_ = input.readBool();
+              isMove_ = input.readBool();
               break;
             }
             default: {
@@ -230,15 +226,15 @@ public final class ChangeAvatarReqOuterClass {
       return fGGPBEPIJOG_;
     }
 
-    public static final int FONOJFMKMKD_FIELD_NUMBER = 13;
-    private boolean fONOJFMKMKD_;
+    public static final int IS_MOVE_FIELD_NUMBER = 13;
+    private boolean isMove_;
     /**
-     * <code>bool FONOJFMKMKD = 13;</code>
-     * @return The fONOJFMKMKD.
+     * <code>bool is_move = 13;</code>
+     * @return The isMove.
      */
     @java.lang.Override
-    public boolean getFONOJFMKMKD() {
-      return fONOJFMKMKD_;
+    public boolean getIsMove() {
+      return isMove_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -267,8 +263,8 @@ public final class ChangeAvatarReqOuterClass {
       if (fGGPBEPIJOG_ != false) {
         output.writeBool(11, fGGPBEPIJOG_);
       }
-      if (fONOJFMKMKD_ != false) {
-        output.writeBool(13, fONOJFMKMKD_);
+      if (isMove_ != false) {
+        output.writeBool(13, isMove_);
       }
       unknownFields.writeTo(output);
     }
@@ -295,9 +291,9 @@ public final class ChangeAvatarReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(11, fGGPBEPIJOG_);
       }
-      if (fONOJFMKMKD_ != false) {
+      if (isMove_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, fONOJFMKMKD_);
+          .computeBoolSize(13, isMove_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -325,8 +321,8 @@ public final class ChangeAvatarReqOuterClass {
           != other.getSkillId()) return false;
       if (getFGGPBEPIJOG()
           != other.getFGGPBEPIJOG()) return false;
-      if (getFONOJFMKMKD()
-          != other.getFONOJFMKMKD()) return false;
+      if (getIsMove()
+          != other.getIsMove()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -350,9 +346,9 @@ public final class ChangeAvatarReqOuterClass {
       hash = (37 * hash) + FGGPBEPIJOG_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getFGGPBEPIJOG());
-      hash = (37 * hash) + FONOJFMKMKD_FIELD_NUMBER;
+      hash = (37 * hash) + IS_MOVE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getFONOJFMKMKD());
+          getIsMove());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -449,10 +445,6 @@ public final class ChangeAvatarReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1211
-     * </pre>
-     *
      * Protobuf type {@code ChangeAvatarReq}
      */
     public static final class Builder extends
@@ -502,7 +494,7 @@ public final class ChangeAvatarReqOuterClass {
 
         fGGPBEPIJOG_ = false;
 
-        fONOJFMKMKD_ = false;
+        isMove_ = false;
 
         return this;
       }
@@ -538,7 +530,7 @@ public final class ChangeAvatarReqOuterClass {
         result.guid_ = guid_;
         result.skillId_ = skillId_;
         result.fGGPBEPIJOG_ = fGGPBEPIJOG_;
-        result.fONOJFMKMKD_ = fONOJFMKMKD_;
+        result.isMove_ = isMove_;
         onBuilt();
         return result;
       }
@@ -599,8 +591,8 @@ public final class ChangeAvatarReqOuterClass {
         if (other.getFGGPBEPIJOG() != false) {
           setFGGPBEPIJOG(other.getFGGPBEPIJOG());
         }
-        if (other.getFONOJFMKMKD() != false) {
-          setFONOJFMKMKD(other.getFONOJFMKMKD());
+        if (other.getIsMove() != false) {
+          setIsMove(other.getIsMove());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -843,33 +835,33 @@ public final class ChangeAvatarReqOuterClass {
         return this;
       }
 
-      private boolean fONOJFMKMKD_ ;
+      private boolean isMove_ ;
       /**
-       * <code>bool FONOJFMKMKD = 13;</code>
-       * @return The fONOJFMKMKD.
+       * <code>bool is_move = 13;</code>
+       * @return The isMove.
        */
       @java.lang.Override
-      public boolean getFONOJFMKMKD() {
-        return fONOJFMKMKD_;
+      public boolean getIsMove() {
+        return isMove_;
       }
       /**
-       * <code>bool FONOJFMKMKD = 13;</code>
-       * @param value The fONOJFMKMKD to set.
+       * <code>bool is_move = 13;</code>
+       * @param value The isMove to set.
        * @return This builder for chaining.
        */
-      public Builder setFONOJFMKMKD(boolean value) {
+      public Builder setIsMove(boolean value) {
         
-        fONOJFMKMKD_ = value;
+        isMove_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool FONOJFMKMKD = 13;</code>
+       * <code>bool is_move = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFONOJFMKMKD() {
+      public Builder clearIsMove() {
         
-        fONOJFMKMKD_ = false;
+        isMove_ = false;
         onChanged();
         return this;
       }
@@ -940,12 +932,12 @@ public final class ChangeAvatarReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025ChangeAvatarReq.proto\032\014Vector.proto\"v\n" +
+      "\n\025ChangeAvatarReq.proto\032\014Vector.proto\"r\n" +
       "\017ChangeAvatarReq\022\031\n\010move_pos\030\003 \001(\0132\007.Vec" +
       "tor\022\014\n\004guid\030\005 \001(\004\022\020\n\010skill_id\030\010 \001(\r\022\023\n\013F" +
-      "GGPBEPIJOG\030\013 \001(\010\022\023\n\013FONOJFMKMKD\030\r \001(\010B6\n" +
-      "\031emu.grasscutter.net.protoB\031ChangeAvatar" +
-      "ReqOuterClassb\006proto3"
+      "GGPBEPIJOG\030\013 \001(\010\022\017\n\007is_move\030\r \001(\010B6\n\031emu" +
+      ".grasscutter.net.protoB\031ChangeAvatarReqO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -957,7 +949,7 @@ public final class ChangeAvatarReqOuterClass {
     internal_static_ChangeAvatarReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChangeAvatarReq_descriptor,
-        new java.lang.String[] { "MovePos", "Guid", "SkillId", "FGGPBEPIJOG", "FONOJFMKMKD", });
+        new java.lang.String[] { "MovePos", "Guid", "SkillId", "FGGPBEPIJOG", "IsMove", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

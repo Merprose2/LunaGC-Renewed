@@ -25,10 +25,6 @@ public final class EnterSceneDoneReqOuterClass {
     int getEnterSceneToken();
   }
   /**
-   * <pre>
-   * CmdID: 6206
-   * </pre>
-   *
    * Protobuf type {@code EnterSceneDoneReq}
    */
   public static final class EnterSceneDoneReq extends
@@ -277,10 +273,6 @@ public final class EnterSceneDoneReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6206
-     * </pre>
-     *
      * Protobuf type {@code EnterSceneDoneReq}
      */
     public static final class Builder extends

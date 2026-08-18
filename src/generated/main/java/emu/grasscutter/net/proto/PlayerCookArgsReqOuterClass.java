@@ -31,10 +31,6 @@ public final class PlayerCookArgsReqOuterClass {
     int getAssistAvatar();
   }
   /**
-   * <pre>
-   * CmdID: 27154
-   * </pre>
-   *
    * Protobuf type {@code PlayerCookArgsReq}
    */
   public static final class PlayerCookArgsReq extends
@@ -310,10 +306,6 @@ public final class PlayerCookArgsReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27154
-     * </pre>
-     *
      * Protobuf type {@code PlayerCookArgsReq}
      */
     public static final class Builder extends

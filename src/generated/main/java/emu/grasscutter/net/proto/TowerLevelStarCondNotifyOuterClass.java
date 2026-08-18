@@ -55,10 +55,6 @@ public final class TowerLevelStarCondNotifyOuterClass {
     int getFloorId();
   }
   /**
-   * <pre>
-   * CmdID: 24129
-   * </pre>
-   *
    * Protobuf type {@code TowerLevelStarCondNotify}
    */
   public static final class TowerLevelStarCondNotify extends
@@ -401,10 +397,6 @@ public final class TowerLevelStarCondNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24129
-     * </pre>
-     *
      * Protobuf type {@code TowerLevelStarCondNotify}
      */
     public static final class Builder extends

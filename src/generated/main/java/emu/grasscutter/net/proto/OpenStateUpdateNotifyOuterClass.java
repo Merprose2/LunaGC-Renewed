@@ -53,10 +53,6 @@ public final class OpenStateUpdateNotifyOuterClass {
         int key);
   }
   /**
-   * <pre>
-   * CmdID: 9875
-   * </pre>
-   *
    * Protobuf type {@code OpenStateUpdateNotify}
    */
   public static final class OpenStateUpdateNotify extends
@@ -407,10 +403,6 @@ public final class OpenStateUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9875
-     * </pre>
-     *
      * Protobuf type {@code OpenStateUpdateNotify}
      */
     public static final class Builder extends

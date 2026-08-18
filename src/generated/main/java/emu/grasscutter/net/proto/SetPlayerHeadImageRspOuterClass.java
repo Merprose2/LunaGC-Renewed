@@ -40,10 +40,6 @@ public final class SetPlayerHeadImageRspOuterClass {
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 24323
-   * </pre>
-   *
    * Protobuf type {@code SetPlayerHeadImageRsp}
    */
   public static final class SetPlayerHeadImageRsp extends
@@ -347,10 +343,6 @@ public final class SetPlayerHeadImageRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24323
-     * </pre>
-     *
      * Protobuf type {@code SetPlayerHeadImageRsp}
      */
     public static final class Builder extends

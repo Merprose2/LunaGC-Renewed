@@ -90,10 +90,6 @@ public final class GetActivityInfoRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 7846
-   * </pre>
-   *
    * Protobuf type {@code GetActivityInfoRsp}
    */
   public static final class GetActivityInfoRsp extends
@@ -556,10 +552,6 @@ public final class GetActivityInfoRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7846
-     * </pre>
-     *
      * Protobuf type {@code GetActivityInfoRsp}
      */
     public static final class Builder extends

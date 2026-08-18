@@ -31,10 +31,6 @@ public final class HomeChooseModuleRspOuterClass {
     int getModuleId();
   }
   /**
-   * <pre>
-   * CmdID: 25206
-   * </pre>
-   *
    * Protobuf type {@code HomeChooseModuleRsp}
    */
   public static final class HomeChooseModuleRsp extends
@@ -310,10 +306,6 @@ public final class HomeChooseModuleRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25206
-     * </pre>
-     *
      * Protobuf type {@code HomeChooseModuleRsp}
      */
     public static final class Builder extends

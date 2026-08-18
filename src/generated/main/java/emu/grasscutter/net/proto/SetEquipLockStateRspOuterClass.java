@@ -37,10 +37,6 @@ public final class SetEquipLockStateRspOuterClass {
     boolean getIsLocked();
   }
   /**
-   * <pre>
-   * CmdID: 27366
-   * </pre>
-   *
    * Protobuf type {@code SetEquipLockStateRsp}
    */
   public static final class SetEquipLockStateRsp extends
@@ -345,10 +341,6 @@ public final class SetEquipLockStateRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27366
-     * </pre>
-     *
      * Protobuf type {@code SetEquipLockStateRsp}
      */
     public static final class Builder extends

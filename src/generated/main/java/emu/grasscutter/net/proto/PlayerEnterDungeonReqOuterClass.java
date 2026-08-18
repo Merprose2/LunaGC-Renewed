@@ -64,10 +64,6 @@ public final class PlayerEnterDungeonReqOuterClass {
     boolean getIsContinue();
   }
   /**
-   * <pre>
-   * CmdID: 3400
-   * </pre>
-   *
    * Protobuf type {@code PlayerEnterDungeonReq}
    */
   public static final class PlayerEnterDungeonReq extends
@@ -480,10 +476,6 @@ public final class PlayerEnterDungeonReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3400
-     * </pre>
-     *
      * Protobuf type {@code PlayerEnterDungeonReq}
      */
     public static final class Builder extends

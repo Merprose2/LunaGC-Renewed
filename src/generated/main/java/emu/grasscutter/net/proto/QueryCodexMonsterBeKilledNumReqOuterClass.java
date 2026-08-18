@@ -36,10 +36,6 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
     int getCodexIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 29557
-   * </pre>
-   *
    * Protobuf type {@code QueryCodexMonsterBeKilledNumReq}
    */
   public static final class QueryCodexMonsterBeKilledNumReq extends
@@ -343,10 +339,6 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29557
-     * </pre>
-     *
      * Protobuf type {@code QueryCodexMonsterBeKilledNumReq}
      */
     public static final class Builder extends

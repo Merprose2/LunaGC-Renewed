@@ -82,10 +82,6 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     int getOpenExpeditionList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 26662
-   * </pre>
-   *
    * Protobuf type {@code AvatarExpeditionAllDataRsp}
    */
   public static final class AvatarExpeditionAllDataRsp extends
@@ -571,10 +567,6 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26662
-     * </pre>
-     *
      * Protobuf type {@code AvatarExpeditionAllDataRsp}
      */
     public static final class Builder extends

@@ -43,10 +43,6 @@ public final class QuestUpdateQuestVarRspOuterClass {
     int getQuestId();
   }
   /**
-   * <pre>
-   * CmdID: 9431
-   * </pre>
-   *
    * Protobuf type {@code QuestUpdateQuestVarRsp}
    */
   public static final class QuestUpdateQuestVarRsp extends
@@ -376,10 +372,6 @@ public final class QuestUpdateQuestVarRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9431
-     * </pre>
-     *
      * Protobuf type {@code QuestUpdateQuestVarRsp}
      */
     public static final class Builder extends

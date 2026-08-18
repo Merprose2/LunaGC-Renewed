@@ -25,10 +25,10 @@ public final class SeaLampActivityDetailInfoOuterClass {
     int getPLOPGFGAFLJ();
 
     /**
-     * <code>uint32 MBBBBLHGAGO = 3;</code>
-     * @return The mBBBBLHGAGO.
+     * <code>uint32 phase_id = 3;</code>
+     * @return The phaseId.
      */
-    int getMBBBBLHGAGO();
+    int getPhaseId();
 
     /**
      * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
@@ -137,7 +137,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
             }
             case 24: {
 
-              mBBBBLHGAGO_ = input.readUInt32();
+              phaseId_ = input.readUInt32();
               break;
             }
             case 32: {
@@ -246,15 +246,15 @@ public final class SeaLampActivityDetailInfoOuterClass {
       return pLOPGFGAFLJ_;
     }
 
-    public static final int MBBBBLHGAGO_FIELD_NUMBER = 3;
-    private int mBBBBLHGAGO_;
+    public static final int PHASE_ID_FIELD_NUMBER = 3;
+    private int phaseId_;
     /**
-     * <code>uint32 MBBBBLHGAGO = 3;</code>
-     * @return The mBBBBLHGAGO.
+     * <code>uint32 phase_id = 3;</code>
+     * @return The phaseId.
      */
     @java.lang.Override
-    public int getMBBBBLHGAGO() {
-      return mBBBBLHGAGO_;
+    public int getPhaseId() {
+      return phaseId_;
     }
 
     public static final int ICNIKLDGHJA_FIELD_NUMBER = 4;
@@ -364,8 +364,8 @@ public final class SeaLampActivityDetailInfoOuterClass {
       if (pLOPGFGAFLJ_ != 0) {
         output.writeUInt32(1, pLOPGFGAFLJ_);
       }
-      if (mBBBBLHGAGO_ != 0) {
-        output.writeUInt32(3, mBBBBLHGAGO_);
+      if (phaseId_ != 0) {
+        output.writeUInt32(3, phaseId_);
       }
       if (getICNIKLDGHJAList().size() > 0) {
         output.writeUInt32NoTag(34);
@@ -403,9 +403,9 @@ public final class SeaLampActivityDetailInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, pLOPGFGAFLJ_);
       }
-      if (mBBBBLHGAGO_ != 0) {
+      if (phaseId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, mBBBBLHGAGO_);
+          .computeUInt32Size(3, phaseId_);
       }
       {
         int dataSize = 0;
@@ -464,8 +464,8 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
       if (getPLOPGFGAFLJ()
           != other.getPLOPGFGAFLJ()) return false;
-      if (getMBBBBLHGAGO()
-          != other.getMBBBBLHGAGO()) return false;
+      if (getPhaseId()
+          != other.getPhaseId()) return false;
       if (!getICNIKLDGHJAList()
           .equals(other.getICNIKLDGHJAList())) return false;
       if (getProgress()
@@ -489,8 +489,8 @@ public final class SeaLampActivityDetailInfoOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + PLOPGFGAFLJ_FIELD_NUMBER;
       hash = (53 * hash) + getPLOPGFGAFLJ();
-      hash = (37 * hash) + MBBBBLHGAGO_FIELD_NUMBER;
-      hash = (53 * hash) + getMBBBBLHGAGO();
+      hash = (37 * hash) + PHASE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getPhaseId();
       if (getICNIKLDGHJACount() > 0) {
         hash = (37 * hash) + ICNIKLDGHJA_FIELD_NUMBER;
         hash = (53 * hash) + getICNIKLDGHJAList().hashCode();
@@ -640,7 +640,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         super.clear();
         pLOPGFGAFLJ_ = 0;
 
-        mBBBBLHGAGO_ = 0;
+        phaseId_ = 0;
 
         iCNIKLDGHJA_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -680,7 +680,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         emu.grasscutter.net.proto.SeaLampActivityDetailInfoOuterClass.SeaLampActivityDetailInfo result = new emu.grasscutter.net.proto.SeaLampActivityDetailInfoOuterClass.SeaLampActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
         result.pLOPGFGAFLJ_ = pLOPGFGAFLJ_;
-        result.mBBBBLHGAGO_ = mBBBBLHGAGO_;
+        result.phaseId_ = phaseId_;
         if (((bitField0_ & 0x00000001) != 0)) {
           iCNIKLDGHJA_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
@@ -745,8 +745,8 @@ public final class SeaLampActivityDetailInfoOuterClass {
         if (other.getPLOPGFGAFLJ() != 0) {
           setPLOPGFGAFLJ(other.getPLOPGFGAFLJ());
         }
-        if (other.getMBBBBLHGAGO() != 0) {
-          setMBBBBLHGAGO(other.getMBBBBLHGAGO());
+        if (other.getPhaseId() != 0) {
+          setPhaseId(other.getPhaseId());
         }
         if (!other.iCNIKLDGHJA_.isEmpty()) {
           if (iCNIKLDGHJA_.isEmpty()) {
@@ -838,33 +838,33 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
 
-      private int mBBBBLHGAGO_ ;
+      private int phaseId_ ;
       /**
-       * <code>uint32 MBBBBLHGAGO = 3;</code>
-       * @return The mBBBBLHGAGO.
+       * <code>uint32 phase_id = 3;</code>
+       * @return The phaseId.
        */
       @java.lang.Override
-      public int getMBBBBLHGAGO() {
-        return mBBBBLHGAGO_;
+      public int getPhaseId() {
+        return phaseId_;
       }
       /**
-       * <code>uint32 MBBBBLHGAGO = 3;</code>
-       * @param value The mBBBBLHGAGO to set.
+       * <code>uint32 phase_id = 3;</code>
+       * @param value The phaseId to set.
        * @return This builder for chaining.
        */
-      public Builder setMBBBBLHGAGO(int value) {
+      public Builder setPhaseId(int value) {
         
-        mBBBBLHGAGO_ = value;
+        phaseId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 MBBBBLHGAGO = 3;</code>
+       * <code>uint32 phase_id = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMBBBBLHGAGO() {
+      public Builder clearPhaseId() {
         
-        mBBBBLHGAGO_ = 0;
+        phaseId_ = 0;
         onChanged();
         return this;
       }
@@ -1186,13 +1186,13 @@ public final class SeaLampActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037SeaLampActivityDetailInfo.proto\"\244\001\n\031Se" +
+      "\n\037SeaLampActivityDetailInfo.proto\"\241\001\n\031Se" +
       "aLampActivityDetailInfo\022\023\n\013PLOPGFGAFLJ\030\001" +
-      " \001(\r\022\023\n\013MBBBBLHGAGO\030\003 \001(\r\022\023\n\013ICNIKLDGHJA" +
-      "\030\004 \003(\r\022\020\n\010progress\030\006 \001(\r\022\023\n\013AEBFOBBJKLH\030" +
-      "\010 \001(\r\022\023\n\013MGKPFINDMBE\030\n \003(\r\022\014\n\004days\030\r \001(\r" +
-      "B@\n\031emu.grasscutter.net.protoB#SeaLampAc" +
-      "tivityDetailInfoOuterClassb\006proto3"
+      " \001(\r\022\020\n\010phase_id\030\003 \001(\r\022\023\n\013ICNIKLDGHJA\030\004 " +
+      "\003(\r\022\020\n\010progress\030\006 \001(\r\022\023\n\013AEBFOBBJKLH\030\010 \001" +
+      "(\r\022\023\n\013MGKPFINDMBE\030\n \003(\r\022\014\n\004days\030\r \001(\rB@\n" +
+      "\031emu.grasscutter.net.protoB#SeaLampActiv" +
+      "ityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1203,7 +1203,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
     internal_static_SeaLampActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SeaLampActivityDetailInfo_descriptor,
-        new java.lang.String[] { "PLOPGFGAFLJ", "MBBBBLHGAGO", "ICNIKLDGHJA", "Progress", "AEBFOBBJKLH", "MGKPFINDMBE", "Days", });
+        new java.lang.String[] { "PLOPGFGAFLJ", "PhaseId", "ICNIKLDGHJA", "Progress", "AEBFOBBJKLH", "MGKPFINDMBE", "Days", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

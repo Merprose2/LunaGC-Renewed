@@ -37,10 +37,6 @@ public final class NpcTalkReqOuterClass {
     int getTalkId();
   }
   /**
-   * <pre>
-   * CmdID: 25477
-   * </pre>
-   *
    * Protobuf type {@code NpcTalkReq}
    */
   public static final class NpcTalkReq extends
@@ -343,10 +339,6 @@ public final class NpcTalkReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25477
-     * </pre>
-     *
      * Protobuf type {@code NpcTalkReq}
      */
     public static final class Builder extends

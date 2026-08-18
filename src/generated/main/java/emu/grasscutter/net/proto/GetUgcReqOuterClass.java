@@ -70,10 +70,6 @@ public final class GetUgcReqOuterClass {
     int getScheduleId();
   }
   /**
-   * <pre>
-   * CmdID: 70
-   * </pre>
-   *
    * Protobuf type {@code GetUgcReq}
    */
   public static final class GetUgcReq extends
@@ -293,13 +289,13 @@ public final class GetUgcReqOuterClass {
       if (ugcGuid_ != 0L) {
         output.writeUInt64(3, ugcGuid_);
       }
-      if (ugcRecordUsage_ != emu.grasscutter.net.proto.RecordUsageOuterClass.RecordUsage.RecordUsage_UGC_RECORD_USAGE_NONE.getNumber()) {
+      if (ugcRecordUsage_ != emu.grasscutter.net.proto.RecordUsageOuterClass.RecordUsage.UGC_RECORD_USAGE_NONE.getNumber()) {
         output.writeEnum(9, ugcRecordUsage_);
       }
       if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         output.writeEnum(10, ugcType_);
       }
-      if (getUgcType_ != emu.grasscutter.net.proto.GetUgcTypeOuterClass.GetUgcType.GetUgcType_GET_UGC_NONE.getNumber()) {
+      if (getUgcType_ != emu.grasscutter.net.proto.GetUgcTypeOuterClass.GetUgcType.GET_UGC_NONE.getNumber()) {
         output.writeEnum(12, getUgcType_);
       }
       if (isRequireBrief_ != false) {
@@ -321,7 +317,7 @@ public final class GetUgcReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(3, ugcGuid_);
       }
-      if (ugcRecordUsage_ != emu.grasscutter.net.proto.RecordUsageOuterClass.RecordUsage.RecordUsage_UGC_RECORD_USAGE_NONE.getNumber()) {
+      if (ugcRecordUsage_ != emu.grasscutter.net.proto.RecordUsageOuterClass.RecordUsage.UGC_RECORD_USAGE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, ugcRecordUsage_);
       }
@@ -329,7 +325,7 @@ public final class GetUgcReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(10, ugcType_);
       }
-      if (getUgcType_ != emu.grasscutter.net.proto.GetUgcTypeOuterClass.GetUgcType.GetUgcType_GET_UGC_NONE.getNumber()) {
+      if (getUgcType_ != emu.grasscutter.net.proto.GetUgcTypeOuterClass.GetUgcType.GET_UGC_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(12, getUgcType_);
       }
@@ -486,10 +482,6 @@ public final class GetUgcReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 70
-     * </pre>
-     *
      * Protobuf type {@code GetUgcReq}
      */
     public static final class Builder extends

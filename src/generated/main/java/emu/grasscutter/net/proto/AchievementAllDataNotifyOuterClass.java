@@ -60,10 +60,6 @@ public final class AchievementAllDataNotifyOuterClass {
     int getRewardTakenGoalIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 29910
-   * </pre>
-   *
    * Protobuf type {@code AchievementAllDataNotify}
    */
   public static final class AchievementAllDataNotify extends
@@ -433,10 +429,6 @@ public final class AchievementAllDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29910
-     * </pre>
-     *
      * Protobuf type {@code AchievementAllDataNotify}
      */
     public static final class Builder extends

@@ -20,56 +20,56 @@ public final class FireworksLaunchParamTypeOuterClass {
   public enum FireworksLaunchParamType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_NONE = 0;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_NONE = 0;</code>
      */
-    FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_NONE(0),
+    FIREWORKS_LAUNCH_PARAM_NONE(0),
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_REPEAT = 1;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_REPEAT = 1;</code>
      */
-    FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_REPEAT(1),
+    FIREWORKS_LAUNCH_PARAM_REPEAT(1),
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_INTEVAL = 2;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_INTEVAL = 2;</code>
      */
-    FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_INTEVAL(2),
+    FIREWORKS_LAUNCH_PARAM_INTEVAL(2),
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_DELAY = 3;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_DELAY = 3;</code>
      */
-    FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_DELAY(3),
+    FIREWORKS_LAUNCH_PARAM_DELAY(3),
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL = 4;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL = 4;</code>
      */
-    FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL(4),
+    FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL(4),
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_MAX = 5;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_MAX = 5;</code>
      */
-    FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_MAX(5),
+    FIREWORKS_LAUNCH_PARAM_MAX(5),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_NONE = 0;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_NONE = 0;</code>
      */
-    public static final int FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_NONE_VALUE = 0;
+    public static final int FIREWORKS_LAUNCH_PARAM_NONE_VALUE = 0;
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_REPEAT = 1;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_REPEAT = 1;</code>
      */
-    public static final int FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_REPEAT_VALUE = 1;
+    public static final int FIREWORKS_LAUNCH_PARAM_REPEAT_VALUE = 1;
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_INTEVAL = 2;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_INTEVAL = 2;</code>
      */
-    public static final int FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_INTEVAL_VALUE = 2;
+    public static final int FIREWORKS_LAUNCH_PARAM_INTEVAL_VALUE = 2;
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_DELAY = 3;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_DELAY = 3;</code>
      */
-    public static final int FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_DELAY_VALUE = 3;
+    public static final int FIREWORKS_LAUNCH_PARAM_DELAY_VALUE = 3;
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL = 4;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL = 4;</code>
      */
-    public static final int FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL_VALUE = 4;
+    public static final int FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL_VALUE = 4;
     /**
-     * <code>FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_MAX = 5;</code>
+     * <code>FIREWORKS_LAUNCH_PARAM_MAX = 5;</code>
      */
-    public static final int FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_MAX_VALUE = 5;
+    public static final int FIREWORKS_LAUNCH_PARAM_MAX_VALUE = 5;
 
 
     public final int getNumber() {
@@ -96,12 +96,12 @@ public final class FireworksLaunchParamTypeOuterClass {
      */
     public static FireworksLaunchParamType forNumber(int value) {
       switch (value) {
-        case 0: return FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_NONE;
-        case 1: return FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_REPEAT;
-        case 2: return FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_INTEVAL;
-        case 3: return FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_DELAY;
-        case 4: return FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL;
-        case 5: return FireworksLaunchParamType_FIREWORKS_LAUNCH_PARAM_MAX;
+        case 0: return FIREWORKS_LAUNCH_PARAM_NONE;
+        case 1: return FIREWORKS_LAUNCH_PARAM_REPEAT;
+        case 2: return FIREWORKS_LAUNCH_PARAM_INTEVAL;
+        case 3: return FIREWORKS_LAUNCH_PARAM_DELAY;
+        case 4: return FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL;
+        case 5: return FIREWORKS_LAUNCH_PARAM_MAX;
         default: return null;
       }
     }
@@ -167,19 +167,15 @@ public final class FireworksLaunchParamTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036FireworksLaunchParamType.proto*\204\003\n\030Fir" +
-      "eworksLaunchParamType\0228\n4FireworksLaunch" +
-      "ParamType_FIREWORKS_LAUNCH_PARAM_NONE\020\000\022" +
-      ":\n6FireworksLaunchParamType_FIREWORKS_LA" +
-      "UNCH_PARAM_REPEAT\020\001\022;\n7FireworksLaunchPa" +
-      "ramType_FIREWORKS_LAUNCH_PARAM_INTEVAL\020\002" +
-      "\0229\n5FireworksLaunchParamType_FIREWORKS_L" +
-      "AUNCH_PARAM_DELAY\020\003\022A\n=FireworksLaunchPa" +
-      "ramType_FIREWORKS_LAUNCH_PARAM_ROUND_INT" +
-      "EVAL\020\004\0227\n3FireworksLaunchParamType_FIREW" +
-      "ORKS_LAUNCH_PARAM_MAX\020\005B?\n\031emu.grasscutt" +
-      "er.net.protoB\"FireworksLaunchParamTypeOu" +
-      "terClassb\006proto3"
+      "\n\036FireworksLaunchParamType.proto*\356\001\n\030Fir" +
+      "eworksLaunchParamType\022\037\n\033FIREWORKS_LAUNC" +
+      "H_PARAM_NONE\020\000\022!\n\035FIREWORKS_LAUNCH_PARAM" +
+      "_REPEAT\020\001\022\"\n\036FIREWORKS_LAUNCH_PARAM_INTE" +
+      "VAL\020\002\022 \n\034FIREWORKS_LAUNCH_PARAM_DELAY\020\003\022" +
+      "(\n$FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL\020" +
+      "\004\022\036\n\032FIREWORKS_LAUNCH_PARAM_MAX\020\005B?\n\031emu" +
+      ".grasscutter.net.protoB\"FireworksLaunchP" +
+      "aramTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

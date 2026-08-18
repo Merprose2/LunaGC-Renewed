@@ -49,10 +49,6 @@ public final class HomeGetArrangementInfoRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 24225
-   * </pre>
-   *
    * Protobuf type {@code HomeGetArrangementInfoRsp}
    */
   public static final class HomeGetArrangementInfoRsp extends
@@ -368,10 +364,6 @@ public final class HomeGetArrangementInfoRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24225
-     * </pre>
-     *
      * Protobuf type {@code HomeGetArrangementInfoRsp}
      */
     public static final class Builder extends

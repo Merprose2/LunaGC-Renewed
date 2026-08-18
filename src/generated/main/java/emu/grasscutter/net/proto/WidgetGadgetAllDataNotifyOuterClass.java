@@ -43,10 +43,6 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 27572
-   * </pre>
-   *
    * Protobuf type {@code WidgetGadgetAllDataNotify}
    */
   public static final class WidgetGadgetAllDataNotify extends
@@ -335,10 +331,6 @@ public final class WidgetGadgetAllDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27572
-     * </pre>
-     *
      * Protobuf type {@code WidgetGadgetAllDataNotify}
      */
     public static final class Builder extends

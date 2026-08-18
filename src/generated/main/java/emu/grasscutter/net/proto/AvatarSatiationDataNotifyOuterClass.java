@@ -43,10 +43,6 @@ public final class AvatarSatiationDataNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 1793
-   * </pre>
-   *
    * Protobuf type {@code AvatarSatiationDataNotify}
    */
   public static final class AvatarSatiationDataNotify extends
@@ -335,10 +331,6 @@ public final class AvatarSatiationDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1793
-     * </pre>
-     *
      * Protobuf type {@code AvatarSatiationDataNotify}
      */
     public static final class Builder extends

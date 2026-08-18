@@ -48,10 +48,6 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
     int getParentQuestVarSeq();
   }
   /**
-   * <pre>
-   * CmdID: 26260
-   * </pre>
-   *
    * Protobuf type {@code QuestUpdateQuestVarNotify}
    */
   public static final class QuestUpdateQuestVarNotify extends
@@ -409,10 +405,6 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26260
-     * </pre>
-     *
      * Protobuf type {@code QuestUpdateQuestVarNotify}
      */
     public static final class Builder extends

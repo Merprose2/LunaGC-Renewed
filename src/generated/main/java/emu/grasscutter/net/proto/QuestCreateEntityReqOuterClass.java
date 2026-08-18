@@ -52,10 +52,6 @@ public final class QuestCreateEntityReqOuterClass {
     int getParentQuestId();
   }
   /**
-   * <pre>
-   * CmdID: 2565
-   * </pre>
-   *
    * Protobuf type {@code QuestCreateEntityReq}
    */
   public static final class QuestCreateEntityReq extends
@@ -414,10 +410,6 @@ public final class QuestCreateEntityReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2565
-     * </pre>
-     *
      * Protobuf type {@code QuestCreateEntityReq}
      */
     public static final class Builder extends

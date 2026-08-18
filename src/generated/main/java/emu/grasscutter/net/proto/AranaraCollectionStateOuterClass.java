@@ -154,8 +154,8 @@ public final class AranaraCollectionStateOuterClass {
       "ate_NONE\020\000\022&\n\"AranaraCollectionState_COL" +
       "LECTABLE\020\001\022$\n AranaraCollectionState_COL" +
       "LECTED\020\002\022#\n\037AranaraCollectionState_FINIS" +
-      "HED\020\003B=\n\031emu.grasscutter.net.protoB Aran" +
-      "araCollectionStateOuterClassb\006proto3"
+      "HED\020\003B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

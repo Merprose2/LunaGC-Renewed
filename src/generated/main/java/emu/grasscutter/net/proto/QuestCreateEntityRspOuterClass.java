@@ -64,10 +64,6 @@ public final class QuestCreateEntityRspOuterClass {
     boolean getIsRewind();
   }
   /**
-   * <pre>
-   * CmdID: 3627
-   * </pre>
-   *
    * Protobuf type {@code QuestCreateEntityRsp}
    */
   public static final class QuestCreateEntityRsp extends
@@ -480,10 +476,6 @@ public final class QuestCreateEntityRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3627
-     * </pre>
-     *
      * Protobuf type {@code QuestCreateEntityRsp}
      */
     public static final class Builder extends

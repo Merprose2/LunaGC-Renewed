@@ -25,10 +25,6 @@ public final class GetActivityShopSheetInfoReqOuterClass {
     int getShopType();
   }
   /**
-   * <pre>
-   * CmdID: 9306
-   * </pre>
-   *
    * Protobuf type {@code GetActivityShopSheetInfoReq}
    */
   public static final class GetActivityShopSheetInfoReq extends
@@ -277,10 +273,6 @@ public final class GetActivityShopSheetInfoReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9306
-     * </pre>
-     *
      * Protobuf type {@code GetActivityShopSheetInfoReq}
      */
     public static final class Builder extends

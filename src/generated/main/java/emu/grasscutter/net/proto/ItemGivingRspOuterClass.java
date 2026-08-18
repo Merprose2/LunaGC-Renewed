@@ -37,10 +37,6 @@ public final class ItemGivingRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 23467
-   * </pre>
-   *
    * Protobuf type {@code ItemGivingRsp}
    */
   public static final class ItemGivingRsp extends
@@ -343,10 +339,6 @@ public final class ItemGivingRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 23467
-     * </pre>
-     *
      * Protobuf type {@code ItemGivingRsp}
      */
     public static final class Builder extends

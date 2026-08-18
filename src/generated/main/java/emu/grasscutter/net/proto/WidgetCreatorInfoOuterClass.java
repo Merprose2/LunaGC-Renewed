@@ -225,7 +225,7 @@ public final class WidgetCreatorInfoOuterClass {
       if (entityId_ != 0) {
         output.writeUInt32(10, entityId_);
       }
-      if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WidgetCreatorOpType_WIDGET_CREATOR_TYPE_NONE.getNumber()) {
+      if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WIDGET_CREATOR_TYPE_NONE.getNumber()) {
         output.writeEnum(11, opType_);
       }
       if (locationInfo_ != null) {
@@ -244,7 +244,7 @@ public final class WidgetCreatorInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, entityId_);
       }
-      if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WidgetCreatorOpType_WIDGET_CREATOR_TYPE_NONE.getNumber()) {
+      if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WIDGET_CREATOR_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(11, opType_);
       }

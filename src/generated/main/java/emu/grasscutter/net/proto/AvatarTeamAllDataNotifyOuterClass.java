@@ -93,10 +93,6 @@ public final class AvatarTeamAllDataNotifyOuterClass {
     int getBackupAvatarTeamOrderList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 6548
-   * </pre>
-   *
    * Protobuf type {@code AvatarTeamAllDataNotify}
    */
   public static final class AvatarTeamAllDataNotify extends
@@ -635,10 +631,6 @@ public final class AvatarTeamAllDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6548
-     * </pre>
-     *
      * Protobuf type {@code AvatarTeamAllDataNotify}
      */
     public static final class Builder extends

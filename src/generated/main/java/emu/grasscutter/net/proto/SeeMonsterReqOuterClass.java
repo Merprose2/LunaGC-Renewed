@@ -18,15 +18,11 @@ public final class SeeMonsterReqOuterClass {
       // @@protoc_insertion_point(interface_extends:SeeMonsterReq)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>uint32 monster_id = 1;</code>
-     * @return The monsterId.
-     */
     int getMonsterId();
   }
   /**
    * <pre>
-   * CmdID: 24569
+   * CmdId: 2695
    * </pre>
    *
    * Protobuf type {@code SeeMonsterReq}
@@ -73,7 +69,7 @@ public final class SeeMonsterReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 48: {
 
               monsterId_ = input.readUInt32();
               break;
@@ -110,12 +106,9 @@ public final class SeeMonsterReqOuterClass {
               emu.grasscutter.net.proto.SeeMonsterReqOuterClass.SeeMonsterReq.class, emu.grasscutter.net.proto.SeeMonsterReqOuterClass.SeeMonsterReq.Builder.class);
     }
 
-    public static final int MONSTER_ID_FIELD_NUMBER = 1;
+    public static final int MONSTER_ID_FIELD_NUMBER = 6;
     private int monsterId_;
-    /**
-     * <code>uint32 monster_id = 1;</code>
-     * @return The monsterId.
-     */
+
     @java.lang.Override
     public int getMonsterId() {
       return monsterId_;
@@ -136,7 +129,7 @@ public final class SeeMonsterReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (monsterId_ != 0) {
-        output.writeUInt32(1, monsterId_);
+        output.writeUInt32(6, monsterId_);
       }
       unknownFields.writeTo(output);
     }
@@ -149,7 +142,7 @@ public final class SeeMonsterReqOuterClass {
       size = 0;
       if (monsterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, monsterId_);
+          .computeUInt32Size(6, monsterId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,7 +271,7 @@ public final class SeeMonsterReqOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 24569
+     * CmdId: 2695
      * </pre>
      *
      * Protobuf type {@code SeeMonsterReq}
@@ -428,31 +421,21 @@ public final class SeeMonsterReqOuterClass {
       }
 
       private int monsterId_ ;
-      /**
-       * <code>uint32 monster_id = 1;</code>
-       * @return The monsterId.
-       */
+
       @java.lang.Override
       public int getMonsterId() {
         return monsterId_;
       }
-      /**
-       * <code>uint32 monster_id = 1;</code>
-       * @param value The monsterId to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setMonsterId(int value) {
-        
+
         monsterId_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint32 monster_id = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearMonsterId() {
-        
+
         monsterId_ = 0;
         onChanged();
         return this;
@@ -468,7 +451,6 @@ public final class SeeMonsterReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SeeMonsterReq)
     }
@@ -512,7 +494,7 @@ public final class SeeMonsterReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SeeMonsterReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SeeMonsterReq_fieldAccessorTable;
 
@@ -525,8 +507,8 @@ public final class SeeMonsterReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023SeeMonsterReq.proto\"#\n\rSeeMonsterReq\022\022" +
-      "\n\nmonster_id\030\001 \001(\rB4\n\031emu.grasscutter.ne" +
-      "t.protoB\027SeeMonsterReqOuterClassb\006proto3"
+      "\n\nmonster_id\030\014 \001(\rB\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

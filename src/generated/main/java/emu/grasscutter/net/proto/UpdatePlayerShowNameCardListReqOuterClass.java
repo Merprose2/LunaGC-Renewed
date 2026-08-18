@@ -36,10 +36,6 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
     int getShowNameCardIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 21646
-   * </pre>
-   *
    * Protobuf type {@code UpdatePlayerShowNameCardListReq}
    */
   public static final class UpdatePlayerShowNameCardListReq extends
@@ -343,10 +339,6 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21646
-     * </pre>
-     *
      * Protobuf type {@code UpdatePlayerShowNameCardListReq}
      */
     public static final class Builder extends

@@ -60,10 +60,6 @@ public final class EntityAiSyncNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 29200
-   * </pre>
-   *
    * Protobuf type {@code EntityAiSyncNotify}
    */
   public static final class EntityAiSyncNotify extends
@@ -433,10 +429,6 @@ public final class EntityAiSyncNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29200
-     * </pre>
-     *
      * Protobuf type {@code EntityAiSyncNotify}
      */
     public static final class Builder extends

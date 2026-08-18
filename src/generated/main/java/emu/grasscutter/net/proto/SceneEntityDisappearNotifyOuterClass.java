@@ -53,10 +53,6 @@ public final class SceneEntityDisappearNotifyOuterClass {
     emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType getDisappearType();
   }
   /**
-   * <pre>
-   * CmdID: 5823
-   * </pre>
-   *
    * Protobuf type {@code SceneEntityDisappearNotify}
    */
   public static final class SceneEntityDisappearNotify extends
@@ -423,10 +419,6 @@ public final class SceneEntityDisappearNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5823
-     * </pre>
-     *
      * Protobuf type {@code SceneEntityDisappearNotify}
      */
     public static final class Builder extends

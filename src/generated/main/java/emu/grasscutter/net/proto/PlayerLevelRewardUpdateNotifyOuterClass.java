@@ -36,10 +36,6 @@ public final class PlayerLevelRewardUpdateNotifyOuterClass {
     int getLevelList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 9046
-   * </pre>
-   *
    * Protobuf type {@code PlayerLevelRewardUpdateNotify}
    */
   public static final class PlayerLevelRewardUpdateNotify extends
@@ -343,10 +339,6 @@ public final class PlayerLevelRewardUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9046
-     * </pre>
-     *
      * Protobuf type {@code PlayerLevelRewardUpdateNotify}
      */
     public static final class Builder extends

@@ -36,16 +36,16 @@ public final class TowerLevelEndNotifyOuterClass {
     int getFinishedStarCondList(int index);
 
     /**
-     * <code>uint32 FAOLLLJODJP = 8;</code>
-     * @return The fAOLLLJODJP.
+     * <code>uint32 next_floor_id = 8;</code>
+     * @return The nextFloorId.
      */
-    int getFAOLLLJODJP();
+    int getNextFloorId();
 
     /**
-     * <code>uint32 LADAGLFMEGH = 10;</code>
-     * @return The lADAGLFMEGH.
+     * <code>uint32 continue_state = 10;</code>
+     * @return The continueState.
      */
-    int getLADAGLFMEGH();
+    int getContinueState();
 
     /**
      * <code>repeated .ItemParam reward_item_list = 12;</code>
@@ -78,10 +78,6 @@ public final class TowerLevelEndNotifyOuterClass {
     boolean getIsSuccess();
   }
   /**
-   * <pre>
-   * CmdID: 25342
-   * </pre>
-   *
    * Protobuf type {@code TowerLevelEndNotify}
    */
   public static final class TowerLevelEndNotify extends
@@ -152,12 +148,12 @@ public final class TowerLevelEndNotifyOuterClass {
             }
             case 64: {
 
-              fAOLLLJODJP_ = input.readUInt32();
+              nextFloorId_ = input.readUInt32();
               break;
             }
             case 80: {
 
-              lADAGLFMEGH_ = input.readUInt32();
+              continueState_ = input.readUInt32();
               break;
             }
             case 98: {
@@ -240,26 +236,26 @@ public final class TowerLevelEndNotifyOuterClass {
     }
     private int finishedStarCondListMemoizedSerializedSize = -1;
 
-    public static final int FAOLLLJODJP_FIELD_NUMBER = 8;
-    private int fAOLLLJODJP_;
+    public static final int NEXT_FLOOR_ID_FIELD_NUMBER = 8;
+    private int nextFloorId_;
     /**
-     * <code>uint32 FAOLLLJODJP = 8;</code>
-     * @return The fAOLLLJODJP.
+     * <code>uint32 next_floor_id = 8;</code>
+     * @return The nextFloorId.
      */
     @java.lang.Override
-    public int getFAOLLLJODJP() {
-      return fAOLLLJODJP_;
+    public int getNextFloorId() {
+      return nextFloorId_;
     }
 
-    public static final int LADAGLFMEGH_FIELD_NUMBER = 10;
-    private int lADAGLFMEGH_;
+    public static final int CONTINUE_STATE_FIELD_NUMBER = 10;
+    private int continueState_;
     /**
-     * <code>uint32 LADAGLFMEGH = 10;</code>
-     * @return The lADAGLFMEGH.
+     * <code>uint32 continue_state = 10;</code>
+     * @return The continueState.
      */
     @java.lang.Override
-    public int getLADAGLFMEGH() {
-      return lADAGLFMEGH_;
+    public int getContinueState() {
+      return continueState_;
     }
 
     public static final int REWARD_ITEM_LIST_FIELD_NUMBER = 12;
@@ -335,11 +331,11 @@ public final class TowerLevelEndNotifyOuterClass {
       for (int i = 0; i < finishedStarCondList_.size(); i++) {
         output.writeUInt32NoTag(finishedStarCondList_.getInt(i));
       }
-      if (fAOLLLJODJP_ != 0) {
-        output.writeUInt32(8, fAOLLLJODJP_);
+      if (nextFloorId_ != 0) {
+        output.writeUInt32(8, nextFloorId_);
       }
-      if (lADAGLFMEGH_ != 0) {
-        output.writeUInt32(10, lADAGLFMEGH_);
+      if (continueState_ != 0) {
+        output.writeUInt32(10, continueState_);
       }
       for (int i = 0; i < rewardItemList_.size(); i++) {
         output.writeMessage(12, rewardItemList_.get(i));
@@ -370,13 +366,13 @@ public final class TowerLevelEndNotifyOuterClass {
         }
         finishedStarCondListMemoizedSerializedSize = dataSize;
       }
-      if (fAOLLLJODJP_ != 0) {
+      if (nextFloorId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, fAOLLLJODJP_);
+          .computeUInt32Size(8, nextFloorId_);
       }
-      if (lADAGLFMEGH_ != 0) {
+      if (continueState_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, lADAGLFMEGH_);
+          .computeUInt32Size(10, continueState_);
       }
       for (int i = 0; i < rewardItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -403,10 +399,10 @@ public final class TowerLevelEndNotifyOuterClass {
 
       if (!getFinishedStarCondListList()
           .equals(other.getFinishedStarCondListList())) return false;
-      if (getFAOLLLJODJP()
-          != other.getFAOLLLJODJP()) return false;
-      if (getLADAGLFMEGH()
-          != other.getLADAGLFMEGH()) return false;
+      if (getNextFloorId()
+          != other.getNextFloorId()) return false;
+      if (getContinueState()
+          != other.getContinueState()) return false;
       if (!getRewardItemListList()
           .equals(other.getRewardItemListList())) return false;
       if (getIsSuccess()
@@ -426,10 +422,10 @@ public final class TowerLevelEndNotifyOuterClass {
         hash = (37 * hash) + FINISHED_STAR_COND_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getFinishedStarCondListList().hashCode();
       }
-      hash = (37 * hash) + FAOLLLJODJP_FIELD_NUMBER;
-      hash = (53 * hash) + getFAOLLLJODJP();
-      hash = (37 * hash) + LADAGLFMEGH_FIELD_NUMBER;
-      hash = (53 * hash) + getLADAGLFMEGH();
+      hash = (37 * hash) + NEXT_FLOOR_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getNextFloorId();
+      hash = (37 * hash) + CONTINUE_STATE_FIELD_NUMBER;
+      hash = (53 * hash) + getContinueState();
       if (getRewardItemListCount() > 0) {
         hash = (37 * hash) + REWARD_ITEM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getRewardItemListList().hashCode();
@@ -533,10 +529,6 @@ public final class TowerLevelEndNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25342
-     * </pre>
-     *
      * Protobuf type {@code TowerLevelEndNotify}
      */
     public static final class Builder extends
@@ -577,9 +569,9 @@ public final class TowerLevelEndNotifyOuterClass {
         super.clear();
         finishedStarCondList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        fAOLLLJODJP_ = 0;
+        nextFloorId_ = 0;
 
-        lADAGLFMEGH_ = 0;
+        continueState_ = 0;
 
         if (rewardItemListBuilder_ == null) {
           rewardItemList_ = java.util.Collections.emptyList();
@@ -621,8 +613,8 @@ public final class TowerLevelEndNotifyOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.finishedStarCondList_ = finishedStarCondList_;
-        result.fAOLLLJODJP_ = fAOLLLJODJP_;
-        result.lADAGLFMEGH_ = lADAGLFMEGH_;
+        result.nextFloorId_ = nextFloorId_;
+        result.continueState_ = continueState_;
         if (rewardItemListBuilder_ == null) {
           if (((bitField0_ & 0x00000002) != 0)) {
             rewardItemList_ = java.util.Collections.unmodifiableList(rewardItemList_);
@@ -691,11 +683,11 @@ public final class TowerLevelEndNotifyOuterClass {
           }
           onChanged();
         }
-        if (other.getFAOLLLJODJP() != 0) {
-          setFAOLLLJODJP(other.getFAOLLLJODJP());
+        if (other.getNextFloorId() != 0) {
+          setNextFloorId(other.getNextFloorId());
         }
-        if (other.getLADAGLFMEGH() != 0) {
-          setLADAGLFMEGH(other.getLADAGLFMEGH());
+        if (other.getContinueState() != 0) {
+          setContinueState(other.getContinueState());
         }
         if (rewardItemListBuilder_ == null) {
           if (!other.rewardItemList_.isEmpty()) {
@@ -835,64 +827,64 @@ public final class TowerLevelEndNotifyOuterClass {
         return this;
       }
 
-      private int fAOLLLJODJP_ ;
+      private int nextFloorId_ ;
       /**
-       * <code>uint32 FAOLLLJODJP = 8;</code>
-       * @return The fAOLLLJODJP.
+       * <code>uint32 next_floor_id = 8;</code>
+       * @return The nextFloorId.
        */
       @java.lang.Override
-      public int getFAOLLLJODJP() {
-        return fAOLLLJODJP_;
+      public int getNextFloorId() {
+        return nextFloorId_;
       }
       /**
-       * <code>uint32 FAOLLLJODJP = 8;</code>
-       * @param value The fAOLLLJODJP to set.
+       * <code>uint32 next_floor_id = 8;</code>
+       * @param value The nextFloorId to set.
        * @return This builder for chaining.
        */
-      public Builder setFAOLLLJODJP(int value) {
+      public Builder setNextFloorId(int value) {
         
-        fAOLLLJODJP_ = value;
+        nextFloorId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 FAOLLLJODJP = 8;</code>
+       * <code>uint32 next_floor_id = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFAOLLLJODJP() {
+      public Builder clearNextFloorId() {
         
-        fAOLLLJODJP_ = 0;
+        nextFloorId_ = 0;
         onChanged();
         return this;
       }
 
-      private int lADAGLFMEGH_ ;
+      private int continueState_ ;
       /**
-       * <code>uint32 LADAGLFMEGH = 10;</code>
-       * @return The lADAGLFMEGH.
+       * <code>uint32 continue_state = 10;</code>
+       * @return The continueState.
        */
       @java.lang.Override
-      public int getLADAGLFMEGH() {
-        return lADAGLFMEGH_;
+      public int getContinueState() {
+        return continueState_;
       }
       /**
-       * <code>uint32 LADAGLFMEGH = 10;</code>
-       * @param value The lADAGLFMEGH to set.
+       * <code>uint32 continue_state = 10;</code>
+       * @param value The continueState to set.
        * @return This builder for chaining.
        */
-      public Builder setLADAGLFMEGH(int value) {
+      public Builder setContinueState(int value) {
         
-        lADAGLFMEGH_ = value;
+        continueState_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 LADAGLFMEGH = 10;</code>
+       * <code>uint32 continue_state = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLADAGLFMEGH() {
+      public Builder clearContinueState() {
         
-        lADAGLFMEGH_ = 0;
+        continueState_ = 0;
         onChanged();
         return this;
       }
@@ -1235,12 +1227,12 @@ public final class TowerLevelEndNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031TowerLevelEndNotify.proto\032\017ItemParam.p" +
-      "roto\"\232\001\n\023TowerLevelEndNotify\022\037\n\027finished" +
-      "_star_cond_list\030\006 \003(\r\022\023\n\013FAOLLLJODJP\030\010 \001" +
-      "(\r\022\023\n\013LADAGLFMEGH\030\n \001(\r\022$\n\020reward_item_l" +
-      "ist\030\014 \003(\0132\n.ItemParam\022\022\n\nis_success\030\017 \001(" +
-      "\010B:\n\031emu.grasscutter.net.protoB\035TowerLev" +
-      "elEndNotifyOuterClassb\006proto3"
+      "roto\"\237\001\n\023TowerLevelEndNotify\022\037\n\027finished" +
+      "_star_cond_list\030\006 \003(\r\022\025\n\rnext_floor_id\030\010" +
+      " \001(\r\022\026\n\016continue_state\030\n \001(\r\022$\n\020reward_i" +
+      "tem_list\030\014 \003(\0132\n.ItemParam\022\022\n\nis_success" +
+      "\030\017 \001(\010B:\n\031emu.grasscutter.net.protoB\035Tow" +
+      "erLevelEndNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1252,7 +1244,7 @@ public final class TowerLevelEndNotifyOuterClass {
     internal_static_TowerLevelEndNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TowerLevelEndNotify_descriptor,
-        new java.lang.String[] { "FinishedStarCondList", "FAOLLLJODJP", "LADAGLFMEGH", "RewardItemList", "IsSuccess", });
+        new java.lang.String[] { "FinishedStarCondList", "NextFloorId", "ContinueState", "RewardItemList", "IsSuccess", });
     emu.grasscutter.net.proto.ItemParamOuterClass.getDescriptor();
   }
 

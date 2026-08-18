@@ -36,10 +36,6 @@ public final class DealAddFriendReqOuterClass {
     emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType getDealAddFriendResult();
   }
   /**
-   * <pre>
-   * CmdID: 5297
-   * </pre>
-   *
    * Protobuf type {@code DealAddFriendReq}
    */
   public static final class DealAddFriendReq extends
@@ -324,10 +320,6 @@ public final class DealAddFriendReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5297
-     * </pre>
-     *
      * Protobuf type {@code DealAddFriendReq}
      */
     public static final class Builder extends

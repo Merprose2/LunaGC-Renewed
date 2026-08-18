@@ -36,10 +36,6 @@ public final class GroupUnloadNotifyOuterClass {
     int getGroupList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 29359
-   * </pre>
-   *
    * Protobuf type {@code GroupUnloadNotify}
    */
   public static final class GroupUnloadNotify extends
@@ -343,10 +339,6 @@ public final class GroupUnloadNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29359
-     * </pre>
-     *
      * Protobuf type {@code GroupUnloadNotify}
      */
     public static final class Builder extends

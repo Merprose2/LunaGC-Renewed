@@ -43,10 +43,6 @@ public final class QuestTransmitReqOuterClass {
     int getQuestId();
   }
   /**
-   * <pre>
-   * CmdID: 5523
-   * </pre>
-   *
    * Protobuf type {@code QuestTransmitReq}
    */
   public static final class QuestTransmitReq extends
@@ -377,10 +373,6 @@ public final class QuestTransmitReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5523
-     * </pre>
-     *
      * Protobuf type {@code QuestTransmitReq}
      */
     public static final class Builder extends

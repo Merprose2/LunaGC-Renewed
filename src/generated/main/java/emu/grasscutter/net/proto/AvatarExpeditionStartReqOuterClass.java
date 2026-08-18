@@ -17,12 +17,32 @@ public final class AvatarExpeditionStartReqOuterClass {
   public interface AvatarExpeditionStartReqOrBuilder extends
       // @@protoc_insertion_point(interface_extends:AvatarExpeditionStartReq)
       com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> 
+        getBasicInfoListList();
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getBasicInfoList(int index);
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    int getBasicInfoListCount();
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
+        getBasicInfoListOrBuilderList();
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getBasicInfoListOrBuilder(
+        int index);
   }
   /**
-   * <pre>
-   * CmdID: 21243
-   * </pre>
-   *
    * Protobuf type {@code AvatarExpeditionStartReq}
    */
   public static final class AvatarExpeditionStartReq extends
@@ -35,6 +55,7 @@ public final class AvatarExpeditionStartReqOuterClass {
       super(builder);
     }
     private AvatarExpeditionStartReq() {
+      BasicInfoList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -57,6 +78,7 @@ public final class AvatarExpeditionStartReqOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -67,6 +89,15 @@ public final class AvatarExpeditionStartReqOuterClass {
             case 0:
               done = true;
               break;
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                BasicInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              BasicInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.parser(), extensionRegistry));
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -82,6 +113,9 @@ public final class AvatarExpeditionStartReqOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          BasicInfoList_ = java.util.Collections.unmodifiableList(BasicInfoList_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -99,6 +133,46 @@ public final class AvatarExpeditionStartReqOuterClass {
               emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq.class, emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq.Builder.class);
     }
 
+    public static final int _BASIC_INFO_LIST_FIELD_NUMBER = 9;
+    private java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> BasicInfoList_;
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> getBasicInfoListList() {
+      return BasicInfoList_;
+    }
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
+        getBasicInfoListOrBuilderList() {
+      return BasicInfoList_;
+    }
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    @java.lang.Override
+    public int getBasicInfoListCount() {
+      return BasicInfoList_.size();
+    }
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getBasicInfoList(int index) {
+      return BasicInfoList_.get(index);
+    }
+    /**
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getBasicInfoListOrBuilder(
+        int index) {
+      return BasicInfoList_.get(index);
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -113,6 +187,9 @@ public final class AvatarExpeditionStartReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      for (int i = 0; i < BasicInfoList_.size(); i++) {
+        output.writeMessage(9, BasicInfoList_.get(i));
+      }
       unknownFields.writeTo(output);
     }
 
@@ -122,6 +199,10 @@ public final class AvatarExpeditionStartReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < BasicInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, BasicInfoList_.get(i));
+      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -137,6 +218,8 @@ public final class AvatarExpeditionStartReqOuterClass {
       }
       emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq other = (emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq) obj;
 
+      if (!getBasicInfoListList()
+          .equals(other.getBasicInfoListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -148,6 +231,10 @@ public final class AvatarExpeditionStartReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (getBasicInfoListCount() > 0) {
+        hash = (37 * hash) + _BASIC_INFO_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getBasicInfoListList().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -244,10 +331,6 @@ public final class AvatarExpeditionStartReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21243
-     * </pre>
-     *
      * Protobuf type {@code AvatarExpeditionStartReq}
      */
     public static final class Builder extends
@@ -280,11 +363,18 @@ public final class AvatarExpeditionStartReqOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getBasicInfoListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (BasicInfoListBuilder_ == null) {
+          BasicInfoList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          BasicInfoListBuilder_.clear();
+        }
         return this;
       }
 
@@ -311,6 +401,16 @@ public final class AvatarExpeditionStartReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq buildPartial() {
         emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq result = new emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq(this);
+        int from_bitField0_ = bitField0_;
+        if (BasicInfoListBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) != 0)) {
+            BasicInfoList_ = java.util.Collections.unmodifiableList(BasicInfoList_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.BasicInfoList_ = BasicInfoList_;
+        } else {
+          result.BasicInfoList_ = BasicInfoListBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -359,6 +459,32 @@ public final class AvatarExpeditionStartReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq other) {
         if (other == emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq.getDefaultInstance()) return this;
+        if (BasicInfoListBuilder_ == null) {
+          if (!other.BasicInfoList_.isEmpty()) {
+            if (BasicInfoList_.isEmpty()) {
+              BasicInfoList_ = other.BasicInfoList_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureBasicInfoListIsMutable();
+              BasicInfoList_.addAll(other.BasicInfoList_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.BasicInfoList_.isEmpty()) {
+            if (BasicInfoListBuilder_.isEmpty()) {
+              BasicInfoListBuilder_.dispose();
+              BasicInfoListBuilder_ = null;
+              BasicInfoList_ = other.BasicInfoList_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              BasicInfoListBuilder_ = 
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
+                   getBasicInfoListFieldBuilder() : null;
+            } else {
+              BasicInfoListBuilder_.addAllMessages(other.BasicInfoList_);
+            }
+          }
+        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -386,6 +512,247 @@ public final class AvatarExpeditionStartReqOuterClass {
           }
         }
         return this;
+      }
+      private int bitField0_;
+
+      private java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> BasicInfoList_ =
+        java.util.Collections.emptyList();
+      private void ensureBasicInfoListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          BasicInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo>(BasicInfoList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> BasicInfoListBuilder_;
+
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> getBasicInfoListList() {
+        if (BasicInfoListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(BasicInfoList_);
+        } else {
+          return BasicInfoListBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public int getBasicInfoListCount() {
+        if (BasicInfoListBuilder_ == null) {
+          return BasicInfoList_.size();
+        } else {
+          return BasicInfoListBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getBasicInfoList(int index) {
+        if (BasicInfoListBuilder_ == null) {
+          return BasicInfoList_.get(index);
+        } else {
+          return BasicInfoListBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public Builder setBasicInfoList(
+          int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
+        if (BasicInfoListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureBasicInfoListIsMutable();
+          BasicInfoList_.set(index, value);
+          onChanged();
+        } else {
+          BasicInfoListBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public Builder setBasicInfoList(
+          int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
+        if (BasicInfoListBuilder_ == null) {
+          ensureBasicInfoListIsMutable();
+          BasicInfoList_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          BasicInfoListBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public Builder addBasicInfoList(emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
+        if (BasicInfoListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureBasicInfoListIsMutable();
+          BasicInfoList_.add(value);
+          onChanged();
+        } else {
+          BasicInfoListBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public Builder addBasicInfoList(
+          int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
+        if (BasicInfoListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureBasicInfoListIsMutable();
+          BasicInfoList_.add(index, value);
+          onChanged();
+        } else {
+          BasicInfoListBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public Builder addBasicInfoList(
+          emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
+        if (BasicInfoListBuilder_ == null) {
+          ensureBasicInfoListIsMutable();
+          BasicInfoList_.add(builderForValue.build());
+          onChanged();
+        } else {
+          BasicInfoListBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public Builder addBasicInfoList(
+          int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
+        if (BasicInfoListBuilder_ == null) {
+          ensureBasicInfoListIsMutable();
+          BasicInfoList_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          BasicInfoListBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public Builder addAllBasicInfoList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> values) {
+        if (BasicInfoListBuilder_ == null) {
+          ensureBasicInfoListIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, BasicInfoList_);
+          onChanged();
+        } else {
+          BasicInfoListBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public Builder clearBasicInfoList() {
+        if (BasicInfoListBuilder_ == null) {
+          BasicInfoList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          BasicInfoListBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public Builder removeBasicInfoList(int index) {
+        if (BasicInfoListBuilder_ == null) {
+          ensureBasicInfoListIsMutable();
+          BasicInfoList_.remove(index);
+          onChanged();
+        } else {
+          BasicInfoListBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder getBasicInfoListBuilder(
+          int index) {
+        return getBasicInfoListFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getBasicInfoListOrBuilder(
+          int index) {
+        if (BasicInfoListBuilder_ == null) {
+          return BasicInfoList_.get(index);  } else {
+          return BasicInfoListBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
+           getBasicInfoListOrBuilderList() {
+        if (BasicInfoListBuilder_ != null) {
+          return BasicInfoListBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(BasicInfoList_);
+        }
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder addBasicInfoListBuilder() {
+        return getBasicInfoListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder addBasicInfoListBuilder(
+          int index) {
+        return getBasicInfoListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder> 
+           getBasicInfoListBuilderList() {
+        return getBasicInfoListFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
+          getBasicInfoListFieldBuilder() {
+        if (BasicInfoListBuilder_ == null) {
+          BasicInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder>(
+                  BasicInfoList_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          BasicInfoList_ = null;
+        }
+        return BasicInfoListBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -454,21 +821,25 @@ public final class AvatarExpeditionStartReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036AvatarExpeditionStartReq.proto\"\032\n\030Avat" +
-      "arExpeditionStartReqB?\n\031emu.grasscutter." +
-      "net.protoB\"AvatarExpeditionStartReqOuter" +
-      "Classb\006proto3"
+      "\n\036AvatarExpeditionStartReq.proto\032 _Avata" +
+      "rExpeditionBasicInfo.proto\"Q\n\030AvatarExpe" +
+      "ditionStartReq\0225\n\020_basic_info_list\030\t \003(\013" +
+      "2\033._AvatarExpeditionBasicInfoB?\n\031emu.gra" +
+      "sscutter.net.protoB\"AvatarExpeditionStar" +
+      "tReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass.getDescriptor(),
         });
     internal_static_AvatarExpeditionStartReq_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_AvatarExpeditionStartReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarExpeditionStartReq_descriptor,
-        new java.lang.String[] { });
+        new java.lang.String[] { "BasicInfoList", });
+    emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

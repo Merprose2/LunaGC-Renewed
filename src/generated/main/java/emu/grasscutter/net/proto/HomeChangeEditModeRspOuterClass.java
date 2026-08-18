@@ -19,7 +19,7 @@ public final class HomeChangeEditModeRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 retcode = 4;</code>
+     * <code>int32 retcode = 2;</code>
      * @return The retcode.
      */
     int getRetcode();
@@ -32,7 +32,8 @@ public final class HomeChangeEditModeRspOuterClass {
   }
   /**
    * <pre>
-   * CmdID: 24423
+   * CmdId: 7491
+   * Obf: CICADGGFJOK
    * </pre>
    *
    * Protobuf type {@code HomeChangeEditModeRsp}
@@ -79,12 +80,12 @@ public final class HomeChangeEditModeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 80: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 48: {
+            case 56: {
 
               isEnterEditMode_ = input.readBool();
               break;
@@ -121,10 +122,10 @@ public final class HomeChangeEditModeRspOuterClass {
               emu.grasscutter.net.proto.HomeChangeEditModeRspOuterClass.HomeChangeEditModeRsp.class, emu.grasscutter.net.proto.HomeChangeEditModeRspOuterClass.HomeChangeEditModeRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 4;
+    public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
     /**
-     * <code>int32 retcode = 4;</code>
+     * <code>int32 retcode = 2;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -132,7 +133,7 @@ public final class HomeChangeEditModeRspOuterClass {
       return retcode_;
     }
 
-    public static final int IS_ENTER_EDIT_MODE_FIELD_NUMBER = 6;
+    public static final int IS_ENTER_EDIT_MODE_FIELD_NUMBER = 7;
     private boolean isEnterEditMode_;
     /**
      * <code>bool is_enter_edit_mode = 6;</code>
@@ -158,10 +159,10 @@ public final class HomeChangeEditModeRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(4, retcode_);
+        output.writeInt32(10, retcode_);
       }
       if (isEnterEditMode_ != false) {
-        output.writeBool(6, isEnterEditMode_);
+        output.writeBool(7, isEnterEditMode_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +175,11 @@ public final class HomeChangeEditModeRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(4, retcode_);
+          .computeInt32Size(10, retcode_);
       }
       if (isEnterEditMode_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isEnterEditMode_);
+          .computeBoolSize(7, isEnterEditMode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -312,7 +313,8 @@ public final class HomeChangeEditModeRspOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 24423
+     * CmdId: 7491
+     * Obf: CICADGGFJOK
      * </pre>
      *
      * Protobuf type {@code HomeChangeEditModeRsp}
@@ -469,7 +471,7 @@ public final class HomeChangeEditModeRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 4;</code>
+       * <code>int32 retcode = 2;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -477,7 +479,7 @@ public final class HomeChangeEditModeRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 4;</code>
+       * <code>int32 retcode = 2;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -488,7 +490,7 @@ public final class HomeChangeEditModeRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 4;</code>
+       * <code>int32 retcode = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -596,10 +598,9 @@ public final class HomeChangeEditModeRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033HomeChangeEditModeRsp.proto\"D\n\025HomeCha" +
-      "ngeEditModeRsp\022\017\n\007retcode\030\004 \001(\005\022\032\n\022is_en" +
-      "ter_edit_mode\030\006 \001(\010B<\n\031emu.grasscutter.n" +
-      "et.protoB\037HomeChangeEditModeRspOuterClas" +
-      "sb\006proto3"
+      "ngeEditModeRsp\022\017\n\007retcode\030\002 \001(\005\022\032\n\022is_en" +
+      "ter_edit_mode\030\006 \001(\010B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

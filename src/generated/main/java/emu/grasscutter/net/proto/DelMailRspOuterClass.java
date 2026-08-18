@@ -42,10 +42,6 @@ public final class DelMailRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 6768
-   * </pre>
-   *
    * Protobuf type {@code DelMailRsp}
    */
   public static final class DelMailRsp extends
@@ -376,10 +372,6 @@ public final class DelMailRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6768
-     * </pre>
-     *
      * Protobuf type {@code DelMailRsp}
      */
     public static final class Builder extends

@@ -127,10 +127,6 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     int getClientSequenceId();
   }
   /**
-   * <pre>
-   * CmdID: 5435
-   * </pre>
-   *
    * Protobuf type {@code AvatarLifeStateChangeNotify}
    */
   public static final class AvatarLifeStateChangeNotify extends
@@ -738,10 +734,6 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5435
-     * </pre>
-     *
      * Protobuf type {@code AvatarLifeStateChangeNotify}
      */
     public static final class Builder extends

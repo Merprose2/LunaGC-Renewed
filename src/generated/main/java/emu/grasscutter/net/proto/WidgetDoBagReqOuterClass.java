@@ -19,12 +19,6 @@ public final class WidgetDoBagReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 material_id = 9;</code>
-     * @return The materialId.
-     */
-    int getMaterialId();
-
-    /**
      * <code>.WidgetCreatorInfo widget_creator_info = 236;</code>
      * @return Whether the widgetCreatorInfo field is set.
      */
@@ -54,13 +48,15 @@ public final class WidgetDoBagReqOuterClass {
      */
     emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfoOrBuilder getLocationInfoOrBuilder();
 
+    /**
+     * <code>uint32 material_id = 9;</code>
+     * @return The materialId.
+     */
+    int getMaterialId();
+
     public emu.grasscutter.net.proto.WidgetDoBagReqOuterClass.WidgetDoBagReq.OpInfoCase getOpInfoCase();
   }
   /**
-   * <pre>
-   * CmdID: 27210
-   * </pre>
-   *
    * Protobuf type {@code WidgetDoBagReq}
    */
   public static final class WidgetDoBagReq extends
@@ -211,17 +207,6 @@ public final class WidgetDoBagReqOuterClass {
           opInfoCase_);
     }
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 9;
-    private int materialId_;
-    /**
-     * <code>uint32 material_id = 9;</code>
-     * @return The materialId.
-     */
-    @java.lang.Override
-    public int getMaterialId() {
-      return materialId_;
-    }
-
     public static final int WIDGET_CREATOR_INFO_FIELD_NUMBER = 236;
     /**
      * <code>.WidgetCreatorInfo widget_creator_info = 236;</code>
@@ -282,6 +267,17 @@ public final class WidgetDoBagReqOuterClass {
          return (emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfo) opInfo_;
       }
       return emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.WidgetCreateLocationInfo.getDefaultInstance();
+    }
+
+    public static final int MATERIAL_ID_FIELD_NUMBER = 9;
+    private int materialId_;
+    /**
+     * <code>uint32 material_id = 9;</code>
+     * @return The materialId.
+     */
+    @java.lang.Override
+    public int getMaterialId() {
+      return materialId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -479,10 +475,6 @@ public final class WidgetDoBagReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27210
-     * </pre>
-     *
      * Protobuf type {@code WidgetDoBagReq}
      */
     public static final class Builder extends
@@ -550,7 +542,6 @@ public final class WidgetDoBagReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.WidgetDoBagReqOuterClass.WidgetDoBagReq buildPartial() {
         emu.grasscutter.net.proto.WidgetDoBagReqOuterClass.WidgetDoBagReq result = new emu.grasscutter.net.proto.WidgetDoBagReqOuterClass.WidgetDoBagReq(this);
-        result.materialId_ = materialId_;
         if (opInfoCase_ == 236) {
           if (widgetCreatorInfoBuilder_ == null) {
             result.opInfo_ = opInfo_;
@@ -565,6 +556,7 @@ public final class WidgetDoBagReqOuterClass {
             result.opInfo_ = locationInfoBuilder_.build();
           }
         }
+        result.materialId_ = materialId_;
         result.opInfoCase_ = opInfoCase_;
         onBuilt();
         return result;
@@ -673,37 +665,6 @@ public final class WidgetDoBagReqOuterClass {
         return this;
       }
 
-
-      private int materialId_ ;
-      /**
-       * <code>uint32 material_id = 9;</code>
-       * @return The materialId.
-       */
-      @java.lang.Override
-      public int getMaterialId() {
-        return materialId_;
-      }
-      /**
-       * <code>uint32 material_id = 9;</code>
-       * @param value The materialId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMaterialId(int value) {
-        
-        materialId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 material_id = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMaterialId() {
-        
-        materialId_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo, emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo.Builder, emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfoOrBuilder> widgetCreatorInfoBuilder_;
@@ -986,6 +947,37 @@ public final class WidgetDoBagReqOuterClass {
         onChanged();;
         return locationInfoBuilder_;
       }
+
+      private int materialId_ ;
+      /**
+       * <code>uint32 material_id = 9;</code>
+       * @return The materialId.
+       */
+      @java.lang.Override
+      public int getMaterialId() {
+        return materialId_;
+      }
+      /**
+       * <code>uint32 material_id = 9;</code>
+       * @param value The materialId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMaterialId(int value) {
+        
+        materialId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 material_id = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMaterialId() {
+        
+        materialId_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1055,10 +1047,10 @@ public final class WidgetDoBagReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024WidgetDoBagReq.proto\032\036WidgetCreateLoca" +
       "tionInfo.proto\032\027WidgetCreatorInfo.proto\"" +
-      "\231\001\n\016WidgetDoBagReq\022\023\n\013material_id\030\t \001(\r\022" +
-      "2\n\023widget_creator_info\030\354\001 \001(\0132\022.WidgetCr" +
-      "eatorInfoH\000\0223\n\rlocation_info\030\237\n \001(\0132\031.Wi" +
-      "dgetCreateLocationInfoH\000B\t\n\007op_infoB5\n\031e" +
+      "\231\001\n\016WidgetDoBagReq\0222\n\023widget_creator_inf" +
+      "o\030\354\001 \001(\0132\022.WidgetCreatorInfoH\000\0223\n\rlocati" +
+      "on_info\030\237\n \001(\0132\031.WidgetCreateLocationInf" +
+      "oH\000\022\023\n\013material_id\030\t \001(\rB\t\n\007op_infoB5\n\031e" +
       "mu.grasscutter.net.protoB\030WidgetDoBagReq" +
       "OuterClassb\006proto3"
     };
@@ -1073,7 +1065,7 @@ public final class WidgetDoBagReqOuterClass {
     internal_static_WidgetDoBagReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WidgetDoBagReq_descriptor,
-        new java.lang.String[] { "MaterialId", "WidgetCreatorInfo", "LocationInfo", "OpInfo", });
+        new java.lang.String[] { "WidgetCreatorInfo", "LocationInfo", "MaterialId", "OpInfo", });
     emu.grasscutter.net.proto.WidgetCreateLocationInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.getDescriptor();
   }

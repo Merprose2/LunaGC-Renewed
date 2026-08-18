@@ -19,36 +19,6 @@ public final class OEHOLOIDPEFOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 guid = 2;</code>
-     * @return The guid.
-     */
-    int getGuid();
-
-    /**
-     * <code>uint32 level = 7;</code>
-     * @return The level.
-     */
-    int getLevel();
-
-    /**
-     * <code>uint32 JCACGOEHBOA = 10;</code>
-     * @return The jCACGOEHBOA.
-     */
-    int getJCACGOEHBOA();
-
-    /**
-     * <code>uint32 NNPEIMCDGIP = 13;</code>
-     * @return The nNPEIMCDGIP.
-     */
-    int getNNPEIMCDGIP();
-
-    /**
-     * <code>uint32 buff_id = 14;</code>
-     * @return The buffId.
-     */
-    int getBuffId();
-
-    /**
      * <code>._HireLevelUpgradeBuffInfo hire_level_upgrade_buff_info = 28;</code>
      * @return Whether the hireLevelUpgradeBuffInfo field is set.
      */
@@ -152,6 +122,36 @@ public final class OEHOLOIDPEFOuterClass {
      * <code>._ExpandToReduceUpgradeCostBuffInfo expand_to_reduce_upgrade_cost_buff_info = 1784;</code>
      */
     emu.grasscutter.net.proto._ExpandToReduceUpgradeCostBuffInfoOuterClass._ExpandToReduceUpgradeCostBuffInfoOrBuilder getExpandToReduceUpgradeCostBuffInfoOrBuilder();
+
+    /**
+     * <code>uint32 guid = 2;</code>
+     * @return The guid.
+     */
+    int getGuid();
+
+    /**
+     * <code>uint32 level = 7;</code>
+     * @return The level.
+     */
+    int getLevel();
+
+    /**
+     * <code>uint32 JCACGOEHBOA = 10;</code>
+     * @return The jCACGOEHBOA.
+     */
+    int getJCACGOEHBOA();
+
+    /**
+     * <code>uint32 NNPEIMCDGIP = 13;</code>
+     * @return The nNPEIMCDGIP.
+     */
+    int getNNPEIMCDGIP();
+
+    /**
+     * <code>uint32 buff_id = 14;</code>
+     * @return The buffId.
+     */
+    int getBuffId();
 
     public emu.grasscutter.net.proto.OEHOLOIDPEFOuterClass.OEHOLOIDPEF.DetailCase getDetailCase();
   }
@@ -406,61 +406,6 @@ public final class OEHOLOIDPEFOuterClass {
           detailCase_);
     }
 
-    public static final int GUID_FIELD_NUMBER = 2;
-    private int guid_;
-    /**
-     * <code>uint32 guid = 2;</code>
-     * @return The guid.
-     */
-    @java.lang.Override
-    public int getGuid() {
-      return guid_;
-    }
-
-    public static final int LEVEL_FIELD_NUMBER = 7;
-    private int level_;
-    /**
-     * <code>uint32 level = 7;</code>
-     * @return The level.
-     */
-    @java.lang.Override
-    public int getLevel() {
-      return level_;
-    }
-
-    public static final int JCACGOEHBOA_FIELD_NUMBER = 10;
-    private int jCACGOEHBOA_;
-    /**
-     * <code>uint32 JCACGOEHBOA = 10;</code>
-     * @return The jCACGOEHBOA.
-     */
-    @java.lang.Override
-    public int getJCACGOEHBOA() {
-      return jCACGOEHBOA_;
-    }
-
-    public static final int NNPEIMCDGIP_FIELD_NUMBER = 13;
-    private int nNPEIMCDGIP_;
-    /**
-     * <code>uint32 NNPEIMCDGIP = 13;</code>
-     * @return The nNPEIMCDGIP.
-     */
-    @java.lang.Override
-    public int getNNPEIMCDGIP() {
-      return nNPEIMCDGIP_;
-    }
-
-    public static final int BUFF_ID_FIELD_NUMBER = 14;
-    private int buffId_;
-    /**
-     * <code>uint32 buff_id = 14;</code>
-     * @return The buffId.
-     */
-    @java.lang.Override
-    public int getBuffId() {
-      return buffId_;
-    }
-
     public static final int HIRE_LEVEL_UPGRADE_BUFF_INFO_FIELD_NUMBER = 28;
     /**
      * <code>._HireLevelUpgradeBuffInfo hire_level_upgrade_buff_info = 28;</code>
@@ -676,6 +621,61 @@ public final class OEHOLOIDPEFOuterClass {
          return (emu.grasscutter.net.proto._ExpandToReduceUpgradeCostBuffInfoOuterClass._ExpandToReduceUpgradeCostBuffInfo) detail_;
       }
       return emu.grasscutter.net.proto._ExpandToReduceUpgradeCostBuffInfoOuterClass._ExpandToReduceUpgradeCostBuffInfo.getDefaultInstance();
+    }
+
+    public static final int GUID_FIELD_NUMBER = 2;
+    private int guid_;
+    /**
+     * <code>uint32 guid = 2;</code>
+     * @return The guid.
+     */
+    @java.lang.Override
+    public int getGuid() {
+      return guid_;
+    }
+
+    public static final int LEVEL_FIELD_NUMBER = 7;
+    private int level_;
+    /**
+     * <code>uint32 level = 7;</code>
+     * @return The level.
+     */
+    @java.lang.Override
+    public int getLevel() {
+      return level_;
+    }
+
+    public static final int JCACGOEHBOA_FIELD_NUMBER = 10;
+    private int jCACGOEHBOA_;
+    /**
+     * <code>uint32 JCACGOEHBOA = 10;</code>
+     * @return The jCACGOEHBOA.
+     */
+    @java.lang.Override
+    public int getJCACGOEHBOA() {
+      return jCACGOEHBOA_;
+    }
+
+    public static final int NNPEIMCDGIP_FIELD_NUMBER = 13;
+    private int nNPEIMCDGIP_;
+    /**
+     * <code>uint32 NNPEIMCDGIP = 13;</code>
+     * @return The nNPEIMCDGIP.
+     */
+    @java.lang.Override
+    public int getNNPEIMCDGIP() {
+      return nNPEIMCDGIP_;
+    }
+
+    public static final int BUFF_ID_FIELD_NUMBER = 14;
+    private int buffId_;
+    /**
+     * <code>uint32 buff_id = 14;</code>
+     * @return The buffId.
+     */
+    @java.lang.Override
+    public int getBuffId() {
+      return buffId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1067,11 +1067,6 @@ public final class OEHOLOIDPEFOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.OEHOLOIDPEFOuterClass.OEHOLOIDPEF buildPartial() {
         emu.grasscutter.net.proto.OEHOLOIDPEFOuterClass.OEHOLOIDPEF result = new emu.grasscutter.net.proto.OEHOLOIDPEFOuterClass.OEHOLOIDPEF(this);
-        result.guid_ = guid_;
-        result.level_ = level_;
-        result.jCACGOEHBOA_ = jCACGOEHBOA_;
-        result.nNPEIMCDGIP_ = nNPEIMCDGIP_;
-        result.buffId_ = buffId_;
         if (detailCase_ == 28) {
           if (hireLevelUpgradeBuffInfoBuilder_ == null) {
             result.detail_ = detail_;
@@ -1121,6 +1116,11 @@ public final class OEHOLOIDPEFOuterClass {
             result.detail_ = expandToReduceUpgradeCostBuffInfoBuilder_.build();
           }
         }
+        result.guid_ = guid_;
+        result.level_ = level_;
+        result.jCACGOEHBOA_ = jCACGOEHBOA_;
+        result.nNPEIMCDGIP_ = nNPEIMCDGIP_;
+        result.buffId_ = buffId_;
         result.detailCase_ = detailCase_;
         onBuilt();
         return result;
@@ -1261,161 +1261,6 @@ public final class OEHOLOIDPEFOuterClass {
         return this;
       }
 
-
-      private int guid_ ;
-      /**
-       * <code>uint32 guid = 2;</code>
-       * @return The guid.
-       */
-      @java.lang.Override
-      public int getGuid() {
-        return guid_;
-      }
-      /**
-       * <code>uint32 guid = 2;</code>
-       * @param value The guid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGuid(int value) {
-        
-        guid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 guid = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGuid() {
-        
-        guid_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int level_ ;
-      /**
-       * <code>uint32 level = 7;</code>
-       * @return The level.
-       */
-      @java.lang.Override
-      public int getLevel() {
-        return level_;
-      }
-      /**
-       * <code>uint32 level = 7;</code>
-       * @param value The level to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLevel(int value) {
-        
-        level_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 level = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLevel() {
-        
-        level_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int jCACGOEHBOA_ ;
-      /**
-       * <code>uint32 JCACGOEHBOA = 10;</code>
-       * @return The jCACGOEHBOA.
-       */
-      @java.lang.Override
-      public int getJCACGOEHBOA() {
-        return jCACGOEHBOA_;
-      }
-      /**
-       * <code>uint32 JCACGOEHBOA = 10;</code>
-       * @param value The jCACGOEHBOA to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJCACGOEHBOA(int value) {
-        
-        jCACGOEHBOA_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 JCACGOEHBOA = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJCACGOEHBOA() {
-        
-        jCACGOEHBOA_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int nNPEIMCDGIP_ ;
-      /**
-       * <code>uint32 NNPEIMCDGIP = 13;</code>
-       * @return The nNPEIMCDGIP.
-       */
-      @java.lang.Override
-      public int getNNPEIMCDGIP() {
-        return nNPEIMCDGIP_;
-      }
-      /**
-       * <code>uint32 NNPEIMCDGIP = 13;</code>
-       * @param value The nNPEIMCDGIP to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNNPEIMCDGIP(int value) {
-        
-        nNPEIMCDGIP_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 NNPEIMCDGIP = 13;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNNPEIMCDGIP() {
-        
-        nNPEIMCDGIP_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int buffId_ ;
-      /**
-       * <code>uint32 buff_id = 14;</code>
-       * @return The buffId.
-       */
-      @java.lang.Override
-      public int getBuffId() {
-        return buffId_;
-      }
-      /**
-       * <code>uint32 buff_id = 14;</code>
-       * @param value The buffId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setBuffId(int value) {
-        
-        buffId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 buff_id = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearBuffId() {
-        
-        buffId_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._HireLevelUpgradeBuffInfoOuterClass._HireLevelUpgradeBuffInfo, emu.grasscutter.net.proto._HireLevelUpgradeBuffInfoOuterClass._HireLevelUpgradeBuffInfo.Builder, emu.grasscutter.net.proto._HireLevelUpgradeBuffInfoOuterClass._HireLevelUpgradeBuffInfoOrBuilder> hireLevelUpgradeBuffInfoBuilder_;
@@ -2403,6 +2248,161 @@ public final class OEHOLOIDPEFOuterClass {
         onChanged();;
         return expandToReduceUpgradeCostBuffInfoBuilder_;
       }
+
+      private int guid_ ;
+      /**
+       * <code>uint32 guid = 2;</code>
+       * @return The guid.
+       */
+      @java.lang.Override
+      public int getGuid() {
+        return guid_;
+      }
+      /**
+       * <code>uint32 guid = 2;</code>
+       * @param value The guid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGuid(int value) {
+        
+        guid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 guid = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGuid() {
+        
+        guid_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int level_ ;
+      /**
+       * <code>uint32 level = 7;</code>
+       * @return The level.
+       */
+      @java.lang.Override
+      public int getLevel() {
+        return level_;
+      }
+      /**
+       * <code>uint32 level = 7;</code>
+       * @param value The level to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLevel(int value) {
+        
+        level_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 level = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLevel() {
+        
+        level_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int jCACGOEHBOA_ ;
+      /**
+       * <code>uint32 JCACGOEHBOA = 10;</code>
+       * @return The jCACGOEHBOA.
+       */
+      @java.lang.Override
+      public int getJCACGOEHBOA() {
+        return jCACGOEHBOA_;
+      }
+      /**
+       * <code>uint32 JCACGOEHBOA = 10;</code>
+       * @param value The jCACGOEHBOA to set.
+       * @return This builder for chaining.
+       */
+      public Builder setJCACGOEHBOA(int value) {
+        
+        jCACGOEHBOA_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 JCACGOEHBOA = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearJCACGOEHBOA() {
+        
+        jCACGOEHBOA_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int nNPEIMCDGIP_ ;
+      /**
+       * <code>uint32 NNPEIMCDGIP = 13;</code>
+       * @return The nNPEIMCDGIP.
+       */
+      @java.lang.Override
+      public int getNNPEIMCDGIP() {
+        return nNPEIMCDGIP_;
+      }
+      /**
+       * <code>uint32 NNPEIMCDGIP = 13;</code>
+       * @param value The nNPEIMCDGIP to set.
+       * @return This builder for chaining.
+       */
+      public Builder setNNPEIMCDGIP(int value) {
+        
+        nNPEIMCDGIP_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 NNPEIMCDGIP = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearNNPEIMCDGIP() {
+        
+        nNPEIMCDGIP_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int buffId_ ;
+      /**
+       * <code>uint32 buff_id = 14;</code>
+       * @return The buffId.
+       */
+      @java.lang.Override
+      public int getBuffId() {
+        return buffId_;
+      }
+      /**
+       * <code>uint32 buff_id = 14;</code>
+       * @param value The buffId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBuffId(int value) {
+        
+        buffId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 buff_id = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBuffId() {
+        
+        buffId_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -2477,24 +2477,24 @@ public final class OEHOLOIDPEFOuterClass {
       "adeBuffInfo.proto\032,_NoQuestApCostAfterQu" +
       "estFinishBuffInfo.proto\032\033_RevenueBonusBu" +
       "ffInfo.proto\032,_UpgradeToBonusFacilityRev" +
-      "enueBuffInfo.proto\"\274\005\n\013OEHOLOIDPEF\022\014\n\004gu" +
-      "id\030\002 \001(\r\022\r\n\005level\030\007 \001(\r\022\023\n\013JCACGOEHBOA\030\n" +
-      " \001(\r\022\023\n\013NNPEIMCDGIP\030\r \001(\r\022\017\n\007buff_id\030\016 \001" +
-      "(\r\022B\n\034hire_level_upgrade_buff_info\030\034 \001(\013" +
-      "2\032._HireLevelUpgradeBuffInfoH\000\022:\n\027revenu" +
-      "e_bonus_buff_info\030\207\002 \001(\0132\026._RevenueBonus" +
-      "BuffInfoH\000\022d\n.add_total_revenue_after_ac" +
-      "tions_exec_buff_info\030\255\006 \001(\0132)._AddTotalR" +
-      "evenueAfterActionsExecBuffInfoH\000\022_\n+upgr" +
-      "ade_to_bonus_facility_revenue_buff_info\030" +
-      "\371\010 \001(\0132\'._UpgradeToBonusFacilityRevenueB" +
-      "uffInfoH\000\022a\n-no_quest_ap_cost_after_ques" +
-      "t_finish_buff_info\030\326\t \001(\0132\'._NoQuestApCo" +
-      "stAfterQuestFinishBuffInfoH\000\022H\n\037action_p" +
-      "oints_no_cost_buff_info\030\240\n \001(\0132\034._Action" +
-      "PointsNoCostBuffInfoH\000\022W\n\'expand_to_redu" +
-      "ce_upgrade_cost_buff_info\030\370\r \001(\0132#._Expa" +
-      "ndToReduceUpgradeCostBuffInfoH\000B\010\n\006detai" +
+      "enueBuffInfo.proto\"\274\005\n\013OEHOLOIDPEF\022B\n\034hi" +
+      "re_level_upgrade_buff_info\030\034 \001(\0132\032._Hire" +
+      "LevelUpgradeBuffInfoH\000\022:\n\027revenue_bonus_" +
+      "buff_info\030\207\002 \001(\0132\026._RevenueBonusBuffInfo" +
+      "H\000\022d\n.add_total_revenue_after_actions_ex" +
+      "ec_buff_info\030\255\006 \001(\0132)._AddTotalRevenueAf" +
+      "terActionsExecBuffInfoH\000\022_\n+upgrade_to_b" +
+      "onus_facility_revenue_buff_info\030\371\010 \001(\0132\'" +
+      "._UpgradeToBonusFacilityRevenueBuffInfoH" +
+      "\000\022a\n-no_quest_ap_cost_after_quest_finish" +
+      "_buff_info\030\326\t \001(\0132\'._NoQuestApCostAfterQ" +
+      "uestFinishBuffInfoH\000\022H\n\037action_points_no" +
+      "_cost_buff_info\030\240\n \001(\0132\034._ActionPointsNo" +
+      "CostBuffInfoH\000\022W\n\'expand_to_reduce_upgra" +
+      "de_cost_buff_info\030\370\r \001(\0132#._ExpandToRedu" +
+      "ceUpgradeCostBuffInfoH\000\022\014\n\004guid\030\002 \001(\r\022\r\n" +
+      "\005level\030\007 \001(\r\022\023\n\013JCACGOEHBOA\030\n \001(\r\022\023\n\013NNP" +
+      "EIMCDGIP\030\r \001(\r\022\017\n\007buff_id\030\016 \001(\rB\010\n\006detai" +
       "lB2\n\031emu.grasscutter.net.protoB\025OEHOLOID" +
       "PEFOuterClassb\006proto3"
     };
@@ -2514,7 +2514,7 @@ public final class OEHOLOIDPEFOuterClass {
     internal_static_OEHOLOIDPEF_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OEHOLOIDPEF_descriptor,
-        new java.lang.String[] { "Guid", "Level", "JCACGOEHBOA", "NNPEIMCDGIP", "BuffId", "HireLevelUpgradeBuffInfo", "RevenueBonusBuffInfo", "AddTotalRevenueAfterActionsExecBuffInfo", "UpgradeToBonusFacilityRevenueBuffInfo", "NoQuestApCostAfterQuestFinishBuffInfo", "ActionPointsNoCostBuffInfo", "ExpandToReduceUpgradeCostBuffInfo", "Detail", });
+        new java.lang.String[] { "HireLevelUpgradeBuffInfo", "RevenueBonusBuffInfo", "AddTotalRevenueAfterActionsExecBuffInfo", "UpgradeToBonusFacilityRevenueBuffInfo", "NoQuestApCostAfterQuestFinishBuffInfo", "ActionPointsNoCostBuffInfo", "ExpandToReduceUpgradeCostBuffInfo", "Guid", "Level", "JCACGOEHBOA", "NNPEIMCDGIP", "BuffId", "Detail", });
     emu.grasscutter.net.proto._ActionPointsNoCostBuffInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._AddTotalRevenueAfterActionsExecBuffInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._ExpandToReduceUpgradeCostBuffInfoOuterClass.getDescriptor();

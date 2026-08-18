@@ -31,10 +31,6 @@ public final class EnterSceneReadyRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 7365
-   * </pre>
-   *
    * Protobuf type {@code EnterSceneReadyRsp}
    */
   public static final class EnterSceneReadyRsp extends
@@ -310,10 +306,6 @@ public final class EnterSceneReadyRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7365
-     * </pre>
-     *
      * Protobuf type {@code EnterSceneReadyRsp}
      */
     public static final class Builder extends

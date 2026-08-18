@@ -20,7 +20,7 @@ public final class GetProfilePictureDataReqOuterClass {
   }
   /**
    * <pre>
-   * CmdID: 2896
+   * CmdId: 20692
    * </pre>
    *
    * Protobuf type {@code GetProfilePictureDataReq}
@@ -245,7 +245,7 @@ public final class GetProfilePictureDataReqOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 2896
+     * CmdId: 20692
      * </pre>
      *
      * Protobuf type {@code GetProfilePictureDataReq}
@@ -455,9 +455,8 @@ public final class GetProfilePictureDataReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036GetProfilePictureDataReq.proto\"\032\n\030GetP" +
-      "rofilePictureDataReqB?\n\031emu.grasscutter." +
-      "net.protoB\"GetProfilePictureDataReqOuter" +
-      "Classb\006proto3"
+      "rofilePictureDataReqB\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -217,22 +217,22 @@ public final class FriendBriefOuterClass {
     emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType getPlatformType();
 
     /**
-     * <code>bool HJGPAMDHBFK = 28;</code>
-     * @return The hJGPAMDHBFK.
+     * <code>bool is_in_duel = 28;</code>
+     * @return The isInDuel.
      */
-    boolean getHJGPAMDHBFK();
+    boolean getIsInDuel();
 
     /**
-     * <code>bool MCAJECNEHEO = 29;</code>
-     * @return The mCAJECNEHEO.
+     * <code>bool is_duel_observable = 29;</code>
+     * @return The isDuelObservable.
      */
-    boolean getMCAJECNEHEO();
+    boolean getIsDuelObservable();
 
     /**
-     * <code>bool IDMOJMKNNGO = 30;</code>
-     * @return The iDMOJMKNNGO.
+     * <code>bool kedkpaobhbh = 30;</code>
+     * @return The kedkpaobhbh.
      */
-    boolean getIDMOJMKNNGO();
+    boolean getKedkpaobhbh();
 
     /**
      * <code>string _xbox_gamertag = 31;</code>
@@ -451,17 +451,17 @@ public final class FriendBriefOuterClass {
             }
             case 224: {
 
-              hJGPAMDHBFK_ = input.readBool();
+              isInDuel_ = input.readBool();
               break;
             }
             case 232: {
 
-              mCAJECNEHEO_ = input.readBool();
+              isDuelObservable_ = input.readBool();
               break;
             }
             case 240: {
 
-              iDMOJMKNNGO_ = input.readBool();
+              kedkpaobhbh_ = input.readBool();
               break;
             }
             case 250: {
@@ -934,37 +934,37 @@ public final class FriendBriefOuterClass {
       return result == null ? emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType.UNRECOGNIZED : result;
     }
 
-    public static final int HJGPAMDHBFK_FIELD_NUMBER = 28;
-    private boolean hJGPAMDHBFK_;
+    public static final int IS_IN_DUEL_FIELD_NUMBER = 28;
+    private boolean isInDuel_;
     /**
-     * <code>bool HJGPAMDHBFK = 28;</code>
-     * @return The hJGPAMDHBFK.
+     * <code>bool is_in_duel = 28;</code>
+     * @return The isInDuel.
      */
     @java.lang.Override
-    public boolean getHJGPAMDHBFK() {
-      return hJGPAMDHBFK_;
+    public boolean getIsInDuel() {
+      return isInDuel_;
     }
 
-    public static final int MCAJECNEHEO_FIELD_NUMBER = 29;
-    private boolean mCAJECNEHEO_;
+    public static final int IS_DUEL_OBSERVABLE_FIELD_NUMBER = 29;
+    private boolean isDuelObservable_;
     /**
-     * <code>bool MCAJECNEHEO = 29;</code>
-     * @return The mCAJECNEHEO.
+     * <code>bool is_duel_observable = 29;</code>
+     * @return The isDuelObservable.
      */
     @java.lang.Override
-    public boolean getMCAJECNEHEO() {
-      return mCAJECNEHEO_;
+    public boolean getIsDuelObservable() {
+      return isDuelObservable_;
     }
 
-    public static final int IDMOJMKNNGO_FIELD_NUMBER = 30;
-    private boolean iDMOJMKNNGO_;
+    public static final int KEDKPAOBHBH_FIELD_NUMBER = 30;
+    private boolean kedkpaobhbh_;
     /**
-     * <code>bool IDMOJMKNNGO = 30;</code>
-     * @return The iDMOJMKNNGO.
+     * <code>bool kedkpaobhbh = 30;</code>
+     * @return The kedkpaobhbh.
      */
     @java.lang.Override
-    public boolean getIDMOJMKNNGO() {
-      return iDMOJMKNNGO_;
+    public boolean getKedkpaobhbh() {
+      return kedkpaobhbh_;
     }
 
     public static final int _XBOX_GAMERTAG_FIELD_NUMBER = 31;
@@ -1134,14 +1134,14 @@ public final class FriendBriefOuterClass {
       if (platformType_ != emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType.PlatformType_EDITOR.getNumber()) {
         output.writeEnum(27, platformType_);
       }
-      if (hJGPAMDHBFK_ != false) {
-        output.writeBool(28, hJGPAMDHBFK_);
+      if (isInDuel_ != false) {
+        output.writeBool(28, isInDuel_);
       }
-      if (mCAJECNEHEO_ != false) {
-        output.writeBool(29, mCAJECNEHEO_);
+      if (isDuelObservable_ != false) {
+        output.writeBool(29, isDuelObservable_);
       }
-      if (iDMOJMKNNGO_ != false) {
-        output.writeBool(30, iDMOJMKNNGO_);
+      if (kedkpaobhbh_ != false) {
+        output.writeBool(30, kedkpaobhbh_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 31, XboxGamertag_);
@@ -1245,17 +1245,17 @@ public final class FriendBriefOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(27, platformType_);
       }
-      if (hJGPAMDHBFK_ != false) {
+      if (isInDuel_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(28, hJGPAMDHBFK_);
+          .computeBoolSize(28, isInDuel_);
       }
-      if (mCAJECNEHEO_ != false) {
+      if (isDuelObservable_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(29, mCAJECNEHEO_);
+          .computeBoolSize(29, isDuelObservable_);
       }
-      if (iDMOJMKNNGO_ != false) {
+      if (kedkpaobhbh_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(30, iDMOJMKNNGO_);
+          .computeBoolSize(30, kedkpaobhbh_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(31, XboxGamertag_);
@@ -1326,12 +1326,12 @@ public final class FriendBriefOuterClass {
       if (getIsPsnSource()
           != other.getIsPsnSource()) return false;
       if (platformType_ != other.platformType_) return false;
-      if (getHJGPAMDHBFK()
-          != other.getHJGPAMDHBFK()) return false;
-      if (getMCAJECNEHEO()
-          != other.getMCAJECNEHEO()) return false;
-      if (getIDMOJMKNNGO()
-          != other.getIDMOJMKNNGO()) return false;
+      if (getIsInDuel()
+          != other.getIsInDuel()) return false;
+      if (getIsDuelObservable()
+          != other.getIsDuelObservable()) return false;
+      if (getKedkpaobhbh()
+          != other.getKedkpaobhbh()) return false;
       if (!getXboxGamertag()
           .equals(other.getXboxGamertag())) return false;
       if (!getXuid()
@@ -1401,15 +1401,15 @@ public final class FriendBriefOuterClass {
           getIsPsnSource());
       hash = (37 * hash) + PLATFORM_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + platformType_;
-      hash = (37 * hash) + HJGPAMDHBFK_FIELD_NUMBER;
+      hash = (37 * hash) + IS_IN_DUEL_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getHJGPAMDHBFK());
-      hash = (37 * hash) + MCAJECNEHEO_FIELD_NUMBER;
+          getIsInDuel());
+      hash = (37 * hash) + IS_DUEL_OBSERVABLE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getMCAJECNEHEO());
-      hash = (37 * hash) + IDMOJMKNNGO_FIELD_NUMBER;
+          getIsDuelObservable());
+      hash = (37 * hash) + KEDKPAOBHBH_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIDMOJMKNNGO());
+          getKedkpaobhbh());
       hash = (37 * hash) + _XBOX_GAMERTAG_FIELD_NUMBER;
       hash = (53 * hash) + getXboxGamertag().hashCode();
       hash = (37 * hash) + _XUID_FIELD_NUMBER;
@@ -1603,11 +1603,11 @@ public final class FriendBriefOuterClass {
 
         platformType_ = 0;
 
-        hJGPAMDHBFK_ = false;
+        isInDuel_ = false;
 
-        mCAJECNEHEO_ = false;
+        isDuelObservable_ = false;
 
-        iDMOJMKNNGO_ = false;
+        kedkpaobhbh_ = false;
 
         XboxGamertag_ = "";
 
@@ -1676,9 +1676,9 @@ public final class FriendBriefOuterClass {
         result.isGameSource_ = isGameSource_;
         result.isPsnSource_ = isPsnSource_;
         result.platformType_ = platformType_;
-        result.hJGPAMDHBFK_ = hJGPAMDHBFK_;
-        result.mCAJECNEHEO_ = mCAJECNEHEO_;
-        result.iDMOJMKNNGO_ = iDMOJMKNNGO_;
+        result.isInDuel_ = isInDuel_;
+        result.isDuelObservable_ = isDuelObservable_;
+        result.kedkpaobhbh_ = kedkpaobhbh_;
         result.XboxGamertag_ = XboxGamertag_;
         result.Xuid_ = Xuid_;
         result.IsInBeyond_ = IsInBeyond_;
@@ -1823,14 +1823,14 @@ public final class FriendBriefOuterClass {
         if (other.platformType_ != 0) {
           setPlatformTypeValue(other.getPlatformTypeValue());
         }
-        if (other.getHJGPAMDHBFK() != false) {
-          setHJGPAMDHBFK(other.getHJGPAMDHBFK());
+        if (other.getIsInDuel() != false) {
+          setIsInDuel(other.getIsInDuel());
         }
-        if (other.getMCAJECNEHEO() != false) {
-          setMCAJECNEHEO(other.getMCAJECNEHEO());
+        if (other.getIsDuelObservable() != false) {
+          setIsDuelObservable(other.getIsDuelObservable());
         }
-        if (other.getIDMOJMKNNGO() != false) {
-          setIDMOJMKNNGO(other.getIDMOJMKNNGO());
+        if (other.getKedkpaobhbh() != false) {
+          setKedkpaobhbh(other.getKedkpaobhbh());
         }
         if (!other.getXboxGamertag().isEmpty()) {
           XboxGamertag_ = other.XboxGamertag_;
@@ -3101,95 +3101,95 @@ public final class FriendBriefOuterClass {
         return this;
       }
 
-      private boolean hJGPAMDHBFK_ ;
+      private boolean isInDuel_ ;
       /**
-       * <code>bool HJGPAMDHBFK = 28;</code>
-       * @return The hJGPAMDHBFK.
+       * <code>bool is_in_duel = 28;</code>
+       * @return The isInDuel.
        */
       @java.lang.Override
-      public boolean getHJGPAMDHBFK() {
-        return hJGPAMDHBFK_;
+      public boolean getIsInDuel() {
+        return isInDuel_;
       }
       /**
-       * <code>bool HJGPAMDHBFK = 28;</code>
-       * @param value The hJGPAMDHBFK to set.
+       * <code>bool is_in_duel = 28;</code>
+       * @param value The isInDuel to set.
        * @return This builder for chaining.
        */
-      public Builder setHJGPAMDHBFK(boolean value) {
+      public Builder setIsInDuel(boolean value) {
         
-        hJGPAMDHBFK_ = value;
+        isInDuel_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool HJGPAMDHBFK = 28;</code>
+       * <code>bool is_in_duel = 28;</code>
        * @return This builder for chaining.
        */
-      public Builder clearHJGPAMDHBFK() {
+      public Builder clearIsInDuel() {
         
-        hJGPAMDHBFK_ = false;
+        isInDuel_ = false;
         onChanged();
         return this;
       }
 
-      private boolean mCAJECNEHEO_ ;
+      private boolean isDuelObservable_ ;
       /**
-       * <code>bool MCAJECNEHEO = 29;</code>
-       * @return The mCAJECNEHEO.
+       * <code>bool is_duel_observable = 29;</code>
+       * @return The isDuelObservable.
        */
       @java.lang.Override
-      public boolean getMCAJECNEHEO() {
-        return mCAJECNEHEO_;
+      public boolean getIsDuelObservable() {
+        return isDuelObservable_;
       }
       /**
-       * <code>bool MCAJECNEHEO = 29;</code>
-       * @param value The mCAJECNEHEO to set.
+       * <code>bool is_duel_observable = 29;</code>
+       * @param value The isDuelObservable to set.
        * @return This builder for chaining.
        */
-      public Builder setMCAJECNEHEO(boolean value) {
+      public Builder setIsDuelObservable(boolean value) {
         
-        mCAJECNEHEO_ = value;
+        isDuelObservable_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool MCAJECNEHEO = 29;</code>
+       * <code>bool is_duel_observable = 29;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMCAJECNEHEO() {
+      public Builder clearIsDuelObservable() {
         
-        mCAJECNEHEO_ = false;
+        isDuelObservable_ = false;
         onChanged();
         return this;
       }
 
-      private boolean iDMOJMKNNGO_ ;
+      private boolean kedkpaobhbh_ ;
       /**
-       * <code>bool IDMOJMKNNGO = 30;</code>
-       * @return The iDMOJMKNNGO.
+       * <code>bool kedkpaobhbh = 30;</code>
+       * @return The kedkpaobhbh.
        */
       @java.lang.Override
-      public boolean getIDMOJMKNNGO() {
-        return iDMOJMKNNGO_;
+      public boolean getKedkpaobhbh() {
+        return kedkpaobhbh_;
       }
       /**
-       * <code>bool IDMOJMKNNGO = 30;</code>
-       * @param value The iDMOJMKNNGO to set.
+       * <code>bool kedkpaobhbh = 30;</code>
+       * @param value The kedkpaobhbh to set.
        * @return This builder for chaining.
        */
-      public Builder setIDMOJMKNNGO(boolean value) {
+      public Builder setKedkpaobhbh(boolean value) {
         
-        iDMOJMKNNGO_ = value;
+        kedkpaobhbh_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool IDMOJMKNNGO = 30;</code>
+       * <code>bool kedkpaobhbh = 30;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIDMOJMKNNGO() {
+      public Builder clearKedkpaobhbh() {
         
-        iDMOJMKNNGO_ = false;
+        kedkpaobhbh_ = false;
         onChanged();
         return this;
       }
@@ -3446,7 +3446,7 @@ public final class FriendBriefOuterClass {
       "\n\021FriendBrief.proto\032\033FriendEnterHomeOpti" +
       "on.proto\032\027FriendOnlineState.proto\032\022Platf" +
       "ormType.proto\032\024ProfilePicture.proto\032\032Soc" +
-      "ialShowAvatarInfo.proto\"\333\005\n\013FriendBrief\022" +
+      "ialShowAvatarInfo.proto\"\341\005\n\013FriendBrief\022" +
       "\013\n\003uid\030\001 \001(\r\022\020\n\010nickname\030\002 \001(\t\022\r\n\005level\030" +
       "\003 \001(\r\022\021\n\tavatar_id\030\004 \001(\r\022\023\n\013world_level\030" +
       "\005 \001(\r\022\021\n\tsignature\030\006 \001(\t\022(\n\014online_state" +
@@ -3461,12 +3461,12 @@ public final class FriendBriefOuterClass {
       "\0162\026.FriendEnterHomeOption\022(\n\017profile_pic" +
       "ture\030\030 \001(\0132\017.ProfilePicture\022\026\n\016is_game_s" +
       "ource\030\031 \001(\010\022\025\n\ris_psn_source\030\032 \001(\010\022$\n\rpl" +
-      "atform_type\030\033 \001(\0162\r.PlatformType\022\023\n\013HJGP" +
-      "AMDHBFK\030\034 \001(\010\022\023\n\013MCAJECNEHEO\030\035 \001(\010\022\023\n\013ID" +
-      "MOJMKNNGO\030\036 \001(\010\022\026\n\016_xbox_gamertag\030\037 \001(\t\022" +
-      "\r\n\005_xuid\030  \001(\t\022\025\n\r_is_in_beyond\030! \001(\010B2\n" +
-      "\031emu.grasscutter.net.protoB\025FriendBriefO" +
-      "uterClassb\006proto3"
+      "atform_type\030\033 \001(\0162\r.PlatformType\022\022\n\nis_i" +
+      "n_duel\030\034 \001(\010\022\032\n\022is_duel_observable\030\035 \001(\010" +
+      "\022\023\n\013kedkpaobhbh\030\036 \001(\010\022\026\n\016_xbox_gamertag\030" +
+      "\037 \001(\t\022\r\n\005_xuid\030  \001(\t\022\025\n\r_is_in_beyond\030! " +
+      "\001(\010B2\n\031emu.grasscutter.net.protoB\025Friend" +
+      "BriefOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3482,7 +3482,7 @@ public final class FriendBriefOuterClass {
     internal_static_FriendBrief_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FriendBrief_descriptor,
-        new java.lang.String[] { "Uid", "Nickname", "Level", "AvatarId", "WorldLevel", "Signature", "OnlineState", "Param", "IsMpModeAvailable", "OnlineId", "LastActiveTime", "NameCardId", "MpPlayerNum", "IsChatNoDisturb", "ChatSequence", "RemarkName", "ShowAvatarInfoList", "FriendEnterHomeOption", "ProfilePicture", "IsGameSource", "IsPsnSource", "PlatformType", "HJGPAMDHBFK", "MCAJECNEHEO", "IDMOJMKNNGO", "XboxGamertag", "Xuid", "IsInBeyond", });
+        new java.lang.String[] { "Uid", "Nickname", "Level", "AvatarId", "WorldLevel", "Signature", "OnlineState", "Param", "IsMpModeAvailable", "OnlineId", "LastActiveTime", "NameCardId", "MpPlayerNum", "IsChatNoDisturb", "ChatSequence", "RemarkName", "ShowAvatarInfoList", "FriendEnterHomeOption", "ProfilePicture", "IsGameSource", "IsPsnSource", "PlatformType", "IsInDuel", "IsDuelObservable", "Kedkpaobhbh", "XboxGamertag", "Xuid", "IsInBeyond", });
     emu.grasscutter.net.proto.FriendEnterHomeOptionOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FriendOnlineStateOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PlatformTypeOuterClass.getDescriptor();

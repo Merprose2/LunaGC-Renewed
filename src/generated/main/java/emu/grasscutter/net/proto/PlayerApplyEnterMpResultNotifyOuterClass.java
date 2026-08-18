@@ -54,10 +54,6 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
         getTargetNicknameBytes();
   }
   /**
-   * <pre>
-   * CmdID: 22975
-   * </pre>
-   *
    * Protobuf type {@code PlayerApplyEnterMpResultNotify}
    */
   public static final class PlayerApplyEnterMpResultNotify extends
@@ -686,10 +682,6 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22975
-     * </pre>
-     *
      * Protobuf type {@code PlayerApplyEnterMpResultNotify}
      */
     public static final class Builder extends

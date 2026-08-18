@@ -55,10 +55,6 @@ public final class HitTreeNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getDropPosOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 4371
-   * </pre>
-   *
    * Protobuf type {@code HitTreeNotify}
    */
   public static final class HitTreeNotify extends
@@ -417,10 +413,6 @@ public final class HitTreeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4371
-     * </pre>
-     *
      * Protobuf type {@code HitTreeNotify}
      */
     public static final class Builder extends

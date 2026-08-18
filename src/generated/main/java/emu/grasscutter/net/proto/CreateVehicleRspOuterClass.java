@@ -37,10 +37,6 @@ public final class CreateVehicleRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 28725
-   * </pre>
-   *
    * Protobuf type {@code CreateVehicleRsp}
    */
   public static final class CreateVehicleRsp extends
@@ -343,10 +339,6 @@ public final class CreateVehicleRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28725
-     * </pre>
-     *
      * Protobuf type {@code CreateVehicleRsp}
      */
     public static final class Builder extends

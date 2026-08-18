@@ -31,10 +31,6 @@ public final class GetSceneAreaReqOuterClass {
     int getBelongUid();
   }
   /**
-   * <pre>
-   * BeyondCmdID: 1014
-   * </pre>
-   *
    * Protobuf type {@code GetSceneAreaReq}
    */
   public static final class GetSceneAreaReq extends
@@ -310,10 +306,6 @@ public final class GetSceneAreaReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * BeyondCmdID: 1014
-     * </pre>
-     *
      * Protobuf type {@code GetSceneAreaReq}
      */
     public static final class Builder extends

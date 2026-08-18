@@ -49,10 +49,6 @@ public final class SceneTeamUpdateNotifyOuterClass {
     boolean getIsInMp();
   }
   /**
-   * <pre>
-   * CmdID: 7886
-   * </pre>
-   *
    * Protobuf type {@code SceneTeamUpdateNotify}
    */
   public static final class SceneTeamUpdateNotify extends
@@ -369,10 +365,6 @@ public final class SceneTeamUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7886
-     * </pre>
-     *
      * Protobuf type {@code SceneTeamUpdateNotify}
      */
     public static final class Builder extends

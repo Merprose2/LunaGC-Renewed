@@ -36,10 +36,6 @@ public final class ForgeQueueManipulateReqOuterClass {
     emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType getManipulateType();
   }
   /**
-   * <pre>
-   * CmdID: 20517
-   * </pre>
-   *
    * Protobuf type {@code ForgeQueueManipulateReq}
    */
   public static final class ForgeQueueManipulateReq extends
@@ -324,10 +320,6 @@ public final class ForgeQueueManipulateReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20517
-     * </pre>
-     *
      * Protobuf type {@code ForgeQueueManipulateReq}
      */
     public static final class Builder extends

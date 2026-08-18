@@ -43,10 +43,6 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 20129
-   * </pre>
-   *
    * Protobuf type {@code FurnitureCurModuleArrangeCountNotify}
    */
   public static final class FurnitureCurModuleArrangeCountNotify extends
@@ -335,10 +331,6 @@ public final class FurnitureCurModuleArrangeCountNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20129
-     * </pre>
-     *
      * Protobuf type {@code FurnitureCurModuleArrangeCountNotify}
      */
     public static final class Builder extends

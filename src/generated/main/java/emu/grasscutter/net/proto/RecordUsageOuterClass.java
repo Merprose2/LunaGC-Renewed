@@ -20,56 +20,56 @@ public final class RecordUsageOuterClass {
   public enum RecordUsage
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_NONE = 0;</code>
+     * <code>UGC_RECORD_USAGE_NONE = 0;</code>
      */
-    RecordUsage_UGC_RECORD_USAGE_NONE(0),
+    UGC_RECORD_USAGE_NONE(0),
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_IMPORT = 1;</code>
+     * <code>UGC_RECORD_USAGE_IMPORT = 1;</code>
      */
-    RecordUsage_UGC_RECORD_USAGE_IMPORT(1),
+    UGC_RECORD_USAGE_IMPORT(1),
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_PLAY = 2;</code>
+     * <code>UGC_RECORD_USAGE_PLAY = 2;</code>
      */
-    RecordUsage_UGC_RECORD_USAGE_PLAY(2),
+    UGC_RECORD_USAGE_PLAY(2),
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_TRIAL = 3;</code>
+     * <code>UGC_RECORD_USAGE_TRIAL = 3;</code>
      */
-    RecordUsage_UGC_RECORD_USAGE_TRIAL(3),
+    UGC_RECORD_USAGE_TRIAL(3),
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_COMPARE = 4;</code>
+     * <code>UGC_RECORD_USAGE_COMPARE = 4;</code>
      */
-    RecordUsage_UGC_RECORD_USAGE_COMPARE(4),
+    UGC_RECORD_USAGE_COMPARE(4),
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_PVP = 5;</code>
+     * <code>UGC_RECORD_USAGE_PVP = 5;</code>
      */
-    RecordUsage_UGC_RECORD_USAGE_PVP(5),
+    UGC_RECORD_USAGE_PVP(5),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_NONE = 0;</code>
+     * <code>UGC_RECORD_USAGE_NONE = 0;</code>
      */
-    public static final int RecordUsage_UGC_RECORD_USAGE_NONE_VALUE = 0;
+    public static final int UGC_RECORD_USAGE_NONE_VALUE = 0;
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_IMPORT = 1;</code>
+     * <code>UGC_RECORD_USAGE_IMPORT = 1;</code>
      */
-    public static final int RecordUsage_UGC_RECORD_USAGE_IMPORT_VALUE = 1;
+    public static final int UGC_RECORD_USAGE_IMPORT_VALUE = 1;
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_PLAY = 2;</code>
+     * <code>UGC_RECORD_USAGE_PLAY = 2;</code>
      */
-    public static final int RecordUsage_UGC_RECORD_USAGE_PLAY_VALUE = 2;
+    public static final int UGC_RECORD_USAGE_PLAY_VALUE = 2;
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_TRIAL = 3;</code>
+     * <code>UGC_RECORD_USAGE_TRIAL = 3;</code>
      */
-    public static final int RecordUsage_UGC_RECORD_USAGE_TRIAL_VALUE = 3;
+    public static final int UGC_RECORD_USAGE_TRIAL_VALUE = 3;
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_COMPARE = 4;</code>
+     * <code>UGC_RECORD_USAGE_COMPARE = 4;</code>
      */
-    public static final int RecordUsage_UGC_RECORD_USAGE_COMPARE_VALUE = 4;
+    public static final int UGC_RECORD_USAGE_COMPARE_VALUE = 4;
     /**
-     * <code>RecordUsage_UGC_RECORD_USAGE_PVP = 5;</code>
+     * <code>UGC_RECORD_USAGE_PVP = 5;</code>
      */
-    public static final int RecordUsage_UGC_RECORD_USAGE_PVP_VALUE = 5;
+    public static final int UGC_RECORD_USAGE_PVP_VALUE = 5;
 
 
     public final int getNumber() {
@@ -96,12 +96,12 @@ public final class RecordUsageOuterClass {
      */
     public static RecordUsage forNumber(int value) {
       switch (value) {
-        case 0: return RecordUsage_UGC_RECORD_USAGE_NONE;
-        case 1: return RecordUsage_UGC_RECORD_USAGE_IMPORT;
-        case 2: return RecordUsage_UGC_RECORD_USAGE_PLAY;
-        case 3: return RecordUsage_UGC_RECORD_USAGE_TRIAL;
-        case 4: return RecordUsage_UGC_RECORD_USAGE_COMPARE;
-        case 5: return RecordUsage_UGC_RECORD_USAGE_PVP;
+        case 0: return UGC_RECORD_USAGE_NONE;
+        case 1: return UGC_RECORD_USAGE_IMPORT;
+        case 2: return UGC_RECORD_USAGE_PLAY;
+        case 3: return UGC_RECORD_USAGE_TRIAL;
+        case 4: return UGC_RECORD_USAGE_COMPARE;
+        case 5: return UGC_RECORD_USAGE_PVP;
         default: return null;
       }
     }
@@ -167,15 +167,13 @@ public final class RecordUsageOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021RecordUsage.proto*\374\001\n\013RecordUsage\022%\n!R" +
-      "ecordUsage_UGC_RECORD_USAGE_NONE\020\000\022\'\n#Re" +
-      "cordUsage_UGC_RECORD_USAGE_IMPORT\020\001\022%\n!R" +
-      "ecordUsage_UGC_RECORD_USAGE_PLAY\020\002\022&\n\"Re" +
-      "cordUsage_UGC_RECORD_USAGE_TRIAL\020\003\022(\n$Re" +
-      "cordUsage_UGC_RECORD_USAGE_COMPARE\020\004\022$\n " +
-      "RecordUsage_UGC_RECORD_USAGE_PVP\020\005B2\n\031em" +
-      "u.grasscutter.net.protoB\025RecordUsageOute" +
-      "rClassb\006proto3"
+      "\n\021RecordUsage.proto*\264\001\n\013RecordUsage\022\031\n\025U" +
+      "GC_RECORD_USAGE_NONE\020\000\022\033\n\027UGC_RECORD_USA" +
+      "GE_IMPORT\020\001\022\031\n\025UGC_RECORD_USAGE_PLAY\020\002\022\032" +
+      "\n\026UGC_RECORD_USAGE_TRIAL\020\003\022\034\n\030UGC_RECORD" +
+      "_USAGE_COMPARE\020\004\022\030\n\024UGC_RECORD_USAGE_PVP" +
+      "\020\005B2\n\031emu.grasscutter.net.protoB\025RecordU" +
+      "sageOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

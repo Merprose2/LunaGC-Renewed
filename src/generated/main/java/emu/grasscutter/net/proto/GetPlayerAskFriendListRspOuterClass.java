@@ -49,10 +49,6 @@ public final class GetPlayerAskFriendListRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 4950
-   * </pre>
-   *
    * Protobuf type {@code GetPlayerAskFriendListRsp}
    */
   public static final class GetPlayerAskFriendListRsp extends
@@ -368,10 +364,6 @@ public final class GetPlayerAskFriendListRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4950
-     * </pre>
-     *
      * Protobuf type {@code GetPlayerAskFriendListRsp}
      */
     public static final class Builder extends

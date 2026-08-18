@@ -66,10 +66,6 @@ public final class TakeCompoundOutputRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 83
-   * </pre>
-   *
    * Protobuf type {@code TakeCompoundOutputRsp}
    */
   public static final class TakeCompoundOutputRsp extends
@@ -466,10 +462,6 @@ public final class TakeCompoundOutputRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 83
-     * </pre>
-     *
      * Protobuf type {@code TakeCompoundOutputRsp}
      */
     public static final class Builder extends

@@ -31,10 +31,6 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
     int getSceneId();
   }
   /**
-   * <pre>
-   * CmdID: 3685
-   * </pre>
-   *
    * Protobuf type {@code HomeSaveArrangementNoChangeRsp}
    */
   public static final class HomeSaveArrangementNoChangeRsp extends
@@ -310,10 +306,6 @@ public final class HomeSaveArrangementNoChangeRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3685
-     * </pre>
-     *
      * Protobuf type {@code HomeSaveArrangementNoChangeRsp}
      */
     public static final class Builder extends

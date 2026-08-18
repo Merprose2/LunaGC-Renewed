@@ -100,10 +100,6 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 21971
-   * </pre>
-   *
    * Protobuf type {@code AvatarExpeditionGetRewardRsp}
    */
   public static final class AvatarExpeditionGetRewardRsp extends
@@ -628,10 +624,6 @@ public final class AvatarExpeditionGetRewardRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21971
-     * </pre>
-     *
      * Protobuf type {@code AvatarExpeditionGetRewardRsp}
      */
     public static final class Builder extends

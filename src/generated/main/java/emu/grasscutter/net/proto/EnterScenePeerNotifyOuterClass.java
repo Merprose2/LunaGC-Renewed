@@ -43,10 +43,6 @@ public final class EnterScenePeerNotifyOuterClass {
     int getHostPeerId();
   }
   /**
-   * <pre>
-   * CmdID: 7815
-   * </pre>
-   *
    * Protobuf type {@code EnterScenePeerNotify}
    */
   public static final class EnterScenePeerNotify extends
@@ -376,10 +372,6 @@ public final class EnterScenePeerNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7815
-     * </pre>
-     *
      * Protobuf type {@code EnterScenePeerNotify}
      */
     public static final class Builder extends

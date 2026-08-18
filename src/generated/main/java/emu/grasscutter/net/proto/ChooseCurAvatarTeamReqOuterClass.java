@@ -25,10 +25,6 @@ public final class ChooseCurAvatarTeamReqOuterClass {
     int getTeamId();
   }
   /**
-   * <pre>
-   * CmdID: 27433
-   * </pre>
-   *
    * Protobuf type {@code ChooseCurAvatarTeamReq}
    */
   public static final class ChooseCurAvatarTeamReq extends
@@ -277,10 +273,6 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27433
-     * </pre>
-     *
      * Protobuf type {@code ChooseCurAvatarTeamReq}
      */
     public static final class Builder extends

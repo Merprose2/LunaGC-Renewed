@@ -37,10 +37,6 @@ public final class HomeAvatarSummonEventReqOuterClass {
     int getGuid();
   }
   /**
-   * <pre>
-   * CmdID: 2092
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarSummonEventReq}
    */
   public static final class HomeAvatarSummonEventReq extends
@@ -343,10 +339,6 @@ public final class HomeAvatarSummonEventReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2092
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarSummonEventReq}
      */
     public static final class Builder extends

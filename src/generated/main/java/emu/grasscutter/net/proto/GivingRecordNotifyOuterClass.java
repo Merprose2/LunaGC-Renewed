@@ -43,10 +43,6 @@ public final class GivingRecordNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 3715
-   * </pre>
-   *
    * Protobuf type {@code GivingRecordNotify}
    */
   public static final class GivingRecordNotify extends
@@ -335,10 +331,6 @@ public final class GivingRecordNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3715
-     * </pre>
-     *
      * Protobuf type {@code GivingRecordNotify}
      */
     public static final class Builder extends

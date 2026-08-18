@@ -37,10 +37,6 @@ public final class ChangeGameTimeReqOuterClass {
     int getGameTime();
   }
   /**
-   * <pre>
-   * CmdID: 24374
-   * </pre>
-   *
    * Protobuf type {@code ChangeGameTimeReq}
    */
   public static final class ChangeGameTimeReq extends
@@ -344,10 +340,6 @@ public final class ChangeGameTimeReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24374
-     * </pre>
-     *
      * Protobuf type {@code ChangeGameTimeReq}
      */
     public static final class Builder extends

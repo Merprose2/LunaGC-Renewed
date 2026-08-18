@@ -31,10 +31,6 @@ public final class AvatarFetterLevelRewardReqOuterClass {
     long getAvatarGuid();
   }
   /**
-   * <pre>
-   * CmdID: 24449
-   * </pre>
-   *
    * Protobuf type {@code AvatarFetterLevelRewardReq}
    */
   public static final class AvatarFetterLevelRewardReq extends
@@ -311,10 +307,6 @@ public final class AvatarFetterLevelRewardReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24449
-     * </pre>
-     *
      * Protobuf type {@code AvatarFetterLevelRewardReq}
      */
     public static final class Builder extends

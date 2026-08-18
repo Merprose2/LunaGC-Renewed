@@ -76,10 +76,6 @@ public final class ForgeDataNotifyOuterClass {
     int getMaxQueueNum();
   }
   /**
-   * <pre>
-   * CmdID: 3708
-   * </pre>
-   *
    * Protobuf type {@code ForgeDataNotify}
    */
   public static final class ForgeDataNotify extends
@@ -538,10 +534,6 @@ public final class ForgeDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3708
-     * </pre>
-     *
      * Protobuf type {@code ForgeDataNotify}
      */
     public static final class Builder extends

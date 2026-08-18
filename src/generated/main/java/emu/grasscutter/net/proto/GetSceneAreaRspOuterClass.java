@@ -72,10 +72,6 @@ public final class GetSceneAreaRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 4722
-   * </pre>
-   *
    * Protobuf type {@code GetSceneAreaRsp}
    */
   public static final class GetSceneAreaRsp extends
@@ -499,10 +495,6 @@ public final class GetSceneAreaRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4722
-     * </pre>
-     *
      * Protobuf type {@code GetSceneAreaRsp}
      */
     public static final class Builder extends

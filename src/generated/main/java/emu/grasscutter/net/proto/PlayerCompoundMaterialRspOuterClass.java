@@ -40,10 +40,6 @@ public final class PlayerCompoundMaterialRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 25738
-   * </pre>
-   *
    * Protobuf type {@code PlayerCompoundMaterialRsp}
    */
   public static final class PlayerCompoundMaterialRsp extends
@@ -347,10 +343,6 @@ public final class PlayerCompoundMaterialRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25738
-     * </pre>
-     *
      * Protobuf type {@code PlayerCompoundMaterialRsp}
      */
     public static final class Builder extends

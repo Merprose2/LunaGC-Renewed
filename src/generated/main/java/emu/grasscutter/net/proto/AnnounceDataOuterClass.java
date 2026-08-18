@@ -37,16 +37,16 @@ public final class AnnounceDataOuterClass {
     int getBeginTime();
 
     /**
-     * <code>uint32 MBMBKDPOCBE = 5;</code>
-     * @return The mBMBKDPOCBE.
+     * <code>uint32 center_system_frequency = 5;</code>
+     * @return The centerSystemFrequency.
      */
-    int getMBMBKDPOCBE();
+    int getCenterSystemFrequency();
 
     /**
-     * <code>uint32 BOEOJAFIFOF = 9;</code>
-     * @return The bOEOJAFIFOF.
+     * <code>uint32 count_down_frequency = 9;</code>
+     * @return The countDownFrequency.
      */
-    int getBOEOJAFIFOF();
+    int getCountDownFrequency();
 
     /**
      * <code>uint32 config_id = 10;</code>
@@ -155,12 +155,12 @@ public final class AnnounceDataOuterClass {
             }
             case 40: {
 
-              mBMBKDPOCBE_ = input.readUInt32();
+              centerSystemFrequency_ = input.readUInt32();
               break;
             }
             case 72: {
 
-              bOEOJAFIFOF_ = input.readUInt32();
+              countDownFrequency_ = input.readUInt32();
               break;
             }
             case 80: {
@@ -251,26 +251,26 @@ public final class AnnounceDataOuterClass {
       return beginTime_;
     }
 
-    public static final int MBMBKDPOCBE_FIELD_NUMBER = 5;
-    private int mBMBKDPOCBE_;
+    public static final int CENTER_SYSTEM_FREQUENCY_FIELD_NUMBER = 5;
+    private int centerSystemFrequency_;
     /**
-     * <code>uint32 MBMBKDPOCBE = 5;</code>
-     * @return The mBMBKDPOCBE.
+     * <code>uint32 center_system_frequency = 5;</code>
+     * @return The centerSystemFrequency.
      */
     @java.lang.Override
-    public int getMBMBKDPOCBE() {
-      return mBMBKDPOCBE_;
+    public int getCenterSystemFrequency() {
+      return centerSystemFrequency_;
     }
 
-    public static final int BOEOJAFIFOF_FIELD_NUMBER = 9;
-    private int bOEOJAFIFOF_;
+    public static final int COUNT_DOWN_FREQUENCY_FIELD_NUMBER = 9;
+    private int countDownFrequency_;
     /**
-     * <code>uint32 BOEOJAFIFOF = 9;</code>
-     * @return The bOEOJAFIFOF.
+     * <code>uint32 count_down_frequency = 9;</code>
+     * @return The countDownFrequency.
      */
     @java.lang.Override
-    public int getBOEOJAFIFOF() {
-      return bOEOJAFIFOF_;
+    public int getCountDownFrequency() {
+      return countDownFrequency_;
     }
 
     public static final int CONFIG_ID_FIELD_NUMBER = 10;
@@ -421,11 +421,11 @@ public final class AnnounceDataOuterClass {
       if (beginTime_ != 0) {
         output.writeUInt32(4, beginTime_);
       }
-      if (mBMBKDPOCBE_ != 0) {
-        output.writeUInt32(5, mBMBKDPOCBE_);
+      if (centerSystemFrequency_ != 0) {
+        output.writeUInt32(5, centerSystemFrequency_);
       }
-      if (bOEOJAFIFOF_ != 0) {
-        output.writeUInt32(9, bOEOJAFIFOF_);
+      if (countDownFrequency_ != 0) {
+        output.writeUInt32(9, countDownFrequency_);
       }
       if (configId_ != 0) {
         output.writeUInt32(10, configId_);
@@ -460,13 +460,13 @@ public final class AnnounceDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, beginTime_);
       }
-      if (mBMBKDPOCBE_ != 0) {
+      if (centerSystemFrequency_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, mBMBKDPOCBE_);
+          .computeUInt32Size(5, centerSystemFrequency_);
       }
-      if (bOEOJAFIFOF_ != 0) {
+      if (countDownFrequency_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, bOEOJAFIFOF_);
+          .computeUInt32Size(9, countDownFrequency_);
       }
       if (configId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -502,10 +502,10 @@ public final class AnnounceDataOuterClass {
           != other.getEndTime()) return false;
       if (getBeginTime()
           != other.getBeginTime()) return false;
-      if (getMBMBKDPOCBE()
-          != other.getMBMBKDPOCBE()) return false;
-      if (getBOEOJAFIFOF()
-          != other.getBOEOJAFIFOF()) return false;
+      if (getCenterSystemFrequency()
+          != other.getCenterSystemFrequency()) return false;
+      if (getCountDownFrequency()
+          != other.getCountDownFrequency()) return false;
       if (getConfigId()
           != other.getConfigId()) return false;
       if (!getENGJGCGFMMM()
@@ -532,10 +532,10 @@ public final class AnnounceDataOuterClass {
       hash = (53 * hash) + getEndTime();
       hash = (37 * hash) + BEGIN_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getBeginTime();
-      hash = (37 * hash) + MBMBKDPOCBE_FIELD_NUMBER;
-      hash = (53 * hash) + getMBMBKDPOCBE();
-      hash = (37 * hash) + BOEOJAFIFOF_FIELD_NUMBER;
-      hash = (53 * hash) + getBOEOJAFIFOF();
+      hash = (37 * hash) + CENTER_SYSTEM_FREQUENCY_FIELD_NUMBER;
+      hash = (53 * hash) + getCenterSystemFrequency();
+      hash = (37 * hash) + COUNT_DOWN_FREQUENCY_FIELD_NUMBER;
+      hash = (53 * hash) + getCountDownFrequency();
       hash = (37 * hash) + CONFIG_ID_FIELD_NUMBER;
       hash = (53 * hash) + getConfigId();
       hash = (37 * hash) + ENGJGCGFMMM_FIELD_NUMBER;
@@ -683,9 +683,9 @@ public final class AnnounceDataOuterClass {
 
         beginTime_ = 0;
 
-        mBMBKDPOCBE_ = 0;
+        centerSystemFrequency_ = 0;
 
-        bOEOJAFIFOF_ = 0;
+        countDownFrequency_ = 0;
 
         configId_ = 0;
 
@@ -724,8 +724,8 @@ public final class AnnounceDataOuterClass {
         result.isCenterSystemLast5EveryMinutes_ = isCenterSystemLast5EveryMinutes_;
         result.endTime_ = endTime_;
         result.beginTime_ = beginTime_;
-        result.mBMBKDPOCBE_ = mBMBKDPOCBE_;
-        result.bOEOJAFIFOF_ = bOEOJAFIFOF_;
+        result.centerSystemFrequency_ = centerSystemFrequency_;
+        result.countDownFrequency_ = countDownFrequency_;
         result.configId_ = configId_;
         result.eNGJGCGFMMM_ = eNGJGCGFMMM_;
         result.lHMGGPMCDCN_ = lHMGGPMCDCN_;
@@ -787,11 +787,11 @@ public final class AnnounceDataOuterClass {
         if (other.getBeginTime() != 0) {
           setBeginTime(other.getBeginTime());
         }
-        if (other.getMBMBKDPOCBE() != 0) {
-          setMBMBKDPOCBE(other.getMBMBKDPOCBE());
+        if (other.getCenterSystemFrequency() != 0) {
+          setCenterSystemFrequency(other.getCenterSystemFrequency());
         }
-        if (other.getBOEOJAFIFOF() != 0) {
-          setBOEOJAFIFOF(other.getBOEOJAFIFOF());
+        if (other.getCountDownFrequency() != 0) {
+          setCountDownFrequency(other.getCountDownFrequency());
         }
         if (other.getConfigId() != 0) {
           setConfigId(other.getConfigId());
@@ -930,64 +930,64 @@ public final class AnnounceDataOuterClass {
         return this;
       }
 
-      private int mBMBKDPOCBE_ ;
+      private int centerSystemFrequency_ ;
       /**
-       * <code>uint32 MBMBKDPOCBE = 5;</code>
-       * @return The mBMBKDPOCBE.
+       * <code>uint32 center_system_frequency = 5;</code>
+       * @return The centerSystemFrequency.
        */
       @java.lang.Override
-      public int getMBMBKDPOCBE() {
-        return mBMBKDPOCBE_;
+      public int getCenterSystemFrequency() {
+        return centerSystemFrequency_;
       }
       /**
-       * <code>uint32 MBMBKDPOCBE = 5;</code>
-       * @param value The mBMBKDPOCBE to set.
+       * <code>uint32 center_system_frequency = 5;</code>
+       * @param value The centerSystemFrequency to set.
        * @return This builder for chaining.
        */
-      public Builder setMBMBKDPOCBE(int value) {
+      public Builder setCenterSystemFrequency(int value) {
         
-        mBMBKDPOCBE_ = value;
+        centerSystemFrequency_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 MBMBKDPOCBE = 5;</code>
+       * <code>uint32 center_system_frequency = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMBMBKDPOCBE() {
+      public Builder clearCenterSystemFrequency() {
         
-        mBMBKDPOCBE_ = 0;
+        centerSystemFrequency_ = 0;
         onChanged();
         return this;
       }
 
-      private int bOEOJAFIFOF_ ;
+      private int countDownFrequency_ ;
       /**
-       * <code>uint32 BOEOJAFIFOF = 9;</code>
-       * @return The bOEOJAFIFOF.
+       * <code>uint32 count_down_frequency = 9;</code>
+       * @return The countDownFrequency.
        */
       @java.lang.Override
-      public int getBOEOJAFIFOF() {
-        return bOEOJAFIFOF_;
+      public int getCountDownFrequency() {
+        return countDownFrequency_;
       }
       /**
-       * <code>uint32 BOEOJAFIFOF = 9;</code>
-       * @param value The bOEOJAFIFOF to set.
+       * <code>uint32 count_down_frequency = 9;</code>
+       * @param value The countDownFrequency to set.
        * @return This builder for chaining.
        */
-      public Builder setBOEOJAFIFOF(int value) {
+      public Builder setCountDownFrequency(int value) {
         
-        bOEOJAFIFOF_ = value;
+        countDownFrequency_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 BOEOJAFIFOF = 9;</code>
+       * <code>uint32 count_down_frequency = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBOEOJAFIFOF() {
+      public Builder clearCountDownFrequency() {
         
-        bOEOJAFIFOF_ = 0;
+        countDownFrequency_ = 0;
         onChanged();
         return this;
       }
@@ -1317,14 +1317,15 @@ public final class AnnounceDataOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022AnnounceData.proto\"\337\001\n\014AnnounceData\022-\n" +
+      "\n\022AnnounceData.proto\"\364\001\n\014AnnounceData\022-\n" +
       "%is_center_system_last_5_every_minutes\030\002" +
       " \001(\010\022\020\n\010end_time\030\003 \001(\r\022\022\n\nbegin_time\030\004 \001" +
-      "(\r\022\023\n\013MBMBKDPOCBE\030\005 \001(\r\022\023\n\013BOEOJAFIFOF\030\t" +
-      " \001(\r\022\021\n\tconfig_id\030\n \001(\r\022\023\n\013ENGJGCGFMMM\030\013" +
-      " \001(\t\022\023\n\013LHMGGPMCDCN\030\014 \001(\t\022\023\n\013KFAGDOEAIPP" +
-      "\030\r \001(\tB3\n\031emu.grasscutter.net.protoB\026Ann" +
-      "ounceDataOuterClassb\006proto3"
+      "(\r\022\037\n\027center_system_frequency\030\005 \001(\r\022\034\n\024c" +
+      "ount_down_frequency\030\t \001(\r\022\021\n\tconfig_id\030\n" +
+      " \001(\r\022\023\n\013ENGJGCGFMMM\030\013 \001(\t\022\023\n\013LHMGGPMCDCN" +
+      "\030\014 \001(\t\022\023\n\013KFAGDOEAIPP\030\r \001(\tB3\n\031emu.grass" +
+      "cutter.net.protoB\026AnnounceDataOuterClass" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1335,7 +1336,7 @@ public final class AnnounceDataOuterClass {
     internal_static_AnnounceData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AnnounceData_descriptor,
-        new java.lang.String[] { "IsCenterSystemLast5EveryMinutes", "EndTime", "BeginTime", "MBMBKDPOCBE", "BOEOJAFIFOF", "ConfigId", "ENGJGCGFMMM", "LHMGGPMCDCN", "KFAGDOEAIPP", });
+        new java.lang.String[] { "IsCenterSystemLast5EveryMinutes", "EndTime", "BeginTime", "CenterSystemFrequency", "CountDownFrequency", "ConfigId", "ENGJGCGFMMM", "LHMGGPMCDCN", "KFAGDOEAIPP", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

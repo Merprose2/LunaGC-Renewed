@@ -168,7 +168,7 @@ public final class DungeonEntryCondOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_NONE.getNumber()) {
+      if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DUNGEON_ENTRY_REASON_NONE.getNumber()) {
         output.writeEnum(1, condReason_);
       }
       if (param1_ != 0) {
@@ -183,7 +183,7 @@ public final class DungeonEntryCondOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_NONE.getNumber()) {
+      if (condReason_ != emu.grasscutter.net.proto.DungeonEntryBlockReasonOuterClass.DungeonEntryBlockReason.DUNGEON_ENTRY_REASON_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, condReason_);
       }

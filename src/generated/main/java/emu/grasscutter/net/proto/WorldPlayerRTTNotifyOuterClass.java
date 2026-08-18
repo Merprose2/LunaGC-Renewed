@@ -43,10 +43,6 @@ public final class WorldPlayerRTTNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 20421
-   * </pre>
-   *
    * Protobuf type {@code WorldPlayerRTTNotify}
    */
   public static final class WorldPlayerRTTNotify extends
@@ -335,10 +331,6 @@ public final class WorldPlayerRTTNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20421
-     * </pre>
-     *
      * Protobuf type {@code WorldPlayerRTTNotify}
      */
     public static final class Builder extends

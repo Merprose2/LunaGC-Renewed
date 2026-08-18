@@ -55,10 +55,6 @@ public final class GachaWishRspOuterClass {
     int getWishMaxProgress();
   }
   /**
-   * <pre>
-   * CmdID: 7339
-   * </pre>
-   *
    * Protobuf type {@code GachaWishRsp}
    */
   public static final class GachaWishRsp extends
@@ -442,10 +438,6 @@ public final class GachaWishRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7339
-     * </pre>
-     *
      * Protobuf type {@code GachaWishRsp}
      */
     public static final class Builder extends

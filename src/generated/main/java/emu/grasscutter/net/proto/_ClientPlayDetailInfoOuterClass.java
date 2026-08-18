@@ -259,19 +259,19 @@ public final class _ClientPlayDetailInfoOuterClass {
     emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfoOrBuilder getDoppelgangerPuzzleLevelInfoOrBuilder();
 
     /**
-     * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
      * @return Whether the bubbleDramaPhotoLevelInfo field is set.
      */
     boolean hasBubbleDramaPhotoLevelInfo();
     /**
-     * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
      * @return The bubbleDramaPhotoLevelInfo.
      */
-    emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo getBubbleDramaPhotoLevelInfo();
+    emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo getBubbleDramaPhotoLevelInfo();
     /**
-     * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
      */
-    emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfoOrBuilder getBubbleDramaPhotoLevelInfoOrBuilder();
+    emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder getBubbleDramaPhotoLevelInfoOrBuilder();
 
     /**
      * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
@@ -575,14 +575,14 @@ public final class _ClientPlayDetailInfoOuterClass {
               break;
             }
             case 139410: {
-              emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder subBuilder = null;
               if (detailCase_ == 17426) {
-                subBuilder = ((emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 17426;
@@ -1221,7 +1221,7 @@ public final class _ClientPlayDetailInfoOuterClass {
 
     public static final int BUBBLE_DRAMA_PHOTO_LEVEL_INFO_FIELD_NUMBER = 17426;
     /**
-     * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
      * @return Whether the bubbleDramaPhotoLevelInfo field is set.
      */
     @java.lang.Override
@@ -1229,25 +1229,25 @@ public final class _ClientPlayDetailInfoOuterClass {
       return detailCase_ == 17426;
     }
     /**
-     * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
      * @return The bubbleDramaPhotoLevelInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo getBubbleDramaPhotoLevelInfo() {
+    public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo getBubbleDramaPhotoLevelInfo() {
       if (detailCase_ == 17426) {
-         return (emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_;
+         return (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_;
       }
-      return emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfoOrBuilder getBubbleDramaPhotoLevelInfoOrBuilder() {
+    public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder getBubbleDramaPhotoLevelInfoOrBuilder() {
       if (detailCase_ == 17426) {
-         return (emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_;
+         return (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_;
       }
-      return emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
     }
 
     public static final int DREAM_SWITCHING_LEVEL_INFO_FIELD_NUMBER = 17851;
@@ -1375,7 +1375,7 @@ public final class _ClientPlayDetailInfoOuterClass {
         output.writeMessage(16864, (emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_);
       }
       if (detailCase_ == 17426) {
-        output.writeMessage(17426, (emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_);
+        output.writeMessage(17426, (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_);
       }
       if (detailCase_ == 17851) {
         output.writeMessage(17851, (emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_);
@@ -1458,7 +1458,7 @@ public final class _ClientPlayDetailInfoOuterClass {
       }
       if (detailCase_ == 17426) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17426, (emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_);
+          .computeMessageSize(17426, (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_);
       }
       if (detailCase_ == 17851) {
         size += com.google.protobuf.CodedOutputStream
@@ -4380,9 +4380,9 @@ public final class _ClientPlayDetailInfoOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo, emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.Builder, emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfoOrBuilder> bubbleDramaPhotoLevelInfoBuilder_;
+          emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder> bubbleDramaPhotoLevelInfoBuilder_;
       /**
-       * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
        * @return Whether the bubbleDramaPhotoLevelInfo field is set.
        */
       @java.lang.Override
@@ -4390,27 +4390,27 @@ public final class _ClientPlayDetailInfoOuterClass {
         return detailCase_ == 17426;
       }
       /**
-       * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
        * @return The bubbleDramaPhotoLevelInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo getBubbleDramaPhotoLevelInfo() {
+      public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo getBubbleDramaPhotoLevelInfo() {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
           if (detailCase_ == 17426) {
-            return (emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_;
+            return (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_;
           }
-          return emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 17426) {
             return bubbleDramaPhotoLevelInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
        */
-      public Builder setBubbleDramaPhotoLevelInfo(emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo value) {
+      public Builder setBubbleDramaPhotoLevelInfo(emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo value) {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4424,10 +4424,10 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
        */
       public Builder setBubbleDramaPhotoLevelInfo(
-          emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder builderForValue) {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -4438,13 +4438,13 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
        */
-      public Builder mergeBubbleDramaPhotoLevelInfo(emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo value) {
+      public Builder mergeBubbleDramaPhotoLevelInfo(emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo value) {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
           if (detailCase_ == 17426 &&
-              detail_ != emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.newBuilder((emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_)
+              detail_ != emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.newBuilder((emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -4460,7 +4460,7 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
        */
       public Builder clearBubbleDramaPhotoLevelInfo() {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
@@ -4479,38 +4479,38 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
        */
-      public emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.Builder getBubbleDramaPhotoLevelInfoBuilder() {
+      public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder getBubbleDramaPhotoLevelInfoBuilder() {
         return getBubbleDramaPhotoLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfoOrBuilder getBubbleDramaPhotoLevelInfoOrBuilder() {
+      public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder getBubbleDramaPhotoLevelInfoOrBuilder() {
         if ((detailCase_ == 17426) && (bubbleDramaPhotoLevelInfoBuilder_ != null)) {
           return bubbleDramaPhotoLevelInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 17426) {
-            return (emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_;
+            return (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_;
           }
-          return emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo, emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.Builder, emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfoOrBuilder> 
+          emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder> 
           getBubbleDramaPhotoLevelInfoFieldBuilder() {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
           if (!(detailCase_ == 17426)) {
-            detail_ = emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
           }
           bubbleDramaPhotoLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo, emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo.Builder, emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfoOrBuilder>(
-                  (emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass._BubbleDramaPhotoLevelInfo) detail_,
+              emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -4868,65 +4868,65 @@ public final class _ClientPlayDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033_ClientPlayDetailInfo.proto\032\031_Autoches" +
-      "sLevelInfo.proto\032\032_BladeHeartLevelInfo.p" +
-      "roto\032 _BubbleDramaPhotoLevelInfo.proto\032\037" +
-      "_DiversityBattleLevelInfo.proto\032\"_Doppel" +
-      "gangerPuzzleLevelInfo.proto\032\036_DreamSwitc" +
-      "hingLevelInfo.proto\032&_HolidayResortAdven" +
-      "tureLevelInfo.proto\032#_HolidayResortBattl" +
-      "eLevelInfo.proto\032%_HolidayResortGraffiti" +
-      "LevelInfo.proto\032#_HolidayResortSniperLev" +
-      "elInfo.proto\032 _InazumaBadmintonLevelInfo" +
-      ".proto\032\030_LoliJumpLevelInfo.proto\032\027_MapMa" +
-      "rkLevelInfo.proto\032!_NatlanDrillBattleLev" +
-      "elInfo.proto\032\027_OneShotLevelInfo.proto\032\025_" +
-      "PartyLevelInfo.proto\032 _RankedMatchTrainL" +
-      "evelInfo.proto\032+_SumeruAdventureGoalFigh" +
-      "tingLevelInfo.proto\032\034_TowerDefenseLevelI" +
-      "nfo.proto\"\252\n\n\025_ClientPlayDetailInfo\022E\n\035r" +
-      "anked_match_train_level_info\030\234\031 \001(\0132\033._R" +
-      "ankedMatchTrainLevelInfoH\000\0225\n\024autochess_" +
-      "level_info\030\310\" \001(\0132\024._AutochessLevelInfoH" +
-      "\000\022K\n holiday_resort_sniper_level_info\030\376%" +
-      " \001(\0132\036._HolidayResortSniperLevelInfoH\000\022<" +
-      "\n\030tower_defense_level_info\030\3711 \001(\0132\027._Tow" +
-      "erDefenseLevelInfoH\000\0222\n\023map_mark_level_i" +
-      "nfo\030\3357 \001(\0132\022._MapMarkLevelInfoH\000\022G\n\036natl" +
-      "an_drill_battle_level_info\030\264= \001(\0132\034._Nat" +
-      "lanDrillBattleLevelInfoH\000\0224\n\024loli_jump_l" +
-      "evel_info\030\255B \001(\0132\023._LoliJumpLevelInfoH\000\022" +
-      "8\n\026blade_heart_level_info\030\221Q \001(\0132\025._Blad" +
-      "eHeartLevelInfoH\000\022K\n holiday_resort_batt" +
-      "le_level_info\030\210R \001(\0132\036._HolidayResortBat" +
-      "tleLevelInfoH\000\022O\n\"holiday_resort_graffit" +
-      "i_level_info\030\344f \001(\0132 ._HolidayResortGraf" +
-      "fitiLevelInfoH\000\022Q\n#holiday_resort_advent" +
-      "ure_level_info\030\363h \001(\0132!._HolidayResortAd" +
-      "ventureLevelInfoH\000\022B\n\033diversity_battle_l" +
-      "evel_info\030\323i \001(\0132\032._DiversityBattleLevel" +
-      "InfoH\000\022D\n\034inazuma_badminton_level_info\030\334" +
-      "w \001(\0132\033._InazumaBadmintonLevelInfoH\000\022-\n\020" +
-      "party_level_info\030\203z \001(\0132\020._PartyLevelInf" +
-      "oH\000\0222\n\023one_shot_level_info\030\346\177 \001(\0132\022._One" +
-      "ShotLevelInfoH\000\022I\n\036doppelganger_puzzle_l" +
-      "evel_info\030\340\203\001 \001(\0132\035._DoppelgangerPuzzleL" +
-      "evelInfoH\000\022F\n\035bubble_drama_photo_level_i" +
-      "nfo\030\222\210\001 \001(\0132\033._BubbleDramaPhotoLevelInfo" +
-      "H\000\022A\n\032dream_switching_level_info\030\273\213\001 \001(\013" +
-      "2\031._DreamSwitchingLevelInfoH\000\022]\n)sumeru_" +
-      "adventure_goal_fighting_level_info\030\365\220\001 \001" +
-      "(\0132&._SumeruAdventureGoalFightingLevelIn" +
-      "foH\000B\010\n\006detailB<\n\031emu.grasscutter.net.pr" +
-      "otoB\037_ClientPlayDetailInfoOuterClassb\006pr" +
-      "oto3"
+      "\n\033_ClientPlayDetailInfo.proto\032\037BubbleDra" +
+      "maPhotoLevelInfo.proto\032\031_AutochessLevelI" +
+      "nfo.proto\032\032_BladeHeartLevelInfo.proto\032\037_" +
+      "DiversityBattleLevelInfo.proto\032\"_Doppelg" +
+      "angerPuzzleLevelInfo.proto\032\036_DreamSwitch" +
+      "ingLevelInfo.proto\032&_HolidayResortAdvent" +
+      "ureLevelInfo.proto\032#_HolidayResortBattle" +
+      "LevelInfo.proto\032%_HolidayResortGraffitiL" +
+      "evelInfo.proto\032#_HolidayResortSniperLeve" +
+      "lInfo.proto\032 _InazumaBadmintonLevelInfo." +
+      "proto\032\030_LoliJumpLevelInfo.proto\032\027_MapMar" +
+      "kLevelInfo.proto\032!_NatlanDrillBattleLeve" +
+      "lInfo.proto\032\027_OneShotLevelInfo.proto\032\025_P" +
+      "artyLevelInfo.proto\032 _RankedMatchTrainLe" +
+      "velInfo.proto\032+_SumeruAdventureGoalFight" +
+      "ingLevelInfo.proto\032\034_TowerDefenseLevelIn" +
+      "fo.proto\"\251\n\n\025_ClientPlayDetailInfo\022E\n\035ra" +
+      "nked_match_train_level_info\030\234\031 \001(\0132\033._Ra" +
+      "nkedMatchTrainLevelInfoH\000\0225\n\024autochess_l" +
+      "evel_info\030\310\" \001(\0132\024._AutochessLevelInfoH\000" +
+      "\022K\n holiday_resort_sniper_level_info\030\376% " +
+      "\001(\0132\036._HolidayResortSniperLevelInfoH\000\022<\n" +
+      "\030tower_defense_level_info\030\3711 \001(\0132\027._Towe" +
+      "rDefenseLevelInfoH\000\0222\n\023map_mark_level_in" +
+      "fo\030\3357 \001(\0132\022._MapMarkLevelInfoH\000\022G\n\036natla" +
+      "n_drill_battle_level_info\030\264= \001(\0132\034._Natl" +
+      "anDrillBattleLevelInfoH\000\0224\n\024loli_jump_le" +
+      "vel_info\030\255B \001(\0132\023._LoliJumpLevelInfoH\000\0228" +
+      "\n\026blade_heart_level_info\030\221Q \001(\0132\025._Blade" +
+      "HeartLevelInfoH\000\022K\n holiday_resort_battl" +
+      "e_level_info\030\210R \001(\0132\036._HolidayResortBatt" +
+      "leLevelInfoH\000\022O\n\"holiday_resort_graffiti" +
+      "_level_info\030\344f \001(\0132 ._HolidayResortGraff" +
+      "itiLevelInfoH\000\022Q\n#holiday_resort_adventu" +
+      "re_level_info\030\363h \001(\0132!._HolidayResortAdv" +
+      "entureLevelInfoH\000\022B\n\033diversity_battle_le" +
+      "vel_info\030\323i \001(\0132\032._DiversityBattleLevelI" +
+      "nfoH\000\022D\n\034inazuma_badminton_level_info\030\334w" +
+      " \001(\0132\033._InazumaBadmintonLevelInfoH\000\022-\n\020p" +
+      "arty_level_info\030\203z \001(\0132\020._PartyLevelInfo" +
+      "H\000\0222\n\023one_shot_level_info\030\346\177 \001(\0132\022._OneS" +
+      "hotLevelInfoH\000\022I\n\036doppelganger_puzzle_le" +
+      "vel_info\030\340\203\001 \001(\0132\035._DoppelgangerPuzzleLe" +
+      "velInfoH\000\022E\n\035bubble_drama_photo_level_in" +
+      "fo\030\222\210\001 \001(\0132\032.BubbleDramaPhotoLevelInfoH\000" +
+      "\022A\n\032dream_switching_level_info\030\273\213\001 \001(\0132\031" +
+      "._DreamSwitchingLevelInfoH\000\022]\n)sumeru_ad" +
+      "venture_goal_fighting_level_info\030\365\220\001 \001(\013" +
+      "2&._SumeruAdventureGoalFightingLevelInfo" +
+      "H\000B\010\n\006detailB<\n\031emu.grasscutter.net.prot" +
+      "oB\037_ClientPlayDetailInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto._AutochessLevelInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass.getDescriptor(),
@@ -4950,9 +4950,9 @@ public final class _ClientPlayDetailInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__ClientPlayDetailInfo_descriptor,
         new java.lang.String[] { "RankedMatchTrainLevelInfo", "AutochessLevelInfo", "HolidayResortSniperLevelInfo", "TowerDefenseLevelInfo", "MapMarkLevelInfo", "NatlanDrillBattleLevelInfo", "LoliJumpLevelInfo", "BladeHeartLevelInfo", "HolidayResortBattleLevelInfo", "HolidayResortGraffitiLevelInfo", "HolidayResortAdventureLevelInfo", "DiversityBattleLevelInfo", "InazumaBadmintonLevelInfo", "PartyLevelInfo", "OneShotLevelInfo", "DoppelgangerPuzzleLevelInfo", "BubbleDramaPhotoLevelInfo", "DreamSwitchingLevelInfo", "SumeruAdventureGoalFightingLevelInfo", "Detail", });
+    emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._AutochessLevelInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._BubbleDramaPhotoLevelInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass.getDescriptor();

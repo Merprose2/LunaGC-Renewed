@@ -94,10 +94,6 @@ public final class ServerBuffChangeNotifyOuterClass {
     long getAvatarGuidList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 24803
-   * </pre>
-   *
    * Protobuf type {@code ServerBuffChangeNotify}
    */
   public static final class ServerBuffChangeNotify extends
@@ -256,24 +252,24 @@ public final class ServerBuffChangeNotifyOuterClass {
     public enum ServerBuffChangeType
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>ServerBuffChangeType_ADD_SERVER_BUFF = 0;</code>
+       * <code>SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;</code>
        */
-      ServerBuffChangeType_ADD_SERVER_BUFF(0),
+      SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF(0),
       /**
-       * <code>ServerBuffChangeType_DEL_SERVER_BUFF = 1;</code>
+       * <code>SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;</code>
        */
-      ServerBuffChangeType_DEL_SERVER_BUFF(1),
+      SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF(1),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>ServerBuffChangeType_ADD_SERVER_BUFF = 0;</code>
+       * <code>SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;</code>
        */
-      public static final int ServerBuffChangeType_ADD_SERVER_BUFF_VALUE = 0;
+      public static final int SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF_VALUE = 0;
       /**
-       * <code>ServerBuffChangeType_DEL_SERVER_BUFF = 1;</code>
+       * <code>SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;</code>
        */
-      public static final int ServerBuffChangeType_DEL_SERVER_BUFF_VALUE = 1;
+      public static final int SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF_VALUE = 1;
 
 
       public final int getNumber() {
@@ -300,8 +296,8 @@ public final class ServerBuffChangeNotifyOuterClass {
        */
       public static ServerBuffChangeType forNumber(int value) {
         switch (value) {
-          case 0: return ServerBuffChangeType_ADD_SERVER_BUFF;
-          case 1: return ServerBuffChangeType_DEL_SERVER_BUFF;
+          case 0: return SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF;
+          case 1: return SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF;
           default: return null;
         }
       }
@@ -502,7 +498,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       for (int i = 0; i < serverBuffList_.size(); i++) {
         output.writeMessage(5, serverBuffList_.get(i));
       }
-      if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.ServerBuffChangeType_ADD_SERVER_BUFF.getNumber()) {
+      if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
         output.writeEnum(9, serverBuffChangeType_);
       }
       if (isCreatureBuff_ != false) {
@@ -535,7 +531,7 @@ public final class ServerBuffChangeNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, serverBuffList_.get(i));
       }
-      if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.ServerBuffChangeType_ADD_SERVER_BUFF.getNumber()) {
+      if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, serverBuffChangeType_);
       }
@@ -719,10 +715,6 @@ public final class ServerBuffChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24803
-     * </pre>
-     *
      * Protobuf type {@code ServerBuffChangeNotify}
      */
     public static final class Builder extends
@@ -1503,17 +1495,17 @@ public final class ServerBuffChangeNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034ServerBuffChangeNotify.proto\032\020ServerBu" +
-      "ff.proto\"\306\002\n\026ServerBuffChangeNotify\022%\n\020s" +
+      "ff.proto\"\314\002\n\026ServerBuffChangeNotify\022%\n\020s" +
       "erver_buff_list\030\005 \003(\0132\013.ServerBuff\022M\n\027se" +
       "rver_buff_change_type\030\t \001(\0162,.ServerBuff" +
       "ChangeNotify.ServerBuffChangeType\022\030\n\020is_" +
       "creature_buff\030\014 \001(\010\022\026\n\016entity_id_list\030\016 " +
-      "\003(\r\022\030\n\020avatar_guid_list\030\017 \003(\004\"j\n\024ServerB" +
-      "uffChangeType\022(\n$ServerBuffChangeType_AD" +
-      "D_SERVER_BUFF\020\000\022(\n$ServerBuffChangeType_" +
-      "DEL_SERVER_BUFF\020\001B=\n\031emu.grasscutter.net" +
-      ".protoB ServerBuffChangeNotifyOuterClass" +
-      "b\006proto3"
+      "\003(\r\022\030\n\020avatar_guid_list\030\017 \003(\004\"p\n\024ServerB" +
+      "uffChangeType\022+\n\'SERVER_BUFF_CHANGE_TYPE" +
+      "_ADD_SERVER_BUFF\020\000\022+\n\'SERVER_BUFF_CHANGE" +
+      "_TYPE_DEL_SERVER_BUFF\020\001B=\n\031emu.grasscutt" +
+      "er.net.protoB ServerBuffChangeNotifyOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

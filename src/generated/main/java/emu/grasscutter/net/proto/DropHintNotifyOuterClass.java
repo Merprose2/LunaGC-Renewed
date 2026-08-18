@@ -78,10 +78,6 @@ public final class DropHintNotifyOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 8642
-   * </pre>
-   *
    * Protobuf type {@code DropHintNotify}
    */
   public static final class DropHintNotify extends
@@ -550,10 +546,6 @@ public final class DropHintNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8642
-     * </pre>
-     *
      * Protobuf type {@code DropHintNotify}
      */
     public static final class Builder extends

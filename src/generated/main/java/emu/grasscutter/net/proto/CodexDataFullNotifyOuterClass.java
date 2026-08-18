@@ -72,10 +72,6 @@ public final class CodexDataFullNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 7370
-   * </pre>
-   *
    * Protobuf type {@code CodexDataFullNotify}
    */
   public static final class CodexDataFullNotify extends
@@ -499,10 +495,6 @@ public final class CodexDataFullNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7370
-     * </pre>
-     *
      * Protobuf type {@code CodexDataFullNotify}
      */
     public static final class Builder extends

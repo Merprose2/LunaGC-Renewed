@@ -59,10 +59,6 @@ public final class QuestProgressUpdateNotifyOuterClass {
     int getFailProgressList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 28338
-   * </pre>
-   *
    * Protobuf type {@code QuestProgressUpdateNotify}
    */
   public static final class QuestProgressUpdateNotify extends
@@ -473,10 +469,6 @@ public final class QuestProgressUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28338
-     * </pre>
-     *
      * Protobuf type {@code QuestProgressUpdateNotify}
      */
     public static final class Builder extends

@@ -234,7 +234,7 @@ public final class _PacmanSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (reason_ != emu.grasscutter.net.proto._PacmanDungeonStopReasonOuterClass._PacmanDungeonStopReason._PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_NONE.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto._PacmanDungeonStopReasonOuterClass._PacmanDungeonStopReason.PACMAN_DUNGEON_STOP_NONE.getNumber()) {
         output.writeEnum(2, reason_);
       }
       if (coinNum_ != 0) {
@@ -258,7 +258,7 @@ public final class _PacmanSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (reason_ != emu.grasscutter.net.proto._PacmanDungeonStopReasonOuterClass._PacmanDungeonStopReason._PacmanDungeonStopReason_PACMAN_DUNGEON_STOP_NONE.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto._PacmanDungeonStopReasonOuterClass._PacmanDungeonStopReason.PACMAN_DUNGEON_STOP_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(2, reason_);
       }

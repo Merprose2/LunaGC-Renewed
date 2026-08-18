@@ -31,10 +31,6 @@ public final class VehicleStaminaNotifyOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 27699
-   * </pre>
-   *
    * Protobuf type {@code VehicleStaminaNotify}
    */
   public static final class VehicleStaminaNotify extends
@@ -312,10 +308,6 @@ public final class VehicleStaminaNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27699
-     * </pre>
-     *
      * Protobuf type {@code VehicleStaminaNotify}
      */
     public static final class Builder extends

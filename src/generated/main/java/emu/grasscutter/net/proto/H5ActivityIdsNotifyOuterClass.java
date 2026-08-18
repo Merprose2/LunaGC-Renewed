@@ -59,10 +59,6 @@ public final class H5ActivityIdsNotifyOuterClass {
     int getClientRedDotTimestamp();
   }
   /**
-   * <pre>
-   * CmdID: 7306
-   * </pre>
-   *
    * Protobuf type {@code H5ActivityIdsNotify}
    */
   public static final class H5ActivityIdsNotify extends
@@ -440,10 +436,6 @@ public final class H5ActivityIdsNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7306
-     * </pre>
-     *
      * Protobuf type {@code H5ActivityIdsNotify}
      */
     public static final class Builder extends

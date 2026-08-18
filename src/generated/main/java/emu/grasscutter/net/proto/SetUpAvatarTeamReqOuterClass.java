@@ -48,10 +48,6 @@ public final class SetUpAvatarTeamReqOuterClass {
     int getTeamId();
   }
   /**
-   * <pre>
-   * CmdID: 24997
-   * </pre>
-   *
    * Protobuf type {@code SetUpAvatarTeamReq}
    */
   public static final class SetUpAvatarTeamReq extends
@@ -410,10 +406,6 @@ public final class SetUpAvatarTeamReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24997
-     * </pre>
-     *
      * Protobuf type {@code SetUpAvatarTeamReq}
      */
     public static final class Builder extends

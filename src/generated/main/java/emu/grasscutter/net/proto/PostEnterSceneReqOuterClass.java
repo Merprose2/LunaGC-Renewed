@@ -31,10 +31,6 @@ public final class PostEnterSceneReqOuterClass {
     int getEnterSceneToken();
   }
   /**
-   * <pre>
-   * CmdID: 27869
-   * </pre>
-   *
    * Protobuf type {@code PostEnterSceneReq}
    */
   public static final class PostEnterSceneReq extends
@@ -312,10 +308,6 @@ public final class PostEnterSceneReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27869
-     * </pre>
-     *
      * Protobuf type {@code PostEnterSceneReq}
      */
     public static final class Builder extends

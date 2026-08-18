@@ -57,10 +57,6 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
   }
   /**
-   * <pre>
-   * CmdID: 20280
-   * </pre>
-   *
    * Protobuf type {@code EvtDoSkillSuccNotify}
    */
   public static final class EvtDoSkillSuccNotify extends
@@ -427,10 +423,6 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20280
-     * </pre>
-     *
      * Protobuf type {@code EvtDoSkillSuccNotify}
      */
     public static final class Builder extends

@@ -31,10 +31,6 @@ public final class FurnitureMakeStartReqOuterClass {
     int getAvatarId();
   }
   /**
-   * <pre>
-   * CmdID: 22965
-   * </pre>
-   *
    * Protobuf type {@code FurnitureMakeStartReq}
    */
   public static final class FurnitureMakeStartReq extends
@@ -310,10 +306,6 @@ public final class FurnitureMakeStartReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22965
-     * </pre>
-     *
      * Protobuf type {@code FurnitureMakeStartReq}
      */
     public static final class Builder extends

@@ -37,10 +37,6 @@ public final class QuestDestroyNpcRspOuterClass {
     int getNpcId();
   }
   /**
-   * <pre>
-   * CmdID: 142
-   * </pre>
-   *
    * Protobuf type {@code QuestDestroyNpcRsp}
    */
   public static final class QuestDestroyNpcRsp extends
@@ -343,10 +339,6 @@ public final class QuestDestroyNpcRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 142
-     * </pre>
-     *
      * Protobuf type {@code QuestDestroyNpcRsp}
      */
     public static final class Builder extends

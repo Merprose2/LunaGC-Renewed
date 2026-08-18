@@ -37,10 +37,6 @@ public final class ChangeTeamNameReqOuterClass {
         getTeamNameBytes();
   }
   /**
-   * <pre>
-   * CmdID: 28476
-   * </pre>
-   *
    * Protobuf type {@code ChangeTeamNameReq}
    */
   public static final class ChangeTeamNameReq extends
@@ -344,10 +340,6 @@ public final class ChangeTeamNameReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28476
-     * </pre>
-     *
      * Protobuf type {@code ChangeTeamNameReq}
      */
     public static final class Builder extends

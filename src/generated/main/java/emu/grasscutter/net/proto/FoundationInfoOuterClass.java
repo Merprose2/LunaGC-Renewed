@@ -262,7 +262,7 @@ public final class FoundationInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (status_ != emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.FoundationStatus_NONE.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.FOUNDATION_STATUS_NONE.getNumber()) {
         output.writeEnum(1, status_);
       }
       if (getUidListList().size() > 0) {
@@ -287,7 +287,7 @@ public final class FoundationInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (status_ != emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.FoundationStatus_NONE.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.FOUNDATION_STATUS_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, status_);
       }

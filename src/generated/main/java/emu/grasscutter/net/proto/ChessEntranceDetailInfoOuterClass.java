@@ -43,6 +43,10 @@ public final class ChessEntranceDetailInfoOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * Obf: ODJEEDIBEJL
+   * </pre>
+   *
    * Protobuf type {@code ChessEntranceDetailInfo}
    */
   public static final class ChessEntranceDetailInfo extends
@@ -89,7 +93,7 @@ public final class ChessEntranceDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 infoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChessEntranceInfoOuterClass.ChessEntranceInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,7 +137,7 @@ public final class ChessEntranceDetailInfoOuterClass {
               emu.grasscutter.net.proto.ChessEntranceDetailInfoOuterClass.ChessEntranceDetailInfo.class, emu.grasscutter.net.proto.ChessEntranceDetailInfoOuterClass.ChessEntranceDetailInfo.Builder.class);
     }
 
-    public static final int INFO_LIST_FIELD_NUMBER = 3;
+    public static final int INFO_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.ChessEntranceInfoOuterClass.ChessEntranceInfo> infoList_;
     /**
      * <code>repeated .ChessEntranceInfo info_list = 3;</code>
@@ -188,7 +192,7 @@ public final class ChessEntranceDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < infoList_.size(); i++) {
-        output.writeMessage(3, infoList_.get(i));
+        output.writeMessage(11, infoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +205,7 @@ public final class ChessEntranceDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < infoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, infoList_.get(i));
+          .computeMessageSize(11, infoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -331,6 +335,10 @@ public final class ChessEntranceDetailInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: ODJEEDIBEJL
+     * </pre>
+     *
      * Protobuf type {@code ChessEntranceDetailInfo}
      */
     public static final class Builder extends
@@ -824,8 +832,7 @@ public final class ChessEntranceDetailInfoOuterClass {
       "\n\035ChessEntranceDetailInfo.proto\032\027ChessEn" +
       "tranceInfo.proto\"@\n\027ChessEntranceDetailI" +
       "nfo\022%\n\tinfo_list\030\003 \003(\0132\022.ChessEntranceIn" +
-      "foB>\n\031emu.grasscutter.net.protoB!ChessEn" +
-      "tranceDetailInfoOuterClassb\006proto3"
+      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -46,10 +46,6 @@ public final class AvatarDieAnimationEndReqOuterClass {
     long getDieGuid();
   }
   /**
-   * <pre>
-   * CmdID: 24906
-   * </pre>
-   *
    * Protobuf type {@code AvatarDieAnimationEndReq}
    */
   public static final class AvatarDieAnimationEndReq extends
@@ -381,10 +377,6 @@ public final class AvatarDieAnimationEndReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24906
-     * </pre>
-     *
      * Protobuf type {@code AvatarDieAnimationEndReq}
      */
     public static final class Builder extends

@@ -196,10 +196,6 @@ public final class GetScenePointRspOuterClass {
     int getLockedPointList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 6529
-   * </pre>
-   *
    * Protobuf type {@code GetScenePointRsp}
    */
   public static final class GetScenePointRsp extends
@@ -1252,10 +1248,6 @@ public final class GetScenePointRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6529
-     * </pre>
-     *
      * Protobuf type {@code GetScenePointRsp}
      */
     public static final class Builder extends

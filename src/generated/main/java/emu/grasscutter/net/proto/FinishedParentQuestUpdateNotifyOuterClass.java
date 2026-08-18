@@ -43,10 +43,6 @@ public final class FinishedParentQuestUpdateNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 3115
-   * </pre>
-   *
    * Protobuf type {@code FinishedParentQuestUpdateNotify}
    */
   public static final class FinishedParentQuestUpdateNotify extends
@@ -335,10 +331,6 @@ public final class FinishedParentQuestUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3115
-     * </pre>
-     *
      * Protobuf type {@code FinishedParentQuestUpdateNotify}
      */
     public static final class Builder extends

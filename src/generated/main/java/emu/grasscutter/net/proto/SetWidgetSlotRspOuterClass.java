@@ -71,10 +71,6 @@ public final class SetWidgetSlotRspOuterClass {
     int getTagListValue(int index);
   }
   /**
-   * <pre>
-   * CmdID: 7400
-   * </pre>
-   *
    * Protobuf type {@code SetWidgetSlotRsp}
    */
   public static final class SetWidgetSlotRsp extends
@@ -497,10 +493,6 @@ public final class SetWidgetSlotRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7400
-     * </pre>
-     *
      * Protobuf type {@code SetWidgetSlotRsp}
      */
     public static final class Builder extends

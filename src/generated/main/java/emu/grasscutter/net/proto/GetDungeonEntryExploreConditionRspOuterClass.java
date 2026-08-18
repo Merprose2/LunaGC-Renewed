@@ -40,10 +40,6 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
     emu.grasscutter.net.proto.DungeonEntryCondOuterClass.DungeonEntryCondOrBuilder getDungeonEntryCondOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 2827
-   * </pre>
-   *
    * Protobuf type {@code GetDungeonEntryExploreConditionRsp}
    */
   public static final class GetDungeonEntryExploreConditionRsp extends
@@ -347,10 +343,6 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2827
-     * </pre>
-     *
      * Protobuf type {@code GetDungeonEntryExploreConditionRsp}
      */
     public static final class Builder extends

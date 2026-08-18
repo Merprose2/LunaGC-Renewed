@@ -25,10 +25,6 @@ public final class UnlockNameCardNotifyOuterClass {
     int getNameCardId();
   }
   /**
-   * <pre>
-   * CmdID: 27271
-   * </pre>
-   *
    * Protobuf type {@code UnlockNameCardNotify}
    */
   public static final class UnlockNameCardNotify extends
@@ -277,10 +273,6 @@ public final class UnlockNameCardNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27271
-     * </pre>
-     *
      * Protobuf type {@code UnlockNameCardNotify}
      */
     public static final class Builder extends

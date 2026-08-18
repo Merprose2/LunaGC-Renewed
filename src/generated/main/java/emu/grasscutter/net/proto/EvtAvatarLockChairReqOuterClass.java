@@ -46,10 +46,6 @@ public final class EvtAvatarLockChairReqOuterClass {
     long getChairId();
   }
   /**
-   * <pre>
-   * CmdID: 3201
-   * </pre>
-   *
    * Protobuf type {@code EvtAvatarLockChairReq}
    */
   public static final class EvtAvatarLockChairReq extends
@@ -381,10 +377,6 @@ public final class EvtAvatarLockChairReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3201
-     * </pre>
-     *
      * Protobuf type {@code EvtAvatarLockChairReq}
      */
     public static final class Builder extends

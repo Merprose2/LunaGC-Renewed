@@ -43,10 +43,6 @@ public final class EvtAvatarStandUpNotifyOuterClass {
     int getDirection();
   }
   /**
-   * <pre>
-   * CmdID: 4126
-   * </pre>
-   *
    * Protobuf type {@code EvtAvatarStandUpNotify}
    */
   public static final class EvtAvatarStandUpNotify extends
@@ -377,10 +373,6 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4126
-     * </pre>
-     *
      * Protobuf type {@code EvtAvatarStandUpNotify}
      */
     public static final class Builder extends

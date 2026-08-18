@@ -19,18 +19,6 @@ public final class ItemOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 item_id = 1;</code>
-     * @return The itemId.
-     */
-    int getItemId();
-
-    /**
-     * <code>uint64 guid = 2;</code>
-     * @return The guid.
-     */
-    long getGuid();
-
-    /**
      * <code>.Material material = 5;</code>
      * @return Whether the material field is set.
      */
@@ -119,6 +107,18 @@ public final class ItemOuterClass {
      * <code>._TpsWeapon tps_weapon = 10;</code>
      */
     emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeaponOrBuilder getTpsWeaponOrBuilder();
+
+    /**
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    int getItemId();
+
+    /**
+     * <code>uint64 guid = 2;</code>
+     * @return The guid.
+     */
+    long getGuid();
 
     public emu.grasscutter.net.proto.ItemOuterClass.Item.DetailCase getDetailCase();
   }
@@ -342,28 +342,6 @@ public final class ItemOuterClass {
           detailCase_);
     }
 
-    public static final int ITEM_ID_FIELD_NUMBER = 1;
-    private int itemId_;
-    /**
-     * <code>uint32 item_id = 1;</code>
-     * @return The itemId.
-     */
-    @java.lang.Override
-    public int getItemId() {
-      return itemId_;
-    }
-
-    public static final int GUID_FIELD_NUMBER = 2;
-    private long guid_;
-    /**
-     * <code>uint64 guid = 2;</code>
-     * @return The guid.
-     */
-    @java.lang.Override
-    public long getGuid() {
-      return guid_;
-    }
-
     public static final int MATERIAL_FIELD_NUMBER = 5;
     /**
      * <code>.Material material = 5;</code>
@@ -548,6 +526,28 @@ public final class ItemOuterClass {
          return (emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon) detail_;
       }
       return emu.grasscutter.net.proto._TpsWeaponOuterClass._TpsWeapon.getDefaultInstance();
+    }
+
+    public static final int ITEM_ID_FIELD_NUMBER = 1;
+    private int itemId_;
+    /**
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    @java.lang.Override
+    public int getItemId() {
+      return itemId_;
+    }
+
+    public static final int GUID_FIELD_NUMBER = 2;
+    private long guid_;
+    /**
+     * <code>uint64 guid = 2;</code>
+     * @return The guid.
+     */
+    @java.lang.Override
+    public long getGuid() {
+      return guid_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -886,8 +886,6 @@ public final class ItemOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ItemOuterClass.Item buildPartial() {
         emu.grasscutter.net.proto.ItemOuterClass.Item result = new emu.grasscutter.net.proto.ItemOuterClass.Item(this);
-        result.itemId_ = itemId_;
-        result.guid_ = guid_;
         if (detailCase_ == 5) {
           if (materialBuilder_ == null) {
             result.detail_ = detail_;
@@ -930,6 +928,8 @@ public final class ItemOuterClass {
             result.detail_ = tpsWeaponBuilder_.build();
           }
         }
+        result.itemId_ = itemId_;
+        result.guid_ = guid_;
         result.detailCase_ = detailCase_;
         onBuilt();
         return result;
@@ -1057,68 +1057,6 @@ public final class ItemOuterClass {
         return this;
       }
 
-
-      private int itemId_ ;
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @return The itemId.
-       */
-      @java.lang.Override
-      public int getItemId() {
-        return itemId_;
-      }
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @param value The itemId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setItemId(int value) {
-        
-        itemId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearItemId() {
-        
-        itemId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private long guid_ ;
-      /**
-       * <code>uint64 guid = 2;</code>
-       * @return The guid.
-       */
-      @java.lang.Override
-      public long getGuid() {
-        return guid_;
-      }
-      /**
-       * <code>uint64 guid = 2;</code>
-       * @param value The guid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGuid(long value) {
-        
-        guid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint64 guid = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGuid() {
-        
-        guid_ = 0L;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MaterialOuterClass.Material, emu.grasscutter.net.proto.MaterialOuterClass.Material.Builder, emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder> materialBuilder_;
@@ -1965,6 +1903,68 @@ public final class ItemOuterClass {
         onChanged();;
         return tpsWeaponBuilder_;
       }
+
+      private int itemId_ ;
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return The itemId.
+       */
+      @java.lang.Override
+      public int getItemId() {
+        return itemId_;
+      }
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @param value The itemId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setItemId(int value) {
+        
+        itemId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearItemId() {
+        
+        itemId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private long guid_ ;
+      /**
+       * <code>uint64 guid = 2;</code>
+       * @return The guid.
+       */
+      @java.lang.Override
+      public long getGuid() {
+        return guid_;
+      }
+      /**
+       * <code>uint64 guid = 2;</code>
+       * @param value The guid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGuid(long value) {
+        
+        guid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint64 guid = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGuid() {
+        
+        guid_ = 0L;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -2035,12 +2035,12 @@ public final class ItemOuterClass {
       "\n\nItem.proto\032\013Equip.proto\032\017Furniture.pro" +
       "to\032\016Material.proto\032\025_BeyondMaterial.prot" +
       "o\032\017_Facility.proto\032\020_TpsWeapon.proto\"\370\001\n" +
-      "\004Item\022\017\n\007item_id\030\001 \001(\r\022\014\n\004guid\030\002 \001(\004\022\035\n\010" +
-      "material\030\005 \001(\0132\t.MaterialH\000\022\027\n\005equip\030\006 \001" +
-      "(\0132\006.EquipH\000\022\037\n\tfurniture\030\007 \001(\0132\n.Furnit" +
-      "ureH\000\022+\n\017beyond_material\030\010 \001(\0132\020._Beyond" +
-      "MaterialH\000\022\036\n\010facility\030\t \001(\0132\n._Facility" +
-      "H\000\022!\n\ntps_weapon\030\n \001(\0132\013._TpsWeaponH\000B\010\n" +
+      "\004Item\022\035\n\010material\030\005 \001(\0132\t.MaterialH\000\022\027\n\005" +
+      "equip\030\006 \001(\0132\006.EquipH\000\022\037\n\tfurniture\030\007 \001(\013" +
+      "2\n.FurnitureH\000\022+\n\017beyond_material\030\010 \001(\0132" +
+      "\020._BeyondMaterialH\000\022\036\n\010facility\030\t \001(\0132\n." +
+      "_FacilityH\000\022!\n\ntps_weapon\030\n \001(\0132\013._TpsWe" +
+      "aponH\000\022\017\n\007item_id\030\001 \001(\r\022\014\n\004guid\030\002 \001(\004B\010\n" +
       "\006detailB+\n\031emu.grasscutter.net.protoB\016It" +
       "emOuterClassb\006proto3"
     };
@@ -2059,7 +2059,7 @@ public final class ItemOuterClass {
     internal_static_Item_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Item_descriptor,
-        new java.lang.String[] { "ItemId", "Guid", "Material", "Equip", "Furniture", "BeyondMaterial", "Facility", "TpsWeapon", "Detail", });
+        new java.lang.String[] { "Material", "Equip", "Furniture", "BeyondMaterial", "Facility", "TpsWeapon", "ItemId", "Guid", "Detail", });
     emu.grasscutter.net.proto.EquipOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FurnitureOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MaterialOuterClass.getDescriptor();

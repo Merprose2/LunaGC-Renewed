@@ -166,6 +166,132 @@ public final class HKGHMIFOALHOuterClass {
               emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.class, emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.Builder.class);
     }
 
+    /**
+     * Protobuf enum {@code HKGHMIFOALH.KLEMBLCACPM}
+     */
+    public enum KLEMBLCACPM
+        implements com.google.protobuf.ProtocolMessageEnum {
+      /**
+       * <code>KLEMBLCACPM_LOCKED = 0;</code>
+       */
+      KLEMBLCACPM_LOCKED(0),
+      /**
+       * <code>KLEMBLCACPM_UNLOCK = 1;</code>
+       */
+      KLEMBLCACPM_UNLOCK(1),
+      /**
+       * <code>KLEMBLCACPM_FEEDABLE = 2;</code>
+       */
+      KLEMBLCACPM_FEEDABLE(2),
+      /**
+       * <code>KLEMBLCACPM_FINISHED = 3;</code>
+       */
+      KLEMBLCACPM_FINISHED(3),
+      UNRECOGNIZED(-1),
+      ;
+
+      /**
+       * <code>KLEMBLCACPM_LOCKED = 0;</code>
+       */
+      public static final int KLEMBLCACPM_LOCKED_VALUE = 0;
+      /**
+       * <code>KLEMBLCACPM_UNLOCK = 1;</code>
+       */
+      public static final int KLEMBLCACPM_UNLOCK_VALUE = 1;
+      /**
+       * <code>KLEMBLCACPM_FEEDABLE = 2;</code>
+       */
+      public static final int KLEMBLCACPM_FEEDABLE_VALUE = 2;
+      /**
+       * <code>KLEMBLCACPM_FINISHED = 3;</code>
+       */
+      public static final int KLEMBLCACPM_FINISHED_VALUE = 3;
+
+
+      public final int getNumber() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalArgumentException(
+              "Can't get the number of an unknown enum value.");
+        }
+        return value;
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static KLEMBLCACPM valueOf(int value) {
+        return forNumber(value);
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       */
+      public static KLEMBLCACPM forNumber(int value) {
+        switch (value) {
+          case 0: return KLEMBLCACPM_LOCKED;
+          case 1: return KLEMBLCACPM_UNLOCK;
+          case 2: return KLEMBLCACPM_FEEDABLE;
+          case 3: return KLEMBLCACPM_FINISHED;
+          default: return null;
+        }
+      }
+
+      public static com.google.protobuf.Internal.EnumLiteMap<KLEMBLCACPM>
+          internalGetValueMap() {
+        return internalValueMap;
+      }
+      private static final com.google.protobuf.Internal.EnumLiteMap<
+          KLEMBLCACPM> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<KLEMBLCACPM>() {
+              public KLEMBLCACPM findValueByNumber(int number) {
+                return KLEMBLCACPM.forNumber(number);
+              }
+            };
+
+      public final com.google.protobuf.Descriptors.EnumValueDescriptor
+          getValueDescriptor() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalStateException(
+              "Can't get the descriptor of an unrecognized enum value.");
+        }
+        return getDescriptor().getValues().get(ordinal());
+      }
+      public final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptorForType() {
+        return getDescriptor();
+      }
+      public static final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptor() {
+        return emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.getDescriptor().getEnumTypes().get(0);
+      }
+
+      private static final KLEMBLCACPM[] VALUES = values();
+
+      public static KLEMBLCACPM valueOf(
+          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+        if (desc.getType() != getDescriptor()) {
+          throw new java.lang.IllegalArgumentException(
+            "EnumValueDescriptor is not for this type.");
+        }
+        if (desc.getIndex() == -1) {
+          return UNRECOGNIZED;
+        }
+        return VALUES[desc.getIndex()];
+      }
+
+      private final int value;
+
+      private KLEMBLCACPM(int value) {
+        this.value = value;
+      }
+
+      // @@protoc_insertion_point(enum_scope:HKGHMIFOALH.KLEMBLCACPM)
+    }
+
     public static final int LEVEL_ID_FIELD_NUMBER = 2;
     private int levelId_;
     /**
@@ -1031,12 +1157,14 @@ public final class HKGHMIFOALHOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021HKGHMIFOALH.proto\032\021AOACBHIACPA.proto\"f" +
-      "\n\013HKGHMIFOALH\022\020\n\010level_id\030\002 \001(\r\022!\n\013LHFPB" +
-      "EBAGKG\030\005 \003(\0132\014.AOACBHIACPA\022\r\n\005stage\030\006 \001(" +
-      "\r\022\023\n\013FBAPNDJKIBO\030\010 \001(\rB2\n\031emu.grasscutte" +
-      "r.net.protoB\025HKGHMIFOALHOuterClassb\006prot" +
-      "o3"
+      "\n\021HKGHMIFOALH.proto\032\021AOACBHIACPA.proto\"\331" +
+      "\001\n\013HKGHMIFOALH\022\020\n\010level_id\030\002 \001(\r\022!\n\013LHFP" +
+      "BEBAGKG\030\005 \003(\0132\014.AOACBHIACPA\022\r\n\005stage\030\006 \001" +
+      "(\r\022\023\n\013FBAPNDJKIBO\030\010 \001(\r\"q\n\013KLEMBLCACPM\022\026" +
+      "\n\022KLEMBLCACPM_LOCKED\020\000\022\026\n\022KLEMBLCACPM_UN" +
+      "LOCK\020\001\022\030\n\024KLEMBLCACPM_FEEDABLE\020\002\022\030\n\024KLEM" +
+      "BLCACPM_FINISHED\020\003B2\n\031emu.grasscutter.ne" +
+      "t.protoB\025HKGHMIFOALHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

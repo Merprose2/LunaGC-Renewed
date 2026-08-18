@@ -19,23 +19,6 @@ public final class KEGLGHJKEGPOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_active = 1;</code>
-     * @return The isActive.
-     */
-    boolean getIsActive();
-
-    /**
-     * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
-     * @return The enum numeric value on the wire for nHGKKKAOKMN.
-     */
-    int getNHGKKKAOKMNValue();
-    /**
-     * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
-     * @return The nHGKKKAOKMN.
-     */
-    emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD getNHGKKKAOKMN();
-
-    /**
      * <code>.IBFPCNHCJJK custom_value_comp = 11;</code>
      * @return Whether the customValueComp field is set.
      */
@@ -499,6 +482,23 @@ public final class KEGLGHJKEGPOuterClass {
      * <code>.OLOLDMPHCFK vehicle_comp = 45;</code>
      */
     emu.grasscutter.net.proto.OLOLDMPHCFKOuterClass.OLOLDMPHCFKOrBuilder getVehicleCompOrBuilder();
+
+    /**
+     * <code>bool is_active = 1;</code>
+     * @return The isActive.
+     */
+    boolean getIsActive();
+
+    /**
+     * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
+     * @return The enum numeric value on the wire for nHGKKKAOKMN.
+     */
+    int getNHGKKKAOKMNValue();
+    /**
+     * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
+     * @return The nHGKKKAOKMN.
+     */
+    emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD getNHGKKKAOKMN();
 
     public emu.grasscutter.net.proto.KEGLGHJKEGPOuterClass.KEGLGHJKEGP.DetailCase getDetailCase();
   }
@@ -1122,36 +1122,6 @@ public final class KEGLGHJKEGPOuterClass {
     getDetailCase() {
       return DetailCase.forNumber(
           detailCase_);
-    }
-
-    public static final int IS_ACTIVE_FIELD_NUMBER = 1;
-    private boolean isActive_;
-    /**
-     * <code>bool is_active = 1;</code>
-     * @return The isActive.
-     */
-    @java.lang.Override
-    public boolean getIsActive() {
-      return isActive_;
-    }
-
-    public static final int NHGKKKAOKMN_FIELD_NUMBER = 2;
-    private int nHGKKKAOKMN_;
-    /**
-     * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
-     * @return The enum numeric value on the wire for nHGKKKAOKMN.
-     */
-    @java.lang.Override public int getNHGKKKAOKMNValue() {
-      return nHGKKKAOKMN_;
-    }
-    /**
-     * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
-     * @return The nHGKKKAOKMN.
-     */
-    @java.lang.Override public emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD getNHGKKKAOKMN() {
-      @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD result = emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD.valueOf(nHGKKKAOKMN_);
-      return result == null ? emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD.UNRECOGNIZED : result;
     }
 
     public static final int CUSTOM_VALUE_COMP_FIELD_NUMBER = 11;
@@ -2115,6 +2085,36 @@ public final class KEGLGHJKEGPOuterClass {
       return emu.grasscutter.net.proto.OLOLDMPHCFKOuterClass.OLOLDMPHCFK.getDefaultInstance();
     }
 
+    public static final int IS_ACTIVE_FIELD_NUMBER = 1;
+    private boolean isActive_;
+    /**
+     * <code>bool is_active = 1;</code>
+     * @return The isActive.
+     */
+    @java.lang.Override
+    public boolean getIsActive() {
+      return isActive_;
+    }
+
+    public static final int NHGKKKAOKMN_FIELD_NUMBER = 2;
+    private int nHGKKKAOKMN_;
+    /**
+     * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
+     * @return The enum numeric value on the wire for nHGKKKAOKMN.
+     */
+    @java.lang.Override public int getNHGKKKAOKMNValue() {
+      return nHGKKKAOKMN_;
+    }
+    /**
+     * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
+     * @return The nHGKKKAOKMN.
+     */
+    @java.lang.Override public emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD getNHGKKKAOKMN() {
+      @SuppressWarnings("deprecation")
+      emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD result = emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD.valueOf(nHGKKKAOKMN_);
+      return result == null ? emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD.UNRECOGNIZED : result;
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -2825,8 +2825,6 @@ public final class KEGLGHJKEGPOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.KEGLGHJKEGPOuterClass.KEGLGHJKEGP buildPartial() {
         emu.grasscutter.net.proto.KEGLGHJKEGPOuterClass.KEGLGHJKEGP result = new emu.grasscutter.net.proto.KEGLGHJKEGPOuterClass.KEGLGHJKEGP(this);
-        result.isActive_ = isActive_;
-        result.nHGKKKAOKMN_ = nHGKKKAOKMN_;
         if (detailCase_ == 11) {
           if (customValueCompBuilder_ == null) {
             result.detail_ = detail_;
@@ -3044,6 +3042,8 @@ public final class KEGLGHJKEGPOuterClass {
             result.detail_ = vehicleCompBuilder_.build();
           }
         }
+        result.isActive_ = isActive_;
+        result.nHGKKKAOKMN_ = nHGKKKAOKMN_;
         result.detailCase_ = detailCase_;
         onBuilt();
         return result;
@@ -3271,91 +3271,6 @@ public final class KEGLGHJKEGPOuterClass {
         return this;
       }
 
-
-      private boolean isActive_ ;
-      /**
-       * <code>bool is_active = 1;</code>
-       * @return The isActive.
-       */
-      @java.lang.Override
-      public boolean getIsActive() {
-        return isActive_;
-      }
-      /**
-       * <code>bool is_active = 1;</code>
-       * @param value The isActive to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsActive(boolean value) {
-        
-        isActive_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_active = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsActive() {
-        
-        isActive_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int nHGKKKAOKMN_ = 0;
-      /**
-       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
-       * @return The enum numeric value on the wire for nHGKKKAOKMN.
-       */
-      @java.lang.Override public int getNHGKKKAOKMNValue() {
-        return nHGKKKAOKMN_;
-      }
-      /**
-       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
-       * @param value The enum numeric value on the wire for nHGKKKAOKMN to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNHGKKKAOKMNValue(int value) {
-        
-        nHGKKKAOKMN_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
-       * @return The nHGKKKAOKMN.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD getNHGKKKAOKMN() {
-        @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD result = emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD.valueOf(nHGKKKAOKMN_);
-        return result == null ? emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD.UNRECOGNIZED : result;
-      }
-      /**
-       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
-       * @param value The nHGKKKAOKMN to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNHGKKKAOKMN(emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        
-        nHGKKKAOKMN_ = value.getNumber();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNHGKKKAOKMN() {
-        
-        nHGKKKAOKMN_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.IBFPCNHCJJKOuterClass.IBFPCNHCJJK, emu.grasscutter.net.proto.IBFPCNHCJJKOuterClass.IBFPCNHCJJK.Builder, emu.grasscutter.net.proto.IBFPCNHCJJKOuterClass.IBFPCNHCJJKOrBuilder> customValueCompBuilder_;
@@ -7727,6 +7642,91 @@ public final class KEGLGHJKEGPOuterClass {
         onChanged();;
         return vehicleCompBuilder_;
       }
+
+      private boolean isActive_ ;
+      /**
+       * <code>bool is_active = 1;</code>
+       * @return The isActive.
+       */
+      @java.lang.Override
+      public boolean getIsActive() {
+        return isActive_;
+      }
+      /**
+       * <code>bool is_active = 1;</code>
+       * @param value The isActive to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsActive(boolean value) {
+        
+        isActive_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_active = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsActive() {
+        
+        isActive_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int nHGKKKAOKMN_ = 0;
+      /**
+       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
+       * @return The enum numeric value on the wire for nHGKKKAOKMN.
+       */
+      @java.lang.Override public int getNHGKKKAOKMNValue() {
+        return nHGKKKAOKMN_;
+      }
+      /**
+       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
+       * @param value The enum numeric value on the wire for nHGKKKAOKMN to set.
+       * @return This builder for chaining.
+       */
+      public Builder setNHGKKKAOKMNValue(int value) {
+        
+        nHGKKKAOKMN_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
+       * @return The nHGKKKAOKMN.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD getNHGKKKAOKMN() {
+        @SuppressWarnings("deprecation")
+        emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD result = emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD.valueOf(nHGKKKAOKMN_);
+        return result == null ? emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD.UNRECOGNIZED : result;
+      }
+      /**
+       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
+       * @param value The nHGKKKAOKMN to set.
+       * @return This builder for chaining.
+       */
+      public Builder setNHGKKKAOKMN(emu.grasscutter.net.proto.AELIBNHFODDOuterClass.AELIBNHFODD value) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        
+        nHGKKKAOKMN_ = value.getNumber();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>.AELIBNHFODD NHGKKKAOKMN = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearNHGKKKAOKMN() {
+        
+        nHGKKKAOKMN_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -7810,40 +7810,40 @@ public final class KEGLGHJKEGPOuterClass {
       "HCLFDK.proto\032\021OKDEHNGHKGA.proto\032\021OLOLDMP" +
       "HCFK.proto\032\021PHFAOBBPOIP.proto\032\034_LevelSta" +
       "teMachineComp.proto\032\024_SubSwitchComp.prot" +
-      "o\"\324\n\n\013KEGLGHJKEGP\022\021\n\tis_active\030\001 \001(\010\022!\n\013" +
-      "NHGKKKAOKMN\030\002 \001(\0162\014.AELIBNHFODD\022)\n\021custo" +
-      "m_value_comp\030\013 \001(\0132\014.IBFPCNHCJJKH\000\022\"\n\nti" +
-      "mer_comp\030\r \001(\0132\014.FOOFKCNOCBNH\000\022!\n\tmove_c" +
-      "omp\030\016 \001(\0132\014.NJABMDONHPIH\000\022+\n\023client_trig" +
-      "ger_comp\030\017 \001(\0132\014.OCMDIBLDABDH\000\022#\n\013effect" +
-      "_comp\030\020 \001(\0132\014.JEFEGBIEMOFH\000\022&\n\016collision" +
-      "_comp\030\022 \001(\0132\014.AGFINCBOPDEH\000\022(\n\020follow_mo" +
-      "ve_comp\030\023 \001(\0132\014.FDKOFMMNKEDH\000\022(\n\020bullet_" +
-      "move_comp\030\025 \001(\0132\014.IIHJBEGADCJH\000\022*\n\022hit_d" +
-      "etection_comp\030\026 \001(\0132\014.KPIBJLNPBHGH\000\022#\n\013c" +
-      "amera_comp\030\027 \001(\0132\014.BANABAFODKKH\000\022(\n\020role" +
-      "_status_comp\030\030 \001(\0132\014.OFGPCHCLFDKH\000\022-\n\025av" +
-      "atar_disturber_comp\030\031 \001(\0132\014.IKOMHKPAEINH" +
-      "\000\022\'\n\017count_down_comp\030\032 \001(\0132\014.FKCJKMGFGMA" +
-      "H\000\022#\n\013option_comp\030\033 \001(\0132\014.JNCFEAMFKNAH\000\022" +
-      "#\n\013hitbox_comp\030\034 \001(\0132\014.HALLKJDALJGH\000\022)\n\021" +
-      "custom_skill_comp\030\035 \001(\0132\014.HIHENKCOEPBH\000\022" +
-      "#\n\013enmity_comp\030\037 \001(\0132\014.MPLJGNOKEFBH\000\022&\n\016" +
-      "nameplate_comp\030  \001(\0132\014.OKDEHNGHKGAH\000\022!\n\t" +
-      "talk_comp\030! \001(\0132\014.PHFAOBBPOIPH\000\022)\n\021sound" +
-      "_effect_comp\030\" \001(\0132\014.MCKANJDJLLJH\000\022+\n\023mo" +
-      "nster_patrol_comp\030# \001(\0132\014.GECFKHFMNKNH\000\022" +
-      ";\n\030level_state_machine_comp\030$ \001(\0132\027._Lev" +
-      "elStateMachineCompH\000\022)\n\021minimap_mark_com" +
-      "p\030% \001(\0132\014.LDJMONFNHNKH\000\022&\n\016stuff_bag_com" +
-      "p\030& \001(\0132\014.KCJGBIPCHGOH\000\022,\n\024equip_stuff_b" +
-      "ag_comp\030\' \001(\0132\014.KNBCNCGHKBIH\000\022(\n\020drop_ga" +
-      "ther_comp\030( \001(\0132\014.IAMFJKNIDPJH\000\022(\n\020light" +
-      "_group_comp\030) \001(\0132\014.IKOIHIANENHH\000\022(\n\020sca" +
-      "n_entity_comp\030* \001(\0132\014.NJEMOPGNEDDH\000\022*\n\017s" +
-      "ub_switch_comp\030+ \001(\0132\017._SubSwitchCompH\000\022" +
-      "\'\n\017monster_ai_comp\030, \001(\0132\014.KFMJCGEOPJJH\000" +
-      "\022$\n\014vehicle_comp\030- \001(\0132\014.OLOLDMPHCFKH\000B\010" +
+      "o\"\324\n\n\013KEGLGHJKEGP\022)\n\021custom_value_comp\030\013" +
+      " \001(\0132\014.IBFPCNHCJJKH\000\022\"\n\ntimer_comp\030\r \001(\013" +
+      "2\014.FOOFKCNOCBNH\000\022!\n\tmove_comp\030\016 \001(\0132\014.NJ" +
+      "ABMDONHPIH\000\022+\n\023client_trigger_comp\030\017 \001(\013" +
+      "2\014.OCMDIBLDABDH\000\022#\n\013effect_comp\030\020 \001(\0132\014." +
+      "JEFEGBIEMOFH\000\022&\n\016collision_comp\030\022 \001(\0132\014." +
+      "AGFINCBOPDEH\000\022(\n\020follow_move_comp\030\023 \001(\0132" +
+      "\014.FDKOFMMNKEDH\000\022(\n\020bullet_move_comp\030\025 \001(" +
+      "\0132\014.IIHJBEGADCJH\000\022*\n\022hit_detection_comp\030" +
+      "\026 \001(\0132\014.KPIBJLNPBHGH\000\022#\n\013camera_comp\030\027 \001" +
+      "(\0132\014.BANABAFODKKH\000\022(\n\020role_status_comp\030\030" +
+      " \001(\0132\014.OFGPCHCLFDKH\000\022-\n\025avatar_disturber" +
+      "_comp\030\031 \001(\0132\014.IKOMHKPAEINH\000\022\'\n\017count_dow" +
+      "n_comp\030\032 \001(\0132\014.FKCJKMGFGMAH\000\022#\n\013option_c" +
+      "omp\030\033 \001(\0132\014.JNCFEAMFKNAH\000\022#\n\013hitbox_comp" +
+      "\030\034 \001(\0132\014.HALLKJDALJGH\000\022)\n\021custom_skill_c" +
+      "omp\030\035 \001(\0132\014.HIHENKCOEPBH\000\022#\n\013enmity_comp" +
+      "\030\037 \001(\0132\014.MPLJGNOKEFBH\000\022&\n\016nameplate_comp" +
+      "\030  \001(\0132\014.OKDEHNGHKGAH\000\022!\n\ttalk_comp\030! \001(" +
+      "\0132\014.PHFAOBBPOIPH\000\022)\n\021sound_effect_comp\030\"" +
+      " \001(\0132\014.MCKANJDJLLJH\000\022+\n\023monster_patrol_c" +
+      "omp\030# \001(\0132\014.GECFKHFMNKNH\000\022;\n\030level_state" +
+      "_machine_comp\030$ \001(\0132\027._LevelStateMachine" +
+      "CompH\000\022)\n\021minimap_mark_comp\030% \001(\0132\014.LDJM" +
+      "ONFNHNKH\000\022&\n\016stuff_bag_comp\030& \001(\0132\014.KCJG" +
+      "BIPCHGOH\000\022,\n\024equip_stuff_bag_comp\030\' \001(\0132" +
+      "\014.KNBCNCGHKBIH\000\022(\n\020drop_gather_comp\030( \001(" +
+      "\0132\014.IAMFJKNIDPJH\000\022(\n\020light_group_comp\030) " +
+      "\001(\0132\014.IKOIHIANENHH\000\022(\n\020scan_entity_comp\030" +
+      "* \001(\0132\014.NJEMOPGNEDDH\000\022*\n\017sub_switch_comp" +
+      "\030+ \001(\0132\017._SubSwitchCompH\000\022\'\n\017monster_ai_" +
+      "comp\030, \001(\0132\014.KFMJCGEOPJJH\000\022$\n\014vehicle_co" +
+      "mp\030- \001(\0132\014.OLOLDMPHCFKH\000\022\021\n\tis_active\030\001 " +
+      "\001(\010\022!\n\013NHGKKKAOKMN\030\002 \001(\0162\014.AELIBNHFODDB\010" +
       "\n\006detailB2\n\031emu.grasscutter.net.protoB\025K" +
       "EGLGHJKEGPOuterClassb\006proto3"
     };
@@ -7888,7 +7888,7 @@ public final class KEGLGHJKEGPOuterClass {
     internal_static_KEGLGHJKEGP_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_KEGLGHJKEGP_descriptor,
-        new java.lang.String[] { "IsActive", "NHGKKKAOKMN", "CustomValueComp", "TimerComp", "MoveComp", "ClientTriggerComp", "EffectComp", "CollisionComp", "FollowMoveComp", "BulletMoveComp", "HitDetectionComp", "CameraComp", "RoleStatusComp", "AvatarDisturberComp", "CountDownComp", "OptionComp", "HitboxComp", "CustomSkillComp", "EnmityComp", "NameplateComp", "TalkComp", "SoundEffectComp", "MonsterPatrolComp", "LevelStateMachineComp", "MinimapMarkComp", "StuffBagComp", "EquipStuffBagComp", "DropGatherComp", "LightGroupComp", "ScanEntityComp", "SubSwitchComp", "MonsterAiComp", "VehicleComp", "Detail", });
+        new java.lang.String[] { "CustomValueComp", "TimerComp", "MoveComp", "ClientTriggerComp", "EffectComp", "CollisionComp", "FollowMoveComp", "BulletMoveComp", "HitDetectionComp", "CameraComp", "RoleStatusComp", "AvatarDisturberComp", "CountDownComp", "OptionComp", "HitboxComp", "CustomSkillComp", "EnmityComp", "NameplateComp", "TalkComp", "SoundEffectComp", "MonsterPatrolComp", "LevelStateMachineComp", "MinimapMarkComp", "StuffBagComp", "EquipStuffBagComp", "DropGatherComp", "LightGroupComp", "ScanEntityComp", "SubSwitchComp", "MonsterAiComp", "VehicleComp", "IsActive", "NHGKKKAOKMN", "Detail", });
     emu.grasscutter.net.proto.AELIBNHFODDOuterClass.getDescriptor();
     emu.grasscutter.net.proto.AGFINCBOPDEOuterClass.getDescriptor();
     emu.grasscutter.net.proto.BANABAFODKKOuterClass.getDescriptor();

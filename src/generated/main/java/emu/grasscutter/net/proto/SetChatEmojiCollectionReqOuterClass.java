@@ -34,10 +34,6 @@ public final class SetChatEmojiCollectionReqOuterClass {
     emu.grasscutter.net.proto.ChatEmojiCollectionDataOuterClass.ChatEmojiCollectionDataOrBuilder getChatEmojiCollectionDataOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 635
-   * </pre>
-   *
    * Protobuf type {@code SetChatEmojiCollectionReq}
    */
   public static final class SetChatEmojiCollectionReq extends
@@ -314,10 +310,6 @@ public final class SetChatEmojiCollectionReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 635
-     * </pre>
-     *
      * Protobuf type {@code SetChatEmojiCollectionReq}
      */
     public static final class Builder extends

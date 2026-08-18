@@ -31,10 +31,6 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
     int getEventId();
   }
   /**
-   * <pre>
-   * CmdID: 26984
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarRewardEventGetReq}
    */
   public static final class HomeAvatarRewardEventGetReq extends
@@ -310,10 +306,6 @@ public final class HomeAvatarRewardEventGetReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26984
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarRewardEventGetReq}
      */
     public static final class Builder extends

@@ -55,10 +55,6 @@ public final class HomeAvatarRewardEventGetRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 4974
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarRewardEventGetRsp}
    */
   public static final class HomeAvatarRewardEventGetRsp extends
@@ -401,10 +397,6 @@ public final class HomeAvatarRewardEventGetRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4974
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarRewardEventGetRsp}
      */
     public static final class Builder extends

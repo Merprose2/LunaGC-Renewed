@@ -54,10 +54,6 @@ public final class SetUpAvatarTeamRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 2936
-   * </pre>
-   *
    * Protobuf type {@code SetUpAvatarTeamRsp}
    */
   public static final class SetUpAvatarTeamRsp extends
@@ -443,10 +439,6 @@ public final class SetUpAvatarTeamRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2936
-     * </pre>
-     *
      * Protobuf type {@code SetUpAvatarTeamRsp}
      */
     public static final class Builder extends

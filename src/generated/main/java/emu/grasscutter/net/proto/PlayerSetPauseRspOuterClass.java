@@ -25,10 +25,6 @@ public final class PlayerSetPauseRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 2870
-   * </pre>
-   *
    * Protobuf type {@code PlayerSetPauseRsp}
    */
   public static final class PlayerSetPauseRsp extends
@@ -277,10 +273,6 @@ public final class PlayerSetPauseRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2870
-     * </pre>
-     *
      * Protobuf type {@code PlayerSetPauseRsp}
      */
     public static final class Builder extends

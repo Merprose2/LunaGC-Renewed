@@ -59,10 +59,6 @@ public final class MonsterSummonTagNotifyOuterClass {
         int key);
   }
   /**
-   * <pre>
-   * CmdID: 29334
-   * </pre>
-   *
    * Protobuf type {@code MonsterSummonTagNotify}
    */
   public static final class MonsterSummonTagNotify extends
@@ -440,10 +436,6 @@ public final class MonsterSummonTagNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29334
-     * </pre>
-     *
      * Protobuf type {@code MonsterSummonTagNotify}
      */
     public static final class Builder extends

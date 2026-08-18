@@ -37,10 +37,6 @@ public final class EnterWorldAreaRspOuterClass {
     int getAreaId();
   }
   /**
-   * <pre>
-   * CmdID: 24557
-   * </pre>
-   *
    * Protobuf type {@code EnterWorldAreaRsp}
    */
   public static final class EnterWorldAreaRsp extends
@@ -343,10 +339,6 @@ public final class EnterWorldAreaRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24557
-     * </pre>
-     *
      * Protobuf type {@code EnterWorldAreaRsp}
      */
     public static final class Builder extends

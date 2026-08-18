@@ -55,10 +55,6 @@ public final class ClientAbilityChangeNotifyOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 581
-   * </pre>
-   *
    * Protobuf type {@code ClientAbilityChangeNotify}
    */
   public static final class ClientAbilityChangeNotify extends
@@ -402,10 +398,6 @@ public final class ClientAbilityChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 581
-     * </pre>
-     *
      * Protobuf type {@code ClientAbilityChangeNotify}
      */
     public static final class Builder extends

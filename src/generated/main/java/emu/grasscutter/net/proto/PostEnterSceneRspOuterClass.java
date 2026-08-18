@@ -31,10 +31,6 @@ public final class PostEnterSceneRspOuterClass {
     int getEnterSceneToken();
   }
   /**
-   * <pre>
-   * CmdID: 21753
-   * </pre>
-   *
    * Protobuf type {@code PostEnterSceneRsp}
    */
   public static final class PostEnterSceneRsp extends
@@ -310,10 +306,6 @@ public final class PostEnterSceneRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21753
-     * </pre>
-     *
      * Protobuf type {@code PostEnterSceneRsp}
      */
     public static final class Builder extends

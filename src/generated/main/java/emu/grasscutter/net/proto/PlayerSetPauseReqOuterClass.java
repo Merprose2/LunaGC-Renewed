@@ -25,10 +25,6 @@ public final class PlayerSetPauseReqOuterClass {
     boolean getIsPaused();
   }
   /**
-   * <pre>
-   * CmdID: 28092
-   * </pre>
-   *
    * Protobuf type {@code PlayerSetPauseReq}
    */
   public static final class PlayerSetPauseReq extends
@@ -278,10 +274,6 @@ public final class PlayerSetPauseReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28092
-     * </pre>
-     *
      * Protobuf type {@code PlayerSetPauseReq}
      */
     public static final class Builder extends

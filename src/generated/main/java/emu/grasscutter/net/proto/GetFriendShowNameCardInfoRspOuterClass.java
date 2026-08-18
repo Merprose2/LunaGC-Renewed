@@ -48,10 +48,6 @@ public final class GetFriendShowNameCardInfoRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 3936
-   * </pre>
-   *
    * Protobuf type {@code GetFriendShowNameCardInfoRsp}
    */
   public static final class GetFriendShowNameCardInfoRsp extends
@@ -409,10 +405,6 @@ public final class GetFriendShowNameCardInfoRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3936
-     * </pre>
-     *
      * Protobuf type {@code GetFriendShowNameCardInfoRsp}
      */
     public static final class Builder extends

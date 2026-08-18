@@ -18,15 +18,11 @@ public final class ServerDisconnectClientNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ServerDisconnectClientNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>uint32 data = 12;</code>
-     * @return The data.
-     */
     int getData();
   }
   /**
    * <pre>
-   * CmdID: 29169
+   * CmdId: 26469
    * </pre>
    *
    * Protobuf type {@code ServerDisconnectClientNotify}
@@ -112,10 +108,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
 
     public static final int DATA_FIELD_NUMBER = 12;
     private int data_;
-    /**
-     * <code>uint32 data = 12;</code>
-     * @return The data.
-     */
+
     @java.lang.Override
     public int getData() {
       return data_;
@@ -278,7 +271,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 29169
+     * CmdId: 26469
      * </pre>
      *
      * Protobuf type {@code ServerDisconnectClientNotify}
@@ -428,31 +421,21 @@ public final class ServerDisconnectClientNotifyOuterClass {
       }
 
       private int data_ ;
-      /**
-       * <code>uint32 data = 12;</code>
-       * @return The data.
-       */
+
       @java.lang.Override
       public int getData() {
         return data_;
       }
-      /**
-       * <code>uint32 data = 12;</code>
-       * @param value The data to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setData(int value) {
-        
+
         data_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint32 data = 12;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearData() {
-        
+
         data_ = 0;
         onChanged();
         return this;
@@ -468,7 +451,6 @@ public final class ServerDisconnectClientNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ServerDisconnectClientNotify)
     }
@@ -512,7 +494,7 @@ public final class ServerDisconnectClientNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServerDisconnectClientNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServerDisconnectClientNotify_fieldAccessorTable;
 
@@ -525,9 +507,8 @@ public final class ServerDisconnectClientNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\"ServerDisconnectClientNotify.proto\",\n\034" +
-      "ServerDisconnectClientNotify\022\014\n\004data\030\014 \001" +
-      "(\rBC\n\031emu.grasscutter.net.protoB&ServerD" +
-      "isconnectClientNotifyOuterClassb\006proto3"
+      "ServerDisconnectClientNotify\022\014\n\004data\030\003 \001" +
+      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

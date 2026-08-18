@@ -37,10 +37,6 @@ public final class PingRspOuterClass {
     int getClientTime();
   }
   /**
-   * <pre>
-   * CmdID: 21967
-   * </pre>
-   *
    * Protobuf type {@code PingRsp}
    */
   public static final class PingRsp extends
@@ -343,10 +339,6 @@ public final class PingRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21967
-     * </pre>
-     *
      * Protobuf type {@code PingRsp}
      */
     public static final class Builder extends

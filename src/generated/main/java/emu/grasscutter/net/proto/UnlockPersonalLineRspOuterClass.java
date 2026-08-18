@@ -55,10 +55,6 @@ public final class UnlockPersonalLineRspOuterClass {
     public emu.grasscutter.net.proto.UnlockPersonalLineRspOuterClass.UnlockPersonalLineRsp.ParamCase getParamCase();
   }
   /**
-   * <pre>
-   * CmdID: 22279
-   * </pre>
-   *
    * Protobuf type {@code UnlockPersonalLineRsp}
    */
   public static final class UnlockPersonalLineRsp extends
@@ -470,10 +466,6 @@ public final class UnlockPersonalLineRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22279
-     * </pre>
-     *
      * Protobuf type {@code UnlockPersonalLineRsp}
      */
     public static final class Builder extends

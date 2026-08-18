@@ -19,18 +19,6 @@ public final class QuickUseWidgetRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 material_id = 2;</code>
-     * @return The materialId.
-     */
-    int getMaterialId();
-
-    /**
-     * <code>uint32 KHEMKPBBNHC = 3;</code>
-     * @return The kHEMKPBBNHC.
-     */
-    int getKHEMKPBBNHC();
-
-    /**
      * <code>.OneoffGatherPointDetectorData detector_data = 5;</code>
      * @return Whether the detectorData field is set.
      */
@@ -91,6 +79,18 @@ public final class QuickUseWidgetRspOuterClass {
     emu.grasscutter.net.proto._ClientDetectorResultOuterClass._ClientDetectorResultOrBuilder getClientDetectorResultOrBuilder();
 
     /**
+     * <code>uint32 material_id = 2;</code>
+     * @return The materialId.
+     */
+    int getMaterialId();
+
+    /**
+     * <code>uint32 KHEMKPBBNHC = 3;</code>
+     * @return The kHEMKPBBNHC.
+     */
+    int getKHEMKPBBNHC();
+
+    /**
      * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
@@ -99,10 +99,6 @@ public final class QuickUseWidgetRspOuterClass {
     public emu.grasscutter.net.proto.QuickUseWidgetRspOuterClass.QuickUseWidgetRsp.ParamCase getParamCase();
   }
   /**
-   * <pre>
-   * CmdID: 22128
-   * </pre>
-   *
    * Protobuf type {@code QuickUseWidgetRsp}
    */
   public static final class QuickUseWidgetRsp extends
@@ -295,28 +291,6 @@ public final class QuickUseWidgetRspOuterClass {
           paramCase_);
     }
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 2;
-    private int materialId_;
-    /**
-     * <code>uint32 material_id = 2;</code>
-     * @return The materialId.
-     */
-    @java.lang.Override
-    public int getMaterialId() {
-      return materialId_;
-    }
-
-    public static final int KHEMKPBBNHC_FIELD_NUMBER = 3;
-    private int kHEMKPBBNHC_;
-    /**
-     * <code>uint32 KHEMKPBBNHC = 3;</code>
-     * @return The kHEMKPBBNHC.
-     */
-    @java.lang.Override
-    public int getKHEMKPBBNHC() {
-      return kHEMKPBBNHC_;
-    }
-
     public static final int DETECTOR_DATA_FIELD_NUMBER = 5;
     /**
      * <code>.OneoffGatherPointDetectorData detector_data = 5;</code>
@@ -439,6 +413,28 @@ public final class QuickUseWidgetRspOuterClass {
          return (emu.grasscutter.net.proto._ClientDetectorResultOuterClass._ClientDetectorResult) param_;
       }
       return emu.grasscutter.net.proto._ClientDetectorResultOuterClass._ClientDetectorResult.getDefaultInstance();
+    }
+
+    public static final int MATERIAL_ID_FIELD_NUMBER = 2;
+    private int materialId_;
+    /**
+     * <code>uint32 material_id = 2;</code>
+     * @return The materialId.
+     */
+    @java.lang.Override
+    public int getMaterialId() {
+      return materialId_;
+    }
+
+    public static final int KHEMKPBBNHC_FIELD_NUMBER = 3;
+    private int kHEMKPBBNHC_;
+    /**
+     * <code>uint32 KHEMKPBBNHC = 3;</code>
+     * @return The kHEMKPBBNHC.
+     */
+    @java.lang.Override
+    public int getKHEMKPBBNHC() {
+      return kHEMKPBBNHC_;
     }
 
     public static final int RETCODE_FIELD_NUMBER = 13;
@@ -699,10 +695,6 @@ public final class QuickUseWidgetRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22128
-     * </pre>
-     *
      * Protobuf type {@code QuickUseWidgetRsp}
      */
     public static final class Builder extends
@@ -774,8 +766,6 @@ public final class QuickUseWidgetRspOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.QuickUseWidgetRspOuterClass.QuickUseWidgetRsp buildPartial() {
         emu.grasscutter.net.proto.QuickUseWidgetRspOuterClass.QuickUseWidgetRsp result = new emu.grasscutter.net.proto.QuickUseWidgetRspOuterClass.QuickUseWidgetRsp(this);
-        result.materialId_ = materialId_;
-        result.kHEMKPBBNHC_ = kHEMKPBBNHC_;
         if (paramCase_ == 5) {
           if (detectorDataBuilder_ == null) {
             result.param_ = param_;
@@ -804,6 +794,8 @@ public final class QuickUseWidgetRspOuterClass {
             result.param_ = clientDetectorResultBuilder_.build();
           }
         }
+        result.materialId_ = materialId_;
+        result.kHEMKPBBNHC_ = kHEMKPBBNHC_;
         result.retcode_ = retcode_;
         result.paramCase_ = paramCase_;
         onBuilt();
@@ -927,68 +919,6 @@ public final class QuickUseWidgetRspOuterClass {
         return this;
       }
 
-
-      private int materialId_ ;
-      /**
-       * <code>uint32 material_id = 2;</code>
-       * @return The materialId.
-       */
-      @java.lang.Override
-      public int getMaterialId() {
-        return materialId_;
-      }
-      /**
-       * <code>uint32 material_id = 2;</code>
-       * @param value The materialId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMaterialId(int value) {
-        
-        materialId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 material_id = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMaterialId() {
-        
-        materialId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int kHEMKPBBNHC_ ;
-      /**
-       * <code>uint32 KHEMKPBBNHC = 3;</code>
-       * @return The kHEMKPBBNHC.
-       */
-      @java.lang.Override
-      public int getKHEMKPBBNHC() {
-        return kHEMKPBBNHC_;
-      }
-      /**
-       * <code>uint32 KHEMKPBBNHC = 3;</code>
-       * @param value The kHEMKPBBNHC to set.
-       * @return This builder for chaining.
-       */
-      public Builder setKHEMKPBBNHC(int value) {
-        
-        kHEMKPBBNHC_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 KHEMKPBBNHC = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearKHEMKPBBNHC() {
-        
-        kHEMKPBBNHC_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData, emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData.Builder, emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorDataOrBuilder> detectorDataBuilder_;
@@ -1554,6 +1484,68 @@ public final class QuickUseWidgetRspOuterClass {
         return clientDetectorResultBuilder_;
       }
 
+      private int materialId_ ;
+      /**
+       * <code>uint32 material_id = 2;</code>
+       * @return The materialId.
+       */
+      @java.lang.Override
+      public int getMaterialId() {
+        return materialId_;
+      }
+      /**
+       * <code>uint32 material_id = 2;</code>
+       * @param value The materialId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMaterialId(int value) {
+        
+        materialId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 material_id = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMaterialId() {
+        
+        materialId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int kHEMKPBBNHC_ ;
+      /**
+       * <code>uint32 KHEMKPBBNHC = 3;</code>
+       * @return The kHEMKPBBNHC.
+       */
+      @java.lang.Override
+      public int getKHEMKPBBNHC() {
+        return kHEMKPBBNHC_;
+      }
+      /**
+       * <code>uint32 KHEMKPBBNHC = 3;</code>
+       * @param value The kHEMKPBBNHC to set.
+       * @return This builder for chaining.
+       */
+      public Builder setKHEMKPBBNHC(int value) {
+        
+        kHEMKPBBNHC_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 KHEMKPBBNHC = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearKHEMKPBBNHC() {
+        
+        kHEMKPBBNHC_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int retcode_ ;
       /**
        * <code>int32 retcode = 13;</code>
@@ -1655,14 +1647,14 @@ public final class QuickUseWidgetRspOuterClass {
       "orData.proto\032#OneoffGatherPointDetectorD" +
       "ata.proto\032&SkyCrystalDetectorQuickUseRes" +
       "ult.proto\032\033_ClientDetectorResult.proto\"\327" +
-      "\002\n\021QuickUseWidgetRsp\022\023\n\013material_id\030\002 \001(" +
-      "\r\022\023\n\013KHEMKPBBNHC\030\003 \001(\r\0227\n\rdetector_data\030" +
-      "\005 \001(\0132\036.OneoffGatherPointDetectorDataH\000\022" +
-      "5\n\025client_collector_data\030\n \001(\0132\024.ClientC" +
-      "ollectorDataH\000\022S\n%sky_crystal_detector_q" +
-      "uick_use_result\030\207\025 \001(\0132!.SkyCrystalDetec" +
-      "torQuickUseResultH\000\0229\n\026client_detector_r" +
-      "esult\030\346: \001(\0132\026._ClientDetectorResultH\000\022\017" +
+      "\002\n\021QuickUseWidgetRsp\0227\n\rdetector_data\030\005 " +
+      "\001(\0132\036.OneoffGatherPointDetectorDataH\000\0225\n" +
+      "\025client_collector_data\030\n \001(\0132\024.ClientCol" +
+      "lectorDataH\000\022S\n%sky_crystal_detector_qui" +
+      "ck_use_result\030\207\025 \001(\0132!.SkyCrystalDetecto" +
+      "rQuickUseResultH\000\0229\n\026client_detector_res" +
+      "ult\030\346: \001(\0132\026._ClientDetectorResultH\000\022\023\n\013" +
+      "material_id\030\002 \001(\r\022\023\n\013KHEMKPBBNHC\030\003 \001(\r\022\017" +
       "\n\007retcode\030\r \001(\005B\007\n\005paramB8\n\031emu.grasscut" +
       "ter.net.protoB\033QuickUseWidgetRspOuterCla" +
       "ssb\006proto3"
@@ -1680,7 +1672,7 @@ public final class QuickUseWidgetRspOuterClass {
     internal_static_QuickUseWidgetRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_QuickUseWidgetRsp_descriptor,
-        new java.lang.String[] { "MaterialId", "KHEMKPBBNHC", "DetectorData", "ClientCollectorData", "SkyCrystalDetectorQuickUseResult", "ClientDetectorResult", "Retcode", "Param", });
+        new java.lang.String[] { "DetectorData", "ClientCollectorData", "SkyCrystalDetectorQuickUseResult", "ClientDetectorResult", "MaterialId", "KHEMKPBBNHC", "Retcode", "Param", });
     emu.grasscutter.net.proto.ClientCollectorDataOuterClass.getDescriptor();
     emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.getDescriptor();
     emu.grasscutter.net.proto.SkyCrystalDetectorQuickUseResultOuterClass.getDescriptor();

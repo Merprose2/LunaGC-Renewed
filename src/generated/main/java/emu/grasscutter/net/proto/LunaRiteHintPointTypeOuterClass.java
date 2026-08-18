@@ -20,32 +20,32 @@ public final class LunaRiteHintPointTypeOuterClass {
   public enum LunaRiteHintPointType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_NONE = 0;</code>
+     * <code>LUNA_RITE_HINT_TYPE_NONE = 0;</code>
      */
-    LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_NONE(0),
+    LUNA_RITE_HINT_TYPE_NONE(0),
     /**
-     * <code>LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_RUNE = 1;</code>
+     * <code>LUNA_RITE_HINT_TYPE_RUNE = 1;</code>
      */
-    LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_RUNE(1),
+    LUNA_RITE_HINT_TYPE_RUNE(1),
     /**
-     * <code>LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_CHEST = 2;</code>
+     * <code>LUNA_RITE_HINT_TYPE_CHEST = 2;</code>
      */
-    LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_CHEST(2),
+    LUNA_RITE_HINT_TYPE_CHEST(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_NONE = 0;</code>
+     * <code>LUNA_RITE_HINT_TYPE_NONE = 0;</code>
      */
-    public static final int LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_NONE_VALUE = 0;
+    public static final int LUNA_RITE_HINT_TYPE_NONE_VALUE = 0;
     /**
-     * <code>LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_RUNE = 1;</code>
+     * <code>LUNA_RITE_HINT_TYPE_RUNE = 1;</code>
      */
-    public static final int LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_RUNE_VALUE = 1;
+    public static final int LUNA_RITE_HINT_TYPE_RUNE_VALUE = 1;
     /**
-     * <code>LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_CHEST = 2;</code>
+     * <code>LUNA_RITE_HINT_TYPE_CHEST = 2;</code>
      */
-    public static final int LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_CHEST_VALUE = 2;
+    public static final int LUNA_RITE_HINT_TYPE_CHEST_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class LunaRiteHintPointTypeOuterClass {
      */
     public static LunaRiteHintPointType forNumber(int value) {
       switch (value) {
-        case 0: return LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_NONE;
-        case 1: return LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_RUNE;
-        case 2: return LunaRiteHintPointType_LUNA_RITE_HINT_TYPE_CHEST;
+        case 0: return LUNA_RITE_HINT_TYPE_NONE;
+        case 1: return LUNA_RITE_HINT_TYPE_RUNE;
+        case 2: return LUNA_RITE_HINT_TYPE_CHEST;
         default: return null;
       }
     }
@@ -140,14 +140,12 @@ public final class LunaRiteHintPointTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033LunaRiteHintPointType.proto*\264\001\n\025LunaRi" +
-      "teHintPointType\0222\n.LunaRiteHintPointType" +
-      "_LUNA_RITE_HINT_TYPE_NONE\020\000\0222\n.LunaRiteH" +
-      "intPointType_LUNA_RITE_HINT_TYPE_RUNE\020\001\022" +
-      "3\n/LunaRiteHintPointType_LUNA_RITE_HINT_" +
-      "TYPE_CHEST\020\002B<\n\031emu.grasscutter.net.prot" +
-      "oB\037LunaRiteHintPointTypeOuterClassb\006prot" +
-      "o3"
+      "\n\033LunaRiteHintPointType.proto*r\n\025LunaRit" +
+      "eHintPointType\022\034\n\030LUNA_RITE_HINT_TYPE_NO" +
+      "NE\020\000\022\034\n\030LUNA_RITE_HINT_TYPE_RUNE\020\001\022\035\n\031LU" +
+      "NA_RITE_HINT_TYPE_CHEST\020\002B<\n\031emu.grasscu" +
+      "tter.net.protoB\037LunaRiteHintPointTypeOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

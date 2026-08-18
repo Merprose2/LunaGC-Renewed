@@ -48,10 +48,6 @@ public final class BargainOfferPriceRspOuterClass {
     emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType getBargainResult();
   }
   /**
-   * <pre>
-   * CmdID: 408
-   * </pre>
-   *
    * Protobuf type {@code BargainOfferPriceRsp}
    */
   public static final class BargainOfferPriceRsp extends
@@ -225,7 +221,7 @@ public final class BargainOfferPriceRspOuterClass {
       if (curMood_ != 0) {
         output.writeInt32(7, curMood_);
       }
-      if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BargainResultType_BARGAIN_COMPLETE_SUCC.getNumber()) {
+      if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BARGAIN_COMPLETE_SUCC.getNumber()) {
         output.writeEnum(9, bargainResult_);
       }
       unknownFields.writeTo(output);
@@ -249,7 +245,7 @@ public final class BargainOfferPriceRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(7, curMood_);
       }
-      if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BargainResultType_BARGAIN_COMPLETE_SUCC.getNumber()) {
+      if (bargainResult_ != emu.grasscutter.net.proto.BargainResultTypeOuterClass.BargainResultType.BARGAIN_COMPLETE_SUCC.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, bargainResult_);
       }
@@ -390,10 +386,6 @@ public final class BargainOfferPriceRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 408
-     * </pre>
-     *
      * Protobuf type {@code BargainOfferPriceRsp}
      */
     public static final class Builder extends

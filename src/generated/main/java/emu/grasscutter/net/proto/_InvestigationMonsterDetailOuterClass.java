@@ -31,10 +31,10 @@ public final class _InvestigationMonsterDetailOuterClass {
     boolean getIsAlive();
 
     /**
-     * <code>bool IHDCJJDLCNE = 3;</code>
-     * @return The iHDCJJDLCNE.
+     * <code>bool _is_respawning = 3;</code>
+     * @return The isRespawning.
      */
-    boolean getIHDCJJDLCNE();
+    boolean getIsRespawning();
 
     /**
      * <code>uint32 refresh_interval = 4;</code>
@@ -61,10 +61,10 @@ public final class _InvestigationMonsterDetailOuterClass {
     int getBossChestNum();
 
     /**
-     * <code>bool ADJHFNOHFBI = 9;</code>
-     * @return The aDJHFNOHFBI.
+     * <code>bool is_area_locked = 9;</code>
+     * @return The isAreaLocked.
      */
-    boolean getADJHFNOHFBI();
+    boolean getIsAreaLocked();
 
     /**
      * <code>uint32 level = 10;</code>
@@ -186,7 +186,7 @@ public final class _InvestigationMonsterDetailOuterClass {
             }
             case 24: {
 
-              iHDCJJDLCNE_ = input.readBool();
+              IsRespawning_ = input.readBool();
               break;
             }
             case 32: {
@@ -211,7 +211,7 @@ public final class _InvestigationMonsterDetailOuterClass {
             }
             case 72: {
 
-              aDJHFNOHFBI_ = input.readBool();
+              isAreaLocked_ = input.readBool();
               break;
             }
             case 80: {
@@ -322,15 +322,15 @@ public final class _InvestigationMonsterDetailOuterClass {
       return isAlive_;
     }
 
-    public static final int IHDCJJDLCNE_FIELD_NUMBER = 3;
-    private boolean iHDCJJDLCNE_;
+    public static final int _IS_RESPAWNING_FIELD_NUMBER = 3;
+    private boolean IsRespawning_;
     /**
-     * <code>bool IHDCJJDLCNE = 3;</code>
-     * @return The iHDCJJDLCNE.
+     * <code>bool _is_respawning = 3;</code>
+     * @return The isRespawning.
      */
     @java.lang.Override
-    public boolean getIHDCJJDLCNE() {
-      return iHDCJJDLCNE_;
+    public boolean getIsRespawning() {
+      return IsRespawning_;
     }
 
     public static final int REFRESH_INTERVAL_FIELD_NUMBER = 4;
@@ -377,15 +377,15 @@ public final class _InvestigationMonsterDetailOuterClass {
       return bossChestNum_;
     }
 
-    public static final int ADJHFNOHFBI_FIELD_NUMBER = 9;
-    private boolean aDJHFNOHFBI_;
+    public static final int IS_AREA_LOCKED_FIELD_NUMBER = 9;
+    private boolean isAreaLocked_;
     /**
-     * <code>bool ADJHFNOHFBI = 9;</code>
-     * @return The aDJHFNOHFBI.
+     * <code>bool is_area_locked = 9;</code>
+     * @return The isAreaLocked.
      */
     @java.lang.Override
-    public boolean getADJHFNOHFBI() {
-      return aDJHFNOHFBI_;
+    public boolean getIsAreaLocked() {
+      return isAreaLocked_;
     }
 
     public static final int LEVEL_FIELD_NUMBER = 10;
@@ -519,8 +519,8 @@ public final class _InvestigationMonsterDetailOuterClass {
       if (isAlive_ != false) {
         output.writeBool(2, isAlive_);
       }
-      if (iHDCJJDLCNE_ != false) {
-        output.writeBool(3, iHDCJJDLCNE_);
+      if (IsRespawning_ != false) {
+        output.writeBool(3, IsRespawning_);
       }
       if (refreshInterval_ != 0) {
         output.writeUInt32(4, refreshInterval_);
@@ -534,8 +534,8 @@ public final class _InvestigationMonsterDetailOuterClass {
       if (bossChestNum_ != 0) {
         output.writeUInt32(8, bossChestNum_);
       }
-      if (aDJHFNOHFBI_ != false) {
-        output.writeBool(9, aDJHFNOHFBI_);
+      if (isAreaLocked_ != false) {
+        output.writeBool(9, isAreaLocked_);
       }
       if (level_ != 0) {
         output.writeUInt32(10, level_);
@@ -572,9 +572,9 @@ public final class _InvestigationMonsterDetailOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(2, isAlive_);
       }
-      if (iHDCJJDLCNE_ != false) {
+      if (IsRespawning_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, iHDCJJDLCNE_);
+          .computeBoolSize(3, IsRespawning_);
       }
       if (refreshInterval_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -592,9 +592,9 @@ public final class _InvestigationMonsterDetailOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, bossChestNum_);
       }
-      if (aDJHFNOHFBI_ != false) {
+      if (isAreaLocked_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, aDJHFNOHFBI_);
+          .computeBoolSize(9, isAreaLocked_);
       }
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -639,8 +639,8 @@ public final class _InvestigationMonsterDetailOuterClass {
           != other.getMaxBossChestNum()) return false;
       if (getIsAlive()
           != other.getIsAlive()) return false;
-      if (getIHDCJJDLCNE()
-          != other.getIHDCJJDLCNE()) return false;
+      if (getIsRespawning()
+          != other.getIsRespawning()) return false;
       if (getRefreshInterval()
           != other.getRefreshInterval()) return false;
       if (getResin()
@@ -649,8 +649,8 @@ public final class _InvestigationMonsterDetailOuterClass {
           != other.getNextRefreshTime()) return false;
       if (getBossChestNum()
           != other.getBossChestNum()) return false;
-      if (getADJHFNOHFBI()
-          != other.getADJHFNOHFBI()) return false;
+      if (getIsAreaLocked()
+          != other.getIsAreaLocked()) return false;
       if (getLevel()
           != other.getLevel()) return false;
       if (getMapLayerId()
@@ -688,9 +688,9 @@ public final class _InvestigationMonsterDetailOuterClass {
       hash = (37 * hash) + IS_ALIVE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsAlive());
-      hash = (37 * hash) + IHDCJJDLCNE_FIELD_NUMBER;
+      hash = (37 * hash) + _IS_RESPAWNING_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIHDCJJDLCNE());
+          getIsRespawning());
       hash = (37 * hash) + REFRESH_INTERVAL_FIELD_NUMBER;
       hash = (53 * hash) + getRefreshInterval();
       hash = (37 * hash) + RESIN_FIELD_NUMBER;
@@ -699,9 +699,9 @@ public final class _InvestigationMonsterDetailOuterClass {
       hash = (53 * hash) + getNextRefreshTime();
       hash = (37 * hash) + BOSS_CHEST_NUM_FIELD_NUMBER;
       hash = (53 * hash) + getBossChestNum();
-      hash = (37 * hash) + ADJHFNOHFBI_FIELD_NUMBER;
+      hash = (37 * hash) + IS_AREA_LOCKED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getADJHFNOHFBI());
+          getIsAreaLocked());
       hash = (37 * hash) + LEVEL_FIELD_NUMBER;
       hash = (53 * hash) + getLevel();
       hash = (37 * hash) + _MAP_LAYER_ID_FIELD_NUMBER;
@@ -857,7 +857,7 @@ public final class _InvestigationMonsterDetailOuterClass {
 
         isAlive_ = false;
 
-        iHDCJJDLCNE_ = false;
+        IsRespawning_ = false;
 
         refreshInterval_ = 0;
 
@@ -867,7 +867,7 @@ public final class _InvestigationMonsterDetailOuterClass {
 
         bossChestNum_ = 0;
 
-        aDJHFNOHFBI_ = false;
+        isAreaLocked_ = false;
 
         level_ = 0;
 
@@ -921,12 +921,12 @@ public final class _InvestigationMonsterDetailOuterClass {
         emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail result = new emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail(this);
         result.maxBossChestNum_ = maxBossChestNum_;
         result.isAlive_ = isAlive_;
-        result.iHDCJJDLCNE_ = iHDCJJDLCNE_;
+        result.IsRespawning_ = IsRespawning_;
         result.refreshInterval_ = refreshInterval_;
         result.resin_ = resin_;
         result.nextRefreshTime_ = nextRefreshTime_;
         result.bossChestNum_ = bossChestNum_;
-        result.aDJHFNOHFBI_ = aDJHFNOHFBI_;
+        result.isAreaLocked_ = isAreaLocked_;
         result.level_ = level_;
         result.MapLayerId_ = MapLayerId_;
         if (weeklyBossResinDiscountInfoBuilder_ == null) {
@@ -999,8 +999,8 @@ public final class _InvestigationMonsterDetailOuterClass {
         if (other.getIsAlive() != false) {
           setIsAlive(other.getIsAlive());
         }
-        if (other.getIHDCJJDLCNE() != false) {
-          setIHDCJJDLCNE(other.getIHDCJJDLCNE());
+        if (other.getIsRespawning() != false) {
+          setIsRespawning(other.getIsRespawning());
         }
         if (other.getRefreshInterval() != 0) {
           setRefreshInterval(other.getRefreshInterval());
@@ -1014,8 +1014,8 @@ public final class _InvestigationMonsterDetailOuterClass {
         if (other.getBossChestNum() != 0) {
           setBossChestNum(other.getBossChestNum());
         }
-        if (other.getADJHFNOHFBI() != false) {
-          setADJHFNOHFBI(other.getADJHFNOHFBI());
+        if (other.getIsAreaLocked() != false) {
+          setIsAreaLocked(other.getIsAreaLocked());
         }
         if (other.getLevel() != 0) {
           setLevel(other.getLevel());
@@ -1126,33 +1126,33 @@ public final class _InvestigationMonsterDetailOuterClass {
         return this;
       }
 
-      private boolean iHDCJJDLCNE_ ;
+      private boolean IsRespawning_ ;
       /**
-       * <code>bool IHDCJJDLCNE = 3;</code>
-       * @return The iHDCJJDLCNE.
+       * <code>bool _is_respawning = 3;</code>
+       * @return The isRespawning.
        */
       @java.lang.Override
-      public boolean getIHDCJJDLCNE() {
-        return iHDCJJDLCNE_;
+      public boolean getIsRespawning() {
+        return IsRespawning_;
       }
       /**
-       * <code>bool IHDCJJDLCNE = 3;</code>
-       * @param value The iHDCJJDLCNE to set.
+       * <code>bool _is_respawning = 3;</code>
+       * @param value The isRespawning to set.
        * @return This builder for chaining.
        */
-      public Builder setIHDCJJDLCNE(boolean value) {
+      public Builder setIsRespawning(boolean value) {
         
-        iHDCJJDLCNE_ = value;
+        IsRespawning_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool IHDCJJDLCNE = 3;</code>
+       * <code>bool _is_respawning = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIHDCJJDLCNE() {
+      public Builder clearIsRespawning() {
         
-        iHDCJJDLCNE_ = false;
+        IsRespawning_ = false;
         onChanged();
         return this;
       }
@@ -1281,33 +1281,33 @@ public final class _InvestigationMonsterDetailOuterClass {
         return this;
       }
 
-      private boolean aDJHFNOHFBI_ ;
+      private boolean isAreaLocked_ ;
       /**
-       * <code>bool ADJHFNOHFBI = 9;</code>
-       * @return The aDJHFNOHFBI.
+       * <code>bool is_area_locked = 9;</code>
+       * @return The isAreaLocked.
        */
       @java.lang.Override
-      public boolean getADJHFNOHFBI() {
-        return aDJHFNOHFBI_;
+      public boolean getIsAreaLocked() {
+        return isAreaLocked_;
       }
       /**
-       * <code>bool ADJHFNOHFBI = 9;</code>
-       * @param value The aDJHFNOHFBI to set.
+       * <code>bool is_area_locked = 9;</code>
+       * @param value The isAreaLocked to set.
        * @return This builder for chaining.
        */
-      public Builder setADJHFNOHFBI(boolean value) {
+      public Builder setIsAreaLocked(boolean value) {
         
-        aDJHFNOHFBI_ = value;
+        isAreaLocked_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool ADJHFNOHFBI = 9;</code>
+       * <code>bool is_area_locked = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearADJHFNOHFBI() {
+      public Builder clearIsAreaLocked() {
         
-        aDJHFNOHFBI_ = false;
+        isAreaLocked_ = false;
         onChanged();
         return this;
       }
@@ -1831,19 +1831,19 @@ public final class _InvestigationMonsterDetailOuterClass {
       "\n!_InvestigationMonsterDetail.proto\032\014Vec" +
       "tor.proto\032!WeeklyBossResinDiscountInfo.p" +
       "roto\032!_InvestigationMonsterConfig.proto\"" +
-      "\261\003\n\033_InvestigationMonsterDetail\022\032\n\022max_b" +
-      "oss_chest_num\030\001 \001(\r\022\020\n\010is_alive\030\002 \001(\010\022\023\n" +
-      "\013IHDCJJDLCNE\030\003 \001(\010\022\030\n\020refresh_interval\030\004" +
-      " \001(\r\022\r\n\005resin\030\005 \001(\r\022\031\n\021next_refresh_time" +
-      "\030\006 \001(\r\022\026\n\016boss_chest_num\030\010 \001(\r\022\023\n\013ADJHFN" +
-      "OHFBI\030\t \001(\010\022\r\n\005level\030\n \001(\r\022\025\n\r_map_layer" +
-      "_id\030\013 \001(\r\022E\n\037weekly_boss_resin_discount_" +
-      "info\030\014 \001(\0132\034.WeeklyBossResinDiscountInfo" +
-      "\022$\n\034next_boss_chest_refresh_time\030\r \001(\r\0225" +
-      "\n\017_monster_config\030\016 \001(\0132\034._Investigation" +
-      "MonsterConfig\022\024\n\003pos\030\017 \001(\0132\007.VectorBB\n\031e" +
-      "mu.grasscutter.net.protoB%_Investigation" +
-      "MonsterDetailOuterClassb\006proto3"
+      "\267\003\n\033_InvestigationMonsterDetail\022\032\n\022max_b" +
+      "oss_chest_num\030\001 \001(\r\022\020\n\010is_alive\030\002 \001(\010\022\026\n" +
+      "\016_is_respawning\030\003 \001(\010\022\030\n\020refresh_interva" +
+      "l\030\004 \001(\r\022\r\n\005resin\030\005 \001(\r\022\031\n\021next_refresh_t" +
+      "ime\030\006 \001(\r\022\026\n\016boss_chest_num\030\010 \001(\r\022\026\n\016is_" +
+      "area_locked\030\t \001(\010\022\r\n\005level\030\n \001(\r\022\025\n\r_map" +
+      "_layer_id\030\013 \001(\r\022E\n\037weekly_boss_resin_dis" +
+      "count_info\030\014 \001(\0132\034.WeeklyBossResinDiscou" +
+      "ntInfo\022$\n\034next_boss_chest_refresh_time\030\r" +
+      " \001(\r\0225\n\017_monster_config\030\016 \001(\0132\034._Investi" +
+      "gationMonsterConfig\022\024\n\003pos\030\017 \001(\0132\007.Vecto" +
+      "rBB\n\031emu.grasscutter.net.protoB%_Investi" +
+      "gationMonsterDetailOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1857,7 +1857,7 @@ public final class _InvestigationMonsterDetailOuterClass {
     internal_static__InvestigationMonsterDetail_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__InvestigationMonsterDetail_descriptor,
-        new java.lang.String[] { "MaxBossChestNum", "IsAlive", "IHDCJJDLCNE", "RefreshInterval", "Resin", "NextRefreshTime", "BossChestNum", "ADJHFNOHFBI", "Level", "MapLayerId", "WeeklyBossResinDiscountInfo", "NextBossChestRefreshTime", "MonsterConfig", "Pos", });
+        new java.lang.String[] { "MaxBossChestNum", "IsAlive", "IsRespawning", "RefreshInterval", "Resin", "NextRefreshTime", "BossChestNum", "IsAreaLocked", "Level", "MapLayerId", "WeeklyBossResinDiscountInfo", "NextBossChestRefreshTime", "MonsterConfig", "Pos", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass.getDescriptor();

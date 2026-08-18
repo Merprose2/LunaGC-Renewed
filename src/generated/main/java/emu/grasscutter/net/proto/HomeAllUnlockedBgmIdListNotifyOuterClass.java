@@ -36,10 +36,6 @@ public final class HomeAllUnlockedBgmIdListNotifyOuterClass {
     int getAllUnlockedBgmIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 1658
-   * </pre>
-   *
    * Protobuf type {@code HomeAllUnlockedBgmIdListNotify}
    */
   public static final class HomeAllUnlockedBgmIdListNotify extends
@@ -343,10 +339,6 @@ public final class HomeAllUnlockedBgmIdListNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1658
-     * </pre>
-     *
      * Protobuf type {@code HomeAllUnlockedBgmIdListNotify}
      */
     public static final class Builder extends

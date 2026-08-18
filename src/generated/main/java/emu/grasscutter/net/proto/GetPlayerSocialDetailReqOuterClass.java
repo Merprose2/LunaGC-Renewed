@@ -31,10 +31,6 @@ public final class GetPlayerSocialDetailReqOuterClass {
     int getUid();
   }
   /**
-   * <pre>
-   * CmdID: 4702
-   * </pre>
-   *
    * Protobuf type {@code GetPlayerSocialDetailReq}
    */
   public static final class GetPlayerSocialDetailReq extends
@@ -310,10 +306,6 @@ public final class GetPlayerSocialDetailReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4702
-     * </pre>
-     *
      * Protobuf type {@code GetPlayerSocialDetailReq}
      */
     public static final class Builder extends

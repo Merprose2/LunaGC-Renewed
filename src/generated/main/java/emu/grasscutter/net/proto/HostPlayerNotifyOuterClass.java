@@ -31,10 +31,6 @@ public final class HostPlayerNotifyOuterClass {
     int getHostPeerId();
   }
   /**
-   * <pre>
-   * CmdID: 24717
-   * </pre>
-   *
    * Protobuf type {@code HostPlayerNotify}
    */
   public static final class HostPlayerNotify extends
@@ -310,10 +306,6 @@ public final class HostPlayerNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24717
-     * </pre>
-     *
      * Protobuf type {@code HostPlayerNotify}
      */
     public static final class Builder extends

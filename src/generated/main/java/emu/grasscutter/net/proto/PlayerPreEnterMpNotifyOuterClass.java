@@ -48,10 +48,6 @@ public final class PlayerPreEnterMpNotifyOuterClass {
     int getUid();
   }
   /**
-   * <pre>
-   * CmdID: 5768
-   * </pre>
-   *
    * Protobuf type {@code PlayerPreEnterMpNotify}
    */
   public static final class PlayerPreEnterMpNotify extends
@@ -508,10 +504,6 @@ public final class PlayerPreEnterMpNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5768
-     * </pre>
-     *
      * Protobuf type {@code PlayerPreEnterMpNotify}
      */
     public static final class Builder extends

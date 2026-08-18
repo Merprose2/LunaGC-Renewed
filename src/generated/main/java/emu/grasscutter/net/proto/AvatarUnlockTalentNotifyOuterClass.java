@@ -43,10 +43,6 @@ public final class AvatarUnlockTalentNotifyOuterClass {
     int getSkillDepotId();
   }
   /**
-   * <pre>
-   * CmdID: 29023
-   * </pre>
-   *
    * Protobuf type {@code AvatarUnlockTalentNotify}
    */
   public static final class AvatarUnlockTalentNotify extends
@@ -377,10 +373,6 @@ public final class AvatarUnlockTalentNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29023
-     * </pre>
-     *
      * Protobuf type {@code AvatarUnlockTalentNotify}
      */
     public static final class Builder extends

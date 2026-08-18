@@ -67,22 +67,18 @@ public final class GetAllMailResultNotifyOuterClass {
         getTransactionBytes();
 
     /**
-     * <code>uint32 JNBNDEPLFHD = 8;</code>
-     * @return The jNBNDEPLFHD.
+     * <code>uint32 page_index = 8;</code>
+     * @return The pageIndex.
      */
-    int getJNBNDEPLFHD();
+    int getPageIndex();
 
     /**
-     * <code>uint32 JJIOBHDAEFO = 10;</code>
-     * @return The jJIOBHDAEFO.
+     * <code>uint32 total_page_count = 10;</code>
+     * @return The totalPageCount.
      */
-    int getJJIOBHDAEFO();
+    int getTotalPageCount();
   }
   /**
-   * <pre>
-   * CmdID: 5076
-   * </pre>
-   *
    * Protobuf type {@code GetAllMailResultNotify}
    */
   public static final class GetAllMailResultNotify extends
@@ -157,12 +153,12 @@ public final class GetAllMailResultNotifyOuterClass {
             }
             case 64: {
 
-              jNBNDEPLFHD_ = input.readUInt32();
+              pageIndex_ = input.readUInt32();
               break;
             }
             case 80: {
 
-              jJIOBHDAEFO_ = input.readUInt32();
+              totalPageCount_ = input.readUInt32();
               break;
             }
             default: {
@@ -300,26 +296,26 @@ public final class GetAllMailResultNotifyOuterClass {
       }
     }
 
-    public static final int JNBNDEPLFHD_FIELD_NUMBER = 8;
-    private int jNBNDEPLFHD_;
+    public static final int PAGE_INDEX_FIELD_NUMBER = 8;
+    private int pageIndex_;
     /**
-     * <code>uint32 JNBNDEPLFHD = 8;</code>
-     * @return The jNBNDEPLFHD.
+     * <code>uint32 page_index = 8;</code>
+     * @return The pageIndex.
      */
     @java.lang.Override
-    public int getJNBNDEPLFHD() {
-      return jNBNDEPLFHD_;
+    public int getPageIndex() {
+      return pageIndex_;
     }
 
-    public static final int JJIOBHDAEFO_FIELD_NUMBER = 10;
-    private int jJIOBHDAEFO_;
+    public static final int TOTAL_PAGE_COUNT_FIELD_NUMBER = 10;
+    private int totalPageCount_;
     /**
-     * <code>uint32 JJIOBHDAEFO = 10;</code>
-     * @return The jJIOBHDAEFO.
+     * <code>uint32 total_page_count = 10;</code>
+     * @return The totalPageCount.
      */
     @java.lang.Override
-    public int getJJIOBHDAEFO() {
-      return jJIOBHDAEFO_;
+    public int getTotalPageCount() {
+      return totalPageCount_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -348,11 +344,11 @@ public final class GetAllMailResultNotifyOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(transaction_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 7, transaction_);
       }
-      if (jNBNDEPLFHD_ != 0) {
-        output.writeUInt32(8, jNBNDEPLFHD_);
+      if (pageIndex_ != 0) {
+        output.writeUInt32(8, pageIndex_);
       }
-      if (jJIOBHDAEFO_ != 0) {
-        output.writeUInt32(10, jJIOBHDAEFO_);
+      if (totalPageCount_ != 0) {
+        output.writeUInt32(10, totalPageCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -378,13 +374,13 @@ public final class GetAllMailResultNotifyOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(transaction_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, transaction_);
       }
-      if (jNBNDEPLFHD_ != 0) {
+      if (pageIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, jNBNDEPLFHD_);
+          .computeUInt32Size(8, pageIndex_);
       }
-      if (jJIOBHDAEFO_ != 0) {
+      if (totalPageCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, jJIOBHDAEFO_);
+          .computeUInt32Size(10, totalPageCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -409,10 +405,10 @@ public final class GetAllMailResultNotifyOuterClass {
           != other.getRetcode()) return false;
       if (!getTransaction()
           .equals(other.getTransaction())) return false;
-      if (getJNBNDEPLFHD()
-          != other.getJNBNDEPLFHD()) return false;
-      if (getJJIOBHDAEFO()
-          != other.getJJIOBHDAEFO()) return false;
+      if (getPageIndex()
+          != other.getPageIndex()) return false;
+      if (getTotalPageCount()
+          != other.getTotalPageCount()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -435,10 +431,10 @@ public final class GetAllMailResultNotifyOuterClass {
       hash = (53 * hash) + getRetcode();
       hash = (37 * hash) + TRANSACTION_FIELD_NUMBER;
       hash = (53 * hash) + getTransaction().hashCode();
-      hash = (37 * hash) + JNBNDEPLFHD_FIELD_NUMBER;
-      hash = (53 * hash) + getJNBNDEPLFHD();
-      hash = (37 * hash) + JJIOBHDAEFO_FIELD_NUMBER;
-      hash = (53 * hash) + getJJIOBHDAEFO();
+      hash = (37 * hash) + PAGE_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getPageIndex();
+      hash = (37 * hash) + TOTAL_PAGE_COUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getTotalPageCount();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -535,10 +531,6 @@ public final class GetAllMailResultNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5076
-     * </pre>
-     *
      * Protobuf type {@code GetAllMailResultNotify}
      */
     public static final class Builder extends
@@ -589,9 +581,9 @@ public final class GetAllMailResultNotifyOuterClass {
 
         transaction_ = "";
 
-        jNBNDEPLFHD_ = 0;
+        pageIndex_ = 0;
 
-        jJIOBHDAEFO_ = 0;
+        totalPageCount_ = 0;
 
         return this;
       }
@@ -632,8 +624,8 @@ public final class GetAllMailResultNotifyOuterClass {
         }
         result.retcode_ = retcode_;
         result.transaction_ = transaction_;
-        result.jNBNDEPLFHD_ = jNBNDEPLFHD_;
-        result.jJIOBHDAEFO_ = jJIOBHDAEFO_;
+        result.pageIndex_ = pageIndex_;
+        result.totalPageCount_ = totalPageCount_;
         onBuilt();
         return result;
       }
@@ -718,11 +710,11 @@ public final class GetAllMailResultNotifyOuterClass {
           transaction_ = other.transaction_;
           onChanged();
         }
-        if (other.getJNBNDEPLFHD() != 0) {
-          setJNBNDEPLFHD(other.getJNBNDEPLFHD());
+        if (other.getPageIndex() != 0) {
+          setPageIndex(other.getPageIndex());
         }
-        if (other.getJJIOBHDAEFO() != 0) {
-          setJJIOBHDAEFO(other.getJJIOBHDAEFO());
+        if (other.getTotalPageCount() != 0) {
+          setTotalPageCount(other.getTotalPageCount());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1132,64 +1124,64 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
 
-      private int jNBNDEPLFHD_ ;
+      private int pageIndex_ ;
       /**
-       * <code>uint32 JNBNDEPLFHD = 8;</code>
-       * @return The jNBNDEPLFHD.
+       * <code>uint32 page_index = 8;</code>
+       * @return The pageIndex.
        */
       @java.lang.Override
-      public int getJNBNDEPLFHD() {
-        return jNBNDEPLFHD_;
+      public int getPageIndex() {
+        return pageIndex_;
       }
       /**
-       * <code>uint32 JNBNDEPLFHD = 8;</code>
-       * @param value The jNBNDEPLFHD to set.
+       * <code>uint32 page_index = 8;</code>
+       * @param value The pageIndex to set.
        * @return This builder for chaining.
        */
-      public Builder setJNBNDEPLFHD(int value) {
+      public Builder setPageIndex(int value) {
         
-        jNBNDEPLFHD_ = value;
+        pageIndex_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 JNBNDEPLFHD = 8;</code>
+       * <code>uint32 page_index = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJNBNDEPLFHD() {
+      public Builder clearPageIndex() {
         
-        jNBNDEPLFHD_ = 0;
+        pageIndex_ = 0;
         onChanged();
         return this;
       }
 
-      private int jJIOBHDAEFO_ ;
+      private int totalPageCount_ ;
       /**
-       * <code>uint32 JJIOBHDAEFO = 10;</code>
-       * @return The jJIOBHDAEFO.
+       * <code>uint32 total_page_count = 10;</code>
+       * @return The totalPageCount.
        */
       @java.lang.Override
-      public int getJJIOBHDAEFO() {
-        return jJIOBHDAEFO_;
+      public int getTotalPageCount() {
+        return totalPageCount_;
       }
       /**
-       * <code>uint32 JJIOBHDAEFO = 10;</code>
-       * @param value The jJIOBHDAEFO to set.
+       * <code>uint32 total_page_count = 10;</code>
+       * @param value The totalPageCount to set.
        * @return This builder for chaining.
        */
-      public Builder setJJIOBHDAEFO(int value) {
+      public Builder setTotalPageCount(int value) {
         
-        jJIOBHDAEFO_ = value;
+        totalPageCount_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 JJIOBHDAEFO = 10;</code>
+       * <code>uint32 total_page_count = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJJIOBHDAEFO() {
+      public Builder clearTotalPageCount() {
         
-        jJIOBHDAEFO_ = 0;
+        totalPageCount_ = 0;
         onChanged();
         return this;
       }
@@ -1261,12 +1253,12 @@ public final class GetAllMailResultNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034GetAllMailResultNotify.proto\032\016MailData" +
-      ".proto\"\234\001\n\026GetAllMailResultNotify\022\024\n\014is_" +
+      ".proto\"\240\001\n\026GetAllMailResultNotify\022\024\n\014is_" +
       "collected\030\002 \001(\010\022\034\n\tmail_list\030\005 \003(\0132\t.Mai" +
       "lData\022\017\n\007retcode\030\006 \001(\005\022\023\n\013transaction\030\007 " +
-      "\001(\t\022\023\n\013JNBNDEPLFHD\030\010 \001(\r\022\023\n\013JJIOBHDAEFO\030" +
-      "\n \001(\rB=\n\031emu.grasscutter.net.protoB GetA" +
-      "llMailResultNotifyOuterClassb\006proto3"
+      "\001(\t\022\022\n\npage_index\030\010 \001(\r\022\030\n\020total_page_co" +
+      "unt\030\n \001(\rB=\n\031emu.grasscutter.net.protoB " +
+      "GetAllMailResultNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1278,7 +1270,7 @@ public final class GetAllMailResultNotifyOuterClass {
     internal_static_GetAllMailResultNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetAllMailResultNotify_descriptor,
-        new java.lang.String[] { "IsCollected", "MailList", "Retcode", "Transaction", "JNBNDEPLFHD", "JJIOBHDAEFO", });
+        new java.lang.String[] { "IsCollected", "MailList", "Retcode", "Transaction", "PageIndex", "TotalPageCount", });
     emu.grasscutter.net.proto.MailDataOuterClass.getDescriptor();
   }
 

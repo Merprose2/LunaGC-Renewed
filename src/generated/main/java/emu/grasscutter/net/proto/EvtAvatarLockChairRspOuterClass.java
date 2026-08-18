@@ -58,10 +58,6 @@ public final class EvtAvatarLockChairRspOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 21143
-   * </pre>
-   *
    * Protobuf type {@code EvtAvatarLockChairRsp}
    */
   public static final class EvtAvatarLockChairRsp extends
@@ -447,10 +443,6 @@ public final class EvtAvatarLockChairRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21143
-     * </pre>
-     *
      * Protobuf type {@code EvtAvatarLockChairRsp}
      */
     public static final class Builder extends

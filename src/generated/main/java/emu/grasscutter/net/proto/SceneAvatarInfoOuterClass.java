@@ -365,27 +365,27 @@ public final class SceneAvatarInfoOuterClass {
         int index);
 
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
-    java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> 
+    java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo> 
         getExpressionListList();
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
-    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo getExpressionList(int index);
+    emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo getExpressionList(int index);
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
     int getExpressionListCount();
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfoOrBuilder> 
         getExpressionListOrBuilderList();
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
-    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder getExpressionListOrBuilder(
+    emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfoOrBuilder getExpressionListOrBuilder(
         int index);
 
     /**
@@ -423,27 +423,27 @@ public final class SceneAvatarInfoOuterClass {
     int getUnlockedSkillDepotIdList(int index);
 
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
     java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> 
-        getKPJFLNKEFBCList();
+        getAltCosmeticPlanList();
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
-    emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getKPJFLNKEFBC(int index);
+    emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getAltCosmeticPlan(int index);
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
-    int getKPJFLNKEFBCCount();
+    int getAltCosmeticPlanCount();
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
-        getKPJFLNKEFBCOrBuilderList();
+        getAltCosmeticPlanOrBuilderList();
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
-    emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getKPJFLNKEFBCOrBuilder(
+    emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getAltCosmeticPlanOrBuilder(
         int index);
   }
   /**
@@ -469,7 +469,7 @@ public final class SceneAvatarInfoOuterClass {
       ExpressionList_ = java.util.Collections.emptyList();
       SpecialProudSkillList_ = emptyIntList();
       UnlockedSkillDepotIdList_ = emptyIntList();
-      kPJFLNKEFBC_ = java.util.Collections.emptyList();
+      altCosmeticPlan_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -759,11 +759,11 @@ public final class SceneAvatarInfoOuterClass {
             }
             case 226: {
               if (!((mutable_bitField0_ & 0x00000200) != 0)) {
-                ExpressionList_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo>();
+                ExpressionList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo>();
                 mutable_bitField0_ |= 0x00000200;
               }
               ExpressionList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.parser(), extensionRegistry));
               break;
             }
             case 232: {
@@ -810,10 +810,10 @@ public final class SceneAvatarInfoOuterClass {
             }
             case 250: {
               if (!((mutable_bitField0_ & 0x00001000) != 0)) {
-                kPJFLNKEFBC_ = new java.util.ArrayList<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo>();
+                altCosmeticPlan_ = new java.util.ArrayList<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo>();
                 mutable_bitField0_ |= 0x00001000;
               }
-              kPJFLNKEFBC_.add(
+              altCosmeticPlan_.add(
                   input.readMessage(emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.parser(), extensionRegistry));
               break;
             }
@@ -863,7 +863,7 @@ public final class SceneAvatarInfoOuterClass {
           UnlockedSkillDepotIdList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00001000) != 0)) {
-          kPJFLNKEFBC_ = java.util.Collections.unmodifiableList(kPJFLNKEFBC_);
+          altCosmeticPlan_ = java.util.Collections.unmodifiableList(altCosmeticPlan_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -1538,41 +1538,41 @@ public final class SceneAvatarInfoOuterClass {
     }
 
     public static final int _EXPRESSION_LIST_FIELD_NUMBER = 28;
-    private java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> ExpressionList_;
+    private java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo> ExpressionList_;
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> getExpressionListList() {
+    public java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo> getExpressionListList() {
       return ExpressionList_;
     }
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfoOrBuilder> 
         getExpressionListOrBuilderList() {
       return ExpressionList_;
     }
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
     @java.lang.Override
     public int getExpressionListCount() {
       return ExpressionList_.size();
     }
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo getExpressionList(int index) {
+    public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo getExpressionList(int index) {
       return ExpressionList_.get(index);
     }
     /**
-     * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+     * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder getExpressionListOrBuilder(
+    public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfoOrBuilder getExpressionListOrBuilder(
         int index) {
       return ExpressionList_.get(index);
     }
@@ -1633,44 +1633,44 @@ public final class SceneAvatarInfoOuterClass {
     }
     private int UnlockedSkillDepotIdListMemoizedSerializedSize = -1;
 
-    public static final int KPJFLNKEFBC_FIELD_NUMBER = 31;
-    private java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> kPJFLNKEFBC_;
+    public static final int ALT_COSMETIC_PLAN_FIELD_NUMBER = 31;
+    private java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> altCosmeticPlan_;
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> getKPJFLNKEFBCList() {
-      return kPJFLNKEFBC_;
+    public java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> getAltCosmeticPlanList() {
+      return altCosmeticPlan_;
     }
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
-        getKPJFLNKEFBCOrBuilderList() {
-      return kPJFLNKEFBC_;
+        getAltCosmeticPlanOrBuilderList() {
+      return altCosmeticPlan_;
     }
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
     @java.lang.Override
-    public int getKPJFLNKEFBCCount() {
-      return kPJFLNKEFBC_.size();
+    public int getAltCosmeticPlanCount() {
+      return altCosmeticPlan_.size();
     }
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getKPJFLNKEFBC(int index) {
-      return kPJFLNKEFBC_.get(index);
+    public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getAltCosmeticPlan(int index) {
+      return altCosmeticPlan_.get(index);
     }
     /**
-     * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+     * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getKPJFLNKEFBCOrBuilder(
+    public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getAltCosmeticPlanOrBuilder(
         int index) {
-      return kPJFLNKEFBC_.get(index);
+      return altCosmeticPlan_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1805,8 +1805,8 @@ public final class SceneAvatarInfoOuterClass {
       for (int i = 0; i < UnlockedSkillDepotIdList_.size(); i++) {
         output.writeUInt32NoTag(UnlockedSkillDepotIdList_.getInt(i));
       }
-      for (int i = 0; i < kPJFLNKEFBC_.size(); i++) {
-        output.writeMessage(31, kPJFLNKEFBC_.get(i));
+      for (int i = 0; i < altCosmeticPlan_.size(); i++) {
+        output.writeMessage(31, altCosmeticPlan_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -2005,9 +2005,9 @@ public final class SceneAvatarInfoOuterClass {
         }
         UnlockedSkillDepotIdListMemoizedSerializedSize = dataSize;
       }
-      for (int i = 0; i < kPJFLNKEFBC_.size(); i++) {
+      for (int i = 0; i < altCosmeticPlan_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(31, kPJFLNKEFBC_.get(i));
+          .computeMessageSize(31, altCosmeticPlan_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -2094,8 +2094,8 @@ public final class SceneAvatarInfoOuterClass {
           .equals(other.getSpecialProudSkillListList())) return false;
       if (!getUnlockedSkillDepotIdListList()
           .equals(other.getUnlockedSkillDepotIdListList())) return false;
-      if (!getKPJFLNKEFBCList()
-          .equals(other.getKPJFLNKEFBCList())) return false;
+      if (!getAltCosmeticPlanList()
+          .equals(other.getAltCosmeticPlanList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -2198,9 +2198,9 @@ public final class SceneAvatarInfoOuterClass {
         hash = (37 * hash) + _UNLOCKED_SKILL_DEPOT_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getUnlockedSkillDepotIdListList().hashCode();
       }
-      if (getKPJFLNKEFBCCount() > 0) {
-        hash = (37 * hash) + KPJFLNKEFBC_FIELD_NUMBER;
-        hash = (53 * hash) + getKPJFLNKEFBCList().hashCode();
+      if (getAltCosmeticPlanCount() > 0) {
+        hash = (37 * hash) + ALT_COSMETIC_PLAN_FIELD_NUMBER;
+        hash = (53 * hash) + getAltCosmeticPlanList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -2360,7 +2360,7 @@ public final class SceneAvatarInfoOuterClass {
           getServerBuffListFieldBuilder();
           getCostumeSetListFieldBuilder();
           getExpressionListFieldBuilder();
-          getKPJFLNKEFBCFieldBuilder();
+          getAltCosmeticPlanFieldBuilder();
         }
       }
       @java.lang.Override
@@ -2454,11 +2454,11 @@ public final class SceneAvatarInfoOuterClass {
         bitField0_ = (bitField0_ & ~0x00000400);
         UnlockedSkillDepotIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000800);
-        if (kPJFLNKEFBCBuilder_ == null) {
-          kPJFLNKEFBC_ = java.util.Collections.emptyList();
+        if (altCosmeticPlanBuilder_ == null) {
+          altCosmeticPlan_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00001000);
         } else {
-          kPJFLNKEFBCBuilder_.clear();
+          altCosmeticPlanBuilder_.clear();
         }
         return this;
       }
@@ -2590,14 +2590,14 @@ public final class SceneAvatarInfoOuterClass {
           bitField0_ = (bitField0_ & ~0x00000800);
         }
         result.UnlockedSkillDepotIdList_ = UnlockedSkillDepotIdList_;
-        if (kPJFLNKEFBCBuilder_ == null) {
+        if (altCosmeticPlanBuilder_ == null) {
           if (((bitField0_ & 0x00001000) != 0)) {
-            kPJFLNKEFBC_ = java.util.Collections.unmodifiableList(kPJFLNKEFBC_);
+            altCosmeticPlan_ = java.util.Collections.unmodifiableList(altCosmeticPlan_);
             bitField0_ = (bitField0_ & ~0x00001000);
           }
-          result.kPJFLNKEFBC_ = kPJFLNKEFBC_;
+          result.altCosmeticPlan_ = altCosmeticPlan_;
         } else {
-          result.kPJFLNKEFBC_ = kPJFLNKEFBCBuilder_.build();
+          result.altCosmeticPlan_ = altCosmeticPlanBuilder_.build();
         }
         onBuilt();
         return result;
@@ -2866,29 +2866,29 @@ public final class SceneAvatarInfoOuterClass {
           }
           onChanged();
         }
-        if (kPJFLNKEFBCBuilder_ == null) {
-          if (!other.kPJFLNKEFBC_.isEmpty()) {
-            if (kPJFLNKEFBC_.isEmpty()) {
-              kPJFLNKEFBC_ = other.kPJFLNKEFBC_;
+        if (altCosmeticPlanBuilder_ == null) {
+          if (!other.altCosmeticPlan_.isEmpty()) {
+            if (altCosmeticPlan_.isEmpty()) {
+              altCosmeticPlan_ = other.altCosmeticPlan_;
               bitField0_ = (bitField0_ & ~0x00001000);
             } else {
-              ensureKPJFLNKEFBCIsMutable();
-              kPJFLNKEFBC_.addAll(other.kPJFLNKEFBC_);
+              ensureAltCosmeticPlanIsMutable();
+              altCosmeticPlan_.addAll(other.altCosmeticPlan_);
             }
             onChanged();
           }
         } else {
-          if (!other.kPJFLNKEFBC_.isEmpty()) {
-            if (kPJFLNKEFBCBuilder_.isEmpty()) {
-              kPJFLNKEFBCBuilder_.dispose();
-              kPJFLNKEFBCBuilder_ = null;
-              kPJFLNKEFBC_ = other.kPJFLNKEFBC_;
+          if (!other.altCosmeticPlan_.isEmpty()) {
+            if (altCosmeticPlanBuilder_.isEmpty()) {
+              altCosmeticPlanBuilder_.dispose();
+              altCosmeticPlanBuilder_ = null;
+              altCosmeticPlan_ = other.altCosmeticPlan_;
               bitField0_ = (bitField0_ & ~0x00001000);
-              kPJFLNKEFBCBuilder_ = 
+              altCosmeticPlanBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getKPJFLNKEFBCFieldBuilder() : null;
+                   getAltCosmeticPlanFieldBuilder() : null;
             } else {
-              kPJFLNKEFBCBuilder_.addAllMessages(other.kPJFLNKEFBC_);
+              altCosmeticPlanBuilder_.addAllMessages(other.altCosmeticPlan_);
             }
           }
         }
@@ -5093,22 +5093,22 @@ public final class SceneAvatarInfoOuterClass {
         return CostumeSetListBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> ExpressionList_ =
+      private java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo> ExpressionList_ =
         java.util.Collections.emptyList();
       private void ensureExpressionListIsMutable() {
         if (!((bitField0_ & 0x00000200) != 0)) {
-          ExpressionList_ = new java.util.ArrayList<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo>(ExpressionList_);
+          ExpressionList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo>(ExpressionList_);
           bitField0_ |= 0x00000200;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> ExpressionListBuilder_;
+          emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfoOrBuilder> ExpressionListBuilder_;
 
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> getExpressionListList() {
+      public java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo> getExpressionListList() {
         if (ExpressionListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(ExpressionList_);
         } else {
@@ -5116,7 +5116,7 @@ public final class SceneAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
       public int getExpressionListCount() {
         if (ExpressionListBuilder_ == null) {
@@ -5126,9 +5126,9 @@ public final class SceneAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
-      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo getExpressionList(int index) {
+      public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo getExpressionList(int index) {
         if (ExpressionListBuilder_ == null) {
           return ExpressionList_.get(index);
         } else {
@@ -5136,10 +5136,10 @@ public final class SceneAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
       public Builder setExpressionList(
-          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo value) {
+          int index, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo value) {
         if (ExpressionListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5153,10 +5153,10 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
       public Builder setExpressionList(
-          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder builderForValue) {
         if (ExpressionListBuilder_ == null) {
           ensureExpressionListIsMutable();
           ExpressionList_.set(index, builderForValue.build());
@@ -5167,9 +5167,9 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
-      public Builder addExpressionList(emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo value) {
+      public Builder addExpressionList(emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo value) {
         if (ExpressionListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5183,10 +5183,10 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
       public Builder addExpressionList(
-          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo value) {
+          int index, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo value) {
         if (ExpressionListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5200,10 +5200,10 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
       public Builder addExpressionList(
-          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder builderForValue) {
         if (ExpressionListBuilder_ == null) {
           ensureExpressionListIsMutable();
           ExpressionList_.add(builderForValue.build());
@@ -5214,10 +5214,10 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
       public Builder addExpressionList(
-          int index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder builderForValue) {
         if (ExpressionListBuilder_ == null) {
           ensureExpressionListIsMutable();
           ExpressionList_.add(index, builderForValue.build());
@@ -5228,10 +5228,10 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
       public Builder addAllExpressionList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo> values) {
         if (ExpressionListBuilder_ == null) {
           ensureExpressionListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -5243,7 +5243,7 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
       public Builder clearExpressionList() {
         if (ExpressionListBuilder_ == null) {
@@ -5256,7 +5256,7 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
       public Builder removeExpressionList(int index) {
         if (ExpressionListBuilder_ == null) {
@@ -5269,16 +5269,16 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
-      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder getExpressionListBuilder(
+      public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder getExpressionListBuilder(
           int index) {
         return getExpressionListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
-      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder getExpressionListOrBuilder(
+      public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfoOrBuilder getExpressionListOrBuilder(
           int index) {
         if (ExpressionListBuilder_ == null) {
           return ExpressionList_.get(index);  } else {
@@ -5286,9 +5286,9 @@ public final class SceneAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfoOrBuilder> 
            getExpressionListOrBuilderList() {
         if (ExpressionListBuilder_ != null) {
           return ExpressionListBuilder_.getMessageOrBuilderList();
@@ -5297,33 +5297,33 @@ public final class SceneAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
-      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder addExpressionListBuilder() {
+      public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder addExpressionListBuilder() {
         return getExpressionListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.getDefaultInstance());
+            emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
-      public emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder addExpressionListBuilder(
+      public emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder addExpressionListBuilder(
           int index) {
         return getExpressionListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._BeyondExpressionInfo _expression_list = 28;</code>
+       * <code>repeated .BeyondExpressionInfo _expression_list = 28;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder> 
            getExpressionListBuilderList() {
         return getExpressionListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder> 
+          emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfoOrBuilder> 
           getExpressionListFieldBuilder() {
         if (ExpressionListBuilder_ == null) {
           ExpressionListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfo.Builder, emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass._BeyondExpressionInfoOrBuilder>(
+              emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfo.Builder, emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.BeyondExpressionInfoOrBuilder>(
                   ExpressionList_,
                   ((bitField0_ & 0x00000200) != 0),
                   getParentForChildren(),
@@ -5491,244 +5491,244 @@ public final class SceneAvatarInfoOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> kPJFLNKEFBC_ =
+      private java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> altCosmeticPlan_ =
         java.util.Collections.emptyList();
-      private void ensureKPJFLNKEFBCIsMutable() {
+      private void ensureAltCosmeticPlanIsMutable() {
         if (!((bitField0_ & 0x00001000) != 0)) {
-          kPJFLNKEFBC_ = new java.util.ArrayList<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo>(kPJFLNKEFBC_);
+          altCosmeticPlan_ = new java.util.ArrayList<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo>(altCosmeticPlan_);
           bitField0_ |= 0x00001000;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> kPJFLNKEFBCBuilder_;
+          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> altCosmeticPlanBuilder_;
 
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> getKPJFLNKEFBCList() {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(kPJFLNKEFBC_);
+      public java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> getAltCosmeticPlanList() {
+        if (altCosmeticPlanBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(altCosmeticPlan_);
         } else {
-          return kPJFLNKEFBCBuilder_.getMessageList();
+          return altCosmeticPlanBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public int getKPJFLNKEFBCCount() {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          return kPJFLNKEFBC_.size();
+      public int getAltCosmeticPlanCount() {
+        if (altCosmeticPlanBuilder_ == null) {
+          return altCosmeticPlan_.size();
         } else {
-          return kPJFLNKEFBCBuilder_.getCount();
+          return altCosmeticPlanBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getKPJFLNKEFBC(int index) {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          return kPJFLNKEFBC_.get(index);
+      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getAltCosmeticPlan(int index) {
+        if (altCosmeticPlanBuilder_ == null) {
+          return altCosmeticPlan_.get(index);
         } else {
-          return kPJFLNKEFBCBuilder_.getMessage(index);
+          return altCosmeticPlanBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public Builder setKPJFLNKEFBC(
+      public Builder setAltCosmeticPlan(
           int index, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo value) {
-        if (kPJFLNKEFBCBuilder_ == null) {
+        if (altCosmeticPlanBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureKPJFLNKEFBCIsMutable();
-          kPJFLNKEFBC_.set(index, value);
+          ensureAltCosmeticPlanIsMutable();
+          altCosmeticPlan_.set(index, value);
           onChanged();
         } else {
-          kPJFLNKEFBCBuilder_.setMessage(index, value);
+          altCosmeticPlanBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public Builder setKPJFLNKEFBC(
+      public Builder setAltCosmeticPlan(
           int index, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder builderForValue) {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          ensureKPJFLNKEFBCIsMutable();
-          kPJFLNKEFBC_.set(index, builderForValue.build());
+        if (altCosmeticPlanBuilder_ == null) {
+          ensureAltCosmeticPlanIsMutable();
+          altCosmeticPlan_.set(index, builderForValue.build());
           onChanged();
         } else {
-          kPJFLNKEFBCBuilder_.setMessage(index, builderForValue.build());
+          altCosmeticPlanBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public Builder addKPJFLNKEFBC(emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo value) {
-        if (kPJFLNKEFBCBuilder_ == null) {
+      public Builder addAltCosmeticPlan(emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo value) {
+        if (altCosmeticPlanBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureKPJFLNKEFBCIsMutable();
-          kPJFLNKEFBC_.add(value);
+          ensureAltCosmeticPlanIsMutable();
+          altCosmeticPlan_.add(value);
           onChanged();
         } else {
-          kPJFLNKEFBCBuilder_.addMessage(value);
+          altCosmeticPlanBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public Builder addKPJFLNKEFBC(
+      public Builder addAltCosmeticPlan(
           int index, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo value) {
-        if (kPJFLNKEFBCBuilder_ == null) {
+        if (altCosmeticPlanBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureKPJFLNKEFBCIsMutable();
-          kPJFLNKEFBC_.add(index, value);
+          ensureAltCosmeticPlanIsMutable();
+          altCosmeticPlan_.add(index, value);
           onChanged();
         } else {
-          kPJFLNKEFBCBuilder_.addMessage(index, value);
+          altCosmeticPlanBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public Builder addKPJFLNKEFBC(
+      public Builder addAltCosmeticPlan(
           emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder builderForValue) {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          ensureKPJFLNKEFBCIsMutable();
-          kPJFLNKEFBC_.add(builderForValue.build());
+        if (altCosmeticPlanBuilder_ == null) {
+          ensureAltCosmeticPlanIsMutable();
+          altCosmeticPlan_.add(builderForValue.build());
           onChanged();
         } else {
-          kPJFLNKEFBCBuilder_.addMessage(builderForValue.build());
+          altCosmeticPlanBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public Builder addKPJFLNKEFBC(
+      public Builder addAltCosmeticPlan(
           int index, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder builderForValue) {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          ensureKPJFLNKEFBCIsMutable();
-          kPJFLNKEFBC_.add(index, builderForValue.build());
+        if (altCosmeticPlanBuilder_ == null) {
+          ensureAltCosmeticPlanIsMutable();
+          altCosmeticPlan_.add(index, builderForValue.build());
           onChanged();
         } else {
-          kPJFLNKEFBCBuilder_.addMessage(index, builderForValue.build());
+          altCosmeticPlanBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public Builder addAllKPJFLNKEFBC(
+      public Builder addAllAltCosmeticPlan(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> values) {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          ensureKPJFLNKEFBCIsMutable();
+        if (altCosmeticPlanBuilder_ == null) {
+          ensureAltCosmeticPlanIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, kPJFLNKEFBC_);
+              values, altCosmeticPlan_);
           onChanged();
         } else {
-          kPJFLNKEFBCBuilder_.addAllMessages(values);
+          altCosmeticPlanBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public Builder clearKPJFLNKEFBC() {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          kPJFLNKEFBC_ = java.util.Collections.emptyList();
+      public Builder clearAltCosmeticPlan() {
+        if (altCosmeticPlanBuilder_ == null) {
+          altCosmeticPlan_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00001000);
           onChanged();
         } else {
-          kPJFLNKEFBCBuilder_.clear();
+          altCosmeticPlanBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public Builder removeKPJFLNKEFBC(int index) {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          ensureKPJFLNKEFBCIsMutable();
-          kPJFLNKEFBC_.remove(index);
+      public Builder removeAltCosmeticPlan(int index) {
+        if (altCosmeticPlanBuilder_ == null) {
+          ensureAltCosmeticPlanIsMutable();
+          altCosmeticPlan_.remove(index);
           onChanged();
         } else {
-          kPJFLNKEFBCBuilder_.remove(index);
+          altCosmeticPlanBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder getKPJFLNKEFBCBuilder(
+      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder getAltCosmeticPlanBuilder(
           int index) {
-        return getKPJFLNKEFBCFieldBuilder().getBuilder(index);
+        return getAltCosmeticPlanFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getKPJFLNKEFBCOrBuilder(
+      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getAltCosmeticPlanOrBuilder(
           int index) {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          return kPJFLNKEFBC_.get(index);  } else {
-          return kPJFLNKEFBCBuilder_.getMessageOrBuilder(index);
+        if (altCosmeticPlanBuilder_ == null) {
+          return altCosmeticPlan_.get(index);  } else {
+          return altCosmeticPlanBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
-           getKPJFLNKEFBCOrBuilderList() {
-        if (kPJFLNKEFBCBuilder_ != null) {
-          return kPJFLNKEFBCBuilder_.getMessageOrBuilderList();
+           getAltCosmeticPlanOrBuilderList() {
+        if (altCosmeticPlanBuilder_ != null) {
+          return altCosmeticPlanBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(kPJFLNKEFBC_);
+          return java.util.Collections.unmodifiableList(altCosmeticPlan_);
         }
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder addKPJFLNKEFBCBuilder() {
-        return getKPJFLNKEFBCFieldBuilder().addBuilder(
+      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder addAltCosmeticPlanBuilder() {
+        return getAltCosmeticPlanFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
-      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder addKPJFLNKEFBCBuilder(
+      public emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder addAltCosmeticPlanBuilder(
           int index) {
-        return getKPJFLNKEFBCFieldBuilder().addBuilder(
+        return getAltCosmeticPlanFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .SceneWeaponInfo KPJFLNKEFBC = 31;</code>
+       * <code>repeated .SceneWeaponInfo alt_cosmetic_plan = 31;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder> 
-           getKPJFLNKEFBCBuilderList() {
-        return getKPJFLNKEFBCFieldBuilder().getBuilderList();
+           getAltCosmeticPlanBuilderList() {
+        return getAltCosmeticPlanFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> 
-          getKPJFLNKEFBCFieldBuilder() {
-        if (kPJFLNKEFBCBuilder_ == null) {
-          kPJFLNKEFBCBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+          getAltCosmeticPlanFieldBuilder() {
+        if (altCosmeticPlanBuilder_ == null) {
+          altCosmeticPlanBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder>(
-                  kPJFLNKEFBC_,
+                  altCosmeticPlan_,
                   ((bitField0_ & 0x00001000) != 0),
                   getParentForChildren(),
                   isClean());
-          kPJFLNKEFBC_ = null;
+          altCosmeticPlan_ = null;
         }
-        return kPJFLNKEFBCBuilder_;
+        return altCosmeticPlanBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -5808,58 +5808,58 @@ public final class SceneAvatarInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025SceneAvatarInfo.proto\032\025AvatarExcelInfo" +
-      ".proto\032\024CurVehicleInfo.proto\032\030SceneReliq" +
-      "uaryInfo.proto\032\025SceneWeaponInfo.proto\032\020S" +
-      "erverBuff.proto\032\033_BeyondCostumeSetInfo.p" +
-      "roto\032\033_BeyondExpressionInfo.proto\"\356\010\n\017Sc" +
-      "eneAvatarInfo\022\013\n\003uid\030\001 \001(\r\022\021\n\tavatar_id\030" +
-      "\002 \001(\r\022\014\n\004guid\030\003 \001(\004\022\017\n\007peer_id\030\004 \001(\r\022\025\n\r" +
-      "equip_id_list\030\005 \003(\r\022\026\n\016skill_depot_id\030\006 " +
-      "\001(\r\022\026\n\016talent_id_list\030\007 \003(\r\022 \n\006weapon\030\010 " +
-      "\001(\0132\020.SceneWeaponInfo\022+\n\016reliquary_list\030" +
-      "\t \003(\0132\023.SceneReliquaryInfo\022\036\n\026core_proud" +
-      "_skill_level\030\013 \001(\r\022!\n\031inherent_proud_ski" +
-      "ll_list\030\014 \003(\r\022<\n\017skill_level_map\030\r \003(\0132#" +
-      ".SceneAvatarInfo.SkillLevelMapEntry\022R\n\033p" +
-      "roud_skill_extra_level_map\030\016 \003(\0132-.Scene" +
-      "AvatarInfo.ProudSkillExtraLevelMapEntry\022" +
-      "%\n\020server_buff_list\030\017 \003(\0132\013.ServerBuff\022\033" +
-      "\n\023team_resonance_list\030\020 \003(\r\022\033\n\023wearing_f" +
-      "lycloak_id\030\021 \001(\r\022\021\n\tborn_time\030\022 \001(\r\022\022\n\nc" +
-      "ostume_id\030\023 \001(\r\022)\n\020cur_vehicle_info\030\024 \001(" +
-      "\0132\017.CurVehicleInfo\022$\n\nexcel_info\030\025 \001(\0132\020" +
-      ".AvatarExcelInfo\022\021\n\tanim_hash\030\026 \001(\r\022\030\n\020_" +
-      "trace_effect_id\030\027 \001(\r\022\027\n\017_weapon_skin_id" +
-      "\030\030 \001(\r\0223\n\023_avatar_costume_set\030\031 \001(\0132\026._B" +
-      "eyondCostumeSetInfo\022\021\n\t_voice_id\030\032 \001(\r\0221" +
-      "\n\021_costume_set_list\030\033 \003(\0132\026._BeyondCostu" +
-      "meSetInfo\0220\n\020_expression_list\030\034 \003(\0132\026._B" +
-      "eyondExpressionInfo\022!\n\031_special_proud_sk" +
-      "ill_list\030\035 \003(\r\022%\n\035_unlocked_skill_depot_" +
-      "id_list\030\036 \003(\r\022%\n\013KPJFLNKEFBC\030\037 \003(\0132\020.Sce" +
-      "neWeaponInfo\0324\n\022SkillLevelMapEntry\022\013\n\003ke" +
-      "y\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\032>\n\034ProudSkill" +
-      "ExtraLevelMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value" +
-      "\030\002 \001(\r:\0028\001B6\n\031emu.grasscutter.net.protoB" +
-      "\031SceneAvatarInfoOuterClassb\006proto3"
+      ".proto\032\032BeyondExpressionInfo.proto\032\024CurV" +
+      "ehicleInfo.proto\032\030SceneReliquaryInfo.pro" +
+      "to\032\025SceneWeaponInfo.proto\032\020ServerBuff.pr" +
+      "oto\032\033_BeyondCostumeSetInfo.proto\"\363\010\n\017Sce" +
+      "neAvatarInfo\022\013\n\003uid\030\001 \001(\r\022\021\n\tavatar_id\030\002" +
+      " \001(\r\022\014\n\004guid\030\003 \001(\004\022\017\n\007peer_id\030\004 \001(\r\022\025\n\re" +
+      "quip_id_list\030\005 \003(\r\022\026\n\016skill_depot_id\030\006 \001" +
+      "(\r\022\026\n\016talent_id_list\030\007 \003(\r\022 \n\006weapon\030\010 \001" +
+      "(\0132\020.SceneWeaponInfo\022+\n\016reliquary_list\030\t" +
+      " \003(\0132\023.SceneReliquaryInfo\022\036\n\026core_proud_" +
+      "skill_level\030\013 \001(\r\022!\n\031inherent_proud_skil" +
+      "l_list\030\014 \003(\r\022<\n\017skill_level_map\030\r \003(\0132#." +
+      "SceneAvatarInfo.SkillLevelMapEntry\022R\n\033pr" +
+      "oud_skill_extra_level_map\030\016 \003(\0132-.SceneA" +
+      "vatarInfo.ProudSkillExtraLevelMapEntry\022%" +
+      "\n\020server_buff_list\030\017 \003(\0132\013.ServerBuff\022\033\n" +
+      "\023team_resonance_list\030\020 \003(\r\022\033\n\023wearing_fl" +
+      "ycloak_id\030\021 \001(\r\022\021\n\tborn_time\030\022 \001(\r\022\022\n\nco" +
+      "stume_id\030\023 \001(\r\022)\n\020cur_vehicle_info\030\024 \001(\013" +
+      "2\017.CurVehicleInfo\022$\n\nexcel_info\030\025 \001(\0132\020." +
+      "AvatarExcelInfo\022\021\n\tanim_hash\030\026 \001(\r\022\030\n\020_t" +
+      "race_effect_id\030\027 \001(\r\022\027\n\017_weapon_skin_id\030" +
+      "\030 \001(\r\0223\n\023_avatar_costume_set\030\031 \001(\0132\026._Be" +
+      "yondCostumeSetInfo\022\021\n\t_voice_id\030\032 \001(\r\0221\n" +
+      "\021_costume_set_list\030\033 \003(\0132\026._BeyondCostum" +
+      "eSetInfo\022/\n\020_expression_list\030\034 \003(\0132\025.Bey" +
+      "ondExpressionInfo\022!\n\031_special_proud_skil" +
+      "l_list\030\035 \003(\r\022%\n\035_unlocked_skill_depot_id" +
+      "_list\030\036 \003(\r\022+\n\021alt_cosmetic_plan\030\037 \003(\0132\020" +
+      ".SceneWeaponInfo\0324\n\022SkillLevelMapEntry\022\013" +
+      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\032>\n\034ProudS" +
+      "killExtraLevelMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005v" +
+      "alue\030\002 \001(\r:\0028\001B6\n\031emu.grasscutter.net.pr" +
+      "otoB\031SceneAvatarInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.CurVehicleInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ServerBuffOuterClass.getDescriptor(),
           emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor(),
         });
     internal_static_SceneAvatarInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_SceneAvatarInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SceneAvatarInfo_descriptor,
-        new java.lang.String[] { "Uid", "AvatarId", "Guid", "PeerId", "EquipIdList", "SkillDepotId", "TalentIdList", "Weapon", "ReliquaryList", "CoreProudSkillLevel", "InherentProudSkillList", "SkillLevelMap", "ProudSkillExtraLevelMap", "ServerBuffList", "TeamResonanceList", "WearingFlycloakId", "BornTime", "CostumeId", "CurVehicleInfo", "ExcelInfo", "AnimHash", "TraceEffectId", "WeaponSkinId", "AvatarCostumeSet", "VoiceId", "CostumeSetList", "ExpressionList", "SpecialProudSkillList", "UnlockedSkillDepotIdList", "KPJFLNKEFBC", });
+        new java.lang.String[] { "Uid", "AvatarId", "Guid", "PeerId", "EquipIdList", "SkillDepotId", "TalentIdList", "Weapon", "ReliquaryList", "CoreProudSkillLevel", "InherentProudSkillList", "SkillLevelMap", "ProudSkillExtraLevelMap", "ServerBuffList", "TeamResonanceList", "WearingFlycloakId", "BornTime", "CostumeId", "CurVehicleInfo", "ExcelInfo", "AnimHash", "TraceEffectId", "WeaponSkinId", "AvatarCostumeSet", "VoiceId", "CostumeSetList", "ExpressionList", "SpecialProudSkillList", "UnlockedSkillDepotIdList", "AltCosmeticPlan", });
     internal_static_SceneAvatarInfo_SkillLevelMapEntry_descriptor =
       internal_static_SceneAvatarInfo_descriptor.getNestedTypes().get(0);
     internal_static_SceneAvatarInfo_SkillLevelMapEntry_fieldAccessorTable = new
@@ -5873,12 +5873,12 @@ public final class SceneAvatarInfoOuterClass {
         internal_static_SceneAvatarInfo_ProudSkillExtraLevelMapEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
     emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.BeyondExpressionInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.CurVehicleInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ServerBuffOuterClass.getDescriptor();
     emu.grasscutter.net.proto._BeyondCostumeSetInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto._BeyondExpressionInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

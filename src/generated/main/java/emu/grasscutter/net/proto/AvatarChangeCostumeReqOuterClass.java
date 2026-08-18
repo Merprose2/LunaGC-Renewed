@@ -31,10 +31,6 @@ public final class AvatarChangeCostumeReqOuterClass {
     int getCostumeId();
   }
   /**
-   * <pre>
-   * CmdID: 6705
-   * </pre>
-   *
    * Protobuf type {@code AvatarChangeCostumeReq}
    */
   public static final class AvatarChangeCostumeReq extends
@@ -311,10 +307,6 @@ public final class AvatarChangeCostumeReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6705
-     * </pre>
-     *
      * Protobuf type {@code AvatarChangeCostumeReq}
      */
     public static final class Builder extends

@@ -37,10 +37,10 @@ public final class CompoundQueueDataOuterClass {
     int getCompoundId();
 
     /**
-     * <code>uint32 ICAFODEEDIE = 15;</code>
-     * @return The iCAFODEEDIE.
+     * <code>uint32 waitcount = 15;</code>
+     * @return The waitcount.
      */
-    int getICAFODEEDIE();
+    int getWaitcount();
   }
   /**
    * Protobuf type {@code CompoundQueueData}
@@ -104,7 +104,7 @@ public final class CompoundQueueDataOuterClass {
             }
             case 120: {
 
-              iCAFODEEDIE_ = input.readUInt32();
+              waitcount_ = input.readUInt32();
               break;
             }
             default: {
@@ -172,15 +172,15 @@ public final class CompoundQueueDataOuterClass {
       return compoundId_;
     }
 
-    public static final int ICAFODEEDIE_FIELD_NUMBER = 15;
-    private int iCAFODEEDIE_;
+    public static final int WAITCOUNT_FIELD_NUMBER = 15;
+    private int waitcount_;
     /**
-     * <code>uint32 ICAFODEEDIE = 15;</code>
-     * @return The iCAFODEEDIE.
+     * <code>uint32 waitcount = 15;</code>
+     * @return The waitcount.
      */
     @java.lang.Override
-    public int getICAFODEEDIE() {
-      return iCAFODEEDIE_;
+    public int getWaitcount() {
+      return waitcount_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -206,8 +206,8 @@ public final class CompoundQueueDataOuterClass {
       if (compoundId_ != 0) {
         output.writeUInt32(13, compoundId_);
       }
-      if (iCAFODEEDIE_ != 0) {
-        output.writeUInt32(15, iCAFODEEDIE_);
+      if (waitcount_ != 0) {
+        output.writeUInt32(15, waitcount_);
       }
       unknownFields.writeTo(output);
     }
@@ -230,9 +230,9 @@ public final class CompoundQueueDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, compoundId_);
       }
-      if (iCAFODEEDIE_ != 0) {
+      if (waitcount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, iCAFODEEDIE_);
+          .computeUInt32Size(15, waitcount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -255,8 +255,8 @@ public final class CompoundQueueDataOuterClass {
           != other.getLINALGNMBCF()) return false;
       if (getCompoundId()
           != other.getCompoundId()) return false;
-      if (getICAFODEEDIE()
-          != other.getICAFODEEDIE()) return false;
+      if (getWaitcount()
+          != other.getWaitcount()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -274,8 +274,8 @@ public final class CompoundQueueDataOuterClass {
       hash = (53 * hash) + getLINALGNMBCF();
       hash = (37 * hash) + COMPOUND_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCompoundId();
-      hash = (37 * hash) + ICAFODEEDIE_FIELD_NUMBER;
-      hash = (53 * hash) + getICAFODEEDIE();
+      hash = (37 * hash) + WAITCOUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getWaitcount();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -415,7 +415,7 @@ public final class CompoundQueueDataOuterClass {
 
         compoundId_ = 0;
 
-        iCAFODEEDIE_ = 0;
+        waitcount_ = 0;
 
         return this;
       }
@@ -446,7 +446,7 @@ public final class CompoundQueueDataOuterClass {
         result.eCICJPBDGOC_ = eCICJPBDGOC_;
         result.lINALGNMBCF_ = lINALGNMBCF_;
         result.compoundId_ = compoundId_;
-        result.iCAFODEEDIE_ = iCAFODEEDIE_;
+        result.waitcount_ = waitcount_;
         onBuilt();
         return result;
       }
@@ -504,8 +504,8 @@ public final class CompoundQueueDataOuterClass {
         if (other.getCompoundId() != 0) {
           setCompoundId(other.getCompoundId());
         }
-        if (other.getICAFODEEDIE() != 0) {
-          setICAFODEEDIE(other.getICAFODEEDIE());
+        if (other.getWaitcount() != 0) {
+          setWaitcount(other.getWaitcount());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -629,33 +629,33 @@ public final class CompoundQueueDataOuterClass {
         return this;
       }
 
-      private int iCAFODEEDIE_ ;
+      private int waitcount_ ;
       /**
-       * <code>uint32 ICAFODEEDIE = 15;</code>
-       * @return The iCAFODEEDIE.
+       * <code>uint32 waitcount = 15;</code>
+       * @return The waitcount.
        */
       @java.lang.Override
-      public int getICAFODEEDIE() {
-        return iCAFODEEDIE_;
+      public int getWaitcount() {
+        return waitcount_;
       }
       /**
-       * <code>uint32 ICAFODEEDIE = 15;</code>
-       * @param value The iCAFODEEDIE to set.
+       * <code>uint32 waitcount = 15;</code>
+       * @param value The waitcount to set.
        * @return This builder for chaining.
        */
-      public Builder setICAFODEEDIE(int value) {
+      public Builder setWaitcount(int value) {
         
-        iCAFODEEDIE_ = value;
+        waitcount_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 ICAFODEEDIE = 15;</code>
+       * <code>uint32 waitcount = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearICAFODEEDIE() {
+      public Builder clearWaitcount() {
         
-        iCAFODEEDIE_ = 0;
+        waitcount_ = 0;
         onChanged();
         return this;
       }
@@ -726,11 +726,11 @@ public final class CompoundQueueDataOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027CompoundQueueData.proto\"g\n\021CompoundQue" +
+      "\n\027CompoundQueueData.proto\"e\n\021CompoundQue" +
       "ueData\022\023\n\013ECICJPBDGOC\030\001 \001(\r\022\023\n\013LINALGNMB" +
-      "CF\030\007 \001(\r\022\023\n\013compound_id\030\r \001(\r\022\023\n\013ICAFODE" +
-      "EDIE\030\017 \001(\rB8\n\031emu.grasscutter.net.protoB" +
-      "\033CompoundQueueDataOuterClassb\006proto3"
+      "CF\030\007 \001(\r\022\023\n\013compound_id\030\r \001(\r\022\021\n\twaitcou" +
+      "nt\030\017 \001(\rB8\n\031emu.grasscutter.net.protoB\033C" +
+      "ompoundQueueDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -741,7 +741,7 @@ public final class CompoundQueueDataOuterClass {
     internal_static_CompoundQueueData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CompoundQueueData_descriptor,
-        new java.lang.String[] { "ECICJPBDGOC", "LINALGNMBCF", "CompoundId", "ICAFODEEDIE", });
+        new java.lang.String[] { "ECICJPBDGOC", "LINALGNMBCF", "CompoundId", "Waitcount", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

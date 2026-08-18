@@ -64,10 +64,6 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
     emu.grasscutter.net.proto.HomeAvatarRewardEventInfoOuterClass.HomeAvatarRewardEventInfoOrBuilder getRewardEventOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 24502
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarRewardEventNotify}
    */
   public static final class HomeAvatarRewardEventNotify extends
@@ -439,10 +435,6 @@ public final class HomeAvatarRewardEventNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24502
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarRewardEventNotify}
      */
     public static final class Builder extends

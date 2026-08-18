@@ -37,10 +37,6 @@ public final class WearEquipRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 3101
-   * </pre>
-   *
    * Protobuf type {@code WearEquipRsp}
    */
   public static final class WearEquipRsp extends
@@ -345,10 +341,6 @@ public final class WearEquipRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3101
-     * </pre>
-     *
      * Protobuf type {@code WearEquipRsp}
      */
     public static final class Builder extends

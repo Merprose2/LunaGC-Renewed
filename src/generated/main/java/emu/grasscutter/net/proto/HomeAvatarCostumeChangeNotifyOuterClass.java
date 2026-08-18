@@ -31,10 +31,6 @@ public final class HomeAvatarCostumeChangeNotifyOuterClass {
     int getCostumeId();
   }
   /**
-   * <pre>
-   * CmdID: 24322
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarCostumeChangeNotify}
    */
   public static final class HomeAvatarCostumeChangeNotify extends
@@ -310,10 +306,6 @@ public final class HomeAvatarCostumeChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24322
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarCostumeChangeNotify}
      */
     public static final class Builder extends

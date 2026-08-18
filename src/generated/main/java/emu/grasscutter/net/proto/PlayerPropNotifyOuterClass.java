@@ -53,10 +53,6 @@ public final class PlayerPropNotifyOuterClass {
         int key);
   }
   /**
-   * <pre>
-   * CmdID: 21512
-   * </pre>
-   *
    * Protobuf type {@code PlayerPropNotify}
    */
   public static final class PlayerPropNotify extends
@@ -407,10 +403,6 @@ public final class PlayerPropNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21512
-     * </pre>
-     *
      * Protobuf type {@code PlayerPropNotify}
      */
     public static final class Builder extends

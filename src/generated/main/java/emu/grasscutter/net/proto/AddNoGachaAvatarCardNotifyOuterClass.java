@@ -79,10 +79,6 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     boolean getIsTransferToItem();
   }
   /**
-   * <pre>
-   * CmdID: 3219
-   * </pre>
-   *
    * Protobuf type {@code AddNoGachaAvatarCardNotify}
    */
   public static final class AddNoGachaAvatarCardNotify extends
@@ -534,10 +530,6 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3219
-     * </pre>
-     *
      * Protobuf type {@code AddNoGachaAvatarCardNotify}
      */
     public static final class Builder extends

@@ -42,10 +42,6 @@ public final class SceneForceUnlockNotifyOuterClass {
     boolean getIsAdd();
   }
   /**
-   * <pre>
-   * CmdID: 6990
-   * </pre>
-   *
    * Protobuf type {@code SceneForceUnlockNotify}
    */
   public static final class SceneForceUnlockNotify extends
@@ -377,10 +373,6 @@ public final class SceneForceUnlockNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6990
-     * </pre>
-     *
      * Protobuf type {@code SceneForceUnlockNotify}
      */
     public static final class Builder extends

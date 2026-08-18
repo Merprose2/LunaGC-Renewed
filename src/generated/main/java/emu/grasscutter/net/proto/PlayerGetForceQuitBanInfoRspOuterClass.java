@@ -37,10 +37,6 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 22181
-   * </pre>
-   *
    * Protobuf type {@code PlayerGetForceQuitBanInfoRsp}
    */
   public static final class PlayerGetForceQuitBanInfoRsp extends
@@ -343,10 +339,6 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22181
-     * </pre>
-     *
      * Protobuf type {@code PlayerGetForceQuitBanInfoRsp}
      */
     public static final class Builder extends

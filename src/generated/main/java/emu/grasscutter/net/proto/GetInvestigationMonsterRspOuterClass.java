@@ -55,10 +55,6 @@ public final class GetInvestigationMonsterRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 22920
-   * </pre>
-   *
    * Protobuf type {@code GetInvestigationMonsterRsp}
    */
   public static final class GetInvestigationMonsterRsp extends
@@ -402,10 +398,6 @@ public final class GetInvestigationMonsterRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22920
-     * </pre>
-     *
      * Protobuf type {@code GetInvestigationMonsterRsp}
      */
     public static final class Builder extends

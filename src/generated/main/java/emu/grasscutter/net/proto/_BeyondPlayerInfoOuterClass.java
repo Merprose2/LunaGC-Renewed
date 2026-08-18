@@ -19,6 +19,21 @@ public final class _BeyondPlayerInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+     * @return Whether the bydPlayerDetailOnlineInfo field is set.
+     */
+    boolean hasBydPlayerDetailOnlineInfo();
+    /**
+     * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+     * @return The bydPlayerDetailOnlineInfo.
+     */
+    emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo getBydPlayerDetailOnlineInfo();
+    /**
+     * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+     */
+    emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder getBydPlayerDetailOnlineInfoOrBuilder();
+
+    /**
      * <code>uint32 uid = 1;</code>
      * @return The uid.
      */
@@ -45,23 +60,6 @@ public final class _BeyondPlayerInfoOuterClass {
      * @return The worldType.
      */
     emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.EMLLHGLCCJJ getWorldType();
-
-    /**
-     * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-     * @return Whether the bydPlayerDetailOnlineInfo field is set.
-     */
-    boolean hasBydPlayerDetailOnlineInfo();
-    /**
-     * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-     * @return The bydPlayerDetailOnlineInfo.
-     */
-    emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo getBydPlayerDetailOnlineInfo();
-    /**
-     * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-     */
-    emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder getBydPlayerDetailOnlineInfoOrBuilder();
-
-    public emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.DetailCase getDetailCase();
   }
   /**
    * Protobuf type {@code _BeyondPlayerInfo}
@@ -100,6 +98,7 @@ public final class _BeyondPlayerInfoOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -129,16 +128,15 @@ public final class _BeyondPlayerInfoOuterClass {
             }
             case 90: {
               emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder subBuilder = null;
-              if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_).toBuilder();
+              if (((bitField0_ & 0x00000001) != 0)) {
+                subBuilder = bydPlayerDetailOnlineInfo_.toBuilder();
               }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.parser(), extensionRegistry);
+              bydPlayerDetailOnlineInfo_ = input.readMessage(emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_);
-                detail_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(bydPlayerDetailOnlineInfo_);
+                bydPlayerDetailOnlineInfo_ = subBuilder.buildPartial();
               }
-              detailCase_ = 11;
+              bitField0_ |= 0x00000001;
               break;
             }
             default: {
@@ -389,43 +387,31 @@ public final class _BeyondPlayerInfoOuterClass {
       // @@protoc_insertion_point(enum_scope:_BeyondPlayerInfo.EMLLHGLCCJJ)
     }
 
-    private int detailCase_ = 0;
-    private java.lang.Object detail_;
-    public enum DetailCase
-        implements com.google.protobuf.Internal.EnumLite,
-            com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      BYD_PLAYER_DETAIL_ONLINE_INFO(11),
-      DETAIL_NOT_SET(0);
-      private final int value;
-      private DetailCase(int value) {
-        this.value = value;
-      }
-      /**
-       * @param value The number of the enum to look for.
-       * @return The enum associated with the given number.
-       * @deprecated Use {@link #forNumber(int)} instead.
-       */
-      @java.lang.Deprecated
-      public static DetailCase valueOf(int value) {
-        return forNumber(value);
-      }
-
-      public static DetailCase forNumber(int value) {
-        switch (value) {
-          case 11: return BYD_PLAYER_DETAIL_ONLINE_INFO;
-          case 0: return DETAIL_NOT_SET;
-          default: return null;
-        }
-      }
-      public int getNumber() {
-        return this.value;
-      }
-    };
-
-    public DetailCase
-    getDetailCase() {
-      return DetailCase.forNumber(
-          detailCase_);
+    private int bitField0_;
+    public static final int BYD_PLAYER_DETAIL_ONLINE_INFO_FIELD_NUMBER = 11;
+    private emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo bydPlayerDetailOnlineInfo_;
+    /**
+     * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+     * @return Whether the bydPlayerDetailOnlineInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasBydPlayerDetailOnlineInfo() {
+      return ((bitField0_ & 0x00000001) != 0);
+    }
+    /**
+     * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+     * @return The bydPlayerDetailOnlineInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo getBydPlayerDetailOnlineInfo() {
+      return bydPlayerDetailOnlineInfo_ == null ? emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance() : bydPlayerDetailOnlineInfo_;
+    }
+    /**
+     * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder getBydPlayerDetailOnlineInfoOrBuilder() {
+      return bydPlayerDetailOnlineInfo_ == null ? emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance() : bydPlayerDetailOnlineInfo_;
     }
 
     public static final int UID_FIELD_NUMBER = 1;
@@ -477,37 +463,6 @@ public final class _BeyondPlayerInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.EMLLHGLCCJJ.UNRECOGNIZED : result;
     }
 
-    public static final int BYD_PLAYER_DETAIL_ONLINE_INFO_FIELD_NUMBER = 11;
-    /**
-     * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-     * @return Whether the bydPlayerDetailOnlineInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasBydPlayerDetailOnlineInfo() {
-      return detailCase_ == 11;
-    }
-    /**
-     * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-     * @return The bydPlayerDetailOnlineInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo getBydPlayerDetailOnlineInfo() {
-      if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_;
-      }
-      return emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance();
-    }
-    /**
-     * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder getBydPlayerDetailOnlineInfoOrBuilder() {
-      if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_;
-      }
-      return emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance();
-    }
-
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -531,8 +486,8 @@ public final class _BeyondPlayerInfoOuterClass {
       if (worldType_ != emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.EMLLHGLCCJJ.EMLLHGLCCJJ_TEYVAT.getNumber()) {
         output.writeEnum(3, worldType_);
       }
-      if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_);
+      if (((bitField0_ & 0x00000001) != 0)) {
+        output.writeMessage(11, getBydPlayerDetailOnlineInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -555,9 +510,9 @@ public final class _BeyondPlayerInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(3, worldType_);
       }
-      if (detailCase_ == 11) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_);
+          .computeMessageSize(11, getBydPlayerDetailOnlineInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -574,19 +529,15 @@ public final class _BeyondPlayerInfoOuterClass {
       }
       emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo other = (emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo) obj;
 
+      if (hasBydPlayerDetailOnlineInfo() != other.hasBydPlayerDetailOnlineInfo()) return false;
+      if (hasBydPlayerDetailOnlineInfo()) {
+        if (!getBydPlayerDetailOnlineInfo()
+            .equals(other.getBydPlayerDetailOnlineInfo())) return false;
+      }
       if (getUid()
           != other.getUid()) return false;
       if (onlineState_ != other.onlineState_) return false;
       if (worldType_ != other.worldType_) return false;
-      if (!getDetailCase().equals(other.getDetailCase())) return false;
-      switch (detailCase_) {
-        case 11:
-          if (!getBydPlayerDetailOnlineInfo()
-              .equals(other.getBydPlayerDetailOnlineInfo())) return false;
-          break;
-        case 0:
-        default:
-      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -598,20 +549,16 @@ public final class _BeyondPlayerInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (hasBydPlayerDetailOnlineInfo()) {
+        hash = (37 * hash) + BYD_PLAYER_DETAIL_ONLINE_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getBydPlayerDetailOnlineInfo().hashCode();
+      }
       hash = (37 * hash) + UID_FIELD_NUMBER;
       hash = (53 * hash) + getUid();
       hash = (37 * hash) + ONLINE_STATE_FIELD_NUMBER;
       hash = (53 * hash) + onlineState_;
       hash = (37 * hash) + WORLD_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + worldType_;
-      switch (detailCase_) {
-        case 11:
-          hash = (37 * hash) + BYD_PLAYER_DETAIL_ONLINE_INFO_FIELD_NUMBER;
-          hash = (53 * hash) + getBydPlayerDetailOnlineInfo().hashCode();
-          break;
-        case 0:
-        default:
-      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -740,19 +687,24 @@ public final class _BeyondPlayerInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getBydPlayerDetailOnlineInfoFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
+          bydPlayerDetailOnlineInfo_ = null;
+        } else {
+          bydPlayerDetailOnlineInfoBuilder_.clear();
+        }
+        bitField0_ = (bitField0_ & ~0x00000001);
         uid_ = 0;
 
         onlineState_ = 0;
 
         worldType_ = 0;
 
-        detailCase_ = 0;
-        detail_ = null;
         return this;
       }
 
@@ -779,17 +731,20 @@ public final class _BeyondPlayerInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo buildPartial() {
         emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo result = new emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) != 0)) {
+          if (bydPlayerDetailOnlineInfoBuilder_ == null) {
+            result.bydPlayerDetailOnlineInfo_ = bydPlayerDetailOnlineInfo_;
+          } else {
+            result.bydPlayerDetailOnlineInfo_ = bydPlayerDetailOnlineInfoBuilder_.build();
+          }
+          to_bitField0_ |= 0x00000001;
+        }
         result.uid_ = uid_;
         result.onlineState_ = onlineState_;
         result.worldType_ = worldType_;
-        if (detailCase_ == 11) {
-          if (bydPlayerDetailOnlineInfoBuilder_ == null) {
-            result.detail_ = detail_;
-          } else {
-            result.detail_ = bydPlayerDetailOnlineInfoBuilder_.build();
-          }
-        }
-        result.detailCase_ = detailCase_;
+        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -838,6 +793,9 @@ public final class _BeyondPlayerInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo other) {
         if (other == emu.grasscutter.net.proto._BeyondPlayerInfoOuterClass._BeyondPlayerInfo.getDefaultInstance()) return this;
+        if (other.hasBydPlayerDetailOnlineInfo()) {
+          mergeBydPlayerDetailOnlineInfo(other.getBydPlayerDetailOnlineInfo());
+        }
         if (other.getUid() != 0) {
           setUid(other.getUid());
         }
@@ -846,15 +804,6 @@ public final class _BeyondPlayerInfoOuterClass {
         }
         if (other.worldType_ != 0) {
           setWorldTypeValue(other.getWorldTypeValue());
-        }
-        switch (other.getDetailCase()) {
-          case BYD_PLAYER_DETAIL_ONLINE_INFO: {
-            mergeBydPlayerDetailOnlineInfo(other.getBydPlayerDetailOnlineInfo());
-            break;
-          }
-          case DETAIL_NOT_SET: {
-            break;
-          }
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -884,21 +833,127 @@ public final class _BeyondPlayerInfoOuterClass {
         }
         return this;
       }
-      private int detailCase_ = 0;
-      private java.lang.Object detail_;
-      public DetailCase
-          getDetailCase() {
-        return DetailCase.forNumber(
-            detailCase_);
-      }
+      private int bitField0_;
 
-      public Builder clearDetail() {
-        detailCase_ = 0;
-        detail_ = null;
-        onChanged();
+      private emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo bydPlayerDetailOnlineInfo_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder> bydPlayerDetailOnlineInfoBuilder_;
+      /**
+       * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+       * @return Whether the bydPlayerDetailOnlineInfo field is set.
+       */
+      public boolean hasBydPlayerDetailOnlineInfo() {
+        return ((bitField0_ & 0x00000001) != 0);
+      }
+      /**
+       * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+       * @return The bydPlayerDetailOnlineInfo.
+       */
+      public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo getBydPlayerDetailOnlineInfo() {
+        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
+          return bydPlayerDetailOnlineInfo_ == null ? emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance() : bydPlayerDetailOnlineInfo_;
+        } else {
+          return bydPlayerDetailOnlineInfoBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+       */
+      public Builder setBydPlayerDetailOnlineInfo(emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo value) {
+        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          bydPlayerDetailOnlineInfo_ = value;
+          onChanged();
+        } else {
+          bydPlayerDetailOnlineInfoBuilder_.setMessage(value);
+        }
+        bitField0_ |= 0x00000001;
         return this;
       }
-
+      /**
+       * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+       */
+      public Builder setBydPlayerDetailOnlineInfo(
+          emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder builderForValue) {
+        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
+          bydPlayerDetailOnlineInfo_ = builderForValue.build();
+          onChanged();
+        } else {
+          bydPlayerDetailOnlineInfoBuilder_.setMessage(builderForValue.build());
+        }
+        bitField0_ |= 0x00000001;
+        return this;
+      }
+      /**
+       * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+       */
+      public Builder mergeBydPlayerDetailOnlineInfo(emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo value) {
+        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) != 0) &&
+              bydPlayerDetailOnlineInfo_ != null &&
+              bydPlayerDetailOnlineInfo_ != emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance()) {
+            bydPlayerDetailOnlineInfo_ =
+              emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.newBuilder(bydPlayerDetailOnlineInfo_).mergeFrom(value).buildPartial();
+          } else {
+            bydPlayerDetailOnlineInfo_ = value;
+          }
+          onChanged();
+        } else {
+          bydPlayerDetailOnlineInfoBuilder_.mergeFrom(value);
+        }
+        bitField0_ |= 0x00000001;
+        return this;
+      }
+      /**
+       * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+       */
+      public Builder clearBydPlayerDetailOnlineInfo() {
+        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
+          bydPlayerDetailOnlineInfo_ = null;
+          onChanged();
+        } else {
+          bydPlayerDetailOnlineInfoBuilder_.clear();
+        }
+        bitField0_ = (bitField0_ & ~0x00000001);
+        return this;
+      }
+      /**
+       * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+       */
+      public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder getBydPlayerDetailOnlineInfoBuilder() {
+        bitField0_ |= 0x00000001;
+        onChanged();
+        return getBydPlayerDetailOnlineInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+       */
+      public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder getBydPlayerDetailOnlineInfoOrBuilder() {
+        if (bydPlayerDetailOnlineInfoBuilder_ != null) {
+          return bydPlayerDetailOnlineInfoBuilder_.getMessageOrBuilder();
+        } else {
+          return bydPlayerDetailOnlineInfo_ == null ?
+              emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance() : bydPlayerDetailOnlineInfo_;
+        }
+      }
+      /**
+       * <code>optional ._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder> 
+          getBydPlayerDetailOnlineInfoFieldBuilder() {
+        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
+          bydPlayerDetailOnlineInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder>(
+                  getBydPlayerDetailOnlineInfo(),
+                  getParentForChildren(),
+                  isClean());
+          bydPlayerDetailOnlineInfo_ = null;
+        }
+        return bydPlayerDetailOnlineInfoBuilder_;
+      }
 
       private int uid_ ;
       /**
@@ -1038,147 +1093,6 @@ public final class _BeyondPlayerInfoOuterClass {
         onChanged();
         return this;
       }
-
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder> bydPlayerDetailOnlineInfoBuilder_;
-      /**
-       * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-       * @return Whether the bydPlayerDetailOnlineInfo field is set.
-       */
-      @java.lang.Override
-      public boolean hasBydPlayerDetailOnlineInfo() {
-        return detailCase_ == 11;
-      }
-      /**
-       * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-       * @return The bydPlayerDetailOnlineInfo.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo getBydPlayerDetailOnlineInfo() {
-        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
-          if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_;
-          }
-          return emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance();
-        } else {
-          if (detailCase_ == 11) {
-            return bydPlayerDetailOnlineInfoBuilder_.getMessage();
-          }
-          return emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-       */
-      public Builder setBydPlayerDetailOnlineInfo(emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo value) {
-        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          detail_ = value;
-          onChanged();
-        } else {
-          bydPlayerDetailOnlineInfoBuilder_.setMessage(value);
-        }
-        detailCase_ = 11;
-        return this;
-      }
-      /**
-       * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-       */
-      public Builder setBydPlayerDetailOnlineInfo(
-          emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder builderForValue) {
-        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
-          detail_ = builderForValue.build();
-          onChanged();
-        } else {
-          bydPlayerDetailOnlineInfoBuilder_.setMessage(builderForValue.build());
-        }
-        detailCase_ = 11;
-        return this;
-      }
-      /**
-       * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-       */
-      public Builder mergeBydPlayerDetailOnlineInfo(emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo value) {
-        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
-          if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.newBuilder((emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_)
-                .mergeFrom(value).buildPartial();
-          } else {
-            detail_ = value;
-          }
-          onChanged();
-        } else {
-          if (detailCase_ == 11) {
-            bydPlayerDetailOnlineInfoBuilder_.mergeFrom(value);
-          }
-          bydPlayerDetailOnlineInfoBuilder_.setMessage(value);
-        }
-        detailCase_ = 11;
-        return this;
-      }
-      /**
-       * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-       */
-      public Builder clearBydPlayerDetailOnlineInfo() {
-        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
-          if (detailCase_ == 11) {
-            detailCase_ = 0;
-            detail_ = null;
-            onChanged();
-          }
-        } else {
-          if (detailCase_ == 11) {
-            detailCase_ = 0;
-            detail_ = null;
-          }
-          bydPlayerDetailOnlineInfoBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-       */
-      public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder getBydPlayerDetailOnlineInfoBuilder() {
-        return getBydPlayerDetailOnlineInfoFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder getBydPlayerDetailOnlineInfoOrBuilder() {
-        if ((detailCase_ == 11) && (bydPlayerDetailOnlineInfoBuilder_ != null)) {
-          return bydPlayerDetailOnlineInfoBuilder_.getMessageOrBuilder();
-        } else {
-          if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_;
-          }
-          return emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>._BydPlayerDetailOnlineInfo byd_player_detail_online_info = 11;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder> 
-          getBydPlayerDetailOnlineInfoFieldBuilder() {
-        if (bydPlayerDetailOnlineInfoBuilder_ == null) {
-          if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.getDefaultInstance();
-          }
-          bydPlayerDetailOnlineInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo.Builder, emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfoOrBuilder>(
-                  (emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass._BydPlayerDetailOnlineInfo) detail_,
-                  getParentForChildren(),
-                  isClean());
-          detail_ = null;
-        }
-        detailCase_ = 11;
-        onChanged();;
-        return bydPlayerDetailOnlineInfoBuilder_;
-      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1247,17 +1161,18 @@ public final class _BeyondPlayerInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027_BeyondPlayerInfo.proto\032 _BydPlayerDet" +
-      "ailOnlineInfo.proto\"\331\002\n\021_BeyondPlayerInf" +
-      "o\022\013\n\003uid\030\001 \001(\r\0224\n\014online_state\030\002 \001(\0162\036._" +
-      "BeyondPlayerInfo.OLNNFFJAAPM\0222\n\nworld_ty" +
-      "pe\030\003 \001(\0162\036._BeyondPlayerInfo.EMLLHGLCCJJ" +
-      "\022D\n\035byd_player_detail_online_info\030\013 \001(\0132" +
-      "\033._BydPlayerDetailOnlineInfoH\000\">\n\013OLNNFF" +
-      "JAAPM\022\027\n\023OLNNFFJAAPM_OFFLINE\020\000\022\026\n\022OLNNFF" +
-      "JAAPM_ONLINE\020\001\"=\n\013EMLLHGLCCJJ\022\026\n\022EMLLHGL" +
-      "CCJJ_TEYVAT\020\000\022\026\n\022EMLLHGLCCJJ_BEYOND\020\001B\010\n" +
-      "\006detailB8\n\031emu.grasscutter.net.protoB\033_B" +
-      "eyondPlayerInfoOuterClassb\006proto3"
+      "ailOnlineInfo.proto\"\364\002\n\021_BeyondPlayerInf" +
+      "o\022G\n\035byd_player_detail_online_info\030\013 \001(\013" +
+      "2\033._BydPlayerDetailOnlineInfoH\000\210\001\001\022\013\n\003ui" +
+      "d\030\001 \001(\r\0224\n\014online_state\030\002 \001(\0162\036._BeyondP" +
+      "layerInfo.OLNNFFJAAPM\0222\n\nworld_type\030\003 \001(" +
+      "\0162\036._BeyondPlayerInfo.EMLLHGLCCJJ\">\n\013OLN" +
+      "NFFJAAPM\022\027\n\023OLNNFFJAAPM_OFFLINE\020\000\022\026\n\022OLN" +
+      "NFFJAAPM_ONLINE\020\001\"=\n\013EMLLHGLCCJJ\022\026\n\022EMLL" +
+      "HGLCCJJ_TEYVAT\020\000\022\026\n\022EMLLHGLCCJJ_BEYOND\020\001" +
+      "B \n\036_byd_player_detail_online_infoB8\n\031em" +
+      "u.grasscutter.net.protoB\033_BeyondPlayerIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1269,7 +1184,7 @@ public final class _BeyondPlayerInfoOuterClass {
     internal_static__BeyondPlayerInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__BeyondPlayerInfo_descriptor,
-        new java.lang.String[] { "Uid", "OnlineState", "WorldType", "BydPlayerDetailOnlineInfo", "Detail", });
+        new java.lang.String[] { "BydPlayerDetailOnlineInfo", "Uid", "OnlineState", "WorldType", "BydPlayerDetailOnlineInfo", });
     emu.grasscutter.net.proto._BydPlayerDetailOnlineInfoOuterClass.getDescriptor();
   }
 

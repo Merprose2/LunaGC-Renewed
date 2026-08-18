@@ -317,88 +317,88 @@ public final class _FilmfestBallGameActionOuterClass {
     public enum _FilmfestBallGameActionType
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_NONE = 0;</code>
+       * <code>ACTION_TYPE_NONE = 0;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_NONE(0),
+      ACTION_TYPE_NONE(0),
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_PLAYER_MOVE = 1;</code>
+       * <code>ACTION_TYPE_PLAYER_MOVE = 1;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_PLAYER_MOVE(1),
+      ACTION_TYPE_PLAYER_MOVE(1),
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_SPAWN_WAVE = 2;</code>
+       * <code>ACTION_TYPE_SPAWN_WAVE = 2;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_SPAWN_WAVE(2),
+      ACTION_TYPE_SPAWN_WAVE(2),
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_ADD_OBSTACLE = 3;</code>
+       * <code>ACTION_TYPE_ADD_OBSTACLE = 3;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_ADD_OBSTACLE(3),
+      ACTION_TYPE_ADD_OBSTACLE(3),
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_REMOVE_OBSTACLE = 4;</code>
+       * <code>ACTION_TYPE_REMOVE_OBSTACLE = 4;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_REMOVE_OBSTACLE(4),
+      ACTION_TYPE_REMOVE_OBSTACLE(4),
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_TEAM_SCORE = 5;</code>
+       * <code>ACTION_TYPE_TEAM_SCORE = 5;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_TEAM_SCORE(5),
+      ACTION_TYPE_TEAM_SCORE(5),
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_COLLECT_OBSTACLES = 6;</code>
+       * <code>ACTION_TYPE_COLLECT_OBSTACLES = 6;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_COLLECT_OBSTACLES(6),
+      ACTION_TYPE_COLLECT_OBSTACLES(6),
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_CHANGE_STAGE = 7;</code>
+       * <code>ACTION_TYPE_CHANGE_STAGE = 7;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_CHANGE_STAGE(7),
+      ACTION_TYPE_CHANGE_STAGE(7),
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_CREATE_COLOR_ZONE = 8;</code>
+       * <code>ACTION_TYPE_CREATE_COLOR_ZONE = 8;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_CREATE_COLOR_ZONE(8),
+      ACTION_TYPE_CREATE_COLOR_ZONE(8),
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_ADD_RIGHT_PUSH_COUNT = 9;</code>
+       * <code>ACTION_TYPE_ADD_RIGHT_PUSH_COUNT = 9;</code>
        */
-      _FilmfestBallGameActionType_ACTION_TYPE_ADD_RIGHT_PUSH_COUNT(9),
+      ACTION_TYPE_ADD_RIGHT_PUSH_COUNT(9),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_NONE = 0;</code>
+       * <code>ACTION_TYPE_NONE = 0;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_NONE_VALUE = 0;
+      public static final int ACTION_TYPE_NONE_VALUE = 0;
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_PLAYER_MOVE = 1;</code>
+       * <code>ACTION_TYPE_PLAYER_MOVE = 1;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_PLAYER_MOVE_VALUE = 1;
+      public static final int ACTION_TYPE_PLAYER_MOVE_VALUE = 1;
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_SPAWN_WAVE = 2;</code>
+       * <code>ACTION_TYPE_SPAWN_WAVE = 2;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_SPAWN_WAVE_VALUE = 2;
+      public static final int ACTION_TYPE_SPAWN_WAVE_VALUE = 2;
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_ADD_OBSTACLE = 3;</code>
+       * <code>ACTION_TYPE_ADD_OBSTACLE = 3;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_ADD_OBSTACLE_VALUE = 3;
+      public static final int ACTION_TYPE_ADD_OBSTACLE_VALUE = 3;
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_REMOVE_OBSTACLE = 4;</code>
+       * <code>ACTION_TYPE_REMOVE_OBSTACLE = 4;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_REMOVE_OBSTACLE_VALUE = 4;
+      public static final int ACTION_TYPE_REMOVE_OBSTACLE_VALUE = 4;
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_TEAM_SCORE = 5;</code>
+       * <code>ACTION_TYPE_TEAM_SCORE = 5;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_TEAM_SCORE_VALUE = 5;
+      public static final int ACTION_TYPE_TEAM_SCORE_VALUE = 5;
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_COLLECT_OBSTACLES = 6;</code>
+       * <code>ACTION_TYPE_COLLECT_OBSTACLES = 6;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_COLLECT_OBSTACLES_VALUE = 6;
+      public static final int ACTION_TYPE_COLLECT_OBSTACLES_VALUE = 6;
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_CHANGE_STAGE = 7;</code>
+       * <code>ACTION_TYPE_CHANGE_STAGE = 7;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_CHANGE_STAGE_VALUE = 7;
+      public static final int ACTION_TYPE_CHANGE_STAGE_VALUE = 7;
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_CREATE_COLOR_ZONE = 8;</code>
+       * <code>ACTION_TYPE_CREATE_COLOR_ZONE = 8;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_CREATE_COLOR_ZONE_VALUE = 8;
+      public static final int ACTION_TYPE_CREATE_COLOR_ZONE_VALUE = 8;
       /**
-       * <code>_FilmfestBallGameActionType_ACTION_TYPE_ADD_RIGHT_PUSH_COUNT = 9;</code>
+       * <code>ACTION_TYPE_ADD_RIGHT_PUSH_COUNT = 9;</code>
        */
-      public static final int _FilmfestBallGameActionType_ACTION_TYPE_ADD_RIGHT_PUSH_COUNT_VALUE = 9;
+      public static final int ACTION_TYPE_ADD_RIGHT_PUSH_COUNT_VALUE = 9;
 
 
       public final int getNumber() {
@@ -425,16 +425,16 @@ public final class _FilmfestBallGameActionOuterClass {
        */
       public static _FilmfestBallGameActionType forNumber(int value) {
         switch (value) {
-          case 0: return _FilmfestBallGameActionType_ACTION_TYPE_NONE;
-          case 1: return _FilmfestBallGameActionType_ACTION_TYPE_PLAYER_MOVE;
-          case 2: return _FilmfestBallGameActionType_ACTION_TYPE_SPAWN_WAVE;
-          case 3: return _FilmfestBallGameActionType_ACTION_TYPE_ADD_OBSTACLE;
-          case 4: return _FilmfestBallGameActionType_ACTION_TYPE_REMOVE_OBSTACLE;
-          case 5: return _FilmfestBallGameActionType_ACTION_TYPE_TEAM_SCORE;
-          case 6: return _FilmfestBallGameActionType_ACTION_TYPE_COLLECT_OBSTACLES;
-          case 7: return _FilmfestBallGameActionType_ACTION_TYPE_CHANGE_STAGE;
-          case 8: return _FilmfestBallGameActionType_ACTION_TYPE_CREATE_COLOR_ZONE;
-          case 9: return _FilmfestBallGameActionType_ACTION_TYPE_ADD_RIGHT_PUSH_COUNT;
+          case 0: return ACTION_TYPE_NONE;
+          case 1: return ACTION_TYPE_PLAYER_MOVE;
+          case 2: return ACTION_TYPE_SPAWN_WAVE;
+          case 3: return ACTION_TYPE_ADD_OBSTACLE;
+          case 4: return ACTION_TYPE_REMOVE_OBSTACLE;
+          case 5: return ACTION_TYPE_TEAM_SCORE;
+          case 6: return ACTION_TYPE_COLLECT_OBSTACLES;
+          case 7: return ACTION_TYPE_CHANGE_STAGE;
+          case 8: return ACTION_TYPE_CREATE_COLOR_ZONE;
+          case 9: return ACTION_TYPE_ADD_RIGHT_PUSH_COUNT;
           default: return null;
         }
       }
@@ -704,7 +704,7 @@ public final class _FilmfestBallGameActionOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (actionType_ != emu.grasscutter.net.proto._FilmfestBallGameActionOuterClass._FilmfestBallGameAction._FilmfestBallGameActionType._FilmfestBallGameActionType_ACTION_TYPE_NONE.getNumber()) {
+      if (actionType_ != emu.grasscutter.net.proto._FilmfestBallGameActionOuterClass._FilmfestBallGameAction._FilmfestBallGameActionType.ACTION_TYPE_NONE.getNumber()) {
         output.writeEnum(1, actionType_);
       }
       if (clientGameTime_ != 0L) {
@@ -756,7 +756,7 @@ public final class _FilmfestBallGameActionOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (actionType_ != emu.grasscutter.net.proto._FilmfestBallGameActionOuterClass._FilmfestBallGameAction._FilmfestBallGameActionType._FilmfestBallGameActionType_ACTION_TYPE_NONE.getNumber()) {
+      if (actionType_ != emu.grasscutter.net.proto._FilmfestBallGameActionOuterClass._FilmfestBallGameAction._FilmfestBallGameActionType.ACTION_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, actionType_);
       }
@@ -1972,7 +1972,7 @@ public final class _FilmfestBallGameActionOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_FilmfestBallGameAction.proto\032\021_Vector" +
-      "2Int.proto\"\332\007\n\027_FilmfestBallGameAction\022I" +
+      "2Int.proto\"\302\005\n\027_FilmfestBallGameAction\022I" +
       "\n\013action_type\030\001 \001(\01624._FilmfestBallGameA" +
       "ction._FilmfestBallGameActionType\022\030\n\020cli" +
       "ent_game_time\030\002 \001(\004\022\030\n\020server_game_time\030" +
@@ -1981,22 +1981,15 @@ public final class _FilmfestBallGameActionOuterClass {
       "n_game_time\030\007 \001(\004\022\031\n\003dir\030\010 \001(\0132\014._Vector" +
       "2Int\022\013\n\003rot\030\t \001(\005\022\026\n\016entity_id_list\030\n \003(" +
       "\r\022\023\n\013EKNOCDAOCOO\030\013 \001(\r\022\023\n\013PEHLOIBOPLP\030\014 " +
-      "\001(\010\022\016\n\006radius\030\r \001(\005\"\351\004\n\033_FilmfestBallGam" +
-      "eActionType\0220\n,_FilmfestBallGameActionTy" +
-      "pe_ACTION_TYPE_NONE\020\000\0227\n3_FilmfestBallGa" +
-      "meActionType_ACTION_TYPE_PLAYER_MOVE\020\001\0226" +
-      "\n2_FilmfestBallGameActionType_ACTION_TYP" +
-      "E_SPAWN_WAVE\020\002\0228\n4_FilmfestBallGameActio" +
-      "nType_ACTION_TYPE_ADD_OBSTACLE\020\003\022;\n7_Fil" +
-      "mfestBallGameActionType_ACTION_TYPE_REMO" +
-      "VE_OBSTACLE\020\004\0226\n2_FilmfestBallGameAction" +
-      "Type_ACTION_TYPE_TEAM_SCORE\020\005\022=\n9_Filmfe" +
-      "stBallGameActionType_ACTION_TYPE_COLLECT" +
-      "_OBSTACLES\020\006\0228\n4_FilmfestBallGameActionT" +
-      "ype_ACTION_TYPE_CHANGE_STAGE\020\007\022=\n9_Filmf" +
-      "estBallGameActionType_ACTION_TYPE_CREATE" +
-      "_COLOR_ZONE\020\010\022@\n<_FilmfestBallGameAction" +
-      "Type_ACTION_TYPE_ADD_RIGHT_PUSH_COUNT\020\tB" +
+      "\001(\010\022\016\n\006radius\030\r \001(\005\"\321\002\n\033_FilmfestBallGam" +
+      "eActionType\022\024\n\020ACTION_TYPE_NONE\020\000\022\033\n\027ACT" +
+      "ION_TYPE_PLAYER_MOVE\020\001\022\032\n\026ACTION_TYPE_SP" +
+      "AWN_WAVE\020\002\022\034\n\030ACTION_TYPE_ADD_OBSTACLE\020\003" +
+      "\022\037\n\033ACTION_TYPE_REMOVE_OBSTACLE\020\004\022\032\n\026ACT" +
+      "ION_TYPE_TEAM_SCORE\020\005\022!\n\035ACTION_TYPE_COL" +
+      "LECT_OBSTACLES\020\006\022\034\n\030ACTION_TYPE_CHANGE_S" +
+      "TAGE\020\007\022!\n\035ACTION_TYPE_CREATE_COLOR_ZONE\020" +
+      "\010\022$\n ACTION_TYPE_ADD_RIGHT_PUSH_COUNT\020\tB" +
       ">\n\031emu.grasscutter.net.protoB!_FilmfestB" +
       "allGameActionOuterClassb\006proto3"
     };

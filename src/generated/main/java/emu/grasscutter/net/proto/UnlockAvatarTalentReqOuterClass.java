@@ -31,10 +31,6 @@ public final class UnlockAvatarTalentReqOuterClass {
     int getTalentId();
   }
   /**
-   * <pre>
-   * CmdID: 24051
-   * </pre>
-   *
    * Protobuf type {@code UnlockAvatarTalentReq}
    */
   public static final class UnlockAvatarTalentReq extends
@@ -311,10 +307,6 @@ public final class UnlockAvatarTalentReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24051
-     * </pre>
-     *
      * Protobuf type {@code UnlockAvatarTalentReq}
      */
     public static final class Builder extends

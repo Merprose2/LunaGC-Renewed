@@ -66,10 +66,6 @@ public final class UseItemReqOuterClass {
     int getOptionIdxList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 25781
-   * </pre>
-   *
    * Protobuf type {@code UseItemReq}
    */
   public static final class UseItemReq extends
@@ -511,10 +507,6 @@ public final class UseItemReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25781
-     * </pre>
-     *
      * Protobuf type {@code UseItemReq}
      */
     public static final class Builder extends

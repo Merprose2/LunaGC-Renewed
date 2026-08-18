@@ -31,10 +31,6 @@ public final class BargainOfferPriceReqOuterClass {
     int getBargainId();
   }
   /**
-   * <pre>
-   * CmdID: 4177
-   * </pre>
-   *
    * Protobuf type {@code BargainOfferPriceReq}
    */
   public static final class BargainOfferPriceReq extends
@@ -310,10 +306,6 @@ public final class BargainOfferPriceReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4177
-     * </pre>
-     *
      * Protobuf type {@code BargainOfferPriceReq}
      */
     public static final class Builder extends

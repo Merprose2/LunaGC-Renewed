@@ -37,10 +37,6 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 2228
-   * </pre>
-   *
    * Protobuf type {@code ServerGlobalValueChangeNotify}
    */
   public static final class ServerGlobalValueChangeNotify extends
@@ -345,10 +341,6 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2228
-     * </pre>
-     *
      * Protobuf type {@code ServerGlobalValueChangeNotify}
      */
     public static final class Builder extends

@@ -34,10 +34,6 @@ public final class TowerCurLevelRecordChangeNotifyOuterClass {
     emu.grasscutter.net.proto.TowerCurLevelRecordOuterClass.TowerCurLevelRecordOrBuilder getCurLevelRecordOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 21706
-   * </pre>
-   *
    * Protobuf type {@code TowerCurLevelRecordChangeNotify}
    */
   public static final class TowerCurLevelRecordChangeNotify extends
@@ -314,10 +310,6 @@ public final class TowerCurLevelRecordChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21706
-     * </pre>
-     *
      * Protobuf type {@code TowerCurLevelRecordChangeNotify}
      */
     public static final class Builder extends

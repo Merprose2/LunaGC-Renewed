@@ -31,10 +31,6 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
     long getAvatarGuid();
   }
   /**
-   * <pre>
-   * CmdID: 5037
-   * </pre>
-   *
    * Protobuf type {@code AvatarExpeditionGetRewardReq}
    */
   public static final class AvatarExpeditionGetRewardReq extends
@@ -312,10 +308,6 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5037
-     * </pre>
-     *
      * Protobuf type {@code AvatarExpeditionGetRewardReq}
      */
     public static final class Builder extends

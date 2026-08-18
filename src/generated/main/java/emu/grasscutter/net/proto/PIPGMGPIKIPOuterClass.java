@@ -117,6 +117,123 @@ public final class PIPGMGPIKIPOuterClass {
               emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.class, emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.Builder.class);
     }
 
+    /**
+     * Protobuf enum {@code PIPGMGPIKIP.IEBKFMGNBOP}
+     */
+    public enum IEBKFMGNBOP
+        implements com.google.protobuf.ProtocolMessageEnum {
+      /**
+       * <code>IEBKFMGNBOP_STRANGE = 0;</code>
+       */
+      IEBKFMGNBOP_STRANGE(0),
+      /**
+       * <code>IEBKFMGNBOP_FAMILIAR = 1;</code>
+       */
+      IEBKFMGNBOP_FAMILIAR(1),
+      /**
+       * <code>IEBKFMGNBOP_HONEY = 2;</code>
+       */
+      IEBKFMGNBOP_HONEY(2),
+      UNRECOGNIZED(-1),
+      ;
+
+      /**
+       * <code>IEBKFMGNBOP_STRANGE = 0;</code>
+       */
+      public static final int IEBKFMGNBOP_STRANGE_VALUE = 0;
+      /**
+       * <code>IEBKFMGNBOP_FAMILIAR = 1;</code>
+       */
+      public static final int IEBKFMGNBOP_FAMILIAR_VALUE = 1;
+      /**
+       * <code>IEBKFMGNBOP_HONEY = 2;</code>
+       */
+      public static final int IEBKFMGNBOP_HONEY_VALUE = 2;
+
+
+      public final int getNumber() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalArgumentException(
+              "Can't get the number of an unknown enum value.");
+        }
+        return value;
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static IEBKFMGNBOP valueOf(int value) {
+        return forNumber(value);
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       */
+      public static IEBKFMGNBOP forNumber(int value) {
+        switch (value) {
+          case 0: return IEBKFMGNBOP_STRANGE;
+          case 1: return IEBKFMGNBOP_FAMILIAR;
+          case 2: return IEBKFMGNBOP_HONEY;
+          default: return null;
+        }
+      }
+
+      public static com.google.protobuf.Internal.EnumLiteMap<IEBKFMGNBOP>
+          internalGetValueMap() {
+        return internalValueMap;
+      }
+      private static final com.google.protobuf.Internal.EnumLiteMap<
+          IEBKFMGNBOP> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<IEBKFMGNBOP>() {
+              public IEBKFMGNBOP findValueByNumber(int number) {
+                return IEBKFMGNBOP.forNumber(number);
+              }
+            };
+
+      public final com.google.protobuf.Descriptors.EnumValueDescriptor
+          getValueDescriptor() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalStateException(
+              "Can't get the descriptor of an unrecognized enum value.");
+        }
+        return getDescriptor().getValues().get(ordinal());
+      }
+      public final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptorForType() {
+        return getDescriptor();
+      }
+      public static final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptor() {
+        return emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.getDescriptor().getEnumTypes().get(0);
+      }
+
+      private static final IEBKFMGNBOP[] VALUES = values();
+
+      public static IEBKFMGNBOP valueOf(
+          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+        if (desc.getType() != getDescriptor()) {
+          throw new java.lang.IllegalArgumentException(
+            "EnumValueDescriptor is not for this type.");
+        }
+        if (desc.getIndex() == -1) {
+          return UNRECOGNIZED;
+        }
+        return VALUES[desc.getIndex()];
+      }
+
+      private final int value;
+
+      private IEBKFMGNBOP(int value) {
+        this.value = value;
+      }
+
+      // @@protoc_insertion_point(enum_scope:PIPGMGPIKIP.IEBKFMGNBOP)
+    }
+
     public static final int MOALINDDJKJ_FIELD_NUMBER = 5;
     private int mOALINDDJKJ_;
     /**
@@ -586,10 +703,12 @@ public final class PIPGMGPIKIPOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021PIPGMGPIKIP.proto\"1\n\013PIPGMGPIKIP\022\023\n\013MO" +
-      "ALINDDJKJ\030\005 \001(\r\022\r\n\005stage\030\t \001(\rB2\n\031emu.gr" +
-      "asscutter.net.protoB\025PIPGMGPIKIPOuterCla" +
-      "ssb\006proto3"
+      "\n\021PIPGMGPIKIP.proto\"\212\001\n\013PIPGMGPIKIP\022\023\n\013M" +
+      "OALINDDJKJ\030\005 \001(\r\022\r\n\005stage\030\t \001(\r\"W\n\013IEBKF" +
+      "MGNBOP\022\027\n\023IEBKFMGNBOP_STRANGE\020\000\022\030\n\024IEBKF" +
+      "MGNBOP_FAMILIAR\020\001\022\025\n\021IEBKFMGNBOP_HONEY\020\002" +
+      "B2\n\031emu.grasscutter.net.protoB\025PIPGMGPIK" +
+      "IPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

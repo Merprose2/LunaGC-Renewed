@@ -73,10 +73,6 @@ public final class ScenePlayerLocationNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 427
-   * </pre>
-   *
    * Protobuf type {@code ScenePlayerLocationNotify}
    */
   public static final class ScenePlayerLocationNotify extends
@@ -458,10 +454,6 @@ public final class ScenePlayerLocationNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 427
-     * </pre>
-     *
      * Protobuf type {@code ScenePlayerLocationNotify}
      */
     public static final class Builder extends

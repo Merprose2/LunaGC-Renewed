@@ -20,40 +20,40 @@ public final class DungeonEntryBlockReasonOuterClass {
   public enum DungeonEntryBlockReason
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_NONE = 0;</code>
+     * <code>DUNGEON_ENTRY_REASON_NONE = 0;</code>
      */
-    DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_NONE(0),
+    DUNGEON_ENTRY_REASON_NONE(0),
     /**
-     * <code>DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_LEVEL = 1;</code>
+     * <code>DUNGEON_ENTRY_REASON_LEVEL = 1;</code>
      */
-    DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_LEVEL(1),
+    DUNGEON_ENTRY_REASON_LEVEL(1),
     /**
-     * <code>DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_QUEST = 2;</code>
+     * <code>DUNGEON_ENTRY_REASON_QUEST = 2;</code>
      */
-    DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_QUEST(2),
+    DUNGEON_ENTRY_REASON_QUEST(2),
     /**
-     * <code>DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_MULIPLE = 3;</code>
+     * <code>DUNGEON_ENTRY_REASON_MULIPLE = 3;</code>
      */
-    DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_MULIPLE(3),
+    DUNGEON_ENTRY_REASON_MULIPLE(3),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_NONE = 0;</code>
+     * <code>DUNGEON_ENTRY_REASON_NONE = 0;</code>
      */
-    public static final int DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_NONE_VALUE = 0;
+    public static final int DUNGEON_ENTRY_REASON_NONE_VALUE = 0;
     /**
-     * <code>DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_LEVEL = 1;</code>
+     * <code>DUNGEON_ENTRY_REASON_LEVEL = 1;</code>
      */
-    public static final int DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_LEVEL_VALUE = 1;
+    public static final int DUNGEON_ENTRY_REASON_LEVEL_VALUE = 1;
     /**
-     * <code>DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_QUEST = 2;</code>
+     * <code>DUNGEON_ENTRY_REASON_QUEST = 2;</code>
      */
-    public static final int DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_QUEST_VALUE = 2;
+    public static final int DUNGEON_ENTRY_REASON_QUEST_VALUE = 2;
     /**
-     * <code>DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_MULIPLE = 3;</code>
+     * <code>DUNGEON_ENTRY_REASON_MULIPLE = 3;</code>
      */
-    public static final int DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_MULIPLE_VALUE = 3;
+    public static final int DUNGEON_ENTRY_REASON_MULIPLE_VALUE = 3;
 
 
     public final int getNumber() {
@@ -80,10 +80,10 @@ public final class DungeonEntryBlockReasonOuterClass {
      */
     public static DungeonEntryBlockReason forNumber(int value) {
       switch (value) {
-        case 0: return DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_NONE;
-        case 1: return DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_LEVEL;
-        case 2: return DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_QUEST;
-        case 3: return DungeonEntryBlockReason_DUNGEON_ENTRY_REASON_MULIPLE;
+        case 0: return DUNGEON_ENTRY_REASON_NONE;
+        case 1: return DUNGEON_ENTRY_REASON_LEVEL;
+        case 2: return DUNGEON_ENTRY_REASON_QUEST;
+        case 3: return DUNGEON_ENTRY_REASON_MULIPLE;
         default: return null;
       }
     }
@@ -149,15 +149,13 @@ public final class DungeonEntryBlockReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035DungeonEntryBlockReason.proto*\372\001\n\027Dung" +
-      "eonEntryBlockReason\0225\n1DungeonEntryBlock" +
-      "Reason_DUNGEON_ENTRY_REASON_NONE\020\000\0226\n2Du" +
-      "ngeonEntryBlockReason_DUNGEON_ENTRY_REAS" +
-      "ON_LEVEL\020\001\0226\n2DungeonEntryBlockReason_DU" +
-      "NGEON_ENTRY_REASON_QUEST\020\002\0228\n4DungeonEnt" +
-      "ryBlockReason_DUNGEON_ENTRY_REASON_MULIP" +
-      "LE\020\003B>\n\031emu.grasscutter.net.protoB!Dunge" +
-      "onEntryBlockReasonOuterClassb\006proto3"
+      "\n\035DungeonEntryBlockReason.proto*\232\001\n\027Dung" +
+      "eonEntryBlockReason\022\035\n\031DUNGEON_ENTRY_REA" +
+      "SON_NONE\020\000\022\036\n\032DUNGEON_ENTRY_REASON_LEVEL" +
+      "\020\001\022\036\n\032DUNGEON_ENTRY_REASON_QUEST\020\002\022 \n\034DU" +
+      "NGEON_ENTRY_REASON_MULIPLE\020\003B>\n\031emu.gras" +
+      "scutter.net.protoB!DungeonEntryBlockReas" +
+      "onOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

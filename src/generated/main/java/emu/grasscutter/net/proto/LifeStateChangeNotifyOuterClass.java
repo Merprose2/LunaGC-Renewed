@@ -31,29 +31,29 @@ public final class LifeStateChangeNotifyOuterClass {
         getAttackTagBytes();
 
     /**
-     * <code>repeated string EEOIMNHKALK = 3;</code>
-     * @return A list containing the eEOIMNHKALK.
+     * <code>repeated string jodaadbmkka = 3;</code>
+     * @return A list containing the jodaadbmkka.
      */
     java.util.List<java.lang.String>
-        getEEOIMNHKALKList();
+        getJodaadbmkkaList();
     /**
-     * <code>repeated string EEOIMNHKALK = 3;</code>
-     * @return The count of eEOIMNHKALK.
+     * <code>repeated string jodaadbmkka = 3;</code>
+     * @return The count of jodaadbmkka.
      */
-    int getEEOIMNHKALKCount();
+    int getJodaadbmkkaCount();
     /**
-     * <code>repeated string EEOIMNHKALK = 3;</code>
+     * <code>repeated string jodaadbmkka = 3;</code>
      * @param index The index of the element to return.
-     * @return The eEOIMNHKALK at the given index.
+     * @return The jodaadbmkka at the given index.
      */
-    java.lang.String getEEOIMNHKALK(int index);
+    java.lang.String getJodaadbmkka(int index);
     /**
-     * <code>repeated string EEOIMNHKALK = 3;</code>
+     * <code>repeated string jodaadbmkka = 3;</code>
      * @param index The index of the value to return.
-     * @return The bytes of the eEOIMNHKALK at the given index.
+     * @return The bytes of the jodaadbmkka at the given index.
      */
     com.google.protobuf.ByteString
-        getEEOIMNHKALKBytes(int index);
+        getJodaadbmkkaBytes(int index);
 
     /**
      * <code>uint32 AFPBFDHCDNK = 4;</code>
@@ -133,10 +133,6 @@ public final class LifeStateChangeNotifyOuterClass {
     emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType getDieType();
   }
   /**
-   * <pre>
-   * CmdID: 29258
-   * </pre>
-   *
    * Protobuf type {@code LifeStateChangeNotify}
    */
   public static final class LifeStateChangeNotify extends
@@ -150,7 +146,7 @@ public final class LifeStateChangeNotifyOuterClass {
     }
     private LifeStateChangeNotify() {
       attackTag_ = "";
-      eEOIMNHKALK_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      jodaadbmkka_ = com.google.protobuf.LazyStringArrayList.EMPTY;
       serverBuffList_ = java.util.Collections.emptyList();
       dieType_ = 0;
     }
@@ -195,10 +191,10 @@ public final class LifeStateChangeNotifyOuterClass {
             case 26: {
               java.lang.String s = input.readStringRequireUtf8();
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                eEOIMNHKALK_ = new com.google.protobuf.LazyStringArrayList();
+                jodaadbmkka_ = new com.google.protobuf.LazyStringArrayList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              eEOIMNHKALK_.add(s);
+              jodaadbmkka_.add(s);
               break;
             }
             case 32: {
@@ -267,7 +263,7 @@ public final class LifeStateChangeNotifyOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          eEOIMNHKALK_ = eEOIMNHKALK_.getUnmodifiableView();
+          jodaadbmkka_ = jodaadbmkka_.getUnmodifiableView();
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           serverBuffList_ = java.util.Collections.unmodifiableList(serverBuffList_);
@@ -327,39 +323,39 @@ public final class LifeStateChangeNotifyOuterClass {
       }
     }
 
-    public static final int EEOIMNHKALK_FIELD_NUMBER = 3;
-    private com.google.protobuf.LazyStringList eEOIMNHKALK_;
+    public static final int JODAADBMKKA_FIELD_NUMBER = 3;
+    private com.google.protobuf.LazyStringList jodaadbmkka_;
     /**
-     * <code>repeated string EEOIMNHKALK = 3;</code>
-     * @return A list containing the eEOIMNHKALK.
+     * <code>repeated string jodaadbmkka = 3;</code>
+     * @return A list containing the jodaadbmkka.
      */
     public com.google.protobuf.ProtocolStringList
-        getEEOIMNHKALKList() {
-      return eEOIMNHKALK_;
+        getJodaadbmkkaList() {
+      return jodaadbmkka_;
     }
     /**
-     * <code>repeated string EEOIMNHKALK = 3;</code>
-     * @return The count of eEOIMNHKALK.
+     * <code>repeated string jodaadbmkka = 3;</code>
+     * @return The count of jodaadbmkka.
      */
-    public int getEEOIMNHKALKCount() {
-      return eEOIMNHKALK_.size();
+    public int getJodaadbmkkaCount() {
+      return jodaadbmkka_.size();
     }
     /**
-     * <code>repeated string EEOIMNHKALK = 3;</code>
+     * <code>repeated string jodaadbmkka = 3;</code>
      * @param index The index of the element to return.
-     * @return The eEOIMNHKALK at the given index.
+     * @return The jodaadbmkka at the given index.
      */
-    public java.lang.String getEEOIMNHKALK(int index) {
-      return eEOIMNHKALK_.get(index);
+    public java.lang.String getJodaadbmkka(int index) {
+      return jodaadbmkka_.get(index);
     }
     /**
-     * <code>repeated string EEOIMNHKALK = 3;</code>
+     * <code>repeated string jodaadbmkka = 3;</code>
      * @param index The index of the value to return.
-     * @return The bytes of the eEOIMNHKALK at the given index.
+     * @return The bytes of the jodaadbmkka at the given index.
      */
     public com.google.protobuf.ByteString
-        getEEOIMNHKALKBytes(int index) {
-      return eEOIMNHKALK_.getByteString(index);
+        getJodaadbmkkaBytes(int index) {
+      return jodaadbmkka_.getByteString(index);
     }
 
     public static final int AFPBFDHCDNK_FIELD_NUMBER = 4;
@@ -515,8 +511,8 @@ public final class LifeStateChangeNotifyOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(attackTag_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1, attackTag_);
       }
-      for (int i = 0; i < eEOIMNHKALK_.size(); i++) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, eEOIMNHKALK_.getRaw(i));
+      for (int i = 0; i < jodaadbmkka_.size(); i++) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, jodaadbmkka_.getRaw(i));
       }
       if (aFPBFDHCDNK_ != 0) {
         output.writeUInt32(4, aFPBFDHCDNK_);
@@ -559,11 +555,11 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < eEOIMNHKALK_.size(); i++) {
-          dataSize += computeStringSizeNoTag(eEOIMNHKALK_.getRaw(i));
+        for (int i = 0; i < jodaadbmkka_.size(); i++) {
+          dataSize += computeStringSizeNoTag(jodaadbmkka_.getRaw(i));
         }
         size += dataSize;
-        size += 1 * getEEOIMNHKALKList().size();
+        size += 1 * getJodaadbmkkaList().size();
       }
       if (aFPBFDHCDNK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -618,8 +614,8 @@ public final class LifeStateChangeNotifyOuterClass {
 
       if (!getAttackTag()
           .equals(other.getAttackTag())) return false;
-      if (!getEEOIMNHKALKList()
-          .equals(other.getEEOIMNHKALKList())) return false;
+      if (!getJodaadbmkkaList()
+          .equals(other.getJodaadbmkkaList())) return false;
       if (getAFPBFDHCDNK()
           != other.getAFPBFDHCDNK()) return false;
       if (getSourceEntityId()
@@ -650,9 +646,9 @@ public final class LifeStateChangeNotifyOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ATTACK_TAG_FIELD_NUMBER;
       hash = (53 * hash) + getAttackTag().hashCode();
-      if (getEEOIMNHKALKCount() > 0) {
-        hash = (37 * hash) + EEOIMNHKALK_FIELD_NUMBER;
-        hash = (53 * hash) + getEEOIMNHKALKList().hashCode();
+      if (getJodaadbmkkaCount() > 0) {
+        hash = (37 * hash) + JODAADBMKKA_FIELD_NUMBER;
+        hash = (53 * hash) + getJodaadbmkkaList().hashCode();
       }
       hash = (37 * hash) + AFPBFDHCDNK_FIELD_NUMBER;
       hash = (53 * hash) + getAFPBFDHCDNK();
@@ -770,10 +766,6 @@ public final class LifeStateChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29258
-     * </pre>
-     *
      * Protobuf type {@code LifeStateChangeNotify}
      */
     public static final class Builder extends
@@ -814,7 +806,7 @@ public final class LifeStateChangeNotifyOuterClass {
         super.clear();
         attackTag_ = "";
 
-        eEOIMNHKALK_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        jodaadbmkka_ = com.google.protobuf.LazyStringArrayList.EMPTY;
         bitField0_ = (bitField0_ & ~0x00000001);
         aFPBFDHCDNK_ = 0;
 
@@ -867,10 +859,10 @@ public final class LifeStateChangeNotifyOuterClass {
         int from_bitField0_ = bitField0_;
         result.attackTag_ = attackTag_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          eEOIMNHKALK_ = eEOIMNHKALK_.getUnmodifiableView();
+          jodaadbmkka_ = jodaadbmkka_.getUnmodifiableView();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.eEOIMNHKALK_ = eEOIMNHKALK_;
+        result.jodaadbmkka_ = jodaadbmkka_;
         result.aFPBFDHCDNK_ = aFPBFDHCDNK_;
         result.sourceEntityId_ = sourceEntityId_;
         result.entityId_ = entityId_;
@@ -940,13 +932,13 @@ public final class LifeStateChangeNotifyOuterClass {
           attackTag_ = other.attackTag_;
           onChanged();
         }
-        if (!other.eEOIMNHKALK_.isEmpty()) {
-          if (eEOIMNHKALK_.isEmpty()) {
-            eEOIMNHKALK_ = other.eEOIMNHKALK_;
+        if (!other.jodaadbmkka_.isEmpty()) {
+          if (jodaadbmkka_.isEmpty()) {
+            jodaadbmkka_ = other.jodaadbmkka_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureEEOIMNHKALKIsMutable();
-            eEOIMNHKALK_.addAll(other.eEOIMNHKALK_);
+            ensureJodaadbmkkaIsMutable();
+            jodaadbmkka_.addAll(other.jodaadbmkka_);
           }
           onChanged();
         }
@@ -1106,112 +1098,112 @@ public final class LifeStateChangeNotifyOuterClass {
         return this;
       }
 
-      private com.google.protobuf.LazyStringList eEOIMNHKALK_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-      private void ensureEEOIMNHKALKIsMutable() {
+      private com.google.protobuf.LazyStringList jodaadbmkka_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      private void ensureJodaadbmkkaIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          eEOIMNHKALK_ = new com.google.protobuf.LazyStringArrayList(eEOIMNHKALK_);
+          jodaadbmkka_ = new com.google.protobuf.LazyStringArrayList(jodaadbmkka_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated string EEOIMNHKALK = 3;</code>
-       * @return A list containing the eEOIMNHKALK.
+       * <code>repeated string jodaadbmkka = 3;</code>
+       * @return A list containing the jodaadbmkka.
        */
       public com.google.protobuf.ProtocolStringList
-          getEEOIMNHKALKList() {
-        return eEOIMNHKALK_.getUnmodifiableView();
+          getJodaadbmkkaList() {
+        return jodaadbmkka_.getUnmodifiableView();
       }
       /**
-       * <code>repeated string EEOIMNHKALK = 3;</code>
-       * @return The count of eEOIMNHKALK.
+       * <code>repeated string jodaadbmkka = 3;</code>
+       * @return The count of jodaadbmkka.
        */
-      public int getEEOIMNHKALKCount() {
-        return eEOIMNHKALK_.size();
+      public int getJodaadbmkkaCount() {
+        return jodaadbmkka_.size();
       }
       /**
-       * <code>repeated string EEOIMNHKALK = 3;</code>
+       * <code>repeated string jodaadbmkka = 3;</code>
        * @param index The index of the element to return.
-       * @return The eEOIMNHKALK at the given index.
+       * @return The jodaadbmkka at the given index.
        */
-      public java.lang.String getEEOIMNHKALK(int index) {
-        return eEOIMNHKALK_.get(index);
+      public java.lang.String getJodaadbmkka(int index) {
+        return jodaadbmkka_.get(index);
       }
       /**
-       * <code>repeated string EEOIMNHKALK = 3;</code>
+       * <code>repeated string jodaadbmkka = 3;</code>
        * @param index The index of the value to return.
-       * @return The bytes of the eEOIMNHKALK at the given index.
+       * @return The bytes of the jodaadbmkka at the given index.
        */
       public com.google.protobuf.ByteString
-          getEEOIMNHKALKBytes(int index) {
-        return eEOIMNHKALK_.getByteString(index);
+          getJodaadbmkkaBytes(int index) {
+        return jodaadbmkka_.getByteString(index);
       }
       /**
-       * <code>repeated string EEOIMNHKALK = 3;</code>
+       * <code>repeated string jodaadbmkka = 3;</code>
        * @param index The index to set the value at.
-       * @param value The eEOIMNHKALK to set.
+       * @param value The jodaadbmkka to set.
        * @return This builder for chaining.
        */
-      public Builder setEEOIMNHKALK(
+      public Builder setJodaadbmkka(
           int index, java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  ensureEEOIMNHKALKIsMutable();
-        eEOIMNHKALK_.set(index, value);
+  ensureJodaadbmkkaIsMutable();
+        jodaadbmkka_.set(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated string EEOIMNHKALK = 3;</code>
-       * @param value The eEOIMNHKALK to add.
+       * <code>repeated string jodaadbmkka = 3;</code>
+       * @param value The jodaadbmkka to add.
        * @return This builder for chaining.
        */
-      public Builder addEEOIMNHKALK(
+      public Builder addJodaadbmkka(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  ensureEEOIMNHKALKIsMutable();
-        eEOIMNHKALK_.add(value);
+  ensureJodaadbmkkaIsMutable();
+        jodaadbmkka_.add(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated string EEOIMNHKALK = 3;</code>
-       * @param values The eEOIMNHKALK to add.
+       * <code>repeated string jodaadbmkka = 3;</code>
+       * @param values The jodaadbmkka to add.
        * @return This builder for chaining.
        */
-      public Builder addAllEEOIMNHKALK(
+      public Builder addAllJodaadbmkka(
           java.lang.Iterable<java.lang.String> values) {
-        ensureEEOIMNHKALKIsMutable();
+        ensureJodaadbmkkaIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, eEOIMNHKALK_);
+            values, jodaadbmkka_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated string EEOIMNHKALK = 3;</code>
+       * <code>repeated string jodaadbmkka = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEEOIMNHKALK() {
-        eEOIMNHKALK_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      public Builder clearJodaadbmkka() {
+        jodaadbmkka_ = com.google.protobuf.LazyStringArrayList.EMPTY;
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated string EEOIMNHKALK = 3;</code>
-       * @param value The bytes of the eEOIMNHKALK to add.
+       * <code>repeated string jodaadbmkka = 3;</code>
+       * @param value The bytes of the jodaadbmkka to add.
        * @return This builder for chaining.
        */
-      public Builder addEEOIMNHKALKBytes(
+      public Builder addJodaadbmkkaBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        ensureEEOIMNHKALKIsMutable();
-        eEOIMNHKALK_.add(value);
+        ensureJodaadbmkkaIsMutable();
+        jodaadbmkka_.add(value);
         onChanged();
         return this;
       }
@@ -1795,8 +1787,8 @@ public final class LifeStateChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033LifeStateChangeNotify.proto\032\023PlayerDie" +
       "Type.proto\032\020ServerBuff.proto\"\253\002\n\025LifeSta" +
-      "teChangeNotify\022\022\n\nattack_tag\030\001 \001(\t\022\023\n\013EE" +
-      "OIMNHKALK\030\003 \003(\t\022\023\n\013AFPBFDHCDNK\030\004 \001(\r\022\030\n\020" +
+      "teChangeNotify\022\022\n\nattack_tag\030\001 \001(\t\022\023\n\013jo" +
+      "daadbmkka\030\003 \003(\t\022\023\n\013AFPBFDHCDNK\030\004 \001(\r\022\030\n\020" +
       "source_entity_id\030\005 \001(\r\022\021\n\tentity_id\030\007 \001(" +
       "\r\022\022\n\nlife_state\030\t \001(\r\022\031\n\021move_reliable_s" +
       "eq\030\n \001(\r\022%\n\020server_buff_list\030\013 \003(\0132\013.Ser" +
@@ -1816,7 +1808,7 @@ public final class LifeStateChangeNotifyOuterClass {
     internal_static_LifeStateChangeNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_LifeStateChangeNotify_descriptor,
-        new java.lang.String[] { "AttackTag", "EEOIMNHKALK", "AFPBFDHCDNK", "SourceEntityId", "EntityId", "LifeState", "MoveReliableSeq", "ServerBuffList", "LDAODDFLPGB", "ClientSequenceId", "DieType", });
+        new java.lang.String[] { "AttackTag", "Jodaadbmkka", "AFPBFDHCDNK", "SourceEntityId", "EntityId", "LifeState", "MoveReliableSeq", "ServerBuffList", "LDAODDFLPGB", "ClientSequenceId", "DieType", });
     emu.grasscutter.net.proto.PlayerDieTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ServerBuffOuterClass.getDescriptor();
   }

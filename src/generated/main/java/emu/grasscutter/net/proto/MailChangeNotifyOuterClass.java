@@ -84,10 +84,6 @@ public final class MailChangeNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 8386
-   * </pre>
-   *
    * Protobuf type {@code MailChangeNotify}
    */
   public static final class MailChangeNotify extends
@@ -523,10 +519,6 @@ public final class MailChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8386
-     * </pre>
-     *
      * Protobuf type {@code MailChangeNotify}
      */
     public static final class Builder extends

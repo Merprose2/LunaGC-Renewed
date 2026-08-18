@@ -37,10 +37,6 @@ public final class GachaWishReqOuterClass {
     int getItemId();
   }
   /**
-   * <pre>
-   * CmdID: 8609
-   * </pre>
-   *
    * Protobuf type {@code GachaWishReq}
    */
   public static final class GachaWishReq extends
@@ -343,10 +339,6 @@ public final class GachaWishReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8609
-     * </pre>
-     *
      * Protobuf type {@code GachaWishReq}
      */
     public static final class Builder extends

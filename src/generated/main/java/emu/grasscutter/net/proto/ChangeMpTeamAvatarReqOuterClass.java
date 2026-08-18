@@ -42,10 +42,6 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     long getAvatarGuidList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 3495
-   * </pre>
-   *
    * Protobuf type {@code ChangeMpTeamAvatarReq}
    */
   public static final class ChangeMpTeamAvatarReq extends
@@ -377,10 +373,6 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3495
-     * </pre>
-     *
      * Protobuf type {@code ChangeMpTeamAvatarReq}
      */
     public static final class Builder extends

@@ -37,10 +37,6 @@ public final class QuestDestroyEntityReqOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 29890
-   * </pre>
-   *
    * Protobuf type {@code QuestDestroyEntityReq}
    */
   public static final class QuestDestroyEntityReq extends
@@ -343,10 +339,6 @@ public final class QuestDestroyEntityReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29890
-     * </pre>
-     *
      * Protobuf type {@code QuestDestroyEntityReq}
      */
     public static final class Builder extends

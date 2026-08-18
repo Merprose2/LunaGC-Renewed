@@ -59,10 +59,6 @@ public final class GetAreaExplorePointRspOuterClass {
     int getExplorePointList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 613
-   * </pre>
-   *
    * Protobuf type {@code GetAreaExplorePointRsp}
    */
   public static final class GetAreaExplorePointRsp extends
@@ -473,10 +469,6 @@ public final class GetAreaExplorePointRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 613
-     * </pre>
-     *
      * Protobuf type {@code GetAreaExplorePointRsp}
      */
     public static final class Builder extends

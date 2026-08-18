@@ -34,10 +34,6 @@ public final class CookRecipeDataNotifyOuterClass {
     emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder getRecipeDataOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 2685
-   * </pre>
-   *
    * Protobuf type {@code CookRecipeDataNotify}
    */
   public static final class CookRecipeDataNotify extends
@@ -314,10 +310,6 @@ public final class CookRecipeDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2685
-     * </pre>
-     *
      * Protobuf type {@code CookRecipeDataNotify}
      */
     public static final class Builder extends

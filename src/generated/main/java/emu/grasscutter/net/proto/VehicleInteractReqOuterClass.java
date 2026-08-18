@@ -48,10 +48,6 @@ public final class VehicleInteractReqOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 21305
-   * </pre>
-   *
    * Protobuf type {@code VehicleInteractReq}
    */
   public static final class VehicleInteractReq extends
@@ -391,10 +387,6 @@ public final class VehicleInteractReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21305
-     * </pre>
-     *
      * Protobuf type {@code VehicleInteractReq}
      */
     public static final class Builder extends

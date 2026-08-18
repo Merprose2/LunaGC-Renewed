@@ -37,10 +37,6 @@ public final class SelectWorktopOptionRspOuterClass {
     int getOptionId();
   }
   /**
-   * <pre>
-   * CmdID: 859
-   * </pre>
-   *
    * Protobuf type {@code SelectWorktopOptionRsp}
    */
   public static final class SelectWorktopOptionRsp extends
@@ -343,10 +339,6 @@ public final class SelectWorktopOptionRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 859
-     * </pre>
-     *
      * Protobuf type {@code SelectWorktopOptionRsp}
      */
     public static final class Builder extends

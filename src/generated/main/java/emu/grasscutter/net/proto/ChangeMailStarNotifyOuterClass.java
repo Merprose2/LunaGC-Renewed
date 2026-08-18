@@ -42,10 +42,6 @@ public final class ChangeMailStarNotifyOuterClass {
     int getMailIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 2182
-   * </pre>
-   *
    * Protobuf type {@code ChangeMailStarNotify}
    */
   public static final class ChangeMailStarNotify extends
@@ -377,10 +373,6 @@ public final class ChangeMailStarNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 2182
-     * </pre>
-     *
      * Protobuf type {@code ChangeMailStarNotify}
      */
     public static final class Builder extends

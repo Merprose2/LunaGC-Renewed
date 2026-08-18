@@ -36,10 +36,6 @@ public final class GetActivityInfoReqOuterClass {
     int getActivityIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 1160
-   * </pre>
-   *
    * Protobuf type {@code GetActivityInfoReq}
    */
   public static final class GetActivityInfoReq extends
@@ -343,10 +339,6 @@ public final class GetActivityInfoReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1160
-     * </pre>
-     *
      * Protobuf type {@code GetActivityInfoReq}
      */
     public static final class Builder extends

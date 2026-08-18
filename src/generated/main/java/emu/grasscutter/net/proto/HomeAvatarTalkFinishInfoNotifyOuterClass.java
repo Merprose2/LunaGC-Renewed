@@ -43,10 +43,6 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 24995
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarTalkFinishInfoNotify}
    */
   public static final class HomeAvatarTalkFinishInfoNotify extends
@@ -335,10 +331,6 @@ public final class HomeAvatarTalkFinishInfoNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24995
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarTalkFinishInfoNotify}
      */
     public static final class Builder extends

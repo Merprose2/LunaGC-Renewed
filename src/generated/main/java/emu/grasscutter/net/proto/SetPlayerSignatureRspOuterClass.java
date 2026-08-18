@@ -37,10 +37,6 @@ public final class SetPlayerSignatureRspOuterClass {
         getSignatureBytes();
   }
   /**
-   * <pre>
-   * CmdID: 29120
-   * </pre>
-   *
    * Protobuf type {@code SetPlayerSignatureRsp}
    */
   public static final class SetPlayerSignatureRsp extends
@@ -344,10 +340,6 @@ public final class SetPlayerSignatureRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29120
-     * </pre>
-     *
      * Protobuf type {@code SetPlayerSignatureRsp}
      */
     public static final class Builder extends

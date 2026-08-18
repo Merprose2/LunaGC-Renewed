@@ -40,10 +40,6 @@ public final class SetPlayerBirthdayRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 25093
-   * </pre>
-   *
    * Protobuf type {@code SetPlayerBirthdayRsp}
    */
   public static final class SetPlayerBirthdayRsp extends
@@ -347,10 +343,6 @@ public final class SetPlayerBirthdayRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25093
-     * </pre>
-     *
      * Protobuf type {@code SetPlayerBirthdayRsp}
      */
     public static final class Builder extends

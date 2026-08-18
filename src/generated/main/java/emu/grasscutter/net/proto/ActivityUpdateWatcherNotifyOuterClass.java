@@ -40,10 +40,6 @@ public final class ActivityUpdateWatcherNotifyOuterClass {
     emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder getWatcherInfoOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 5605
-   * </pre>
-   *
    * Protobuf type {@code ActivityUpdateWatcherNotify}
    */
   public static final class ActivityUpdateWatcherNotify extends
@@ -347,10 +343,6 @@ public final class ActivityUpdateWatcherNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5605
-     * </pre>
-     *
      * Protobuf type {@code ActivityUpdateWatcherNotify}
      */
     public static final class Builder extends

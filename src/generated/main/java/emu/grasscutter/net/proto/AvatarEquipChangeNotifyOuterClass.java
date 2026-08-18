@@ -73,10 +73,6 @@ public final class AvatarEquipChangeNotifyOuterClass {
     emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder getWeaponOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 8554
-   * </pre>
-   *
    * Protobuf type {@code AvatarEquipChangeNotify}
    */
   public static final class AvatarEquipChangeNotify extends
@@ -518,10 +514,6 @@ public final class AvatarEquipChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8554
-     * </pre>
-     *
      * Protobuf type {@code AvatarEquipChangeNotify}
      */
     public static final class Builder extends

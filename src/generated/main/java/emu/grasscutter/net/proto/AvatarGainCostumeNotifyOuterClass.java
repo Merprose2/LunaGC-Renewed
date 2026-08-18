@@ -25,10 +25,6 @@ public final class AvatarGainCostumeNotifyOuterClass {
     int getCostumeId();
   }
   /**
-   * <pre>
-   * CmdID: 21683
-   * </pre>
-   *
    * Protobuf type {@code AvatarGainCostumeNotify}
    */
   public static final class AvatarGainCostumeNotify extends
@@ -277,10 +273,6 @@ public final class AvatarGainCostumeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21683
-     * </pre>
-     *
      * Protobuf type {@code AvatarGainCostumeNotify}
      */
     public static final class Builder extends

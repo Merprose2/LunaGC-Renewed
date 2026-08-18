@@ -413,7 +413,7 @@ public final class _WispCageDataOuterClass {
       for (int i = 0; i < LastUsedMaterialList_.size(); i++) {
         output.writeMessage(13, LastUsedMaterialList_.get(i));
       }
-      if (state_ != emu.grasscutter.net.proto._WispCageStateOuterClass._WispCageState._WispCageState_WISP_CAGE_STATE_NOT_EXIST.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto._WispCageStateOuterClass._WispCageState.WISP_CAGE_STATE_NOT_EXIST.getNumber()) {
         output.writeEnum(14, state_);
       }
       if (CollectFinishTime_ != 0) {
@@ -448,7 +448,7 @@ public final class _WispCageDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(13, LastUsedMaterialList_.get(i));
       }
-      if (state_ != emu.grasscutter.net.proto._WispCageStateOuterClass._WispCageState._WispCageState_WISP_CAGE_STATE_NOT_EXIST.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto._WispCageStateOuterClass._WispCageState.WISP_CAGE_STATE_NOT_EXIST.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(14, state_);
       }

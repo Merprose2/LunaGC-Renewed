@@ -25,10 +25,6 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
     int getTrialAvatarIndexId();
   }
   /**
-   * <pre>
-   * CmdID: 20379
-   * </pre>
-   *
    * Protobuf type {@code TrialAvatarFirstPassDungeonNotify}
    */
   public static final class TrialAvatarFirstPassDungeonNotify extends
@@ -277,10 +273,6 @@ public final class TrialAvatarFirstPassDungeonNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 20379
-     * </pre>
-     *
      * Protobuf type {@code TrialAvatarFirstPassDungeonNotify}
      */
     public static final class Builder extends

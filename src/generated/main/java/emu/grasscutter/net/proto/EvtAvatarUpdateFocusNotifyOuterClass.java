@@ -51,10 +51,6 @@ public final class EvtAvatarUpdateFocusNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFocusForwardOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 4055
-   * </pre>
-   *
    * Protobuf type {@code EvtAvatarUpdateFocusNotify}
    */
   public static final class EvtAvatarUpdateFocusNotify extends
@@ -394,10 +390,6 @@ public final class EvtAvatarUpdateFocusNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4055
-     * </pre>
-     *
      * Protobuf type {@code EvtAvatarUpdateFocusNotify}
      */
     public static final class Builder extends

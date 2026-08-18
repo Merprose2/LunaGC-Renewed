@@ -85,10 +85,6 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfoOrBuilder getMpLevelEntityInfoOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 8439
-   * </pre>
-   *
    * Protobuf type {@code PlayerEnterSceneInfoNotify}
    */
   public static final class PlayerEnterSceneInfoNotify extends
@@ -541,10 +537,6 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8439
-     * </pre>
-     *
      * Protobuf type {@code PlayerEnterSceneInfoNotify}
      */
     public static final class Builder extends

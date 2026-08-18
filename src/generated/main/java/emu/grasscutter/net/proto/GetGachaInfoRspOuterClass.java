@@ -73,10 +73,6 @@ public final class GetGachaInfoRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 29857
-   * </pre>
-   *
    * Protobuf type {@code GetGachaInfoRsp}
    */
   public static final class GetGachaInfoRsp extends
@@ -502,10 +498,6 @@ public final class GetGachaInfoRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29857
-     * </pre>
-     *
      * Protobuf type {@code GetGachaInfoRsp}
      */
     public static final class Builder extends

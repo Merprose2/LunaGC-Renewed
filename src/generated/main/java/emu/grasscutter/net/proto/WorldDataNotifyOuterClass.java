@@ -53,10 +53,6 @@ public final class WorldDataNotifyOuterClass {
         int key);
   }
   /**
-   * <pre>
-   * CmdID: 9758
-   * </pre>
-   *
    * Protobuf type {@code WorldDataNotify}
    */
   public static final class WorldDataNotify extends
@@ -407,10 +403,6 @@ public final class WorldDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9758
-     * </pre>
-     *
      * Protobuf type {@code WorldDataNotify}
      */
     public static final class Builder extends

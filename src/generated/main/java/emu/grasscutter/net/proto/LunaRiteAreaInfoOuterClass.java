@@ -332,7 +332,7 @@ public final class LunaRiteAreaInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (hintStatus_ != emu.grasscutter.net.proto.LunaRiteHintStatusTypeOuterClass.LunaRiteHintStatusType.LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_DEFAULT.getNumber()) {
+      if (hintStatus_ != emu.grasscutter.net.proto.LunaRiteHintStatusTypeOuterClass.LunaRiteHintStatusType.LUNA_RITE_HINT_STATUS_DEFAULT.getNumber()) {
         output.writeEnum(7, hintStatus_);
       }
       if (getSacrificeListList().size() > 0) {
@@ -364,7 +364,7 @@ public final class LunaRiteAreaInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (hintStatus_ != emu.grasscutter.net.proto.LunaRiteHintStatusTypeOuterClass.LunaRiteHintStatusType.LunaRiteHintStatusType_LUNA_RITE_HINT_STATUS_DEFAULT.getNumber()) {
+      if (hintStatus_ != emu.grasscutter.net.proto.LunaRiteHintStatusTypeOuterClass.LunaRiteHintStatusType.LUNA_RITE_HINT_STATUS_DEFAULT.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(7, hintStatus_);
       }

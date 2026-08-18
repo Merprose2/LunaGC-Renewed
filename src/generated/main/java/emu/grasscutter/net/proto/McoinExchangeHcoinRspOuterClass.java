@@ -37,10 +37,6 @@ public final class McoinExchangeHcoinRspOuterClass {
     int getMcoinCost();
   }
   /**
-   * <pre>
-   * CmdID: 6734
-   * </pre>
-   *
    * Protobuf type {@code McoinExchangeHcoinRsp}
    */
   public static final class McoinExchangeHcoinRsp extends
@@ -343,10 +339,6 @@ public final class McoinExchangeHcoinRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6734
-     * </pre>
-     *
      * Protobuf type {@code McoinExchangeHcoinRsp}
      */
     public static final class Builder extends

@@ -36,10 +36,6 @@ public final class ServerAnnounceRevokeNotifyOuterClass {
     int getConfigIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 25241
-   * </pre>
-   *
    * Protobuf type {@code ServerAnnounceRevokeNotify}
    */
   public static final class ServerAnnounceRevokeNotify extends
@@ -343,10 +339,6 @@ public final class ServerAnnounceRevokeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25241
-     * </pre>
-     *
      * Protobuf type {@code ServerAnnounceRevokeNotify}
      */
     public static final class Builder extends

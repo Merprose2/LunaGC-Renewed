@@ -37,10 +37,10 @@ public final class InfernceWordInfoOuterClass {
     int getUnlockByWordId();
 
     /**
-     * <code>bool CJMNHILLPON = 11;</code>
-     * @return The cJMNHILLPON.
+     * <code>bool dgmljikfami = 11;</code>
+     * @return The dgmljikfami.
      */
-    boolean getCJMNHILLPON();
+    boolean getDgmljikfami();
 
     /**
      * <code>bool DKHJIGMFFOG = 13;</code>
@@ -116,7 +116,7 @@ public final class InfernceWordInfoOuterClass {
             }
             case 88: {
 
-              cJMNHILLPON_ = input.readBool();
+              dgmljikfami_ = input.readBool();
               break;
             }
             case 104: {
@@ -194,15 +194,15 @@ public final class InfernceWordInfoOuterClass {
       return unlockByWordId_;
     }
 
-    public static final int CJMNHILLPON_FIELD_NUMBER = 11;
-    private boolean cJMNHILLPON_;
+    public static final int DGMLJIKFAMI_FIELD_NUMBER = 11;
+    private boolean dgmljikfami_;
     /**
-     * <code>bool CJMNHILLPON = 11;</code>
-     * @return The cJMNHILLPON.
+     * <code>bool dgmljikfami = 11;</code>
+     * @return The dgmljikfami.
      */
     @java.lang.Override
-    public boolean getCJMNHILLPON() {
-      return cJMNHILLPON_;
+    public boolean getDgmljikfami() {
+      return dgmljikfami_;
     }
 
     public static final int DKHJIGMFFOG_FIELD_NUMBER = 13;
@@ -250,8 +250,8 @@ public final class InfernceWordInfoOuterClass {
       if (unlockByWordId_ != 0) {
         output.writeUInt32(8, unlockByWordId_);
       }
-      if (cJMNHILLPON_ != false) {
-        output.writeBool(11, cJMNHILLPON_);
+      if (dgmljikfami_ != false) {
+        output.writeBool(11, dgmljikfami_);
       }
       if (dKHJIGMFFOG_ != false) {
         output.writeBool(13, dKHJIGMFFOG_);
@@ -280,9 +280,9 @@ public final class InfernceWordInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, unlockByWordId_);
       }
-      if (cJMNHILLPON_ != false) {
+      if (dgmljikfami_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, cJMNHILLPON_);
+          .computeBoolSize(11, dgmljikfami_);
       }
       if (dKHJIGMFFOG_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -313,8 +313,8 @@ public final class InfernceWordInfoOuterClass {
           != other.getWordId()) return false;
       if (getUnlockByWordId()
           != other.getUnlockByWordId()) return false;
-      if (getCJMNHILLPON()
-          != other.getCJMNHILLPON()) return false;
+      if (getDgmljikfami()
+          != other.getDgmljikfami()) return false;
       if (getDKHJIGMFFOG()
           != other.getDKHJIGMFFOG()) return false;
       if (getIAFPDGKDPPH()
@@ -336,9 +336,9 @@ public final class InfernceWordInfoOuterClass {
       hash = (53 * hash) + getWordId();
       hash = (37 * hash) + UNLOCK_BY_WORD_ID_FIELD_NUMBER;
       hash = (53 * hash) + getUnlockByWordId();
-      hash = (37 * hash) + CJMNHILLPON_FIELD_NUMBER;
+      hash = (37 * hash) + DGMLJIKFAMI_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getCJMNHILLPON());
+          getDgmljikfami());
       hash = (37 * hash) + DKHJIGMFFOG_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getDKHJIGMFFOG());
@@ -484,7 +484,7 @@ public final class InfernceWordInfoOuterClass {
 
         unlockByWordId_ = 0;
 
-        cJMNHILLPON_ = false;
+        dgmljikfami_ = false;
 
         dKHJIGMFFOG_ = false;
 
@@ -519,7 +519,7 @@ public final class InfernceWordInfoOuterClass {
         result.associateWordId_ = associateWordId_;
         result.wordId_ = wordId_;
         result.unlockByWordId_ = unlockByWordId_;
-        result.cJMNHILLPON_ = cJMNHILLPON_;
+        result.dgmljikfami_ = dgmljikfami_;
         result.dKHJIGMFFOG_ = dKHJIGMFFOG_;
         result.iAFPDGKDPPH_ = iAFPDGKDPPH_;
         onBuilt();
@@ -579,8 +579,8 @@ public final class InfernceWordInfoOuterClass {
         if (other.getUnlockByWordId() != 0) {
           setUnlockByWordId(other.getUnlockByWordId());
         }
-        if (other.getCJMNHILLPON() != false) {
-          setCJMNHILLPON(other.getCJMNHILLPON());
+        if (other.getDgmljikfami() != false) {
+          setDgmljikfami(other.getDgmljikfami());
         }
         if (other.getDKHJIGMFFOG() != false) {
           setDKHJIGMFFOG(other.getDKHJIGMFFOG());
@@ -710,33 +710,33 @@ public final class InfernceWordInfoOuterClass {
         return this;
       }
 
-      private boolean cJMNHILLPON_ ;
+      private boolean dgmljikfami_ ;
       /**
-       * <code>bool CJMNHILLPON = 11;</code>
-       * @return The cJMNHILLPON.
+       * <code>bool dgmljikfami = 11;</code>
+       * @return The dgmljikfami.
        */
       @java.lang.Override
-      public boolean getCJMNHILLPON() {
-        return cJMNHILLPON_;
+      public boolean getDgmljikfami() {
+        return dgmljikfami_;
       }
       /**
-       * <code>bool CJMNHILLPON = 11;</code>
-       * @param value The cJMNHILLPON to set.
+       * <code>bool dgmljikfami = 11;</code>
+       * @param value The dgmljikfami to set.
        * @return This builder for chaining.
        */
-      public Builder setCJMNHILLPON(boolean value) {
+      public Builder setDgmljikfami(boolean value) {
         
-        cJMNHILLPON_ = value;
+        dgmljikfami_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool CJMNHILLPON = 11;</code>
+       * <code>bool dgmljikfami = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCJMNHILLPON() {
+      public Builder clearDgmljikfami() {
         
-        cJMNHILLPON_ = false;
+        dgmljikfami_ = false;
         onChanged();
         return this;
       }
@@ -872,7 +872,7 @@ public final class InfernceWordInfoOuterClass {
       "\n\026InfernceWordInfo.proto\"\230\001\n\020InfernceWor" +
       "dInfo\022\031\n\021associate_word_id\030\001 \001(\r\022\017\n\007word" +
       "_id\030\006 \001(\r\022\031\n\021unlock_by_word_id\030\010 \001(\r\022\023\n\013" +
-      "CJMNHILLPON\030\013 \001(\010\022\023\n\013DKHJIGMFFOG\030\r \001(\010\022\023" +
+      "dgmljikfami\030\013 \001(\010\022\023\n\013DKHJIGMFFOG\030\r \001(\010\022\023" +
       "\n\013IAFPDGKDPPH\030\016 \001(\010B7\n\031emu.grasscutter.n" +
       "et.protoB\032InfernceWordInfoOuterClassb\006pr" +
       "oto3"
@@ -886,7 +886,7 @@ public final class InfernceWordInfoOuterClass {
     internal_static_InfernceWordInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_InfernceWordInfo_descriptor,
-        new java.lang.String[] { "AssociateWordId", "WordId", "UnlockByWordId", "CJMNHILLPON", "DKHJIGMFFOG", "IAFPDGKDPPH", });
+        new java.lang.String[] { "AssociateWordId", "WordId", "UnlockByWordId", "Dgmljikfami", "DKHJIGMFFOG", "IAFPDGKDPPH", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

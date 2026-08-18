@@ -37,10 +37,6 @@ public final class TakeoffEquipRspOuterClass {
     int getSlot();
   }
   /**
-   * <pre>
-   * CmdID: 4814
-   * </pre>
-   *
    * Protobuf type {@code TakeoffEquipRsp}
    */
   public static final class TakeoffEquipRsp extends
@@ -344,10 +340,6 @@ public final class TakeoffEquipRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4814
-     * </pre>
-     *
      * Protobuf type {@code TakeoffEquipRsp}
      */
     public static final class Builder extends

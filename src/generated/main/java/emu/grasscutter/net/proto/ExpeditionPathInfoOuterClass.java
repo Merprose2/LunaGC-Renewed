@@ -403,7 +403,7 @@ public final class ExpeditionPathInfoOuterClass {
       if (lGBBIHMBIOM_ != 0) {
         output.writeUInt32(3, lGBBIHMBIOM_);
       }
-      if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.ExpeditionState_EXPEDITION_NONE.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.EXPEDITION_NONE.getNumber()) {
         output.writeEnum(5, state_);
       }
       if (dAEPBFLMGIA_ != 0) {
@@ -449,7 +449,7 @@ public final class ExpeditionPathInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(3, lGBBIHMBIOM_);
       }
-      if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.ExpeditionState_EXPEDITION_NONE.getNumber()) {
+      if (state_ != emu.grasscutter.net.proto.ExpeditionStateOuterClass.ExpeditionState.EXPEDITION_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(5, state_);
       }

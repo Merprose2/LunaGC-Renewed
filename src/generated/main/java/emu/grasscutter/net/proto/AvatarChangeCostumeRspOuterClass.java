@@ -37,10 +37,6 @@ public final class AvatarChangeCostumeRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 428
-   * </pre>
-   *
    * Protobuf type {@code AvatarChangeCostumeRsp}
    */
   public static final class AvatarChangeCostumeRsp extends
@@ -344,10 +340,6 @@ public final class AvatarChangeCostumeRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 428
-     * </pre>
-     *
      * Protobuf type {@code AvatarChangeCostumeRsp}
      */
     public static final class Builder extends

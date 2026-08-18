@@ -31,10 +31,6 @@ public final class TowerEnterLevelReqOuterClass {
     boolean getIsRestartFloor();
   }
   /**
-   * <pre>
-   * CmdID: 26455
-   * </pre>
-   *
    * Protobuf type {@code TowerEnterLevelReq}
    */
   public static final class TowerEnterLevelReq extends
@@ -311,10 +307,6 @@ public final class TowerEnterLevelReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26455
-     * </pre>
-     *
      * Protobuf type {@code TowerEnterLevelReq}
      */
     public static final class Builder extends

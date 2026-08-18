@@ -48,10 +48,6 @@ public final class ReliquaryDecomposeReqOuterClass {
     long getGuidList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 6368
-   * </pre>
-   *
    * Protobuf type {@code ReliquaryDecomposeReq}
    */
   public static final class ReliquaryDecomposeReq extends
@@ -409,10 +405,6 @@ public final class ReliquaryDecomposeReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6368
-     * </pre>
-     *
      * Protobuf type {@code ReliquaryDecomposeReq}
      */
     public static final class Builder extends

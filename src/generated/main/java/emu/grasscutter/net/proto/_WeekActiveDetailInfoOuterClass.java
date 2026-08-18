@@ -71,21 +71,21 @@ public final class _WeekActiveDetailInfoOuterClass {
     int getILEHAFHFMJN();
 
     /**
-     * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
-     * @return A list containing the lKLFMIGEJHM.
+     * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
+     * @return A list containing the claimedAvatarIdList.
      */
-    java.util.List<java.lang.Integer> getLKLFMIGEJHMList();
+    java.util.List<java.lang.Integer> getClaimedAvatarIdListList();
     /**
-     * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
-     * @return The count of lKLFMIGEJHM.
+     * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
+     * @return The count of claimedAvatarIdList.
      */
-    int getLKLFMIGEJHMCount();
+    int getClaimedAvatarIdListCount();
     /**
-     * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
+     * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
      * @param index The index of the element to return.
-     * @return The lKLFMIGEJHM at the given index.
+     * @return The claimedAvatarIdList at the given index.
      */
-    int getLKLFMIGEJHM(int index);
+    int getClaimedAvatarIdList(int index);
 
     /**
      * <code>uint32 progress = 14;</code>
@@ -108,7 +108,7 @@ public final class _WeekActiveDetailInfoOuterClass {
     private _WeekActiveDetailInfo() {
       jOHCCPGDECJ_ = emptyIntList();
       lCOBFDMFKHK_ = emptyIntList();
-      lKLFMIGEJHM_ = emptyIntList();
+      ClaimedAvatarIdList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -201,21 +201,21 @@ public final class _WeekActiveDetailInfoOuterClass {
             }
             case 96: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                lKLFMIGEJHM_ = newIntList();
+                ClaimedAvatarIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
               }
-              lKLFMIGEJHM_.addInt(input.readUInt32());
+              ClaimedAvatarIdList_.addInt(input.readUInt32());
               break;
             }
             case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                lKLFMIGEJHM_ = newIntList();
+                ClaimedAvatarIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
               }
               while (input.getBytesUntilLimit() > 0) {
-                lKLFMIGEJHM_.addInt(input.readUInt32());
+                ClaimedAvatarIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -247,7 +247,7 @@ public final class _WeekActiveDetailInfoOuterClass {
           lCOBFDMFKHK_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          lKLFMIGEJHM_.makeImmutable(); // C
+          ClaimedAvatarIdList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -355,33 +355,33 @@ public final class _WeekActiveDetailInfoOuterClass {
       return iLEHAFHFMJN_;
     }
 
-    public static final int LKLFMIGEJHM_FIELD_NUMBER = 12;
-    private com.google.protobuf.Internal.IntList lKLFMIGEJHM_;
+    public static final int _CLAIMED_AVATAR_ID_LIST_FIELD_NUMBER = 12;
+    private com.google.protobuf.Internal.IntList ClaimedAvatarIdList_;
     /**
-     * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
-     * @return A list containing the lKLFMIGEJHM.
+     * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
+     * @return A list containing the claimedAvatarIdList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getLKLFMIGEJHMList() {
-      return lKLFMIGEJHM_;
+        getClaimedAvatarIdListList() {
+      return ClaimedAvatarIdList_;
     }
     /**
-     * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
-     * @return The count of lKLFMIGEJHM.
+     * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
+     * @return The count of claimedAvatarIdList.
      */
-    public int getLKLFMIGEJHMCount() {
-      return lKLFMIGEJHM_.size();
+    public int getClaimedAvatarIdListCount() {
+      return ClaimedAvatarIdList_.size();
     }
     /**
-     * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
+     * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
      * @param index The index of the element to return.
-     * @return The lKLFMIGEJHM at the given index.
+     * @return The claimedAvatarIdList at the given index.
      */
-    public int getLKLFMIGEJHM(int index) {
-      return lKLFMIGEJHM_.getInt(index);
+    public int getClaimedAvatarIdList(int index) {
+      return ClaimedAvatarIdList_.getInt(index);
     }
-    private int lKLFMIGEJHMMemoizedSerializedSize = -1;
+    private int ClaimedAvatarIdListMemoizedSerializedSize = -1;
 
     public static final int PROGRESS_FIELD_NUMBER = 14;
     private int progress_;
@@ -432,12 +432,12 @@ public final class _WeekActiveDetailInfoOuterClass {
       if (iLEHAFHFMJN_ != 0) {
         output.writeUInt32(11, iLEHAFHFMJN_);
       }
-      if (getLKLFMIGEJHMList().size() > 0) {
+      if (getClaimedAvatarIdListList().size() > 0) {
         output.writeUInt32NoTag(98);
-        output.writeUInt32NoTag(lKLFMIGEJHMMemoizedSerializedSize);
+        output.writeUInt32NoTag(ClaimedAvatarIdListMemoizedSerializedSize);
       }
-      for (int i = 0; i < lKLFMIGEJHM_.size(); i++) {
-        output.writeUInt32NoTag(lKLFMIGEJHM_.getInt(i));
+      for (int i = 0; i < ClaimedAvatarIdList_.size(); i++) {
+        output.writeUInt32NoTag(ClaimedAvatarIdList_.getInt(i));
       }
       if (progress_ != 0) {
         output.writeUInt32(14, progress_);
@@ -493,17 +493,17 @@ public final class _WeekActiveDetailInfoOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < lKLFMIGEJHM_.size(); i++) {
+        for (int i = 0; i < ClaimedAvatarIdList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(lKLFMIGEJHM_.getInt(i));
+            .computeUInt32SizeNoTag(ClaimedAvatarIdList_.getInt(i));
         }
         size += dataSize;
-        if (!getLKLFMIGEJHMList().isEmpty()) {
+        if (!getClaimedAvatarIdListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        lKLFMIGEJHMMemoizedSerializedSize = dataSize;
+        ClaimedAvatarIdListMemoizedSerializedSize = dataSize;
       }
       if (progress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -534,8 +534,8 @@ public final class _WeekActiveDetailInfoOuterClass {
           != other.getIsWeekActiveViewed()) return false;
       if (getILEHAFHFMJN()
           != other.getILEHAFHFMJN()) return false;
-      if (!getLKLFMIGEJHMList()
-          .equals(other.getLKLFMIGEJHMList())) return false;
+      if (!getClaimedAvatarIdListList()
+          .equals(other.getClaimedAvatarIdListList())) return false;
       if (getProgress()
           != other.getProgress()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -564,9 +564,9 @@ public final class _WeekActiveDetailInfoOuterClass {
           getIsWeekActiveViewed());
       hash = (37 * hash) + ILEHAFHFMJN_FIELD_NUMBER;
       hash = (53 * hash) + getILEHAFHFMJN();
-      if (getLKLFMIGEJHMCount() > 0) {
-        hash = (37 * hash) + LKLFMIGEJHM_FIELD_NUMBER;
-        hash = (53 * hash) + getLKLFMIGEJHMList().hashCode();
+      if (getClaimedAvatarIdListCount() > 0) {
+        hash = (37 * hash) + _CLAIMED_AVATAR_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getClaimedAvatarIdListList().hashCode();
       }
       hash = (37 * hash) + PROGRESS_FIELD_NUMBER;
       hash = (53 * hash) + getProgress();
@@ -713,7 +713,7 @@ public final class _WeekActiveDetailInfoOuterClass {
 
         iLEHAFHFMJN_ = 0;
 
-        lKLFMIGEJHM_ = emptyIntList();
+        ClaimedAvatarIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         progress_ = 0;
 
@@ -758,10 +758,10 @@ public final class _WeekActiveDetailInfoOuterClass {
         result.IsWeekActiveViewed_ = IsWeekActiveViewed_;
         result.iLEHAFHFMJN_ = iLEHAFHFMJN_;
         if (((bitField0_ & 0x00000004) != 0)) {
-          lKLFMIGEJHM_.makeImmutable();
+          ClaimedAvatarIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.lKLFMIGEJHM_ = lKLFMIGEJHM_;
+        result.ClaimedAvatarIdList_ = ClaimedAvatarIdList_;
         result.progress_ = progress_;
         onBuilt();
         return result;
@@ -840,13 +840,13 @@ public final class _WeekActiveDetailInfoOuterClass {
         if (other.getILEHAFHFMJN() != 0) {
           setILEHAFHFMJN(other.getILEHAFHFMJN());
         }
-        if (!other.lKLFMIGEJHM_.isEmpty()) {
-          if (lKLFMIGEJHM_.isEmpty()) {
-            lKLFMIGEJHM_ = other.lKLFMIGEJHM_;
+        if (!other.ClaimedAvatarIdList_.isEmpty()) {
+          if (ClaimedAvatarIdList_.isEmpty()) {
+            ClaimedAvatarIdList_ = other.ClaimedAvatarIdList_;
             bitField0_ = (bitField0_ & ~0x00000004);
           } else {
-            ensureLKLFMIGEJHMIsMutable();
-            lKLFMIGEJHM_.addAll(other.lKLFMIGEJHM_);
+            ensureClaimedAvatarIdListIsMutable();
+            ClaimedAvatarIdList_.addAll(other.ClaimedAvatarIdList_);
           }
           onChanged();
         }
@@ -1134,80 +1134,80 @@ public final class _WeekActiveDetailInfoOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList lKLFMIGEJHM_ = emptyIntList();
-      private void ensureLKLFMIGEJHMIsMutable() {
+      private com.google.protobuf.Internal.IntList ClaimedAvatarIdList_ = emptyIntList();
+      private void ensureClaimedAvatarIdListIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          lKLFMIGEJHM_ = mutableCopy(lKLFMIGEJHM_);
+          ClaimedAvatarIdList_ = mutableCopy(ClaimedAvatarIdList_);
           bitField0_ |= 0x00000004;
          }
       }
       /**
-       * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
-       * @return A list containing the lKLFMIGEJHM.
+       * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
+       * @return A list containing the claimedAvatarIdList.
        */
       public java.util.List<java.lang.Integer>
-          getLKLFMIGEJHMList() {
+          getClaimedAvatarIdListList() {
         return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(lKLFMIGEJHM_) : lKLFMIGEJHM_;
+                 java.util.Collections.unmodifiableList(ClaimedAvatarIdList_) : ClaimedAvatarIdList_;
       }
       /**
-       * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
-       * @return The count of lKLFMIGEJHM.
+       * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
+       * @return The count of claimedAvatarIdList.
        */
-      public int getLKLFMIGEJHMCount() {
-        return lKLFMIGEJHM_.size();
+      public int getClaimedAvatarIdListCount() {
+        return ClaimedAvatarIdList_.size();
       }
       /**
-       * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
+       * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
        * @param index The index of the element to return.
-       * @return The lKLFMIGEJHM at the given index.
+       * @return The claimedAvatarIdList at the given index.
        */
-      public int getLKLFMIGEJHM(int index) {
-        return lKLFMIGEJHM_.getInt(index);
+      public int getClaimedAvatarIdList(int index) {
+        return ClaimedAvatarIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
+       * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
        * @param index The index to set the value at.
-       * @param value The lKLFMIGEJHM to set.
+       * @param value The claimedAvatarIdList to set.
        * @return This builder for chaining.
        */
-      public Builder setLKLFMIGEJHM(
+      public Builder setClaimedAvatarIdList(
           int index, int value) {
-        ensureLKLFMIGEJHMIsMutable();
-        lKLFMIGEJHM_.setInt(index, value);
+        ensureClaimedAvatarIdListIsMutable();
+        ClaimedAvatarIdList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
-       * @param value The lKLFMIGEJHM to add.
+       * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
+       * @param value The claimedAvatarIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addLKLFMIGEJHM(int value) {
-        ensureLKLFMIGEJHMIsMutable();
-        lKLFMIGEJHM_.addInt(value);
+      public Builder addClaimedAvatarIdList(int value) {
+        ensureClaimedAvatarIdListIsMutable();
+        ClaimedAvatarIdList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
-       * @param values The lKLFMIGEJHM to add.
+       * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
+       * @param values The claimedAvatarIdList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllLKLFMIGEJHM(
+      public Builder addAllClaimedAvatarIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureLKLFMIGEJHMIsMutable();
+        ensureClaimedAvatarIdListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, lKLFMIGEJHM_);
+            values, ClaimedAvatarIdList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LKLFMIGEJHM = 12;</code>
+       * <code>repeated uint32 _claimed_avatar_id_list = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLKLFMIGEJHM() {
-        lKLFMIGEJHM_ = emptyIntList();
+      public Builder clearClaimedAvatarIdList() {
+        ClaimedAvatarIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
@@ -1310,13 +1310,14 @@ public final class _WeekActiveDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033_WeekActiveDetailInfo.proto\"\260\001\n\025_WeekA" +
+      "\n\033_WeekActiveDetailInfo.proto\"\274\001\n\025_WeekA" +
       "ctiveDetailInfo\022\023\n\013JOHCCPGDECJ\030\002 \003(\r\022\021\n\t" +
       "avatar_id\030\003 \001(\r\022\023\n\013LCOBFDMFKHK\030\007 \003(\r\022\036\n\026" +
       "_is_week_active_viewed\030\t \001(\010\022\023\n\013ILEHAFHF" +
-      "MJN\030\013 \001(\r\022\023\n\013LKLFMIGEJHM\030\014 \003(\r\022\020\n\010progre" +
-      "ss\030\016 \001(\rB<\n\031emu.grasscutter.net.protoB\037_" +
-      "WeekActiveDetailInfoOuterClassb\006proto3"
+      "MJN\030\013 \001(\r\022\037\n\027_claimed_avatar_id_list\030\014 \003" +
+      "(\r\022\020\n\010progress\030\016 \001(\rB<\n\031emu.grasscutter." +
+      "net.protoB\037_WeekActiveDetailInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1327,7 +1328,7 @@ public final class _WeekActiveDetailInfoOuterClass {
     internal_static__WeekActiveDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__WeekActiveDetailInfo_descriptor,
-        new java.lang.String[] { "JOHCCPGDECJ", "AvatarId", "LCOBFDMFKHK", "IsWeekActiveViewed", "ILEHAFHFMJN", "LKLFMIGEJHM", "Progress", });
+        new java.lang.String[] { "JOHCCPGDECJ", "AvatarId", "LCOBFDMFKHK", "IsWeekActiveViewed", "ILEHAFHFMJN", "ClaimedAvatarIdList", "Progress", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

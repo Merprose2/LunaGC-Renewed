@@ -31,10 +31,6 @@ public final class SetNameCardRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 9354
-   * </pre>
-   *
    * Protobuf type {@code SetNameCardRsp}
    */
   public static final class SetNameCardRsp extends
@@ -310,10 +306,6 @@ public final class SetNameCardRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9354
-     * </pre>
-     *
      * Protobuf type {@code SetNameCardRsp}
      */
     public static final class Builder extends

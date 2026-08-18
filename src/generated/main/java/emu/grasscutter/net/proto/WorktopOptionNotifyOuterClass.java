@@ -42,10 +42,6 @@ public final class WorktopOptionNotifyOuterClass {
     int getGadgetEntityId();
   }
   /**
-   * <pre>
-   * CmdID: 1650
-   * </pre>
-   *
    * Protobuf type {@code WorktopOptionNotify}
    */
   public static final class WorktopOptionNotify extends
@@ -376,10 +372,6 @@ public final class WorktopOptionNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1650
-     * </pre>
-     *
      * Protobuf type {@code WorktopOptionNotify}
      */
     public static final class Builder extends

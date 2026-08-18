@@ -18,33 +18,22 @@ public final class MapAreaChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:MapAreaChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo> 
+    java.util.List<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo>
         getMapAreaInfoListList();
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
+
     emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo getMapAreaInfoList(int index);
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
+
     int getMapAreaInfoListCount();
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder> 
+
+    java.util.List<? extends emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder>
         getMapAreaInfoListOrBuilderList();
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
+
     emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder getMapAreaInfoListOrBuilder(
         int index);
   }
   /**
    * <pre>
-   * CmdID: 1981
+   * CmdId: 21457
    * </pre>
    *
    * Protobuf type {@code MapAreaChangeNotify}
@@ -93,7 +82,7 @@ public final class MapAreaChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mapAreaInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -137,40 +126,30 @@ public final class MapAreaChangeNotifyOuterClass {
               emu.grasscutter.net.proto.MapAreaChangeNotifyOuterClass.MapAreaChangeNotify.class, emu.grasscutter.net.proto.MapAreaChangeNotifyOuterClass.MapAreaChangeNotify.Builder.class);
     }
 
-    public static final int MAP_AREA_INFO_LIST_FIELD_NUMBER = 2;
+    public static final int MAP_AREA_INFO_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo> mapAreaInfoList_;
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
+
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo> getMapAreaInfoListList() {
       return mapAreaInfoList_;
     }
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
+
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder>
         getMapAreaInfoListOrBuilderList() {
       return mapAreaInfoList_;
     }
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
+
     @java.lang.Override
     public int getMapAreaInfoListCount() {
       return mapAreaInfoList_.size();
     }
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo getMapAreaInfoList(int index) {
       return mapAreaInfoList_.get(index);
     }
-    /**
-     * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-     */
+
     @java.lang.Override
     public emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder getMapAreaInfoListOrBuilder(
         int index) {
@@ -192,7 +171,7 @@ public final class MapAreaChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < mapAreaInfoList_.size(); i++) {
-        output.writeMessage(2, mapAreaInfoList_.get(i));
+        output.writeMessage(1, mapAreaInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -205,7 +184,7 @@ public final class MapAreaChangeNotifyOuterClass {
       size = 0;
       for (int i = 0; i < mapAreaInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, mapAreaInfoList_.get(i));
+          .computeMessageSize(1, mapAreaInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -336,7 +315,7 @@ public final class MapAreaChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 1981
+     * CmdId: 21457
      * </pre>
      *
      * Protobuf type {@code MapAreaChangeNotify}
@@ -485,7 +464,7 @@ public final class MapAreaChangeNotifyOuterClass {
               mapAreaInfoListBuilder_ = null;
               mapAreaInfoList_ = other.mapAreaInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              mapAreaInfoListBuilder_ = 
+              mapAreaInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMapAreaInfoListFieldBuilder() : null;
             } else {
@@ -535,9 +514,6 @@ public final class MapAreaChangeNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder> mapAreaInfoListBuilder_;
 
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
       public java.util.List<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo> getMapAreaInfoListList() {
         if (mapAreaInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(mapAreaInfoList_);
@@ -545,9 +521,7 @@ public final class MapAreaChangeNotifyOuterClass {
           return mapAreaInfoListBuilder_.getMessageList();
         }
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public int getMapAreaInfoListCount() {
         if (mapAreaInfoListBuilder_ == null) {
           return mapAreaInfoList_.size();
@@ -555,9 +529,7 @@ public final class MapAreaChangeNotifyOuterClass {
           return mapAreaInfoListBuilder_.getCount();
         }
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo getMapAreaInfoList(int index) {
         if (mapAreaInfoListBuilder_ == null) {
           return mapAreaInfoList_.get(index);
@@ -565,9 +537,7 @@ public final class MapAreaChangeNotifyOuterClass {
           return mapAreaInfoListBuilder_.getMessage(index);
         }
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public Builder setMapAreaInfoList(
           int index, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo value) {
         if (mapAreaInfoListBuilder_ == null) {
@@ -582,9 +552,7 @@ public final class MapAreaChangeNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public Builder setMapAreaInfoList(
           int index, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder builderForValue) {
         if (mapAreaInfoListBuilder_ == null) {
@@ -596,9 +564,7 @@ public final class MapAreaChangeNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public Builder addMapAreaInfoList(emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo value) {
         if (mapAreaInfoListBuilder_ == null) {
           if (value == null) {
@@ -612,9 +578,7 @@ public final class MapAreaChangeNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public Builder addMapAreaInfoList(
           int index, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo value) {
         if (mapAreaInfoListBuilder_ == null) {
@@ -629,9 +593,7 @@ public final class MapAreaChangeNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public Builder addMapAreaInfoList(
           emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder builderForValue) {
         if (mapAreaInfoListBuilder_ == null) {
@@ -643,9 +605,7 @@ public final class MapAreaChangeNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public Builder addMapAreaInfoList(
           int index, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder builderForValue) {
         if (mapAreaInfoListBuilder_ == null) {
@@ -657,9 +617,7 @@ public final class MapAreaChangeNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public Builder addAllMapAreaInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo> values) {
         if (mapAreaInfoListBuilder_ == null) {
@@ -672,9 +630,7 @@ public final class MapAreaChangeNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public Builder clearMapAreaInfoList() {
         if (mapAreaInfoListBuilder_ == null) {
           mapAreaInfoList_ = java.util.Collections.emptyList();
@@ -685,9 +641,7 @@ public final class MapAreaChangeNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public Builder removeMapAreaInfoList(int index) {
         if (mapAreaInfoListBuilder_ == null) {
           ensureMapAreaInfoListIsMutable();
@@ -698,16 +652,12 @@ public final class MapAreaChangeNotifyOuterClass {
         }
         return this;
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder getMapAreaInfoListBuilder(
           int index) {
         return getMapAreaInfoListFieldBuilder().getBuilder(index);
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder getMapAreaInfoListOrBuilder(
           int index) {
         if (mapAreaInfoListBuilder_ == null) {
@@ -715,10 +665,8 @@ public final class MapAreaChangeNotifyOuterClass {
           return mapAreaInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder> 
+
+      public java.util.List<? extends emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder>
            getMapAreaInfoListOrBuilderList() {
         if (mapAreaInfoListBuilder_ != null) {
           return mapAreaInfoListBuilder_.getMessageOrBuilderList();
@@ -726,30 +674,24 @@ public final class MapAreaChangeNotifyOuterClass {
           return java.util.Collections.unmodifiableList(mapAreaInfoList_);
         }
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder addMapAreaInfoListBuilder() {
         return getMapAreaInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.getDefaultInstance());
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
+
       public emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder addMapAreaInfoListBuilder(
           int index) {
         return getMapAreaInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.getDefaultInstance());
       }
-      /**
-       * <code>repeated .MapAreaInfo map_area_info_list = 2;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder> 
+
+      public java.util.List<emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder>
            getMapAreaInfoListBuilderList() {
         return getMapAreaInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder> 
+          emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfo.Builder, emu.grasscutter.net.proto.MapAreaInfoOuterClass.MapAreaInfoOrBuilder>
           getMapAreaInfoListFieldBuilder() {
         if (mapAreaInfoListBuilder_ == null) {
           mapAreaInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -773,7 +715,6 @@ public final class MapAreaChangeNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:MapAreaChangeNotify)
     }
@@ -817,7 +758,7 @@ public final class MapAreaChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MapAreaChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MapAreaChangeNotify_fieldAccessorTable;
 
@@ -831,9 +772,8 @@ public final class MapAreaChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031MapAreaChangeNotify.proto\032\021MapAreaInfo" +
       ".proto\"?\n\023MapAreaChangeNotify\022(\n\022map_are" +
-      "a_info_list\030\002 \003(\0132\014.MapAreaInfoB:\n\031emu.g" +
-      "rasscutter.net.protoB\035MapAreaChangeNotif" +
-      "yOuterClassb\006proto3"
+      "a_info_list\030\006 \003(\0132\014.MapAreaInfoB\033\n\031emu.g" +
+      "rasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

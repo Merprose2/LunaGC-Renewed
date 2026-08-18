@@ -60,10 +60,6 @@ public final class SceneEntityAppearNotifyOuterClass {
     int getParam();
   }
   /**
-   * <pre>
-   * CmdID: 6573
-   * </pre>
-   *
    * Protobuf type {@code SceneEntityAppearNotify}
    */
   public static final class SceneEntityAppearNotify extends
@@ -415,10 +411,6 @@ public final class SceneEntityAppearNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6573
-     * </pre>
-     *
      * Protobuf type {@code SceneEntityAppearNotify}
      */
     public static final class Builder extends

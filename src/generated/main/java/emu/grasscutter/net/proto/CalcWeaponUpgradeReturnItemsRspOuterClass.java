@@ -55,10 +55,6 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 8968
-   * </pre>
-   *
    * Protobuf type {@code CalcWeaponUpgradeReturnItemsRsp}
    */
   public static final class CalcWeaponUpgradeReturnItemsRsp extends
@@ -402,10 +398,6 @@ public final class CalcWeaponUpgradeReturnItemsRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8968
-     * </pre>
-     *
      * Protobuf type {@code CalcWeaponUpgradeReturnItemsRsp}
      */
     public static final class Builder extends

@@ -37,10 +37,6 @@ public final class AvatarSkillUpgradeReqOuterClass {
     int getOldLevel();
   }
   /**
-   * <pre>
-   * CmdID: 29335
-   * </pre>
-   *
    * Protobuf type {@code AvatarSkillUpgradeReq}
    */
   public static final class AvatarSkillUpgradeReq extends
@@ -344,10 +340,6 @@ public final class AvatarSkillUpgradeReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 29335
-     * </pre>
-     *
      * Protobuf type {@code AvatarSkillUpgradeReq}
      */
     public static final class Builder extends

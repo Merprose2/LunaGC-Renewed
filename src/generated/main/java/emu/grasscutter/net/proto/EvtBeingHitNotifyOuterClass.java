@@ -45,10 +45,6 @@ public final class EvtBeingHitNotifyOuterClass {
     emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder getBeingHitInfoOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 6351
-   * </pre>
-   *
    * Protobuf type {@code EvtBeingHitNotify}
    */
   public static final class EvtBeingHitNotify extends
@@ -361,10 +357,6 @@ public final class EvtBeingHitNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 6351
-     * </pre>
-     *
      * Protobuf type {@code EvtBeingHitNotify}
      */
     public static final class Builder extends

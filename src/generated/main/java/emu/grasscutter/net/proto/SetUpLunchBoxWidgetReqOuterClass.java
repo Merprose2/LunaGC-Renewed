@@ -34,10 +34,6 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
     emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder getLunchBoxDataOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 5446
-   * </pre>
-   *
    * Protobuf type {@code SetUpLunchBoxWidgetReq}
    */
   public static final class SetUpLunchBoxWidgetReq extends
@@ -314,10 +310,6 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5446
-     * </pre>
-     *
      * Protobuf type {@code SetUpLunchBoxWidgetReq}
      */
     public static final class Builder extends

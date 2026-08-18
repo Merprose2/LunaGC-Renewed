@@ -25,10 +25,6 @@ public final class HomeAvatarSummonFinishReqOuterClass {
     int getEventId();
   }
   /**
-   * <pre>
-   * CmdID: 7049
-   * </pre>
-   *
    * Protobuf type {@code HomeAvatarSummonFinishReq}
    */
   public static final class HomeAvatarSummonFinishReq extends
@@ -277,10 +273,6 @@ public final class HomeAvatarSummonFinishReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 7049
-     * </pre>
-     *
      * Protobuf type {@code HomeAvatarSummonFinishReq}
      */
     public static final class Builder extends

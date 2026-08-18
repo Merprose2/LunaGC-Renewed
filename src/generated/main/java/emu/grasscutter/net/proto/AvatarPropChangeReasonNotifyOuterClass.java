@@ -18,44 +18,21 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarPropChangeReasonNotify)
       com.google.protobuf.MessageOrBuilder {
 
-    /**
-     * <code>.PropChangeReason reason = 1;</code>
-     * @return The enum numeric value on the wire for reason.
-     */
-    int getReasonValue();
-    /**
-     * <code>.PropChangeReason reason = 1;</code>
-     * @return The reason.
-     */
-    emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason();
-
-    /**
-     * <code>uint32 prop_type = 3;</code>
-     * @return The propType.
-     */
-    int getPropType();
-
-    /**
-     * <code>float old_value = 6;</code>
-     * @return The oldValue.
-     */
-    float getOldValue();
-
-    /**
-     * <code>float cur_value = 10;</code>
-     * @return The curValue.
-     */
     float getCurValue();
 
-    /**
-     * <code>uint64 avatar_guid = 12;</code>
-     * @return The avatarGuid.
-     */
+    float getOldValue();
+
+    int getPropType();
+
+    int getReasonValue();
+
+    emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason();
+
     long getAvatarGuid();
   }
   /**
    * <pre>
-   * CmdID: 24921
+   * CmdId: 28442
    * </pre>
    *
    * Protobuf type {@code AvatarPropChangeReasonNotify}
@@ -103,30 +80,30 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 112: {
+
+              avatarGuid_ = input.readUInt64();
+              break;
+            }
+            case 77: {
+
+              curValue_ = input.readFloat();
+              break;
+            }
+            case 32: {
+
+              propType_ = input.readUInt32();
+              break;
+            }
+            case 80: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
               break;
             }
-            case 24: {
-
-              propType_ = input.readUInt32();
-              break;
-            }
-            case 53: {
+            case 61: {
 
               oldValue_ = input.readFloat();
-              break;
-            }
-            case 85: {
-
-              curValue_ = input.readFloat();
-              break;
-            }
-            case 96: {
-
-              avatarGuid_ = input.readUInt64();
               break;
             }
             default: {
@@ -161,64 +138,46 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarPropChangeReasonNotifyOuterClass.AvatarPropChangeReasonNotify.class, emu.grasscutter.net.proto.AvatarPropChangeReasonNotifyOuterClass.AvatarPropChangeReasonNotify.Builder.class);
     }
 
-    public static final int REASON_FIELD_NUMBER = 1;
+    public static final int CUR_VALUE_FIELD_NUMBER = 9;
+    private float curValue_;
+
+    @java.lang.Override
+    public float getCurValue() {
+      return curValue_;
+    }
+
+    public static final int OLD_VALUE_FIELD_NUMBER = 7;
+    private float oldValue_;
+
+    @java.lang.Override
+    public float getOldValue() {
+      return oldValue_;
+    }
+
+    public static final int PROP_TYPE_FIELD_NUMBER = 4;
+    private int propType_;
+
+    @java.lang.Override
+    public int getPropType() {
+      return propType_;
+    }
+
+    public static final int REASON_FIELD_NUMBER = 10;
     private int reason_;
-    /**
-     * <code>.PropChangeReason reason = 1;</code>
-     * @return The enum numeric value on the wire for reason.
-     */
+
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
-    /**
-     * <code>.PropChangeReason reason = 1;</code>
-     * @return The reason.
-     */
+
     @java.lang.Override public emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason result = emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.valueOf(reason_);
       return result == null ? emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.UNRECOGNIZED : result;
     }
 
-    public static final int PROP_TYPE_FIELD_NUMBER = 3;
-    private int propType_;
-    /**
-     * <code>uint32 prop_type = 3;</code>
-     * @return The propType.
-     */
-    @java.lang.Override
-    public int getPropType() {
-      return propType_;
-    }
-
-    public static final int OLD_VALUE_FIELD_NUMBER = 6;
-    private float oldValue_;
-    /**
-     * <code>float old_value = 6;</code>
-     * @return The oldValue.
-     */
-    @java.lang.Override
-    public float getOldValue() {
-      return oldValue_;
-    }
-
-    public static final int CUR_VALUE_FIELD_NUMBER = 10;
-    private float curValue_;
-    /**
-     * <code>float cur_value = 10;</code>
-     * @return The curValue.
-     */
-    @java.lang.Override
-    public float getCurValue() {
-      return curValue_;
-    }
-
-    public static final int AVATAR_GUID_FIELD_NUMBER = 12;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 14;
     private long avatarGuid_;
-    /**
-     * <code>uint64 avatar_guid = 12;</code>
-     * @return The avatarGuid.
-     */
+
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -238,20 +197,20 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (reason_ != emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_NONE.getNumber()) {
-        output.writeEnum(1, reason_);
-      }
-      if (propType_ != 0) {
-        output.writeUInt32(3, propType_);
-      }
-      if (oldValue_ != 0F) {
-        output.writeFloat(6, oldValue_);
+      if (avatarGuid_ != 0L) {
+        output.writeUInt64(14, avatarGuid_);
       }
       if (curValue_ != 0F) {
-        output.writeFloat(10, curValue_);
+        output.writeFloat(9, curValue_);
       }
-      if (avatarGuid_ != 0L) {
-        output.writeUInt64(12, avatarGuid_);
+      if (propType_ != 0) {
+        output.writeUInt32(4, propType_);
+      }
+      if (reason_ != emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_NONE.getNumber()) {
+        output.writeEnum(10, reason_);
+      }
+      if (oldValue_ != 0F) {
+        output.writeFloat(7, oldValue_);
       }
       unknownFields.writeTo(output);
     }
@@ -262,25 +221,25 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (reason_ != emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_NONE.getNumber()) {
+      if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(1, reason_);
-      }
-      if (propType_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, propType_);
-      }
-      if (oldValue_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(6, oldValue_);
+          .computeUInt64Size(14, avatarGuid_);
       }
       if (curValue_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(10, curValue_);
+          .computeFloatSize(9, curValue_);
       }
-      if (avatarGuid_ != 0L) {
+      if (propType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(12, avatarGuid_);
+          .computeUInt32Size(4, propType_);
+      }
+      if (reason_ != emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(10, reason_);
+      }
+      if (oldValue_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(7, oldValue_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -297,15 +256,15 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       emu.grasscutter.net.proto.AvatarPropChangeReasonNotifyOuterClass.AvatarPropChangeReasonNotify other = (emu.grasscutter.net.proto.AvatarPropChangeReasonNotifyOuterClass.AvatarPropChangeReasonNotify) obj;
 
-      if (reason_ != other.reason_) return false;
-      if (getPropType()
-          != other.getPropType()) return false;
-      if (java.lang.Float.floatToIntBits(getOldValue())
-          != java.lang.Float.floatToIntBits(
-              other.getOldValue())) return false;
       if (java.lang.Float.floatToIntBits(getCurValue())
           != java.lang.Float.floatToIntBits(
               other.getCurValue())) return false;
+      if (java.lang.Float.floatToIntBits(getOldValue())
+          != java.lang.Float.floatToIntBits(
+              other.getOldValue())) return false;
+      if (getPropType()
+          != other.getPropType()) return false;
+      if (reason_ != other.reason_) return false;
       if (getAvatarGuid()
           != other.getAvatarGuid()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -319,16 +278,16 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + REASON_FIELD_NUMBER;
-      hash = (53 * hash) + reason_;
-      hash = (37 * hash) + PROP_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getPropType();
-      hash = (37 * hash) + OLD_VALUE_FIELD_NUMBER;
-      hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getOldValue());
       hash = (37 * hash) + CUR_VALUE_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getCurValue());
+      hash = (37 * hash) + OLD_VALUE_FIELD_NUMBER;
+      hash = (53 * hash) + java.lang.Float.floatToIntBits(
+          getOldValue());
+      hash = (37 * hash) + PROP_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getPropType();
+      hash = (37 * hash) + REASON_FIELD_NUMBER;
+      hash = (53 * hash) + reason_;
       hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getAvatarGuid());
@@ -429,7 +388,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 24921
+     * CmdId: 28442
      * </pre>
      *
      * Protobuf type {@code AvatarPropChangeReasonNotify}
@@ -469,13 +428,13 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        reason_ = 0;
-
-        propType_ = 0;
+        curValue_ = 0F;
 
         oldValue_ = 0F;
 
-        curValue_ = 0F;
+        propType_ = 0;
+
+        reason_ = 0;
 
         avatarGuid_ = 0L;
 
@@ -505,10 +464,10 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarPropChangeReasonNotifyOuterClass.AvatarPropChangeReasonNotify buildPartial() {
         emu.grasscutter.net.proto.AvatarPropChangeReasonNotifyOuterClass.AvatarPropChangeReasonNotify result = new emu.grasscutter.net.proto.AvatarPropChangeReasonNotifyOuterClass.AvatarPropChangeReasonNotify(this);
-        result.reason_ = reason_;
-        result.propType_ = propType_;
-        result.oldValue_ = oldValue_;
         result.curValue_ = curValue_;
+        result.oldValue_ = oldValue_;
+        result.propType_ = propType_;
+        result.reason_ = reason_;
         result.avatarGuid_ = avatarGuid_;
         onBuilt();
         return result;
@@ -558,17 +517,17 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarPropChangeReasonNotifyOuterClass.AvatarPropChangeReasonNotify other) {
         if (other == emu.grasscutter.net.proto.AvatarPropChangeReasonNotifyOuterClass.AvatarPropChangeReasonNotify.getDefaultInstance()) return this;
-        if (other.reason_ != 0) {
-          setReasonValue(other.getReasonValue());
-        }
-        if (other.getPropType() != 0) {
-          setPropType(other.getPropType());
+        if (other.getCurValue() != 0F) {
+          setCurValue(other.getCurValue());
         }
         if (other.getOldValue() != 0F) {
           setOldValue(other.getOldValue());
         }
-        if (other.getCurValue() != 0F) {
-          setCurValue(other.getCurValue());
+        if (other.getPropType() != 0) {
+          setPropType(other.getPropType());
+        }
+        if (other.reason_ != 0) {
+          setReasonValue(other.getReasonValue());
         }
         if (other.getAvatarGuid() != 0L) {
           setAvatarGuid(other.getAvatarGuid());
@@ -602,179 +561,122 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
         return this;
       }
 
+      private float curValue_ ;
+
+      @java.lang.Override
+      public float getCurValue() {
+        return curValue_;
+      }
+
+      public Builder setCurValue(float value) {
+
+        curValue_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearCurValue() {
+
+        curValue_ = 0F;
+        onChanged();
+        return this;
+      }
+
+      private float oldValue_ ;
+
+      @java.lang.Override
+      public float getOldValue() {
+        return oldValue_;
+      }
+
+      public Builder setOldValue(float value) {
+
+        oldValue_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearOldValue() {
+
+        oldValue_ = 0F;
+        onChanged();
+        return this;
+      }
+
+      private int propType_ ;
+
+      @java.lang.Override
+      public int getPropType() {
+        return propType_;
+      }
+
+      public Builder setPropType(int value) {
+
+        propType_ = value;
+        onChanged();
+        return this;
+      }
+
+      public Builder clearPropType() {
+
+        propType_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int reason_ = 0;
-      /**
-       * <code>.PropChangeReason reason = 1;</code>
-       * @return The enum numeric value on the wire for reason.
-       */
+
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
-      /**
-       * <code>.PropChangeReason reason = 1;</code>
-       * @param value The enum numeric value on the wire for reason to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setReasonValue(int value) {
-        
+
         reason_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>.PropChangeReason reason = 1;</code>
-       * @return The reason.
-       */
+
       @java.lang.Override
       public emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason getReason() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason result = emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.valueOf(reason_);
         return result == null ? emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason.UNRECOGNIZED : result;
       }
-      /**
-       * <code>.PropChangeReason reason = 1;</code>
-       * @param value The reason to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setReason(emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         reason_ = value.getNumber();
         onChanged();
         return this;
       }
-      /**
-       * <code>.PropChangeReason reason = 1;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearReason() {
-        
+
         reason_ = 0;
         onChanged();
         return this;
       }
 
-      private int propType_ ;
-      /**
-       * <code>uint32 prop_type = 3;</code>
-       * @return The propType.
-       */
-      @java.lang.Override
-      public int getPropType() {
-        return propType_;
-      }
-      /**
-       * <code>uint32 prop_type = 3;</code>
-       * @param value The propType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPropType(int value) {
-        
-        propType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 prop_type = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPropType() {
-        
-        propType_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private float oldValue_ ;
-      /**
-       * <code>float old_value = 6;</code>
-       * @return The oldValue.
-       */
-      @java.lang.Override
-      public float getOldValue() {
-        return oldValue_;
-      }
-      /**
-       * <code>float old_value = 6;</code>
-       * @param value The oldValue to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOldValue(float value) {
-        
-        oldValue_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float old_value = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOldValue() {
-        
-        oldValue_ = 0F;
-        onChanged();
-        return this;
-      }
-
-      private float curValue_ ;
-      /**
-       * <code>float cur_value = 10;</code>
-       * @return The curValue.
-       */
-      @java.lang.Override
-      public float getCurValue() {
-        return curValue_;
-      }
-      /**
-       * <code>float cur_value = 10;</code>
-       * @param value The curValue to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCurValue(float value) {
-        
-        curValue_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float cur_value = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCurValue() {
-        
-        curValue_ = 0F;
-        onChanged();
-        return this;
-      }
-
       private long avatarGuid_ ;
-      /**
-       * <code>uint64 avatar_guid = 12;</code>
-       * @return The avatarGuid.
-       */
+
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-      /**
-       * <code>uint64 avatar_guid = 12;</code>
-       * @param value The avatarGuid to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <code>uint64 avatar_guid = 12;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -790,7 +692,6 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AvatarPropChangeReasonNotify)
     }
@@ -834,7 +735,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarPropChangeReasonNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarPropChangeReasonNotify_fieldAccessorTable;
 
@@ -848,11 +749,10 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"AvatarPropChangeReasonNotify.proto\032\026Pr" +
       "opChangeReason.proto\"\217\001\n\034AvatarPropChang" +
-      "eReasonNotify\022!\n\006reason\030\001 \001(\0162\021.PropChan" +
-      "geReason\022\021\n\tprop_type\030\003 \001(\r\022\021\n\told_value" +
-      "\030\006 \001(\002\022\021\n\tcur_value\030\n \001(\002\022\023\n\013avatar_guid" +
-      "\030\014 \001(\004BC\n\031emu.grasscutter.net.protoB&Ava" +
-      "tarPropChangeReasonNotifyOuterClassb\006pro" +
+      "eReasonNotify\022\021\n\tcur_value\030\003 \001(\002\022\021\n\told_" +
+      "value\030\013 \001(\002\022\021\n\tprop_type\030\004 \001(\r\022!\n\006reason" +
+      "\030\005 \001(\0162\021.PropChangeReason\022\023\n\013avatar_guid" +
+      "\030\002 \001(\004B\033\n\031emu.grasscutter.net.protob\006pro" +
       "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -865,7 +765,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     internal_static_AvatarPropChangeReasonNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarPropChangeReasonNotify_descriptor,
-        new java.lang.String[] { "Reason", "PropType", "OldValue", "CurValue", "AvatarGuid", });
+        new java.lang.String[] { "CurValue", "OldValue", "PropType", "Reason", "AvatarGuid", });
     emu.grasscutter.net.proto.PropChangeReasonOuterClass.getDescriptor();
   }
 

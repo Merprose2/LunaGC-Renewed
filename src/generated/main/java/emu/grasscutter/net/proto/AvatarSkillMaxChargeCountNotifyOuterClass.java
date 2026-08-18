@@ -37,10 +37,6 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
     long getAvatarGuid();
   }
   /**
-   * <pre>
-   * CmdID: 5910
-   * </pre>
-   *
    * Protobuf type {@code AvatarSkillMaxChargeCountNotify}
    */
   public static final class AvatarSkillMaxChargeCountNotify extends
@@ -344,10 +340,6 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5910
-     * </pre>
-     *
      * Protobuf type {@code AvatarSkillMaxChargeCountNotify}
      */
     public static final class Builder extends

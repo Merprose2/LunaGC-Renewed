@@ -20,32 +20,32 @@ public final class WidgetCreatorOpTypeOuterClass {
   public enum WidgetCreatorOpType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>WidgetCreatorOpType_WIDGET_CREATOR_TYPE_NONE = 0;</code>
+     * <code>WIDGET_CREATOR_TYPE_NONE = 0;</code>
      */
-    WidgetCreatorOpType_WIDGET_CREATOR_TYPE_NONE(0),
+    WIDGET_CREATOR_TYPE_NONE(0),
     /**
-     * <code>WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT = 1;</code>
+     * <code>WIDGET_CREATOR_TYPE_RETRACT = 1;</code>
      */
-    WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT(1),
+    WIDGET_CREATOR_TYPE_RETRACT(1),
     /**
-     * <code>WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE = 2;</code>
+     * <code>WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE = 2;</code>
      */
-    WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE(2),
+    WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>WidgetCreatorOpType_WIDGET_CREATOR_TYPE_NONE = 0;</code>
+     * <code>WIDGET_CREATOR_TYPE_NONE = 0;</code>
      */
-    public static final int WidgetCreatorOpType_WIDGET_CREATOR_TYPE_NONE_VALUE = 0;
+    public static final int WIDGET_CREATOR_TYPE_NONE_VALUE = 0;
     /**
-     * <code>WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT = 1;</code>
+     * <code>WIDGET_CREATOR_TYPE_RETRACT = 1;</code>
      */
-    public static final int WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT_VALUE = 1;
+    public static final int WIDGET_CREATOR_TYPE_RETRACT_VALUE = 1;
     /**
-     * <code>WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE = 2;</code>
+     * <code>WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE = 2;</code>
      */
-    public static final int WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE_VALUE = 2;
+    public static final int WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class WidgetCreatorOpTypeOuterClass {
      */
     public static WidgetCreatorOpType forNumber(int value) {
       switch (value) {
-        case 0: return WidgetCreatorOpType_WIDGET_CREATOR_TYPE_NONE;
-        case 1: return WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT;
-        case 2: return WidgetCreatorOpType_WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE;
+        case 0: return WIDGET_CREATOR_TYPE_NONE;
+        case 1: return WIDGET_CREATOR_TYPE_RETRACT;
+        case 2: return WIDGET_CREATOR_TYPE_RETRACT_AND_CREATE;
         default: return null;
       }
     }
@@ -140,14 +140,12 @@ public final class WidgetCreatorOpTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031WidgetCreatorOpType.proto*\274\001\n\023WidgetCr" +
-      "eatorOpType\0220\n,WidgetCreatorOpType_WIDGE" +
-      "T_CREATOR_TYPE_NONE\020\000\0223\n/WidgetCreatorOp" +
-      "Type_WIDGET_CREATOR_TYPE_RETRACT\020\001\022>\n:Wi" +
-      "dgetCreatorOpType_WIDGET_CREATOR_TYPE_RE" +
-      "TRACT_AND_CREATE\020\002B:\n\031emu.grasscutter.ne" +
-      "t.protoB\035WidgetCreatorOpTypeOuterClassb\006" +
-      "proto3"
+      "\n\031WidgetCreatorOpType.proto*\200\001\n\023WidgetCr" +
+      "eatorOpType\022\034\n\030WIDGET_CREATOR_TYPE_NONE\020" +
+      "\000\022\037\n\033WIDGET_CREATOR_TYPE_RETRACT\020\001\022*\n&WI" +
+      "DGET_CREATOR_TYPE_RETRACT_AND_CREATE\020\002B:" +
+      "\n\031emu.grasscutter.net.protoB\035WidgetCreat" +
+      "orOpTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

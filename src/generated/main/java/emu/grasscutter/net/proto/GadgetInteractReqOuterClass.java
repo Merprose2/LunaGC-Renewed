@@ -107,10 +107,6 @@ public final class GadgetInteractReqOuterClass {
     int getALLPOOBNNPH();
   }
   /**
-   * <pre>
-   * CmdID: 26915
-   * </pre>
-   *
    * Protobuf type {@code GadgetInteractReq}
    */
   public static final class GadgetInteractReq extends
@@ -707,10 +703,6 @@ public final class GadgetInteractReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26915
-     * </pre>
-     *
      * Protobuf type {@code GadgetInteractReq}
      */
     public static final class Builder extends

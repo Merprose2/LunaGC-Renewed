@@ -37,10 +37,6 @@ public final class UnlockAvatarTalentRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 9443
-   * </pre>
-   *
    * Protobuf type {@code UnlockAvatarTalentRsp}
    */
   public static final class UnlockAvatarTalentRsp extends
@@ -344,10 +340,6 @@ public final class UnlockAvatarTalentRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 9443
-     * </pre>
-     *
      * Protobuf type {@code UnlockAvatarTalentRsp}
      */
     public static final class Builder extends

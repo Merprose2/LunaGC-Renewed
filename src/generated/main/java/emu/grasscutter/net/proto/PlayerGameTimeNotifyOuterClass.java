@@ -37,10 +37,6 @@ public final class PlayerGameTimeNotifyOuterClass {
     int getUid();
   }
   /**
-   * <pre>
-   * CmdID: 8474
-   * </pre>
-   *
    * Protobuf type {@code PlayerGameTimeNotify}
    */
   public static final class PlayerGameTimeNotify extends
@@ -344,10 +340,6 @@ public final class PlayerGameTimeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8474
-     * </pre>
-     *
      * Protobuf type {@code PlayerGameTimeNotify}
      */
     public static final class Builder extends

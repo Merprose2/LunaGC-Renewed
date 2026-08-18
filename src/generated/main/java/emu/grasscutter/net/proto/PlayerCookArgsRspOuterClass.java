@@ -31,10 +31,6 @@ public final class PlayerCookArgsRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 25991
-   * </pre>
-   *
    * Protobuf type {@code PlayerCookArgsRsp}
    */
   public static final class PlayerCookArgsRsp extends
@@ -312,10 +308,6 @@ public final class PlayerCookArgsRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25991
-     * </pre>
-     *
      * Protobuf type {@code PlayerCookArgsRsp}
      */
     public static final class Builder extends

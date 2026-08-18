@@ -67,10 +67,6 @@ public final class SceneEntityMoveNotifyOuterClass {
     int getSceneTime();
   }
   /**
-   * <pre>
-   * CmdID: 22811
-   * </pre>
-   *
    * Protobuf type {@code SceneEntityMoveNotify}
    */
   public static final class SceneEntityMoveNotify extends
@@ -483,10 +479,6 @@ public final class SceneEntityMoveNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22811
-     * </pre>
-     *
      * Protobuf type {@code SceneEntityMoveNotify}
      */
     public static final class Builder extends

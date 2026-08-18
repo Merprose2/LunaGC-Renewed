@@ -20,40 +20,40 @@ public final class AvatarTypeOuterClass {
   public enum AvatarType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>AvatarType_NONE = 0;</code>
+     * <code>AVATAR_TYPE_NONE = 0;</code>
      */
-    AvatarType_NONE(0),
+    AVATAR_TYPE_NONE(0),
     /**
-     * <code>AvatarType_FORMAL = 1;</code>
+     * <code>AVATAR_TYPE_FORMAL = 1;</code>
      */
-    AvatarType_FORMAL(1),
+    AVATAR_TYPE_FORMAL(1),
     /**
-     * <code>AvatarType_TRIAL = 2;</code>
+     * <code>AVATAR_TYPE_TRIAL = 2;</code>
      */
-    AvatarType_TRIAL(2),
+    AVATAR_TYPE_TRIAL(2),
     /**
-     * <code>AvatarType_MIRROR = 3;</code>
+     * <code>AVATAR_TYPE_MIRROR = 3;</code>
      */
-    AvatarType_MIRROR(3),
+    AVATAR_TYPE_MIRROR(3),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>AvatarType_NONE = 0;</code>
+     * <code>AVATAR_TYPE_NONE = 0;</code>
      */
-    public static final int AvatarType_NONE_VALUE = 0;
+    public static final int AVATAR_TYPE_NONE_VALUE = 0;
     /**
-     * <code>AvatarType_FORMAL = 1;</code>
+     * <code>AVATAR_TYPE_FORMAL = 1;</code>
      */
-    public static final int AvatarType_FORMAL_VALUE = 1;
+    public static final int AVATAR_TYPE_FORMAL_VALUE = 1;
     /**
-     * <code>AvatarType_TRIAL = 2;</code>
+     * <code>AVATAR_TYPE_TRIAL = 2;</code>
      */
-    public static final int AvatarType_TRIAL_VALUE = 2;
+    public static final int AVATAR_TYPE_TRIAL_VALUE = 2;
     /**
-     * <code>AvatarType_MIRROR = 3;</code>
+     * <code>AVATAR_TYPE_MIRROR = 3;</code>
      */
-    public static final int AvatarType_MIRROR_VALUE = 3;
+    public static final int AVATAR_TYPE_MIRROR_VALUE = 3;
 
 
     public final int getNumber() {
@@ -80,10 +80,10 @@ public final class AvatarTypeOuterClass {
      */
     public static AvatarType forNumber(int value) {
       switch (value) {
-        case 0: return AvatarType_NONE;
-        case 1: return AvatarType_FORMAL;
-        case 2: return AvatarType_TRIAL;
-        case 3: return AvatarType_MIRROR;
+        case 0: return AVATAR_TYPE_NONE;
+        case 1: return AVATAR_TYPE_FORMAL;
+        case 2: return AVATAR_TYPE_TRIAL;
+        case 3: return AVATAR_TYPE_MIRROR;
         default: return null;
       }
     }
@@ -149,11 +149,11 @@ public final class AvatarTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020AvatarType.proto*e\n\nAvatarType\022\023\n\017Avat" +
-      "arType_NONE\020\000\022\025\n\021AvatarType_FORMAL\020\001\022\024\n\020" +
-      "AvatarType_TRIAL\020\002\022\025\n\021AvatarType_MIRROR\020" +
-      "\003B1\n\031emu.grasscutter.net.protoB\024AvatarTy" +
-      "peOuterClassb\006proto3"
+      "\n\020AvatarType.proto*i\n\nAvatarType\022\024\n\020AVAT" +
+      "AR_TYPE_NONE\020\000\022\026\n\022AVATAR_TYPE_FORMAL\020\001\022\025" +
+      "\n\021AVATAR_TYPE_TRIAL\020\002\022\026\n\022AVATAR_TYPE_MIR" +
+      "ROR\020\003B1\n\031emu.grasscutter.net.protoB\024Avat" +
+      "arTypeOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

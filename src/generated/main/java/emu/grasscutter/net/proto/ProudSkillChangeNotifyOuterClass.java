@@ -54,10 +54,6 @@ public final class ProudSkillChangeNotifyOuterClass {
     int getProudSkillList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 27312
-   * </pre>
-   *
    * Protobuf type {@code ProudSkillChangeNotify}
    */
   public static final class ProudSkillChangeNotify extends
@@ -443,10 +439,6 @@ public final class ProudSkillChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27312
-     * </pre>
-     *
      * Protobuf type {@code ProudSkillChangeNotify}
      */
     public static final class Builder extends

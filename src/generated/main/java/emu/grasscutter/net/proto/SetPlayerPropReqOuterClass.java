@@ -17,10 +17,35 @@ public final class SetPlayerPropReqOuterClass {
   public interface SetPlayerPropReqOrBuilder extends
       // @@protoc_insertion_point(interface_extends:SetPlayerPropReq)
       com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue> 
+        getPropListList();
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropList(int index);
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    int getPropListCount();
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> 
+        getPropListOrBuilderList();
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder getPropListOrBuilder(
+        int index);
   }
   /**
    * <pre>
-   * CmdID: 128
+   * CmdId: 25174
+   * Obf: FNNAEOMEFBL
    * </pre>
    *
    * Protobuf type {@code SetPlayerPropReq}
@@ -35,6 +60,7 @@ public final class SetPlayerPropReqOuterClass {
       super(builder);
     }
     private SetPlayerPropReq() {
+      propList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -57,6 +83,7 @@ public final class SetPlayerPropReqOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -67,6 +94,15 @@ public final class SetPlayerPropReqOuterClass {
             case 0:
               done = true;
               break;
+            case 114: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                propList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PropValueOuterClass.PropValue>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              propList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.PropValueOuterClass.PropValue.parser(), extensionRegistry));
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -82,6 +118,9 @@ public final class SetPlayerPropReqOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          propList_ = java.util.Collections.unmodifiableList(propList_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -99,6 +138,46 @@ public final class SetPlayerPropReqOuterClass {
               emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq.class, emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq.Builder.class);
     }
 
+    public static final int PROP_LIST_FIELD_NUMBER = 14;
+    private java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue> propList_;
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropListList() {
+      return propList_;
+    }
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> 
+        getPropListOrBuilderList() {
+      return propList_;
+    }
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    @java.lang.Override
+    public int getPropListCount() {
+      return propList_.size();
+    }
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropList(int index) {
+      return propList_.get(index);
+    }
+    /**
+     * <code>repeated .PropValue prop_list = 9;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder getPropListOrBuilder(
+        int index) {
+      return propList_.get(index);
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -113,6 +192,9 @@ public final class SetPlayerPropReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      for (int i = 0; i < propList_.size(); i++) {
+        output.writeMessage(14, propList_.get(i));
+      }
       unknownFields.writeTo(output);
     }
 
@@ -122,6 +204,10 @@ public final class SetPlayerPropReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < propList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, propList_.get(i));
+      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -137,6 +223,8 @@ public final class SetPlayerPropReqOuterClass {
       }
       emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq other = (emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq) obj;
 
+      if (!getPropListList()
+          .equals(other.getPropListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -148,6 +236,10 @@ public final class SetPlayerPropReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (getPropListCount() > 0) {
+        hash = (37 * hash) + PROP_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getPropListList().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -245,7 +337,8 @@ public final class SetPlayerPropReqOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 128
+     * CmdId: 25174
+     * Obf: FNNAEOMEFBL
      * </pre>
      *
      * Protobuf type {@code SetPlayerPropReq}
@@ -280,11 +373,18 @@ public final class SetPlayerPropReqOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getPropListFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (propListBuilder_ == null) {
+          propList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          propListBuilder_.clear();
+        }
         return this;
       }
 
@@ -311,6 +411,16 @@ public final class SetPlayerPropReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq buildPartial() {
         emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq result = new emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq(this);
+        int from_bitField0_ = bitField0_;
+        if (propListBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) != 0)) {
+            propList_ = java.util.Collections.unmodifiableList(propList_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.propList_ = propList_;
+        } else {
+          result.propList_ = propListBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -359,6 +469,32 @@ public final class SetPlayerPropReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq other) {
         if (other == emu.grasscutter.net.proto.SetPlayerPropReqOuterClass.SetPlayerPropReq.getDefaultInstance()) return this;
+        if (propListBuilder_ == null) {
+          if (!other.propList_.isEmpty()) {
+            if (propList_.isEmpty()) {
+              propList_ = other.propList_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensurePropListIsMutable();
+              propList_.addAll(other.propList_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.propList_.isEmpty()) {
+            if (propListBuilder_.isEmpty()) {
+              propListBuilder_.dispose();
+              propListBuilder_ = null;
+              propList_ = other.propList_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              propListBuilder_ = 
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
+                   getPropListFieldBuilder() : null;
+            } else {
+              propListBuilder_.addAllMessages(other.propList_);
+            }
+          }
+        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -386,6 +522,247 @@ public final class SetPlayerPropReqOuterClass {
           }
         }
         return this;
+      }
+      private int bitField0_;
+
+      private java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue> propList_ =
+        java.util.Collections.emptyList();
+      private void ensurePropListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          propList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PropValueOuterClass.PropValue>(propList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.PropValueOuterClass.PropValue, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder, emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> propListBuilder_;
+
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue> getPropListList() {
+        if (propListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(propList_);
+        } else {
+          return propListBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public int getPropListCount() {
+        if (propListBuilder_ == null) {
+          return propList_.size();
+        } else {
+          return propListBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropList(int index) {
+        if (propListBuilder_ == null) {
+          return propList_.get(index);
+        } else {
+          return propListBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public Builder setPropList(
+          int index, emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
+        if (propListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePropListIsMutable();
+          propList_.set(index, value);
+          onChanged();
+        } else {
+          propListBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public Builder setPropList(
+          int index, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder builderForValue) {
+        if (propListBuilder_ == null) {
+          ensurePropListIsMutable();
+          propList_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          propListBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public Builder addPropList(emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
+        if (propListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePropListIsMutable();
+          propList_.add(value);
+          onChanged();
+        } else {
+          propListBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public Builder addPropList(
+          int index, emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
+        if (propListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePropListIsMutable();
+          propList_.add(index, value);
+          onChanged();
+        } else {
+          propListBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public Builder addPropList(
+          emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder builderForValue) {
+        if (propListBuilder_ == null) {
+          ensurePropListIsMutable();
+          propList_.add(builderForValue.build());
+          onChanged();
+        } else {
+          propListBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public Builder addPropList(
+          int index, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder builderForValue) {
+        if (propListBuilder_ == null) {
+          ensurePropListIsMutable();
+          propList_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          propListBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public Builder addAllPropList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValue> values) {
+        if (propListBuilder_ == null) {
+          ensurePropListIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, propList_);
+          onChanged();
+        } else {
+          propListBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public Builder clearPropList() {
+        if (propListBuilder_ == null) {
+          propList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          propListBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public Builder removePropList(int index) {
+        if (propListBuilder_ == null) {
+          ensurePropListIsMutable();
+          propList_.remove(index);
+          onChanged();
+        } else {
+          propListBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder getPropListBuilder(
+          int index) {
+        return getPropListFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder getPropListOrBuilder(
+          int index) {
+        if (propListBuilder_ == null) {
+          return propList_.get(index);  } else {
+          return propListBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> 
+           getPropListOrBuilderList() {
+        if (propListBuilder_ != null) {
+          return propListBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(propList_);
+        }
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder addPropListBuilder() {
+        return getPropListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.PropValueOuterClass.PropValue.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder addPropListBuilder(
+          int index) {
+        return getPropListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .PropValue prop_list = 9;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder> 
+           getPropListBuilderList() {
+        return getPropListFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.PropValueOuterClass.PropValue, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder, emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> 
+          getPropListFieldBuilder() {
+        if (propListBuilder_ == null) {
+          propListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.PropValueOuterClass.PropValue, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder, emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder>(
+                  propList_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          propList_ = null;
+        }
+        return propListBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -454,20 +831,23 @@ public final class SetPlayerPropReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026SetPlayerPropReq.proto\"\022\n\020SetPlayerPro" +
-      "pReqB7\n\031emu.grasscutter.net.protoB\032SetPl" +
-      "ayerPropReqOuterClassb\006proto3"
+      "\n\026SetPlayerPropReq.proto\032\017PropValue.prot" +
+      "o\"1\n\020SetPlayerPropReq\022\035\n\tprop_list\030\t \003(\013" +
+      "2\n.PropValueB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.PropValueOuterClass.getDescriptor(),
         });
     internal_static_SetPlayerPropReq_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_SetPlayerPropReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SetPlayerPropReq_descriptor,
-        new java.lang.String[] { });
+        new java.lang.String[] { "PropList", });
+    emu.grasscutter.net.proto.PropValueOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

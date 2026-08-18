@@ -55,10 +55,6 @@ public final class DoGachaReqOuterClass {
     int getGachaRandom();
   }
   /**
-   * <pre>
-   * CmdID: 21812
-   * </pre>
-   *
    * Protobuf type {@code DoGachaReq}
    */
   public static final class DoGachaReq extends
@@ -443,10 +439,6 @@ public final class DoGachaReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 21812
-     * </pre>
-     *
      * Protobuf type {@code DoGachaReq}
      */
     public static final class Builder extends

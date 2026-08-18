@@ -48,10 +48,6 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
     float getOldValue();
   }
   /**
-   * <pre>
-   * CmdID: 348
-   * </pre>
-   *
    * Protobuf type {@code PlayerPropChangeReasonNotify}
    */
   public static final class PlayerPropChangeReasonNotify extends
@@ -394,10 +390,6 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 348
-     * </pre>
-     *
      * Protobuf type {@code PlayerPropChangeReasonNotify}
      */
     public static final class Builder extends

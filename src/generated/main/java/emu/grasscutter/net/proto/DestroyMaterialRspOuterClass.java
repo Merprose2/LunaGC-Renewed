@@ -59,10 +59,6 @@ public final class DestroyMaterialRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 895
-   * </pre>
-   *
    * Protobuf type {@code DestroyMaterialRsp}
    */
   public static final class DestroyMaterialRsp extends
@@ -473,10 +469,6 @@ public final class DestroyMaterialRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 895
-     * </pre>
-     *
      * Protobuf type {@code DestroyMaterialRsp}
      */
     public static final class Builder extends

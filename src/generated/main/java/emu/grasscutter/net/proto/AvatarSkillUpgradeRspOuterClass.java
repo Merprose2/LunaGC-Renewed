@@ -49,10 +49,6 @@ public final class AvatarSkillUpgradeRspOuterClass {
     int getAvatarSkillId();
   }
   /**
-   * <pre>
-   * CmdID: 28199
-   * </pre>
-   *
    * Protobuf type {@code AvatarSkillUpgradeRsp}
    */
   public static final class AvatarSkillUpgradeRsp extends
@@ -410,10 +406,6 @@ public final class AvatarSkillUpgradeRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28199
-     * </pre>
-     *
      * Protobuf type {@code AvatarSkillUpgradeRsp}
      */
     public static final class Builder extends

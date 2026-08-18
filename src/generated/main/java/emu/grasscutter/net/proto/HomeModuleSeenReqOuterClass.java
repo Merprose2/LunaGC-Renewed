@@ -36,10 +36,6 @@ public final class HomeModuleSeenReqOuterClass {
     int getSeenModuleIdList(int index);
   }
   /**
-   * <pre>
-   * CmdID: 28580
-   * </pre>
-   *
    * Protobuf type {@code HomeModuleSeenReq}
    */
   public static final class HomeModuleSeenReq extends
@@ -343,10 +339,6 @@ public final class HomeModuleSeenReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28580
-     * </pre>
-     *
      * Protobuf type {@code HomeModuleSeenReq}
      */
     public static final class Builder extends

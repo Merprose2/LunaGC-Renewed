@@ -25,10 +25,6 @@ public final class SceneInitFinishReqOuterClass {
     int getEnterSceneToken();
   }
   /**
-   * <pre>
-   * CmdID: 4471
-   * </pre>
-   *
    * Protobuf type {@code SceneInitFinishReq}
    */
   public static final class SceneInitFinishReq extends
@@ -277,10 +273,6 @@ public final class SceneInitFinishReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4471
-     * </pre>
-     *
      * Protobuf type {@code SceneInitFinishReq}
      */
     public static final class Builder extends

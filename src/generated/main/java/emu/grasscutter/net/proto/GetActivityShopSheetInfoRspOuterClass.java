@@ -55,10 +55,6 @@ public final class GetActivityShopSheetInfoRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 22191
-   * </pre>
-   *
    * Protobuf type {@code GetActivityShopSheetInfoRsp}
    */
   public static final class GetActivityShopSheetInfoRsp extends
@@ -401,10 +397,6 @@ public final class GetActivityShopSheetInfoRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22191
-     * </pre>
-     *
      * Protobuf type {@code GetActivityShopSheetInfoRsp}
      */
     public static final class Builder extends

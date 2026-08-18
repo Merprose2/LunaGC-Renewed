@@ -52,10 +52,6 @@ public final class StartCoopPointRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 27645
-   * </pre>
-   *
    * Protobuf type {@code StartCoopPointRsp}
    */
   public static final class StartCoopPointRsp extends
@@ -414,10 +410,6 @@ public final class StartCoopPointRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 27645
-     * </pre>
-     *
      * Protobuf type {@code StartCoopPointRsp}
      */
     public static final class Builder extends

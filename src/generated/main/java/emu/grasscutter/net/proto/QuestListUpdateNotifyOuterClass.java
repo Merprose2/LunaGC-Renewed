@@ -43,10 +43,6 @@ public final class QuestListUpdateNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 1460
-   * </pre>
-   *
    * Protobuf type {@code QuestListUpdateNotify}
    */
   public static final class QuestListUpdateNotify extends
@@ -335,10 +331,6 @@ public final class QuestListUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 1460
-     * </pre>
-     *
      * Protobuf type {@code QuestListUpdateNotify}
      */
     public static final class Builder extends

@@ -46,10 +46,6 @@ public final class GetBargainDataRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 3576
-   * </pre>
-   *
    * Protobuf type {@code GetBargainDataRsp}
    */
   public static final class GetBargainDataRsp extends
@@ -380,10 +376,6 @@ public final class GetBargainDataRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3576
-     * </pre>
-     *
      * Protobuf type {@code GetBargainDataRsp}
      */
     public static final class Builder extends

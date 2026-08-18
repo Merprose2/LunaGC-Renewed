@@ -31,10 +31,6 @@ public final class SceneInitFinishRspOuterClass {
     int getEnterSceneToken();
   }
   /**
-   * <pre>
-   * CmdID: 3664
-   * </pre>
-   *
    * Protobuf type {@code SceneInitFinishRsp}
    */
   public static final class SceneInitFinishRsp extends
@@ -310,10 +306,6 @@ public final class SceneInitFinishRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3664
-     * </pre>
-     *
      * Protobuf type {@code SceneInitFinishRsp}
      */
     public static final class Builder extends

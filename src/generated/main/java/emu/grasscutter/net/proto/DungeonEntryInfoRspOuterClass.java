@@ -67,10 +67,10 @@ public final class DungeonEntryInfoRspOuterClass {
     int getFirstPassRewardStatus();
 
     /**
-     * <code>bool HGBKKNDDABP = 13;</code>
-     * @return The hGBKKNDDABP.
+     * <code>bool jpmdjmadpil = 13;</code>
+     * @return The jpmdjmadpil.
      */
-    boolean getHGBKKNDDABP();
+    boolean getJpmdjmadpil();
 
     /**
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 15;</code>
@@ -97,10 +97,6 @@ public final class DungeonEntryInfoRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 28891
-   * </pre>
-   *
    * Protobuf type {@code DungeonEntryInfoRsp}
    */
   public static final class DungeonEntryInfoRsp extends
@@ -179,7 +175,7 @@ public final class DungeonEntryInfoRspOuterClass {
             }
             case 104: {
 
-              hGBKKNDDABP_ = input.readBool();
+              jpmdjmadpil_ = input.readBool();
               break;
             }
             case 122: {
@@ -313,15 +309,15 @@ public final class DungeonEntryInfoRspOuterClass {
       return FirstPassRewardStatus_;
     }
 
-    public static final int HGBKKNDDABP_FIELD_NUMBER = 13;
-    private boolean hGBKKNDDABP_;
+    public static final int JPMDJMADPIL_FIELD_NUMBER = 13;
+    private boolean jpmdjmadpil_;
     /**
-     * <code>bool HGBKKNDDABP = 13;</code>
-     * @return The hGBKKNDDABP.
+     * <code>bool jpmdjmadpil = 13;</code>
+     * @return The jpmdjmadpil.
      */
     @java.lang.Override
-    public boolean getHGBKKNDDABP() {
-      return hGBKKNDDABP_;
+    public boolean getJpmdjmadpil() {
+      return jpmdjmadpil_;
     }
 
     public static final int DUNGEON_ENTRY_POINT_LIST_FIELD_NUMBER = 15;
@@ -393,8 +389,8 @@ public final class DungeonEntryInfoRspOuterClass {
       if (FirstPassRewardStatus_ != 0) {
         output.writeUInt32(11, FirstPassRewardStatus_);
       }
-      if (hGBKKNDDABP_ != false) {
-        output.writeBool(13, hGBKKNDDABP_);
+      if (jpmdjmadpil_ != false) {
+        output.writeBool(13, jpmdjmadpil_);
       }
       for (int i = 0; i < dungeonEntryPointList_.size(); i++) {
         output.writeMessage(15, dungeonEntryPointList_.get(i));
@@ -428,9 +424,9 @@ public final class DungeonEntryInfoRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, FirstPassRewardStatus_);
       }
-      if (hGBKKNDDABP_ != false) {
+      if (jpmdjmadpil_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, hGBKKNDDABP_);
+          .computeBoolSize(13, jpmdjmadpil_);
       }
       for (int i = 0; i < dungeonEntryPointList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -461,8 +457,8 @@ public final class DungeonEntryInfoRspOuterClass {
           .equals(other.getDungeonEntryListList())) return false;
       if (getFirstPassRewardStatus()
           != other.getFirstPassRewardStatus()) return false;
-      if (getHGBKKNDDABP()
-          != other.getHGBKKNDDABP()) return false;
+      if (getJpmdjmadpil()
+          != other.getJpmdjmadpil()) return false;
       if (!getDungeonEntryPointListList()
           .equals(other.getDungeonEntryPointListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -488,9 +484,9 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       hash = (37 * hash) + _FIRST_PASS_REWARD_STATUS_FIELD_NUMBER;
       hash = (53 * hash) + getFirstPassRewardStatus();
-      hash = (37 * hash) + HGBKKNDDABP_FIELD_NUMBER;
+      hash = (37 * hash) + JPMDJMADPIL_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getHGBKKNDDABP());
+          getJpmdjmadpil());
       if (getDungeonEntryPointListCount() > 0) {
         hash = (37 * hash) + DUNGEON_ENTRY_POINT_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getDungeonEntryPointListList().hashCode();
@@ -591,10 +587,6 @@ public final class DungeonEntryInfoRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28891
-     * </pre>
-     *
      * Protobuf type {@code DungeonEntryInfoRsp}
      */
     public static final class Builder extends
@@ -648,7 +640,7 @@ public final class DungeonEntryInfoRspOuterClass {
         }
         FirstPassRewardStatus_ = 0;
 
-        hGBKKNDDABP_ = false;
+        jpmdjmadpil_ = false;
 
         if (dungeonEntryPointListBuilder_ == null) {
           dungeonEntryPointList_ = java.util.Collections.emptyList();
@@ -696,7 +688,7 @@ public final class DungeonEntryInfoRspOuterClass {
           result.dungeonEntryList_ = dungeonEntryListBuilder_.build();
         }
         result.FirstPassRewardStatus_ = FirstPassRewardStatus_;
-        result.hGBKKNDDABP_ = hGBKKNDDABP_;
+        result.jpmdjmadpil_ = jpmdjmadpil_;
         if (dungeonEntryPointListBuilder_ == null) {
           if (((bitField0_ & 0x00000002) != 0)) {
             dungeonEntryPointList_ = java.util.Collections.unmodifiableList(dungeonEntryPointList_);
@@ -792,8 +784,8 @@ public final class DungeonEntryInfoRspOuterClass {
         if (other.getFirstPassRewardStatus() != 0) {
           setFirstPassRewardStatus(other.getFirstPassRewardStatus());
         }
-        if (other.getHGBKKNDDABP() != false) {
-          setHGBKKNDDABP(other.getHGBKKNDDABP());
+        if (other.getJpmdjmadpil() != false) {
+          setJpmdjmadpil(other.getJpmdjmadpil());
         }
         if (dungeonEntryPointListBuilder_ == null) {
           if (!other.dungeonEntryPointList_.isEmpty()) {
@@ -1215,33 +1207,33 @@ public final class DungeonEntryInfoRspOuterClass {
         return this;
       }
 
-      private boolean hGBKKNDDABP_ ;
+      private boolean jpmdjmadpil_ ;
       /**
-       * <code>bool HGBKKNDDABP = 13;</code>
-       * @return The hGBKKNDDABP.
+       * <code>bool jpmdjmadpil = 13;</code>
+       * @return The jpmdjmadpil.
        */
       @java.lang.Override
-      public boolean getHGBKKNDDABP() {
-        return hGBKKNDDABP_;
+      public boolean getJpmdjmadpil() {
+        return jpmdjmadpil_;
       }
       /**
-       * <code>bool HGBKKNDDABP = 13;</code>
-       * @param value The hGBKKNDDABP to set.
+       * <code>bool jpmdjmadpil = 13;</code>
+       * @param value The jpmdjmadpil to set.
        * @return This builder for chaining.
        */
-      public Builder setHGBKKNDDABP(boolean value) {
+      public Builder setJpmdjmadpil(boolean value) {
         
-        hGBKKNDDABP_ = value;
+        jpmdjmadpil_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool HGBKKNDDABP = 13;</code>
+       * <code>bool jpmdjmadpil = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearHGBKKNDDABP() {
+      public Builder clearJpmdjmadpil() {
         
-        hGBKKNDDABP_ = false;
+        jpmdjmadpil_ = false;
         onChanged();
         return this;
       }
@@ -1558,7 +1550,7 @@ public final class DungeonEntryInfoRspOuterClass {
       "\005\022\020\n\010point_id\030\004 \001(\r\022\034\n\024recommend_dungeon" +
       "_id\030\006 \001(\r\022-\n\022dungeon_entry_list\030\010 \003(\0132\021." +
       "DungeonEntryInfo\022!\n\031_first_pass_reward_s" +
-      "tatus\030\013 \001(\r\022\023\n\013HGBKKNDDABP\030\r \001(\010\0228\n\030dung" +
+      "tatus\030\013 \001(\r\022\023\n\013jpmdjmadpil\030\r \001(\010\0228\n\030dung" +
       "eon_entry_point_list\030\017 \003(\0132\026.DungeonEntr" +
       "yPointInfoB:\n\031emu.grasscutter.net.protoB" +
       "\035DungeonEntryInfoRspOuterClassb\006proto3"
@@ -1574,7 +1566,7 @@ public final class DungeonEntryInfoRspOuterClass {
     internal_static_DungeonEntryInfoRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DungeonEntryInfoRsp_descriptor,
-        new java.lang.String[] { "Retcode", "PointId", "RecommendDungeonId", "DungeonEntryList", "FirstPassRewardStatus", "HGBKKNDDABP", "DungeonEntryPointList", });
+        new java.lang.String[] { "Retcode", "PointId", "RecommendDungeonId", "DungeonEntryList", "FirstPassRewardStatus", "Jpmdjmadpil", "DungeonEntryPointList", });
     emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.DungeonEntryPointInfoOuterClass.getDescriptor();
   }

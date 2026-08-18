@@ -43,10 +43,6 @@ public final class ExecuteGadgetLuaReqOuterClass {
     int getParam3();
   }
   /**
-   * <pre>
-   * CmdID: 25529
-   * </pre>
-   *
    * Protobuf type {@code ExecuteGadgetLuaReq}
    */
   public static final class ExecuteGadgetLuaReq extends
@@ -376,10 +372,6 @@ public final class ExecuteGadgetLuaReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 25529
-     * </pre>
-     *
      * Protobuf type {@code ExecuteGadgetLuaReq}
      */
     public static final class Builder extends

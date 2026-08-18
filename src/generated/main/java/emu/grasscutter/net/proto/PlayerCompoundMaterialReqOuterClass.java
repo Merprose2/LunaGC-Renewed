@@ -31,10 +31,6 @@ public final class PlayerCompoundMaterialReqOuterClass {
     int getCount();
   }
   /**
-   * <pre>
-   * CmdID: 26581
-   * </pre>
-   *
    * Protobuf type {@code PlayerCompoundMaterialReq}
    */
   public static final class PlayerCompoundMaterialReq extends
@@ -310,10 +306,6 @@ public final class PlayerCompoundMaterialReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26581
-     * </pre>
-     *
      * Protobuf type {@code PlayerCompoundMaterialReq}
      */
     public static final class Builder extends

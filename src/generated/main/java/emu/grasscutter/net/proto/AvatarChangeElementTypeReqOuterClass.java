@@ -31,10 +31,6 @@ public final class AvatarChangeElementTypeReqOuterClass {
     int getSceneId();
   }
   /**
-   * <pre>
-   * CmdID: 23093
-   * </pre>
-   *
    * Protobuf type {@code AvatarChangeElementTypeReq}
    */
   public static final class AvatarChangeElementTypeReq extends
@@ -310,10 +306,6 @@ public final class AvatarChangeElementTypeReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 23093
-     * </pre>
-     *
      * Protobuf type {@code AvatarChangeElementTypeReq}
      */
     public static final class Builder extends

@@ -34,10 +34,6 @@ public final class ReformFireworksReqOuterClass {
     emu.grasscutter.net.proto.FireworksReformDataOuterClass.FireworksReformDataOrBuilder getFireworksReformDataOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 4860
-   * </pre>
-   *
    * Protobuf type {@code ReformFireworksReq}
    */
   public static final class ReformFireworksReq extends
@@ -314,10 +310,6 @@ public final class ReformFireworksReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4860
-     * </pre>
-     *
      * Protobuf type {@code ReformFireworksReq}
      */
     public static final class Builder extends

@@ -73,10 +73,6 @@ public final class GetAuthkeyRspOuterClass {
     int getSignType();
   }
   /**
-   * <pre>
-   * CmdID: 28343
-   * </pre>
-   *
    * Protobuf type {@code GetAuthkeyRsp}
    */
   public static final class GetAuthkeyRsp extends
@@ -544,10 +540,6 @@ public final class GetAuthkeyRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28343
-     * </pre>
-     *
      * Protobuf type {@code GetAuthkeyRsp}
      */
     public static final class Builder extends

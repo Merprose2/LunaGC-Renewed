@@ -73,10 +73,6 @@ public final class TakeBattlePassRewardRspOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 28104
-   * </pre>
-   *
    * Protobuf type {@code TakeBattlePassRewardRsp}
    */
   public static final class TakeBattlePassRewardRsp extends
@@ -458,10 +454,6 @@ public final class TakeBattlePassRewardRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 28104
-     * </pre>
-     *
      * Protobuf type {@code TakeBattlePassRewardRsp}
      */
     public static final class Builder extends

@@ -196,7 +196,7 @@ public final class MistTrialBestAvatarOuterClass {
       if (costumeId_ != 0) {
         output.writeUInt32(13, costumeId_);
       }
-      if (avatarType_ != emu.grasscutter.net.proto.AvatarTypeOuterClass.AvatarType.AvatarType_NONE.getNumber()) {
+      if (avatarType_ != emu.grasscutter.net.proto.AvatarTypeOuterClass.AvatarType.AVATAR_TYPE_NONE.getNumber()) {
         output.writeEnum(14, avatarType_);
       }
       unknownFields.writeTo(output);
@@ -216,7 +216,7 @@ public final class MistTrialBestAvatarOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, costumeId_);
       }
-      if (avatarType_ != emu.grasscutter.net.proto.AvatarTypeOuterClass.AvatarType.AvatarType_NONE.getNumber()) {
+      if (avatarType_ != emu.grasscutter.net.proto.AvatarTypeOuterClass.AvatarType.AVATAR_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(14, avatarType_);
       }

@@ -43,10 +43,6 @@ public final class QuestDestroyEntityRspOuterClass {
     int getSceneId();
   }
   /**
-   * <pre>
-   * CmdID: 23456
-   * </pre>
-   *
    * Protobuf type {@code QuestDestroyEntityRsp}
    */
   public static final class QuestDestroyEntityRsp extends
@@ -376,10 +372,6 @@ public final class QuestDestroyEntityRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 23456
-     * </pre>
-     *
      * Protobuf type {@code QuestDestroyEntityRsp}
      */
     public static final class Builder extends

@@ -43,10 +43,6 @@ public final class ChangeTeamNameRspOuterClass {
     int getRetcode();
   }
   /**
-   * <pre>
-   * CmdID: 8024
-   * </pre>
-   *
    * Protobuf type {@code ChangeTeamNameRsp}
    */
   public static final class ChangeTeamNameRsp extends
@@ -377,10 +373,6 @@ public final class ChangeTeamNameRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8024
-     * </pre>
-     *
      * Protobuf type {@code ChangeTeamNameRsp}
      */
     public static final class Builder extends

@@ -72,10 +72,6 @@ public final class CoopDataNotifyOuterClass {
     boolean getIsHaveProgress();
   }
   /**
-   * <pre>
-   * CmdID: 26685
-   * </pre>
-   *
    * Protobuf type {@code CoopDataNotify}
    */
   public static final class CoopDataNotify extends
@@ -500,10 +496,6 @@ public final class CoopDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 26685
-     * </pre>
-     *
      * Protobuf type {@code CoopDataNotify}
      */
     public static final class Builder extends

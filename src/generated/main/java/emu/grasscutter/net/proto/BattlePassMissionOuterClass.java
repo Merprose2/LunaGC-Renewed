@@ -174,40 +174,40 @@ public final class BattlePassMissionOuterClass {
     public enum MissionStatus
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>MissionStatus_MISSION_INVALID = 0;</code>
+       * <code>MISSION_INVALID = 0;</code>
        */
-      MissionStatus_MISSION_INVALID(0),
+      MISSION_INVALID(0),
       /**
-       * <code>MissionStatus_MISSION_UNFINISHED = 1;</code>
+       * <code>MISSION_UNFINISHED = 1;</code>
        */
-      MissionStatus_MISSION_UNFINISHED(1),
+      MISSION_UNFINISHED(1),
       /**
-       * <code>MissionStatus_MISSION_FINISHED = 2;</code>
+       * <code>MISSION_FINISHED = 2;</code>
        */
-      MissionStatus_MISSION_FINISHED(2),
+      MISSION_FINISHED(2),
       /**
-       * <code>MissionStatus_MISSION_POINT_TAKEN = 3;</code>
+       * <code>MISSION_POINT_TAKEN = 3;</code>
        */
-      MissionStatus_MISSION_POINT_TAKEN(3),
+      MISSION_POINT_TAKEN(3),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>MissionStatus_MISSION_INVALID = 0;</code>
+       * <code>MISSION_INVALID = 0;</code>
        */
-      public static final int MissionStatus_MISSION_INVALID_VALUE = 0;
+      public static final int MISSION_INVALID_VALUE = 0;
       /**
-       * <code>MissionStatus_MISSION_UNFINISHED = 1;</code>
+       * <code>MISSION_UNFINISHED = 1;</code>
        */
-      public static final int MissionStatus_MISSION_UNFINISHED_VALUE = 1;
+      public static final int MISSION_UNFINISHED_VALUE = 1;
       /**
-       * <code>MissionStatus_MISSION_FINISHED = 2;</code>
+       * <code>MISSION_FINISHED = 2;</code>
        */
-      public static final int MissionStatus_MISSION_FINISHED_VALUE = 2;
+      public static final int MISSION_FINISHED_VALUE = 2;
       /**
-       * <code>MissionStatus_MISSION_POINT_TAKEN = 3;</code>
+       * <code>MISSION_POINT_TAKEN = 3;</code>
        */
-      public static final int MissionStatus_MISSION_POINT_TAKEN_VALUE = 3;
+      public static final int MISSION_POINT_TAKEN_VALUE = 3;
 
 
       public final int getNumber() {
@@ -234,10 +234,10 @@ public final class BattlePassMissionOuterClass {
        */
       public static MissionStatus forNumber(int value) {
         switch (value) {
-          case 0: return MissionStatus_MISSION_INVALID;
-          case 1: return MissionStatus_MISSION_UNFINISHED;
-          case 2: return MissionStatus_MISSION_FINISHED;
-          case 3: return MissionStatus_MISSION_POINT_TAKEN;
+          case 0: return MISSION_INVALID;
+          case 1: return MISSION_UNFINISHED;
+          case 2: return MISSION_FINISHED;
+          case 3: return MISSION_POINT_TAKEN;
           default: return null;
         }
       }
@@ -391,7 +391,7 @@ public final class BattlePassMissionOuterClass {
       if (missionId_ != 0) {
         output.writeUInt32(8, missionId_);
       }
-      if (missionStatus_ != emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.MissionStatus_MISSION_INVALID.getNumber()) {
+      if (missionStatus_ != emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.MISSION_INVALID.getNumber()) {
         output.writeEnum(10, missionStatus_);
       }
       if (missionType_ != 0) {
@@ -421,7 +421,7 @@ public final class BattlePassMissionOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, missionId_);
       }
-      if (missionStatus_ != emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.MissionStatus_MISSION_INVALID.getNumber()) {
+      if (missionStatus_ != emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.MISSION_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(10, missionStatus_);
       }
@@ -1029,18 +1029,17 @@ public final class BattlePassMissionOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027BattlePassMission.proto\"\355\002\n\021BattlePass" +
+      "\n\027BattlePassMission.proto\"\264\002\n\021BattlePass" +
       "Mission\022\024\n\014cur_progress\030\001 \001(\r\022 \n\030reward_" +
       "battle_pass_point\030\007 \001(\r\022\022\n\nmission_id\030\010 " +
       "\001(\r\0228\n\016mission_status\030\n \001(\0162 .BattlePass" +
       "Mission.MissionStatus\022\024\n\014mission_type\030\013 " +
-      "\001(\r\022\026\n\016total_progress\030\016 \001(\r\"\243\001\n\rMissionS" +
-      "tatus\022!\n\035MissionStatus_MISSION_INVALID\020\000" +
-      "\022$\n MissionStatus_MISSION_UNFINISHED\020\001\022\"" +
-      "\n\036MissionStatus_MISSION_FINISHED\020\002\022%\n!Mi" +
-      "ssionStatus_MISSION_POINT_TAKEN\020\003B8\n\031emu" +
-      ".grasscutter.net.protoB\033BattlePassMissio" +
-      "nOuterClassb\006proto3"
+      "\001(\r\022\026\n\016total_progress\030\016 \001(\r\"k\n\rMissionSt" +
+      "atus\022\023\n\017MISSION_INVALID\020\000\022\026\n\022MISSION_UNF" +
+      "INISHED\020\001\022\024\n\020MISSION_FINISHED\020\002\022\027\n\023MISSI" +
+      "ON_POINT_TAKEN\020\003B8\n\031emu.grasscutter.net." +
+      "protoB\033BattlePassMissionOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

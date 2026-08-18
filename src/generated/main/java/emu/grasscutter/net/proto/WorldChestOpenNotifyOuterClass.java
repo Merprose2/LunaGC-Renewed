@@ -37,10 +37,6 @@ public final class WorldChestOpenNotifyOuterClass {
     int getConfigId();
   }
   /**
-   * <pre>
-   * CmdID: 22712
-   * </pre>
-   *
    * Protobuf type {@code WorldChestOpenNotify}
    */
   public static final class WorldChestOpenNotify extends
@@ -343,10 +339,6 @@ public final class WorldChestOpenNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 22712
-     * </pre>
-     *
      * Protobuf type {@code WorldChestOpenNotify}
      */
     public static final class Builder extends

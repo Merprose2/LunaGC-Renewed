@@ -55,10 +55,6 @@ public final class AvatarSkillChangeNotifyOuterClass {
     int getAvatarSkillId();
   }
   /**
-   * <pre>
-   * CmdID: 3448
-   * </pre>
-   *
    * Protobuf type {@code AvatarSkillChangeNotify}
    */
   public static final class AvatarSkillChangeNotify extends
@@ -443,10 +439,6 @@ public final class AvatarSkillChangeNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 3448
-     * </pre>
-     *
      * Protobuf type {@code AvatarSkillChangeNotify}
      */
     public static final class Builder extends

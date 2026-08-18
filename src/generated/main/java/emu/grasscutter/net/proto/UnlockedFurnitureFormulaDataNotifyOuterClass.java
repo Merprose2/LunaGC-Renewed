@@ -42,10 +42,6 @@ public final class UnlockedFurnitureFormulaDataNotifyOuterClass {
     boolean getIsAll();
   }
   /**
-   * <pre>
-   * CmdID: 8206
-   * </pre>
-   *
    * Protobuf type {@code UnlockedFurnitureFormulaDataNotify}
    */
   public static final class UnlockedFurnitureFormulaDataNotify extends
@@ -377,10 +373,6 @@ public final class UnlockedFurnitureFormulaDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8206
-     * </pre>
-     *
      * Protobuf type {@code UnlockedFurnitureFormulaDataNotify}
      */
     public static final class Builder extends

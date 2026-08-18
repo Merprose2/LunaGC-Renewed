@@ -108,10 +108,6 @@ public final class WorldPlayerInfoNotifyOuterClass {
         int index);
   }
   /**
-   * <pre>
-   * CmdID: 4488
-   * </pre>
-   *
    * Protobuf type {@code WorldPlayerInfoNotify}
    */
   public static final class WorldPlayerInfoNotify extends
@@ -613,10 +609,6 @@ public final class WorldPlayerInfoNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 4488
-     * </pre>
-     *
      * Protobuf type {@code WorldPlayerInfoNotify}
      */
     public static final class Builder extends

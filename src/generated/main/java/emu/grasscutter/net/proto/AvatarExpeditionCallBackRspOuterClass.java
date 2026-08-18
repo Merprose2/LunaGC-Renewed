@@ -59,10 +59,6 @@ public final class AvatarExpeditionCallBackRspOuterClass {
         long key);
   }
   /**
-   * <pre>
-   * CmdID: 5911
-   * </pre>
-   *
    * Protobuf type {@code AvatarExpeditionCallBackRsp}
    */
   public static final class AvatarExpeditionCallBackRsp extends
@@ -440,10 +436,6 @@ public final class AvatarExpeditionCallBackRspOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 5911
-     * </pre>
-     *
      * Protobuf type {@code AvatarExpeditionCallBackRsp}
      */
     public static final class Builder extends

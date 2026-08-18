@@ -341,32 +341,32 @@ public final class MainCoopOuterClass {
     public enum Status
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>Status_INVALID = 0;</code>
+       * <code>INVALID = 0;</code>
        */
-      Status_INVALID(0),
+      INVALID(0),
       /**
-       * <code>Status_RUNNING = 1;</code>
+       * <code>RUNNING = 1;</code>
        */
-      Status_RUNNING(1),
+      RUNNING(1),
       /**
-       * <code>Status_FINISHED = 2;</code>
+       * <code>FINISHED = 2;</code>
        */
-      Status_FINISHED(2),
+      FINISHED(2),
       UNRECOGNIZED(-1),
       ;
 
       /**
-       * <code>Status_INVALID = 0;</code>
+       * <code>INVALID = 0;</code>
        */
-      public static final int Status_INVALID_VALUE = 0;
+      public static final int INVALID_VALUE = 0;
       /**
-       * <code>Status_RUNNING = 1;</code>
+       * <code>RUNNING = 1;</code>
        */
-      public static final int Status_RUNNING_VALUE = 1;
+      public static final int RUNNING_VALUE = 1;
       /**
-       * <code>Status_FINISHED = 2;</code>
+       * <code>FINISHED = 2;</code>
        */
-      public static final int Status_FINISHED_VALUE = 2;
+      public static final int FINISHED_VALUE = 2;
 
 
       public final int getNumber() {
@@ -393,9 +393,9 @@ public final class MainCoopOuterClass {
        */
       public static Status forNumber(int value) {
         switch (value) {
-          case 0: return Status_INVALID;
-          case 1: return Status_RUNNING;
-          case 2: return Status_FINISHED;
+          case 0: return INVALID;
+          case 1: return RUNNING;
+          case 2: return FINISHED;
           default: return null;
         }
       }
@@ -804,7 +804,7 @@ public final class MainCoopOuterClass {
           internalGetKAFJENECJNC(),
           KAFJENECJNCDefaultEntryHolder.defaultEntry,
           12);
-      if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.Status_INVALID.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.INVALID.getNumber()) {
         output.writeEnum(14, status_);
       }
       com.google.protobuf.GeneratedMessageV3
@@ -864,7 +864,7 @@ public final class MainCoopOuterClass {
         size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(12, kAFJENECJNC__);
       }
-      if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.Status_INVALID.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(14, status_);
       }
@@ -1917,7 +1917,7 @@ public final class MainCoopOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016MainCoop.proto\"\353\003\n\010MainCoop\022/\n\013HONMHLP" +
+      "\n\016MainCoop.proto\"\326\003\n\010MainCoop\022/\n\013HONMHLP" +
       "ABBF\030\002 \003(\0132\032.MainCoop.HONMHLPABBFEntry\022\032" +
       "\n\022save_point_id_list\030\003 \003(\r\022\027\n\017self_confi" +
       "dence\030\004 \001(\r\022\n\n\002id\030\013 \001(\r\022/\n\013KAFJENECJNC\030\014" +
@@ -1928,10 +1928,9 @@ public final class MainCoopOuterClass {
       "lue\030\002 \001(\005:\0028\001\0322\n\020KAFJENECJNCEntry\022\013\n\003key" +
       "\030\001 \001(\r\022\r\n\005value\030\002 \001(\005:\0028\001\0324\n\022SeenEndingM" +
       "apEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\"" +
-      "E\n\006Status\022\022\n\016Status_INVALID\020\000\022\022\n\016Status_" +
-      "RUNNING\020\001\022\023\n\017Status_FINISHED\020\002B/\n\031emu.gr" +
-      "asscutter.net.protoB\022MainCoopOuterClassb" +
-      "\006proto3"
+      "0\n\006Status\022\013\n\007INVALID\020\000\022\013\n\007RUNNING\020\001\022\014\n\010F" +
+      "INISHED\020\002B/\n\031emu.grasscutter.net.protoB\022" +
+      "MainCoopOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

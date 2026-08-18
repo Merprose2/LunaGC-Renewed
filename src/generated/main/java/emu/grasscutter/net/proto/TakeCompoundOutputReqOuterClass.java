@@ -37,10 +37,6 @@ public final class TakeCompoundOutputReqOuterClass {
     int getCompoundGroupId();
   }
   /**
-   * <pre>
-   * CmdID: 24724
-   * </pre>
-   *
    * Protobuf type {@code TakeCompoundOutputReq}
    */
   public static final class TakeCompoundOutputReq extends
@@ -344,10 +340,6 @@ public final class TakeCompoundOutputReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 24724
-     * </pre>
-     *
      * Protobuf type {@code TakeCompoundOutputReq}
      */
     public static final class Builder extends

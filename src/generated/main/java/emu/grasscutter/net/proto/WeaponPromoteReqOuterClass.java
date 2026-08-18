@@ -25,10 +25,6 @@ public final class WeaponPromoteReqOuterClass {
     long getTargetWeaponGuid();
   }
   /**
-   * <pre>
-   * CmdID: 8019
-   * </pre>
-   *
    * Protobuf type {@code WeaponPromoteReq}
    */
   public static final class WeaponPromoteReq extends
@@ -278,10 +274,6 @@ public final class WeaponPromoteReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 8019
-     * </pre>
-     *
      * Protobuf type {@code WeaponPromoteReq}
      */
     public static final class Builder extends

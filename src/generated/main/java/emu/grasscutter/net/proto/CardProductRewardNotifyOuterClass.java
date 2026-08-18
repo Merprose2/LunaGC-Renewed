@@ -49,10 +49,6 @@ public final class CardProductRewardNotifyOuterClass {
         getProductIdBytes();
   }
   /**
-   * <pre>
-   * CmdID: 368
-   * </pre>
-   *
    * Protobuf type {@code CardProductRewardNotify}
    */
   public static final class CardProductRewardNotify extends
@@ -411,10 +407,6 @@ public final class CardProductRewardNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 368
-     * </pre>
-     *
      * Protobuf type {@code CardProductRewardNotify}
      */
     public static final class Builder extends

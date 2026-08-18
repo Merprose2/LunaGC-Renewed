@@ -34,10 +34,6 @@ public final class SetPlayerBirthdayReqOuterClass {
     emu.grasscutter.net.proto.BirthdayOuterClass.BirthdayOrBuilder getBirthdayOrBuilder();
   }
   /**
-   * <pre>
-   * CmdID: 754
-   * </pre>
-   *
    * Protobuf type {@code SetPlayerBirthdayReq}
    */
   public static final class SetPlayerBirthdayReq extends
@@ -314,10 +310,6 @@ public final class SetPlayerBirthdayReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 754
-     * </pre>
-     *
      * Protobuf type {@code SetPlayerBirthdayReq}
      */
     public static final class Builder extends

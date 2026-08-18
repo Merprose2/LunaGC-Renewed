@@ -49,10 +49,10 @@ public final class EffigyChallengeV2LevelDataOuterClass {
     int getGGADAHHNPNB();
 
     /**
-     * <code>uint32 AAAJFEBICMG = 15;</code>
-     * @return The aAAJFEBICMG.
+     * <code>uint32 ppmpmjhejhj = 15;</code>
+     * @return The ppmpmjhejhj.
      */
-    int getAAAJFEBICMG();
+    int getPpmpmjhejhj();
   }
   /**
    * Protobuf type {@code EffigyChallengeV2LevelData}
@@ -126,7 +126,7 @@ public final class EffigyChallengeV2LevelDataOuterClass {
             }
             case 120: {
 
-              aAAJFEBICMG_ = input.readUInt32();
+              ppmpmjhejhj_ = input.readUInt32();
               break;
             }
             default: {
@@ -216,15 +216,15 @@ public final class EffigyChallengeV2LevelDataOuterClass {
       return gGADAHHNPNB_;
     }
 
-    public static final int AAAJFEBICMG_FIELD_NUMBER = 15;
-    private int aAAJFEBICMG_;
+    public static final int PPMPMJHEJHJ_FIELD_NUMBER = 15;
+    private int ppmpmjhejhj_;
     /**
-     * <code>uint32 AAAJFEBICMG = 15;</code>
-     * @return The aAAJFEBICMG.
+     * <code>uint32 ppmpmjhejhj = 15;</code>
+     * @return The ppmpmjhejhj.
      */
     @java.lang.Override
-    public int getAAAJFEBICMG() {
-      return aAAJFEBICMG_;
+    public int getPpmpmjhejhj() {
+      return ppmpmjhejhj_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -256,8 +256,8 @@ public final class EffigyChallengeV2LevelDataOuterClass {
       if (gGADAHHNPNB_ != 0) {
         output.writeUInt32(13, gGADAHHNPNB_);
       }
-      if (aAAJFEBICMG_ != 0) {
-        output.writeUInt32(15, aAAJFEBICMG_);
+      if (ppmpmjhejhj_ != 0) {
+        output.writeUInt32(15, ppmpmjhejhj_);
       }
       unknownFields.writeTo(output);
     }
@@ -288,9 +288,9 @@ public final class EffigyChallengeV2LevelDataOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, gGADAHHNPNB_);
       }
-      if (aAAJFEBICMG_ != 0) {
+      if (ppmpmjhejhj_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, aAAJFEBICMG_);
+          .computeUInt32Size(15, ppmpmjhejhj_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -317,8 +317,8 @@ public final class EffigyChallengeV2LevelDataOuterClass {
           != other.getNHEFNKONPEI()) return false;
       if (getGGADAHHNPNB()
           != other.getGGADAHHNPNB()) return false;
-      if (getAAAJFEBICMG()
-          != other.getAAAJFEBICMG()) return false;
+      if (getPpmpmjhejhj()
+          != other.getPpmpmjhejhj()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -341,8 +341,8 @@ public final class EffigyChallengeV2LevelDataOuterClass {
       hash = (53 * hash) + getNHEFNKONPEI();
       hash = (37 * hash) + GGADAHHNPNB_FIELD_NUMBER;
       hash = (53 * hash) + getGGADAHHNPNB();
-      hash = (37 * hash) + AAAJFEBICMG_FIELD_NUMBER;
-      hash = (53 * hash) + getAAAJFEBICMG();
+      hash = (37 * hash) + PPMPMJHEJHJ_FIELD_NUMBER;
+      hash = (53 * hash) + getPpmpmjhejhj();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -486,7 +486,7 @@ public final class EffigyChallengeV2LevelDataOuterClass {
 
         gGADAHHNPNB_ = 0;
 
-        aAAJFEBICMG_ = 0;
+        ppmpmjhejhj_ = 0;
 
         return this;
       }
@@ -519,7 +519,7 @@ public final class EffigyChallengeV2LevelDataOuterClass {
         result.levelId_ = levelId_;
         result.nHEFNKONPEI_ = nHEFNKONPEI_;
         result.gGADAHHNPNB_ = gGADAHHNPNB_;
-        result.aAAJFEBICMG_ = aAAJFEBICMG_;
+        result.ppmpmjhejhj_ = ppmpmjhejhj_;
         onBuilt();
         return result;
       }
@@ -583,8 +583,8 @@ public final class EffigyChallengeV2LevelDataOuterClass {
         if (other.getGGADAHHNPNB() != 0) {
           setGGADAHHNPNB(other.getGGADAHHNPNB());
         }
-        if (other.getAAAJFEBICMG() != 0) {
-          setAAAJFEBICMG(other.getAAAJFEBICMG());
+        if (other.getPpmpmjhejhj() != 0) {
+          setPpmpmjhejhj(other.getPpmpmjhejhj());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -770,33 +770,33 @@ public final class EffigyChallengeV2LevelDataOuterClass {
         return this;
       }
 
-      private int aAAJFEBICMG_ ;
+      private int ppmpmjhejhj_ ;
       /**
-       * <code>uint32 AAAJFEBICMG = 15;</code>
-       * @return The aAAJFEBICMG.
+       * <code>uint32 ppmpmjhejhj = 15;</code>
+       * @return The ppmpmjhejhj.
        */
       @java.lang.Override
-      public int getAAAJFEBICMG() {
-        return aAAJFEBICMG_;
+      public int getPpmpmjhejhj() {
+        return ppmpmjhejhj_;
       }
       /**
-       * <code>uint32 AAAJFEBICMG = 15;</code>
-       * @param value The aAAJFEBICMG to set.
+       * <code>uint32 ppmpmjhejhj = 15;</code>
+       * @param value The ppmpmjhejhj to set.
        * @return This builder for chaining.
        */
-      public Builder setAAAJFEBICMG(int value) {
+      public Builder setPpmpmjhejhj(int value) {
         
-        aAAJFEBICMG_ = value;
+        ppmpmjhejhj_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 AAAJFEBICMG = 15;</code>
+       * <code>uint32 ppmpmjhejhj = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAAAJFEBICMG() {
+      public Builder clearPpmpmjhejhj() {
         
-        aAAJFEBICMG_ = 0;
+        ppmpmjhejhj_ = 0;
         onChanged();
         return this;
       }
@@ -871,7 +871,7 @@ public final class EffigyChallengeV2LevelDataOuterClass {
       "ffigyChallengeV2LevelData\022\023\n\013EFFLFFBKDAC" +
       "\030\001 \001(\r\022\025\n\ris_level_open\030\004 \001(\010\022\020\n\010level_i" +
       "d\030\n \001(\r\022\023\n\013NHEFNKONPEI\030\013 \001(\r\022\023\n\013GGADAHHN" +
-      "PNB\030\r \001(\r\022\023\n\013AAAJFEBICMG\030\017 \001(\rBA\n\031emu.gr" +
+      "PNB\030\r \001(\r\022\023\n\013ppmpmjhejhj\030\017 \001(\rBA\n\031emu.gr" +
       "asscutter.net.protoB$EffigyChallengeV2Le" +
       "velDataOuterClassb\006proto3"
     };
@@ -884,7 +884,7 @@ public final class EffigyChallengeV2LevelDataOuterClass {
     internal_static_EffigyChallengeV2LevelData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EffigyChallengeV2LevelData_descriptor,
-        new java.lang.String[] { "EFFLFFBKDAC", "IsLevelOpen", "LevelId", "NHEFNKONPEI", "GGADAHHNPNB", "AAAJFEBICMG", });
+        new java.lang.String[] { "EFFLFFBKDAC", "IsLevelOpen", "LevelId", "NHEFNKONPEI", "GGADAHHNPNB", "Ppmpmjhejhj", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -77,10 +77,6 @@ public final class SceneAreaWeatherNotifyOuterClass {
     int getWeatherGadgetId();
   }
   /**
-   * <pre>
-   * CmdID: 23423
-   * </pre>
-   *
    * Protobuf type {@code SceneAreaWeatherNotify}
    */
   public static final class SceneAreaWeatherNotify extends
@@ -541,10 +537,6 @@ public final class SceneAreaWeatherNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdID: 23423
-     * </pre>
-     *
      * Protobuf type {@code SceneAreaWeatherNotify}
      */
     public static final class Builder extends

@@ -19,10 +19,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 BFKIBGBAPCE = 2;</code>
-     * @return The bFKIBGBAPCE.
+     * <code>uint32 _left_hp = 2;</code>
+     * @return The leftHp.
      */
-    int getBFKIBGBAPCE();
+    int getLeftHp();
 
     /**
      * <code>bool is_new_record = 5;</code>
@@ -37,10 +37,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
     int getKillNum();
 
     /**
-     * <code>uint32 OJPDEGFFNJC = 7;</code>
-     * @return The oJPDEGFFNJC.
+     * <code>uint32 _succ_wave = 7;</code>
+     * @return The succWave.
      */
-    int getOJPDEGFFNJC();
+    int getSuccWave();
 
     /**
      * <code>uint32 level_id = 8;</code>
@@ -61,10 +61,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
     int getMaxHp();
 
     /**
-     * <code>uint32 PCFKABCPMOM = 15;</code>
-     * @return The pCFKABCPMOM.
+     * <code>uint32 _max_wave = 15;</code>
+     * @return The maxWave.
      */
-    int getPCFKABCPMOM();
+    int getMaxWave();
   }
   /**
    * Protobuf type {@code _TowerDefenseSettleInfo}
@@ -113,7 +113,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
               break;
             case 16: {
 
-              bFKIBGBAPCE_ = input.readUInt32();
+              LeftHp_ = input.readUInt32();
               break;
             }
             case 40: {
@@ -128,7 +128,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
             }
             case 56: {
 
-              oJPDEGFFNJC_ = input.readUInt32();
+              SuccWave_ = input.readUInt32();
               break;
             }
             case 64: {
@@ -148,7 +148,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
             }
             case 120: {
 
-              pCFKABCPMOM_ = input.readUInt32();
+              MaxWave_ = input.readUInt32();
               break;
             }
             default: {
@@ -183,15 +183,15 @@ public final class _TowerDefenseSettleInfoOuterClass {
               emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo.class, emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo.Builder.class);
     }
 
-    public static final int BFKIBGBAPCE_FIELD_NUMBER = 2;
-    private int bFKIBGBAPCE_;
+    public static final int _LEFT_HP_FIELD_NUMBER = 2;
+    private int LeftHp_;
     /**
-     * <code>uint32 BFKIBGBAPCE = 2;</code>
-     * @return The bFKIBGBAPCE.
+     * <code>uint32 _left_hp = 2;</code>
+     * @return The leftHp.
      */
     @java.lang.Override
-    public int getBFKIBGBAPCE() {
-      return bFKIBGBAPCE_;
+    public int getLeftHp() {
+      return LeftHp_;
     }
 
     public static final int IS_NEW_RECORD_FIELD_NUMBER = 5;
@@ -216,15 +216,15 @@ public final class _TowerDefenseSettleInfoOuterClass {
       return killNum_;
     }
 
-    public static final int OJPDEGFFNJC_FIELD_NUMBER = 7;
-    private int oJPDEGFFNJC_;
+    public static final int _SUCC_WAVE_FIELD_NUMBER = 7;
+    private int SuccWave_;
     /**
-     * <code>uint32 OJPDEGFFNJC = 7;</code>
-     * @return The oJPDEGFFNJC.
+     * <code>uint32 _succ_wave = 7;</code>
+     * @return The succWave.
      */
     @java.lang.Override
-    public int getOJPDEGFFNJC() {
-      return oJPDEGFFNJC_;
+    public int getSuccWave() {
+      return SuccWave_;
     }
 
     public static final int LEVEL_ID_FIELD_NUMBER = 8;
@@ -260,15 +260,15 @@ public final class _TowerDefenseSettleInfoOuterClass {
       return maxHp_;
     }
 
-    public static final int PCFKABCPMOM_FIELD_NUMBER = 15;
-    private int pCFKABCPMOM_;
+    public static final int _MAX_WAVE_FIELD_NUMBER = 15;
+    private int MaxWave_;
     /**
-     * <code>uint32 PCFKABCPMOM = 15;</code>
-     * @return The pCFKABCPMOM.
+     * <code>uint32 _max_wave = 15;</code>
+     * @return The maxWave.
      */
     @java.lang.Override
-    public int getPCFKABCPMOM() {
-      return pCFKABCPMOM_;
+    public int getMaxWave() {
+      return MaxWave_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -285,8 +285,8 @@ public final class _TowerDefenseSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (bFKIBGBAPCE_ != 0) {
-        output.writeUInt32(2, bFKIBGBAPCE_);
+      if (LeftHp_ != 0) {
+        output.writeUInt32(2, LeftHp_);
       }
       if (isNewRecord_ != false) {
         output.writeBool(5, isNewRecord_);
@@ -294,8 +294,8 @@ public final class _TowerDefenseSettleInfoOuterClass {
       if (killNum_ != 0) {
         output.writeUInt32(6, killNum_);
       }
-      if (oJPDEGFFNJC_ != 0) {
-        output.writeUInt32(7, oJPDEGFFNJC_);
+      if (SuccWave_ != 0) {
+        output.writeUInt32(7, SuccWave_);
       }
       if (levelId_ != 0) {
         output.writeUInt32(8, levelId_);
@@ -306,8 +306,8 @@ public final class _TowerDefenseSettleInfoOuterClass {
       if (maxHp_ != 0) {
         output.writeUInt32(14, maxHp_);
       }
-      if (pCFKABCPMOM_ != 0) {
-        output.writeUInt32(15, pCFKABCPMOM_);
+      if (MaxWave_ != 0) {
+        output.writeUInt32(15, MaxWave_);
       }
       unknownFields.writeTo(output);
     }
@@ -318,9 +318,9 @@ public final class _TowerDefenseSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (bFKIBGBAPCE_ != 0) {
+      if (LeftHp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, bFKIBGBAPCE_);
+          .computeUInt32Size(2, LeftHp_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -330,9 +330,9 @@ public final class _TowerDefenseSettleInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, killNum_);
       }
-      if (oJPDEGFFNJC_ != 0) {
+      if (SuccWave_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, oJPDEGFFNJC_);
+          .computeUInt32Size(7, SuccWave_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -346,9 +346,9 @@ public final class _TowerDefenseSettleInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, maxHp_);
       }
-      if (pCFKABCPMOM_ != 0) {
+      if (MaxWave_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, pCFKABCPMOM_);
+          .computeUInt32Size(15, MaxWave_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -365,22 +365,22 @@ public final class _TowerDefenseSettleInfoOuterClass {
       }
       emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo other = (emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo) obj;
 
-      if (getBFKIBGBAPCE()
-          != other.getBFKIBGBAPCE()) return false;
+      if (getLeftHp()
+          != other.getLeftHp()) return false;
       if (getIsNewRecord()
           != other.getIsNewRecord()) return false;
       if (getKillNum()
           != other.getKillNum()) return false;
-      if (getOJPDEGFFNJC()
-          != other.getOJPDEGFFNJC()) return false;
+      if (getSuccWave()
+          != other.getSuccWave()) return false;
       if (getLevelId()
           != other.getLevelId()) return false;
       if (getIsSucc()
           != other.getIsSucc()) return false;
       if (getMaxHp()
           != other.getMaxHp()) return false;
-      if (getPCFKABCPMOM()
-          != other.getPCFKABCPMOM()) return false;
+      if (getMaxWave()
+          != other.getMaxWave()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -392,15 +392,15 @@ public final class _TowerDefenseSettleInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + BFKIBGBAPCE_FIELD_NUMBER;
-      hash = (53 * hash) + getBFKIBGBAPCE();
+      hash = (37 * hash) + _LEFT_HP_FIELD_NUMBER;
+      hash = (53 * hash) + getLeftHp();
       hash = (37 * hash) + IS_NEW_RECORD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsNewRecord());
       hash = (37 * hash) + KILL_NUM_FIELD_NUMBER;
       hash = (53 * hash) + getKillNum();
-      hash = (37 * hash) + OJPDEGFFNJC_FIELD_NUMBER;
-      hash = (53 * hash) + getOJPDEGFFNJC();
+      hash = (37 * hash) + _SUCC_WAVE_FIELD_NUMBER;
+      hash = (53 * hash) + getSuccWave();
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
       hash = (37 * hash) + IS_SUCC_FIELD_NUMBER;
@@ -408,8 +408,8 @@ public final class _TowerDefenseSettleInfoOuterClass {
           getIsSucc());
       hash = (37 * hash) + MAX_HP_FIELD_NUMBER;
       hash = (53 * hash) + getMaxHp();
-      hash = (37 * hash) + PCFKABCPMOM_FIELD_NUMBER;
-      hash = (53 * hash) + getPCFKABCPMOM();
+      hash = (37 * hash) + _MAX_WAVE_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxWave();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -543,13 +543,13 @@ public final class _TowerDefenseSettleInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        bFKIBGBAPCE_ = 0;
+        LeftHp_ = 0;
 
         isNewRecord_ = false;
 
         killNum_ = 0;
 
-        oJPDEGFFNJC_ = 0;
+        SuccWave_ = 0;
 
         levelId_ = 0;
 
@@ -557,7 +557,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
         maxHp_ = 0;
 
-        pCFKABCPMOM_ = 0;
+        MaxWave_ = 0;
 
         return this;
       }
@@ -585,14 +585,14 @@ public final class _TowerDefenseSettleInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo buildPartial() {
         emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo result = new emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo(this);
-        result.bFKIBGBAPCE_ = bFKIBGBAPCE_;
+        result.LeftHp_ = LeftHp_;
         result.isNewRecord_ = isNewRecord_;
         result.killNum_ = killNum_;
-        result.oJPDEGFFNJC_ = oJPDEGFFNJC_;
+        result.SuccWave_ = SuccWave_;
         result.levelId_ = levelId_;
         result.isSucc_ = isSucc_;
         result.maxHp_ = maxHp_;
-        result.pCFKABCPMOM_ = pCFKABCPMOM_;
+        result.MaxWave_ = MaxWave_;
         onBuilt();
         return result;
       }
@@ -641,8 +641,8 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo other) {
         if (other == emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo.getDefaultInstance()) return this;
-        if (other.getBFKIBGBAPCE() != 0) {
-          setBFKIBGBAPCE(other.getBFKIBGBAPCE());
+        if (other.getLeftHp() != 0) {
+          setLeftHp(other.getLeftHp());
         }
         if (other.getIsNewRecord() != false) {
           setIsNewRecord(other.getIsNewRecord());
@@ -650,8 +650,8 @@ public final class _TowerDefenseSettleInfoOuterClass {
         if (other.getKillNum() != 0) {
           setKillNum(other.getKillNum());
         }
-        if (other.getOJPDEGFFNJC() != 0) {
-          setOJPDEGFFNJC(other.getOJPDEGFFNJC());
+        if (other.getSuccWave() != 0) {
+          setSuccWave(other.getSuccWave());
         }
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
@@ -662,8 +662,8 @@ public final class _TowerDefenseSettleInfoOuterClass {
         if (other.getMaxHp() != 0) {
           setMaxHp(other.getMaxHp());
         }
-        if (other.getPCFKABCPMOM() != 0) {
-          setPCFKABCPMOM(other.getPCFKABCPMOM());
+        if (other.getMaxWave() != 0) {
+          setMaxWave(other.getMaxWave());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -694,33 +694,33 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
 
-      private int bFKIBGBAPCE_ ;
+      private int LeftHp_ ;
       /**
-       * <code>uint32 BFKIBGBAPCE = 2;</code>
-       * @return The bFKIBGBAPCE.
+       * <code>uint32 _left_hp = 2;</code>
+       * @return The leftHp.
        */
       @java.lang.Override
-      public int getBFKIBGBAPCE() {
-        return bFKIBGBAPCE_;
+      public int getLeftHp() {
+        return LeftHp_;
       }
       /**
-       * <code>uint32 BFKIBGBAPCE = 2;</code>
-       * @param value The bFKIBGBAPCE to set.
+       * <code>uint32 _left_hp = 2;</code>
+       * @param value The leftHp to set.
        * @return This builder for chaining.
        */
-      public Builder setBFKIBGBAPCE(int value) {
+      public Builder setLeftHp(int value) {
         
-        bFKIBGBAPCE_ = value;
+        LeftHp_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 BFKIBGBAPCE = 2;</code>
+       * <code>uint32 _left_hp = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBFKIBGBAPCE() {
+      public Builder clearLeftHp() {
         
-        bFKIBGBAPCE_ = 0;
+        LeftHp_ = 0;
         onChanged();
         return this;
       }
@@ -787,33 +787,33 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
 
-      private int oJPDEGFFNJC_ ;
+      private int SuccWave_ ;
       /**
-       * <code>uint32 OJPDEGFFNJC = 7;</code>
-       * @return The oJPDEGFFNJC.
+       * <code>uint32 _succ_wave = 7;</code>
+       * @return The succWave.
        */
       @java.lang.Override
-      public int getOJPDEGFFNJC() {
-        return oJPDEGFFNJC_;
+      public int getSuccWave() {
+        return SuccWave_;
       }
       /**
-       * <code>uint32 OJPDEGFFNJC = 7;</code>
-       * @param value The oJPDEGFFNJC to set.
+       * <code>uint32 _succ_wave = 7;</code>
+       * @param value The succWave to set.
        * @return This builder for chaining.
        */
-      public Builder setOJPDEGFFNJC(int value) {
+      public Builder setSuccWave(int value) {
         
-        oJPDEGFFNJC_ = value;
+        SuccWave_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 OJPDEGFFNJC = 7;</code>
+       * <code>uint32 _succ_wave = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOJPDEGFFNJC() {
+      public Builder clearSuccWave() {
         
-        oJPDEGFFNJC_ = 0;
+        SuccWave_ = 0;
         onChanged();
         return this;
       }
@@ -911,33 +911,33 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
 
-      private int pCFKABCPMOM_ ;
+      private int MaxWave_ ;
       /**
-       * <code>uint32 PCFKABCPMOM = 15;</code>
-       * @return The pCFKABCPMOM.
+       * <code>uint32 _max_wave = 15;</code>
+       * @return The maxWave.
        */
       @java.lang.Override
-      public int getPCFKABCPMOM() {
-        return pCFKABCPMOM_;
+      public int getMaxWave() {
+        return MaxWave_;
       }
       /**
-       * <code>uint32 PCFKABCPMOM = 15;</code>
-       * @param value The pCFKABCPMOM to set.
+       * <code>uint32 _max_wave = 15;</code>
+       * @param value The maxWave to set.
        * @return This builder for chaining.
        */
-      public Builder setPCFKABCPMOM(int value) {
+      public Builder setMaxWave(int value) {
         
-        pCFKABCPMOM_ = value;
+        MaxWave_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 PCFKABCPMOM = 15;</code>
+       * <code>uint32 _max_wave = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPCFKABCPMOM() {
+      public Builder clearMaxWave() {
         
-        pCFKABCPMOM_ = 0;
+        MaxWave_ = 0;
         onChanged();
         return this;
       }
@@ -1008,14 +1008,13 @@ public final class _TowerDefenseSettleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035_TowerDefenseSettleInfo.proto\"\264\001\n\027_Tow" +
-      "erDefenseSettleInfo\022\023\n\013BFKIBGBAPCE\030\002 \001(\r" +
-      "\022\025\n\ris_new_record\030\005 \001(\010\022\020\n\010kill_num\030\006 \001(" +
-      "\r\022\023\n\013OJPDEGFFNJC\030\007 \001(\r\022\020\n\010level_id\030\010 \001(\r" +
-      "\022\017\n\007is_succ\030\013 \001(\010\022\016\n\006max_hp\030\016 \001(\r\022\023\n\013PCF" +
-      "KABCPMOM\030\017 \001(\rB>\n\031emu.grasscutter.net.pr" +
-      "otoB!_TowerDefenseSettleInfoOuterClassb\006" +
-      "proto3"
+      "\n\035_TowerDefenseSettleInfo.proto\"\256\001\n\027_Tow" +
+      "erDefenseSettleInfo\022\020\n\010_left_hp\030\002 \001(\r\022\025\n" +
+      "\ris_new_record\030\005 \001(\010\022\020\n\010kill_num\030\006 \001(\r\022\022" +
+      "\n\n_succ_wave\030\007 \001(\r\022\020\n\010level_id\030\010 \001(\r\022\017\n\007" +
+      "is_succ\030\013 \001(\010\022\016\n\006max_hp\030\016 \001(\r\022\021\n\t_max_wa" +
+      "ve\030\017 \001(\rB>\n\031emu.grasscutter.net.protoB!_" +
+      "TowerDefenseSettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1026,7 +1025,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
     internal_static__TowerDefenseSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static__TowerDefenseSettleInfo_descriptor,
-        new java.lang.String[] { "BFKIBGBAPCE", "IsNewRecord", "KillNum", "OJPDEGFFNJC", "LevelId", "IsSucc", "MaxHp", "PCFKABCPMOM", });
+        new java.lang.String[] { "LeftHp", "IsNewRecord", "KillNum", "SuccWave", "LevelId", "IsSucc", "MaxHp", "MaxWave", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
