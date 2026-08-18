@@ -20,9 +20,9 @@ import emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo;
 import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
 import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
 import emu.grasscutter.net.proto.VectorOuterClass.Vector;
+import emu.grasscutter.net.proto._TrifleGadgetInfoOuterClass._TrifleGadgetInfo;
 import emu.grasscutter.server.packet.send.PacketGadgetInteractRsp;
 import emu.grasscutter.utils.helpers.ProtoHelper;
-import emu.grasscutter.net.proto.TrifleGadgetOuterClass.TrifleGadget;
 import it.unimi.dsi.fastutil.ints.Int2FloatMap;
 import lombok.Getter;
 
@@ -147,7 +147,7 @@ public class EntityItem extends EntityBaseGadget {
         SceneGadgetInfo.Builder gadgetInfo =
                 SceneGadgetInfo.newBuilder()
                         .setGadgetId(this.getItemData().getGadgetId())
-                        .setTrifleGadget(TrifleGadget.newBuilder().setItem(this.getItem().toProto()))
+                        .setTrifleGadget(_TrifleGadgetInfo.newBuilder().setItem(this.getItem().toProto()))
                         .setBornType(GadgetBornType.GadgetBornType_GADGET_BORN_IN_AIR)
                         .setAuthorityPeerId(this.getWorld().getHostPeerId())
                         .setIsEnableInteract(true);
