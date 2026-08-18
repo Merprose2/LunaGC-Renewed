@@ -8,6 +8,8 @@ import emu.grasscutter.game.entity.gadget.chest.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.proto.InvestigationMonsterOuterClass;
 import emu.grasscutter.net.proto.LockStateOuterClass;
+import emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass;
+import emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass;
 import emu.grasscutter.scripts.data.*;
 import emu.grasscutter.server.game.*;
 import java.util.*;
@@ -180,22 +182,36 @@ public class WorldDataSystem extends BaseGameSystem {
 			}
 		}
 
-		return InvestigationMonsterProto66.build(
-				imd.getId(),
-				imd.getCityId(),
-				sceneId,
-				groupId,
-				monsterId,
-				pos,
-				level,
-				180,
-				0,
-				resin,
-				0,
-				maxBossChestNum,
-				0,
-				imd.getCGAJKDOHDKN(),
-				true);
+		var builder = InvestigationMonsterOuterClass.InvestigationMonster.newBuilder();
+
+		// id/city_id remain at top-level; details and monster config are nested
+		builder.setId(imd.getId()).setCityId(imd.getCityId());
+
+		var detail =
+				_InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.newBuilder()
+						.setMonsterConfig(
+								_InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig
+										.newBuilder()
+										.setSceneId(sceneId)
+										.setGroupId(groupId)
+										.setMonsterId(monsterId))
+						.setLevel(level)
+						.setIsAlive(true)
+						.setNextRefreshTime(Integer.MAX_VALUE)
+						.setRefreshInterval(Integer.MAX_VALUE)
+						.setPos(pos.toProto());
+
+		if ("Boss".equals(imd.getMonsterCategory())) {
+			if (resin > 0) {
+				detail.setResin(resin);
+			}
+			if (maxBossChestNum > 0) {
+				detail.setMaxBossChestNum(maxBossChestNum);
+			}
+		}
+
+		builder.addInvestigationMonsterDetaillist(detail);
+		return builder.build();
 	}
 
     public List<InvestigationMonsterOuterClass.InvestigationMonster> getInvestigationMonstersByCityId(
@@ -265,22 +281,29 @@ public class WorldDataSystem extends BaseGameSystem {
 			resin = 40;
 		}
 
-		return InvestigationMonsterProto66.build(
-				imd.getId(),
-				imd.getCityId(),
-				sceneId,
-				groupId,
-				monsterId,
-				markerPos,
-				getDefaultInvestigationMonsterLevel(player),
-				180,
-				0,
-				resin,
-				0,
-				1,
-				0,
-				imd.getCGAJKDOHDKN(),
-				true);
+		var builder = InvestigationMonsterOuterClass.InvestigationMonster.newBuilder();
+
+		builder.setId(imd.getId()).setCityId(imd.getCityId());
+
+		var detail =
+				_InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.newBuilder()
+						.setMonsterConfig(
+								_InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig
+										.newBuilder()
+										.setSceneId(sceneId)
+										.setGroupId(groupId)
+										.setMonsterId(monsterId))
+						.setLevel(getDefaultInvestigationMonsterLevel(player))
+						.setIsAlive(true)
+						.setNextRefreshTime(Integer.MAX_VALUE)
+						.setRefreshInterval(Integer.MAX_VALUE)
+						.setPos(markerPos.toProto());
+
+		detail.setResin(resin);
+		detail.setMaxBossChestNum(1);
+
+		builder.addInvestigationMonsterDetaillist(detail);
+		return builder.build();
 	}
 
     private SceneMonster findInvestigationMonsterInGroup(
@@ -298,7 +321,7 @@ public class WorldDataSystem extends BaseGameSystem {
     }
 
     private void applyBossChestData(
-            InvestigationMonsterOuterClass.InvestigationMonster.Builder builder,
+            _InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.Builder detail,
             InvestigationMonsterData imd,
             int sceneId,
             int groupId) {
@@ -307,8 +330,8 @@ public class WorldDataSystem extends BaseGameSystem {
         if (group != null) {
             var bossChest = group.searchBossChestInGroup();
             if (bossChest.isPresent()) {
-                builder.setResin(bossChest.get().resin);
-                builder.setMaxBossChestNum(bossChest.get().take_num);
+                detail.setResin(bossChest.get().resin);
+                detail.setMaxBossChestNum(bossChest.get().take_num);
                 return;
             }
         }
@@ -318,8 +341,8 @@ public class WorldDataSystem extends BaseGameSystem {
             resin = 40;
         }
 
-        builder.setResin(resin);
-        builder.setMaxBossChestNum(1);
+        detail.setResin(resin);
+        detail.setMaxBossChestNum(1);
     }
 
     private int getDefaultInvestigationMonsterLevel(Player player) {
