@@ -7,10 +7,6 @@ import emu.grasscutter.data.excels.world.WorldLevelData;
 import emu.grasscutter.game.entity.gadget.chest.*;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.proto.InvestigationMonsterOuterClass;
-<<<<<<< HEAD
-import emu.grasscutter.net.proto.LockStateOuterClass;
-=======
->>>>>>> 1b6e71b5 (fix(proto): adapt call sites to the shapes 7.0 actually changed)
 import emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass;
 import emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass;
 import emu.grasscutter.scripts.data.*;
@@ -21,23 +17,23 @@ import java.util.concurrent.ConcurrentHashMap;
 public class WorldDataSystem extends BaseGameSystem {
     private final Map<String, ChestInteractHandler> chestInteractHandlerMap;
     private final Map<String, SceneGroup> sceneInvestigationGroupMap;
-	
-	private static final int BATHYSMAL_VISHAP_HERD_INVESTIGATION_ID = 37;
-	private static final int BATHYSMAL_VISHAP_HERD_GROUP_ID = 155005095;
 
-	// Verified fallback spawn locations for bosses whose original 5.5+ scene groups are not
-	// available in the current resources. Keyed by InvestigationMonsterConfigData id.
-	private static final Map<Integer, Position> BOSS_MARKER_POSITION_OVERRIDES =
-			Map.ofEntries(
-					Map.entry(79, new Position(-2251.9714f, 49.476456f, 9916.862f)),
-					Map.entry(81, new Position(-3727.111f, 200.8754f, 11969.676f)),
-					Map.entry(87, new Position(1471.1244f, 202.01233f, 10044.031f)),
-					Map.entry(88, new Position(2504.9219f, 188.9483f, 9299.773f)),
-					Map.entry(89, new Position(2327.8179f, 200.41061f, 10755.111f)),
-					Map.entry(90, new Position(3423.3567f, 102.921936f, 9508.739f)),
-					Map.entry(92, new Position(6406.6543f, 200.07468f, 10363.549f)),
-					Map.entry(93, new Position(5792.5312f, 183.56174f, 9684.56f)),
-					Map.entry(94, new Position(4200.399f, 91.27003f, -258.2993f)));
+    private static final int BATHYSMAL_VISHAP_HERD_INVESTIGATION_ID = 37;
+    private static final int BATHYSMAL_VISHAP_HERD_GROUP_ID = 155005095;
+
+    // Verified fallback spawn locations for bosses whose original 5.5+ scene groups are not
+    // available in the current resources. Keyed by InvestigationMonsterConfigData id.
+    private static final Map<Integer, Position> BOSS_MARKER_POSITION_OVERRIDES =
+            Map.ofEntries(
+                    Map.entry(79, new Position(-2251.9714f, 49.476456f, 9916.862f)),
+                    Map.entry(81, new Position(-3727.111f, 200.8754f, 11969.676f)),
+                    Map.entry(87, new Position(1471.1244f, 202.01233f, 10044.031f)),
+                    Map.entry(88, new Position(2504.9219f, 188.9483f, 9299.773f)),
+                    Map.entry(89, new Position(2327.8179f, 200.41061f, 10755.111f)),
+                    Map.entry(90, new Position(3423.3567f, 102.921936f, 9508.739f)),
+                    Map.entry(92, new Position(6406.6543f, 200.07468f, 10363.549f)),
+                    Map.entry(93, new Position(5792.5312f, 183.56174f, 9684.56f)),
+                    Map.entry(94, new Position(4200.399f, 91.27003f, -258.2993f)));
 
     public WorldDataSystem(GameServer server) {
         super(server);
@@ -92,22 +88,22 @@ public class WorldDataSystem extends BaseGameSystem {
     }
 
     private SceneGroup getInvestigationGroup(int sceneId, int groupId) {
-		var key = sceneId + "_" + groupId;
+        var key = sceneId + "_" + groupId;
 
-		if (!sceneInvestigationGroupMap.containsKey(key)) {
-			try {
-				var group = SceneGroup.of(groupId).load(sceneId);
-				sceneInvestigationGroupMap.putIfAbsent(key, group);
-				return group;
-			} catch (Exception e) {
-				Grasscutter.getLogger()
-						.debug("Failed to load investigation group {} in scene {}", groupId, sceneId, e);
-				return null;
-			}
-		}
+        if (!sceneInvestigationGroupMap.containsKey(key)) {
+            try {
+                var group = SceneGroup.of(groupId).load(sceneId);
+                sceneInvestigationGroupMap.putIfAbsent(key, group);
+                return group;
+            } catch (Exception e) {
+                Grasscutter.getLogger()
+                        .debug("Failed to load investigation group {} in scene {}", groupId, sceneId, e);
+                return null;
+            }
+        }
 
-		return sceneInvestigationGroupMap.get(key);
-	}
+        return sceneInvestigationGroupMap.get(key);
+    }
 
     public int getMonsterLevel(SceneMonster monster, World world) {
         int level = monster.level;
@@ -121,105 +117,39 @@ public class WorldDataSystem extends BaseGameSystem {
     }
 
     private InvestigationMonsterOuterClass.InvestigationMonster getInvestigationMonster(
-			Player player, InvestigationMonsterData imd) {
-		if (imd.getGroupIdList() == null
-				|| imd.getGroupIdList().isEmpty()
-				|| imd.getMonsterIdList() == null
-				|| imd.getMonsterIdList().isEmpty()) {
-			return null;
-		}
+            Player player, InvestigationMonsterData imd) {
+        if (imd.getGroupIdList() == null
+                || imd.getGroupIdList().isEmpty()
+                || imd.getMonsterIdList() == null
+                || imd.getMonsterIdList().isEmpty()) {
+            return null;
+        }
 
-		int groupId = imd.getGroupIdList().get(0);
-		int monsterId = imd.getMonsterIdList().get(0);
-		int sceneId = getInvestigationMonsterSceneId(imd);
+        int groupId = imd.getGroupIdList().get(0);
+        int monsterId = imd.getMonsterIdList().get(0);
+        int sceneId = getInvestigationMonsterSceneId(imd);
 
-		var sceneMonster = findInvestigationMonsterInGroup(sceneId, groupId, imd.getMonsterIdList());
+        var sceneMonster = findInvestigationMonsterInGroup(sceneId, groupId, imd.getMonsterIdList());
 
-		Position pos = null;
-		int level = getDefaultInvestigationMonsterLevel(player);
+        Position pos = null;
+        int level = getDefaultInvestigationMonsterLevel(player);
 
-		if (sceneMonster != null) {
-			pos = sceneMonster.pos;
-			level = getMonsterLevel(sceneMonster, player.getWorld());
-		}
+        if (sceneMonster != null) {
+            pos = sceneMonster.pos;
+            level = getMonsterLevel(sceneMonster, player.getWorld());
+        }
 
-<<<<<<< HEAD
-		if (pos == null) {
-			pos = getInvestigationMonsterMarkerPosition(imd, sceneId, groupId, monsterId);
-		}
+        if (pos == null) {
+            pos = getInvestigationMonsterMarkerPosition(imd, sceneId, groupId, monsterId);
+        }
 
-		if (pos == null) {
-			pos = Position.ZERO;
-		}
+        if (pos == null) {
+            pos = Position.ZERO;
+        }
 
-		int resin = 0;
-		int maxBossChestNum = 0;
+        var builder = InvestigationMonsterOuterClass.InvestigationMonster.newBuilder();
 
-		if ("Boss".equals(imd.getMonsterCategory())) {
-			resin = imd.getPODEFGMCJAD() > 0 ? imd.getPODEFGMCJAD() : 40;
-			maxBossChestNum = 1;
-
-			var group = getInvestigationGroup(sceneId, groupId);
-
-			if (group != null && group.gadgets != null && !group.gadgets.isEmpty()) {
-				try {
-					var bossChest = group.searchBossChestInGroup();
-
-					if (bossChest.isPresent()) {
-						if (bossChest.get().resin > 0) {
-							resin = bossChest.get().resin;
-						}
-
-						if (bossChest.get().take_num > 0) {
-							maxBossChestNum = bossChest.get().take_num;
-						}
-					}
-				} catch (Exception e) {
-					Grasscutter.getLogger()
-							.debug(
-									"Failed to read boss chest data for investigation monster id={}, scene={}, group={}; using fallback resin data.",
-									imd.getId(),
-									sceneId,
-									groupId,
-									e);
-				}
-			}
-		}
-
-		var builder = InvestigationMonsterOuterClass.InvestigationMonster.newBuilder();
-
-		// id/city_id remain at top-level; details and monster config are nested
-		builder.setId(imd.getId()).setCityId(imd.getCityId());
-
-		var detail =
-				_InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.newBuilder()
-						.setMonsterConfig(
-								_InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig
-										.newBuilder()
-										.setSceneId(sceneId)
-										.setGroupId(groupId)
-										.setMonsterId(monsterId))
-						.setLevel(level)
-						.setIsAlive(true)
-						.setNextRefreshTime(Integer.MAX_VALUE)
-						.setRefreshInterval(Integer.MAX_VALUE)
-						.setPos(pos.toProto());
-
-		if ("Boss".equals(imd.getMonsterCategory())) {
-			if (resin > 0) {
-				detail.setResin(resin);
-			}
-			if (maxBossChestNum > 0) {
-				detail.setMaxBossChestNum(maxBossChestNum);
-			}
-		}
-
-		builder.addInvestigationMonsterDetaillist(detail);
-		return builder.build();
-	}
-=======
-        // 7.0 moved everything except id/city_id/lock_state down into a repeated detail entry, with
-        // scene/group/monster ids nested one level deeper again in its config.
+        // id/city_id remain at top-level; details and monster config are nested
         builder.setId(imd.getId()).setCityId(imd.getCityId());
 
         var detail =
@@ -230,23 +160,19 @@ public class WorldDataSystem extends BaseGameSystem {
                                         .setSceneId(sceneId)
                                         .setGroupId(groupId)
                                         .setMonsterId(monsterId))
-                        .setLevel(getMonsterLevel(monster.get(), player.getWorld()))
+                        .setLevel(level)
                         .setIsAlive(true)
                         .setNextRefreshTime(Integer.MAX_VALUE)
                         .setRefreshInterval(Integer.MAX_VALUE)
-                        .setPos(monster.get().pos.toProto());
+                        .setPos(pos.toProto());
 
         if ("Boss".equals(imd.getMonsterCategory())) {
-            var bossChest = group.searchBossChestInGroup();
-            if (bossChest.isPresent()) {
-                detail.setResin(bossChest.get().resin);
-                detail.setMaxBossChestNum(bossChest.get().take_num);
-            }
+            applyBossChestData(detail, imd, sceneId, groupId);
         }
+
         builder.addInvestigationMonsterDetailList(detail);
         return builder.build();
     }
->>>>>>> 1b6e71b5 (fix(proto): adapt call sites to the shapes 7.0 actually changed)
 
     public List<InvestigationMonsterOuterClass.InvestigationMonster> getInvestigationMonstersByCityId(
             Player player, int cityId) {
@@ -277,68 +203,68 @@ public class WorldDataSystem extends BaseGameSystem {
     }
 
     private InvestigationMonsterOuterClass.InvestigationMonster getInvestigationMonsterMapMarker(
-			Player player, InvestigationMonsterData imd) {
-		if (imd.getGroupIdList() == null
-				|| imd.getGroupIdList().isEmpty()
-				|| imd.getMonsterIdList() == null
-				|| imd.getMonsterIdList().isEmpty()) {
-			return null;
-		}
+            Player player, InvestigationMonsterData imd) {
+        if (imd.getGroupIdList() == null
+                || imd.getGroupIdList().isEmpty()
+                || imd.getMonsterIdList() == null
+                || imd.getMonsterIdList().isEmpty()) {
+            return null;
+        }
 
-		int groupId = imd.getGroupIdList().get(0);
-		int monsterId = imd.getMonsterIdList().get(0);
-		int sceneId = getInvestigationMonsterSceneId(imd);
+        int groupId = imd.getGroupIdList().get(0);
+        int monsterId = imd.getMonsterIdList().get(0);
+        int sceneId = getInvestigationMonsterSceneId(imd);
 
-		Position markerPos;
+        Position markerPos;
 
-		if (imd.getId() == BATHYSMAL_VISHAP_HERD_INVESTIGATION_ID
-				&& groupId == BATHYSMAL_VISHAP_HERD_GROUP_ID
-				&& imd.hasMapMarkerPosition()) {
+        if (imd.getId() == BATHYSMAL_VISHAP_HERD_INVESTIGATION_ID
+                && groupId == BATHYSMAL_VISHAP_HERD_GROUP_ID
+                && imd.hasMapMarkerPosition()) {
 
-			var markerData = imd.getDJLCKJCAKDA();
+            var markerData = imd.getDJLCKJCAKDA();
 
-			markerPos =
-					new Position(
-							markerData.get(0),
-							markerData.get(1),
-							markerData.get(2));
-		} else {
-			markerPos = getInvestigationMonsterMarkerPosition(imd, sceneId, groupId, monsterId);
-		}
+            markerPos =
+                    new Position(
+                            markerData.get(0),
+                            markerData.get(1),
+                            markerData.get(2));
+        } else {
+            markerPos = getInvestigationMonsterMarkerPosition(imd, sceneId, groupId, monsterId);
+        }
 
-		if (markerPos == null) {
-			return null;
-		}
+        if (markerPos == null) {
+            return null;
+        }
 
-		int resin = imd.getPODEFGMCJAD();
-		if (resin <= 0) {
-			resin = 40;
-		}
+        int resin = imd.getPODEFGMCJAD();
+        if (resin <= 0) {
+            resin = 40;
+        }
 
-		var builder = InvestigationMonsterOuterClass.InvestigationMonster.newBuilder();
+        var builder = InvestigationMonsterOuterClass.InvestigationMonster.newBuilder();
 
-		builder.setId(imd.getId()).setCityId(imd.getCityId());
+        builder.setId(imd.getId()).setCityId(imd.getCityId());
 
-		var detail =
-				_InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.newBuilder()
-						.setMonsterConfig(
-								_InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig
-										.newBuilder()
-										.setSceneId(sceneId)
-										.setGroupId(groupId)
-										.setMonsterId(monsterId))
-						.setLevel(getDefaultInvestigationMonsterLevel(player))
-						.setIsAlive(true)
-						.setNextRefreshTime(Integer.MAX_VALUE)
-						.setRefreshInterval(Integer.MAX_VALUE)
-						.setPos(markerPos.toProto());
+        var detail =
+                _InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.newBuilder()
+                        .setMonsterConfig(
+                                _InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig
+                                        .newBuilder()
+                                        .setSceneId(sceneId)
+                                        .setGroupId(groupId)
+                                        .setMonsterId(monsterId))
+                        .setLevel(getDefaultInvestigationMonsterLevel(player))
+                        .setIsAlive(true)
+                        .setNextRefreshTime(Integer.MAX_VALUE)
+                        .setRefreshInterval(Integer.MAX_VALUE)
+                        .setPos(markerPos.toProto());
 
-		detail.setResin(resin);
-		detail.setMaxBossChestNum(1);
+        detail.setResin(resin);
+        detail.setMaxBossChestNum(1);
 
-		builder.addInvestigationMonsterDetaillist(detail);
-		return builder.build();
-	}
+        builder.addInvestigationMonsterDetailList(detail);
+        return builder.build();
+    }
 
     private SceneMonster findInvestigationMonsterInGroup(
             int sceneId, int groupId, List<Integer> monsterIdList) {
