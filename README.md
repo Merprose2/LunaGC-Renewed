@@ -1,4 +1,4 @@
-# LunaGC-6.6.0
+# LunaGC-7.0.0
 
 ## Updated version of Grasscutters/LunaGC, with some new features implemented.
 Features and functionality of the PS is not guaranteed, try it yourself to see what works and what doesnt.
@@ -13,7 +13,6 @@ Features and functionality of the PS is not guaranteed, try it yourself to see w
 - Get [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 - Get [NodeJS](https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi) (For handbook generation)
-- Get game version [REL6.6.0](https://archive.heavens-era.com/Tenshi's%20Archive/Live%20Service/miHoYo/Genshin%20Impact/Game%20Files/OS/6.6.0)
 - Make sure to install java and set the environment variables.
 - Build the server (refer to "Compile the actual server" in this guide.)
 
@@ -83,6 +82,6 @@ Features and functionality of the PS is not guaranteed, try it yourself to see w
 
 Proto Repository [hk4e-protos](https://gitlab.com/CarolBicsi/genshin-protocol)
 
-Patch Repository [hk4e-patch-universal](https://gitlab.com/oureveryday/hk4e-patch-universal)
+Patch Repository [hk4e-patch-universal](https://github.com/capyb2222/animegamepatch)
 
 Original Repository [kitkat033](https://github.com/kitkat033/)
