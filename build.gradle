@@ -29,8 +29,6 @@ compileJava {
     options.fork = true
     options.forkOptions.jvmArgs += ['-Xmx2500m', '-XX:+UseParallelGC']
     options.incremental = true
-    // Force protobuf generation before Java compilation
-    dependsOn 'generateProto'
 }
 
 compileTestJava.options.encoding = 'UTF-8'
@@ -41,7 +39,7 @@ targetCompatibility = JavaVersion.VERSION_17
 group = 'io.grasscutter'
 version = '7.0'
 
-// Disable generating Javadoc/Sources JARs on CI builds to save time
+// Disable Javadoc & Source JARs during standard artifact builds
 if (gradle.startParameter.taskNames.any { it.contains('publish') }) {
     java {
         withJavadocJar()
@@ -54,7 +52,6 @@ repositories {
 }
 
 dependencies {
-    // Additional JAR libraries
     implementation fileTree(dir: 'lib', include: ['*.jar'])
 
     implementation group: 'it.unimi.dsi', name: 'fastutil', version: '8.5.8'
@@ -131,37 +128,56 @@ application {
     getMainClass().set('emu.grasscutter.Grasscutter')
 }
 
-// Protobuf configuration
-protobuf {
-    protoc {
-        artifact = 'com.google.protobuf:protoc:3.18.1'
-    }
-    generatedFilesBaseDir = "$projectDir/src/generated"
-}
+// Check if raw .proto files actually exist
+def protoDir = file('proto')
+boolean hasProtos = protoDir.exists() && (protoDir.listFiles()?.any { it.name.endsWith('.proto') } ?: false)
 
-// Ensure the proto compiler looks in `proto/` and the java compiler looks in `src/main/java` and `src/generated/main/java`
-sourceSets {
-    main {
-        proto {
-            srcDir 'proto'
+if (hasProtos) {
+    dependencies {
+        protobuf files('proto/')
+    }
+
+    protobuf {
+        protoc {
+            artifact = 'com.google.protobuf:protoc:3.18.1'
         }
-        java {
-            srcDir 'src/main/java'
-            srcDir 'src/generated/main/java'
+        generatedFilesBaseDir = "$projectDir/src/generated"
+    }
+
+    sourceSets {
+        main {
+            proto {
+                srcDir 'proto'
+            }
+            java {
+                srcDir 'src/main/java'
+                srcDir 'src/generated/main/java'
+            }
+        }
+    }
+
+    compileJava.dependsOn 'generateProto'
+    processResources.dependsOn 'generateProto'
+    delombok.dependsOn 'generateProto'
+} else {
+    // If no .proto files exist, disable generateProto and use the pre-generated Java classes
+    tasks.matching { it.name.contains('Proto') }.configureEach {
+        enabled = false
+    }
+
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main/java', 'src/generated/main/java']
+            }
         }
     }
 }
 
 clean {
-    delete protobuf.generatedFilesBaseDir
-}
-
-processResources {
-    dependsOn 'generateProto'
-}
-
-delombok {
-    dependsOn 'generateProto'
+    if (hasProtos) {
+        delete protobuf.generatedFilesBaseDir
+    }
 }
 
 jar {
@@ -201,8 +217,8 @@ test {
 spotless {
     java {
         target fileTree(rootDir) {
-            include '**/*.java'
-            exclude '**/generated/**/*.*'
+            include 'src/main/java/**/*.java'
+            exclude 'src/generated/**/*.*'
             exclude '.idea/**/*.*'
         }
 
