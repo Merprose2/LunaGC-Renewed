@@ -1,12 +1,22 @@
+# This workflow will build a Java project with Gradle and cache/restore
+# dependencies to improve workflow execution time.
+#
+# It also uploads the compiled JAR as an Actions artifact and publishes
+# it to a rolling development release after commits to branch 7.0.
+
 name: Java CI with Gradle
 
 on:
   push:
     branches: [ "7.0" ]
+
   pull_request:
     branches: [ "7.0" ]
+
+  # Allows the workflow to be started manually from the Actions tab.
   workflow_dispatch:
 
+# Prevent two commits from trying to replace the development release simultaneously.
 concurrency:
   group: lunagc-7.0-${{ github.ref }}
   cancel-in-progress: true
@@ -14,11 +24,13 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     permissions:
+      # Required for creating releases and submitting the dependency graph.
       contents: write
 
     steps:
-    - name: Checkout Code
+    - name: Checkout repository
       uses: actions/checkout@v4
       with:
         fetch-depth: 1
@@ -29,15 +41,15 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
 
+    # Automatically caches dependencies and Gradle build outputs
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
       with:
         cache-read-only: ${{ github.event_name != 'push' || github.ref != 'refs/heads/7.0' }}
-        # Automatically manages wrapper & build caching
 
-    - name: Fast Build Jar
-      # -x spotlessCheck avoids re-checking code styling during artifact build
-      run: ./gradlew shadowJar -PskipHandbook=1 -x spotlessCheck --parallel
+    # -x spotlessCheck -x test skips re-formatting checks and test suites during binary creation
+    - name: Build with Gradle Wrapper
+      run: ./gradlew jar --build-cache -PskipHandbook=1 -x spotlessCheck -x test
 
     - name: Verify compiled JAR
       run: |
@@ -49,16 +61,22 @@ jobs:
       with:
         name: LunaGC-7.0-${{ github.sha }}
         path: LunaGC-7.0.jar
+        if-no-files-found: error
         retention-days: 7
         compression-level: 0
 
+    # Only publish a release after an actual commit to 7.0.
     - name: Publish rolling development release
       if: github.event_name == 'push' && github.ref == 'refs/heads/7.0'
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
-        gh release delete latest-dev --cleanup-tag --yes || true
-        gh release create latest-dev LunaGC-7.0.jar \
+        gh release delete latest-dev \
+          --cleanup-tag \
+          --yes || true
+
+        gh release create latest-dev \
+          LunaGC-7.0.jar \
           --target "${GITHUB_SHA}" \
           --title "Latest LunaGC-Renewed 7.0 Development Build" \
           --notes "Automatically compiled from LunaGC-Renewed 7.0 commit ${GITHUB_SHA}." \
