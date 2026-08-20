@@ -1,10 +1,12 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
 buildscript {
     repositories {
         mavenCentral()
         maven { url 'https://plugins.gradle.org/m2/' }
     }
     dependencies {
-        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.9.4'
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.18'
     }
 }
 
@@ -12,9 +14,8 @@ plugins {
     id 'java'
     id 'java-library'
     id 'application'
-    id 'com.google.protobuf' version '0.9.4'
+    id 'com.google.protobuf' version '0.8.18'
     id 'com.diffplug.spotless' version '6.11.0'
-    id 'com.github.johnrengelman.shadow' version '8.1.1' // MUCH faster fat jar creation
     id 'eclipse'
     id 'idea'
     id 'maven-publish'
@@ -25,9 +26,10 @@ plugins {
 compileJava {
     options.encoding = "UTF-8"
     options.fork = true
-    // Optimized memory for GitHub Actions standard 2-core runners (7 GB RAM total)
-    options.forkOptions.jvmArgs += ['-Xmx2g', '-XX:+UseParallelGC']
+    options.forkOptions.jvmArgs += ['-Xmx2500m', '-XX:+UseParallelGC']
     options.incremental = true
+    // Ensure proto generation completes before compiling Java
+    dependsOn 'generateProto'
 }
 
 compileTestJava.options.encoding = 'UTF-8'
@@ -38,8 +40,7 @@ targetCompatibility = JavaVersion.VERSION_17
 group = 'io.grasscutter'
 version = '7.0'
 
-// Disable generating Javadoc/Source JARs during standard builds
-// (Enable them selectively if publishing to Maven Central)
+// Disable Javadoc and Sources JAR on regular CI builds to save time
 if (gradle.startParameter.taskNames.any { it.contains('publish') }) {
     java {
         withJavadocJar()
@@ -91,6 +92,7 @@ dependencies {
     implementation group: 'org.java-websocket', name: 'Java-WebSocket', version: '1.5.2'
     implementation group: 'net.openhft', name: 'zero-allocation-hashing', version: '0.26ea0'
 
+    // Google Protocol Buffer definitions
     protobuf files('proto/')
 
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.8.2'
@@ -112,31 +114,85 @@ application {
     getMainClass().set('emu.grasscutter.Grasscutter')
 }
 
-// Fast Fat-JAR generation with ShadowJar instead of manual zipTree
-shadowJar {
-    archiveBaseName.set('LunaGC')
-    archiveVersion.set('7.0')
-    archiveClassifier.set('')
-    destinationDirectory = file('.')
+// Protobuf generation setup
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.18.1'
+    }
+    generatedFilesBaseDir = "$projectDir/src/generated/"
+}
+
+sourceSets {
+    main {
+        proto {
+            srcDir 'src/generated'
+        }
+        java {
+            srcDir 'src/generated/main/java'
+        }
+    }
+}
+
+clean {
+    delete protobuf.generatedFilesBaseDir
+}
+
+processResources {
+    dependsOn 'generateProto'
+}
+
+delombok {
+    dependsOn 'generateProto'
+}
+
+// Optimized Fat-JAR packing
+jar {
+    exclude '*.proto'
 
     manifest {
         attributes 'Main-Class': 'emu.grasscutter.Grasscutter'
     }
 
-    exclude '*.proto'
-    mergeServiceFiles()
-}
+    archiveBaseName = 'LunaGC'
+    archiveVersion = '7.0'
 
-// Map standard 'jar' execution to shadowJar if needed
-jar.dependsOn shadowJar
+    if (project.hasProperty('jarFilename')) {
+        archiveFileName = "${jarFilename}.${archiveExtension}"
+    }
+
+    // Faster zip unarchiving by handling directories directly
+    from {
+        configurations.runtimeClasspath.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+
+    from('src/main/java') {
+        include '*.xml'
+    }
+
+    destinationDirectory = file('.')
+}
 
 test {
     useJUnitPlatform()
     maxHeapSize = '2G'
 }
 
-protobuf {
-    protoc {
-        artifact = 'com.google.protobuf:protoc:3.18.1'
+spotless {
+    java {
+        target fileTree(rootDir) {
+            include '**/*.java'
+            exclude '**/generated/**/*.*'
+            exclude '.idea/**/*.*'
+        }
+        importOrder('io.grasscutter', '', 'java', 'javax', '\\#java', '\\#')
+        googleJavaFormat('1.15.0')
+        formatAnnotations()
+        endWithNewline()
+        indentWithTabs(2); indentWithSpaces(4)
+        toggleOffOn()
     }
 }
