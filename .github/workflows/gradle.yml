@@ -49,7 +49,7 @@ jobs:
 
     # -x spotlessCheck -x test skips re-formatting checks and test suites during binary creation
     - name: Build with Gradle Wrapper
-      run: ./gradlew jar --build-cache -PskipHandbook=1 -x spotlessCheck -x test
+      run: ./gradlew jar --no-daemon --build-cache -PskipHandbook=1 -x spotlessCheck -x test
 
     - name: Verify compiled JAR
       run: |
