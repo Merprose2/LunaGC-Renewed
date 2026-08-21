@@ -247,7 +247,7 @@ public final class PacketOpcodes {
     public static final int QuickUseWidgetReq = 29090;
     public static final int QuickUseWidgetRsp = 22128;
     public static final int SetUpLunchBoxWidgetReq = 5446;
-    public static final int SetUpLunchBoxWidgetRsp = 6360;
+    public static final int SetUpLunchBoxWidgetRsp = 23795;
     public static final int WidgetDoBagReq = 27210;
     public static final int WidgetDoBagRsp = 4078;
     public static final int WidgetCoolDownNotify = 805;
