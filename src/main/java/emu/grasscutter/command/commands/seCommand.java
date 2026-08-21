@@ -16,43 +16,47 @@ import java.util.List;
 
 import static emu.grasscutter.utils.lang.Language.translate;
 
-@Command(label = "switchelement",usage="anemo|geo|electro|dendro",aliases = {"se"}, threading = true)
+@Command(label = "switchelement",usage="none|pyro|hydro|anemo|cryo|geo|electro|dendro",aliases = {"se"}, threading = true)
 public class seCommand implements CommandHandler {
 
     private Element getElementFromString(String elementString) {
         return switch (elementString.toLowerCase()) {
-            case "white", "common" -> Element.elementless;
+            case "none", "white", "common", "elementless" -> Element.elementless;
             case "fire", "pyro" -> Element.pyro;
             case "water", "hydro" -> Element.hydro;
             case "wind", "anemo", "air" -> Element.anemo;
             case "ice", "cryo" -> Element.cryo;
             case "rock", "geo" -> Element.geo;
-            case "electro" -> Element.electro;
+            case "electric", "electro" -> Element.electro;
             case "grass", "dendro", "plant" -> Element.dendro;
             default -> null;
         };
     }
 
-    private boolean changeAvatarElement(Player sender, int avatarId, Element element) {
+    private String changeAvatarElement(Player sender, int avatarId, Element element) {
         Avatar avatar = sender.getAvatars().getAvatarById(avatarId);
-        AvatarSkillDepotData skillDepot = GameData.getAvatarSkillDepotDataMap().get(element.getSkillRepoId(avatarId));
-        if (avatar == null || skillDepot == null) {
-            return false;
+        if (avatar == null) {
+            return String.format("you do not own avatar %d", avatarId);
+        }
+        int depotId = element.getSkillRepoId(avatarId);
+        AvatarSkillDepotData skillDepot = GameData.getAvatarSkillDepotDataMap().get(depotId);
+        if (skillDepot == null) {
+            return String.format("skill depot %d for %s is not loaded", depotId, element.name());
         }
         avatar.setSkillDepotData(skillDepot);
         avatar.setCurrentEnergy(1000);
         avatar.save();
-        return true;
+        return null;
     }
     @Override
     public void execute(Player sender,Player targetPlayer, List<String> args) {
         String UserName=targetPlayer.getAccount().getUsername();
         if (args.size() < 1) {
             if (sender != null) {
-                CommandHandler.sendMessage(targetPlayer, "/se [anemo|geo|electro|dendro]");
+                CommandHandler.sendMessage(targetPlayer, "/se [none|pyro|hydro|anemo|cryo|geo|electro|dendro] <constellation>");
             }
             else {
-                Grasscutter.getLogger().info("/se [anemo|geo|electro|dendro]");
+                Grasscutter.getLogger().info("/se [none|pyro|hydro|anemo|cryo|geo|electro|dendro] <constellation>");
             }
             return;
         }
@@ -85,16 +89,28 @@ public class seCommand implements CommandHandler {
                 }
             }
         }
-        boolean maleSuccess = false;
-        boolean femaleSuccess = false;
-        if(targetPlayer.getTeamManager().getCurrentAvatarEntity().getAvatar().getAvatarId() == GameConstants.MAIN_CHARACTER_MALE) {
-            maleSuccess = changeAvatarElement(targetPlayer, GameConstants.MAIN_CHARACTER_MALE, element);
-            ConstellationsHandler.change(targetPlayer, element, constellation);
-        } else if (targetPlayer.getTeamManager().getCurrentAvatarEntity().getAvatar().getAvatarId() == GameConstants.MAIN_CHARACTER_FEMALE) {
-            femaleSuccess = changeAvatarElement(targetPlayer, GameConstants.MAIN_CHARACTER_FEMALE, element);
-            ConstellationsHandler.change(targetPlayer, element, constellation);
+        var currentEntity = targetPlayer.getTeamManager().getCurrentAvatarEntity();
+        if (currentEntity == null) {
+            if (sender != null) {
+                CommandHandler.sendMessage(targetPlayer, "Switch failed : no active character");
+            }
+            else {
+                Grasscutter.getLogger().info("Switch failed : no active character");
+            }
+            return;
         }
-        if (maleSuccess || femaleSuccess) {
+        int activeAvatarId = currentEntity.getAvatar().getAvatarId();
+        String failure;
+        if (activeAvatarId == GameConstants.MAIN_CHARACTER_MALE || activeAvatarId == GameConstants.MAIN_CHARACTER_FEMALE) {
+            failure = changeAvatarElement(targetPlayer, activeAvatarId, element);
+            if (failure == null) {
+                ConstellationsHandler.change(targetPlayer, element, constellation);
+            }
+        } else {
+            failure = String.format("the active character is %d, switch to the Traveler first",
+                    activeAvatarId);
+        }
+        if (failure == null) {
             int scene = targetPlayer.getSceneId();
             String message;
             try {
@@ -102,9 +118,9 @@ public class seCommand implements CommandHandler {
                 targetPlayer.getWorld().transferPlayerToScene(targetPlayer, 1, targetPlayerPos);
                 targetPlayer.getWorld().transferPlayerToScene(targetPlayer, scene, targetPlayerPos);
                 targetPlayer.getScene().broadcastPacket(new PacketSceneEntityAppearNotify(targetPlayer));
-                message = String.format("Switch success", element.name());
+                message = String.format("Switched to %s", element.name());
             } catch (Exception e) {
-                message = String.format("Failed", element.name());
+                message = String.format("Failed to switch to %s", element.name());
             }
             if (sender != null) {
                 CommandHandler.sendMessage(targetPlayer, message);
@@ -113,11 +129,12 @@ public class seCommand implements CommandHandler {
                 Grasscutter.getLogger().info(message);
             }
         } else {
+            String reason = String.format("Switch failed : %s", failure);
             if (sender != null) {
-                CommandHandler.sendMessage(targetPlayer, "Switch failed");
+                CommandHandler.sendMessage(targetPlayer, reason);
             }
             else {
-                Grasscutter.getLogger().info("Switch failed");
+                Grasscutter.getLogger().info(reason);
             }
         }
     }
