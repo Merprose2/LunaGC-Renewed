@@ -8,3 +8,5 @@
  */
 
 rootProject.name = 'Grasscutter'
+include 'proto-classes'
+project(':proto-classes').projectDir = file('src/generated')

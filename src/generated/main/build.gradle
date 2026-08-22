@@ -1,0 +1,47 @@
+// Turns the EXISTING src/generated/main/java tree into its own Gradle
+// project, without moving a single file. This is purely a build-graph
+// change: this subproject's compileJava task now only hashes the
+// generated proto sources as inputs, so Gradle's normal up-to-date
+// checks / build cache skip recompiling them whenever they're
+// untouched - which is nearly always. No new build flags needed;
+// this is standard incremental-build behavior once the task
+// boundary exists.
+//
+// See settings.gradle for how this folder is wired up as project
+// ':proto-classes'.
+
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        // Files already live at src/generated/main/java - just point
+        // at them relative to this project's directory (src/generated).
+        java {
+            srcDirs = ['main/java']
+        }
+    }
+}
+
+dependencies {
+    // 'api' (not 'implementation'): generated classes extend
+    // com.google.protobuf.GeneratedMessageV3, so this type needs to
+    // be visible to anything depending on this module.
+    api group: 'com.google.protobuf', name: 'protobuf-java', version: '3.19.6'
+}
+
+compileJava {
+    options.encoding = "UTF-8"
+    options.fork = true
+    options.incremental = true
+}

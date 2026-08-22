@@ -97,8 +97,12 @@ dependencies {
 
     // Serialization
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.9.0'
-    implementation group: 'com.google.protobuf', name: 'protobuf-java', version: '3.19.6'
+    // protobuf-java comes transitively via the proto-classes module (see settings.gradle)
     implementation group: 'com.github.os72', name: 'protobuf-dynamic', version: '1.0.1'
+
+    // Generated protobuf message classes, split into their own compile
+    // task so unrelated app changes don't invalidate their build cache.
+    implementation project(':proto-classes')
 
     implementation platform('com.fasterxml.jackson:jackson-bom:2.14.0')
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.2'
@@ -174,7 +178,10 @@ if (hasProtos) {
             }
             java {
                 srcDir 'src/main/java'
-                srcDir 'src/generated/main/java'
+                // NOTE: regenerated output still lands in src/generated,
+                // which is now the :proto-classes project (see
+                // settings.gradle) rather than part of this source set,
+                // so it's intentionally not added here.
             }
         }
     }
@@ -183,7 +190,10 @@ if (hasProtos) {
     processResources.dependsOn 'generateProto'
     delombok.dependsOn 'generateProto'
 } else {
-    // If no .proto files exist, disable generateProto tasks and compile existing generated code
+    // No .proto schema files shipped - the generated protobuf message
+    // classes at src/generated/main/java now compile as the separate
+    // :proto-classes project instead of being part of this source set
+    // (see settings.gradle / src/generated/build.gradle).
     tasks.matching { it.name.contains('Proto') }.configureEach {
         enabled = false
     }
@@ -191,7 +201,7 @@ if (hasProtos) {
     sourceSets {
         main {
             java {
-                srcDirs = ['src/main/java', 'src/generated/main/java']
+                srcDirs = ['src/main/java']
             }
         }
     }
