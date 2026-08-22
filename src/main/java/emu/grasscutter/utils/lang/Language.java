@@ -332,8 +332,10 @@ public final class Language {
         if (!bypassCache)
             try {
                 long cacheModified = Files.getLastModifiedTime(TEXTMAP_CACHE_PATH).toMillis();
-                long textmapsModified =
-                        Files.list(getResourcePath("TextMap"))
+                long textmapsModified;
+                try (var textmaps = Files.list(getResourcePath("TextMap"))) {
+                    textmapsModified =
+                        textmaps
                                 .filter(path -> path.toString().endsWith(".json"))
                                 .map(
                                         path -> {
@@ -347,6 +349,7 @@ public final class Language {
                                         })
                                 .max(Long::compare)
                                 .get();
+                }
 
                 Grasscutter.getLogger()
                         .debug(
