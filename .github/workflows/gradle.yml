@@ -71,9 +71,9 @@ jobs:
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
-        gh release delete release \
-          --cleanup-tag \
-          --yes || true
+        if gh release view release >/dev/null 2>&1; then
+          gh release delete release --cleanup-tag --yes
+        fi
 
         gh release create release \
           LunaGC-7.0.jar \
@@ -81,5 +81,3 @@ jobs:
           --title "LunaGC-Renewed 7.0 Release" \
           --notes "Automatically compiled from LunaGC-Renewed 7.0 commit ${GITHUB_SHA}." \
           --latest
-          --prerelease \
-          --latest=false
