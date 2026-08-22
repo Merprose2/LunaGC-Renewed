@@ -66,19 +66,20 @@ jobs:
         compression-level: 0
 
     # Only publish a release after an actual commit to 7.0.
-    - name: Publish rolling development release
+    - name: Publish release
       if: github.event_name == 'push' && github.ref == 'refs/heads/7.0'
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
-        gh release delete latest-dev \
+        gh release delete release \
           --cleanup-tag \
           --yes || true
 
-        gh release create latest-dev \
+        gh release create release \
           LunaGC-7.0.jar \
           --target "${GITHUB_SHA}" \
-          --title "Latest LunaGC-Renewed 7.0 Development Build" \
+          --title "LunaGC-Renewed 7.0 Release" \
           --notes "Automatically compiled from LunaGC-Renewed 7.0 commit ${GITHUB_SHA}." \
+          --latest
           --prerelease \
           --latest=false
