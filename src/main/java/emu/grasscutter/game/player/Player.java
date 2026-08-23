@@ -20,6 +20,7 @@ import emu.grasscutter.game.friends.*;
 import emu.grasscutter.game.gacha.PlayerGachaInfo;
 import emu.grasscutter.game.home.*;
 import emu.grasscutter.game.inventory.*;
+import emu.grasscutter.game.investigation.*;
 import emu.grasscutter.game.mail.*;
 import emu.grasscutter.game.managers.*;
 import emu.grasscutter.game.managers.cooking.*;
@@ -131,6 +132,8 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter @Setter private Map<Integer, Set<Integer>> unlockedSceneAreas;
     @Getter @Setter private Map<Integer, Set<Integer>> unlockedScenePoints;
     @Getter @Setter private List<Integer> chatEmojiIdList;
+    @Getter private Map<Integer, PlayerInvestigation> investigations;
+    @Getter private Map<Integer, PlayerInvestigationTarget> investigationTargets;
 
     @Transient private long nextGuid = 0;
     @Transient @Getter @Setter private int peerId;
@@ -167,6 +170,7 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter private transient PlayerProgressManager progressManager;
     @Getter private transient SatiationManager satiationManager;
     @Getter private transient TalkManager talkManager;
+    @Getter private transient InvestigationManager investigationManager;
 
     @Getter @Setter private transient Position lastCheckedPosition = null;
 
@@ -299,6 +303,9 @@ public class Player implements PlayerHook, FieldFetch {
         this.cookingCompoundManager = new CookingCompoundManager(this);
         this.satiationManager = new SatiationManager(this);
         this.talkManager = new TalkManager(this);
+        this.investigations = new HashMap<>();
+        this.investigationTargets = new HashMap<>();
+        this.investigationManager = new InvestigationManager(this);
         setPhlogistonValue(100);
     }
 
@@ -334,6 +341,7 @@ public class Player implements PlayerHook, FieldFetch {
         this.cookingManager = new CookingManager(this);
         this.cookingCompoundManager = new CookingCompoundManager(this);
         this.satiationManager = new SatiationManager(this);
+        this.investigationManager = new InvestigationManager(this);
     }
 
     @Override
@@ -1499,6 +1507,17 @@ public class Player implements PlayerHook, FieldFetch {
 		session.send(new PacketGetWidgetSlotRsp(this));
 
         this.achievements.onLogin(this);
+
+        if (this.investigations == null) {
+            this.investigations = new HashMap<>();
+        }
+        if (this.investigationTargets == null) {
+            this.investigationTargets = new HashMap<>();
+        }
+        if (this.investigationManager == null) {
+            this.investigationManager = new InvestigationManager(this);
+        }
+        this.investigationManager.onPlayerLogin();
 
         session.send(new PacketWidgetGadgetAllDataNotify());
         session.send(new PacketCombineDataNotify(this.unlockedCombines));

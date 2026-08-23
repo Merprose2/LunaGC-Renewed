@@ -329,6 +329,14 @@ public final class GameData {
             new Int2ObjectOpenHashMap<>();
 
     @Getter
+    private static final Int2ObjectMap<InvestigationData> investigationDataMap =
+            new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<InvestigationTargetData> investigationTargetDataMap =
+            new Int2ObjectOpenHashMap<>();
+
+    @Getter
     private static final Int2ObjectMap<InvestigationMonsterData> investigationMonsterDataMap =
             new Int2ObjectOpenHashMap<>();
 
