@@ -4,6 +4,7 @@ import com.google.protobuf.CodedInputStream;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.server.game.GameSession;
+import emu.grasscutter.server.packet.send.PacketTakeInvestigationTargetRewardRsp;
 
 @Opcodes(PacketOpcodes.TakeInvestigationTargetRewardReq)
 public class HandlerTakeInvestigationTargetRewardReq extends PacketHandler {
@@ -19,8 +20,9 @@ public class HandlerTakeInvestigationTargetRewardReq extends PacketHandler {
                 int wireType = tag & 7;
                 if (wireType == 0) { // Varint
                     int val = input.readInt32();
-                    if (val > 0 && targetId == 0) {
+                    if (val > 0) {
                         targetId = val;
+                        break;
                     }
                 } else {
                     input.skipField(tag);
@@ -30,8 +32,11 @@ public class HandlerTakeInvestigationTargetRewardReq extends PacketHandler {
             Grasscutter.getLogger().debug("Unable to parse TakeInvestigationTargetRewardReq", e);
         }
 
+        Grasscutter.getLogger().info("TakeInvestigationTargetRewardReq received for targetId: {}", targetId);
+
         if (targetId > 0) {
             session.getPlayer().getInvestigationManager().takeInvestigationTargetReward(targetId);
+            session.send(new PacketTakeInvestigationTargetRewardRsp(targetId));
         }
     }
 }

@@ -59,27 +59,13 @@ public class InvestigationManager extends BasePlayerManager {
             targetCountPerInvestigation.merge(targetData.getInvestigationId(), 1, Integer::sum);
         }
 
-        // 2. Initialize Investigations
-        for (InvestigationData data : GameData.getInvestigationDataMap().values()) {
-            if (!investigations.containsKey(data.getId())) {
-                int totalProgress = targetCountPerInvestigation.getOrDefault(data.getId(), 1);
-                var inv =
-                        PlayerInvestigation.builder()
-                                .id(data.getId())
-                                .progress(totalProgress)
-                                .totalProgress(totalProgress)
-                                .state(Investigation.State.State_COMPLETE_VALUE)
-                                .build();
-                investigations.put(data.getId(), inv);
-            }
-        }
-
-        // 3. Initialize Investigation Targets
+        // 2. Initialize / update Investigation Targets
         for (InvestigationTargetData targetData : GameData.getInvestigationTargetDataMap().values()) {
             if (targetData.isDisuse()) continue;
-            if (!targets.containsKey(targetData.getId())) {
+            var target = targets.get(targetData.getId());
+            if (target == null) {
                 int progress = targetData.getProgress() > 0 ? targetData.getProgress() : 1;
-                var target =
+                target =
                         PlayerInvestigationTarget.builder()
                                 .targetId(targetData.getId())
                                 .investigationId(targetData.getInvestigationId())
@@ -89,6 +75,35 @@ public class InvestigationManager extends BasePlayerManager {
                                 .state(InvestigationTarget.State.State_COMPLETE_VALUE)
                                 .build();
                 targets.put(targetData.getId(), target);
+            } else {
+                target.setTargetId(targetData.getId());
+                target.setInvestigationId(targetData.getInvestigationId());
+                if (target.getTotalProgress() == 0) {
+                    int progress = targetData.getProgress() > 0 ? targetData.getProgress() : 1;
+                    target.setProgress(progress);
+                    target.setTotalProgress(progress);
+                }
+            }
+        }
+
+        // 3. Initialize / update Investigations
+        for (InvestigationData data : GameData.getInvestigationDataMap().values()) {
+            int totalProgress = targetCountPerInvestigation.getOrDefault(data.getId(), 1);
+            var inv = investigations.get(data.getId());
+            if (inv == null) {
+                inv =
+                        PlayerInvestigation.builder()
+                                .id(data.getId())
+                                .progress(totalProgress)
+                                .totalProgress(totalProgress)
+                                .state(Investigation.State.State_COMPLETE_VALUE)
+                                .build();
+                investigations.put(data.getId(), inv);
+            } else {
+                inv.setTotalProgress(totalProgress);
+                if (inv.getProgress() == 0 && inv.getState() == Investigation.State.State_COMPLETE_VALUE) {
+                    inv.setProgress(totalProgress);
+                }
             }
         }
     }
@@ -122,9 +137,8 @@ public class InvestigationManager extends BasePlayerManager {
     public boolean takeInvestigationTargetReward(int targetId) {
         var target = this.getPlayer().getInvestigationTargets().get(targetId);
         if (target == null) {
-            // Check by questId fallback
             target = this.getPlayer().getInvestigationTargets().values().stream()
-                    .filter(t -> t.getQuestId() == targetId)
+                    .filter(t -> t.getQuestId() == targetId || t.getTargetId() == targetId)
                     .findFirst()
                     .orElse(null);
         }

@@ -20,7 +20,7 @@ public class PlayerInvestigationTarget {
     public InvestigationTarget toProto() {
         return InvestigationTarget.newBuilder()
                 .setInvestigationId(this.investigationId)
-                .setQuestId(this.questId)
+                .setQuestId(this.targetId) // The proto field quest_id is the target config ID (e.g. 60001, 64001)
                 .setProgress(this.progress)
                 .setTotalProgress(this.totalProgress)
                 .setStateValue(this.state)
