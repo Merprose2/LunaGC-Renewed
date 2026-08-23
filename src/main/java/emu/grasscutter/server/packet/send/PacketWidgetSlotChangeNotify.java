@@ -1,34 +1,61 @@
 package emu.grasscutter.server.packet.send;
 
-import com.google.protobuf.CodedOutputStream;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import emu.grasscutter.net.proto.WidgetSlotChangeNotifyOuterClass.WidgetSlotChangeNotify;
+import emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData;
+import emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp;
+import emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag;
 
 public class PacketWidgetSlotChangeNotify extends BasePacket {
 
-    public PacketWidgetSlotChangeNotify(int materialId, int slotTag, int op, boolean active) {
+    /**
+     * Sends the slot reset/detach notification.
+     *
+     * This deliberately follows the original Grasscutter behavior:
+     * DETACH + an active, otherwise-empty quick-use slot.
+     */
+    public PacketWidgetSlotChangeNotify(WidgetSlotOp op) {
         super(PacketOpcodes.WidgetSlotChangeNotify);
 
-        try {
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            CodedOutputStream output = CodedOutputStream.newInstance(baos);
+        WidgetSlotData slot =
+                WidgetSlotData.newBuilder()
+                        .setTag(
+                                WidgetSlotTag
+                                        .WidgetSlotTag_WIDGET_SLOT_QUICK_USE)
+                        .setIsActive(true)
+                        .build();
 
-            /*
-             * REL6.6 WidgetSlotChangeNotify:
-             * WidgetSlotData slot = 10;
-             * WidgetSlotOp op = 4;
-             */
-            output.writeByteArray(
-                    10,
-                    WidgetSlotPacketHelper.buildWidgetSlotData(materialId, slotTag, active));
-            output.writeEnum(4, op);
+        WidgetSlotChangeNotify proto =
+                WidgetSlotChangeNotify.newBuilder()
+                        .setSlot(slot)
+                        .setOp(op)
+                        .build();
 
-            output.flush();
-            this.setData(baos.toByteArray());
-        } catch (IOException e) {
-            throw new RuntimeException("Failed to encode WidgetSlotChangeNotify for REL6.6", e);
-        }
+        this.setData(proto);
+    }
+
+    /**
+     * Sends the active gadget notification.
+     */
+    public PacketWidgetSlotChangeNotify(int materialId) {
+        super(PacketOpcodes.WidgetSlotChangeNotify);
+
+        WidgetSlotData slot =
+                WidgetSlotData.newBuilder()
+                        .setMaterialId(materialId)
+                        .setTag(
+                                WidgetSlotTag
+                                        .WidgetSlotTag_WIDGET_SLOT_QUICK_USE)
+                        .setIsActive(true)
+                        .build();
+
+        WidgetSlotChangeNotify proto =
+                WidgetSlotChangeNotify.newBuilder()
+                        .setSlot(slot)
+                        .setOp(WidgetSlotOp.WidgetSlotOp_ATTACH)
+                        .build();
+
+        this.setData(proto);
     }
 }

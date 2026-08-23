@@ -242,8 +242,8 @@ public final class PacketOpcodes {
     public static final int WidgetSlotChangeNotify = 25988;
     public static final int GetWidgetSlotReq = 28994;
     public static final int GetWidgetSlotRsp = 9598;
-    public static final int GetQuickswapWidgetsReq = -17; // no 7.0 entry
-    public static final int GetQuickswapWidgetsRsp = -18; // no 7.0 entry
+    public static final int GetQuickswapWidgetsReq = 28198;
+    public static final int GetQuickswapWidgetsRsp = 27801;
     public static final int QuickUseWidgetReq = 29090;
     public static final int QuickUseWidgetRsp = 22128;
     public static final int SetUpLunchBoxWidgetReq = 5446;
@@ -562,8 +562,6 @@ public final class PacketOpcodes {
     public static final int ReunionBriefInfoRsp = 27874;
     public static final int GetQuestLackingResourceReq = 8759;
     public static final int GetQuestLackingResourceRsp = 7290;
-    public static final int GetWidgetQuickSlotListReq = -57; // no 7.0 entry
-    public static final int GetWidgetQuickSlotListRsp = -58; // no 7.0 entry
     public static final int GetShopBatchReq = -59; // no 7.0 entry
     public static final int GetShopBatchRsp = -60; // no 7.0 entry
     public static final int GetAllSceneGalleryInfoReq = 26971;
@@ -1704,8 +1702,8 @@ public final class PacketOpcodes {
     public static final int _GetShopBatchRsp = 7035;
     public static final int _GetStreamingVideoUrlReq = 28480;
     public static final int _GetStreamingVideoUrlRsp = 28060;
-    public static final int _GetWidgetQuickSlotListReq = 28198;
-    public static final int _GetWidgetQuickSlotListRsp = 27801;
+	public static final int _GetWidgetQuickSlotListReq = 28198;
+	public static final int _GetWidgetQuickSlotListRsp = 27801;
     public static final int _HideAndSeekV4SettleNotify = 5026;
     public static final int _HomeExplosionGallerySettleNotify = 100;
     public static final int _IntelligenceScanInfoNotify = 27506;

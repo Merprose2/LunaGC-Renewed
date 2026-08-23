@@ -1,44 +1,35 @@
 package emu.grasscutter.server.packet.send;
 
-import com.google.protobuf.CodedOutputStream;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import emu.grasscutter.net.proto.GetWidgetQuickSlotListRspOuterClass.GetWidgetQuickSlotListRsp;
 
 public class PacketGetWidgetQuickSlotListRsp extends BasePacket {
 
     public PacketGetWidgetQuickSlotListRsp(Player player) {
-        super(PacketOpcodes.GetWidgetQuickSlotListRsp);
+        super(PacketOpcodes._GetWidgetQuickSlotListRsp);
 
-        try {
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            CodedOutputStream output = CodedOutputStream.newInstance(baos);
+        GetWidgetQuickSlotListRsp.Builder builder =
+                GetWidgetQuickSlotListRsp.newBuilder();
 
-            /*
-             * REL6.6 _GetWidgetQuickSlotListRsp:
-             * repeated uint32 material_id_list = 4;
-             * uint32 current_slot_num = 1;
-             * int32 retcode = 14;
-             */
-            int quickUseMaterialId = player.getWidgetId();
+        int quickUseMaterialId =
+                player.getWidgetId();
 
-            if (quickUseMaterialId > 0) {
-                output.writeByteArray(
-                        4,
-                        WidgetSlotPacketHelper.buildPackedUInt32(quickUseMaterialId));
-                output.writeUInt32(1, 1);
-            } else {
-                output.writeUInt32(1, 0);
-            }
-
-            output.writeInt32(14, 0);
-            output.flush();
-
-            this.setData(baos.toByteArray());
-        } catch (IOException e) {
-            throw new RuntimeException("Failed to encode GetWidgetQuickSlotListRsp for REL6.6", e);
+        if (quickUseMaterialId > 0) {
+            builder.addMaterialIdList(quickUseMaterialId);
         }
+
+        /*
+         * Success.
+         *
+         * In the REL7.0 generated definition,
+         * retcode is field 1.
+         */
+        builder.setRetcode(0);
+
+        GetWidgetQuickSlotListRsp proto = builder.build();
+
+        this.setData(proto);
     }
 }

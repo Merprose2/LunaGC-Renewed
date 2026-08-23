@@ -99,6 +99,8 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter @Setter private int currentRealmId;
     @Getter @Setter private transient boolean isInEditMode;
     @Getter @Setter private int widgetId;
+	@Getter @Setter private List<Integer> widgetQuickSlotList = new ArrayList<>();
+	@Getter @Setter private int widgetQuickSlotCurrentSlotNum;
 	@Getter @Setter
 	private Map<Integer, Integer> lunchBoxSlotMaterialMap = new HashMap<>();
     @Getter @Setter private int sceneId;
@@ -1383,6 +1385,72 @@ public class Player implements PlayerHook, FieldFetch {
 		this.getPlayerProgress().setPlayer(this);
     }
 
+	private void migrateWidgetQuickSlots() {
+		boolean changed = false;
+
+		if (this.widgetQuickSlotList == null) {
+			this.widgetQuickSlotList = new ArrayList<>();
+			changed = true;
+		}
+
+		/*
+		 * REL7.0 uses exactly four quickswap positions.
+		 */
+		if (this.widgetQuickSlotList.size() > 4) {
+			this.widgetQuickSlotList =
+					new ArrayList<>(
+							this.widgetQuickSlotList.subList(0, 4));
+
+			changed = true;
+		}
+
+		while (this.widgetQuickSlotList.size() < 4) {
+			this.widgetQuickSlotList.add(0);
+			changed = true;
+		}
+
+		/*
+		 * current_slot_num is zero-based.
+		 */
+		if (this.widgetQuickSlotCurrentSlotNum < 0
+				|| this.widgetQuickSlotCurrentSlotNum >= 4) {
+			this.widgetQuickSlotCurrentSlotNum = 0;
+			changed = true;
+		}
+
+		int selectedMaterialId =
+				this.widgetQuickSlotList.get(
+						this.widgetQuickSlotCurrentSlotNum);
+
+		/*
+		 * Repair databases produced by the previous broken implementation.
+		 *
+		 * Prefer the actual material stored in the selected quickswap
+		 * position, because the client-provided quickswap list is now our
+		 * authoritative source.
+		 */
+		if (selectedMaterialId > 0) {
+        if (this.widgetId != selectedMaterialId) {
+            this.widgetId = selectedMaterialId;
+            changed = true;
+        }
+    } else if (this.widgetId > 0) {
+        /*
+         * Old player with a widgetId but no entry in the selected slot:
+         * preserve that existing gadget instead of losing it.
+         */
+        this.widgetQuickSlotList.set(
+                this.widgetQuickSlotCurrentSlotNum,
+                this.widgetId);
+
+        changed = true;
+    }
+
+    if (changed) {
+        this.save();
+    }
+}
+
     public void onLogin() {
 
         if (this.getSceneTags() == null || this.getSceneTags().isEmpty()) {
@@ -1425,13 +1493,10 @@ public class Player implements PlayerHook, FieldFetch {
         session.send(new PacketQuestListNotify(this));
         session.send(new PacketQuestGlobalVarNotify(this));
         session.send(new PacketCodexDataFullNotify(this));
+		
+		migrateWidgetQuickSlots();
+		session.send(new PacketAllWidgetDataNotify(this));
 		session.send(new PacketGetWidgetSlotRsp(this));
-		session.send(new PacketGetWidgetQuickSlotListRsp(this));
-
-		if (this.getLunchBoxSlotMaterialMap() != null
-				&& !this.getLunchBoxSlotMaterialMap().isEmpty()) {
-			session.send(new PacketNreLunchBoxDataNotify(this));
-		}
 
         this.achievements.onLogin(this);
 

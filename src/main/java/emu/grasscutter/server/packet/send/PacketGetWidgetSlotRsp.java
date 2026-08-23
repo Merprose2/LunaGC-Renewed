@@ -1,43 +1,49 @@
 package emu.grasscutter.server.packet.send;
 
-import com.google.protobuf.CodedOutputStream;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.packet.PacketOpcodes;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import emu.grasscutter.net.proto.GetWidgetSlotRspOuterClass.GetWidgetSlotRsp;
+import emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData;
+import emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag;
 
 public class PacketGetWidgetSlotRsp extends BasePacket {
 
     public PacketGetWidgetSlotRsp(Player player) {
         super(PacketOpcodes.GetWidgetSlotRsp);
 
-        try {
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            CodedOutputStream output = CodedOutputStream.newInstance(baos);
+        GetWidgetSlotRsp.Builder proto =
+                GetWidgetSlotRsp.newBuilder()
+                        .setRetcode(0);
+
+        if (player.getWidgetId() > 0) {
+            /*
+             * Active quick-use gadget.
+             */
+            proto.addSlotList(
+                    WidgetSlotData.newBuilder()
+                            .setMaterialId(player.getWidgetId())
+                            .setTag(
+                                    WidgetSlotTag
+                                            .WidgetSlotTag_WIDGET_SLOT_QUICK_USE)
+                            .setIsActive(true)
+                            .build());
 
             /*
-             * REL6.6 GetWidgetSlotRsp:
-             * repeated WidgetSlotData slot_list = 14;
-             * int32 retcode = 9;
+             * Keep the second widget slot entry.
+             *
+             * Grasscutter historically sends this alongside the
+             * quick-use slot and the client may expect the complete
+             * slot table rather than only the active gadget.
              */
-            int quickUseMaterialId = player.getWidgetId();
-
-            if (quickUseMaterialId > 0) {
-                output.writeByteArray(
-                        14,
-                        WidgetSlotPacketHelper.buildWidgetSlotData(
-                                quickUseMaterialId,
-                                WidgetSlotPacketHelper.WIDGET_SLOT_TAG_QUICK_USE,
-                                true));
-            }
-
-            output.writeInt32(9, 0);
-            output.flush();
-
-            this.setData(baos.toByteArray());
-        } catch (IOException e) {
-            throw new RuntimeException("Failed to encode GetWidgetSlotRsp for REL6.6", e);
+            proto.addSlotList(
+                    WidgetSlotData.newBuilder()
+                            .setTag(
+                                    WidgetSlotTag
+                                            .WidgetSlotTag_WIDGET_SLOT_ATTACH_AVATAR)
+                            .build());
         }
+
+        this.setData(proto.build());
     }
 }

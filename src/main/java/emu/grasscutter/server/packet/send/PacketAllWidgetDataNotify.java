@@ -1,51 +1,123 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.player.Player;
-import emu.grasscutter.net.packet.*;
-import emu.grasscutter.net.proto.*;
+import emu.grasscutter.net.packet.BasePacket;
+import emu.grasscutter.net.packet.PacketOpcodes;
 import emu.grasscutter.net.proto.AllWidgetDataNotifyOuterClass.AllWidgetDataNotify;
+import emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData;
+import emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData;
+import emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag;
+
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 public class PacketAllWidgetDataNotify extends BasePacket {
+    private static final int MAX_QUICK_SLOTS = 4;
 
     public PacketAllWidgetDataNotify(Player player) {
         super(PacketOpcodes.AllWidgetDataNotify);
 
-        // TODO: Implement this
+        /*
+         * Quick Swap configuration.
+         */
+        List<Integer> quickSlots =
+                new ArrayList<>();
+
+        if (player.getWidgetQuickSlotList() != null) {
+            quickSlots.addAll(
+                    player.getWidgetQuickSlotList());
+        }
+
+        if (quickSlots.size() > MAX_QUICK_SLOTS) {
+            quickSlots =
+                    new ArrayList<>(
+                            quickSlots.subList(
+                                    0,
+                                    MAX_QUICK_SLOTS));
+        }
+
+        while (quickSlots.size() < MAX_QUICK_SLOTS) {
+            quickSlots.add(0);
+        }
+
+        int currentSlotNum =
+                player.getWidgetQuickSlotCurrentSlotNum();
+
+        if (currentSlotNum < 0
+                || currentSlotNum >= MAX_QUICK_SLOTS) {
+            currentSlotNum = 0;
+        }
+
+        /*
+         * NRE Menu 30 configuration.
+         *
+         * Do not manually encode this field.
+         * REL7.0 AllWidgetDataNotify has a genuine
+         * LunchBoxData field and the generated builder
+         * knows its correct wire number.
+         */
+        Map<Integer, Integer> lunchBoxSlots =
+                player.getLunchBoxSlotMaterialMap() == null
+                        ? Collections.emptyMap()
+                        : player.getLunchBoxSlotMaterialMap();
+
+        LunchBoxData lunchBoxData =
+                LunchBoxData.newBuilder()
+                        .putAllSlotMaterialMap(lunchBoxSlots)
+                        .build();
 
         AllWidgetDataNotify.Builder proto =
                 AllWidgetDataNotify.newBuilder()
-                        // If you want to implement this, feel free to do so. :)
-                        // Maybe it's a little difficult, or it makes you upset :(
-                        .addAllOneoffGatherPointDetectorDataList(List.of())
-                        // So, goodbye, and hopefully sometime in the future o(*￣▽￣*)ブ
-                        .addAllCoolDownGroupDataList(List.of())
-                        // I'll see your PR with a title that says (・∀・(・∀・(・∀・*)
-                        .addAllAnchorPointList(List.of())
-                        // "Complete implementation of widget functionality" b（￣▽￣）d
-                        .addAllClientCollectorDataList(List.of())
-                        // Good luck, my boy.
-                        .addAllNormalCoolDownDataList(List.of());
+                        .addAllOneoffGatherPointDetectorDataList(
+                                List.of())
+                        .addAllCoolDownGroupDataList(
+                                List.of())
+                        .addAllAnchorPointList(
+                                List.of())
+                        .addAllClientCollectorDataList(
+                                List.of())
+                        .addAllNormalCoolDownDataList(
+                                List.of())
 
-        if (player.getWidgetId()
-                == 0) { // TODO: check this logic later, it was null-checking an int before which made it
-            // dead code
-            proto.addAllSlotList(List.of());
-        } else {
+                        /*
+                         * REL7.0 Quick Swap fields.
+                         */
+                        .addAllMaterialIdList(quickSlots)
+                        .setCurrentSlotNum(currentSlotNum)
+
+                        /*
+                         * REL7.0 LunchBoxData.
+                         */
+                        .setLunchBoxData(lunchBoxData);
+
+        if (player.getWidgetId() > 0) {
+            /*
+             * Active quick-use gadget.
+             */
             proto.addSlotList(
-                    WidgetSlotDataOuterClass.WidgetSlotData.newBuilder()
+                    WidgetSlotData.newBuilder()
+                            .setMaterialId(
+                                    player.getWidgetId())
+                            .setTag(
+                                    WidgetSlotTag
+                                            .WidgetSlotTag_WIDGET_SLOT_QUICK_USE)
                             .setIsActive(true)
-                            .setMaterialId(player.getWidgetId())
                             .build());
 
+            /*
+             * Preserve the secondary widget slot entry
+             * used by the normal Grasscutter widget state.
+             */
             proto.addSlotList(
-                    WidgetSlotDataOuterClass.WidgetSlotData.newBuilder()
-                            .setTag(WidgetSlotTagOuterClass.WidgetSlotTag.WidgetSlotTag_WIDGET_SLOT_ATTACH_AVATAR)
+                    WidgetSlotData.newBuilder()
+                            .setTag(
+                                    WidgetSlotTag
+                                            .WidgetSlotTag_WIDGET_SLOT_ATTACH_AVATAR)
                             .build());
         }
 
-        AllWidgetDataNotify protoData = proto.build();
-
-        this.setData(protoData);
+        this.setData(proto.build());
     }
 }

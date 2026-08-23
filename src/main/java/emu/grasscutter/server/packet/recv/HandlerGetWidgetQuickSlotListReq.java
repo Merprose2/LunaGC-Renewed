@@ -6,7 +6,7 @@ import emu.grasscutter.net.packet.PacketOpcodes;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketGetWidgetQuickSlotListRsp;
 
-@Opcodes(PacketOpcodes.GetWidgetQuickSlotListReq)
+@Opcodes(PacketOpcodes._GetWidgetQuickSlotListReq)
 public class HandlerGetWidgetQuickSlotListReq extends PacketHandler {
 
     @Override

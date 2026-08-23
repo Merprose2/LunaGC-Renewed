@@ -119,8 +119,9 @@ public class GameSession implements GameSessionManager.KcpChannel {
             if (missingCmdIdReported.add(packet.getClass().getSimpleName())) {
                 Grasscutter.getLogger()
                         .warn(
-                                "{} has no 7.0 CmdId, so it is not being sent.",
-                                packet.getClass().getSimpleName());
+                                "{} has no 7.0 CmdId, so it is not being sent. opcode={}",
+                                packet.getClass().getSimpleName(),
+                                packet.getOpcode());
             }
             return;
         }
@@ -154,19 +155,27 @@ public class GameSession implements GameSessionManager.KcpChannel {
 
         SendPacketEvent event = new SendPacketEvent(this, packet);
         event.call();
-        if (!event.isCanceled()) {
-            try {
-                packet = event.getPacket();
-                var bytes = packet.build();
-                if (packet.shouldEncrypt) {
-                    if (Grasscutter.getConfig().server.game.useXorEncryption) {
-                        Crypto.xor(bytes, packet.useDispatchKey() || !useSecretKey() ? Crypto.DISPATCH_KEY : this.encryptKey);
-                    }
+
+        if (event.isCanceled()) {
+            return;
+        }
+
+        try {
+            packet = event.getPacket();
+
+            var bytes = packet.build();
+            if (packet.shouldEncrypt) {
+                if (Grasscutter.getConfig().server.game.useXorEncryption) {
+                    Crypto.xor(
+                            bytes,
+                            packet.useDispatchKey() || !useSecretKey()
+                                    ? Crypto.DISPATCH_KEY
+                                    : this.encryptKey);
                 }
-                tunnel.writeData(bytes);
-            } catch (Exception ignored) {
-                Grasscutter.getLogger().debug("Unable to send packet to client.");
             }
+            tunnel.writeData(bytes);
+        } catch (Exception exception) {
+            Grasscutter.getLogger().debug("Unable to send packet to client.", exception);
         }
     }
 
@@ -280,7 +289,7 @@ public class GameSession implements GameSessionManager.KcpChannel {
                     }
                     return; // Bad packet
                 }
-
+				
                 prevOpcode = opcode;
                 prevHeaderLen = headerLength;
                 prevPayloadLen = payloadLength;
