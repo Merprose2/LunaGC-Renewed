@@ -1,4 +1,4 @@
-# LunaGC-7.0.0
+# LunaGC-Renewed-7.0.0
 
 ## Updated version of Grasscutters/LunaGC, with some new features implemented.
 Features and functionality of the PS is not guaranteed, try it yourself to see what works and what doesnt.
@@ -18,7 +18,7 @@ Features and functionality of the PS is not guaranteed, try it yourself to see w
 
 - Install the resources using one of these methods:
 -  **Regular method:** Download the [Resources](https://github.com/Merprose2/LunaGCR-Resources), create a folder named `resources` inside the LunaGC folder, and extract the resources into it.
--  **Resource cache method:** Download `LunaGC-6.6-resources.cache` from the [latest Resource Cache release](https://github.com/Merprose2/LunaGCR-Resources/releases/tag/latest-cache), create a folder named `cache` inside the LunaGC folder, and place the file inside it without extracting or renaming it.
+-  **Resource cache method:** Download `LunaGC-7.0-resources.cache` from the [latest Resource Cache release](https://github.com/Merprose2/LunaGCR-Resources/releases/tag/latest-cache), create a folder named `cache` inside the LunaGC folder, and place the file inside it without extracting or renaming it.
 -  The server will automatically use a valid resource cache when available and fall back to the normal `resources` folder otherwise.
 - Set useEncryption, Questing and useInRouting to false (it should be false by default, if not then change it).
 - [Patch the game](#patching-the-game)
