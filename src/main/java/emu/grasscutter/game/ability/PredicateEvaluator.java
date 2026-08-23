@@ -28,6 +28,10 @@ public final class PredicateEvaluator {
         Object typeObj = pred.get("$type");
         if (!(typeObj instanceof String type)) return true;
         GameEntity resolved = resolveTarget(pred, ability, owner, target);
+        if ("BJJDEAIEIGP".equals(type)) {
+            GameEntity caster = ability != null ? ability.getCasterEntity() : null;
+            return hasHexenzirkelTag(caster != null ? caster : (owner != null ? owner : resolved));
+        }
         if ("ByUnlockTalentParam".equals(type)) {
             GameEntity caster = ability != null ? ability.getCasterEntity() : null;
             return byUnlockTalentParam(pred, caster != null ? caster : (owner != null ? owner : resolved));
@@ -57,6 +61,14 @@ public final class PredicateEvaluator {
                     : defaultTarget;
             default -> defaultTarget;
         };
+    }
+
+    private static boolean hasHexenzirkelTag(GameEntity target) {
+        if (!(target instanceof EntityAvatar ea)) return false;
+        Avatar avatar = ea.getAvatar();
+        if (avatar == null || avatar.getAvatarData() == null) return false;
+        var tags = avatar.getAvatarData().getTags();
+        return tags != null && tags.contains("AVATAR_TAG_HEXENZIRKEL");
     }
 
     private static boolean byUnlockTalentParam(Map<String, Object> pred, GameEntity target) {

@@ -81,7 +81,9 @@ public class AbilityMixinData implements Serializable {
         AvatarSteerByCameraMixin,
         ModifyDamageCountMixin,
         AttackCostElementMixin,
-        OnAvatarUseSkillMixin
+        OnAvatarUseSkillMixin,
+        DoActionByElementReactionMixin,
+        DoActionBySelfElementReactionMixin
     }
     public AbilityModifierAction[] idontknowwhattonamethis;
     public AbilityModifierAction[] idontknowwhattonamethis2;
@@ -108,6 +110,16 @@ public class AbilityMixinData implements Serializable {
 
     @SerializedName("succActions")
     public AbilityModifierAction[] succActions;
+
+    @SerializedName("actions")
+    public AbilityModifierAction[] actions;
+
+    @SerializedName("actionQueue")
+    public AbilityModifierAction[] actionQueue;
+
+    public List<String> reactionTypes = new ArrayList<>();
+    public List<String> entityTypes = new ArrayList<>();
+    public List<String> attackTags = new ArrayList<>();
 
     @SerializedName("$type")
     public Type type;

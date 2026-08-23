@@ -16,6 +16,7 @@ public class ActionCreateGadget extends AbilityActionHandler {
     public boolean execute(
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         var entity = ability.getOwner();
+        if (entity instanceof EntityClientGadget) return true;
         AbilityActionCreateGadget createGadget;
         try {
             createGadget = AbilityActionCreateGadget.parseFrom(abilityData);

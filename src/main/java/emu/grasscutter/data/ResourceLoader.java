@@ -620,7 +620,11 @@ public final class ResourceLoader {
 
         if (list == null) {
             Map<String, OpenConfigEntry> map = new TreeMap<>();
-            String[] folderNames = {"BinOutput/Talent/EquipTalents/", "BinOutput/Talent/AvatarTalents/"};
+            String[] folderNames = {
+                "BinOutput/Talent/EquipTalents/",
+                "BinOutput/Talent/AvatarTalents/",
+                "BinOutput/Talent/RelicTalents/"
+            };
 
             for (String folderName : folderNames) {
                 try (val stream = Files.newDirectoryStream(getResourcePath(folderName), "*.json")) {
