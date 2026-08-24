@@ -100,6 +100,10 @@ public final class AvatarExpeditionStartRspOuterClass {
     int getILBIKNLHAKE(int index);
   }
   /**
+   * <pre>
+   * CmdID: 8682
+   * </pre>
+   *
    * Protobuf type {@code AvatarExpeditionStartRsp}
    */
   public static final class AvatarExpeditionStartRsp extends
@@ -624,6 +628,10 @@ public final class AvatarExpeditionStartRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdID: 8682
+     * </pre>
+     *
      * Protobuf type {@code AvatarExpeditionStartRsp}
      */
     public static final class Builder extends
