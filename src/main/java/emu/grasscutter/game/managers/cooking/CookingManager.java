@@ -1,5 +1,6 @@
 package emu.grasscutter.game.managers.cooking;
 
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.common.ItemParamData;
 import emu.grasscutter.data.excels.ItemData;
@@ -60,13 +61,33 @@ public class CookingManager extends BasePlayerManager {
         };
     }
 
+    /**
+     * qualityOutputVec is a fixed-size 5-slot array, but recipes don't all have 5 real quality
+     * tiers - lower-rank recipes only fill the first 2-4 slots and pad the rest with {count: 0,
+     * id: 0} placeholders. A fixed index (e.g. always assuming index 2 is "perfect") reads into
+     * that padding for recipes with fewer tiers. When quality is 0 (auto-cook, no QTE result),
+     * resolve to whichever tier is actually the highest one this recipe supports - i.e. the last
+     * non-padding entry - rather than a hardcoded slot.
+     */
+    private static int resolveQualityIndex(List<ItemParamData> qualityOutputVec, int quality) {
+        if (quality != 0) {
+            return quality - 1;
+        }
+        for (int i = qualityOutputVec.size() - 1; i >= 0; i--) {
+            if (qualityOutputVec.get(i).getItemId() != 0) {
+                return i;
+            }
+        }
+        return 0;
+    }
+
     public void handlePlayerCookReq(PlayerCookReq req) {
         // Get info from the request.
         int recipeId = req.getRecipeId();
-        // qte_quality and cook_count are unnamed in the 7.0 dump and PlayerCookReq has four
-        // indistinguishable uint32s, so neither can be read. Assume a single perfect dish.
-        int quality = 0;
-        int count = 1;
+        // quality: 0 = auto-cook (no QTE), 1-3 = manual QTE cook result tier (Strange/Ordinary/
+        // Delicious). count: number of dishes cooked in this request.
+        int quality = req.getQteQuality();
+        int count = Math.max(1, req.getCookCount());
         int avatar = req.getAssistAvatar();
 
         // Get recipe data.
@@ -83,25 +104,51 @@ public class CookingManager extends BasePlayerManager {
         boolean success =
                 player.getInventory().payItems(recipeData.getInputVec(), count, ActionReason.Cook);
         if (!success) {
+            Grasscutter.getLogger()
+                    .warn(
+                            "Player {} failed to pay ingredients for recipe {}, aborting cook.",
+                            this.player.getUid(),
+                            recipeId);
             this.player.sendPacket(new PacketPlayerCookRsp(Retcode.RET_FAIL));
+            return;
         }
 
         // Get result item information.
-        int qualityIndex = quality == 0 ? 2 : quality - 1;
+        var qualityOutputVec = recipeData.getQualityOutputVec();
+        int qualityIndex = resolveQualityIndex(qualityOutputVec, quality);
 
-        ItemParamData resultParam = recipeData.getQualityOutputVec().get(qualityIndex);
+        ItemParamData resultParam = qualityOutputVec.get(qualityIndex);
         ItemData resultItemData = GameData.getItemDataMap().get(resultParam.getItemId());
 
-        // Handle character's specialties.
-        int specialtyCount = 0;
-        double specialtyChance = this.getSpecialtyChance(resultItemData);
+        if (resultItemData == null) {
+            // Safety net: covers the case where a recipe references an item id that's genuinely
+            // missing/wrong in the data, as opposed to the padding-slot issue resolveQualityIndex
+            // now avoids.
+            Grasscutter.getLogger()
+                    .warn(
+                            "Recipe {} references unknown result item id {}, aborting cook.",
+                            recipeId,
+                            resultParam.getItemId());
+            this.player.sendPacket(new PacketPlayerCookRsp(Retcode.RET_FAIL));
+            return;
+        }
 
+        // Handle character's specialties.
+        //
+        // CookBonusExcelConfigData's paramVec[0] is a *substitute ingredient* id (matching the
+        // recipe's own inputVec numbering - e.g. recipe 1004's inputVec ends at 108009 and its
+        // bonus entry's paramVec[0] is 108010), not a reward/output item id. There's currently no
+        // way to tell from the request whether the player actually swapped in that ingredient, so
+        // treating paramVec[0] as a replacement output item (as before) just handed back a random
+        // raw material instead of food. The specialty bonus is instead applied as extra copies of
+        // the correctly resolved dish, matching how companionship cooking bonuses actually work.
+        int bonusCount = 0;
         var bonusData = GameData.getCookBonusDataMap().get(avatar);
         if (bonusData != null && recipeId == bonusData.getRecipeId()) {
-            // Roll for specialy replacements.
+            double bonusChance = this.getSpecialtyChance(resultItemData);
             for (int i = 0; i < count; i++) {
-                if (ThreadLocalRandom.current().nextDouble() <= specialtyChance) {
-                    specialtyCount++;
+                if (ThreadLocalRandom.current().nextDouble() <= bonusChance) {
+                    bonusCount++;
                 }
             }
         }
@@ -109,18 +156,10 @@ public class CookingManager extends BasePlayerManager {
         // Obtain results.
         List<GameItem> cookResults = new ArrayList<>();
 
-        int normalCount = count - specialtyCount;
-        GameItem cookResultNormal = new GameItem(resultItemData, resultParam.getCount() * normalCount);
-        cookResults.add(cookResultNormal);
-        this.player.getInventory().addItem(cookResultNormal);
-
-        if (specialtyCount > 0) {
-            ItemData specialtyItemData = GameData.getItemDataMap().get(bonusData.getReplacementItemId());
-            GameItem cookResultSpecialty =
-                    new GameItem(specialtyItemData, resultParam.getCount() * specialtyCount);
-            cookResults.add(cookResultSpecialty);
-            this.player.getInventory().addItem(cookResultSpecialty);
-        }
+        int totalCount = count + bonusCount;
+        GameItem cookResult = new GameItem(resultItemData, resultParam.getCount() * totalCount);
+        cookResults.add(cookResult);
+        this.player.getInventory().addItem(cookResult);
 
         // Increase player proficiency, if this was a manual perfect cook.
         if (quality == MANUAL_PERFECT_COOK_QUALITY) {
