@@ -290,7 +290,8 @@ public class SotSManager extends BasePlayerManager {
                 }
             }
 
-            // Removed PacketSceneForceUnlockNotify call
+            // unlock forcescene
+        	player.sendPacket(new PacketSceneForceUnlockNotify(1, true));
         }
 
         // update data

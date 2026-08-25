@@ -2075,12 +2075,12 @@ public class Scene {
 
     public void unlockForce(int force) {
         this.unlockedForces.add(force);
-        // Do not send PacketSceneForceUnlockNotify as it triggers an unintended exit screen on the client
+        this.broadcastPacket(new PacketSceneForceUnlockNotify(force, true));
     }
 
     public void lockForce(int force) {
         this.unlockedForces.remove(force);
-        // Do not send PacketSceneForceLockNotify
+        this.broadcastPacket(new PacketSceneForceLockNotify(force));
     }
 
     public void selectWorktopOptionWith(SelectWorktopOptionReqOuterClass.SelectWorktopOptionReq req) {
