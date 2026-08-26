@@ -44,6 +44,15 @@ public class GachaBanner {
     private int costItemAmount10 = 10;
     @Getter private int beginTime = 0;
     @Getter private int endTime = 1924992000;
+
+    /**
+     * Overrides the configured endTime. Used by the banner rotation system (data/Banners folder
+     * mode) so the client's "time left" countdown reflects the actual rotation deadline instead of
+     * the far-future default baked into the JSON.
+     */
+    public void setEndTime(int endTime) {
+        this.endTime = endTime;
+    }
     @Getter private int gachaTimesLimit = Integer.MAX_VALUE;
     @Getter private int[] rateUpItems4 = {};
     @Getter private int[] rateUpItems5 = {};
