@@ -1512,17 +1512,6 @@ public class Scene {
 
 					gadget.buildContent();
 
-					/*
-					 * Keep normal gather/interact gadgets unbreakable, but allow break-required
-					 * gather objects like crates/barrels/ore-like objects to actually break.
-					 */
-					if (gadget.getContent() instanceof GadgetGatherObject gatherObject
-							&& !gatherObject.requiresBreaking()) {
-						gadget.setFightProperty(FightProperty.FIGHT_PROP_BASE_HP, Float.POSITIVE_INFINITY);
-						gadget.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP, Float.POSITIVE_INFINITY);
-						gadget.setFightProperty(FightProperty.FIGHT_PROP_MAX_HP, Float.POSITIVE_INFINITY);
-					}
-
 					entity = gadget;
 
 					blossomManager.initBlossom(gadget);

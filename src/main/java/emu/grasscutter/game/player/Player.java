@@ -1252,6 +1252,14 @@ public class Player implements PlayerHook, FieldFetch {
 
     public synchronized void onTick() {
 
+	// Process any queued attack results
+        while (!this.getAttackResults().isEmpty()) {
+            AttackResult result = this.getAttackResults().poll();
+            if (this.getScene() != null && result != null) {
+                this.getScene().handleAttack(result);
+            }
+        }
+
         long pingAge = System.currentTimeMillis() - this.getLastPingTime();
         if (pingAge > 60000) {
             this.getSession().close();

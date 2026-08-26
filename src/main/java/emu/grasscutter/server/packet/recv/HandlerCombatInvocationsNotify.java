@@ -142,6 +142,11 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
 
                     player.getAttackResults().add(attackResult);
                     player.getEnergyManager().handleAttackHit(hitInfo);
+
+                    // DIRECTLY PROCESS ATTACK ON SERVER:
+                    if (player.getScene() != null) {
+                        player.getScene().handleAttack(attackResult);
+                    }
                 }
                 case CombatTypeArgument_ENTITY_MOVE -> {
 

@@ -14,6 +14,8 @@ import emu.grasscutter.net.proto.AbilityMetaSpecialEnergyOuterClass;
 import emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo;
 import emu.grasscutter.game.entity.EntityAvatar;
 import emu.grasscutter.game.entity.EntityClientGadget;
+import emu.grasscutter.game.entity.EntityGadget;
+import emu.grasscutter.game.entity.gadget.GadgetGatherObject;
 import emu.grasscutter.game.entity.GameEntity;
 import emu.grasscutter.data.excels.ProudSkillData;
 import emu.grasscutter.data.excels.avatar.AvatarSkillDepotData;
@@ -876,10 +878,21 @@ public final class AbilityManager extends BasePlayerManager {
                     executeAction(finalAbility, a, invoke.getAbilityData(), finalEntity);
                 }
             }
+        if (fromParentName && hasOrchestration && modifierData.onAdded != null) {
+                final var finalAbility = instancedAbility;
+                final var finalEntity = entity;
+                for (var a : modifierData.onAdded) {
+                    executeAction(finalAbility, a, invoke.getAbilityData(), finalEntity);
+                }
+            }
         } else if (modChange.getAction() == ModifierAction.MODIFIER_ACTION_REMOVED) {
             entity.getInstancedModifiers().remove(head.getInstancedModifierId());
-        } else {
 
+            // Destroy breakable rocks / ores when their durability modifier is removed
+            if (entity instanceof EntityGadget targetGadget && targetGadget.getContent() instanceof GadgetGatherObject) {
+                this.getPlayer().getScene().killEntity(targetGadget);
+            }
+        } else {
             Grasscutter.getLogger().debug("Unknown action");
         }
     }
@@ -1085,6 +1098,7 @@ public final class AbilityManager extends BasePlayerManager {
 
     private void handleModifierDurabilityChange(AbilityInvokeEntry invoke)
         throws InvalidProtocolBufferException {
+        // Durability ticks down during hits; actual break happens when durability hits 0 (MODIFIER_ACTION_REMOVED)
     }
 
     private static volatile Set<Integer> moonLightAbilityHashes;
@@ -1252,11 +1266,13 @@ public final class AbilityManager extends BasePlayerManager {
         var killState = AbilityMetaSetKilledState.parseFrom(invoke.getAbilityData());
         if (killState.getKilled()) {
             if (!(entity instanceof EntityAvatar) && !(entity instanceof EntityClientGadget)) {
+                if (entity instanceof EntityGadget targetGadget && targetGadget.getContent() instanceof emu.grasscutter.game.entity.gadget.GadgetGatherObject gatherObject) {
+                    gatherObject.dropItems(this.getPlayer());
+                }
                 scene.killEntity(entity);
             }
         } else if (!entity.isAlive()) {
             if (entity instanceof EntityAvatar) {
-
                 Grasscutter.getLogger()
                     .trace("Entity of ID {} is EntityAvatar. Ignoring", invoke.getEntityId());
                 return;

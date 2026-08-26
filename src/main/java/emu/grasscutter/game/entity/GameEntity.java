@@ -1,5 +1,9 @@
 package emu.grasscutter.game.entity;
 
+import com.google.protobuf.ByteString;
+import com.google.protobuf.CodedOutputStream;
+import com.google.protobuf.UnknownFieldSet;
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.binout.*;
 import emu.grasscutter.game.ability.*;
@@ -9,34 +13,25 @@ import emu.grasscutter.game.props.*;
 import emu.grasscutter.game.world.*;
 import emu.grasscutter.net.proto.ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason;
 import emu.grasscutter.net.proto.ChangeHpReasonOuterClass.ChangeHpReason;
+import emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo;
 import emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair;
-import emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString;
 import emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq;
 import emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo;
 import emu.grasscutter.net.proto.MotionStateOuterClass.MotionState;
+import emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo;
 import emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason;
 import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
 import emu.grasscutter.net.proto.VectorOuterClass.Vector;
 import emu.grasscutter.scripts.data.controller.EntityController;
-import emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo;
-import emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo;
 import emu.grasscutter.server.event.entity.*;
 import emu.grasscutter.server.packet.send.PacketAvatarFightPropNotify;
 import emu.grasscutter.server.packet.send.PacketEntityFightPropChangeReasonNotify;
 import emu.grasscutter.server.packet.send.PacketEntityFightPropUpdateNotify;
-import it.unimi.dsi.fastutil.ints.*;
 import emu.grasscutter.utils.Utils;
-import emu.grasscutter.*;
-import emu.grasscutter.data.GameData;
-
+import it.unimi.dsi.fastutil.ints.*;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.*;
-
-import com.google.protobuf.ByteString;
-import com.google.protobuf.CodedOutputStream;
-import com.google.protobuf.UnknownFieldSet;
-
 import lombok.*;
 
 import static emu.grasscutter.GameConstants.ENTITY_ID_BIT_SHIFT;
@@ -91,6 +86,7 @@ public abstract class GameEntity {
     public EntityType getEntityType() {
         return EntityIdType.toEntityType(this.getId() >> ENTITY_ID_BIT_SHIFT);
     }
+
     public boolean isConvertToHpDebt() {
         return convertToHpDebt;
     }
@@ -113,17 +109,19 @@ public abstract class GameEntity {
     public World getWorld() {
         return this.getScene().getWorld();
     }
-        public boolean isRestrictedFromHealing() {
-            return restrictedFromHealing;
-        }
 
-        public void setRestrictedFromHealing(boolean restricted) {
-            this.restrictedFromHealing = restricted;
-        }
+    public boolean isRestrictedFromHealing() {
+        return restrictedFromHealing;
+    }
+
+    public void setRestrictedFromHealing(boolean restricted) {
+        this.restrictedFromHealing = restricted;
+    }
 
     public boolean isAlive() {
         return !this.isDead;
     }
+
     public LifeState getLifeState() {
         return this.isAlive() ? LifeState.LIFE_ALIVE : LifeState.LIFE_DEAD;
     }
@@ -168,14 +166,14 @@ public abstract class GameEntity {
         limbo = true;
         limboHpThreshold = hpThreshold;
     }
-    public GameEntity getTrueOwner() {
-    if (this instanceof EntityClientGadget gadget) {
-        GameEntity owner = gadget.getScene().getEntityById(gadget.getOwnerEntityId());
 
-        return (owner instanceof EntityClientGadget) ? owner.getTrueOwner() : owner;
+    public GameEntity getTrueOwner() {
+        if (this instanceof EntityClientGadget gadget) {
+            GameEntity owner = gadget.getScene().getEntityById(gadget.getOwnerEntityId());
+            return (owner instanceof EntityClientGadget) ? owner.getTrueOwner() : owner;
+        }
+        return this;
     }
-    return this;
-}
 
     public void onAddAbilityModifier(AbilityModifier data) {
         if (data.properties == null) {
@@ -183,11 +181,9 @@ public abstract class GameEntity {
         }
         float hpThresholdRatio = data.properties.Actor_HpThresholdRatio;
 
-        if (data.properties != null) {
-            if (data.state == AbilityModifier.State.Limbo && hpThresholdRatio > 0.0f) {
-                Grasscutter.getLogger().info("Limbo set to " + hpThresholdRatio);
-                this.setLimbo(hpThresholdRatio);
-            }
+        if (data.state == AbilityModifier.State.Limbo && hpThresholdRatio > 0.0f) {
+            Grasscutter.getLogger().info("Limbo set to " + hpThresholdRatio);
+            this.setLimbo(hpThresholdRatio);
         }
     }
 
@@ -278,20 +274,18 @@ public abstract class GameEntity {
 
             if (this.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS) > 0) {
                 this.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(this, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, toRepay,
-                                                        mute
-                                                                ? PropChangeReason.PropChangeReason_PROP_CHANGE_NONE
-                                                                : PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
-
-                                                        ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY
+                        mute
+                                ? PropChangeReason.PropChangeReason_PROP_CHANGE_NONE
+                                : PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
+                        ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY
                 ));
             } else {
                 this.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(this, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, toRepay,
-                                                        mute
-                                                                ? PropChangeReason.PropChangeReason_PROP_CHANGE_NONE
-                                                                : PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
-
-                                                        ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH
-                                                       ));
+                        mute
+                                ? PropChangeReason.PropChangeReason_PROP_CHANGE_NONE
+                                : PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
+                        ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH
+                ));
             }
         }
 
@@ -299,29 +293,29 @@ public abstract class GameEntity {
     }
 
     public void damage(float amount) {
-        GameEntity ownerEntity = resolveOwnerEntity(this);
         this.damage(amount, 0, ElementType.None);
     }
+
     private GameEntity resolveOwnerEntity(GameEntity owner) {
         if (owner instanceof EntityClientGadget ownerGadget) {
-
             GameEntity nextOwner = ownerGadget.getScene().getEntityById(ownerGadget.getOwnerEntityId());
             return resolveOwnerEntity(nextOwner);
         }
         return owner;
     }
-      public void addSpecialEnergy(float energy){
-       float curSpecialEnergy = getFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY);
-       float maxSpecialEnergy = getFightProperty(FightProperty.FIGHT_PROP_MAX_SPECIAL_ENERGY);
-       curSpecialEnergy+=energy;
-       if (curSpecialEnergy >= maxSpecialEnergy){
+
+    public void addSpecialEnergy(float energy) {
+        float curSpecialEnergy = getFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY);
+        float maxSpecialEnergy = getFightProperty(FightProperty.FIGHT_PROP_MAX_SPECIAL_ENERGY);
+        curSpecialEnergy += energy;
+        if (curSpecialEnergy >= maxSpecialEnergy) {
             curSpecialEnergy = maxSpecialEnergy;
-       }
-       setFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY, curSpecialEnergy);
-       this.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(this, FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY));
+        }
+        setFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY, curSpecialEnergy);
+        this.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(this, FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY));
     }
 
-    public void clearSpecialEnergy(){
+    public void clearSpecialEnergy() {
         setFightProperty(FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY, 0);
         this.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(this, FightProperty.FIGHT_PROP_CUR_SPECIAL_ENERGY));
     }
@@ -339,7 +333,6 @@ public abstract class GameEntity {
     }
 
     public void damage(float amount, int killerId, ElementType attackType, PropChangeReason propChangeReason, ChangeHpReason changeHpReason) {
-
         if (this.getFightProperties() == null || !hasFightProperty(FightProperty.FIGHT_PROP_CUR_HP)) {
             return;
         }
@@ -368,11 +361,9 @@ public abstract class GameEntity {
             float maxHp = getFightProperty(FightProperty.FIGHT_PROP_MAX_HP);
             float curRatio = curHp / maxHp;
             if (curRatio > limboHpThreshold) {
-
                 effectiveDamage = event.getDamage();
             }
             if (effectiveDamage >= curHp && limboHpThreshold > .0f) {
-
                 effectiveDamage = curHp - 1;
             }
         } else if (curHp != Float.POSITIVE_INFINITY && !lockHP
@@ -439,7 +430,6 @@ public abstract class GameEntity {
     }
 
     public void move(Position position, Position rotation) {
-
         this.getPosition().set(position);
         this.getRotation().set(rotation);
     }
@@ -537,7 +527,6 @@ public abstract class GameEntity {
     }
 
     public void onDeath(int killerId) {
-
         EntityDeathEvent event = new EntityDeathEvent(this, killerId);
         event.call();
 
@@ -548,9 +537,7 @@ public abstract class GameEntity {
         this.isDead = true;
     }
 
-    public void onAbilityValueUpdate() {
-
-    }
+    public void onAbilityValueUpdate() {}
 
     public abstract SceneEntityInfo toProto();
 

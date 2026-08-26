@@ -20,6 +20,7 @@ import emu.grasscutter.utils.Utils;
 public final class GadgetGatherObject extends GadgetContent {
     private int itemId;
     private boolean isForbidGuest;
+    private boolean hasDropped = false;
 
     public GadgetGatherObject(EntityGadget gadget) {
 		super(gadget);
@@ -129,35 +130,37 @@ public final class GadgetGatherObject extends GadgetContent {
         gadgetInfo.setGatherGadget(gatherGadgetInfo);
     }
 
-    public void dropItems(Player player) {
-		if (this.itemId <= 0 || GameData.getItemDataMap().get(this.itemId) == null) {
-			Grasscutter.getLogger()
-					.trace(
-							"Skipping gather drop with invalid itemId. configId={}, gadgetId={}, pointType={}, spawnEntry={}",
-							getGadget().getConfigId(),
-							getGadget().getGadgetId(),
-							getGadget().getPointType(),
-							getGadget().getSpawnEntry() != null);
-			return;
-		}
-		Scene scene = getGadget().getScene();
-		int times = Utils.randomRange(1, 2);
+    public synchronized void dropItems(Player player) {
+        // Prevent duplicate drops from multiple kill events
+        if (this.hasDropped) {
+            return;
+        }
+        this.hasDropped = true;
 
-        for (int i = 0; i < times; i++) {
-            EntityItem item =
-                    new EntityItem(
-                            scene,
-                            player,
-                            GameData.getItemDataMap().get(itemId),
-                            getGadget().getPosition().nearby2d(1f).addY(2f),
-                            1,
-                            true);
-
-            scene.addEntity(item);
+        if (this.itemId <= 0 || GameData.getItemDataMap().get(this.itemId) == null) {
+            Grasscutter.getLogger()
+                    .trace(
+                            "Skipping gather drop with invalid itemId. configId={}, gadgetId={}, pointType={}, spawnEntry={}",
+                            getGadget().getConfigId(),
+                            getGadget().getGadgetId(),
+                            getGadget().getPointType(),
+                            getGadget().getSpawnEntry() != null);
+            return;
         }
 
-        scene.killEntity(this.getGadget(), player.getTeamManager().getCurrentAvatarEntity().getId());
-        // Todo: add record
+        Scene scene = getGadget().getScene();
+        if (scene == null) return;
+
+        EntityItem item =
+                new EntityItem(
+                        scene,
+                        player,
+                        GameData.getItemDataMap().get(this.itemId),
+                        getGadget().getPosition().nearby2d(1f).addY(0.5f),
+                        1,
+                        true);
+
+        scene.addEntity(item);
     }
 	
 	public boolean requiresBreaking() {

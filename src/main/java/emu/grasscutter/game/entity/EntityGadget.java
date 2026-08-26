@@ -200,7 +200,15 @@ public class EntityGadget extends EntityBaseGadget {
         this.content =
                 switch (this.getGadgetData().getType()) {
                     case GatherPoint -> new GadgetGatherPoint(this);
-                    case GatherObject -> new GadgetGatherObject(this);
+                    case GatherObject -> {
+                        // Ensure breakable gather objects have valid hit points
+                        if (this.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP) <= 0f) {
+                            this.setFightProperty(FightProperty.FIGHT_PROP_BASE_HP, 50f);
+                            this.setFightProperty(FightProperty.FIGHT_PROP_MAX_HP, 50f);
+                            this.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP, 50f);
+                        }
+                        yield new GadgetGatherObject(this);
+                    }
                     case Worktop, SealGadget -> new GadgetWorktop(this);
                     case RewardStatue -> new GadgetRewardStatue(this);
                     case Chest -> new GadgetChest(this);
@@ -247,6 +255,22 @@ public class EntityGadget extends EntityBaseGadget {
     public void onDeath(int killerId) {
         super.onDeath(killerId); // Invoke super class's onDeath() method.
 
+        // Trigger item drops for breakable ores / crates
+        if (this.getContent() instanceof GadgetGatherObject gatherObject) {
+            Player killerPlayer = null;
+            GameEntity killer = this.getScene().getEntityById(killerId);
+            if (killer instanceof EntityAvatar avatar) {
+                killerPlayer = avatar.getPlayer();
+            } else if (killer instanceof EntityClientGadget clientGadget && clientGadget.getOwner() != null) {
+                killerPlayer = clientGadget.getOwner();
+            } else {
+                killerPlayer = this.getScene().getWorld().getHost();
+            }
+            if (killerPlayer != null) {
+                gatherObject.dropItems(killerPlayer);
+            }
+        }
+
         if (this.getSpawnEntry() != null) {
             this.getScene().getDeadSpawnedEntities().add(getSpawnEntry());
         }
@@ -259,7 +283,7 @@ public class EntityGadget extends EntityBaseGadget {
                         new ScriptArgs(this.getGroupId(), EventType.EVENT_ANY_GADGET_DIE, this.getConfigId()));
 
         SceneGroupInstance groupInstance =
-        getScene().getScriptManager().getGroupInstanceById(this.getGroupId());
+                getScene().getScriptManager().getGroupInstanceById(this.getGroupId());
 
         if (groupInstance != null && metaGadget != null && metaGadget.isOneoff) {
             groupInstance.getDeadEntities().add(metaGadget.config_id);
