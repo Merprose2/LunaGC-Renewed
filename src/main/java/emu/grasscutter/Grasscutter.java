@@ -9,6 +9,8 @@ import emu.grasscutter.command.*;
 import emu.grasscutter.config.ConfigContainer;
 import emu.grasscutter.data.ResourceLoader;
 import emu.grasscutter.database.*;
+import emu.grasscutter.game.managers.cooking.CookingCompoundManager;
+import emu.grasscutter.game.managers.cooking.CookingManager;
 import emu.grasscutter.plugin.PluginManager;
 import emu.grasscutter.plugin.api.ServerHelper;
 import emu.grasscutter.server.dispatch.DispatchServer;
@@ -155,6 +157,13 @@ public final class Grasscutter {
             // Load all resources.
             Grasscutter.updateDayOfWeek();
             ResourceLoader.loadAll();
+
+            // Initialize systems that depend on GameData being fully loaded. These must run
+            // AFTER ResourceLoader.loadAll() - they were previously called inside GameServer's
+            // constructor, which executes before resources are loaded, so GameData's maps were
+            // still empty and no recipes/compounds ever ended up in the "default unlocked" sets.
+            CookingManager.initialize();
+            CookingCompoundManager.initialize();
 
             // Generate handbooks.
             Tools.createGmHandbooks(false);

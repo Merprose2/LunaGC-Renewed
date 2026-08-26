@@ -18,8 +18,6 @@ import emu.grasscutter.game.expedition.ExpeditionSystem;
 import emu.grasscutter.game.gacha.GachaSystem;
 import emu.grasscutter.game.home.HomeWorld;
 import emu.grasscutter.game.home.HomeWorldMPSystem;
-import emu.grasscutter.game.managers.cooking.CookingCompoundManager;
-import emu.grasscutter.game.managers.cooking.CookingManager;
 import emu.grasscutter.game.managers.energy.EnergyManager;
 import emu.grasscutter.game.managers.stamina.StaminaManager;
 import emu.grasscutter.game.player.Player;
@@ -145,9 +143,14 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
 
         EnergyManager.initialize();
         StaminaManager.initialize();
-        CookingManager.initialize();
-        CookingCompoundManager.initialize();
         CombineManger.initialize();
+        // NOTE: CookingManager.initialize() and CookingCompoundManager.initialize() are NOT
+        // called here. This constructor runs before ResourceLoader.loadAll() populates GameData
+        // (see Grasscutter.main()), so at this point GameData.getCookRecipeDataMap() and
+        // getCompoundDataMap() are still empty - calling them here would silently leave
+        // defaultUnlockedRecipies/defaultUnlockedCompounds permanently empty, meaning no player
+        // (new or existing) would ever receive the default-unlocked recipes/compounds. They are
+        // instead invoked from Grasscutter.main() right after resources finish loading.
 
         // Game Server base
         this.address = address;
