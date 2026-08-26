@@ -445,6 +445,7 @@ public final class DailyTaskCommand implements CommandHandler {
 			case 5 -> "Fontaine";
 			case 6 -> "Natlan";
 			case 7 -> "Nod-Krai";
+			case 8 -> "Snezhnaya";
 			default -> "City " + cityId;
 		};
 	}
@@ -465,6 +466,8 @@ public final class DailyTaskCommand implements CommandHandler {
 			case "nodkrai",
 					"nod-krai",
 					"nod_krai" -> 7;
+			
+			case "snezhnaya" -> 8;
 
 			default -> {
 				try {

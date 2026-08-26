@@ -25,11 +25,11 @@ import java.util.zip.ZipFile;
 
 public final class ResourceCacheLoader {
     public static final String DEFAULT_CACHE_FILE_NAME =
-            "LunaGC-6.6-resources.cache";
+            "LunaGC-7.0-resources.cache";
 
-    public static final String MAGIC = "LGCRES66";
+    public static final String MAGIC = "LGCRES70";
     public static final int FORMAT_VERSION = 1;
-    public static final String GAME_VERSION = "6.6.0";
+    public static final String GAME_VERSION = "7.0.0";
 
     /*
      * Increment this manually if the meaning of the cache changes even when

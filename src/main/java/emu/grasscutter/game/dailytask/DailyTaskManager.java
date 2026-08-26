@@ -274,10 +274,26 @@ public class DailyTaskManager {
 				this.resolveCityIdForReset();
 
 		if (selectedCityId == RANDOM_CITY_ID) {
+			long dailyTaskDefinitions =
+					GameData.getDailyTaskDataMap()
+							.size();
+
+			long combatDefinitions =
+					GameData.getDailyTaskDataMap()
+							.values()
+							.stream()
+							.filter(DailyTaskManager::isBaseSupportedTask)
+							.count();
+
 			Grasscutter.getLogger()
 					.warn(
-							"[DailyTask] No region contains at least {} supported daily commissions.",
-							DAILY_TASK_COUNT);
+							"[DailyTask] No region contains at least {} supported daily commissions. "
+									+ "Loaded DailyTask definitions={}, combat definitions={}, "
+									+ "supported cities={}.",
+							DAILY_TASK_COUNT,
+							dailyTaskDefinitions,
+							combatDefinitions,
+							this.getSupportedCityIds());
 
 			return 0;
 		}
@@ -550,9 +566,30 @@ public class DailyTaskManager {
 	}
 
 	private static boolean hasUsableGroupResources(int groupId) {
-		return GROUP_RESOURCE_SUPPORT_CACHE.computeIfAbsent(
-				groupId,
-				DailyTaskManager::probeGroupResources);
+		Boolean cached =
+				GROUP_RESOURCE_SUPPORT_CACHE.get(groupId);
+
+		if (Boolean.TRUE.equals(cached)) {
+			return true;
+		}
+
+		boolean supported =
+				probeGroupResources(groupId);
+
+		/*
+		 * Only cache successful probes.
+		 *
+		 * A failed probe may be temporary, for example if script/scene
+		 * metadata was not ready yet. Caching false would make the group
+		 * unsupported for the entire lifetime of this server process.
+		 */
+		if (supported) {
+			GROUP_RESOURCE_SUPPORT_CACHE.put(
+					groupId,
+					true);
+		}
+
+		return supported;
 	}
 
 	private static boolean probeGroupResources(int groupId) {
@@ -1143,12 +1180,10 @@ public class DailyTaskManager {
 		}
 
 		/*
-		 * If this kill finished commission #4, award the daily completion
-		 * bonus immediately. Until the proper Katheryne/claim proto is
-		 * identified, this acts as the server-side equivalent of claiming it.
+		 * In 7.0 the client can explicitly claim it through
+		 * TakeDailyTaskScoreRewardReq, so completing commission #4 only
+		 * makes the reward available.
 		 */
-		this.tryAutoClaimScoreReward();
-
 		this.save();
 		this.syncAll();
 	}
@@ -1407,17 +1442,16 @@ public class DailyTaskManager {
 
 		/*
 		 * /dt finish should behave exactly like a naturally completed
-		 * commission with regard to the four-task completion bonus.
+		 * commission: finishing commission #4 makes the score reward
+		 * claimable, but does not grant it automatically.
 		 */
-		this.tryAutoClaimScoreReward();
-
 		this.save();
 		this.syncAll();
 
 		return true;
 	}
-
-	private boolean tryAutoClaimScoreReward() {
+	
+	public synchronized boolean claimScoreReward() {
 		if (this.player == null) {
 			return false;
 		}
@@ -1438,7 +1472,7 @@ public class DailyTaskManager {
 				ActionReason.DailyTaskScore)) {
 			Grasscutter.getLogger()
 					.warn(
-							"[DailyTask] Failed to automatically grant the four-commission reward {} to UID {}.",
+							"[DailyTask] Failed to grant the four-commission reward {} to UID {}.",
 							rewardId,
 							this.player.getUid());
 
@@ -1449,17 +1483,9 @@ public class DailyTaskManager {
 
 		Grasscutter.getLogger()
 				.info(
-						"[DailyTask] Automatically granted four-commission reward {} to UID {}.",
+						"[DailyTask] Claimed four-commission reward {} for UID {}.",
 						rewardId,
 						this.player.getUid());
-
-		return true;
-	}
-
-	public synchronized boolean claimScoreReward() {
-		if (!this.tryAutoClaimScoreReward()) {
-			return false;
-		}
 
 		this.save();
 		this.syncAll();
