@@ -23,22 +23,39 @@ import emu.grasscutter.server.game.*;
 import emu.grasscutter.server.packet.send.PacketDoGachaRsp;
 import emu.grasscutter.utils.*;
 import it.unimi.dsi.fastutil.ints.*;
+import java.io.IOException;
 import java.nio.file.*;
 import java.util.*;
-import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.*;
 import org.greenrobot.eventbus.Subscribe;
 
 public class GachaSystem extends BaseGameSystem {
     private static final int starglitterId = 221;
     private static final int stardustId = 222;
+
+    // How long each banner set stays active when rotating through a data/Banners/ folder.
+    private static final long BANNER_ROTATION_INTERVAL_MS = 5 * 60_000L; // 5 minutes
+    private static final Set<String> BANNER_FILE_EXTENSIONS = Set.of("json", "tsj", "tsv");
+
     private final Int2ObjectMap<GachaBanner> gachaBanners;
     private WatchService watchService;
+
+    // Rotation support: if data/Banners is a directory, each entry inside it (a file, or a
+    // sub-folder whose files get merged together) is treated as one "frame" that becomes the
+    // active banner set for BANNER_ROTATION_INTERVAL_MS before moving on to the next, looping.
+    // If data/Banners is not a directory, the legacy single data/Banners.json (or .tsj/.tsv) file
+    // is used exactly as before.
+    private final List<Path> rotationFrames = new ArrayList<>();
+    private int rotationIndex = -1;
+    private ScheduledExecutorService rotationExecutor;
 
     public GachaSystem(GameServer server) {
         super(server);
         this.gachaBanners = new Int2ObjectOpenHashMap<>();
+        this.discoverBannerRotation();
         this.load();
         this.startWatcher(server);
+        this.startBannerRotation();
     }
 
     public Int2ObjectMap<GachaBanner> getGachaBanners() {
@@ -57,11 +74,21 @@ public class GachaSystem extends BaseGameSystem {
         getGachaBanners().clear();
         int autoScheduleId = 1000;
         int autoSortId = 9000;
+        // When rotating, stamp non-permanent banners with the real rotation deadline so the
+        // client's "time left" countdown matches when this set actually gets swapped out, instead
+        // of showing whatever far-future endTime is baked into the JSON.
+        boolean rotationActive = !rotationFrames.isEmpty();
+        int rotationEndTime = (int) ((System.currentTimeMillis() + BANNER_ROTATION_INTERVAL_MS) / 1000L);
         try {
-            var banners = DataLoader.loadTableToList("Banners", GachaBanner.class);
+            var banners = loadCurrentBannerSet();
             if (!banners.isEmpty()) {
                 for (var banner : banners) {
                     banner.onLoad();
+                    if (rotationActive
+                            && banner.getBannerType() != BannerType.STANDARD
+                            && banner.getBannerType() != BannerType.BEGINNER) {
+                        banner.setEndTime(rotationEndTime);
+                    }
                     if (banner.isDeprecated()) {
                         Grasscutter.getLogger()
                                 .error(
@@ -82,6 +109,158 @@ public class GachaSystem extends BaseGameSystem {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+    }
+
+    /**
+     * Scans data/Banners for a rotation setup. If it exists and is a directory, EVERY banner file
+     * found underneath it (.json/.tsj/.tsv, at any depth) becomes its own rotation "frame" — each
+     * file is expected to be a complete, self-contained banner set (its own standard wish, beginner
+     * banner, event/weapon banners, etc.), exactly like a normal data/Banners.json would be. Files
+     * are never merged together, since two files can legitimately reuse the same scheduleId for
+     * different points in time and merging them would silently overwrite one banner with another.
+     *
+     * <p>Sub-folders are purely for organizing/naming files (e.g. grouping "Banners-1.json" /
+     * "Banners-2.json" for a given version under a "5.6 Banners" folder) — they don't change how
+     * the files behave, they just help keep otherwise-identically-named files apart.
+     *
+     * <p>Frames are ordered with a natural, path-aware sort (so "Banners2.json" sorts before
+     * "Banners10.json", and "5.2 Banners/..." sorts before "5.10 Banners/...") so sensibly-named
+     * files/folders rotate in a predictable order. If data/Banners doesn't exist or isn't a
+     * directory, rotation is disabled and the legacy single data/Banners.json (or .tsj/.tsv) file
+     * is used, unchanged from before.
+     */
+    private synchronized void discoverBannerRotation() {
+        rotationFrames.clear();
+        rotationIndex = -1;
+
+        Path bannersDir = FileUtils.getDataUserPath("Banners");
+        if (!Files.isDirectory(bannersDir)) {
+            return; // No folder present -> legacy single-file mode.
+        }
+
+        List<Path> frames = new ArrayList<>();
+        try (var walk = Files.walk(bannersDir)) {
+            walk.filter(GachaSystem::isBannerFile)
+                    .sorted((a, b) -> naturalCompare(bannersDir.relativize(a), bannersDir.relativize(b)))
+                    .forEach(frames::add);
+        } catch (IOException e) {
+            Grasscutter.getLogger().error("Unable to scan data/Banners for a rotation setup.", e);
+            return;
+        }
+
+        if (frames.isEmpty()) {
+            Grasscutter.getLogger()
+                    .warn(
+                            "data/Banners exists but contains no banner files (.json/.tsj/.tsv). Falling back"
+                                    + " to data/Banners.json.");
+            return;
+        }
+
+        rotationFrames.addAll(frames);
+        rotationIndex = 0;
+        Grasscutter.getLogger()
+                .info(
+                        "Gacha banner rotation enabled: found {} banner set(s) in data/Banners, {}"
+                                + " second(s) each.",
+                        rotationFrames.size(),
+                        BANNER_ROTATION_INTERVAL_MS / 1000L);
+    }
+
+    /** Starts the background task that advances the rotation every BANNER_ROTATION_INTERVAL_MS. */
+    private synchronized void startBannerRotation() {
+        if (rotationFrames.size() <= 1) {
+            return; // Nothing to rotate through.
+        }
+        this.rotationExecutor =
+                Executors.newSingleThreadScheduledExecutor(
+                        runnable -> {
+                            Thread thread = new Thread(runnable, "Gacha-Banner-Rotation");
+                            thread.setDaemon(true);
+                            return thread;
+                        });
+        this.rotationExecutor.scheduleAtFixedRate(
+                this::advanceRotation,
+                BANNER_ROTATION_INTERVAL_MS,
+                BANNER_ROTATION_INTERVAL_MS,
+                TimeUnit.MILLISECONDS);
+    }
+
+    private synchronized void advanceRotation() {
+        if (rotationFrames.isEmpty()) return;
+        rotationIndex = (rotationIndex + 1) % rotationFrames.size();
+        try {
+            this.load();
+        } catch (Exception e) {
+            Grasscutter.getLogger().error("Failed to rotate gacha banners.", e);
+        }
+    }
+
+    /** Returns the banner list that should currently be active (rotation frame, or legacy file). */
+    private List<GachaBanner> loadCurrentBannerSet() throws IOException {
+        if (rotationFrames.isEmpty()) {
+            return DataLoader.loadTableToList("Banners", GachaBanner.class);
+        }
+
+        Path frame = rotationFrames.get(Math.floorMod(rotationIndex, rotationFrames.size()));
+        List<GachaBanner> banners = loadBannersFromFile(frame);
+
+        Grasscutter.getLogger()
+                .info(
+                        "[Gacha] Rotated to banner set {}/{}: {}",
+                        rotationIndex + 1,
+                        rotationFrames.size(),
+                        FileUtils.getDataUserPath("Banners").relativize(frame));
+        return banners;
+    }
+
+    private static List<GachaBanner> loadBannersFromFile(Path path) throws IOException {
+        return switch (FileUtils.getFileExtension(path)) {
+            case "json" -> JsonUtils.loadToList(path, GachaBanner.class);
+            case "tsj" -> TsvUtils.loadTsjToListSetField(path, GachaBanner.class);
+            case "tsv" -> TsvUtils.loadTsvToListSetField(path, GachaBanner.class);
+            default -> new ArrayList<>();
+        };
+    }
+
+    private static boolean isBannerFile(Path path) {
+        return Files.isRegularFile(path) && BANNER_FILE_EXTENSIONS.contains(FileUtils.getFileExtension(path));
+    }
+
+    /**
+     * Natural-order compare for relative paths, component by component, so "Banners2.json" sorts
+     * before "Banners10.json" and "5.2 Banners/..." sorts before "5.10 Banners/...".
+     */
+    private static int naturalCompare(Path a, Path b) {
+        var ai = a.iterator();
+        var bi = b.iterator();
+        while (ai.hasNext() && bi.hasNext()) {
+            int cmp = naturalCompare(ai.next().toString(), bi.next().toString());
+            if (cmp != 0) return cmp;
+        }
+        return Boolean.compare(ai.hasNext(), bi.hasNext());
+    }
+
+    private static int naturalCompare(String a, String b) {
+        int i = 0, j = 0;
+        while (i < a.length() && j < b.length()) {
+            char ca = a.charAt(i);
+            char cb = b.charAt(j);
+            if (Character.isDigit(ca) && Character.isDigit(cb)) {
+                int startI = i, startJ = j;
+                while (i < a.length() && Character.isDigit(a.charAt(i))) i++;
+                while (j < b.length() && Character.isDigit(b.charAt(j))) j++;
+                String numA = a.substring(startI, i).replaceFirst("^0+(?=\\d)", "");
+                String numB = b.substring(startJ, j).replaceFirst("^0+(?=\\d)", "");
+                if (numA.length() != numB.length()) return numA.length() - numB.length();
+                int cmp = numA.compareTo(numB);
+                if (cmp != 0) return cmp;
+            } else {
+                if (ca != cb) return ca - cb;
+                i++;
+                j++;
+            }
+        }
+        return (a.length() - i) - (b.length() - j);
     }
 
     private synchronized int[] removeC6FromPool(int[] itemPool, Player player) {
