@@ -1,8 +1,8 @@
 package emu.grasscutter.server.packet.recv;
 
-import com.google.protobuf.UnknownFieldSet;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.net.packet.*;
+import emu.grasscutter.net.proto.ClientSetGameTimeReqOuterClass.ClientSetGameTimeReq;
 import emu.grasscutter.net.proto.PacketHeadOuterClass.PacketHead;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketClientSetGameTimeRsp;
@@ -18,35 +18,35 @@ public class HandlerClientSetGameTimeReq extends PacketHandler {
                 : PacketHead.getDefaultInstance();
 
         int clientSequence = head.getClientSequenceId();
+        var req = ClientSetGameTimeReq.parseFrom(payload);
 
-        int clientGameTime = decodeVarintField(payload, 2, -1);
-        int targetTotalGameTime = decodeVarintField(payload, 12, 0);
-        boolean isForceSet = decodeBoolField(payload, 13, false);
+        int targetGameTime = req.getGameTime();
+        int clientGameTime = req.getClientGameTime();
+        boolean isForceSet = req.getIsForceSet();
 
         var player = session.getPlayer();
         var world = player.getWorld();
 
-        int targetDayMinutes = Math.floorMod(targetTotalGameTime, 1440);
+        int targetDayMinutes = targetGameTime % 1440;
+        int currentDayMinutes = world.getGameTime();
+        
         int extraDays = 0;
-
-        if (clientGameTime >= 0) {
-            int clientDay = Math.floorDiv(clientGameTime, 1440);
-            int targetDay = Math.floorDiv(targetTotalGameTime, 1440);
-            extraDays = Math.max(0, targetDay - clientDay);
+        if (targetGameTime >= 1440) {
+            extraDays = targetGameTime / 1440;
+        } else if (targetDayMinutes < currentDayMinutes) {
+            extraDays = 1;
         }
 
         Grasscutter.getLogger()
                 .info(
-                        "[ClientSetGameTimeReq] uid={}, clientSeq={}, clientGameTime={}, targetTotalGameTime={}, targetDayMinutes={}, extraDays={}, isForceSet={}, currentServerTime={}, timeLocked={}",
+                        "[ClientSetGameTimeReq] uid={}, clientSeq={}, clientGameTime={}, targetGameTime={}, targetDayMinutes={}, extraDays={}, isForceSet={}",
                         player.getUid(),
                         clientSequence,
                         clientGameTime,
-                        targetTotalGameTime,
+                        targetGameTime,
                         targetDayMinutes,
                         extraDays,
-                        isForceSet,
-                        world.getGameTime(),
-                        world.isTimeLocked());
+                        isForceSet);
 
         if (world.isTimeLocked()) {
             world.lockTime(false);
@@ -54,43 +54,19 @@ public class HandlerClientSetGameTimeReq extends PacketHandler {
 
         world.changeTime(targetDayMinutes, extraDays);
 
-        int serverTotalGameTime = (int) world.getTotalGameTimeMinutes();
+        player.sendPacket(new PacketPlayerGameTimeNotify(player));
 
-		/*
-		 * REL6.6 clock UI appears to receive ClientSetGameTimeRsp but still hangs.
-		 * Try syncing player/scene time first, then send the correlated response.
-		 */
-		player.sendPacket(new PacketPlayerGameTimeNotify(player));
-
-		if (player.getScene() != null) {
-			player.sendPacket(new PacketSceneTimeNotify(player.getScene()));
-		}
-
-		player.sendPacket(new PacketClientSetGameTimeRsp(clientSequence, clientGameTime, serverTotalGameTime));
-
-		Grasscutter.getLogger()
-				.info(
-						"[ClientSetGameTimeReq] completed uid={}, clientSeq={}, serverTotalGameTime={}, dayTime={}",
-						player.getUid(),
-						clientSequence,
-						serverTotalGameTime,
-						world.getGameTime());
-    }
-
-    private int decodeVarintField(byte[] payload, int wantedField, int fallback) {
-        try {
-            var unknowns = UnknownFieldSet.parseFrom(payload);
-            var field = unknowns.asMap().get(wantedField);
-            if (field != null && !field.getVarintList().isEmpty()) {
-                return field.getVarintList().get(0).intValue();
-            }
-        } catch (Exception ignored) {
+        if (player.getScene() != null) {
+            player.sendPacket(new PacketSceneTimeNotify(player.getScene()));
         }
 
-        return fallback;
-    }
+        player.sendPacket(new PacketClientSetGameTimeRsp(clientSequence, clientGameTime, world.getGameTime()));
 
-    private boolean decodeBoolField(byte[] payload, int wantedField, boolean fallback) {
-        return decodeVarintField(payload, wantedField, fallback ? 1 : 0) != 0;
+        Grasscutter.getLogger()
+                .info(
+                        "[ClientSetGameTimeReq] completed uid={}, clientSeq={}, serverGameTime={}",
+                        player.getUid(),
+                        clientSequence,
+                        world.getGameTime());
     }
 }

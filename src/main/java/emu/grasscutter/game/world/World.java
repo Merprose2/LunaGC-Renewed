@@ -629,20 +629,24 @@ public class World implements Iterable<Player> {
     public void setPaused(boolean paused) {
         // Check if this world is a multiplayer world.
         if (this.isMultiplayer) return;
+        if (this.isPaused == paused) return;
 
-        // Update the world time.
-        this.getWorldTime();
-        this.updateTime();
-
-        // If the world is being un-paused, update the last update time.
-        if (this.isPaused != paused && !paused) {
+        // If pausing, capture the elapsed world time up to this point.
+        if (paused) {
+            this.getWorldTime();
+        } else {
+            // If unpausing, reset lastUpdateTime so pause duration is not counted.
             this.lastUpdateTime = System.currentTimeMillis();
         }
 
         this.isPaused = paused;
         this.getPlayers().forEach(player -> player.setPaused(paused));
         this.getScenes().forEach((key, scene) -> scene.setPaused(paused));
+
+        // Notify players of the updated pause state and time
+        this.updateTime();
     }
+
 
     /**
      * Changes the game time of the world.
@@ -656,7 +660,7 @@ public class World implements Iterable<Player> {
     /**
      * Changes the time of the world.
      *
-     * @param time The new time in minutes.
+     * @param time The new time in minutes (0 - 1439).
      * @param days The number of days to add.
      */
     public void changeTime(int time, int days) {
@@ -670,9 +674,11 @@ public class World implements Iterable<Player> {
 
         // Update the world time.
         this.currentWorldTime += days * 1440 * 1000L + diff * 1000L;
+        this.lastUpdateTime = System.currentTimeMillis();
 
         // Update all players.
         this.host.updatePlayerGameTime(currentWorldTime);
+        this.updateTime();
         this.players.forEach(
                 player -> player.getQuestManager().queueEvent(QuestContent.QUEST_CONTENT_GAME_TIME_TICK));
     }
