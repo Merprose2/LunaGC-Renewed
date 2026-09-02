@@ -37,14 +37,7 @@ import lombok.*;
 public final class ResourceLoader {
 
     private static final Set<String> loadedResources = new CopyOnWriteArraySet<>();
-	
-	static void markCachedResourcesLoaded(Collection<String> resourceSimpleNames) {
-		if (resourceSimpleNames == null) {
-			return;
-		}
-		loadedResources.addAll(resourceSimpleNames);
-	}
-	
+
     private static boolean loadedAll = false;
 
     public static List<Class<?>> getResourceDefClasses() {
@@ -100,11 +93,7 @@ public final class ResourceLoader {
         loadAbilityModifiers();
         mergeDynamicAbilitiesIntoEmbryos();
 
-		boolean loadedAnnotatedResourcesFromCache = loadAnnotatedResourcesFromCache();
-
-		if (!loadedAnnotatedResourcesFromCache) {
-			loadResources(true);
-		}
+		loadResources(true);
 
 		loadDungeonDropData();
 		buildAbilityTalentVarMaps();
@@ -467,11 +456,6 @@ public final class ResourceLoader {
             if (abilityData.abilityName.startsWith("Avatar_" + avatarName)) {
                 if (!mergedAbilities.contains(abilityData.abilityName)) {
                     mergedAbilities.add(abilityData.abilityName);
-                    Grasscutter.getLogger().info("Merged dynamic ability " + abilityData.abilityName +
-                            " into embryo for avatar " + avatarName);
-                } else {
-                    Grasscutter.getLogger().info("Dynamic ability " + abilityData.abilityName +
-                            " already exists in embryo for avatar " + avatarName);
                 }
             }
         }
@@ -1154,78 +1138,4 @@ public final class ResourceLoader {
     class ScenePointConfig {
         public Map<Integer, PointData> points;
     }
-	
-	private static boolean loadAnnotatedResourcesFromCache() {
-		if (Boolean.getBoolean(
-				"lunagc.resourceCache.disabled")) {
-			Grasscutter.getLogger()
-					.info(
-							"[ResourceCache] Cache loading is disabled.");
-
-			return false;
-		}
-
-		String overridePath =
-				System.getProperty(
-						"lunagc.resourceCache.path");
-
-		Path cachePath;
-
-		if (overridePath != null
-				&& !overridePath.isBlank()) {
-			cachePath =
-					Path.of(overridePath);
-		} else {
-			String configuredResources =
-					Grasscutter.config
-							.folderStructure
-							.resources;
-
-			if (configuredResources != null
-					&& configuredResources
-							.toLowerCase(Locale.ROOT)
-							.endsWith(".cache")) {
-				/*
-				 * The configured resources archive is also the normalized
-				 * annotated-resource cache.
-				 */
-				cachePath =
-						Path.of(configuredResources);
-			} else {
-				/*
-				 * Compatibility mode:
-				 *
-				 * Raw resources remain in ./resources while the normalized
-				 * cache remains in ./cache.
-				 */
-				cachePath =
-						getCachePath(
-								ResourceCacheLoader
-										.DEFAULT_CACHE_FILE_NAME);
-			}
-		}
-
-		Grasscutter.getLogger()
-				.info(
-						"[ResourceCache] Looking for cache at {}",
-						cachePath.toAbsolutePath());
-
-		boolean loaded =
-				ResourceCacheLoader.tryLoad(
-						cachePath);
-
-		if (loaded) {
-			Grasscutter.getLogger()
-					.info(
-							"[ResourceCache] Annotated resources loaded "
-									+ "from the compiled cache.");
-		} else {
-			Grasscutter.getLogger()
-					.info(
-							"[ResourceCache] Compiled sections unavailable; "
-									+ "using raw annotated resource files.");
-		}
-
-		return loaded;
-	}
 }
