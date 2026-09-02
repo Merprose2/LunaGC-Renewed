@@ -68,7 +68,7 @@ public final class GiveCommand implements CommandHandler {
         // automatically be 6
         for (AvatarData avatarData : GameData.getAvatarDataMap().values()) {
             int id = avatarData.getId();
-            boolean isTestAvatar = avatarData.getUseType().equals("AVATAR_TEST");
+            boolean isTestAvatar = "AVATAR_TEST".equals(avatarData.getUseType());
             if (id < 10000002 || id >= 10000901) continue; // Exclude test avatars in id range
             if (isTestAvatar) continue; // Exclude test avatars by type
             // Don't try to add each avatar to the current team
@@ -220,9 +220,8 @@ public final class GiveCommand implements CommandHandler {
 
     private static void addItemsChunked(Player player, List<GameItem> items, int packetSize) {
         // Send the items in multiple packets
-        int lastIdx = items.size() - 1;
-        for (int i = 0; i <= lastIdx; i += packetSize) {
-            player.getInventory().addItems(items.subList(i, Math.min(i + packetSize, lastIdx)));
+        for (int i = 0; i < items.size(); i += packetSize) {
+            player.getInventory().addItems(items.subList(i, Math.min(i + packetSize, items.size())));
         }
     }
 
