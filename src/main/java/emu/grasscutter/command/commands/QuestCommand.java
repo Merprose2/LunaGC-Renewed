@@ -1,22 +1,44 @@
 package emu.grasscutter.command.commands;
 
-import static emu.grasscutter.utils.lang.Language.translate;
-
-import emu.grasscutter.command.*;
+import emu.grasscutter.command.Command;
+import emu.grasscutter.command.CommandHandler;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.quest.GameQuest;
-import emu.grasscutter.game.quest.enums.*;
+import lombok.Setter;
+import lombok.val;
+
 import java.util.*;
-import java.util.stream.Collectors;
+import java.util.function.BiConsumer;
+import java.util.regex.Pattern;
+
+import static emu.grasscutter.command.CommandHelpers.*;
+import static emu.grasscutter.utils.lang.Language.translate;
 
 @Command(
         label = "quest",
         aliases = {"q"},
-        usage = {"(add|finish|running|talking|debug|triggers|grouptriggers) [<questId>]", "dungeons"},
+        usage = {"(add|finish|status) [<questId> ...] [m<mainquestId> ...]", "enable"},
         permission = "player.quest",
         permissionTargeted = "player.quest.others")
 public final class QuestCommand implements CommandHandler {
-    private static final List<String> SINGLE_ARG = List.of("dungeons", "list");
+
+    private static class QuestParameters {
+        @Setter public Set<Integer> subIds = new HashSet<>();
+        @Setter public Set<Integer> mainIds = new HashSet<>();
+
+        public void addSubId(Integer id) {
+            subIds.add(id);
+        }
+
+        public void addMainId(Integer id) {
+            mainIds.add(id);
+        }
+    }
+
+    private static final Map<Pattern, BiConsumer<QuestParameters, Integer>> intCommandHandlers =
+            Map.ofEntries(
+                    Map.entry(mainQuestRegex, QuestParameters::addMainId),
+                    Map.entry(subQuestRegex, QuestParameters::addSubId));
 
     @Override
     public void execute(Player sender, Player targetPlayer, List<String> args) {
@@ -25,152 +47,173 @@ public final class QuestCommand implements CommandHandler {
             return;
         }
 
-        var cmd = args.get(0).toLowerCase();
-        int questId = -1;
+        QuestParameters questParameters = new QuestParameters();
+        parseIntParameters(args, questParameters, intCommandHandlers);
 
-        if (!SINGLE_ARG.contains(cmd)) {
+        if (args.isEmpty()) {
+            sendUsageMessage(sender);
+            return;
+        }
+
+        String cmd = args.remove(0).toLowerCase();
+
+        while (!args.isEmpty()) {
             try {
-                questId = Integer.parseInt(args.get(1));
+                questParameters.addSubId(Integer.parseInt(args.remove(0)));
             } catch (Exception e) {
                 CommandHandler.sendMessage(sender, translate(sender, "commands.quest.invalid_id"));
-                return;
             }
+        }
+
+        if (questParameters.mainIds.isEmpty() && questParameters.subIds.isEmpty() && !cmd.equals("enable")) {
+            CommandHandler.sendMessage(sender, translate(sender, "commands.quest.invalid_id"));
+            return;
         }
 
         switch (cmd) {
+            case "enable" -> {
+                targetPlayer.getQuestManager().enableQuests();
+                CommandHandler.sendMessage(sender, translate(sender, "commands.quest.enabled"));
+            }
             case "add" -> {
-                var quest = targetPlayer.getQuestManager().addQuest(questId);
+                List<Integer> failedSubQuests = new ArrayList<>();
+                List<Integer> addedSubQuests = new ArrayList<>();
 
-                if (quest != null) {
-                    CommandHandler.sendMessage(sender, translate(sender, "commands.quest.added", questId));
-                    return;
-                }
+                List<Integer> failedMainQuests = new ArrayList<>();
+                List<Integer> addedMainQuests = new ArrayList<>();
 
-                CommandHandler.sendMessage(sender, translate(sender, "commands.quest.not_found"));
+                questParameters.subIds.forEach(
+                        id -> {
+                            if (addSubQuest(targetPlayer, id)) {
+                                addedSubQuests.add(id);
+                            } else {
+                                failedSubQuests.add(id);
+                            }
+                        });
+                questParameters.mainIds.forEach(
+                        id -> {
+                            if (addMainQuest(targetPlayer, id)) {
+                                addedMainQuests.add(id);
+                            } else {
+                                failedMainQuests.add(id);
+                            }
+                        });
+                sendResultMessage(
+                        sender,
+                        "commands.quest.added",
+                        "commands.quest.not_found",
+                        failedSubQuests,
+                        addedSubQuests,
+                        failedMainQuests,
+                        addedMainQuests);
             }
             case "finish" -> {
-                var quest = targetPlayer.getQuestManager().getQuestById(questId);
+                List<Integer> failedSubQuests = new ArrayList<>();
+                List<Integer> finishedSubQuests = new ArrayList<>();
 
-                if (quest == null) {
-                    CommandHandler.sendMessage(sender, translate(sender, "commands.quest.not_found"));
-                    return;
-                }
+                List<Integer> failedMainQuests = new ArrayList<>();
+                List<Integer> finishedMainQuests = new ArrayList<>();
 
-                quest.finish();
-
-                CommandHandler.sendMessage(sender, translate(sender, "commands.quest.finished", questId));
-            }
-            case "running" -> {
-                var quest = targetPlayer.getQuestManager().getQuestById(questId);
-                if (quest == null) {
-                    CommandHandler.sendMessage(sender, translate(sender, "commands.quest.not_found"));
-                    return;
-                }
-
-                CommandHandler.sendMessage(
+                questParameters.subIds.forEach(
+                        id -> {
+                            if (finishSubQuest(targetPlayer, id)) {
+                                finishedSubQuests.add(id);
+                            } else {
+                                failedSubQuests.add(id);
+                            }
+                        });
+                questParameters.mainIds.forEach(
+                        id -> {
+                            if (finishMainQuest(targetPlayer, id)) {
+                                finishedMainQuests.add(id);
+                            } else {
+                                failedMainQuests.add(id);
+                            }
+                        });
+                sendResultMessage(
                         sender,
-                        translate(
-                                sender,
-                                "commands.quest.running",
-                                questId,
-                                translate(
-                                        sender,
-                                        switch (quest.state) {
-                                            case QUEST_STATE_NONE, NONE -> "commands.quest.state.none";
-                                            case QUEST_STATE_UNSTARTED, UNSTARTED -> "commands.quest.state.unstarted";
-                                            case QUEST_STATE_UNFINISHED, UNFINISHED -> "commands.quest.state.unfinished";
-                                            case QUEST_STATE_FINISHED, FINISHED -> "commands.quest.state.finished";
-                                            case QUEST_STATE_FAILED, FAILED -> "commands.quest.state.failed";
-                                        }),
-                                quest.getState().getValue()));
+                        "commands.quest.finished",
+                        "commands.quest.not_found",
+                        failedSubQuests,
+                        finishedSubQuests,
+                        failedMainQuests,
+                        finishedMainQuests);
             }
-            case "talking" -> {
-                var mainQuest = targetPlayer.getQuestManager().getMainQuestByTalkId(questId);
-                if (mainQuest == null) {
-                    CommandHandler.sendMessage(sender, translate(sender, "commands.quest.not_found"));
-                    return;
-                }
+            case "status" -> {
+                val resultString = new StringBuilder();
 
-                var talk = mainQuest.getTalks().get(questId);
-                CommandHandler.sendMessage(
-                        sender,
-                        translate(
-                                sender,
-                                "commands.quest.talking",
-                                questId,
-                                talk == null
-                                        ? translate(sender, "commands.quest.state.not_exists")
-                                        : translate(sender, "commands.quest.state.exists"),
-                                mainQuest.getParentQuestId(),
-                                mainQuest.getState().getValue()));
+                questParameters.subIds.forEach(
+                        id -> {
+                            resultString.append(getSubQuestStatus(targetPlayer, id));
+                        });
+                questParameters.mainIds.forEach(
+                        id -> {
+                            resultString.append(getMainQuestStatus(targetPlayer, id));
+                        });
+                CommandHandler.sendMessage(sender, resultString.toString());
             }
-            case "dungeons" -> {
-                var dungeons = targetPlayer.getPlayerProgress().getCompletedDungeons();
-                CommandHandler.sendMessage(
-                        sender,
-                        "Dungeons completed: "
-                                + String.join(", ", dungeons.intStream().mapToObj(String::valueOf).toList()));
-            }
-            case "debug" -> {
-                var loggedQuests = targetPlayer.getQuestManager().getLoggedQuests();
-                var shouldAdd = !loggedQuests.contains(questId);
-
-                if (shouldAdd) loggedQuests.add(questId);
-                else loggedQuests.remove(questId);
-
-                CommandHandler.sendMessage(
-                        sender,
-                        "Quest %s will %s."
-                                .formatted(questId, shouldAdd ? "now be logged" : "no longer be logged"));
-            }
-            case "triggers" -> {
-                var quest = targetPlayer.getQuestManager().getQuestById(questId);
-                if (quest == null) {
-                    CommandHandler.sendMessage(sender, translate(sender, "commands.quest.not_found"));
-                    return;
-                }
-
-                CommandHandler.sendMessage(
-                        sender,
-                        "Triggers registered for %s: %s."
-                                .formatted(questId, String.join(", ", quest.getTriggers().keySet())));
-            }
-            case "grouptriggers" -> {
-                var scene = targetPlayer.getScene();
-                var scriptManager = scene.getScriptManager();
-
-                var group = scriptManager.getGroupById(questId);
-                if (group == null) {
-                    CommandHandler.sendMessage(sender, "The group does not exist.");
-                    return;
-                }
-
-                CommandHandler.sendMessage(
-                        sender,
-                        group.triggers.entrySet().stream()
-                                .map(entry -> "%s: %s".formatted(entry.getKey(), entry.getValue()))
-                                .collect(Collectors.joining(", ")));
-            }
-            case "list" -> {
-                var questManager = targetPlayer.getQuestManager();
-                var mainQuests = questManager.getActiveMainQuests();
-                var allQuestIds =
-                        mainQuests.stream()
-                                .filter(quest -> questManager.getLoggedQuests().contains(quest.getParentQuestId()))
-                                .filter(quest -> quest.getState() != ParentQuestState.PARENT_QUEST_STATE_FINISHED)
-                                .map(quest -> quest.getChildQuests().values())
-                                .flatMap(Collection::stream)
-                                .filter(quest -> quest.getState() == QuestState.QUEST_STATE_UNFINISHED)
-                                .map(GameQuest::getSubQuestId)
-                                .map(String::valueOf)
-                                .toList();
-
-                CommandHandler.sendMessage(
-                        sender,
-                        "Quests: "
-                                + (allQuestIds.isEmpty() ? "(no active quests)" : String.join(", ", allQuestIds)));
-            }
-            default -> this.sendUsageMessage(sender);
+            default -> sendUsageMessage(sender);
         }
+    }
+
+    private void sendResultMessage(
+            Player sender,
+            String finishedKey,
+            String failedKey,
+            List<Integer> failedSubQuests,
+            List<Integer> finishedSubQuests,
+            List<Integer> failedMainQuests,
+            List<Integer> finishedMainQuests) {
+        if (!finishedMainQuests.isEmpty() || !finishedSubQuests.isEmpty()) {
+            List<String> finished = new ArrayList<>();
+            finishedSubQuests.forEach(id -> finished.add(String.valueOf(id)));
+            finishedMainQuests.forEach(id -> finished.add("m" + id));
+            CommandHandler.sendMessage(sender, translate(sender, finishedKey, String.join(", ", finished)));
+        }
+        if (!failedSubQuests.isEmpty() || !failedMainQuests.isEmpty()) {
+            List<String> failed = new ArrayList<>();
+            failedSubQuests.forEach(id -> failed.add(String.valueOf(id)));
+            failedMainQuests.forEach(id -> failed.add("m" + id));
+            CommandHandler.sendMessage(sender, translate(sender, failedKey, String.join(", ", failed)));
+        }
+    }
+
+    private boolean addSubQuest(Player targetPlayer, int questId) {
+        GameQuest quest = targetPlayer.getQuestManager().addQuest(questId);
+        return quest != null;
+    }
+
+    private boolean addMainQuest(Player targetPlayer, int mainQuestId) {
+        return targetPlayer.getQuestManager().startMainQuest(mainQuestId);
+    }
+
+    private boolean finishSubQuest(Player targetPlayer, int questId) {
+        return targetPlayer.getQuestManager().finishQuest(questId, true);
+    }
+
+    private boolean finishMainQuest(Player targetPlayer, int mainQuestId) {
+        return targetPlayer.getQuestManager().finishMainQuest(mainQuestId, true);
+    }
+
+    private String getMainQuestStatus(Player targetPlayer, int mainQuestId) {
+        val mainQuest = targetPlayer.getQuestManager().getMainQuestById(mainQuestId);
+        if (mainQuest == null) {
+            return "m" + mainQuestId + " status: Not found\n\n";
+        }
+        val mainStatus = "m" + mainQuestId + " status: " + mainQuest.getState().toString();
+        val subStatus =
+                mainQuest.getChildQuests().values().stream()
+                        .map(subQuest -> subQuest.getSubQuestId() + " status: " + subQuest.getState().toString())
+                        .reduce((a, b) -> a + ", " + b)
+                        .orElse("");
+        return mainStatus + "\n" + subStatus + "\n\n";
+    }
+
+    private String getSubQuestStatus(Player targetPlayer, int subQuestId) {
+        val quest = targetPlayer.getQuestManager().getQuestById(subQuestId);
+        if (quest == null) {
+            return subQuestId + " status: Not found\n\n";
+        }
+        return subQuestId + " status: " + quest.getState().toString() + "\n\n";
     }
 }

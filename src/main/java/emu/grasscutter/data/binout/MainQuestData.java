@@ -2,6 +2,7 @@ package emu.grasscutter.data.binout;
 
 import dev.morphia.annotations.Entity;
 import emu.grasscutter.data.GameData;
+import emu.grasscutter.data.excels.quest.QuestData;
 import emu.grasscutter.game.quest.enums.QuestType;
 import java.util.*;
 import lombok.Data;
@@ -16,9 +17,13 @@ public class MainQuestData {
     private int[] suggestTrackMainQuestList;
     private int[] rewardIdList;
 
-    private SubQuestData[] subQuests;
+    private QuestData[] subQuests;
     private List<TalkData> talks;
-    private long[] preloadLuaList;
+    private String[] preloadLuaList;
+
+    public String[] getPreloadLuaList() {
+        return preloadLuaList;
+    }
 
     public int getId() {
         return id;
@@ -44,7 +49,7 @@ public class MainQuestData {
         return rewardIdList;
     }
 
-    public SubQuestData[] getSubQuests() {
+    public QuestData[] getSubQuests() {
         return subQuests;
     }
 
@@ -54,27 +59,30 @@ public class MainQuestData {
 
     public void onLoad() {
         if (this.talks == null) this.talks = new ArrayList<>();
-        if (this.subQuests == null) this.subQuests = new SubQuestData[0];
+        if (this.subQuests == null) this.subQuests = new QuestData[0];
 
         this.talks = this.talks.stream().filter(Objects::nonNull).toList();
         // Apply talk data to the quest talk map.
         this.talks.forEach(talkData -> GameData.getQuestTalkMap().put(talkData.getId(), this.getId()));
-        // Apply additional sub-quest data to sub-quests.
-        Arrays.stream(this.subQuests)
-                .forEach(
-                        quest -> {
-                            var questData = GameData.getQuestDataMap().get(quest.getSubId());
-                            if (questData != null) questData.applyFrom(quest);
-                        });
+
+        // Apply and register subquests
+        for (var quest : this.subQuests) {
+            if (quest == null) continue;
+            if (quest.getMainId() == 0) {
+                quest.setMainId(this.getId());
+            }
+            var existing = GameData.getQuestDataMap().get(quest.getSubId());
+            if (existing != null) {
+                existing.mergeFrom(quest);
+            } else {
+                quest.onLoad();
+                GameData.getQuestDataMap().put(quest.getSubId(), quest);
+            }
+        }
     }
 
-    @Data
-    public static class SubQuestData {
-        private int subId;
-        private int order;
-        private boolean isMpBlock;
-        private boolean isRewind, finishParent;
-    }
+    @Deprecated
+    public static class SubQuestData extends QuestData {}
 
     @Data
     @Entity

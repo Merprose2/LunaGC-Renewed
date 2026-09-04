@@ -470,24 +470,57 @@ public final class QuestManager extends BasePlayerManager {
         return quest;
     }
 
-    public void startMainQuest(int mainQuestId) {
+    public boolean startMainQuest(int mainQuestId) {
         var mainQuestData = GameData.getMainQuestDataMap().get(mainQuestId);
 
         if (mainQuestData == null) {
-            return;
+            return false;
         }
 
-        Arrays.stream(mainQuestData.getSubQuests())
-                .min(Comparator.comparingInt(MainQuestData.SubQuestData::getOrder))
-                .map(MainQuestData.SubQuestData::getSubId)
-                .ifPresent(this::addQuest);
-        // TODO find a better way then hardcoding to detect needed required quests
-        // if (mainQuestId == 355){
-        //     startMainQuest(361);
-        //     startMainQuest(418);
-        //     startMainQuest(423);
-        //     startMainQuest(20509);
-        // }
+        var opt = Arrays.stream(mainQuestData.getSubQuests())
+                .min(Comparator.comparingInt(QuestData::getOrder))
+                .map(QuestData::getSubId);
+
+        if (opt.isPresent()) {
+            return this.addQuest(opt.get()) != null;
+        } else {
+            var mainQuest = this.getMainQuestById(mainQuestId);
+            if (mainQuest == null) {
+                mainQuest = new GameMainQuest(this.getPlayer(), mainQuestId);
+                this.getMainQuests().put(mainQuestId, mainQuest);
+                this.getPlayer().sendPacket(new PacketFinishedParentQuestUpdateNotify(mainQuest));
+            }
+            return true;
+        }
+    }
+
+    public boolean finishQuest(int questId, boolean decideChildren) {
+        var quest = this.getQuestById(questId);
+        if (quest == null) {
+            quest = this.addQuest(questId);
+            if (quest == null) return false;
+        }
+        quest.finish();
+        return true;
+    }
+
+    public boolean finishMainQuest(int mainQuestId, boolean decideChildren) {
+        var mainQuest = this.getMainQuestById(mainQuestId);
+        if (mainQuest == null) {
+            var mainQuestData = GameData.getMainQuestDataMap().get(mainQuestId);
+            if (mainQuestData == null) return false;
+            mainQuest = new GameMainQuest(this.getPlayer(), mainQuestId);
+            this.getMainQuests().put(mainQuestId, mainQuest);
+        }
+        if (decideChildren) {
+            for (var child : mainQuest.getChildQuests().values()) {
+                if (child.getState() != QuestState.QUEST_STATE_FINISHED) {
+                    child.finish();
+                }
+            }
+        }
+        mainQuest.finish();
+        return true;
     }
 
     public void queueEvent(QuestCond condType, int... params) {
