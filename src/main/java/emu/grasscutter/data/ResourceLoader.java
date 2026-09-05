@@ -784,26 +784,45 @@ public final class ResourceLoader {
         }
     }
 
-    private static <T extends ConfigEntityBase> void loadConfigDataMap(
-            Map<String, T> targetMap, String folderPath, Class<T> configClass) {
-        val className = configClass.getName();
-        try (val stream = Files.newDirectoryStream(getResourcePath(folderPath), "*.json")) {
-            stream.forEach(
-                    path -> {
-                        try {
-                            targetMap.putAll(JsonUtils.loadToMap(path, String.class, configClass));
-                        } catch (Exception e) {
-                            Grasscutter.getLogger()
-                                    .error("failed to load {} entries for {}", className, path.toString(), e);
-                        }
-                    });
+	private static <T extends ConfigEntityBase> void loadConfigDataMap(
+			Map<String, T> targetMap, String folderPath, Class<T> configClass) {
+		String className = configClass.getName();
 
-            Grasscutter.getLogger()
-                    .debug("Loaded {} {} entries.", GameData.getMonsterConfigData().size(), className);
-        } catch (IOException e) {
-            Grasscutter.getLogger().error("Failed to load {} folder.", className);
-        }
-    }
+		try (var stream =
+				Files.newDirectoryStream(getResourcePath(folderPath), "*.json")) {
+			for (Path path : stream) {
+				try {
+					Map<String, T> entries =
+							JsonUtils.loadToMap(path, String.class, configClass);
+
+					if (entries == null) {
+						Grasscutter.getLogger()
+								.warn("Skipping empty or null config file: {}", path);
+						continue;
+					}
+
+					targetMap.putAll(entries);
+				} catch (Exception e) {
+					Grasscutter.getLogger()
+							.error(
+									"failed to load {} entries for {}",
+									className,
+									path,
+									e);
+				}
+			}
+
+			Grasscutter.getLogger()
+					.debug("Loaded {} {} entries.", targetMap.size(), className);
+		} catch (IOException e) {
+			Grasscutter.getLogger()
+					.error(
+							"Failed to load {} folder: {}",
+							className,
+							folderPath,
+							e);
+		}
+	}
 
     private static void loadBlossomResources() {
         try {
