@@ -1,7 +1,8 @@
 package emu.grasscutter.game.managers.fishing;
 
-import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameData;
+import emu.grasscutter.data.GameDepot;
+import emu.grasscutter.data.ResourceLoader.AvatarConfig;
 import emu.grasscutter.data.excels.fishing.*;
 import emu.grasscutter.game.entity.*;
 import emu.grasscutter.game.inventory.GameItem;
@@ -18,20 +19,20 @@ import lombok.Setter;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.Future;
 
 public class FishingManager {
     /** Delay (in scheduler ticks = real seconds) before a caught fish respawns in its pool. */
     private static final int FISH_RESTOCK_DELAY_TICKS = 120;
 
     private final Player player;
+    /** Fishing ability names currently applied to the avatar (removed on exit). */
+    private final List<String> activeFishingAbilities = new ArrayList<>();
 
     @Getter @Setter private int lastFishRodId = 200904; // Default rod
     @Getter private boolean inFishing = false;
     @Getter private int activeBaitId;
     @Getter private Position castPosition;
     @Getter private EntityMonster hookedFish;
-    private int biteTaskId = 0;
 
     // Track fish pool catches: poolEntityId -> count
     private final Map<Integer, Integer> poolDailyCatchMap = new ConcurrentHashMap<>();
@@ -40,23 +41,76 @@ public class FishingManager {
         this.player = player;
     }
 
-    public void onEnterFishing() {
+    public void onEnterFishing(int poolEntityId) {
         this.inFishing = true;
         player.sendPacket(new PacketPlayerFishingDataNotify(this.lastFishRodId));
+
+        // Apply the fishing ability group to the current avatar (official servers do this
+        // before replying; the cast skill comes from these abilities).
+        this.applyFishingAbilities(poolEntityId);
+    }
+
+    /** Adds the pool's fishing ability group (e.g. "Avatar_Fishing") to the current avatar. */
+    private void applyFishingAbilities(int poolEntityId) {
+        var avatarEntity = player.getTeamManager().getCurrentAvatarEntity();
+        if (avatarEntity == null) return;
+        var avatar = avatarEntity.getAvatar();
+
+        // Resolve the pool's ability group, falling back to the standard fishing group.
+        String groupName = "Avatar_Fishing";
+        if (poolEntityId > 0
+                && player.getScene().getEntityById(poolEntityId) instanceof EntityGadget poolGadget) {
+            var poolData = poolGadget.resolveFishPoolData();
+            if (poolData != null
+                    && poolData.getAbilityGroup() != null
+                    && !poolData.getAbilityGroup().isEmpty()) {
+                groupName = poolData.getAbilityGroup();
+            }
+        }
+
+        AvatarConfig config = GameDepot.getPlayerAbilities().get(groupName);
+        if (config == null || config.abilities == null) {
+            return;
+        }
+
+        for (var ability : config.abilities) {
+            if (ability == null || ability.abilityName == null) continue;
+            if (avatar.getExtraAbilityEmbryos().add(ability.abilityName)) {
+                this.activeFishingAbilities.add(ability.abilityName);
+            }
+        }
+
+        if (this.activeFishingAbilities.isEmpty()) return;
+
+        // Official enter-fishing sequence: AvatarEquipChangeNotify -> SceneTeamUpdateNotify
+        // -> AbilityChangeNotify (all before the EnterFishingRsp).
+        if (avatar.getWeapon() != null) {
+            player.sendPacket(new PacketAvatarEquipChangeNotify(avatar, avatar.getWeapon()));
+        }
+        player.sendPacket(new PacketSceneTeamUpdateNotify(player));
+        player.sendPacket(new PacketAbilityChangeNotify(avatarEntity));
+    }
+
+    /** Removes the fishing abilities from the avatar again (official: on exit). */
+    private void removeFishingAbilities() {
+        if (this.activeFishingAbilities.isEmpty()) return;
+
+        var avatarEntity = player.getTeamManager().getCurrentAvatarEntity();
+        if (avatarEntity != null) {
+            var avatar = avatarEntity.getAvatar();
+            this.activeFishingAbilities.forEach(avatar.getExtraAbilityEmbryos()::remove);
+            player.sendPacket(new PacketAbilityChangeNotify(avatarEntity));
+        }
+        this.activeFishingAbilities.clear();
     }
 
     public void onExitFishing() {
         this.clearFishingSession();
         this.inFishing = false;
+        this.removeFishingAbilities();
     }
 
     public void clearFishingSession() {
-        if (this.biteTaskId > 0) {
-            if (player.getServer() != null && player.getServer().getScheduler() != null) {
-                player.getServer().getScheduler().cancelTask(this.biteTaskId);
-            }
-            this.biteTaskId = 0;
-        }
         this.hookedFish = null;
         this.castPosition = null;
     }
@@ -66,15 +120,15 @@ public class FishingManager {
         this.activeBaitId = baitId;
         this.castPosition = pos;
 
-        // Deduct 1 bait item
-        player.getInventory().removeItem(baitId, 1);
-        player.sendPacket(new PacketFishCastRodRsp(0));
+        // NOTE: officially the bait is NOT consumed at cast time - it is consumed when the fish
+        // bites (FishBiteReq), together with FishBaitGoneNotify.
 
-        // Find closest fish in scene (officially the fish nearest to the cork gets attracted,
-        // even if the cork is a few meters beyond the fish's own attract range)
-        EntityMonster targetFish = null;
-        FishData targetFishData = null;
-        float minDistance = Float.MAX_VALUE;
+        // Official cast semantics (decoded from the capture):
+        // - FishChosenNotify  = the bait-matching fish that will BITE (bait tag matches)
+        // - FishAttractNotify = other nearby fish (decoys): they approach, then leave by design
+        EntityMonster chosenFish = null;
+        float chosenDist = Float.MAX_VALUE;
+        List<Integer> decoyIds = new ArrayList<>();
 
         var scene = player.getScene();
         for (GameEntity entity : scene.getEntities().values()) {
@@ -85,24 +139,68 @@ public class FishingManager {
             if (fData == null) continue;
 
             float dist = (float) monster.getPosition().computeDistance(pos);
-            float range = Math.max(fData.getAttractRange(), 6.0f);
-            if (dist <= range && dist < minDistance) {
-                minDistance = dist;
-                targetFish = monster;
-                targetFishData = fData;
+            if (dist > Math.max(fData.getAttractRange(), 6.0f)) continue;
+
+            if (isFishAttractedByBait(fData, baitId)) {
+                // Nearest bait-matching fish becomes the biter; other matching ones become decoys.
+                if (chosenFish == null || dist < chosenDist) {
+                    if (chosenFish != null) {
+                        decoyIds.add(chosenFish.getId());
+                    }
+                    chosenDist = dist;
+                    chosenFish = monster;
+                } else {
+                    decoyIds.add(monster.getId());
+                }
+            } else {
+                decoyIds.add(monster.getId());
             }
         }
 
-        if (targetFish != null) {
-            this.hookedFish = targetFish;
-
-            // Official servers send FishAttractNotify and FishChosenNotify together
-            player.sendPacket(new PacketFishAttractNotify(player.getUid(), pos, List.of(targetFish.getId())));
-            player.sendPacket(new PacketFishChosenNotify(targetFish.getId()));
+        if (chosenFish != null) {
+            this.hookedFish = chosenFish;
         }
+
+        // Official order of responses to FishCastRodReq:
+        // FishChosenNotify -> FishAttractNotify -> FishCastRodRsp (rsp last, always sent)
+        if (chosenFish != null) {
+            player.sendPacket(new PacketFishChosenNotify(chosenFish.getId()));
+        }
+        player.sendPacket(new PacketFishAttractNotify(player.getUid(), pos, decoyIds));
+        player.sendPacket(new PacketFishCastRodRsp(0));
+    }
+
+    /**
+     * Official bait <-> fish matching: a fish only approaches a bait whose weighted featureTag is
+     * present in the fish monster's feature tag group (e.g. Fruit Paste Bait 111023 has tag 9201,
+     * which the Medaka's tag group contains).
+     */
+    private boolean isFishAttractedByBait(FishData fishData, int baitId) {
+        var bait = GameData.getFishBaitDataMap().get(baitId);
+        if (bait == null || bait.getFeatureList() == null) {
+            return true; // Unknown bait: don't block attraction.
+        }
+
+        var monster = GameData.getMonsterDataMap().get(fishData.getMonsterId());
+        if (monster == null) return false;
+
+        var tagGroup = GameData.getFeatureTagGroupDataMap().get(monster.getFeatureTagGroupID());
+        if (tagGroup == null || tagGroup.getTagIDs() == null) return false;
+
+        for (var feature : bait.getFeatureList()) {
+            if (feature == null || feature.getWeight() <= 0) continue; // weighted tag = species specific
+            if (tagGroup.getTagIDs().contains(feature.getFeatureTag())) return true;
+        }
+        return false;
     }
 
     public void onFishBite() {
+        // Official flow at bite: consume the bait (StoreItemChangeNotify is sent by the
+        // inventory), tell the client the bait is gone, then reply with FishBiteRsp.
+        if (this.activeBaitId > 0) {
+            player.getInventory().removeItem(this.activeBaitId, 1);
+        }
+        player.sendPacket(new PacketFishBaitGoneNotify(player.getUid()));
         player.sendPacket(new PacketFishBiteRsp(0));
     }
 
@@ -121,24 +219,28 @@ public class FishingManager {
 
             List<ItemParam> rewards = new ArrayList<>();
             if (fData != null && fData.getItemId() > 0) {
-                player.getInventory().addItem(new GameItem(fData.getItemId(), 1), ActionReason.SubfieldDrop);
                 rewards.add(ItemParam.newBuilder()
                         .setItemId(fData.getItemId())
                         .setCount(1)
                         .build());
             }
 
-            player.sendPacket(new PacketFishBattleEndRsp(0, result, true, rewards));
+            // Official order on catch: FishPoolDataNotify -> fish item add -> fish disappears
+            // (VISION_FISH_QTE_SUCC) -> FishBattleEndRsp (last).
+            player.sendPacket(new PacketFishPoolDataNotify(poolEntityId, caughtCount));
 
-            // Officially the caught fish disappears with VISION_FISH_QTE_SUCC
+            if (fData != null && fData.getItemId() > 0) {
+                player.getInventory().addItem(new GameItem(fData.getItemId(), 1), ActionReason.SubfieldDrop);
+            }
+
             EntityMonster caughtFish = this.hookedFish;
             player.getScene()
                     .removeEntity(caughtFish, VisionType.VisionType_VISION_FISH_QTE_SUCC);
 
-            // Update pool quota and schedule a restock of the pool
-            if (poolEntityId > 0) {
-                player.sendPacket(new PacketFishPoolDataNotify(poolEntityId, caughtCount));
+            player.sendPacket(new PacketFishBattleEndRsp(0, result, true, rewards));
 
+            // Schedule a restock of the pool
+            if (poolEntityId > 0) {
                 if (player.getScene().getEntityById(poolEntityId) instanceof EntityGadget poolGadget) {
                     poolGadget.getChildren().remove(caughtFish);
                     player.getServer()

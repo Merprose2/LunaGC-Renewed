@@ -909,6 +909,11 @@ public final class PacketOpcodes {
     public static final int ElectroherculesBattleSettleNotify = 22751;
     public static final int EnterChessDungeonReq = 1012;
     public static final int EnterChessDungeonRsp = 26142;
+    // Client -> server: the player enters fishing mode; carries the avatar guid that will fish
+    // (official switches the active avatar, e.g. to the Traveler). Official name unknown
+    // (obfuscated "BEAPIGNCAOB" in the capture); answered by AvatarEnterFishingRsp.
+    public static final int AvatarEnterFishingReq = 24312;
+    public static final int AvatarEnterFishingRsp = 28194;
     public static final int EnterFishingReq = 24152;
     public static final int EnterFishingRsp = 27613;
     public static final int EnterFungusFighterPlotDungeonRsp = 24238;

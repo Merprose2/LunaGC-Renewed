@@ -14,6 +14,10 @@ public class FishPoolData extends GameResource {
     private List<Integer> stockList;
     private Map<String, Integer> stockGuarantee;
     private List<StockLimit> stockLimitList;
+    /** Ability group applied to the avatar while fishing at this pool (e.g. "Avatar_Fishing"). */
+    private String abilityGroup;
+    /** Ability group applied to the rest of the team while fishing. */
+    private String teamAbilityGroup;
 
     @Override
     public int getId() {

@@ -557,6 +557,8 @@ public class EntityMonster extends GameEntity {
             		.setFishPoolGadgetId(this.fishPoolGadgetId)
             		.build();
 		monsterInfo.setFishInfo(sceneFishInfo);
+		// Official fish carry pose_id == init_pose_id (e.g. both 1)
+		monsterInfo.setInitPoseId(this.getPoseId());
 	}
 
         if (this.aiId != -1) {

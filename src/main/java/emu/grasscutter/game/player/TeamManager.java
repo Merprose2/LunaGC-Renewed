@@ -793,6 +793,16 @@ public AbilityControlBlockOuterClass.AbilityControlBlock getAbilityControlBlock(
     }
 
     public synchronized void changeAvatar(long guid) {
+        this.changeAvatar(guid, true);
+    }
+
+    /**
+     * Switches the active avatar to the one with the given guid.
+     *
+     * @param guid guid of the avatar to switch to
+     * @param sendRsp whether to send ChangeAvatarRsp (suppressed for internal switches, e.g. fishing)
+     */
+    public synchronized void changeAvatar(long guid, boolean sendRsp) {
         EntityAvatar oldEntity = this.getCurrentAvatarEntity();
         if (oldEntity == null || guid == oldEntity.getAvatar().getGuid()) {
             return;
@@ -822,7 +832,9 @@ public AbilityControlBlockOuterClass.AbilityControlBlock getAbilityControlBlock(
         oldEntity.setMotionState(MotionState.MotionState_MOTION_STANDBY);
 
         this.getPlayer().getScene().replaceEntity(oldEntity, newEntity);
-        this.getPlayer().sendPacket(new PacketChangeAvatarRsp(guid));
+        if (sendRsp) {
+            this.getPlayer().sendPacket(new PacketChangeAvatarRsp(guid));
+        }
     }
 
     public void applyVoidDamage() {

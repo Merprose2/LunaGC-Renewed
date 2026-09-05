@@ -1554,6 +1554,9 @@ public class Player implements PlayerHook, FieldFetch {
 
         this.activityManager = new ActivityManager(this);
 
+        // Official servers push the player's fishing data (last used rod) during the login batch.
+        session.send(new PacketPlayerFishingDataNotify(this.getFishingManager().getLastFishRodId()));
+
         session.send(new PacketPlayerEnterSceneNotify(this));
         session.send(new PacketPlayerLevelRewardUpdateNotify(rewardedLevels));
 
