@@ -5,6 +5,8 @@ import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.binout.config.ConfigEntityGadget;
 import emu.grasscutter.data.binout.config.fields.ConfigAbilityData;
 import emu.grasscutter.data.excels.GadgetData;
+import emu.grasscutter.data.excels.fishing.FishPoolData;
+import emu.grasscutter.data.excels.fishing.FishStockData;
 import emu.grasscutter.data.excels.monster.MonsterCurveData;
 import emu.grasscutter.game.entity.gadget.*;
 import emu.grasscutter.game.entity.gadget.platform.*;
@@ -25,6 +27,7 @@ import emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo;
 import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
 import emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo;
 import emu.grasscutter.net.proto.VectorOuterClass.Vector;
+import emu.grasscutter.net.proto.FishPoolInfoOuterClass;
 import emu.grasscutter.scripts.EntityControllerScriptManager;
 import emu.grasscutter.scripts.constants.EventType;
 import emu.grasscutter.scripts.data.*;
@@ -240,6 +243,9 @@ public class EntityGadget extends EntityBaseGadget {
                 .getScriptManager()
                 .callEvent(
                         new ScriptArgs(this.getGroupId(), EventType.EVENT_GADGET_CREATE, this.getConfigId()));
+
+        // Check if this gadget is a fishing pool and populate it with fish
+        this.checkAndPopulateFishPool();
     }
 
     @Override
@@ -389,6 +395,210 @@ public class EntityGadget extends EntityBaseGadget {
         return true;
     }
 
+    /** Gadget id of the wild fishing spots ("FishPool" type in GadgetExcelConfigData). */
+    public static final int FISH_POOL_GADGET_ID = 70950099;
+
+    public void checkAndPopulateFishPool() {
+        var poolData = resolveFishPoolData();
+        if (poolData == null
+                || poolData.getStockList() == null
+                || poolData.getStockList().isEmpty()) {
+            return;
+        }
+
+        populateFishPool(poolData);
+    }
+
+    /**
+     * Resolves the FishPoolExcelConfigData entry of this gadget. The official data source is the
+     * scene group's "fishing_id" field of the fishing shoal gadget (e.g. scene 3 group 133002054,
+     * gadget 54001 -> pool 1008). Falls back to config/gadget id lookups for home world/legacy
+     * pools.
+     */
+    public FishPoolData resolveFishPoolData() {
+        boolean isPoolGadget = this.getGadgetId() == FISH_POOL_GADGET_ID;
+        if (!isPoolGadget && this.metaGadget != null && this.metaGadget.fishing_id > 0) {
+            isPoolGadget = true;
+        }
+        if (!isPoolGadget
+                && this.getGadgetData() != null
+                && this.getGadgetData().getJsonName() != null) {
+            String name = this.getGadgetData().getJsonName().toLowerCase();
+            if (name.contains("fishingshoal") || name.contains("fishpool") || name.contains("fishing")) {
+                isPoolGadget = true;
+            }
+        }
+
+        if (!isPoolGadget) return null;
+
+        // Official: the group's fishing_id references FishPoolExcelConfigData directly.
+        if (this.metaGadget != null && this.metaGadget.fishing_id > 0) {
+            var poolData = GameData.getFishPoolDataMap().get(this.metaGadget.fishing_id);
+            if (poolData != null) return poolData;
+        }
+
+        // Legacy fallbacks (e.g. home world pools without group fishing data).
+        var poolData = GameData.getFishPoolDataMap().get(this.getConfigId());
+        if (poolData == null) {
+            poolData = GameData.getFishPoolDataMap().get(this.getGadgetId());
+        }
+        return poolData;
+    }
+
+    public void populateFishPool(FishPoolData poolData) {
+        // Clear previous fish if any
+        if (!this.getChildren().isEmpty()) {
+            this.getScene()
+                    .removeEntities(
+                            this.getChildren(),
+                            VisionTypeOuterClass.VisionType.VisionType_VISION_REMOVE);
+            this.getChildren().clear();
+        }
+
+        int maxToSpawn = poolData.getMaxNum() > 0 ? poolData.getMaxNum() : 5;
+        List<FishStockData> activeStocks = getActiveFishStocks(poolData);
+        if (activeStocks.isEmpty()) return;
+
+        int spawnedCount = 0;
+
+        // Stock guarantee: specific fish are guaranteed to be present in the pool.
+        if (poolData.getStockGuarantee() != null) {
+            for (var entry : poolData.getStockGuarantee().entrySet()) {
+                if (spawnedCount >= maxToSpawn) break;
+
+                int guaranteedFishId;
+                try {
+                    guaranteedFishId = Integer.parseInt(entry.getKey());
+                } catch (NumberFormatException ignored) {
+                    continue;
+                }
+
+                int guaranteedCount = Math.min(entry.getValue(), maxToSpawn - spawnedCount);
+                for (int i = 0; i < guaranteedCount; i++) {
+                    if (spawnFishInPool(guaranteedFishId)) {
+                        spawnedCount++;
+                    }
+                }
+            }
+        }
+
+        // Fill the remaining slots with weighted random rolls from the active stocks.
+        int attempts = 0;
+        while (spawnedCount < maxToSpawn && attempts++ < maxToSpawn * 3) {
+            int fishId = rollFishIdFromStocks(activeStocks);
+            if (fishId > 0 && spawnFishInPool(fishId)) {
+                spawnedCount++;
+            }
+        }
+    }
+
+    /** Spawns a single replacement fish if the pool is below its capacity (fish restock). */
+    public void restockFishPool() {
+        // Skip if the pool gadget is no longer part of the scene.
+        if (this.getScene().getEntityById(this.getId()) != this) return;
+
+        var poolData = resolveFishPoolData();
+        if (poolData == null) return;
+
+        int maxToSpawn = poolData.getMaxNum() > 0 ? poolData.getMaxNum() : 5;
+        long liveFish =
+                this.getChildren().stream()
+                        .filter(
+                                e ->
+                                        e instanceof EntityMonster m
+                                                && m.getFishId() > 0
+                                                && this.getScene().isInScene(e))
+                        .count();
+        if (liveFish >= maxToSpawn) return;
+
+        int fishId = rollFishIdFromStocks(getActiveFishStocks(poolData));
+        if (fishId > 0) {
+            spawnFishInPool(fishId);
+        }
+    }
+
+    /** Returns the stocks that are currently active, based on the in-game time of day. */
+    private List<FishStockData> getActiveFishStocks(FishPoolData poolData) {
+        boolean isDay = isSceneDayTime();
+        List<FishStockData> stocks = new ArrayList<>();
+        for (int stockId : poolData.getStockList()) {
+            var stock = GameData.getFishStockDataMap().get(stockId);
+            if (stock == null || stock.getFishWeight() == null || stock.getFishWeight().isEmpty()) {
+                continue;
+            }
+
+            String type = stock.getType();
+            if ("FISH_STOCK_TYPE_DAY".equals(type) && !isDay) continue;
+            if ("FISH_STOCK_TYPE_NIGHT".equals(type) && isDay) continue;
+
+            stocks.add(stock);
+        }
+        return stocks;
+    }
+
+    /** Weighted random pick of a fish id from the given stocks. */
+    private int rollFishIdFromStocks(List<FishStockData> stocks) {
+        if (stocks == null || stocks.isEmpty()) return 0;
+
+        var stock = stocks.get((int) (Math.random() * stocks.size()));
+        int totalWeight = 0;
+        for (int weight : stock.getFishWeight().values()) {
+            totalWeight += weight;
+        }
+        if (totalWeight <= 0) return 0;
+
+        int randomWeight = (int) (Math.random() * totalWeight);
+        int currentWeight = 0;
+        for (var entry : stock.getFishWeight().entrySet()) {
+            currentWeight += entry.getValue();
+            if (randomWeight < currentWeight) {
+                try {
+                    return Integer.parseInt(entry.getKey());
+                } catch (NumberFormatException ignored) {
+                    return 0;
+                }
+            }
+        }
+        return 0;
+    }
+
+    /** Day (06:00 - 18:00) vs Night (18:00 - 06:00) according to the in-game clock. */
+    private boolean isSceneDayTime() {
+        int secondsOfDay = (int) ((this.getScene().getWorld().getWorldTime() / 1000L) % 86400L);
+        return secondsOfDay >= 21600 && secondsOfDay < 64800;
+    }
+
+    private boolean spawnFishInPool(int fishId) {
+        var fishData = GameData.getFishDataMap().get(fishId);
+        if (fishData == null) return false;
+
+        var monsterData = GameData.getMonsterDataMap().get(fishData.getMonsterId());
+        if (monsterData == null) return false;
+
+        // Spread in a circle around the fishing spot (official fish swim ~1.5m - 4m from the center)
+        float angle = (float) (Math.random() * 2 * Math.PI);
+        float radius = 1.5f + (float) (Math.random() * 2.5f);
+
+        Position pos = new Position(
+                this.getPosition().getX() + (float) (radius * Math.cos(angle)),
+                this.getPosition().getY(),
+                this.getPosition().getZ() + (float) (radius * Math.sin(angle))
+        );
+
+        Position rot = new Position(0, (float) (Math.random() * 360), 0);
+
+        EntityMonster fish = new EntityMonster(this.getScene(), monsterData, pos, rot, 1);
+        fish.setFishId(fishId);
+        fish.setFishPoolEntityId(this.getId());
+        fish.setFishPoolPos(this.getPosition());
+        fish.setFishPoolGadgetId(this.getGadgetId());
+        fish.setPoseId(fishData.getInitPose());
+
+        this.getScene().addEntity(fish);
+        this.getChildren().add(fish); // Automatically cleaned up if pool despawns
+        return true;
+    }
+
     @Override
     public SceneEntityInfo toProto() {
         EntityAuthorityInfo authority =
@@ -442,6 +652,30 @@ public class EntityGadget extends EntityBaseGadget {
 
         if (owner != null) {
             gadgetInfo.setOwnerEntityId(owner.getId());
+        }
+
+        // Fish pool info (wild fishing spots, gadget 70950099): officially sent as
+        // FishPoolInfo { pool_id, fish_area_list }, taken from the group's fishing_id/fishing_areas.
+        int poolId = 0;
+        if (this.metaGadget != null && this.metaGadget.fishing_id > 0) {
+            poolId = this.metaGadget.fishing_id;
+        } else {
+            var pData = GameData.getFishPoolDataMap().get(this.getConfigId());
+            if (pData != null) {
+                poolId = pData.getId();
+            } else if (this.getGadgetId() == FISH_POOL_GADGET_ID) {
+                poolId = this.getConfigId();
+            }
+        }
+
+        if (poolId > 0) {
+            var poolInfo = FishPoolInfoOuterClass.FishPoolInfo.newBuilder()
+                    .setPoolId(poolId)
+                    .setTodayFishNum(0);
+            if (this.metaGadget != null && this.metaGadget.fishing_areas != null) {
+                poolInfo.addAllFishAreaList(this.metaGadget.fishing_areas);
+            }
+            gadgetInfo.setFishPoolInfo(poolInfo);
         }
 
         if (this.getContent() != null) {

@@ -15,6 +15,7 @@ import emu.grasscutter.data.excels.activity.ActivityShopData;
 import emu.grasscutter.data.excels.activity.ActivityWatcherData;
 import emu.grasscutter.data.excels.avatar.*;
 import emu.grasscutter.data.excels.codex.*;
+import emu.grasscutter.data.excels.fishing.*;
 import emu.grasscutter.data.excels.dungeon.*;
 import emu.grasscutter.data.excels.giving.GivingData;
 import emu.grasscutter.data.excels.giving.GivingGroupData;
@@ -344,6 +345,21 @@ public final class GameData {
 
     @Getter
     private static final Int2ObjectMap<MapLayerData> mapLayerDataMap = new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<FishData> fishDataMap = new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<FishPoolData> fishPoolDataMap = new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<FishStockData> fishStockDataMap = new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<FishBaitData> fishBaitDataMap = new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<FishRodData> fishRodDataMap = new Int2ObjectOpenHashMap<>();
 
     @Getter
     private static final Int2ObjectMap<MapLayerFloorData> mapLayerFloorDataMap =

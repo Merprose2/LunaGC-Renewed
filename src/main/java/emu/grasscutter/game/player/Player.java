@@ -32,6 +32,7 @@ import emu.grasscutter.game.managers.stamina.StaminaManager;
 import emu.grasscutter.game.props.*;
 import emu.grasscutter.game.quest.QuestManager;
 import emu.grasscutter.game.quest.enums.*;
+import emu.grasscutter.game.managers.fishing.FishingManager;
 import emu.grasscutter.game.shop.ShopLimit;
 import emu.grasscutter.game.systems.DailyCheckInSystem;
 import emu.grasscutter.game.talk.TalkManager;
@@ -171,6 +172,7 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter private transient SatiationManager satiationManager;
     @Getter private transient TalkManager talkManager;
     @Getter private transient InvestigationManager investigationManager;
+    @Getter private transient FishingManager fishingManager;
 
     @Getter @Setter private transient Position lastCheckedPosition = null;
 
@@ -306,6 +308,7 @@ public class Player implements PlayerHook, FieldFetch {
         this.investigations = new HashMap<>();
         this.investigationTargets = new HashMap<>();
         this.investigationManager = new InvestigationManager(this);
+	this.fishingManager = new FishingManager(this);
         setPhlogistonValue(100);
     }
 
@@ -342,6 +345,7 @@ public class Player implements PlayerHook, FieldFetch {
         this.cookingCompoundManager = new CookingCompoundManager(this);
         this.satiationManager = new SatiationManager(this);
         this.investigationManager = new InvestigationManager(this);
+	this.fishingManager = new FishingManager(this);
     }
 
     @Override

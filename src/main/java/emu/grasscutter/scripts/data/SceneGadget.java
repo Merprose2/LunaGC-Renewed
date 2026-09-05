@@ -2,6 +2,8 @@ package emu.grasscutter.scripts.data;
 
 import lombok.*;
 
+import java.util.List;
+
 @ToString
 @Setter
 public class SceneGadget extends SceneObject {
@@ -18,6 +20,12 @@ public class SceneGadget extends SceneObject {
     public int owner;
     public SceneBossChest boss_chest;
     public int interact_id;
+
+    /** Fish pool id (FishPoolExcelConfigData) for fishing shoal gadgets (e.g. gadget 70950099). */
+    public int fishing_id;
+    /** Fish area ids for fishing shoal gadgets, sent via FishPoolInfo.fish_area_list. */
+    public List<Integer> fishing_areas;
+
     /**
      * Note: this field indicates whether the gadget should disappear permanently. For example, if
      * isOneOff=true, like most chests, it will disappear permanently after interacted. If

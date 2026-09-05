@@ -27,6 +27,7 @@ import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
 import emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.SceneMonsterInfo;
 import emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo;
 import emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo;
+import emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo;
 import emu.grasscutter.scripts.constants.EventType;
 import emu.grasscutter.scripts.data.*;
 import emu.grasscutter.server.event.entity.EntityDamageEvent;
@@ -55,6 +56,12 @@ public class EntityMonster extends GameEntity {
     @Getter @Setter private int summonedTag;
     @Getter @Setter private int ownerEntityId;
     @Getter @Setter private int poseId;
+    @Getter @Setter private int fishId = 0;
+    @Getter @Setter private int fishPoolEntityId = 0;
+    /** Position of the fish pool this fish belongs to (official sends the pool pos, not the fish pos). */
+    @Getter @Setter private Position fishPoolPos = null;
+    /** Gadget id of the fish pool this fish belongs to (officially 70950099 for wild fishing spots). */
+    @Getter @Setter private int fishPoolGadgetId = 0;
     @Getter @Setter private int aiId = -1;
 
     @Getter private List<Player> playerOnBattle;
@@ -541,6 +548,17 @@ public class EntityMonster extends GameEntity {
 
             monsterInfo.addWeaponList(weaponInfo);
         }
+
+	if (this.fishId > 0) {
+    		var sceneFishInfo = SceneFishInfo.newBuilder()
+            		.setFishId(this.fishId)
+            		.setFishPoolEntityId(this.fishPoolEntityId)
+            		.setFishPoolPos((this.fishPoolPos != null ? this.fishPoolPos : this.getBornPos()).toProto())
+            		.setFishPoolGadgetId(this.fishPoolGadgetId)
+            		.build();
+		monsterInfo.setFishInfo(sceneFishInfo);
+	}
+
         if (this.aiId != -1) {
             monsterInfo.setAiConfigId(aiId);
         }
