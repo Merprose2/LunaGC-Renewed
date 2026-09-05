@@ -423,20 +423,36 @@ public final class ResourceLoader {
 
     }
 
-    private static void loadAbilityModifiers(Path path) {
-        try {
-            JsonUtils.loadToList(path, AbilityConfigData.class)
-                    .forEach(data -> {
-                        if (data.Default != null) {
-                            data.Default.isDynamicAbility = data.Default.isDynamicAbility || data.isDynamicAbility;
-                            loadAbilityData(data.Default);
-                        }
-                    });
-        } catch (IOException e) {
-            Grasscutter.getLogger()
-                    .error("Error loading ability modifiers from path " + path.toString() + ": ", e);
-        }
-    }
+	private static void loadAbilityModifiers(Path path) {
+		try {
+			List<AbilityConfigData> definitions =
+					JsonUtils.loadToList(path, AbilityConfigData.class);
+
+			if (definitions == null) {
+				throw new IOException(
+						"Ability JSON is empty or contains a null root value.");
+			}
+
+			for (AbilityConfigData data : definitions) {
+				if (data == null) {
+					throw new IOException(
+							"Ability JSON contains a null list entry.");
+				}
+
+				if (data.Default != null) {
+					data.Default.isDynamicAbility =
+							data.Default.isDynamicAbility || data.isDynamicAbility;
+
+					loadAbilityData(data.Default);
+				}
+			}
+		} catch (IOException | RuntimeException e) {
+			throw new IllegalStateException(
+					"Failed to load ability definitions from "
+							+ path.toAbsolutePath(),
+					e);
+		}
+	}
 
     private static void mergeDynamicAbilitiesIntoEmbryos() {
 

@@ -1,13 +1,15 @@
 package emu.grasscutter.data.excels;
 
-import emu.grasscutter.data.*;
+import emu.grasscutter.data.GameResource;
+import emu.grasscutter.data.ResourceType;
 import emu.grasscutter.data.common.ItemParamData;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 @ResourceType(name = "CombineExcelConfigData.json")
 public class CombineData extends GameResource {
-
     private int combineId;
     private int playerLevel;
     private boolean isDefaultShow;
@@ -22,17 +24,25 @@ public class CombineData extends GameResource {
 
     @Override
     public int getId() {
-        return this.combineId;
+        return combineId;
     }
 
     @Override
     public void onLoad() {
         super.onLoad();
-        // clean data
-        randomItems =
-                randomItems.stream().filter(item -> item.getId() > 0).collect(Collectors.toList());
-        materialItems =
-                materialItems.stream().filter(item -> item.getId() > 0).collect(Collectors.toList());
+        randomItems = cleanItems(randomItems);
+        materialItems = cleanItems(materialItems);
+    }
+
+    private static List<ItemParamData> cleanItems(List<ItemParamData> items) {
+        if (items == null) {
+            return new ArrayList<>();
+        }
+
+        return items.stream()
+                .filter(Objects::nonNull)
+                .filter(item -> item.getId() > 0)
+                .collect(Collectors.toList());
     }
 
     public int getCombineId() {
