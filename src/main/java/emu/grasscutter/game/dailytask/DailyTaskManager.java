@@ -14,6 +14,7 @@ import emu.grasscutter.data.excels.RewardPreviewData;
 import emu.grasscutter.database.DatabaseHelper;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.ActionReason;
+import emu.grasscutter.game.props.WatcherTriggerType;
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.game.world.Scene;
 import emu.grasscutter.game.entity.EntityMonster;
@@ -1527,6 +1528,13 @@ public class DailyTaskManager {
                 .addItemParamDatas(
                         Arrays.asList(items),
                         reason);
+
+        if (reason == ActionReason.DailyTaskHost) {
+            // Advance Battle Pass "Complete 4 Daily Commissions" (ID: 72002)
+            this.player
+                    .getBattlePassManager()
+                    .triggerMission(WatcherTriggerType.TRIGGER_DAILY_TASK, 0, 1);
+        }
 
         /*
          * Material inventory entries save themselves, but commission rewards

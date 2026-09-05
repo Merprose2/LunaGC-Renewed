@@ -229,6 +229,14 @@ public class InventorySystem extends BaseGameSystem {
         relic.setTotalExp(totalExp);
         relic.save();
 
+        // Advance BP "Upgrade 5★ Artifacts for 30 levels" (ID: 40101)
+        int levelsGained = level - oldLevel;
+        if (relic.getItemData().getRankLevel() == 5 && levelsGained > 0) {
+            player.getBattlePassManager()
+                    .triggerMission(
+                            WatcherTriggerType.TRIGGER_ANY_RANK_LEVEL_RELIQUARY_UPGRADE_LEVEL, 5, levelsGained);
+        }
+
         // Avatar
         if (oldLevel != level) {
             Avatar avatar =
@@ -501,10 +509,8 @@ public class InventorySystem extends BaseGameSystem {
             return;
         }
 
-        // Mora check
-        if (player.getMora() >= moraCost) {
-            player.setMora(player.getMora() - moraCost);
-        } else {
+        // Mora check and payment
+        if (!player.getInventory().payItem(202, moraCost)) {
             return;
         }
 

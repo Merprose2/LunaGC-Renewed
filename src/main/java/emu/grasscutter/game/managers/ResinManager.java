@@ -48,11 +48,10 @@ public class ResinManager extends BasePlayerManager {
         // Send packets.
         this.player.sendPacket(new PacketResinChangeNotify(this.player));
 
-        // Battle Pass trigger
+        // Advance BP Resin quests: 150 daily (72004) & 1200 weekly (73006)
         this.player
                 .getBattlePassManager()
-                .triggerMission(
-                        WatcherTriggerType.TRIGGER_COST_MATERIAL, 106, amount); // Resin item id = 106
+                .triggerMission(WatcherTriggerType.TRIGGER_CONSUME_RESIN, 0, amount);
 
         return true;
     }

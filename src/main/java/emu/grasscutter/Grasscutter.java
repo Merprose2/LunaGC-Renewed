@@ -164,6 +164,9 @@ public final class Grasscutter {
             // still empty and no recipes/compounds ever ended up in the "default unlocked" sets.
             CookingManager.initialize();
             CookingCompoundManager.initialize();
+            if (gameServer != null && gameServer.getBattlePassSystem() != null) {
+                gameServer.getBattlePassSystem().loadTriggers();
+            }
 
             // Generate handbooks.
             Tools.createGmHandbooks(false);

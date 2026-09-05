@@ -117,10 +117,11 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
     }
 
     public boolean addItem(GameItem item) {
+        int count = item.getCount();
         GameItem result = putItem(item);
 
         if (result != null) {
-            this.triggerAddItemEvents(result);
+            this.triggerAddItemEvents(result, count);
             getPlayer().sendPacket(new PacketStoreItemChangeNotify(result));
 
             // Call PlayerObtainItemEvent.
@@ -170,11 +171,12 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
         for (var item : items) {
             if (item.getItemId() == 0) continue;
             GameItem result = null;
+            int count = item.getCount();
 
             result = putItem(item);
 
             if (result != null) {
-                this.triggerAddItemEvents(result);
+                this.triggerAddItemEvents(result, count);
                 changedItems.add(result);
             }
         }
@@ -230,13 +232,22 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
     }
 
     private void triggerAddItemEvents(GameItem result) {
+        this.triggerAddItemEvents(result, result.getCount());
+    }
+
+    private void triggerAddItemEvents(GameItem result, int count) {
         try {
-            getPlayer()
-                    .getBattlePassManager()
-                    .triggerMission(
-                            WatcherTriggerType.TRIGGER_OBTAIN_MATERIAL_NUM,
-                            result.getItemId(),
-                            result.getCount());
+            // Advance Battle Pass "Mine 10 Ores" (ID: 72003)
+            if (result.getItemData() != null
+                    && (result.getItemData().getMaterialType() == MaterialType.MATERIAL_AVATAR_MATERIAL
+                            || result.getItemData().getMaterialType() == MaterialType.MATERIAL_EXCHANGE)) {
+                getPlayer()
+                        .getBattlePassManager()
+                        .triggerMission(
+                                WatcherTriggerType.TRIGGER_OBTAIN_MATERIAL_NUM,
+                                result.getItemId(),
+                                count);
+            }
             getPlayer()
                     .getQuestManager()
                     .queueEvent(
@@ -410,8 +421,13 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
         switch (itemId) {
             case 201 -> // Primogem
             player.setPrimogems(player.getPrimogems() - count);
-            case 202 -> // Mora
-            player.setMora(player.getMora() - count);
+            case 202 -> { // Mora
+                player.setMora(player.getMora() - count);
+                // Advance BP "Spend 500,000 Mora" (ID: 73007)
+                getPlayer()
+                        .getBattlePassManager()
+                        .triggerMission(WatcherTriggerType.TRIGGER_COST_MATERIAL, 202, count);
+            }
             case 203 -> // Genesis Crystals
             player.setCrystals(player.getCrystals() - count);
             case 106 -> // Resin

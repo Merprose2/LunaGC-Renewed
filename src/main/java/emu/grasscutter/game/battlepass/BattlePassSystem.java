@@ -1,5 +1,6 @@
 package emu.grasscutter.game.battlepass;
 
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.excels.BattlePassMissionData;
 import emu.grasscutter.game.player.Player;
@@ -12,20 +13,28 @@ import java.util.*;
 public class BattlePassSystem extends BaseGameSystem {
     private final Map<WatcherTriggerType, List<BattlePassMissionData>> cachedTriggers;
 
-    // BP Mission manager for the server, contains cached triggers so we dont have to load it for each
-    // player
     public BattlePassSystem(GameServer server) {
         super(server);
-
         this.cachedTriggers = new HashMap<>();
+        this.loadTriggers();
+    }
+
+    public synchronized void loadTriggers() {
+        this.cachedTriggers.clear();
+        if (GameData.getBattlePassMissionDataMap() == null || GameData.getBattlePassMissionDataMap().isEmpty()) {
+            return;
+        }
 
         for (BattlePassMissionData missionData : GameData.getBattlePassMissionDataMap().values()) {
-            if (missionData.isValidRefreshType()) {
+            if (missionData.isValidRefreshType() && missionData.getTriggerType() != null) {
                 List<BattlePassMissionData> triggerList =
-                        getTriggers().computeIfAbsent(missionData.getTriggerType(), e -> new ArrayList<>());
+                        this.cachedTriggers.computeIfAbsent(missionData.getTriggerType(), e -> new ArrayList<>());
                 triggerList.add(missionData);
             }
         }
+        Grasscutter.getLogger().info("BattlePassSystem loaded {} BP trigger types ({} total missions).",
+                this.cachedTriggers.size(),
+                this.cachedTriggers.values().stream().mapToInt(List::size).sum());
     }
 
     public GameServer getServer() {
@@ -33,21 +42,28 @@ public class BattlePassSystem extends BaseGameSystem {
     }
 
     private Map<WatcherTriggerType, List<BattlePassMissionData>> getTriggers() {
-        return cachedTriggers;
+        if (this.cachedTriggers.isEmpty()) {
+            this.loadTriggers();
+        }
+        return this.cachedTriggers;
     }
 
     public void triggerMission(Player player, WatcherTriggerType triggerType) {
         triggerMission(player, triggerType, 0, 1);
     }
 
-public void triggerMission(
+    public void triggerMission(
             Player player, WatcherTriggerType triggerType, int param, int progress) {
         List<BattlePassMissionData> triggerList = getTriggers().get(triggerType);
 
-        if (triggerList == null || triggerList.isEmpty()) return;
+        if (triggerList == null || triggerList.isEmpty()) {
+            Grasscutter.getLogger().debug("No BP triggers found for type {}", triggerType);
+            return;
+        }
 
         for (BattlePassMissionData data : triggerList) {
-            // Check params if specified
+            // Only check parameter if the mission configuration actually requires specific IDs.
+            // If mainParams is empty, it means the mission accepts any parameter (e.g. any gacha banner).
             if (param != 0 && data.getMainParams() != null && !data.getMainParams().isEmpty()) {
                 if (!data.getMainParams().contains(param)) {
                     continue;
@@ -67,6 +83,8 @@ public void triggerMission(
 
             player.getBattlePassManager().save();
             player.sendPacket(new PacketBattlePassMissionUpdateNotify(mission));
+            Grasscutter.getLogger().info("BP mission {} ({}) updated progress: {}/{}",
+                    data.getId(), triggerType, mission.getProgress(), data.getProgress());
         }
     }
 }

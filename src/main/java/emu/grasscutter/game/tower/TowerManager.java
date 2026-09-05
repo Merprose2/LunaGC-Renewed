@@ -6,6 +6,7 @@ import emu.grasscutter.data.excels.tower.TowerLevelData;
 import emu.grasscutter.game.dungeons.*;
 import emu.grasscutter.game.player.*;
 import emu.grasscutter.game.props.FightProperty;
+import emu.grasscutter.game.props.WatcherTriggerType;
 import emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason;
 import emu.grasscutter.server.packet.send.*;
 import java.util.*;
@@ -229,6 +230,7 @@ public class TowerManager extends BasePlayerManager {
     public void notifyCurLevelRecordChangeWhenDone(int stars) {
         Map<Integer, TowerLevelRecord> recordMap = this.getRecordMap();
         int currentFloorId = getTowerData().currentFloorId;
+        int prevStars = 0;
         if (!recordMap.containsKey(currentFloorId)) {
             recordMap.put(
                     currentFloorId,
@@ -237,13 +239,22 @@ public class TowerManager extends BasePlayerManager {
             // Only update record if better than previous
             var prevRecord = recordMap.get(currentFloorId);
             var passedLevelMap = prevRecord.getPassedLevelMap();
-            int prevStars = 0;
             if (passedLevelMap.containsKey(getCurrentLevelId())) {
                 prevStars = prevRecord.getLevelStars(getCurrentLevelId());
             }
             if (stars > prevStars) {
                 recordMap.put(currentFloorId, prevRecord.setLevelStars(getCurrentLevelId(), stars));
             }
+        }
+
+        // Advance Battle Pass "Gain 12 stars in Spiral Abyss" (ID: 40113)
+        int starsGained = Math.max(0, stars - prevStars);
+        int bpStars = starsGained > 0 ? starsGained : stars;
+        if (bpStars > 0) {
+            player.getBattlePassManager()
+                    .triggerMission(WatcherTriggerType.TRIGGER_TOWER_STARS_NUM, 0, bpStars);
+            player.getBattlePassManager()
+                    .triggerMission(WatcherTriggerType.TRIGGER_TOWER_STARS_NUM_CROSS_BP_SCHEDULE, 0, bpStars);
         }
 
         this.getTowerData().currentLevel++;

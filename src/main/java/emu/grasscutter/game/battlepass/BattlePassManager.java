@@ -115,10 +115,10 @@ public class BattlePassManager extends BasePlayerDataManager {
     public Map<Integer, BattlePassMission> getMissions() {
         if (this.missions == null) this.missions = new HashMap<>();
 
-        if (this.missions.isEmpty() && GameData.getBattlePassMissionDataMap() != null) {
+        if (GameData.getBattlePassMissionDataMap() != null) {
             for (BattlePassMissionData data : GameData.getBattlePassMissionDataMap().values()) {
                 if (data.isValidRefreshType()) {
-                    this.missions.put(data.getId(), new BattlePassMission(data.getId()));
+                    this.missions.computeIfAbsent(data.getId(), BattlePassMission::new);
                 }
             }
         }

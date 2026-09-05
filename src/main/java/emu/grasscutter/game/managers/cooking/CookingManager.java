@@ -7,6 +7,7 @@ import emu.grasscutter.data.excels.ItemData;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.player.*;
 import emu.grasscutter.game.props.ActionReason;
+import emu.grasscutter.game.props.WatcherTriggerType;
 import emu.grasscutter.net.proto.CookRecipeDataOuterClass;
 import emu.grasscutter.net.proto.PlayerCookArgsReqOuterClass.PlayerCookArgsReq;
 import emu.grasscutter.net.proto.PlayerCookReqOuterClass.PlayerCookReq;
@@ -160,6 +161,9 @@ public class CookingManager extends BasePlayerManager {
         GameItem cookResult = new GameItem(resultItemData, resultParam.getCount() * totalCount);
         cookResults.add(cookResult);
         this.player.getInventory().addItem(cookResult);
+
+        // Advance Battle Pass "Cook 20 Dishes" (ID: 73010)
+        this.player.getBattlePassManager().triggerMission(WatcherTriggerType.TRIGGER_DO_COOK, 0, count);
 
         // Increase player proficiency, if this was a manual perfect cook.
         if (quality == MANUAL_PERFECT_COOK_QUALITY) {
