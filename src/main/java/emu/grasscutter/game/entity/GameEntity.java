@@ -175,17 +175,25 @@ public abstract class GameEntity {
         return this;
     }
 
-    public void onAddAbilityModifier(AbilityModifier data) {
-        if (data.properties == null) {
-            return;
-        }
-        float hpThresholdRatio = data.properties.Actor_HpThresholdRatio;
+	public void onAddAbilityModifier(AbilityModifier data) {
+		onAddAbilityModifier(data, null);
+	}
 
-        if (data.state == AbilityModifier.State.Limbo && hpThresholdRatio > 0.0f) {
-            Grasscutter.getLogger().info("Limbo set to " + hpThresholdRatio);
-            this.setLimbo(hpThresholdRatio);
-        }
-    }
+	public void onAddAbilityModifier(
+			AbilityModifier data, Ability sourceAbility) {
+		if (data == null || data.properties == null || data.properties.Actor_HpThresholdRatio == null) {
+			return;
+		}
+
+		var threshold = data.properties.Actor_HpThresholdRatio;
+
+		float hpThresholdRatio = sourceAbility != null ? threshold.get(sourceAbility, 0f) : threshold.get(0f);
+
+		if (data.state == AbilityModifier.State.Limbo && hpThresholdRatio > 0.0f) {
+			Grasscutter.getLogger().info("Limbo set to " + hpThresholdRatio);
+			this.setLimbo(hpThresholdRatio);
+		}
+	}
 
     protected MotionInfo getMotionInfo() {
         return MotionInfo.newBuilder()
