@@ -400,6 +400,20 @@ public final class ResourceLoader {
             }
         }
 
+        // Load the fishing ability groups (applied to avatars while fishing at a pool).
+        try {
+            var fishingGroups =
+                    JsonUtils.loadToMap(
+                            getResourcePath("BinOutput/AbilityGroup/AbilityGroup_Fishing.json"),
+                            String.class,
+                            AvatarConfig.class);
+            var merged = new HashMap<>(GameDepot.getPlayerAbilities());
+            merged.putAll(fishingGroups);
+            GameDepot.setPlayerAbilities(merged);
+        } catch (Exception e) {
+            Grasscutter.getLogger().error("Error loading fishing ability group:", e);
+        }
+
         if (embryoList == null || embryoList.isEmpty()) {
             Grasscutter.getLogger().error("No embryos loaded!");
             return;
