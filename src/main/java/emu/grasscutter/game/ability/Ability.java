@@ -36,7 +36,10 @@ public class Ability {
         this.owner = owner;
         this.manager = owner.getWorld().getHost().getAbilityManager();
 
-        initializeAbilitySpecials();
+        if (this.data.abilitySpecials != null) {
+            for (var entry : this.data.abilitySpecials.entrySet())
+                abilitySpecials.put(entry.getKey(), entry.getValue().floatValue());
+        }
 
         this.playerOwner = playerOwner;
 
@@ -73,44 +76,6 @@ public class Ability {
             processOnAddedAbilityModifiers();
         }
     }
-
-	private void initializeAbilitySpecials() {
-		if (this.data.abilitySpecials == null
-				|| this.data.abilitySpecials.isEmpty()) {
-			return;
-		}
-
-		var properties = new Object2FloatOpenHashMap<String>();
-		properties.putAll(this.owner.getGlobalAbilityValues());
-
-		// Load numeric defaults before evaluating references.
-		for (var entry : this.data.abilitySpecials.entrySet()) {
-			var definition = entry.getValue();
-
-			if (definition == null || definition.isDynamic()) {
-				continue;
-			}
-
-			float value = definition.getConstant();
-
-			this.abilitySpecials.put(entry.getKey(), value);
-			properties.put(entry.getKey(), value);
-		}
-
-		// Evaluate symbolic defaults using the owner's global values and the numeric defaults loaded above.
-		for (var entry : this.data.abilitySpecials.entrySet()) {
-			var definition = entry.getValue();
-
-			if (definition == null || !definition.isDynamic()) {
-				continue;
-			}
-
-			float value = definition.get(properties, 0f);
-
-			this.abilitySpecials.put(entry.getKey(), value);
-			properties.put(entry.getKey(), value);
-		}
-	}
 
     private Avatar resolveCasterAvatar(Player player, GameEntity owner) {
         EntityAvatar entity = resolveCasterEntity(player, owner);
@@ -190,7 +155,7 @@ public class Ability {
                 else if (!data.modifiers.containsKey(modifierAction.modifierName)) continue;
 
                 var modifierData = data.modifiers.get(modifierAction.modifierName);
-                owner.onAddAbilityModifier(modifierData, this);
+                owner.onAddAbilityModifier(modifierData);
             }
         }
     }

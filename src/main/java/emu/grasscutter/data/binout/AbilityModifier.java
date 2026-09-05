@@ -452,8 +452,9 @@ public class AbilityModifier implements Serializable {
     }
 
     public static class AbilityModifierProperty implements Serializable {
-		public DynamicFloat Actor_HpThresholdRatio = DynamicFloat.ZERO;
-	}
+        public float Actor_HpThresholdRatio;
+
+    }
 
     public enum State {
             LockHP,

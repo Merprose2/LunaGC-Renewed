@@ -423,36 +423,20 @@ public final class ResourceLoader {
 
     }
 
-	private static void loadAbilityModifiers(Path path) {
-		try {
-			List<AbilityConfigData> definitions =
-					JsonUtils.loadToList(path, AbilityConfigData.class);
-
-			if (definitions == null) {
-				throw new IOException(
-						"Ability JSON is empty or contains a null root value.");
-			}
-
-			for (AbilityConfigData data : definitions) {
-				if (data == null) {
-					throw new IOException(
-							"Ability JSON contains a null list entry.");
-				}
-
-				if (data.Default != null) {
-					data.Default.isDynamicAbility =
-							data.Default.isDynamicAbility || data.isDynamicAbility;
-
-					loadAbilityData(data.Default);
-				}
-			}
-		} catch (IOException | RuntimeException e) {
-			throw new IllegalStateException(
-					"Failed to load ability definitions from "
-							+ path.toAbsolutePath(),
-					e);
-		}
-	}
+    private static void loadAbilityModifiers(Path path) {
+        try {
+            JsonUtils.loadToList(path, AbilityConfigData.class)
+                    .forEach(data -> {
+                        if (data.Default != null) {
+                            data.Default.isDynamicAbility = data.Default.isDynamicAbility || data.isDynamicAbility;
+                            loadAbilityData(data.Default);
+                        }
+                    });
+        } catch (IOException e) {
+            Grasscutter.getLogger()
+                    .error("Error loading ability modifiers from path " + path.toString() + ": ", e);
+        }
+    }
 
     private static void mergeDynamicAbilitiesIntoEmbryos() {
 
@@ -800,45 +784,26 @@ public final class ResourceLoader {
         }
     }
 
-	private static <T extends ConfigEntityBase> void loadConfigDataMap(
-			Map<String, T> targetMap, String folderPath, Class<T> configClass) {
-		String className = configClass.getName();
+    private static <T extends ConfigEntityBase> void loadConfigDataMap(
+            Map<String, T> targetMap, String folderPath, Class<T> configClass) {
+        val className = configClass.getName();
+        try (val stream = Files.newDirectoryStream(getResourcePath(folderPath), "*.json")) {
+            stream.forEach(
+                    path -> {
+                        try {
+                            targetMap.putAll(JsonUtils.loadToMap(path, String.class, configClass));
+                        } catch (Exception e) {
+                            Grasscutter.getLogger()
+                                    .error("failed to load {} entries for {}", className, path.toString(), e);
+                        }
+                    });
 
-		try (var stream =
-				Files.newDirectoryStream(getResourcePath(folderPath), "*.json")) {
-			for (Path path : stream) {
-				try {
-					Map<String, T> entries =
-							JsonUtils.loadToMap(path, String.class, configClass);
-
-					if (entries == null) {
-						Grasscutter.getLogger()
-								.warn("Skipping empty or null config file: {}", path);
-						continue;
-					}
-
-					targetMap.putAll(entries);
-				} catch (Exception e) {
-					Grasscutter.getLogger()
-							.error(
-									"failed to load {} entries for {}",
-									className,
-									path,
-									e);
-				}
-			}
-
-			Grasscutter.getLogger()
-					.debug("Loaded {} {} entries.", targetMap.size(), className);
-		} catch (IOException e) {
-			Grasscutter.getLogger()
-					.error(
-							"Failed to load {} folder: {}",
-							className,
-							folderPath,
-							e);
-		}
-	}
+            Grasscutter.getLogger()
+                    .debug("Loaded {} {} entries.", GameData.getMonsterConfigData().size(), className);
+        } catch (IOException e) {
+            Grasscutter.getLogger().error("Failed to load {} folder.", className);
+        }
+    }
 
     private static void loadBlossomResources() {
         try {

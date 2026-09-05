@@ -1,19 +1,13 @@
 package emu.grasscutter.data.excels.tower;
 
-import com.google.gson.annotations.SerializedName;
-import emu.grasscutter.data.GameResource;
-import emu.grasscutter.data.ResourceType;
+import emu.grasscutter.data.*;
 import java.util.List;
-import java.util.Objects;
 
 @ResourceType(name = "TowerScheduleExcelConfigData.json")
 public class TowerScheduleData extends GameResource {
     private int scheduleId;
     private List<Integer> entranceFloorId;
-
-    @SerializedName(value = "schedules", alternate = {"LHOGNLPBILP"})
     private List<ScheduleDetail> schedules;
-
     private int monthlyLevelConfigId;
 
     @Override
@@ -24,21 +18,8 @@ public class TowerScheduleData extends GameResource {
     @Override
     public void onLoad() {
         super.onLoad();
-
-        if (entranceFloorId == null) {
-            entranceFloorId = List.of();
-        }
-
-        if (schedules == null) {
-            schedules = List.of();
-            return;
-        }
-
-        schedules = schedules.stream()
-                .filter(Objects::nonNull)
-                .filter(detail -> detail.getFloorList() != null)
-                .filter(detail -> !detail.getFloorList().isEmpty())
-                .toList();
+        this.schedules =
+                this.schedules.stream().filter(item -> item.getFloorList().size() > 0).toList();
     }
 
     public int getScheduleId() {
