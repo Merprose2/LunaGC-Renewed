@@ -40,23 +40,21 @@ public class BattlePassSystem extends BaseGameSystem {
         triggerMission(player, triggerType, 0, 1);
     }
 
-    public void triggerMission(
+public void triggerMission(
             Player player, WatcherTriggerType triggerType, int param, int progress) {
         List<BattlePassMissionData> triggerList = getTriggers().get(triggerType);
 
         if (triggerList == null || triggerList.isEmpty()) return;
 
         for (BattlePassMissionData data : triggerList) {
-            // Skip params check if param == 0
-            if (param != 0) {
+            // Check params if specified
+            if (param != 0 && data.getMainParams() != null && !data.getMainParams().isEmpty()) {
                 if (!data.getMainParams().contains(param)) {
                     continue;
                 }
             }
 
-            // Get mission from player, if it doesnt exist, then we make one
             BattlePassMission mission = player.getBattlePassManager().loadMissionById(data.getId());
-
             if (mission.isFinshed()) continue;
 
             // Add progress
@@ -64,14 +62,10 @@ public class BattlePassSystem extends BaseGameSystem {
 
             if (mission.getProgress() >= data.getProgress()) {
                 mission.setStatus(BattlePassMissionStatus.MISSION_STATUS_FINISHED);
-
                 new PlayerFinishBattlePassMission(player, mission).call();
             }
 
-            // Save to db
             player.getBattlePassManager().save();
-
-            // Packet
             player.sendPacket(new PacketBattlePassMissionUpdateNotify(mission));
         }
     }

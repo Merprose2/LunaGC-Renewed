@@ -19,19 +19,19 @@ public class BattlePassMissionData extends GameResource {
     private TriggerConfig triggerConfig;
     private BattlePassMissionRefreshType refreshType;
 
-    private transient Set<Integer> mainParams;
+    private transient Set<Integer> mainParams = new HashSet<>();
 
     public WatcherTriggerType getTriggerType() {
-        return this.getTriggerConfig().getTriggerType();
+        return this.getTriggerConfig() != null ? this.getTriggerConfig().getTriggerType() : null;
     }
 
     public boolean isCycleRefresh() {
         return getRefreshType() == null
-                || getRefreshType()
-                        == BattlePassMissionRefreshType.BATTLE_PASS_MISSION_REFRESH_CYCLE_CROSS_SCHEDULE;
+                || getRefreshType() == BattlePassMissionRefreshType.BATTLE_PASS_MISSION_REFRESH_CYCLE_CROSS_SCHEDULE;
     }
 
     public boolean isValidRefreshType() {
+        // Daily missions have refreshType == null; Weekly have CROSS_SCHEDULE; Schedule missions have scheduleId == 7000
         return getRefreshType() == null
                 || getRefreshType() == BattlePassMissionRefreshType.BATTLE_PASS_MISSION_REFRESH_CYCLE_CROSS_SCHEDULE
                 || this.getScheduleId() == 0
@@ -41,13 +41,15 @@ public class BattlePassMissionData extends GameResource {
 
     @Override
     public void onLoad() {
-        if (this.getTriggerConfig() != null) {
-            var params = getTriggerConfig().getParamList()[0];
-            if ((params != null) && !params.isEmpty()) {
-                this.mainParams = Arrays.stream(params.split("[:;,]"))
-                .filter(s -> s.matches("\\d+"))
-                .map(Integer::parseInt)
-                .collect(Collectors.toSet());
+        this.mainParams = new HashSet<>();
+        if (this.getTriggerConfig() != null && this.getTriggerConfig().getParamList() != null) {
+            for (String param : this.getTriggerConfig().getParamList()) {
+                if (param != null && !param.isEmpty()) {
+                    Arrays.stream(param.split("[:;,]"))
+                            .filter(s -> s.matches("\\d+"))
+                            .map(Integer::parseInt)
+                            .forEach(this.mainParams::add);
+                }
             }
         }
     }
