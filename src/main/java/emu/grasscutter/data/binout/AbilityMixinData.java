@@ -136,7 +136,7 @@ public class AbilityMixinData implements Serializable {
     public String stateID;
     public DynamicFloat defaultGlobalValueOnCreate = DynamicFloat.ZERO;
     public List<DynamicFloat> ratioSteps = new ArrayList<>();
-    public List<String> modifierNameSteps = new ArrayList<>();
+    public List<JsonElement> modifierNameSteps = new ArrayList<>();
     public boolean EJEMBMFPBKF = true;
     public boolean isCheckOnAttach = true;
     public boolean AMFABNCKJNG = true;
