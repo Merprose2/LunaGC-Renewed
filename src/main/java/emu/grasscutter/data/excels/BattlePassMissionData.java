@@ -33,9 +33,10 @@ public class BattlePassMissionData extends GameResource {
 
     public boolean isValidRefreshType() {
         return getRefreshType() == null
-                || getRefreshType()
-                        == BattlePassMissionRefreshType.BATTLE_PASS_MISSION_REFRESH_CYCLE_CROSS_SCHEDULE
-                || getScheduleId() == 2701;
+                || getRefreshType() == BattlePassMissionRefreshType.BATTLE_PASS_MISSION_REFRESH_CYCLE_CROSS_SCHEDULE
+                || this.getScheduleId() == 0
+                || this.getScheduleId() == 7000
+                || this.getScheduleId() == 7001;
     }
 
     @Override

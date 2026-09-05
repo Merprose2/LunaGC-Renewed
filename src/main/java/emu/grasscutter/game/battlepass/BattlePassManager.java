@@ -10,6 +10,8 @@ import emu.grasscutter.game.inventory.*;
 import emu.grasscutter.game.player.*;
 import emu.grasscutter.game.props.*;
 import emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle;
+import emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct;
+import emu.grasscutter.net.proto.BattlePassRewardPlanOptionOuterClass.BattlePassRewardPlanOption;
 import emu.grasscutter.net.proto.BattlePassRewardTakeOptionOuterClass.BattlePassRewardTakeOption;
 import emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule;
 import emu.grasscutter.net.proto.BattlePassUnlockStatusOuterClass.BattlePassUnlockStatus;
@@ -18,10 +20,13 @@ import java.time.*;
 import java.time.temporal.TemporalAdjusters;
 import java.util.*;
 import lombok.Getter;
+import lombok.Setter;
 import org.bson.types.ObjectId;
 
 @Entity(value = "battlepass", useDiscriminator = false)
 public class BattlePassManager extends BasePlayerDataManager {
+    public static final int CURRENT_SCHEDULE_ID = 7000;
+
     @Id @Getter private ObjectId id;
 
     @Indexed private int ownerUid;
@@ -29,8 +34,9 @@ public class BattlePassManager extends BasePlayerDataManager {
     @Getter private int cyclePoints; // Weekly maximum cap
     @Getter private int level;
 
-    @Getter private boolean viewed;
+    @Getter private boolean viewed = true;
     private boolean paid;
+    @Getter @Setter private int battlePassPlan = 4;
 
     private Map<Integer, BattlePassMission> missions;
     private Map<Integer, BattlePassReward> takenRewards;
@@ -87,10 +93,8 @@ public class BattlePassManager extends BasePlayerDataManager {
                 && this.getLevel() < GameConstants.BATTLE_PASS_MAX_LEVEL) {
             int levelups = Math.floorDiv(this.point, GameConstants.BATTLE_PASS_POINT_PER_LEVEL);
 
-            // Make sure player cant go above max BP level
             levelups = Math.min(levelups, GameConstants.BATTLE_PASS_MAX_LEVEL - levelups);
 
-            // Set new points after level up
             this.point = this.point - (levelups * GameConstants.BATTLE_PASS_POINT_PER_LEVEL);
             this.level += levelups;
         }
@@ -98,12 +102,20 @@ public class BattlePassManager extends BasePlayerDataManager {
 
     public Map<Integer, BattlePassMission> getMissions() {
         if (this.missions == null) this.missions = new HashMap<>();
+
+        // Ensure default missions are available when the list is empty
+        if (this.missions.isEmpty() && GameData.getBattlePassMissionDataMap() != null) {
+            for (BattlePassMissionData data : GameData.getBattlePassMissionDataMap().values()) {
+                if (data.isValidRefreshType()) {
+                    this.missions.put(data.getId(), new BattlePassMission(data.getId()));
+                }
+            }
+        }
         return this.missions;
     }
 
-    // Will return a new empty mission if the mission id is not found
     public BattlePassMission loadMissionById(int id) {
-        return getMissions().computeIfAbsent(id, i -> new BattlePassMission(i));
+        return getMissions().computeIfAbsent(id, BattlePassMission::new);
     }
 
     public boolean hasMission(int id) {
@@ -111,7 +123,6 @@ public class BattlePassManager extends BasePlayerDataManager {
     }
 
     public boolean isPaid() {
-        // ToDo: Change this when we actually support unlocking "paid" BP.
         return true;
     }
 
@@ -120,7 +131,6 @@ public class BattlePassManager extends BasePlayerDataManager {
         return this.takenRewards;
     }
 
-    // Mission triggers
     public void triggerMission(WatcherTriggerType triggerType) {
         getPlayer().getServer().getBattlePassSystem().triggerMission(getPlayer(), triggerType);
     }
@@ -132,9 +142,7 @@ public class BattlePassManager extends BasePlayerDataManager {
                 .triggerMission(getPlayer(), triggerType, param, progress);
     }
 
-    // Handlers
     public void takeMissionPoint(List<Integer> missionIdList) {
-        // Obvious exploit check
         if (missionIdList.size() > GameData.getBattlePassMissionDataMap().size()) {
             return;
         }
@@ -142,7 +150,6 @@ public class BattlePassManager extends BasePlayerDataManager {
         List<BattlePassMission> updatedMissions = new ArrayList<>(missionIdList.size());
 
         for (int id : missionIdList) {
-            // Skip if we dont have this mission
             if (!this.hasMission(id)) {
                 continue;
             }
@@ -154,20 +161,15 @@ public class BattlePassManager extends BasePlayerDataManager {
                 continue;
             }
 
-            // Take reward
             if (mission.getStatus() == BattlePassMissionStatus.MISSION_STATUS_FINISHED) {
                 this.addPointsDirectly(mission.getData().getAddPoint(), mission.getData().isCycleRefresh());
                 mission.setStatus(BattlePassMissionStatus.MISSION_STATUS_POINT_TAKEN);
-
                 updatedMissions.add(mission);
             }
         }
 
         if (!updatedMissions.isEmpty()) {
-            // Save to db
             this.save();
-
-            // Packet
             getPlayer().sendPacket(new PacketBattlePassMissionUpdateNotify(updatedMissions));
             getPlayer().sendPacket(new PacketBattlePassCurScheduleUpdateNotify(getPlayer()));
         }
@@ -175,30 +177,22 @@ public class BattlePassManager extends BasePlayerDataManager {
 
     private void takeRewardsFromSelectChest(
             ItemData rewardItemData, int index, ItemParamData entry, List<GameItem> rewardItems) {
-        // Sanity checks.
         if (rewardItemData.getItemUse().size() < 1) {
             return;
         }
 
-        // Get possible item choices.
         String[] choices = rewardItemData.getItemUse().get(0).getUseParam()[0].split(",");
         if (choices.length < index) {
             return;
         }
 
-        // Get data for the selected item.
-        // This depends on the type of chest.
         int chosenId = Integer.parseInt(choices[index - 1]);
 
-        // For ITEM_USE_ADD_SELECT_ITEM chests, we can directly add the item specified in the chest's
-        // data.
         if (rewardItemData.getItemUse().get(0).getUseOp() == ItemUseOp.ITEM_USE_ADD_SELECT_ITEM) {
             GameItem rewardItem =
                     new GameItem(GameData.getItemDataMap().get(chosenId), entry.getItemCount());
             rewardItems.add(rewardItem);
-        }
-        // For ITEM_USE_GRANT_SELECT_REWARD chests, we have to again look up reward data.
-        else if (rewardItemData.getItemUse().get(0).getUseOp()
+        } else if (rewardItemData.getItemUse().get(0).getUseOp()
                 == ItemUseOp.ITEM_USE_GRANT_SELECT_REWARD) {
             RewardData selectedReward = GameData.getRewardDataMap().get(chosenId);
 
@@ -216,22 +210,23 @@ public class BattlePassManager extends BasePlayerDataManager {
         List<BattlePassRewardTakeOption> rewardList = new ArrayList<>();
 
         for (BattlePassRewardTakeOption option : takeOptionList) {
-            // Duplicate check
             if (option.getTag().getRewardId() == 0
                     || getTakenRewards().containsKey(option.getTag().getRewardId())) {
                 continue;
             }
 
-            // Level check
             if (option.getTag().getLevel() > this.getLevel()) {
                 continue;
             }
 
             BattlePassRewardData rewardData =
                     GameData.getBattlePassRewardDataMap()
-                            .get(GameConstants.BATTLE_PASS_CURRENT_INDEX * 100 + option.getTag().getLevel());
+                            .get(CURRENT_SCHEDULE_ID * 100 + option.getTag().getLevel());
 
-            // Sanity check with excel data
+            if (rewardData == null) {
+                continue;
+            }
+
             if (rewardData.getFreeRewardIdList().contains(option.getTag().getRewardId())) {
                 rewardList.add(option);
             } else if (this.isPaid()
@@ -242,7 +237,6 @@ public class BattlePassManager extends BasePlayerDataManager {
             }
         }
 
-        // Get rewards
         List<GameItem> rewardItems = null;
 
         if (!rewardList.isEmpty()) {
@@ -252,28 +246,22 @@ public class BattlePassManager extends BasePlayerDataManager {
                 var tag = option.getTag();
                 int index = option.getOptionIdx();
 
-                // Make sure we have reward data.
                 RewardData reward = GameData.getRewardDataMap().get(tag.getRewardId());
                 if (reward == null) {
                     continue;
                 }
 
-                // Add reward items.
                 for (var entry : reward.getRewardItemList()) {
                     ItemData rewardItemData = GameData.getItemDataMap().get(entry.getItemId());
 
-                    // Some rewards are chests where the user can select the item they want.
                     if (rewardItemData.getMaterialType() == MaterialType.MATERIAL_SELECTABLE_CHEST) {
                         this.takeRewardsFromSelectChest(rewardItemData, index, entry, rewardItems);
-                    }
-                    // All other rewards directly give us the right item.
-                    else {
+                    } else {
                         GameItem rewardItem = new GameItem(rewardItemData, entry.getItemCount());
                         rewardItems.add(rewardItem);
                     }
                 }
 
-                // Construct the reward and set as taken.
                 BattlePassReward bpReward =
                         new BattlePassReward(
                                 tag.getLevel(),
@@ -282,10 +270,8 @@ public class BattlePassManager extends BasePlayerDataManager {
                 this.getTakenRewards().put(bpReward.getRewardId(), bpReward);
             }
 
-            // Save to db
             this.save();
 
-            // Add items and send battle pass schedule packet
             getPlayer().getInventory().addItems(rewardItems);
             getPlayer().sendPacket(new PacketBattlePassCurScheduleUpdateNotify(getPlayer()));
         }
@@ -347,8 +333,8 @@ public class BattlePassManager extends BasePlayerDataManager {
         this.getPlayer().sendPacket(new PacketBattlePassCurScheduleUpdateNotify(this.getPlayer()));
     }
 
-    //
     public BattlePassSchedule getScheduleProto() {
+        int now = (int) (System.currentTimeMillis() / 1000);
         var currentDate = LocalDate.now();
         var nextSundayDate =
                 (currentDate.getDayOfWeek() == DayOfWeek.SUNDAY)
@@ -363,22 +349,45 @@ public class BattlePassManager extends BasePlayerDataManager {
                         59,
                         59);
 
+        int cycleEnd = (int) nextSundayTime.atZone(ZoneId.systemDefault()).toEpochSecond();
+        int cycleBegin = cycleEnd - (7 * 86400);
+
+        // Product info required by 7.0 clients
+        BattlePassProduct productInfo = BattlePassProduct.newBuilder()
+                .setNormalProductId("ys_glb_bp_normal_tier10")
+                .setExtraProductId("ys_glb_bp_extra_tier20")
+                .setUpgradeProductId("ys_glb_bp_upgrade_tier12")
+                .setLJKGANJLFNJ("ysglbbpextradiscounttierbp15")
+                .setLGOGOFAFJBK("ysglbbpnormaldiscounttierbp5")
+                .build();
+
         BattlePassSchedule.Builder schedule =
                 BattlePassSchedule.newBuilder()
-                        .setScheduleId(2700)
+                        .setScheduleId(CURRENT_SCHEDULE_ID)
                         .setLevel(this.getLevel())
                         .setPoint(this.getPoint())
-                        .setBeginTime(0)
-                        .setEndTime(2059483200)
+                        .setBeginTime(now - (7 * 86400))
+                        .setEndTime(now + (35 * 86400))
+                        .setIsViewed(true)
+                        .setProductInfo(productInfo)
                         .setUnlockStatus(
                                 this.isPaid()
                                         ? BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID
                                         : BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FREE)
                         .setCurCycle(
                                 BattlePassCycle.newBuilder()
-                                        .setBeginTime(0)
-                                        .setEndTime((int) nextSundayTime.atZone(ZoneId.systemDefault()).toEpochSecond())
-                                        .setCycleIdx(3));
+                                        .setBeginTime(cycleBegin)
+                                        .setEndTime(cycleEnd)
+                                        .setCycleIdx(4));
+
+        // Version 7.0 / 5.0+ reward plan options (5 selectable category groups)
+        for (int i = 1; i <= 5; i++) {
+            schedule.addRewardPlanOptionList(
+                    BattlePassRewardPlanOption.newBuilder()
+                            .setBattlePassPlan(this.getBattlePassPlan())
+                            .setFBHFDJJIDBD(i)
+                            .build());
+        }
 
         for (BattlePassReward reward : getTakenRewards().values()) {
             schedule.addRewardTakenList(reward.toProto());
