@@ -17,7 +17,8 @@ public enum ActivityType {
     NEW_ACTIVITY_MUSIC_GAME(2202),
     NEW_ACTIVITY_PHOTO(2603),
     NEW_ACTIVITY_FUNGUS_FIGHTER(3201),
-    NEW_ACTIVITY_EFFIGY_CHALLENGE_V2(3203);
+    NEW_ACTIVITY_EFFIGY_CHALLENGE_V2(3203),
+    NEW_ACTIVITY_LEY_LINE_CHALLENGE(5701);
 
     private final int value;
     private static final Int2ObjectMap<ActivityType> map = new Int2ObjectOpenHashMap<>();

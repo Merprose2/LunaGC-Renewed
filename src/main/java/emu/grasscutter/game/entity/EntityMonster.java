@@ -317,6 +317,12 @@ public class EntityMonster extends GameEntity {
         var challenge = Optional.ofNullable(scene.getChallenge());
         var scriptManager = scene.getScriptManager();
 
+        // Stygian Onslaught wave tracking (only active while a Stygian battle runs)
+        var worldHost = scene.getWorld().getHost();
+        if (worldHost != null && worldHost.getStygianOnslaughtManager() != null) {
+            worldHost.getStygianOnslaughtManager().onMonsterDeath(this);
+        }
+
         Optional.ofNullable(this.getSpawnEntry()).ifPresent(scene.getDeadSpawnedEntities()::add);
 
         // first set the challenge data

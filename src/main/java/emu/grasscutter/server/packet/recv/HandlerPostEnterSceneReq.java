@@ -69,6 +69,14 @@ public class HandlerPostEnterSceneReq extends PacketHandler {
                 new PacketPostEnterSceneRsp(player));
 
         /*
+         * Stygian Onslaught: the arena gallery packets are pushed once the
+         * client finished loading (official sends them around PostEnterScene).
+         */
+        if (player.getStygianOnslaughtManager() != null) {
+            player.getStygianOnslaughtManager().onPostEnterScene();
+        }
+
+        /*
          * Important for persisted scene-tag terrain/platform states.
          */
         if (player.getSceneTags() != null

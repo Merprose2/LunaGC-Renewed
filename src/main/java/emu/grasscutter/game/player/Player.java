@@ -173,6 +173,8 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter private transient TalkManager talkManager;
     @Getter private transient InvestigationManager investigationManager;
     @Getter private transient FishingManager fishingManager;
+    @Getter private transient emu.grasscutter.game.stygian.StygianOnslaughtManager
+            stygianOnslaughtManager;
 
     @Getter @Setter private transient Position lastCheckedPosition = null;
 
@@ -309,6 +311,8 @@ public class Player implements PlayerHook, FieldFetch {
         this.investigationTargets = new HashMap<>();
         this.investigationManager = new InvestigationManager(this);
 	this.fishingManager = new FishingManager(this);
+        this.stygianOnslaughtManager =
+                new emu.grasscutter.game.stygian.StygianOnslaughtManager(this);
         setPhlogistonValue(100);
     }
 
@@ -1379,6 +1383,13 @@ public class Player implements PlayerHook, FieldFetch {
         if (this.getTeamManager() == null) {
             this.teamManager = new TeamManager(this);
         }
+        // Transient manager: Gson skips it when restoring a character, so re-create it for
+        // players saved before Stygian Onslaught existed. Without it the activity handler falls
+        // back to a generic ActivityInfo and the client shows the event page as closed.
+        if (this.getStygianOnslaughtManager() == null) {
+            this.stygianOnslaughtManager =
+                    new emu.grasscutter.game.stygian.StygianOnslaughtManager(this);
+        }
         if (this.getCodex() == null) {
             this.codex = new PlayerCodex(this);
         }
@@ -1553,6 +1564,12 @@ public class Player implements PlayerHook, FieldFetch {
         home.onOwnerLogin(this);
 
         this.activityManager = new ActivityManager(this);
+
+        // Official servers push the Stygian Onslaught challenge state during the login batch
+        // (_WeekActiveDetailUpdateNotify); the event panel uses it to show the mode as open.
+        if (this.stygianOnslaughtManager != null) {
+            this.stygianOnslaughtManager.sendWeekActiveDetailUpdate();
+        }
 
         // Official servers push the player's fishing data (last used rod) during the login batch.
         session.send(new PacketPlayerFishingDataNotify(this.getFishingManager().getLastFishRodId()));

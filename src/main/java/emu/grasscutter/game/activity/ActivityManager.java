@@ -189,10 +189,18 @@ public class ActivityManager extends BasePlayerManager {
     }
 
     public ActivityInfoOuterClass.ActivityInfo getInfoProtoByActivityId(int activityId) {
-        var activityHandler = activityConfigItemMap.get(activityId).getActivityHandler();
+        var configItem = activityConfigItemMap.get(activityId);
+        if (configItem == null || configItem.getActivityHandler() == null) {
+            return null; // activity not registered on this server
+        }
         var activityData = playerActivityDataMap.get(activityId);
 
-        return activityHandler.toProto(activityData, conditionExecutor);
+        return configItem.getActivityHandler().toProto(activityData, conditionExecutor);
+    }
+
+    /** All activity ids registered on this server (for the login GetActivityInfoRsp push). */
+    public Set<Integer> getAllActivityIds() {
+        return activityConfigItemMap.keySet();
     }
 
     public Optional<ActivityHandler> getActivityHandler(ActivityType type) {

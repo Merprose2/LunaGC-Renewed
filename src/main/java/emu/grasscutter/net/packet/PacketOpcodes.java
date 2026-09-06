@@ -835,7 +835,7 @@ public final class PacketOpcodes {
     public static final int ClearRoguelikeCurseNotify = 24728;
     public static final int ClientCollectorDataNotify = 5637;
     public static final int ClientHashDebugNotify = 2454;
-    public static final int ClientRemoveCombatEndModifierNotify = 25458;
+    public static final int GHNAMJJBBPI = 25458;
     public static final int ClientReportNotify = 5085;
     public static final int ClientSetGameTimeReq = 7024;
     public static final int ClientSetGameTimeRsp = 7501;
@@ -1397,7 +1397,7 @@ public final class PacketOpcodes {
     public static final int SelectEffigyChallengeConditionReq = 2545;
     public static final int SelectEffigyChallengeConditionRsp = 701;
     public static final int SelectRoguelikeDungeonCardRsp = 7652;
-    public static final int ServerCombatEndNotify = 5886;
+    public static final int ELMCOCOMCIC = 5886;
     public static final int ServerMessageNotify = 28851;
     public static final int ServerUpdateGlobalValueNotify = 2660;
     public static final int SetCodexPushtipsReadReq = 1418;
@@ -1683,6 +1683,23 @@ public final class PacketOpcodes {
     public static final int _GCGReplaySetFavoriteReq = 29978;
     public static final int _GCGReplaySetFavoriteRsp = 7497;
     public static final int _GalleryInitNotify = 5832;
+
+    // Stygian Onslaught (LeyLineChallenge, activity 5269) - 7.0
+    public static final int OGNHPDHDIMA = 298;
+    public static final int NPBENBBMDBH = 2211;
+    public static final int NJKJLDFNPMC = 7053;
+    public static final int DJBNNEIMEKG = 28579;
+    public static final int OBFLIEAJIMP = 6377;
+    public static final int GNLMAGJGKPF = 6226;
+    public static final int GCPDKENEPKO = 5444;
+    public static final int FJIIANKJOIH = 22946;
+    public static final int HBLFCPIECPP = 20438;
+    public static final int IBKMEGAJKAI = 20795;
+    public static final int DPDAJBFEKAC = 24439;
+    public static final int CAACHEGPEJD = 24451;
+    public static final int MIKMBPNBIIE = 1869;
+    public static final int ADMAHIPICMC = 4599;
+    public static final int DBFJKIEBAJJ = 3796;
     public static final int _GetActivityPreviewAvatarInfoReq = 2693;
     public static final int _GetActivityPreviewAvatarInfoRsp = 7942;
     public static final int _GetBeyondActivityInfoReq = 35735;
@@ -1852,7 +1869,7 @@ public final class PacketOpcodes {
     public static final int _UseTreasureKeyReq = 3273;
     public static final int _UseTreasureKeyRsp = 23501;
     public static final int _VehiclePhlogistonNotify = 4673;
-    public static final int _WeekActiveDetailUpdateNotify = 3977;
+    public static final int _WeekActiveDetailUpdateNotify = 3935;
     public static final int _WeekActiveGetRewardReq = 2620;
     public static final int _WeekActiveGetRewardRsp = 5084;
     public static final int _WeekActiveInteractNotify = 7193;

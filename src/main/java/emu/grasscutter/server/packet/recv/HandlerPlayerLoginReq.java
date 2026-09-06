@@ -48,5 +48,10 @@ public class HandlerPlayerLoginReq extends PacketHandler {
         }
 
         session.send(new PacketPlayerLoginRsp(session));
+
+        // The official server pushes the full activity list right after PlayerLoginRsp (sniff
+        // [142]); the 7.0 client never sends GetActivityInfoReq itself, so without this push it
+        // never receives activity detail data and shows event modes (Stygian Onslaught) closed.
+        session.send(new PacketGetActivityInfoRsp(player.getActivityManager()));
     }
 }

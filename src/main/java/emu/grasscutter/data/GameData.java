@@ -38,6 +38,10 @@ import emu.grasscutter.data.excels.trial.*;
 import emu.grasscutter.data.excels.weapon.WeaponCurveData;
 import emu.grasscutter.data.excels.weapon.WeaponLevelData;
 import emu.grasscutter.data.excels.weapon.WeaponPromoteData;
+import emu.grasscutter.data.excels.leyline.LeyLineChallengeConstData;
+import emu.grasscutter.data.excels.leyline.LeyLineChallengeData;
+import emu.grasscutter.data.excels.leyline.LeyLineDifficultyData;
+import emu.grasscutter.data.excels.leyline.LeyLineDungeonData;
 import emu.grasscutter.data.excels.world.WeatherData;
 import emu.grasscutter.data.excels.world.WorldAreaData;
 import emu.grasscutter.data.excels.world.WorldLevelData;
@@ -262,6 +266,20 @@ public final class GameData {
 
     @Getter
     private static final Int2ObjectMap<DungeonEntryData> dungeonEntryDataMap =
+            new Int2ObjectOpenHashMap<>();
+
+    // Stygian Onslaught (Ley Line Challenge)
+    @Getter
+    private static final Int2ObjectMap<LeyLineChallengeData> leyLineChallengeDataMap =
+            new Int2ObjectOpenHashMap<>();
+    @Getter
+    private static final Int2ObjectMap<LeyLineDifficultyData> leyLineDifficultyDataMap =
+            new Int2ObjectOpenHashMap<>();
+    @Getter
+    private static final Int2ObjectMap<LeyLineDungeonData> leyLineDungeonDataMap =
+            new Int2ObjectOpenHashMap<>();
+    @Getter
+    private static final Int2ObjectMap<LeyLineChallengeConstData> leyLineChallengeConstDataMap =
             new Int2ObjectOpenHashMap<>();
 
     @Getter
