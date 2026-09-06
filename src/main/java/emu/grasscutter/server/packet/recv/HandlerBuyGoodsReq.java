@@ -1,5 +1,6 @@
 package emu.grasscutter.server.packet.recv;
 
+import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.common.ItemParamData;
 import emu.grasscutter.game.inventory.GameItem;
 import emu.grasscutter.game.props.ActionReason;
@@ -39,6 +40,17 @@ public class HandlerBuyGoodsReq extends PacketHandler {
             }
             ShopInfo sg = sg2.get();
 
+            int itemId = sg.getGoodsItem().getId();
+            int itemCount = buyGoodsReq.getBuyCount() * sg.getGoodsItem().getCount();
+            var costumeData = GameData.getAvatarCostumeDataItemIdMap().get(itemId);
+
+            // Costume shop rewards are entitlement items, not normal inventory materials.
+            // Refuse a duplicate purchase before charging the player.
+            if (costumeData != null && player.getCostumeList().contains(costumeData.getId())) {
+                session.send(new PacketBuyGoodsRsp(Retcode.RET_SHOP_BATCH_BUY_COUNT_LIMIT));
+                continue;
+            }
+
             int currentTs = Utils.getCurrentSeconds();
             ShopLimit shopLimit = player.getGoodsLimit(sg.getGoodsId());
             int bought = 0;
@@ -66,12 +78,15 @@ public class HandlerBuyGoodsReq extends PacketHandler {
                 continue;
             }
 
+            if (costumeData != null) {
+                player.addCostume(costumeData.getId());
+            } else {
+                GameItem item = new GameItem(itemId, itemCount);
+                player.getInventory().addItem(item, ActionReason.Shop, true);
+            }
+
             player.addShopLimit(
                     sg.getGoodsId(), buyGoodsReq.getBuyCount(), ShopSystem.getShopNextRefreshTime(sg));
-            int itemId = sg.getGoodsItem().getId();
-            int itemCount = buyGoodsReq.getBuyCount() * sg.getGoodsItem().getCount();
-            GameItem item = new GameItem(itemId, itemCount);
-            player.getInventory().addItem(item, ActionReason.Shop, true);
             session.send(
                     new PacketBuyGoodsRsp(
                             buyGoodsReq.getShopType(),
