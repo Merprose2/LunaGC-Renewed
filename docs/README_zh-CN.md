@@ -15,7 +15,7 @@
 
 ## 主要要求
 
-- 获取 [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- 获取 [Java 25](https://www.oracle.com/java/technologies/javase/jdk25-archive-downloads.html)
 - 获取 [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 - 获取游戏版本REL5.0.0（如果你没有5.0.0客户端，可以在这里找到，包括音频文件）：
 
@@ -64,7 +64,7 @@
 
 **要求**：
 
-[Java Development Kit 17 | JDK](https://oracle.com/java/technologies/javase/jdk17-archive-downloads.html) 或更高版本
+[Java Development Kit 25 | JDK](https://oracle.com/java/technologies/javase/jdk25-archive-downloads.html) 或更高版本
 
 - **附注**：在某些系统上生成手册可能会失败。要禁用手册生成，请在gradlew jar命令后附加 -PskipHandbook=1。
 

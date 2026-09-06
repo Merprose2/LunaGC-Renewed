@@ -7,4 +7,10 @@
  * in the user manual at https://docs.gradle.org/5.6.3/userguide/multi_project_builds.html
  */
 
+plugins {
+    // Allows Gradle to automatically download JDK toolchains (e.g. Java 25)
+    // from Foojay's Disco API when no matching local JDK is found.
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
 rootProject.name = 'Grasscutter'

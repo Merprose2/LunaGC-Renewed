@@ -10,7 +10,7 @@ Features and functionality of the PS is not guaranteed, try it yourself to see w
 
 ## Main Requirements
 
-- Get [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- Get [Java 25](https://www.oracle.com/java/technologies/javase/jdk25-archive-downloads.html)
 - Get [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 - Get [NodeJS](https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi) (For handbook generation)
 - Make sure to install java and set the environment variables.
@@ -45,7 +45,7 @@ Features and functionality of the PS is not guaranteed, try it yourself to see w
 
 **Requirements**:
 
-[Java Development Kit 17 | JDK](https://oracle.com/java/technologies/javase/jdk17-archive-downloads.html) or higher
+[Java Development Kit 25 | JDK](https://oracle.com/java/technologies/javase/jdk25-archive-downloads.html) or higher
 
 - **Sidenote**: Handbook generation may fail on some systems. To disable handbook generation, append `-PskipHandbook=1` to the `gradlew jar` command.
 
