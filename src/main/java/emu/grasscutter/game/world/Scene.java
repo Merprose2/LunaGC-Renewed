@@ -1718,14 +1718,74 @@ public class Scene {
                 Grasscutter.getConfig().server.game.loadEntitiesForPlayerRange);
     }
 
-    public Set<Integer> getPlayerActiveGroups(Player player) {
+	private boolean isBaseOverworldGroup(SceneGroup group) {
+        if (group == null) {
+            return false;
+        }
 
+        // Never load registered replacement overrides by proximity (event overrides)
+        if (GameData.getGroupReplacements().containsKey(group.id)) {
+            return false;
+        }
+
+        // 1. OLD REGIONS (Mondstadt 1330..., Liyue 1331..., Inazuma 1332...):
+        // All original base groups have dynamic_load == false.
+        // Every dynamic_load group in these old regions is a past festival, event quest, or booth!
+        if (group.id < 133300000) {
+            return !group.dynamic_load;
+        }
+
+        // 2. NEW REGIONS (Sumeru 1333..., Fontaine 1334..., Chenyu Vale 1335..., Natlan 1336..., Snezhnaya...):
+        // Base overworld groups ARE dynamic_load = true.
+        // We only exclude past festival mini-games (type 2 & 5) and daily commissions (type 3).
+        int businessType = group.getBusinessType();
+        if (businessType == 2 || businessType == 3 || businessType == 5) {
+            return false;
+        }
+
+        return true;
+    }
+
+    public Set<Integer> getPlayerActiveGroups(Player player) {
         Position playerPosition = player.getPosition();
         Set<Integer> activeGroups = new HashSet<>();
-        for (int i = 0; i < 4; i++) {
-            Grid grid = getScriptManager().getGroupGrids().get(i);
 
-            activeGroups.addAll(grid.getNearbyGroups(i, playerPosition));
+        // 1. Query pre-cached spatial grids if available
+        var grids = getScriptManager().getGroupGrids();
+        if (grids != null) {
+            for (int i = 0; i < grids.size(); i++) {
+                Grid grid = grids.get(i);
+                if (grid != null) {
+                    activeGroups.addAll(grid.getNearbyGroups(i, playerPosition));
+                }
+            }
+        }
+
+        // 2. Query spatial RTree blocks around the player.
+        int range = Grasscutter.getConfig().server.game.loadEntitiesForPlayerRange;
+        var activeBlocks = this.getPlayerActiveBlocks(player);
+        if (activeBlocks != null) {
+            for (var block : activeBlocks) {
+                if (block.groups == null) {
+                    this.getScriptManager().loadBlockFromScript(block);
+                }
+                if (block.groups != null) {
+                    for (var group : block.groups.values()) {
+                        // IGNORE past events, event quests, and commission layers
+                        if (!isBaseOverworldGroup(group)) {
+                            continue;
+                        }
+
+                        if (group.pos != null && (group.pos.getX() != 0f || group.pos.getY() != 0f || group.pos.getZ() != 0f)) {
+                            if (distance2d(playerPosition, group.pos) <= range) {
+                                activeGroups.add(group.id);
+                            }
+                        } else {
+                            activeGroups.add(group.id);
+                        }
+                    }
+                }
+            }
         }
 
         return activeGroups;
@@ -1747,7 +1807,8 @@ public class Scene {
                         .collect(Collectors.toSet());
 
         for (var group : this.loadedGroups) {
-            if (!visible.contains(group.id) && !group.dynamic_load && !group.dontUnload)
+            boolean isProximityDynamic = group.dynamic_load && group.init_config != null && group.init_config.suite > 0;
+            if (!visible.contains(group.id) && (!group.dynamic_load || isProximityDynamic) && !group.dontUnload)
                 unloadGroup(scriptManager.getBlocks().get(group.block_id), group.id);
         }
 
@@ -1759,7 +1820,24 @@ public class Scene {
                                     for (var b : scriptManager.getBlocks().values()) {
                                         loadBlock(b);
                                         SceneGroup group = b.groups.getOrDefault(g, null);
-                                        if (group != null && !group.dynamic_load) return group;
+                                        if (group != null) {
+                                            // Reject any event, festival, or quest layer
+                                            if (!isBaseOverworldGroup(group)) {
+                                                return null;
+                                            }
+
+                                            if (!group.dynamic_load) {
+                                                return group;
+                                            }
+
+                                            if (!group.isLoaded()) {
+                                                group.load(this.getId());
+                                            }
+
+                                            if (group.init_config != null && group.init_config.suite > 0) {
+                                                return group;
+                                            }
+                                        }
                                     }
 
                                     return null;
