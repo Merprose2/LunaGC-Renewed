@@ -1686,19 +1686,20 @@ public class Scene {
 		}
 
 		var spawnGroup = entry.getGroup();
-
 		if (spawnGroup == null) {
 			return false;
 		}
 
-		var scriptBlocks = this.getScriptManager().getBlocks();
-
-		if (scriptBlocks == null) {
+		if (this.getEntityByConfigId(entry.getConfigId(), spawnGroup.getGroupId()) != null) {
 			return false;
 		}
 
-		var scriptBlock = scriptBlocks.get(spawnGroup.getBlockId());
+		var scriptBlocks = this.getScriptManager().getBlocks();
+		if (scriptBlocks == null) {
+			return true;
+		}
 
+		var scriptBlock = scriptBlocks.get(spawnGroup.getBlockId());
 		if (scriptBlock == null) {
 			return true;
 		}
@@ -1707,7 +1708,34 @@ public class Scene {
 			this.getScriptManager().loadBlockFromScript(scriptBlock);
 		}
 
-		return scriptBlock.groups == null || !scriptBlock.groups.containsKey(spawnGroup.getGroupId());
+		if (scriptBlock.groups == null || !scriptBlock.groups.containsKey(spawnGroup.getGroupId())) {
+			return true;
+		}
+
+		// For older regions (< 133300000), keep stock behavior so quest spawns are not blocked or duplicated
+		if (spawnGroup.getGroupId() < 133300000) {
+			return false;
+		}
+
+		// For newer regions (Fontaine, Natlan, Snezhnaya):
+		var group = scriptBlock.groups.get(spawnGroup.getGroupId());
+		if (group == null) {
+			return true;
+		}
+		if (!group.isLoaded()) {
+			group.load(this.getId());
+		}
+		if (group.getScript() == null || group.init_config == null) {
+			return true;
+		}
+		if (entry.getMonsterId() > 0 && (group.monsters == null || !group.monsters.containsKey(entry.getConfigId()))) {
+			return true;
+		}
+		if (entry.getGadgetId() > 0 && (group.gadgets == null || !group.gadgets.containsKey(entry.getConfigId()))) {
+			return true;
+		}
+
+		return !this.loadedGroups.contains(group);
 	}
 
     public List<SceneBlock> getPlayerActiveBlocks(Player player) {
@@ -1718,39 +1746,11 @@ public class Scene {
                 Grasscutter.getConfig().server.game.loadEntitiesForPlayerRange);
     }
 
-	private boolean isBaseOverworldGroup(SceneGroup group) {
-        if (group == null) {
-            return false;
-        }
-
-        // Never load registered replacement overrides by proximity (event overrides)
-        if (GameData.getGroupReplacements().containsKey(group.id)) {
-            return false;
-        }
-
-        // 1. OLD REGIONS (Mondstadt 1330..., Liyue 1331..., Inazuma 1332...):
-        // All original base groups have dynamic_load == false.
-        // Every dynamic_load group in these old regions is a past festival, event quest, or booth!
-        if (group.id < 133300000) {
-            return !group.dynamic_load;
-        }
-
-        // 2. NEW REGIONS (Sumeru 1333..., Fontaine 1334..., Chenyu Vale 1335..., Natlan 1336..., Snezhnaya...):
-        // Base overworld groups ARE dynamic_load = true.
-        // We only exclude past festival mini-games (type 2 & 5) and daily commissions (type 3).
-        int businessType = group.getBusinessType();
-        if (businessType == 2 || businessType == 3 || businessType == 5) {
-            return false;
-        }
-
-        return true;
-    }
-
     public Set<Integer> getPlayerActiveGroups(Player player) {
         Position playerPosition = player.getPosition();
         Set<Integer> activeGroups = new HashSet<>();
 
-        // 1. Query pre-cached spatial grids if available
+        // 1. Check pre-cached spatial grids
         var grids = getScriptManager().getGroupGrids();
         if (grids != null) {
             for (int i = 0; i < grids.size(); i++) {
@@ -1761,18 +1761,34 @@ public class Scene {
             }
         }
 
-        // 2. Query spatial RTree blocks around the player.
+        // 2. Query spatial RTree blocks ONLY for newer regions (Sumeru, Fontaine, Natlan, Snezhnaya).
+        // Older regions (Mondstadt, Liyue, Inazuma) already have their groups indexed in grids,
+        // and scanning them causes Archon Quest and past-event conflicts.
         int range = Grasscutter.getConfig().server.game.loadEntitiesForPlayerRange;
         var activeBlocks = this.getPlayerActiveBlocks(player);
         if (activeBlocks != null) {
             for (var block : activeBlocks) {
+                // Skip Mondstadt, Liyue, and Inazuma blocks (block ID < 3300)
+                if (block.id < 3300) {
+                    continue;
+                }
+
                 if (block.groups == null) {
                     this.getScriptManager().loadBlockFromScript(block);
                 }
                 if (block.groups != null) {
                     for (var group : block.groups.values()) {
-                        // IGNORE past events, event quests, and commission layers
-                        if (!isBaseOverworldGroup(group)) {
+                        // Skip older groups (group ID < 133300000)
+                        if (group.id < 133300000) {
+                            continue;
+                        }
+
+                        // Exclude replacement groups and festival mini-games in newer areas
+                        if (GameData.getGroupReplacements().containsKey(group.id)) {
+                            continue;
+                        }
+                        int bType = group.getBusinessType();
+                        if (bType == 2 || bType == 3 || bType == 5) {
                             continue;
                         }
 
@@ -1807,8 +1823,10 @@ public class Scene {
                         .collect(Collectors.toSet());
 
         for (var group : this.loadedGroups) {
-            boolean isProximityDynamic = group.dynamic_load && group.init_config != null && group.init_config.suite > 0;
-            if (!visible.contains(group.id) && (!group.dynamic_load || isProximityDynamic) && !group.dontUnload)
+            // CRITICAL: NEVER unload dynamic groups in older regions (< 133300000),
+            // because Archon Quests and Story Quests dynamically load those groups!
+            boolean isNewRegionDynamic = group.id >= 133300000 && group.dynamic_load && group.init_config != null && group.init_config.suite > 0;
+            if (!visible.contains(group.id) && (!group.dynamic_load || isNewRegionDynamic) && !group.dontUnload)
                 unloadGroup(scriptManager.getBlocks().get(group.block_id), group.id);
         }
 
@@ -1821,19 +1839,29 @@ public class Scene {
                                         loadBlock(b);
                                         SceneGroup group = b.groups.getOrDefault(g, null);
                                         if (group != null) {
-                                            // Reject any event, festival, or quest layer
-                                            if (!isBaseOverworldGroup(group)) {
+                                            // 1. OLD REGIONS (Mondstadt, Liyue, Inazuma):
+                                            // 100% original stock behavior! Only static groups load via proximity.
+                                            // Quests handle all dynamic groups, and past events never load.
+                                            if (group.id < 133300000) {
+                                                if (!group.dynamic_load) return group;
                                                 return null;
                                             }
 
+                                            // 2. NEW REGIONS (Sumeru, Fontaine, Natlan, Snezhnaya):
+                                            // Overworld groups are dynamic_load = true.
+                                            if (GameData.getGroupReplacements().containsKey(group.id)) {
+                                                return null;
+                                            }
+                                            int bType = group.getBusinessType();
+                                            if (bType == 2 || bType == 3 || bType == 5) {
+                                                return null;
+                                            }
                                             if (!group.dynamic_load) {
                                                 return group;
                                             }
-
                                             if (!group.isLoaded()) {
                                                 group.load(this.getId());
                                             }
-
                                             if (group.init_config != null && group.init_config.suite > 0) {
                                                 return group;
                                             }
