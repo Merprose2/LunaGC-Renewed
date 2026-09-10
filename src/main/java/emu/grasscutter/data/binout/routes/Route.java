@@ -1,5 +1,6 @@
 package emu.grasscutter.data.binout.routes;
 
+import com.google.gson.annotations.SerializedName;
 import emu.grasscutter.net.proto.RouteOuterClass;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -8,8 +9,10 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Route {
     private int localId;
+    @SerializedName(value = "_name", alternate = {"name"})
     private String name;
     private RouteType type = RouteType.Unknown;
+    @SerializedName(value = "_points", alternate = {"points"})
     private RoutePoint[] points;
     private float arriveRange; // optional
     private RotType rotType; // optional
