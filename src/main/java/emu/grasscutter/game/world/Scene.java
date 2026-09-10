@@ -1032,38 +1032,56 @@ public class Scene {
 
         var world = this.getWorld();
 		if (target instanceof EntityMonster monster
-				&& attacker != null
 				&& this.getSceneType() != SceneType.SCENE_DUNGEON
 				&& !this.isOceanidFallbackBody(monster)) {
-			boolean handled = false;
 
-			var legacyDrops = world.getServer().getDropSystemLegacy().getDropData();
+			// For regular monsters, require an attacker to trigger drops (prevents drops on
+			// script-kills of non-combat entities). For wildlife (ENV_ANIMAL), always attempt
+			// drops regardless of attacker — they may be killed via traps or scripts.
+			boolean isAnimal = monster.getMonsterData().getType() == MonsterType.MONSTER_ENV_ANIMAL;
+			boolean shouldDrop = attacker != null || isAnimal;
 
-			if (monster.getMetaMonster() == null
-					&& (monster.getSpawnEntry() != null || this.isIcewindFallbackMonster(monster))
-					&& legacyDrops.containsKey(monster.getMonsterData().getId())) {
-				world.getServer().getDropSystemLegacy().callDrop(monster);
-				handled = true;
-			}
+			if (shouldDrop) {
+				boolean handled = false;
 
-			if (!handled && !world.getServer().getDropSystem().handleMonsterDrop(monster)) {
-				if (monster.getMetaMonster() != null) {
-					Grasscutter.getLogger()
-							.debug(
-									"Can not solve monster drop: drop_id = {}, drop_tag = {}. Falling back to legacy drop system.",
-									monster.getMetaMonster().drop_id,
-									monster.getMetaMonster().drop_tag);
-				} else {
-					Grasscutter.getLogger()
-							.debug(
-									"Can not solve static monster drop: monster_id = {}, kill_drop_id = {}. Falling back to legacy drop system.",
-									monster.getMonsterData().getId(),
-									monster.getMonsterData().getKillDropId());
+				var legacyDrops = world.getServer().getDropSystemLegacy().getDropData();
+
+				if (monster.getMetaMonster() == null
+						&& (monster.getSpawnEntry() != null || this.isIcewindFallbackMonster(monster))
+						&& legacyDrops.containsKey(monster.getMonsterData().getId())) {
+					world.getServer().getDropSystemLegacy().callDrop(monster);
+					handled = true;
 				}
 
-				world.getServer().getDropSystemLegacy().callDrop(monster);
+				if (!handled && !world.getServer().getDropSystem().handleMonsterDrop(monster)) {
+					if (isAnimal) {
+						// Wildlife: onInteract already gives the gather item directly, so a missing
+						// drop table entry is expected for passive (one-hit, no HP bar) animals.
+						Grasscutter.getLogger()
+								.debug(
+										"No drop table entry for wildlife monster_id = {} (type={}), kill_drop_id = {}.",
+										monster.getMonsterData().getId(),
+										monster.getMonsterData().getType(),
+										monster.getMonsterData().getKillDropId());
+					} else if (monster.getMetaMonster() != null) {
+						Grasscutter.getLogger()
+								.debug(
+										"Can not solve monster drop: drop_id = {}, drop_tag = {}. Falling back to legacy drop system.",
+										monster.getMetaMonster().drop_id,
+										monster.getMetaMonster().drop_tag);
+						world.getServer().getDropSystemLegacy().callDrop(monster);
+					} else {
+						Grasscutter.getLogger()
+								.debug(
+										"Can not solve static monster drop: monster_id = {}, kill_drop_id = {}. Falling back to legacy drop system.",
+										monster.getMonsterData().getId(),
+										monster.getMonsterData().getKillDropId());
+						world.getServer().getDropSystemLegacy().callDrop(monster);
+					}
+				}
 			}
 		}
+
 
         if (target instanceof EntityGadget gadget) {
             if (gadget.getMetaGadget() != null) {

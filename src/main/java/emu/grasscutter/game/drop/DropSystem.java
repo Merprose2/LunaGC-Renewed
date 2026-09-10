@@ -181,6 +181,19 @@ public final class DropSystem extends BaseGameSystem {
 			dropId = monster.getMonsterData().getKillDropId();
 		}
 
+		// If the resolved drop ID points to an empty table (e.g. MonsterDrop.json maps to a
+		// stale entry with no items), fall back to the official killDropId from MonsterData.
+		if ((dropId <= 0 || isDropTableEmpty(dropId))) {
+			int killDropId = monster.getMonsterData().getKillDropId();
+			if (killDropId > 0 && !isDropTableEmpty(killDropId)) {
+				Grasscutter.getLogger().warn(
+					"[DropSystem] drop_tag/drop_id={} resolved to empty table for monster_id={}; "
+					+ "falling back to killDropId={}",
+					dropId, monster.getMonsterData().getId(), killDropId);
+				dropId = killDropId;
+			}
+		}
+
 		if (dropId <= 0) {
 			return false;
 		}
@@ -215,6 +228,23 @@ public final class DropSystem extends BaseGameSystem {
 			}
 		}
 		return true;
+	}
+
+	/**
+	 * Returns true if a drop table ID does not exist in either table, or exists but
+	 * has a null / empty dropVec — meaning it would produce zero items.
+	 */
+	private boolean isDropTableEmpty(int dropId) {
+		var local = dropTable.get(dropId);
+		if (local != null) {
+			return local.getDropVec() == null || local.getDropVec().isEmpty();
+		}
+		var server = serverDropTable.get(dropId);
+		if (server != null) {
+			// serverDropTable uses DropTableExcelConfigData whose dropVec is an array, not a List
+			return server.getDropVec() == null || server.getDropVec().length == 0;
+		}
+		return true; // not found in either table
 	}
 
     public boolean handleChestDrop(int chestDropId, int dropCount, GameEntity bornFrom) {
@@ -538,6 +568,11 @@ public final class DropSystem extends BaseGameSystem {
             for (int i = 0; i < count; i++) processDrop(dropData, 1, items);
             return;
         }
+
+        if (dropData.getDropVec() == null || dropData.getDropVec().isEmpty()) {
+            return;
+        }
+
         if (dropData.getRandomType() == 0) {
             int weightSum = 0;
             for (var i : dropData.getDropVec()) {
