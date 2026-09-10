@@ -35,13 +35,13 @@ public final class QuestManager extends BasePlayerManager {
 
     public static final ExecutorService eventExecutor =
             new ThreadPoolExecutor(
-                    4,
-                    4,
+                    Runtime.getRuntime().availableProcessors(),
+                    Math.max(8, Runtime.getRuntime().availableProcessors() * 2),
                     60,
                     TimeUnit.SECONDS,
-                    new LinkedBlockingDeque<>(1000),
+                    new LinkedBlockingDeque<>(4000),
                     FastThreadLocalThread::new,
-                    new ThreadPoolExecutor.AbortPolicy());
+                    new ThreadPoolExecutor.CallerRunsPolicy());
 
     public static long getQuestKey(int mainQuestId) {
         QuestEncryptionKey questEncryptionKey = GameData.getMainQuestEncryptionMap().get(mainQuestId);
@@ -224,42 +224,45 @@ public final class QuestManager extends BasePlayerManager {
 
     public void onLogin() {
         if (this.isQuestingEnabled()) {
-            this.enableQuests();
+            // If this is a brand new account with no quests, initialize the prologue
+            if (this.getMainQuests().isEmpty()) {
+                this.startMainQuest(351);
+            }
             this.sendGivingRecords();
         }
 
         List<GameMainQuest> activeQuests = getActiveMainQuests();
         List<GameQuest> activeSubs = new ArrayList<>(activeQuests.size());
         for (GameMainQuest quest : activeQuests) {
-			List<Position> rewindPos = quest.rewind();
+            List<Position> rewindPos = quest.rewind();
 
-			var activeQuest = quest.getActiveQuests();
+            var activeQuest = quest.getActiveQuests();
 
-			if (rewindPos != null) {
-				getPlayer().getPosition().set(rewindPos.get(0));
-				getPlayer().getRotation().set(rewindPos.get(1));
-			}
+            if (rewindPos != null) {
+                getPlayer().getPosition().set(rewindPos.get(0));
+                getPlayer().getRotation().set(rewindPos.get(1));
+            }
 
-			quest.checkProgress();
-		}
+            quest.checkProgress();
+        }
 
-		var brokenPlotQuest =
-				this.getQuestById(
-						BROKEN_HIDDEN_PLOT_QUEST_ID);
+        var brokenPlotQuest =
+                this.getQuestById(
+                        BROKEN_HIDDEN_PLOT_QUEST_ID);
 
-		if (brokenPlotQuest != null
-				&& brokenPlotQuest.getState()
-						== QuestState.QUEST_STATE_UNFINISHED) {
+        if (brokenPlotQuest != null
+                && brokenPlotQuest.getState()
+                        == QuestState.QUEST_STATE_UNFINISHED) {
 
-			Grasscutter.getLogger()
-					.warn(
-							"Auto-finishing broken hidden plot quest {} for uid {}",
-							BROKEN_HIDDEN_PLOT_QUEST_ID,
-							this.player.getUid());
+            Grasscutter.getLogger()
+                    .warn(
+                            "Auto-finishing broken hidden plot quest {} for uid {}",
+                            BROKEN_HIDDEN_PLOT_QUEST_ID,
+                            this.player.getUid());
 
-			brokenPlotQuest.finish();
-		}
-		
+            brokenPlotQuest.finish();
+        }
+        
         if (this.player.getActivityManager() != null)
             this.player.getActivityManager().triggerActivityConditions();
     }
@@ -312,19 +315,8 @@ public final class QuestManager extends BasePlayerManager {
     }
 
     public void enableQuests() {
-        GameData.getBeginCondQuestMap()
-                .keySet()
-                .forEach(
-                        x -> {
-                            if (x.contains("QUEST_COND_STATE_NOT_EQUAL"))
-                                this.triggerEvent(
-                                        QuestCond.QUEST_COND_STATE_NOT_EQUAL, null, Integer.parseInt(x.substring(26)));
-                            if (x.contains("QUEST_COND_STATE_EQUAL"))
-                                this.triggerEvent(
-                                        QuestCond.QUEST_COND_STATE_EQUAL, null, Integer.parseInt(x.substring(22)));
-                        });
-        this.triggerEvent(QuestCond.QUEST_COND_NONE, null, 0);
-        this.triggerEvent(QuestCond.QUEST_COND_PLAYER_LEVEL_EQUAL_GREATER, null, 1);
+        // Only trigger baseline conditions if needed, never iterate over the entire beginCondQuestMap
+        this.triggerEvent(QuestCond.QUEST_COND_PLAYER_LEVEL_EQUAL_GREATER, null, this.getPlayer().getLevel());
     }
 
     /**

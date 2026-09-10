@@ -32,7 +32,7 @@ public enum LogicType {
         }
 
         switch (logicType) {
-            case LOGIC_AND -> {
+            case LOGIC_NONE, LOGIC_AND -> {
                 return Arrays.stream(progress).allMatch(i -> i == 1);
             }
             case LOGIC_OR -> {
