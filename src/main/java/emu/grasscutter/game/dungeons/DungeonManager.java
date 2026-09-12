@@ -53,6 +53,17 @@ public final class DungeonManager {
             this.passConfigData = GameData.getDungeonPassConfigDataMap().get(dungeonData.getPassCond());
         }
         this.finishedConditions = new int[this.passConfigData.getConds().size()];
+        // Slots using DUNGEON_COND_NONE are unused padding entries in the excel data, not real
+        // requirements. Nothing ever fires an event to set them, so leaving them at 0 makes
+        // LogicType.calculate(LOGIC_NONE/LOGIC_AND, finishedConditions) permanently fail its
+        // allMatch() check even after every real condition has been met. Treat them as
+        // vacuously satisfied instead.
+        for (int i = 0; i < this.finishedConditions.length; i++) {
+            if (this.passConfigData.getConds().get(i).getCondType()
+                    == DungeonPassConditionType.DUNGEON_COND_NONE) {
+                this.finishedConditions[i] = 1;
+            }
+        }
     }
 
     public void triggerEvent(DungeonPassConditionType conditionType, int... params) {
