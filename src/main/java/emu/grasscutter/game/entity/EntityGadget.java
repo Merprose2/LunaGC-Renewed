@@ -204,13 +204,19 @@ public class EntityGadget extends EntityBaseGadget {
                 switch (this.getGadgetData().getType()) {
                     case GatherPoint -> new GadgetGatherPoint(this);
                     case GatherObject -> {
-                        // Ensure breakable gather objects have valid hit points
-                        if (this.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP) <= 0f) {
+                        var gatherObject = new GadgetGatherObject(this);
+                        // Only breakable gather objects (ore veins, etc.) need an HP bar -
+                        // plain click-to-gather gadgets (flowers, mushrooms...) must NOT get
+                        // fight properties, or the client will route them through the combat
+                        // "kill" flow, which drops a second, duplicate item on top of the one
+                        // already granted directly in GadgetGatherObject#onInteract().
+                        if (gatherObject.requiresBreaking()
+                                && this.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP) <= 0f) {
                             this.setFightProperty(FightProperty.FIGHT_PROP_BASE_HP, 50f);
                             this.setFightProperty(FightProperty.FIGHT_PROP_MAX_HP, 50f);
                             this.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP, 50f);
                         }
-                        yield new GadgetGatherObject(this);
+                        yield gatherObject;
                     }
                     case Worktop, SealGadget -> new GadgetWorktop(this);
                     case RewardStatue -> new GadgetRewardStatue(this);
@@ -261,8 +267,13 @@ public class EntityGadget extends EntityBaseGadget {
     public void onDeath(int killerId) {
         super.onDeath(killerId); // Invoke super class's onDeath() method.
 
-        // Trigger item drops for breakable ores / crates
-        if (this.getContent() instanceof GadgetGatherObject gatherObject) {
+        // Trigger item drops for breakable ores / crates only.
+        // NOTE: plain click-to-gather objects (flowers, mushrooms, etc.) already receive
+        // their item directly in GadgetGatherObject#onInteract(); calling dropItems() here
+        // unconditionally caused a *second*, physical item to spawn in the world for every
+        // gather interaction (duplicate/"floating" item bug).
+        if (this.getContent() instanceof GadgetGatherObject gatherObject
+                && gatherObject.requiresBreaking()) {
             Player killerPlayer = null;
             GameEntity killer = this.getScene().getEntityById(killerId);
             if (killer instanceof EntityAvatar avatar) {

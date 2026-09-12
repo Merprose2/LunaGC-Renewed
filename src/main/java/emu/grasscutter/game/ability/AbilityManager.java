@@ -1266,7 +1266,9 @@ public final class AbilityManager extends BasePlayerManager {
         var killState = AbilityMetaSetKilledState.parseFrom(invoke.getAbilityData());
         if (killState.getKilled()) {
             if (!(entity instanceof EntityAvatar) && !(entity instanceof EntityClientGadget)) {
-                if (entity instanceof EntityGadget targetGadget && targetGadget.getContent() instanceof emu.grasscutter.game.entity.gadget.GadgetGatherObject gatherObject) {
+                if (entity instanceof EntityGadget targetGadget
+                        && targetGadget.getContent() instanceof emu.grasscutter.game.entity.gadget.GadgetGatherObject gatherObject
+                        && gatherObject.requiresBreaking()) {
                     gatherObject.dropItems(this.getPlayer());
                 }
                 scene.killEntity(entity);
