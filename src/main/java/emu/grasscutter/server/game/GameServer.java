@@ -307,8 +307,19 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
     public synchronized void onTick() {
         var tickStart = Instant.now();
 
-        // Tick worlds and home worlds.
-        this.worlds.removeIf(World::onTick);
+        // Tick worlds and home worlds. The worlds collection is a synchronized set and its removeIf
+        // runs the predicate while holding that set's monitor, so take a snapshot first and tick the
+        // worlds outside the lock - a single world tick can be slow (scene ticks may read from disk),
+        // and anything else touching the world list would wait for it.
+        List<World> tickingWorlds;
+        synchronized (this.worlds) {
+            tickingWorlds = new ArrayList<>(this.worlds);
+        }
+        for (var world : tickingWorlds) {
+            if (world.onTick()) {
+                this.worlds.remove(world);
+            }
+        }
 
         // Tick players.
         this.players.values().forEach(Player::onTick);
@@ -391,7 +402,12 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
 
         // Save players & the world.
         this.getPlayers().forEach((uid, player) -> player.getSession().close());
-        this.getWorlds().forEach(World::save);
+
+        List<World> worldsToSave;
+        synchronized (this.worlds) {
+            worldsToSave = new ArrayList<>(this.worlds);
+        }
+        worldsToSave.forEach(World::save);
 
         Utils.sleep(1000L); // Wait 1 second for operations to finish.
         this.stop(); // Stop the server.

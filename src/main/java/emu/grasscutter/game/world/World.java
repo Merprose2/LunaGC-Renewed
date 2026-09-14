@@ -327,7 +327,11 @@ public class World implements Iterable<Player> {
     }
 
     public void save() {
-        this.getScenes().values().forEach(Scene::saveGroups);
+        // Snapshot the scenes first: saving them would otherwise run while the scenes map's monitor
+        // is held, for as long as the saves take.
+        var savingScenes = new ArrayList<Scene>(this.getScenes().size());
+        this.getScenes().forEach((k, scene) -> savingScenes.add(scene));
+        savingScenes.forEach(Scene::saveGroups);
     }
 
     public void queueTransferPlayerToScene(Player player, int sceneId, Position pos, int delayMs) {
@@ -560,12 +564,18 @@ public class World implements Iterable<Player> {
     public boolean onTick() {
         // Check if there are players in this world.
         if (this.getPlayerCount() == 0) return true;
+
+        // Collect the scenes before ticking them. The scenes map is a synchronized wrapper, and its
+        // forEach holds the map's monitor for the whole traversal. A scene tick can take a long time
+        // (it may read group data from disk), and every other user of this map - a login resolving
+        // its scene in getSceneById(), for instance - would be blocked behind the entire tick.
+        var tickingScenes = new ArrayList<Scene>(this.getScenes().size());
+        this.getScenes().forEach((k, scene) -> tickingScenes.add(scene));
+
         // Tick all associated scenes.
-        this.getScenes()
-                .forEach(
-                        (k, scene) -> {
-                            if (scene.getPlayerCount() > 0) scene.onTick();
-                        });
+        for (var tickingScene : tickingScenes) {
+            if (tickingScene.getPlayerCount() > 0) tickingScene.onTick();
+        }
 
         // sync time every 10 seconds
         if (this.tickCount % 10 == 0) {
@@ -641,7 +651,12 @@ public class World implements Iterable<Player> {
 
         this.isPaused = paused;
         this.getPlayers().forEach(player -> player.setPaused(paused));
-        this.getScenes().forEach((key, scene) -> scene.setPaused(paused));
+
+        // Same reasoning as onTick(): pause the snapshot instead of pausing scenes while the scenes
+        // map's monitor is held.
+        var pausingScenes = new ArrayList<Scene>(this.getScenes().size());
+        this.getScenes().forEach((key, scene) -> pausingScenes.add(scene));
+        pausingScenes.forEach(scene -> scene.setPaused(paused));
 
         // Notify players of the updated pause state and time
         this.updateTime();

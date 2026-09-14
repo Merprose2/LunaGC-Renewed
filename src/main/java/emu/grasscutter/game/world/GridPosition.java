@@ -103,10 +103,18 @@ public final class GridPosition implements Serializable {
 
     @Override
     public int hashCode() {
-        int result = x ^ (x >>> 32);
-        result = 31 * result + (z ^ (z >>> 32));
-        result = 31 * result + (width ^ (width >>> 32));
-        return result;
+        /*
+         * Spatial hash for grid cells.
+         *
+         * The previous 31-based mixing gave the same value to whole families of cells: with a grid
+         * width of 20 the cells (x, z) and (x + 20, z - 620) hash alike, and a scene has many such
+         * pairs. The grid maps are large (scene 3 has ~38k cells) and are read from the cached grid
+         * file, so every one of those collisions turned into a tree bin that has to be walked on
+         * each insert: reading cache/scene3_grid.json took ~28 seconds because of it, and the world
+         * tick that does that read blocked logins for as long as it ran. Three large primes spread
+         * the cells out instead and the same read now takes ~0.5 seconds.
+         */
+        return (x * 73856093) ^ (z * 19349663) ^ (width * 83492791);
     }
 
     @Override
