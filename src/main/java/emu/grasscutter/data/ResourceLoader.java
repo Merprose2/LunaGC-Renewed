@@ -29,6 +29,7 @@ import java.nio.file.*;
 import java.util.*;
 import java.util.Map.Entry;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Pattern;
 import java.util.stream.*;
 import javax.script.*;
@@ -36,29 +37,117 @@ import lombok.*;
 
 public final class ResourceLoader {
 
-    private static final Set<String> loadedResources = new CopyOnWriteArraySet<>();
+    /** Timings of the loading stages, used to report the slowest ones after loading finishes. */
+    private static final Map<String, Long> stageTimings = new ConcurrentHashMap<>();
+
+    /** Timings of the individual excel resources, used to spot slow files. */
+    private static final Map<String, Long> excelTimings = new ConcurrentHashMap<>();
 
     private static boolean loadedAll = false;
 
-    public static List<Class<?>> getResourceDefClasses() {
-        Set<?> classes = Grasscutter.reflector.getSubTypesOf(GameResource.class);
+    /**
+     * Pool used to load independent resource stages in parallel. Resource loading is mostly CPU
+     * bound (JSON parsing), so the pool is sized to the CPU core count.
+     */
+    private static final ExecutorService resourceExecutor =
+            Executors.newFixedThreadPool(
+                    Math.max(4, Runtime.getRuntime().availableProcessors()),
+                    newResourceThreadFactory());
 
-        List<Class<?>> classList = new ArrayList<>(classes.size());
-        classes.forEach(
-                o -> {
-                    Class<?> c = (Class<?>) o;
-                    if (c.getAnnotation(ResourceType.class) != null) {
-                        classList.add(c);
-                    }
-                });
+    /**
+     * The Lua engine (and {@link ScriptLoader#eval}) is not thread-safe - it shares global
+     * bindings - so every script based loader runs on this single dedicated thread. This still
+     * lets the script loaders overlap with all of the non-script loaders.
+     */
+    private static final ExecutorService luaExecutor =
+            Executors.newSingleThreadExecutor(newResourceThreadFactory());
 
-        classList.sort(
-                (a, b) ->
-                        b.getAnnotation(ResourceType.class).loadPriority().value()
-                                - a.getAnnotation(ResourceType.class).loadPriority().value());
+    private static final AtomicInteger resourceThreadCounter = new AtomicInteger();
 
-        return classList;
+    private static ThreadFactory newResourceThreadFactory() {
+        return task -> {
+            val thread =
+                    new Thread(task, "Resource Loader-" + resourceThreadCounter.incrementAndGet());
+            thread.setDaemon(true);
+            return thread;
+        };
     }
+
+    /** Wraps a loading stage so a failure logs an error instead of breaking the parallel load. */
+    private static Runnable safeStage(String name, Runnable task) {
+        return () -> {
+            long startTime = System.nanoTime();
+            try {
+                task.run();
+            } catch (Throwable t) {
+                Grasscutter.getLogger().error("Error while loading resources - stage: " + name, t);
+            }
+
+            long took = (System.nanoTime() - startTime) / 1_000_000;
+            stageTimings.put(name, took);
+            Grasscutter.getLogger().debug("Resource stage {} took {}ms", name, took);
+        };
+    }
+
+    /** Logs the slowest entries of a timing map - this makes bottlenecks easy to spot. */
+    private static void logSlowest(String label, Map<String, Long> timings, int limit) {
+        if (timings.isEmpty()) return;
+
+        val formatted =
+                timings.entrySet().stream()
+                        .sorted((a, b) -> Long.compare(b.getValue(), a.getValue()))
+                        .limit(limit)
+                        .map(entry -> entry.getKey() + "=" + entry.getValue() + "ms")
+                        .collect(Collectors.joining(", "));
+        Grasscutter.getLogger().info(label + " (top {}): {}", limit, formatted);
+    }
+
+    /** Runs a resource loading stage on the parallel loader pool. */
+    private static CompletableFuture<Void> runStage(String name, Runnable task) {
+        return CompletableFuture.runAsync(safeStage(name, task), resourceExecutor);
+    }
+
+    /** Runs a resource loading stage as soon as the given dependency stage has finished. */
+    private static CompletableFuture<Void> afterStage(
+            CompletableFuture<?> dependency, String name, Runnable task) {
+        return dependency.thenRun(safeStage(name, task));
+    }
+
+    /** Collects the entries of a directory into an ordered list of paths. */
+    private static List<Path> listDirectory(String folder, String glob) throws IOException {
+        try (val stream = Files.newDirectoryStream(getResourcePath(folder), glob)) {
+            return StreamSupport.stream(stream.spliterator(), false).toList();
+        }
+    }
+
+    /** A parser that turns one resource file into a value (or null to skip the file). */
+    @FunctionalInterface
+    private interface FileParser<R> {
+        R parse(Path path) throws Exception;
+    }
+
+    /**
+     * Parses the given files in parallel on the common ForkJoinPool. The returned list preserves
+     * the file order, so merging it serially afterwards is deterministic - this keeps every write
+     * to GameData's (non thread-safe) maps on the calling thread.
+     */
+    private static <R> List<R> parseFilesInParallel(List<Path> files, FileParser<R> parser) {
+        return files.stream()
+                .parallel()
+                .map(
+                        path -> {
+                            try {
+                                return parser.parse(path);
+                            } catch (Exception e) {
+                                Grasscutter.getLogger()
+                                        .error("Error parsing resource file " + path + ": ", e);
+                                return null;
+                            }
+                        })
+                .filter(Objects::nonNull)
+                .toList();
+    }
+
 
     private static List<Set<Class<?>>> getResourceDefClassesPrioritySets() {
         val classes = Grasscutter.reflector.getSubTypesOf(GameResource.class);
@@ -81,64 +170,116 @@ public final class ResourceLoader {
     @SneakyThrows
     public static void loadAll() {
         if (loadedAll) return;
+        long startTime = System.nanoTime();
         Grasscutter.getLogger().info(translate("messages.status.resources.loading"));
 
+        // The script engine must exist before any script based stage can run.
         ScriptLoader.init();
 
-        loadConfigData();
+        // ---- Independent stages: all of these are loaded at the same time. ----
+        val configData = runStage("ConfigData", ResourceLoader::loadConfigData);
+        val abilityEmbryos = runStage("AbilityEmbryos", ResourceLoader::loadAbilityEmbryos);
+        val talents = runStage("Talents", ResourceLoader::loadTalents);
+        val openConfig = runStage("OpenConfig", ResourceLoader::loadOpenConfig);
+        val abilityModifiers = runStage("AbilityModifiers", ResourceLoader::loadAbilityModifiers);
+        val excels = runStage("ExcelResources", ResourceLoader::loadResources);
+        val dungeonDrops = runStage("DungeonDrops", ResourceLoader::loadDungeonDropData);
+        val spawns = runStage("SpawnData", ResourceLoader::loadSpawnData);
+        val quests = runStage("Quests", ResourceLoader::loadQuests);
+        val scriptSceneData = runStage("ScriptSceneData", ResourceLoader::loadScriptSceneData);
+        val homeworldData =
+                runStage("HomeworldDefaultSaveData", ResourceLoader::loadHomeworldDefaultSaveData);
+        val npcBorn = runStage("NpcBornData", ResourceLoader::loadNpcBornData);
+        val routes = runStage("Routes", ResourceLoader::loadRoutes);
+        val blossom = runStage("BlossomResources", ResourceLoader::loadBlossomResources);
+        val levelEntity = runStage("ConfigLevelEntity", ResourceLoader::loadConfigLevelEntityData);
+        val gadgetMappings = runStage("GadgetMappings", ResourceLoader::loadGadgetMappings);
+        val subfieldMappings = runStage("SubfieldMappings", ResourceLoader::loadSubfieldMappings);
+        val monsterMappings = runStage("MonsterMappings", ResourceLoader::loadMonsterMappings);
+        val activityCondGroups =
+                runStage("ActivityCondGroups", ResourceLoader::loadActivityCondGroups);
+        val globalCombat = runStage("GlobalCombatConfig", ResourceLoader::loadGlobalCombatConfig);
 
-        loadAbilityEmbryos();
-        loadTalents();
-        loadOpenConfig();
-        loadAbilityModifiers();
-        mergeDynamicAbilitiesIntoEmbryos();
+        // ---- Script based stages: serialized onto the Lua thread, but running concurrently
+        //      with all of the file loaders above. ----
+        val scriptStage =
+                CompletableFuture.runAsync(
+                        () -> {
+                            loadQuestShareConfig();
+                            loadGroupReplacements();
+                            EntityControllerScriptManager.load();
+                        },
+                        luaExecutor);
 
-		loadResources(true);
+        // ---- Dependent stages: scheduled as soon as their inputs are ready. ----
+        val mergedEmbryos =
+                CompletableFuture.allOf(abilityEmbryos, abilityModifiers)
+                        .thenRun(
+                                safeStage(
+                                        "MergeDynamicAbilities",
+                                        ResourceLoader::mergeDynamicAbilitiesIntoEmbryos));
 
-		loadDungeonDropData();
-		buildAbilityTalentVarMaps();
+        val talentVarMaps =
+                CompletableFuture.allOf(excels, openConfig)
+                        .thenRun(
+                                safeStage(
+                                        "AbilityTalentVarMaps",
+                                        ResourceLoader::buildAbilityTalentVarMaps));
 
-        GameDepot.load();
+        // Scene points resolve daily dungeon lists from the excel data, so this
+        // stage waits for the excel resources.
+        val scenePoints = afterStage(excels, "ScenePoints", ResourceLoader::loadScenePoints);
+        val gameDepot = afterStage(excels, "GameDepot", GameDepot::load);
+        val talentLevels = afterStage(excels, "TalentLevelSets", ResourceLoader::cacheTalentLevelSets);
+        val activityConfig =
+                afterStage(excels, "ActivityConfig", ActivityManager::loadActivityConfigData);
+        val trialAvatars =
+                afterStage(excels, "TrialAvatarCustomData", ResourceLoader::loadTrialAvatarCustomData);
 
-        loadSpawnData();
-        loadQuests();
-        loadScriptSceneData();
+        // ---- Wait for every stage to finish before declaring the resources loaded. ----
+        CompletableFuture.allOf(
+                        configData,
+                        abilityEmbryos,
+                        talents,
+                        openConfig,
+                        abilityModifiers,
+                        excels,
+                        dungeonDrops,
+                        spawns,
+                        quests,
+                        scriptSceneData,
+                        homeworldData,
+                        npcBorn,
+                        routes,
+                        blossom,
+                        levelEntity,
+                        gadgetMappings,
+                        subfieldMappings,
+                        monsterMappings,
+                        activityCondGroups,
+                        globalCombat,
+                        scriptStage,
+                        mergedEmbryos,
+                        talentVarMaps,
+                        scenePoints,
+                        gameDepot,
+                        talentLevels,
+                        activityConfig,
+                        trialAvatars)
+                .join();
 
-        loadScenePoints();
-
-        loadHomeworldDefaultSaveData();
-        loadNpcBornData();
-        loadRoutes();
-        loadBlossomResources();
-        cacheTalentLevelSets();
-
-        ActivityManager.loadActivityConfigData();
-
-        loadConfigLevelEntityData();
-        loadQuestShareConfig();
-        loadGadgetMappings();
-        loadSubfieldMappings();
-        loadMonsterMappings();
-        loadActivityCondGroups();
-        loadGroupReplacements();
-        loadTrialAvatarCustomData();
-        loadGlobalCombatConfig();
-
-        EntityControllerScriptManager.load();
-
-        Grasscutter.getLogger().info(translate("messages.status.resources.finish"));
         loadedAll = true;
+
+        long endTime = System.nanoTime();
+        long ns = (endTime - startTime);
+        Grasscutter.getLogger()
+                .info(translate("messages.status.resources.finish") + " (" + ns / 1000000 + "ms)");
+        logSlowest("Slowest resource stages", stageTimings, 10);
     }
 
     public static void loadResources() {
-        loadResources(false);
-    }
-
-    public static void loadResources(boolean doReload) {
         long startTime = System.nanoTime();
-        val errors =
-                new ConcurrentLinkedQueue<
-                        Pair<String, Exception>>();
+        val errors = new ConcurrentLinkedQueue<Pair<String, Exception>>();
 
         getResourceDefClassesPrioritySets()
                 .forEach(
@@ -155,7 +296,7 @@ public final class ResourceLoader {
                                                 if (map == null) return;
 
                                                 try {
-                                                    loadFromResource(c, type, map, doReload);
+                                                    loadFromResource(c, type, map);
                                                 } catch (Exception e) {
                                                     errors.add(Pair.of(Arrays.toString(type.name()), e));
                                                 }
@@ -167,7 +308,9 @@ public final class ResourceLoader {
                                 .error("Error loading resource file: " + pair.left(), pair.right()));
         long endTime = System.nanoTime();
         long ns = (endTime - startTime);
-        Grasscutter.getLogger().debug("Loading resources took " + ns + "ns == " + ns / 1000000 + "ms");
+        Grasscutter.getLogger()
+                .debug("Loading resources took " + ns + "ns == " + ns / 1000000 + "ms");
+        logSlowest("Slowest excel resources", excelTimings, 8);
     }
 	
 	private static void loadDungeonDropData() {
@@ -197,15 +340,13 @@ public final class ResourceLoader {
 	}
 
     @SuppressWarnings("rawtypes")
-    protected static void loadFromResource(
-            Class<?> c, ResourceType type, Int2ObjectMap map, boolean doReload) throws Exception {
-        val simpleName = c.getSimpleName();
-        if (doReload || !loadedResources.contains(simpleName)) {
-            for (String name : type.name()) {
-                loadFromResource(c, FileUtils.getExcelPath(name), map);
-            }
-            loadedResources.add(simpleName);
+    protected static void loadFromResource(Class<?> c, ResourceType type, Int2ObjectMap map)
+            throws Exception {
+        long startTime = System.nanoTime();
+        for (String name : type.name()) {
+            loadFromResource(c, FileUtils.getExcelPath(name), map);
         }
+        excelTimings.put(c.getSimpleName(), (System.nanoTime() - startTime) / 1_000_000);
     }
 
     @SuppressWarnings({"rawtypes", "unchecked"})
@@ -213,7 +354,8 @@ public final class ResourceLoader {
             throws Exception {
         val results =
                 switch (FileUtils.getFileExtension(filename)) {
-                    case "json" -> JsonUtils.loadToList(filename, c);
+                    // Large excel files are parsed in parallel by splitting the JSON array.
+                    case "json" -> ParallelJsonArrayLoader.loadList(filename, c);
                     case "tsj" -> TsvUtils.loadTsjToListSetField(filename, c);
                     case "tsv" -> TsvUtils.loadTsvToListSetField(filename, c);
                     default -> null;
@@ -225,18 +367,6 @@ public final class ResourceLoader {
                     res.onLoad();
                     map.put(res.getId(), res);
                 });
-    }
-
-    @SuppressWarnings({"rawtypes", "unchecked"})
-    protected static <T> void loadFromResource(Class<T> c, String fileName, Int2ObjectMap map)
-            throws Exception {
-        JsonUtils.loadToList(getResourcePath("ExcelBinOutput/" + fileName), c)
-                .forEach(
-                        o -> {
-                            GameResource res = (GameResource) o;
-                            res.onLoad();
-                            map.put(res.getId(), res);
-                        });
     }
 
     private static void loadGlobalCombatConfig() {
@@ -253,68 +383,83 @@ public final class ResourceLoader {
 
     private static void loadScenePoints() {
         val pattern = Pattern.compile("scene([0-9]+)_point\\.json");
-        try (val stream =
-                Files.newDirectoryStream(getResourcePath("BinOutput/Scene/Point"), "scene*_point.json")) {
-            stream.forEach(
-                            path -> {
-                                val matcher = pattern.matcher(path.getFileName().toString());
-                                if (!matcher.find()) return;
-                                int sceneId = Integer.parseInt(matcher.group(1));
-
-                                ScenePointConfig config;
-                                try {
-                                    config = JsonUtils.loadToClass(path, ScenePointConfig.class);
-                                } catch (Exception e) {
-                                    e.printStackTrace();
-                                    return;
-                                }
-
-                                if (config.points == null) return;
-
-                                val scenePoints = new IntArrayList();
-                                config.points.forEach(
-                                        (pointId, pointData) -> {
-                                            val scenePoint = new ScenePointEntry(sceneId, pointData);
-                                            scenePoints.add((int) pointId);
-                                            pointData.setId(pointId);
-
-                                            GameData.getScenePointIdList().add((int) pointId);
-                                            GameData.getScenePointEntryMap().put((sceneId << 16) + pointId, scenePoint);
-
-                                            pointData.updateDailyDungeon();
-                                        });
-                                GameData.getScenePointsPerScene().put(sceneId, scenePoints);
-                            });
+        List<Path> files;
+        try {
+            files = listDirectory("BinOutput/Scene/Point", "scene*_point.json");
         } catch (IOException ignored) {
             Grasscutter.getLogger()
                     .error("Scene point files cannot be found, you cannot use teleport waypoints!");
+            return;
         }
+
+        // Parse the scene point files in parallel. This stage runs after the excel
+        // resources have loaded - updateDailyDungeon reads DailyDungeonConfigData.
+        val parsed =
+                parseFilesInParallel(
+                        files,
+                        path -> {
+                            val matcher = pattern.matcher(path.getFileName().toString());
+                            if (!matcher.find()) return null;
+
+                            ScenePointConfig config;
+                            try {
+                                config = JsonUtils.loadToClass(path, ScenePointConfig.class);
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                                return null;
+                            }
+
+                            if (config.points == null) return null;
+                            return Map.entry(Integer.parseInt(matcher.group(1)), config);
+                        });
+
+        // Merge serially - GameData's maps are not thread-safe.
+        parsed.forEach(
+                entry -> {
+                    int sceneId = entry.getKey();
+                    val config = entry.getValue();
+
+                    val scenePoints = new IntArrayList();
+                    config.points.forEach(
+                            (pointId, pointData) -> {
+                                val scenePoint = new ScenePointEntry(sceneId, pointData);
+                                scenePoints.add((int) pointId);
+                                pointData.setId(pointId);
+
+                                GameData.getScenePointIdList().add((int) pointId);
+                                GameData.getScenePointEntryMap().put((sceneId << 16) + pointId, scenePoint);
+
+                                pointData.updateDailyDungeon();
+                            });
+                    GameData.getScenePointsPerScene().put(sceneId, scenePoints);
+                });
     }
 
     private static void loadRoutes() {
-        try (val stream =
-                Files.newDirectoryStream(getResourcePath("BinOutput/LevelDesign/Routes/"), "*.json")) {
-            stream.forEach(
-                            path -> {
-                                try {
-                                    val data = JsonUtils.loadToClass(path, SceneRoutes.class);
-                                    val routesArray = data.getRoutes();
-                                    if (routesArray == null) return;
-                                    val routesMap =
-                                            GameData.getSceneRouteData()
-                                                    .getOrDefault(data.getSceneId(), new Int2ObjectOpenHashMap<>());
-                                    for (Route route : routesArray) {
-                                        routesMap.put(route.getLocalId(), route);
-                                    }
-                                    GameData.getSceneRouteData().put(data.getSceneId(), routesMap);
-                                } catch (IOException ignored) {
-                                }
-                            });
-            Grasscutter.getLogger()
-                    .debug("Loaded " + GameData.getSceneNpcBornData().size() + " SceneRouteDatas.");
+        List<Path> files;
+        try {
+            files = listDirectory("BinOutput/LevelDesign/Routes/", "*.json");
         } catch (IOException e) {
             Grasscutter.getLogger().error("Failed to load SceneRouteData folder.");
+            return;
         }
+
+        val parsed = parseFilesInParallel(files, path -> JsonUtils.loadToClass(path, SceneRoutes.class));
+        // Merge serially - multiple files can contribute routes to the same scene.
+        parsed.forEach(
+                data -> {
+                    val routesArray = data.getRoutes();
+                    if (routesArray == null) return;
+                    val routesMap =
+                            GameData.getSceneRouteData()
+                                    .getOrDefault(data.getSceneId(), new Int2ObjectOpenHashMap<>());
+                    for (Route route : routesArray) {
+                        routesMap.put(route.getLocalId(), route);
+                    }
+                    GameData.getSceneRouteData().put(data.getSceneId(), routesMap);
+                });
+        Grasscutter.getLogger()
+                .debug("Loaded " + GameData.getSceneRouteData().size() + " SceneRouteDatas.");
     }
 
     private static void cacheTalentLevelSets() {
@@ -354,33 +499,37 @@ public final class ResourceLoader {
 
             var pattern = Pattern.compile("ConfigAvatar_(.+?)\\.json");
 
-            var entries = new ArrayList<AbilityEmbryoEntry>();
-            try (var stream =
-                    Files.newDirectoryStream(getResourcePath("BinOutput/Avatar/"), "ConfigAvatar_*.json")) {
+            List<AbilityEmbryoEntry> entries;
+            try {
+                val files = listDirectory("BinOutput/Avatar/", "ConfigAvatar_*.json");
+                entries =
+                        parseFilesInParallel(
+                                files,
+                                path -> {
+                                    var matcher = pattern.matcher(path.getFileName().toString());
+                                    if (!matcher.find()) return null;
 
-                stream.forEach(
-                        path -> {
-                            var matcher = pattern.matcher(path.getFileName().toString());
-                            if (!matcher.find()) return;
+                                    AvatarConfig config;
+                                    try {
+                                        config = JsonUtils.loadToClass(path, AvatarConfig.class);
+                                    } catch (Exception e) {
+                                        Grasscutter.getLogger()
+                                                .error("Error loading player ability embryos:", e);
+                                        return null;
+                                    }
 
-                            var avatarName = matcher.group(1);
-                            AvatarConfig config;
-                            try {
-                                config = JsonUtils.loadToClass(path, AvatarConfig.class);
-                            } catch (Exception e) {
-                                Grasscutter.getLogger().error("Error loading player ability embryos:", e);
-                                return;
-                            }
+                                    if (config.abilities == null) return null;
 
-                            if (config.abilities == null) return;
-
-                            entries.add(
-                                    new AbilityEmbryoEntry(
-                                            avatarName,
+                                    return new AbilityEmbryoEntry(
+                                            matcher.group(1),
                                             config.abilities.stream()
                                                     .map(Object::toString)
-                                                    .toArray(size -> new String[config.abilities.size()])));
-                        });
+                                                    .toArray(
+                                                            size ->
+                                                                    new String[config
+                                                                            .abilities
+                                                                            .size()]));
+                                });
             } catch (IOException e) {
                 Grasscutter.getLogger().error("Error loading ability embryos: no files found");
                 return;
@@ -425,30 +574,41 @@ public final class ResourceLoader {
     }
 
     private static void loadAbilityModifiers() {
-
+        List<Path> files;
         try (Stream<Path> paths = Files.walk(getResourcePath("BinOutput/Ability/Temp/"))) {
-            paths
-                    .filter(Files::isRegularFile)
-                    .filter(path -> path.toString().endsWith(".json"))
-                    .forEach(ResourceLoader::loadAbilityModifiers);
+            files =
+                    paths.filter(Files::isRegularFile)
+                            .filter(path -> path.toString().endsWith(".json"))
+                            .toList();
         } catch (IOException e) {
             Grasscutter.getLogger().error("Error loading ability modifiers: ", e);
+            return;
         }
 
+        // Parse the (thousands of) files in parallel, then merge the results into
+        // GameData's maps serially to keep the writes on a single thread.
+        val parsed = parseFilesInParallel(files, ResourceLoader::parseAbilityModifiers);
+        parsed.forEach(list -> list.forEach(ResourceLoader::loadAbilityData));
     }
 
-    private static void loadAbilityModifiers(Path path) {
+    /** Parses one ability modifier file without touching any shared state. */
+    private static List<AbilityData> parseAbilityModifiers(Path path) {
         try {
-            JsonUtils.loadToList(path, AbilityConfigData.class)
-                    .forEach(data -> {
-                        if (data.Default != null) {
-                            data.Default.isDynamicAbility = data.Default.isDynamicAbility || data.isDynamicAbility;
-                            loadAbilityData(data.Default);
-                        }
-                    });
-        } catch (IOException e) {
+            val dataList = JsonUtils.loadToList(path, AbilityConfigData.class);
+            if (dataList == null) return List.of();
+
+            return dataList.stream()
+                    .filter(data -> data.Default != null)
+                    .peek(
+                            data ->
+                                    data.Default.isDynamicAbility =
+                                            data.Default.isDynamicAbility || data.isDynamicAbility)
+                    .map(data -> data.Default)
+                    .toList();
+        } catch (Exception e) {
             Grasscutter.getLogger()
                     .error("Error loading ability modifiers from path " + path.toString() + ": ", e);
+            return List.of();
         }
     }
 
@@ -513,36 +673,31 @@ public final class ResourceLoader {
     }
 
     private static void loadTalents() {
-
+        List<Path> files;
         try (var paths = Files.walk(getResourcePath("BinOutput/Talent/AvatarTalents/"))) {
-            paths
-                    .filter(Files::isDirectory)
-                    .forEach(
-                            (folderPath) -> {
-                                try (var paths2 = Files.walk(folderPath)) {
-                                    paths2
-                                            .filter(Files::isRegularFile)
-                                            .filter(path -> path.toString().endsWith(".json"))
-                                            .forEach(ResourceLoader::loadTalent);
-                                } catch (IOException e) {
-                                    Grasscutter.getLogger().error("Error loading talents: ", e);
-                                }
-                            });
+            files =
+                    paths.filter(Files::isRegularFile)
+                            .filter(path -> path.toString().endsWith(".json"))
+                            .toList();
         } catch (IOException e) {
             Grasscutter.getLogger().error("Error loading talents: ", e);
+            return;
         }
-    }
 
-    private static void loadTalent(Path path) {
-        try {
-            GameData.getTalents()
-                    .putAll(
-                            JsonUtils.loadToMap(
-                                    path, String.class, new TypeToken<List<TalentData>>() {}.getType()));
-        } catch (IOException e) {
-            Grasscutter.getLogger()
-                    .error("Error loading ability modifiers from path " + path.toString() + ": ", e);
-        }
+        // Parse the files in parallel, then merge the results serially - the
+        // talents map is not thread-safe.
+        val parsed =
+                parseFilesInParallel(
+                        files,
+                        path -> {
+                            Map<String, List<TalentData>> talents =
+                                    JsonUtils.loadToMap(
+                                            path,
+                                            String.class,
+                                            new TypeToken<List<TalentData>>() {}.getType());
+                            return talents;
+                        });
+        parsed.forEach(talents -> GameData.getTalents().putAll(talents));
     }
 
 	private static void loadSpawnData() {
@@ -625,16 +780,17 @@ public final class ResourceLoader {
             };
 
             for (String folderName : folderNames) {
-                try (val stream = Files.newDirectoryStream(getResourcePath(folderName), "*.json")) {
-                    stream.forEach(
-                                    path -> {
-                                        try {
-                                            JsonUtils.loadToMap(path, String.class, OpenConfigData[].class)
-                                                    .forEach((name, data) -> map.put(name, new OpenConfigEntry(name, data)));
-                                        } catch (Exception e) {
-                                            e.printStackTrace();
-                                        }
-                                    });
+                try {
+                    val files = listDirectory(folderName, "*.json");
+                    // Parse in parallel; merge in file order so duplicate names keep
+                    // the same precedence as a serial load.
+                    val parsed =
+                            parseFilesInParallel(
+                                    files, path -> JsonUtils.loadToMap(path, String.class, OpenConfigData[].class));
+                    parsed.forEach(
+                            entries ->
+                                    entries.forEach(
+                                            (name, data) -> map.put(name, new OpenConfigEntry(name, data))));
                 } catch (IOException e) {
                     Grasscutter.getLogger()
                             .error("Error loading open config: no files found in " + folderName);
@@ -656,21 +812,22 @@ public final class ResourceLoader {
     }
 
     private static void loadQuests() {
-        try (var files = Files.list(getResourcePath("BinOutput/Quest/"))) {
-            files.forEach(
-                    path -> {
-                        try {
-                            val mainQuest = JsonUtils.loadToClass(path, MainQuestData.class);
-                            GameData.getMainQuestDataMap().put(mainQuest.getId(), mainQuest);
-
-                            mainQuest.onLoad();
-                        } catch (IOException ignored) {
-                        }
-                    });
+        List<Path> files;
+        try (var stream = Files.list(getResourcePath("BinOutput/Quest/"))) {
+            files = stream.toList();
         } catch (IOException e) {
             Grasscutter.getLogger().error("Quest data missing");
             return;
         }
+
+        // Parse the quest files in parallel, then merge the results serially - the
+        // main quest map is not thread-safe.
+        val parsed = parseFilesInParallel(files, path -> JsonUtils.loadToClass(path, MainQuestData.class));
+        parsed.forEach(
+                mainQuest -> {
+                    GameData.getMainQuestDataMap().put(mainQuest.getId(), mainQuest);
+                    mainQuest.onLoad();
+                });
 
         try {
             val questEncryptionMap = GameData.getMainQuestEncryptionMap();
@@ -697,75 +854,95 @@ public final class ResourceLoader {
     }
 
     public static void loadScriptSceneData() {
+        List<Path> files;
         try (val stream = Files.list(getResourcePath("ScriptSceneData/"))) {
-            stream.forEach(
-                            path -> {
-                                try {
-                                    GameData.getScriptSceneDataMap()
-                                            .put(
-                                                    path.getFileName().toString(),
-                                                    JsonUtils.loadToClass(path, ScriptSceneData.class));
-                                } catch (IOException e) {
-                                    e.printStackTrace();
-                                }
-                            });
-            Grasscutter.getLogger()
-                    .debug("Loaded " + GameData.getScriptSceneDataMap().size() + " ScriptSceneDatas.");
+            files = stream.toList();
         } catch (IOException e) {
             Grasscutter.getLogger().debug("ScriptSceneData folder missing or empty.");
+            return;
         }
+
+        val parsed =
+                parseFilesInParallel(
+                        files,
+                        path -> {
+                            val data = JsonUtils.loadToClass(path, ScriptSceneData.class);
+                            if (data == null) return null;
+                            return Map.entry(path.getFileName().toString(), data);
+                        });
+        parsed.forEach(
+                entry -> GameData.getScriptSceneDataMap().put(entry.getKey(), entry.getValue()));
+        Grasscutter.getLogger()
+                .debug("Loaded " + GameData.getScriptSceneDataMap().size() + " ScriptSceneDatas.");
     }
 
     private static void loadHomeworldDefaultSaveData() {
         val pattern = Pattern.compile("scene([0-9]+)_home_config\\.json");
-        try (val stream =
-                Files.newDirectoryStream(
-                        getResourcePath("BinOutput/HomeworldDefaultSave"), "scene*_home_config.json")) {
-            stream.forEach(
-                            path -> {
-                                val matcher = pattern.matcher(path.getFileName().toString());
-                                if (!matcher.find()) return;
-
-                                try {
-                                    val sceneId = Integer.parseInt(matcher.group(1));
-                                    val data = JsonUtils.loadToClass(path, HomeworldDefaultSaveData.class);
-                                    GameData.getHomeworldDefaultSaveData().put(sceneId, data);
-                                } catch (Exception ignored) {
-                                }
-                            });
-            Grasscutter.getLogger()
-                    .debug(
-                            "Loaded "
-                                    + GameData.getHomeworldDefaultSaveData().size()
-                                    + " HomeworldDefaultSaveDatas.");
+        List<Path> files;
+        try {
+            files = listDirectory("BinOutput/HomeworldDefaultSave", "scene*_home_config.json");
         } catch (IOException e) {
             Grasscutter.getLogger().error("Failed to load HomeworldDefaultSave folder.");
+            return;
         }
+
+        val parsed =
+                parseFilesInParallel(
+                        files,
+                        path -> {
+                            val matcher = pattern.matcher(path.getFileName().toString());
+                            if (!matcher.find()) return null;
+
+                            try {
+                                val sceneId = Integer.parseInt(matcher.group(1));
+                                val data = JsonUtils.loadToClass(path, HomeworldDefaultSaveData.class);
+                                if (data == null) return null;
+                                return Map.entry(sceneId, data);
+                            } catch (Exception ignored) {
+                                return null;
+                            }
+                        });
+        parsed.forEach(
+                entry -> GameData.getHomeworldDefaultSaveData().put(entry.getKey(), entry.getValue()));
+        Grasscutter.getLogger()
+                .debug(
+                        "Loaded "
+                                + GameData.getHomeworldDefaultSaveData().size()
+                                + " HomeworldDefaultSaveDatas.");
     }
 
     private static void loadNpcBornData() {
-        try (val stream =
-                Files.newDirectoryStream(getResourcePath("BinOutput/Scene/SceneNpcBorn/"), "*.json")) {
-            stream.forEach(
-                            path -> {
-                                try {
-                                    val data = JsonUtils.loadToClass(path, SceneNpcBornData.class);
-                                    if (data.getBornPosList() == null || data.getBornPosList().size() == 0) {
-                                        return;
-                                    }
-
-                                    data.setIndex(
-                                            SceneIndexManager.buildIndex(
-                                                    3, data.getBornPosList(), item -> item.getPos().toPoint()));
-                                    GameData.getSceneNpcBornData().put(data.getSceneId(), data);
-                                } catch (IOException ignored) {
-                                }
-                            });
-            Grasscutter.getLogger()
-                    .debug("Loaded " + GameData.getSceneNpcBornData().size() + " SceneNpcBornDatas.");
+        List<Path> files;
+        try {
+            files = listDirectory("BinOutput/Scene/SceneNpcBorn/", "*.json");
         } catch (IOException e) {
             Grasscutter.getLogger().error("Failed to load SceneNpcBorn folder.");
+            return;
         }
+
+        // Parsing includes building a spatial index per file, which makes this a
+        // good candidate for parallelism.
+        val parsed =
+                parseFilesInParallel(
+                        files,
+                        path -> {
+                            try {
+                                val data = JsonUtils.loadToClass(path, SceneNpcBornData.class);
+                                if (data.getBornPosList() == null || data.getBornPosList().size() == 0) {
+                                    return null;
+                                }
+
+                                data.setIndex(
+                                        SceneIndexManager.buildIndex(
+                                                3, data.getBornPosList(), item -> item.getPos().toPoint()));
+                                return data;
+                            } catch (IOException ignored) {
+                                return null;
+                            }
+                        });
+        parsed.forEach(data -> GameData.getSceneNpcBornData().put(data.getSceneId(), data));
+        Grasscutter.getLogger()
+                .debug("Loaded " + GameData.getSceneNpcBornData().size() + " SceneNpcBornDatas.");
     }
 
     private static void loadConfigData() {
@@ -779,44 +956,47 @@ public final class ResourceLoader {
     private static <T extends ConfigEntityBase> void loadConfigData(
             Map<String, T> targetMap, String folderPath, Class<T> configClass) {
         val className = configClass.getName();
-        try (val stream = Files.newDirectoryStream(getResourcePath(folderPath), "*.json")) {
-            stream.forEach(
-                    path -> {
-                        try {
-                            val name = path.getFileName().toString().replace(".json", "");
-                            targetMap.put(name, JsonUtils.loadToClass(path, configClass));
-                        } catch (Exception e) {
-                            Grasscutter.getLogger()
-                                    .error("failed to load {} entries for {}", className, path.toString(), e);
-                        }
-                    });
-
-            Grasscutter.getLogger()
-                    .debug("Loaded {} {} entries.", GameData.getMonsterConfigData().size(), className);
+        List<Path> files;
+        try {
+            files = listDirectory(folderPath, "*.json");
         } catch (IOException e) {
             Grasscutter.getLogger().error("Failed to load {} folder.", className);
+            return;
         }
+
+        // Parse the files in parallel, then merge the results serially - the target
+        // map is not thread-safe.
+        val parsed =
+                parseFilesInParallel(
+                        files,
+                        path -> {
+                            val name = path.getFileName().toString().replace(".json", "");
+                            return new AbstractMap.SimpleEntry<>(
+                                    name, JsonUtils.loadToClass(path, configClass));
+                        });
+        parsed.forEach(entry -> targetMap.put(entry.getKey(), entry.getValue()));
+
+        Grasscutter.getLogger().debug("Loaded {} {} entries.", targetMap.size(), className);
     }
 
     private static <T extends ConfigEntityBase> void loadConfigDataMap(
             Map<String, T> targetMap, String folderPath, Class<T> configClass) {
         val className = configClass.getName();
-        try (val stream = Files.newDirectoryStream(getResourcePath(folderPath), "*.json")) {
-            stream.forEach(
-                    path -> {
-                        try {
-                            targetMap.putAll(JsonUtils.loadToMap(path, String.class, configClass));
-                        } catch (Exception e) {
-                            Grasscutter.getLogger()
-                                    .error("failed to load {} entries for {}", className, path.toString(), e);
-                        }
-                    });
-
-            Grasscutter.getLogger()
-                    .debug("Loaded {} {} entries.", GameData.getMonsterConfigData().size(), className);
+        List<Path> files;
+        try {
+            files = listDirectory(folderPath, "*.json");
         } catch (IOException e) {
             Grasscutter.getLogger().error("Failed to load {} folder.", className);
+            return;
         }
+
+        // Parse the files in parallel, then merge the results serially - the target
+        // map is not thread-safe.
+        val parsed =
+                parseFilesInParallel(files, path -> JsonUtils.loadToMap(path, String.class, configClass));
+        parsed.forEach(targetMap::putAll);
+
+        Grasscutter.getLogger().debug("Loaded {} {} entries.", targetMap.size(), className);
     }
 
     private static void loadBlossomResources() {
@@ -829,35 +1009,33 @@ public final class ResourceLoader {
     }
 
     private static void loadConfigLevelEntityData() {
-
         val pattern = Pattern.compile("ConfigLevelEntity_(.+?)\\.json");
-
+        List<Path> files;
         try {
-            try (var stream =
-                    Files.newDirectoryStream(
-                            getResourcePath("BinOutput/LevelEntity/"), "ConfigLevelEntity_*.json")) {
-            stream.forEach(
-                    path -> {
-                        val matcher = pattern.matcher(path.getFileName().toString());
-                        if (!matcher.find()) return;
-                        Map<String, ConfigLevelEntity> config;
-
-                        try {
-                            config = JsonUtils.loadToMap(path, String.class, ConfigLevelEntity.class);
-                        } catch (Exception e) {
-                            Grasscutter.getLogger().error("Error loading player ability embryos:", e);
-                            return;
-                        }
-                        GameData.getConfigLevelEntityDataMap().putAll(config);
-                    });
-            }
+            files = listDirectory("BinOutput/LevelEntity/", "ConfigLevelEntity_*.json");
         } catch (IOException e) {
             Grasscutter.getLogger().error("Error loading config level entity: no files found");
             return;
         }
 
-        if (GameData.getConfigLevelEntityDataMap() == null
-                || GameData.getConfigLevelEntityDataMap().isEmpty()) {
+        val parsed =
+                parseFilesInParallel(
+                        files,
+                        path -> {
+                            val matcher = pattern.matcher(path.getFileName().toString());
+                            if (!matcher.find()) return null;
+                            Map<String, ConfigLevelEntity> config;
+                            try {
+                                config = JsonUtils.loadToMap(path, String.class, ConfigLevelEntity.class);
+                            } catch (Exception e) {
+                                Grasscutter.getLogger().error("Error loading player ability embryos:", e);
+                                return null;
+                            }
+                            return config;
+                        });
+        parsed.forEach(GameData.getConfigLevelEntityDataMap()::putAll);
+
+        if (GameData.getConfigLevelEntityDataMap().isEmpty()) {
             Grasscutter.getLogger().error("No config level entity loaded!");
             return;
         }

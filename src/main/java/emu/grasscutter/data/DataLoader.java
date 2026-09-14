@@ -99,33 +99,14 @@ public class DataLoader {
         };
     }
 
+    /** Verifies that the default data files shipped inside the jar are present. */
     public static void checkAllFiles() {
         try {
-            List<Path> filenames = FileUtils.getPathsFromResource("/defaults/data/");
-
-            if (filenames == null) {
+            if (FileUtils.getPathsFromResource("/defaults/data/") == null) {
                 Grasscutter.getLogger().error("We were unable to locate your default data files.");
-            } // else for (Path file : filenames) {
-            //     String relativePath = String.valueOf(file).split("defaults[\\\\\\/]data[\\\\\\/]")[1];
-
-            //     checkAndCopyData(relativePath);
-            // }
+            }
         } catch (Exception e) {
             Grasscutter.getLogger().error("An error occurred while trying to check the data folder.", e);
-        }
-    }
-
-    private static void checkAndCopyData(String name) {
-        // TODO: Revisit this if default dumping is ever reintroduced
-        Path filePath = FileUtils.getDataPath(name);
-
-        if (!Files.exists(filePath)) {
-            var root = filePath.getParent();
-            if (root.toFile().mkdirs())
-                Grasscutter.getLogger().info("Created data folder '" + root + "'");
-
-            Grasscutter.getLogger().debug("Creating default '" + name + "' data");
-            FileUtils.copyResource("/defaults/data/" + name, filePath.toString());
         }
     }
 }

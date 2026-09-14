@@ -56,15 +56,6 @@ public final class JsonUtils {
         return gson.fromJson(fileReader, classType);
     }
 
-    @Deprecated(forRemoval = true)
-    public static <T> T loadToClass(String filename, Class<T> classType) throws IOException {
-        try (InputStreamReader fileReader =
-                new InputStreamReader(
-                        new FileInputStream(Utils.toFilePath(filename)), StandardCharsets.UTF_8)) {
-            return loadToClass(fileReader, classType);
-        }
-    }
-
     public static <T> T loadToClass(Path filename, Class<T> classType) throws IOException {
         try (var fileReader = Files.newBufferedReader(filename, StandardCharsets.UTF_8)) {
             return loadToClass(fileReader, classType);
@@ -73,15 +64,6 @@ public final class JsonUtils {
 
     public static <T> List<T> loadToList(Reader fileReader, Class<T> classType) throws IOException {
         return gson.fromJson(fileReader, TypeToken.getParameterized(List.class, classType).getType());
-    }
-
-    @Deprecated(forRemoval = true)
-    public static <T> List<T> loadToList(String filename, Class<T> classType) throws IOException {
-        try (InputStreamReader fileReader =
-                new InputStreamReader(
-                        new FileInputStream(Utils.toFilePath(filename)), StandardCharsets.UTF_8)) {
-            return loadToList(fileReader, classType);
-        }
     }
 
     public static <T> List<T> loadToList(Path filename, Class<T> classType) throws IOException {
@@ -94,16 +76,6 @@ public final class JsonUtils {
             Reader fileReader, Class<T1> keyType, Class<T2> valueType) throws IOException {
         return gson.fromJson(
                 fileReader, TypeToken.getParameterized(Map.class, keyType, valueType).getType());
-    }
-
-    @Deprecated(forRemoval = true)
-    public static <T1, T2> Map<T1, T2> loadToMap(
-            String filename, Class<T1> keyType, Class<T2> valueType) throws IOException {
-        try (InputStreamReader fileReader =
-                new InputStreamReader(
-                        new FileInputStream(Utils.toFilePath(filename)), StandardCharsets.UTF_8)) {
-            return loadToMap(fileReader, keyType, valueType);
-        }
     }
 
     public static <T1, T2> Map<T1, T2> loadToMap(
