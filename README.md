@@ -1,87 +1,161 @@
-# LunaGC-Renewed-7.0.0
+<div align="center">
 
-## Updated version of Grasscutters/LunaGC, with some new features implemented.
-Features and functionality of the PS is not guaranteed, try it yourself to see what works and what doesnt.
+# LunaGC-Renewed 7.0.0
 
-# Read the [handbook](handbook.md)!
+**An updated version of Grasscutters/LunaGC, with some new features implemented.**
 
-# Setup Guide
-- Read it below, its just enough to get the server up and running along with the client.
+[![Java](https://img.shields.io/badge/Java-25-orange?style=flat-square)](https://www.oracle.com/java/technologies/javase/jdk25-archive-downloads.html)
+[![Version](https://img.shields.io/badge/version-7.0.0-blue?style=flat-square)](#)
 
-## Main Requirements
+**[Read the handbook!](handbook.md)**
 
-- Get [Java 25](https://www.oracle.com/java/technologies/javase/jdk25-archive-downloads.html)
-- Get [MongoDB Community Server](https://www.mongodb.com/try/download/community)
-- Get [NodeJS](https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi) (For handbook generation)
-- Make sure to install java and set the environment variables.
-- Build the server (refer to "Compile the actual server" in this guide.)
+</div>
 
-- Install the resources using one of these methods:
--  **Regular method:** Download the [Resources](https://github.com/Merprose2/LunaGCR-Resources), create a folder named `resources` inside the LunaGC folder, and extract the resources into it.
--  **Resource cache method:** Download `LunaGC-7.0-resources.cache` from the [latest Resource Cache release](https://github.com/Merprose2/LunaGCR-Resources/releases/tag/latest-cache), create a folder named `cache` inside the LunaGC folder, and place the file inside it without extracting or renaming it.
--  The server will automatically use a valid resource cache when available and fall back to the normal `resources` folder otherwise.
-- Set useEncryption, Questing and useInRouting to false (it should be false by default, if not then change it).
-- [Patch the game](#patching-the-game)
-- Start the server and the game, make sure to also create an account in the LunaGC console.
-- Have fun!
+> [!NOTE]
+> Features and functionality of the PS are not guaranteed. Try it yourself to
+> see what works and what doesn't.
 
-### Patching the game
-- Put [Astrolabe.dll](https://github.com/Merprose2/LunaGC-Renewed/tree/7.0/patch) in the game folder at `GenshinImpact_Data/Plugins`. Make sure you back up the old `Astrolabe.dll` in the plugins folder.
-- To "disable" the patch, just rename Astrolabe.dll to something else so it's not a DLL or don't name it Astrolabe (for example Astrolabe.deleleu / astrollable.dll).
-- If you use Cutivation, put the file in the `Cultivation/patch` directory and rename it to `6version.dll`. Make sure you also back up the original dll before replacing it.
+---
 
-### Getting started
+## Requirements
 
-- Clone the repository (install [Git](https://git-scm.com) first )
+| Dependency | Purpose |
+| --- | --- |
+| [Java 25 (JDK)](https://www.oracle.com/java/technologies/javase/jdk25-archive-downloads.html) | Running & building the server |
+| [MongoDB Community Server](https://www.mongodb.com/try/download/community) | Database |
+| [NodeJS 20](https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi) | Handbook generation |
+| [Git](https://git-scm.com) | Cloning the repository |
 
-  ```
-  git clone https://github.com/Merprose2/LunaGC-Renewed.git
-  ```
+Make sure Java is installed and your environment variables are set.
 
-- Now you can continue with the steps below.
+---
 
+## Setup Guide
 
-### Compile the actual Server
+### 1. Clone the repository
 
-**Requirements**:
+```bash
+git clone https://github.com/Merprose2/LunaGC-Renewed.git
+```
 
-[Java Development Kit 25 | JDK](https://oracle.com/java/technologies/javase/jdk25-archive-downloads.html) or higher
+### 2. Build the server
 
-- **Sidenote**: Handbook generation may fail on some systems. To disable handbook generation, append `-PskipHandbook=1` to the `gradlew jar` command.
+> [!TIP]
+> Handbook generation may fail on some systems. To disable it, append
+> `-PskipHandbook=1` to the `gradlew jar` command.
 
-- **For Windows**:
+**Windows**
 
-  ```shell
-  .\gradlew.bat
-  .\gradlew.bat jar
-  ```
+```shell
+.\gradlew.bat
+.\gradlew.bat jar
+```
 
-- **For Linux**:
+**Linux**
 
-  ```bash
-  chmod +x gradlew
-  ./gradlew
-  ./gradlew jar
-  ```
+```bash
+chmod +x gradlew
+./gradlew
+./gradlew jar
+```
 
-### You can find the output JAR in the project root folder.
+The output JAR will be in the project root folder.
 
-### Manually compile the handbook
+To compile the handbook manually:
 
 ```shell
 ./gradlew generateHandbook
 ```
 
+### 3. Install the resources
+
+<details open>
+<summary><b>Regular method</b></summary>
+
+Download the [resources](https://github.com/Merprose2/LunaGCR-Resources), create
+a folder named `resources` inside the LunaGC folder, and extract the resources
+into it.
+
+### 4. Configure
+
+Set `useEncryption`,  and `useInRouting` to `false`. They should be
+`false` by default — if not, change them.
+
+If you want Quest set `Questing` to `true`
+
+### 5. Patch the game
+
+Put [Astrolabe.dll](https://github.com/Merprose2/LunaGC-Renewed/tree/7.0/patch)
+in the game folder at `GenshinImpact_Data/Plugins`.
+
+> [!IMPORTANT]
+> Back up the original `Astrolabe.dll` before replacing it.
+
+- **To disable the patch:** rename `Astrolabe.dll` so it's either not a `.dll`
+  or not named Astrolabe (e.g. `Astrolabe.deleleu` or `astrollable.dll`).
+- **If you use Cultivation:** put the file in the `Cultivation/patch` directory
+  and rename it to `6version.dll`. Back up the original DLL first.
+
+### 6. Run it
+
+Start the server and the game, then create an account in the LunaGC console.
+
+Have fun!
+
+---
+
 ## Troubleshooting
 
-- Make sure to set useEncryption and useInRouting both to false otherwise you might encounter errors.
-- To use windy make sure that you put your luac files in C:\Windy (make the folder if it doesnt exist)
-- If you get an error related to MongoDB connection timeout, check if the mongodb service is running. On windows: Press windows key and r then type `services.msc`, look for mongodb server and if it's not started then start it by right clicking on it and start. On linux, you can do `systemctl status mongod` to see if it's running, if it isn't then type `systemctl start mongod`. However, if you get error 14 on linux change the owner of the mongodb folder and the .sock file (`sudo chown -R mongodb:mongodb /var/lib/mongodb` and `sudo chown mongodb:mongodb /tmp/mongodb-27017.sock` then try to start the service again.)
+<details>
+<summary><b>Connection or routing errors</b></summary>
 
-## Credit
+Make sure `useEncryption` and `useInRouting` are both set to `false`.
 
-Proto Repository [hk4e-protos](https://gitlab.com/CarolBicsi/genshin-protocol)
+</details>
 
-Patch Repository [hk4e-patch-universal](https://github.com/capyb2222/animegamepatch)
+<details>
+<summary><b>Windy scripts not loading</b></summary>
 
-Original Repository [kitkat033](https://github.com/kitkat033/)
+Put your `.luac` files in `C:\Windy` — create the folder if it doesn't exist.
+
+</details>
+
+<details>
+<summary><b>MongoDB connection timeout</b></summary>
+
+Check whether the MongoDB service is running.
+
+**Windows** — press <kbd>Win</kbd> + <kbd>R</kbd>, type `services.msc`, find
+the MongoDB server entry, and if it isn't started, right-click it and start it.
+
+**Linux** — check the status:
+
+```bash
+systemctl status mongod
+```
+
+If it isn't running:
+
+```bash
+systemctl start mongod
+```
+
+If you get **error 14**, change the ownership of the MongoDB folder and socket
+file, then start the service again:
+
+```bash
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
+```
+
+</details>
+
+---
+
+## Credits
+
+- [Rafs-kk](https://github.com/Rafs-kk)
+- [Hartie95](https://github.com/Hartie95)
+- [Mar7thLover](https://github.com/Mar7thLover)
+
+Proto repository: [NahidaImpact-protos](https://github.com/Mar7thLover/NahidaImpact-Server/tree/main/Proto)
