@@ -108,7 +108,7 @@ public final class Grasscutter {
         // Initialize server.
         logger.info(translate("messages.status.starting"));
         logger.info(translate("messages.status.game_version", GameConstants.VERSION));
-        logger.info(translate("messages.status.version", "6.6.0", "kitkat"));
+        logger.info(translate("messages.status.version", GameConstants.VERSION, "Merprose"));
 
         // Initialize database.
         DatabaseManager.initialize();
