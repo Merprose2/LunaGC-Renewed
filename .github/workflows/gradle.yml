@@ -36,22 +36,34 @@ jobs:
         java-version: '25'
         distribution: 'temurin'
 
-    # Automatically caches dependencies and Gradle build outputs
+    # Automatically caches dependencies, build outputs and the configuration cache
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
       with:
+        # Only the default branch is allowed to write the build cache, all other
+        # runs read from it (keeps caches clean and reproducible).
         cache-read-only: ${{ github.event_name != 'push' || github.ref != 'refs/heads/7.0' }}
 
-    # -x spotlessCheck -x test skips re-formatting checks and test suites during binary creation
+    # The configuration cache and the build cache are enabled in gradle.properties
+    # (so that gradle/actions/setup-gradle caches them), the flags below only make
+    # the intent explicit for a one-shot CI build.
+    # --no-watch-fs : file system watching makes no sense for a one-shot CI build
+    # -x spotlessCheck -x test : skip the formatting check and the test suite
     - name: Build with Gradle Wrapper
-      run: ./gradlew jar --no-daemon --build-cache -PskipHandbook=1 -x spotlessCheck -x test
+      run: >
+        ./gradlew jar
+        --build-cache
+        --no-watch-fs
+        -PskipHandbook=1
+        -x spotlessCheck -x test
 
     - name: Verify compiled JAR
       run: |
         test -f LunaGC-7.0.jar
         ls -lh LunaGC-7.0.jar
 
-    # Keeps only 1 day of retention and uses default compression to save quota
+    # Keeps only 1 day of retention. The jar is already compressed, so storing
+    # it without additional compression makes the upload much faster.
     - name: Archive Artifacts
       if: github.event_name == 'pull_request'
       uses: actions/upload-artifact@v4
@@ -59,6 +71,7 @@ jobs:
         name: LunaGC-7.0-${{ github.sha }}
         path: LunaGC-7.0.jar
         if-no-files-found: error
+        compression-level: 0
         retention-days: 1
 
     # Only publish a release after an actual commit to 7.0.

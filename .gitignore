@@ -30,8 +30,8 @@ hs_err_pid*
 build/
 out/
 
-# Ignore Gradle properties
-gradle.properties
+# NOTE: gradle.properties is intentionally tracked, it carries the shared
+# build-performance settings (configuration cache, daemon heap, ...).
 
 # Eclipse
 .project
@@ -74,7 +74,6 @@ mongod.exe
 
 gacha-mapping.js
 mappings.js
-BuildConfig.java
 data/hk4e/announcement/
 
 # lombok
