@@ -1,5 +1,6 @@
 package emu.grasscutter.data.excels;
 
+import com.google.gson.annotations.SerializedName;
 import emu.grasscutter.data.*;
 import java.util.List;
 import lombok.Getter;
@@ -23,7 +24,20 @@ public class BlossomRefreshExcelConfigData extends GameResource {
     private RefreshCond[] refreshCondVec; // AR requirements etc.
 
     private int cityId;
-    private int blossomChestId; // 1 for mora, 2 for exp
+
+    /**
+     * The resource dumps name this key either {@code blossomChestId} or {@code blossom_chest_id} (1 for mora, 2 for
+     * exp), so both spellings have to be accepted.
+     */
+    @SerializedName(value = "blossomChestId", alternate = {"blossom_chest_id"})
+    private int blossomChestId;
+
+    /**
+     * The resource dumps contain two spellings of this table: {@code DropVec} (with camelCase entries) and {@code
+     * dropVec} (with snake_case entries). Both hold the same reward table, and both spellings are accepted so that no
+     * entry is silently dropped when Gson can not map it to this field.
+     */
+    @SerializedName(value = "dropVec", alternate = {"DropVec"})
     private Drop[] dropVec;
 
     // Unknown details
@@ -32,7 +46,10 @@ public class BlossomRefreshExcelConfigData extends GameResource {
 
     @Getter
     public static class Drop {
+        @SerializedName(value = "dropId", alternate = {"drop_id"})
         int dropId;
+
+        @SerializedName(value = "previewReward", alternate = {"preview_reward"})
         int previewReward;
     }
 

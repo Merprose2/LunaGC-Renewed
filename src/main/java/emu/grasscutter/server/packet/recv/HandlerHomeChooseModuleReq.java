@@ -1,7 +1,5 @@
 package emu.grasscutter.server.packet.recv;
 
-import com.google.protobuf.CodedInputStream;
-import com.google.protobuf.WireFormat;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.net.packet.Opcodes;
@@ -13,16 +11,16 @@ import emu.grasscutter.server.packet.send.PacketHomeBasicInfoNotify;
 import emu.grasscutter.server.packet.send.PacketHomeChooseModuleRsp;
 import emu.grasscutter.server.packet.send.PacketHomeComfortInfoNotify;
 import emu.grasscutter.server.packet.send.PacketPlayerHomeCompInfoNotify;
-import java.io.IOException;
 
 @Opcodes(PacketOpcodes.HomeChooseModuleReq)
 public class HandlerHomeChooseModuleReq extends PacketHandler {
-    private static final int REL66_MODULE_ID_FIELD = 3;
 
     @Override
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
+        // Read through the generated proto: module_id = 15. The REL6.6 number this handler used (3) is
+        // a different field, so the realm picker only worked through its payload scan fallback.
         var req = HomeChooseModuleReqOuterClass.HomeChooseModuleReq.parseFrom(payload);
-        int moduleId = resolveModuleId(req, payload);
+        int moduleId = req.getModuleId();
 
         var player = session.getPlayer();
         var moduleData = GameData.getHomeWorldModuleDataMap().get(moduleId);
@@ -83,56 +81,5 @@ public class HandlerHomeChooseModuleReq extends PacketHandler {
                         moduleId,
                         moduleData.getWorldSceneId(),
                         player.getRealmList());
-    }
-
-    private int resolveModuleId(
-            HomeChooseModuleReqOuterClass.HomeChooseModuleReq req, byte[] payload) {
-        if (req.getModuleId() > 0) {
-            return req.getModuleId();
-        }
-
-        var unknownField = req.getUnknownFields().getField(REL66_MODULE_ID_FIELD);
-        if (unknownField != null && !unknownField.getVarintList().isEmpty()) {
-            long value = unknownField.getVarintList().get(0);
-            if (value > 0 && value <= Integer.MAX_VALUE) {
-                return (int) value;
-            }
-        }
-
-        return decodeRel66ModuleId(payload);
-    }
-
-    private int decodeRel66ModuleId(byte[] payload) {
-        if (payload == null || payload.length == 0) {
-            return 0;
-        }
-
-        try {
-            var input = CodedInputStream.newInstance(payload);
-
-            while (!input.isAtEnd()) {
-                int tag = input.readTag();
-                if (tag == 0) {
-                    break;
-                }
-
-                int fieldNumber = WireFormat.getTagFieldNumber(tag);
-                int wireType = WireFormat.getTagWireType(tag);
-
-                if (fieldNumber == REL66_MODULE_ID_FIELD
-                        && wireType == WireFormat.WIRETYPE_VARINT) {
-                    return input.readUInt32();
-                }
-
-                if (!input.skipField(tag)) {
-                    break;
-                }
-            }
-        } catch (IOException exception) {
-            Grasscutter.getLogger()
-                    .warn("[HomeChooseModule] Failed to decode REL6.6 module field", exception);
-        }
-
-        return 0;
     }
 }

@@ -1,43 +1,26 @@
 package emu.grasscutter.server.packet.send;
 
-import com.google.protobuf.CodedOutputStream;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.net.packet.*;
-import java.io.ByteArrayOutputStream;
+import emu.grasscutter.net.proto.SceneDataNotifyOuterClass.SceneDataNotify;
 
 public class PacketSceneDataNotify extends BasePacket {
 
-    private static final int F_SCENE_ID = 3;
-    private static final int F_MAP_LAYER_INFO = 10;
-
     public PacketSceneDataNotify(int sceneId) {
         super(PacketOpcodes.SceneDataNotify);
-        this.setData(build(sceneId));
-    }
 
-    private static byte[] build(int sceneId) {
-        try {
-            ByteArrayOutputStream baos = new ByteArrayOutputStream(64);
-            CodedOutputStream cos = CodedOutputStream.newInstance(baos);
+        // Generated proto: map_layer_info = 1. This message has no scene_id field, so the scene only
+        // decides whether the big world map layer info is part of the notification.
+        var proto = SceneDataNotify.newBuilder();
 
-            if (sceneId != 0) {
-                cos.writeUInt32(F_SCENE_ID, sceneId);
-            }
-
-            if (sceneId == 3) {
-                var mapLayerInfo =
-                        MapLayerInfoProto66.build(
-                                GameData.getMapLayerDataMap().keySet(),
-                                GameData.getMapLayerFloorDataMap().keySet(),
-                                GameData.getMapLayerGroupDataMap().keySet());
-
-                cos.writeMessage(F_MAP_LAYER_INFO, mapLayerInfo);
-            }
-
-            cos.flush();
-            return baos.toByteArray();
-        } catch (Exception e) {
-            throw new RuntimeException("PacketSceneDataNotify.build failed", e);
+        if (sceneId == 3) {
+            proto.setMapLayerInfo(
+                    MapLayerInfoProto66.build(
+                            GameData.getMapLayerDataMap().keySet(),
+                            GameData.getMapLayerFloorDataMap().keySet(),
+                            GameData.getMapLayerGroupDataMap().keySet()));
         }
+
+        this.setData(proto.build());
     }
 }

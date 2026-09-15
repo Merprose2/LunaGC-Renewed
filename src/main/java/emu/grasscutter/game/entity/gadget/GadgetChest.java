@@ -74,7 +74,7 @@ public class GadgetChest extends GadgetContent {
                         return true;
                     }
                     // if failed, fallback to legacy drop system.
-                } else {
+                } else if (chest.drop_tag != null || chest.chest_drop_id != 0) {
                     // Normal chest drop
                     // only the owner of the world can open chests.
                     if (player != player.getWorld().getHost()) return false;
@@ -98,12 +98,23 @@ public class GadgetChest extends GadgetContent {
                         return true;
                     }
                     // if failed, fallback to legacy drop system.
+                    Grasscutter.getLogger()
+                            .warn(
+                                    "Can not solve chest drop: chest_drop_id = {} , drop_tag = {}. Fallback to legacy drop system.",
+                                    chest.chest_drop_id,
+                                    chest.drop_tag);
+                } else {
+                    // Chests spawned by the server (like the blossom reward chest created by
+                    // BlossomActivity) carry boss chest info but have no drop data in the scene script.
+                    // Their resin cost, reward and two step interaction are handled by the legacy chest
+                    // interact handler below, so this is not an error.
+                    Grasscutter.getLogger()
+                            .debug(
+                                    "Chest {} has no script drop data: chest_drop_id = {} , drop_tag = {}. Using the legacy drop system.",
+                                    getGadget().getId(),
+                                    chest.chest_drop_id,
+                                    chest.drop_tag);
                 }
-                Grasscutter.getLogger()
-                        .warn(
-                                "Can not solve chest drop: chest_drop_id = {} , drop_tag = {}. Fallback to legacy drop system.",
-                                chest.chest_drop_id,
-                                chest.drop_tag);
             }
         }
 

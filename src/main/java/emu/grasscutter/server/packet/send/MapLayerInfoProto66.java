@@ -3,38 +3,35 @@ package emu.grasscutter.server.packet.send;
 import com.google.protobuf.UnknownFieldSet;
 import emu.grasscutter.net.proto.MapLayerInfoOuterClass;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 
+/**
+ * Builds the big world {@code _MapLayerInfo} of the scene data notifications.
+ *
+ * <p>The unlocked map layers and map layer groups are written through the named generated accessors.
+ */
 public final class MapLayerInfoProto66 {
-    private MapLayerInfoProto66() {}
+    /**
+     * Unlocked map layer floors: the third repeated uint32 of {@code _MapLayerInfo}. Its generated
+     * accessor is obfuscated, and obfuscated names are reshuffled - together with their numbers - by
+     * every client build, so it is written as an unknown field. The number has to be taken from the
+     * proto of the client version in use (11 for the current one).
+     */
+    private static final int F_UNLOCKED_MAP_LAYER_FLOOR_LIST = 11;
 
-    // REL6.6 _MapLayerInfo field mapping from uploaded deobfuscated proto.
-    //
-    // message _MapLayerInfo {
-    //     repeated uint32 IMIKDGJJBHA = 4;
-    //     repeated uint32 _unlocked_layer_group_list = 9;
-    //     repeated uint32 ADALGDOJPBK = 13;
-    // }
-    //
-    // First test:
-    // field 4  = map layer ids
-    // field 9  = map layer group ids
-    // field 13 = map layer floor ids
-    private static final int F_UNLOCKED_MAP_LAYER_ID_LIST = 4;
-    private static final int F_UNLOCKED_MAP_LAYER_GROUP_ID_LIST = 9;
-    private static final int F_UNLOCKED_MAP_LAYER_FLOOR_ID_LIST = 13;
+    private MapLayerInfoProto66() {}
 
     public static MapLayerInfoOuterClass.MapLayerInfo build(
             Iterable<Integer> mapLayerIds,
             Iterable<Integer> mapLayerFloorIds,
             Iterable<Integer> mapLayerGroupIds) {
         var unknowns = UnknownFieldSet.newBuilder();
-
-        addRepeatedUInt32(unknowns, F_UNLOCKED_MAP_LAYER_ID_LIST, mapLayerIds);
-        addRepeatedUInt32(unknowns, F_UNLOCKED_MAP_LAYER_GROUP_ID_LIST, mapLayerGroupIds);
-        addRepeatedUInt32(unknowns, F_UNLOCKED_MAP_LAYER_FLOOR_ID_LIST, mapLayerFloorIds);
+        addRepeatedUInt32(unknowns, F_UNLOCKED_MAP_LAYER_FLOOR_LIST, mapLayerFloorIds);
 
         return MapLayerInfoOuterClass.MapLayerInfo.newBuilder()
+                .addAllUnlockMapLayerList(clean(mapLayerIds))
+                .addAllUnlockMapLayerGroupList(clean(mapLayerGroupIds))
                 .setUnknownFields(unknowns.build())
                 .build();
     }
@@ -64,5 +61,21 @@ public final class MapLayerInfoProto66 {
         }
 
         unknowns.addField(fieldNumber, field.build());
+    }
+
+    private static List<Integer> clean(Iterable<Integer> values) {
+        if (values == null) {
+            return List.of();
+        }
+
+        Set<Integer> cleanValues = new LinkedHashSet<>();
+
+        for (Integer value : values) {
+            if (value != null && value > 0) {
+                cleanValues.add(value);
+            }
+        }
+
+        return List.copyOf(cleanValues);
     }
 }

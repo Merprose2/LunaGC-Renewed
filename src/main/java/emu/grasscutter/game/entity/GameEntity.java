@@ -202,6 +202,12 @@ public abstract class GameEntity {
             Position rot = this.getRotation();
             if (pos == null || rot == null) return;
 
+            /*
+             * The int motion info lives on an obfuscated field of an obfuscated message, whose name -
+             * and with it the generated accessor - is shuffled by every client build. It is written
+             * as raw bytes on SceneEntityInfo's EEDDIJJOCFM number instead of importing that message:
+             * field 1 entity id, 2 position and 3 rotation in millimetre units, 4 motion state.
+             */
             int px = Math.round(pos.getX() * 1000f);
             int py = Math.round(pos.getY() * 1000f);
             int pz = Math.round(pos.getZ() * 1000f);

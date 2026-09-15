@@ -1,7 +1,6 @@
 package emu.grasscutter.server.packet.recv;
 
-import com.google.protobuf.CodedInputStream;
-import com.google.protobuf.WireFormat;
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.binout.ScenePointEntry;
 import emu.grasscutter.game.world.Position;
@@ -14,15 +13,21 @@ import emu.grasscutter.server.packet.send.PacketPersonalSceneJumpRsp;
 public class HandlerPersonalSceneJumpReq extends PacketHandler {
     @Override
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
-        PersonalSceneJumpReq req = null;
+        // Read through the generated proto: point_id = 5. The hand written reader this replaced took
+        // the first positive varint in the payload as the point id, which is any field but that one.
+        PersonalSceneJumpReq req;
         try {
             req = PersonalSceneJumpReq.parseFrom(payload);
-        } catch (Exception ignored) {}
+        } catch (Exception exception) {
+            Grasscutter.getLogger()
+                    .warn("Could not read PersonalSceneJumpReq: {}", exception.getMessage());
+            return;
+        }
 
         var player = session.getPlayer();
         var currentSceneId = player.getSceneId();
 
-        int pointId = decodePointId(req, payload);
+        int pointId = req.getPointId();
 
         ScenePointEntry scenePointEntry = null;
         if (pointId > 0) {
@@ -85,29 +90,5 @@ public class HandlerPersonalSceneJumpReq extends PacketHandler {
         }
 
         session.send(new PacketPersonalSceneJumpRsp(targetSceneId, targetPos));
-    }
-
-    private int decodePointId(PersonalSceneJumpReq req, byte[] payload) {
-        if (req != null && req.getPointId() > 0) {
-            return req.getPointId();
-        }
-        if (payload == null || payload.length == 0) {
-            return 0;
-        }
-        try {
-            CodedInputStream input = CodedInputStream.newInstance(payload);
-            while (!input.isAtEnd()) {
-                int tag = input.readTag();
-                if (tag == 0) break;
-                int wireType = WireFormat.getTagWireType(tag);
-                if (wireType == WireFormat.WIRETYPE_VARINT) {
-                    int val = input.readUInt32();
-                    if (val > 0) return val;
-                } else {
-                    input.skipField(tag);
-                }
-            }
-        } catch (Exception ignored) {}
-        return 0;
     }
 }

@@ -1,6 +1,5 @@
 package emu.grasscutter.server.packet.send;
 
-import com.google.protobuf.UnknownFieldSet;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.DelBackupAvatarTeamRspOuterClass.DelBackupAvatarTeamRsp;
 import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
@@ -10,20 +9,13 @@ public class PacketDelBackupAvatarTeamRsp extends BasePacket {
     public PacketDelBackupAvatarTeamRsp(Retcode retcode, int id) {
         super(PacketOpcodes.DelBackupAvatarTeamRsp);
 
-        // Real REL6.6 proto:
-        // DelBackupAvatarTeamRsp {
-        //   uint32 backup_avatar_team_id = 8;
-        //   int32 retcode = 15;
-        // }
-        //
-        // The current generated Java class still has the wrong field numbers, so build the REL6.6-shaped packet through unknown fields.
+        // Generated proto: backup_avatar_team_id = 5 and retcode = 9. Writing the two values on the
+        // numbers of an older layout (8 and 15) put them on fields this version of the message does
+        // not have, so the client could not read the response at all.
         DelBackupAvatarTeamRsp proto =
                 DelBackupAvatarTeamRsp.newBuilder()
-                        .setUnknownFields(
-                                UnknownFieldSet.newBuilder()
-                                        .addField(8, varint(Math.max(0, id)))
-                                        .addField(15, varint(retcode.getNumber()))
-                                        .build())
+                        .setBackupAvatarTeamId(Math.max(0, id))
+                        .setRetcode(retcode.getNumber())
                         .build();
 
         this.setData(proto);
@@ -31,9 +23,5 @@ public class PacketDelBackupAvatarTeamRsp extends BasePacket {
 
     public PacketDelBackupAvatarTeamRsp(int id) {
         this(Retcode.RET_SUCC, id);
-    }
-
-    private static UnknownFieldSet.Field varint(int value) {
-        return UnknownFieldSet.Field.newBuilder().addVarint(value).build();
     }
 }

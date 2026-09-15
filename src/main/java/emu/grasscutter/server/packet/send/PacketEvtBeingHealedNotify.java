@@ -16,6 +16,11 @@ public class PacketEvtBeingHealedNotify extends BasePacket {
     public PacketEvtBeingHealedNotify(GameEntity source, GameEntity target, float healAmount, float realHealAmount) {
         super(PacketOpcodes.CombatInvocationsNotify, true);
 
+        /*
+         * The being-healed payload is written by hand: the generated set has no message for it (it is
+         * obfuscated on the wire), so these numbers are tied to the client version and have to be
+         * re-checked against its proto. Everything around it uses the generated protos.
+         */
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         CodedOutputStream out = CodedOutputStream.newInstance(bos);
         try {

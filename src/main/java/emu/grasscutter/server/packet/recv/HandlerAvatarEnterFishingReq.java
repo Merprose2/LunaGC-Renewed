@@ -21,6 +21,9 @@ import java.io.ByteArrayOutputStream;
  *
  * The official server switches its active avatar accordingly and answers with CmdId 28194
  * ("FLPFLCPNIAG"): 3: uint64 avatar_guid, 7: uint32 state (, 9: uint32 entity_id - unused).
+ *
+ * <p>Both messages are obfuscated, so neither exists in the generated set and the fields have to be
+ * read and written by hand. The numbers are tied to the client version.
  */
 @Opcodes(PacketOpcodes.AvatarEnterFishingReq)
 public class HandlerAvatarEnterFishingReq extends PacketHandler {

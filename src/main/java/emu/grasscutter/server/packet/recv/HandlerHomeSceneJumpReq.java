@@ -1,17 +1,15 @@
 package emu.grasscutter.server.packet.recv;
 
-import com.google.protobuf.CodedInputStream;
-import com.google.protobuf.WireFormat;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.game.home.GameHome;
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.net.packet.Opcodes;
 import emu.grasscutter.net.packet.PacketHandler;
 import emu.grasscutter.net.packet.PacketOpcodes;
+import emu.grasscutter.net.proto.HomeSceneJumpReqOuterClass.HomeSceneJumpReq;
 import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketHomeSceneJumpRsp;
-import java.io.IOException;
 
 @Opcodes(PacketOpcodes.HomeSceneJumpReq)
 public class HandlerHomeSceneJumpReq extends PacketHandler {
@@ -19,16 +17,28 @@ public class HandlerHomeSceneJumpReq extends PacketHandler {
     @Override
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         var player = session.getPlayer();
-        var decoded = decodeRequest(payload);
+
+        // Read through the generated proto: is_enter_room_scene = 11. The hand written decoder this
+        // replaced read field 15, which is a different field of the message, so the room/mansion
+        // choice it made was arbitrary.
+        HomeSceneJumpReq req;
+        try {
+            req = HomeSceneJumpReq.parseFrom(payload);
+        } catch (Exception exception) {
+            Grasscutter.getLogger()
+                    .warn("Could not read HomeSceneJumpReq: {}", exception.getMessage());
+            return;
+        }
+
+        boolean enterRoomScene = req.getIsEnterRoomScene();
 
         Grasscutter.getLogger()
                 .debug(
-                        "[HomeSceneJump66] request uid={}, enterRoomScene={}, field15Found={}, "
+                        "[HomeSceneJump] request uid={}, enterRoomScene={}, "
                                 + "currentSceneId={}, previousSceneId={}, currentRealmId={}, "
                                 + "worldClass={}, payloadLength={}",
                         player.getUid(),
-                        decoded.enterRoomScene,
-                        decoded.field15Found,
+                        enterRoomScene,
                         player.getSceneId(),
                         player.getPrevScene(),
                         player.getCurrentRealmId(),
@@ -44,7 +54,7 @@ public class HandlerHomeSceneJumpReq extends PacketHandler {
                 || !GameHome.HOME_SCENE_IDS.contains(player.getSceneId())) {
             Grasscutter.getLogger()
                     .warn(
-                            "[HomeSceneJump66] rejected outside active HomeWorld: uid={}, "
+                            "[HomeSceneJump] rejected outside active HomeWorld: uid={}, "
                                     + "sceneId={}, worldClass={}",
                             player.getUid(),
                             player.getSceneId(),
@@ -52,9 +62,7 @@ public class HandlerHomeSceneJumpReq extends PacketHandler {
                                     ? player.getWorld().getClass().getSimpleName()
                                     : "null");
 
-            session.send(
-                    new PacketHomeSceneJumpRsp(
-                            decoded.enterRoomScene, Retcode.RET_FAIL_VALUE));
+            session.send(new PacketHomeSceneJumpRsp(enterRoomScene, Retcode.RET_FAIL_VALUE));
             return;
         }
 
@@ -72,40 +80,36 @@ public class HandlerHomeSceneJumpReq extends PacketHandler {
         if (outdoorArrangement == null) {
             Grasscutter.getLogger()
                     .warn(
-                            "[HomeSceneJump66] missing outdoor arrangement: uid={}, "
-                                    + "moduleId={}, outdoorSceneId={}",
+                            "[HomeSceneJump] missing outdoor arrangement: uid={}, moduleId={}, "
+                                    + "outdoorSceneId={}",
                             player.getUid(),
                             moduleId,
                             outdoorSceneId);
 
-            session.send(
-                    new PacketHomeSceneJumpRsp(
-                            decoded.enterRoomScene, Retcode.RET_FAIL_VALUE));
+            session.send(new PacketHomeSceneJumpRsp(enterRoomScene, Retcode.RET_FAIL_VALUE));
             return;
         }
 
         int indoorSceneId = outdoorArrangement.getRoomSceneId();
-        int targetSceneId = decoded.enterRoomScene ? indoorSceneId : outdoorSceneId;
+        int targetSceneId = enterRoomScene ? indoorSceneId : outdoorSceneId;
         var targetArrangement = home.getHomeSceneItem(targetSceneId);
         var targetScene = world.getSceneById(targetSceneId);
 
         if (targetSceneId <= 0 || targetArrangement == null || targetScene == null) {
             Grasscutter.getLogger()
                     .warn(
-                            "[HomeSceneJump66] missing target Home scene: uid={}, "
-                                    + "enterRoomScene={}, outdoorSceneId={}, indoorSceneId={}, "
-                                    + "targetSceneId={}, arrangementFound={}, sceneFound={}",
+                            "[HomeSceneJump] missing target Home scene: uid={}, enterRoomScene={}, "
+                                    + "outdoorSceneId={}, indoorSceneId={}, targetSceneId={}, "
+                                    + "arrangementFound={}, sceneFound={}",
                             player.getUid(),
-                            decoded.enterRoomScene,
+                            enterRoomScene,
                             outdoorSceneId,
                             indoorSceneId,
                             targetSceneId,
                             targetArrangement != null,
                             targetScene != null);
 
-            session.send(
-                    new PacketHomeSceneJumpRsp(
-                            decoded.enterRoomScene, Retcode.RET_FAIL_VALUE));
+            session.send(new PacketHomeSceneJumpRsp(enterRoomScene, Retcode.RET_FAIL_VALUE));
             return;
         }
 
@@ -113,11 +117,10 @@ public class HandlerHomeSceneJumpReq extends PacketHandler {
         Position targetRot;
         String positionSource;
 
-        if (decoded.enterRoomScene) {
+        if (enterRoomScene) {
             /*
-             * Indoor HomeworldDefaultSave bornPos is an arrangement/editing
-             * anchor and places the avatar in a side room. The scene script
-             * contains the actual entrance spawn.
+             * Indoor HomeworldDefaultSave bornPos is an arrangement/editing anchor and places the
+             * avatar in a side room. The scene script contains the actual entrance spawn.
              */
             var scriptConfig = targetScene.getScriptManager().getConfig();
 
@@ -145,18 +148,16 @@ public class HandlerHomeSceneJumpReq extends PacketHandler {
         home.save();
 
         int sourceSceneId = player.getSceneId();
-        boolean transferred =
-                world.transferPlayerToScene(player, targetSceneId, targetPos);
+        boolean transferred = world.transferPlayerToScene(player, targetSceneId, targetPos);
 
         Grasscutter.getLogger()
                 .debug(
-                        "[HomeSceneJump66] transfer result uid={}, success={}, "
-                                + "enterRoomScene={}, fromSceneId={}, targetSceneId={}, "
-                                + "outdoorSceneId={}, indoorSceneId={}, positionSource={}, "
-                                + "targetPos={}, targetRot={}",
+                        "[HomeSceneJump] transfer result uid={}, success={}, enterRoomScene={}, "
+                                + "fromSceneId={}, targetSceneId={}, outdoorSceneId={}, "
+                                + "indoorSceneId={}, positionSource={}, targetPos={}, targetRot={}",
                         player.getUid(),
                         transferred,
-                        decoded.enterRoomScene,
+                        enterRoomScene,
                         sourceSceneId,
                         targetSceneId,
                         outdoorSceneId,
@@ -167,48 +168,7 @@ public class HandlerHomeSceneJumpReq extends PacketHandler {
 
         session.send(
                 new PacketHomeSceneJumpRsp(
-                        decoded.enterRoomScene,
+                        enterRoomScene,
                         transferred ? Retcode.RET_SUCC_VALUE : Retcode.RET_FAIL_VALUE));
-    }
-
-    private static DecodedRequest decodeRequest(byte[] payload) throws IOException {
-        if (payload == null || payload.length == 0) {
-            // Proto3 false is omitted, which is the normal Leave Mansion request.
-            return new DecodedRequest(false, false);
-        }
-
-        CodedInputStream input = CodedInputStream.newInstance(payload);
-        boolean enterRoomScene = false;
-        boolean field15Found = false;
-
-        while (!input.isAtEnd()) {
-            int tag = input.readTag();
-
-            if (tag == 0) {
-                break;
-            }
-
-            int fieldNumber = WireFormat.getTagFieldNumber(tag);
-            int wireType = WireFormat.getTagWireType(tag);
-
-            if (fieldNumber == 15 && wireType == WireFormat.WIRETYPE_VARINT) {
-                enterRoomScene = input.readBool();
-                field15Found = true;
-            } else {
-                input.skipField(tag);
-            }
-        }
-
-        return new DecodedRequest(enterRoomScene, field15Found);
-    }
-
-    private static final class DecodedRequest {
-        private final boolean enterRoomScene;
-        private final boolean field15Found;
-
-        private DecodedRequest(boolean enterRoomScene, boolean field15Found) {
-            this.enterRoomScene = enterRoomScene;
-            this.field15Found = field15Found;
-        }
     }
 }

@@ -4,6 +4,13 @@ import com.google.protobuf.CodedOutputStream;
 import emu.grasscutter.net.packet.*;
 import java.io.ByteArrayOutputStream;
 
+/**
+ * Notifies the client that the witch's tea party (hexenzirkel) team changed.
+ *
+ * <p>The message does not exist in the generated set - it is obfuscated on the wire - so the three
+ * numbers below can not be replaced by generated accessors. They are tied to the client version and
+ * have to be re-checked against the proto of whatever version the server ships against.
+ */
 public final class PacketTeamHexenzirkelChangeNotify extends BasePacket {
 
     private static final int F_INFO  = 1;
