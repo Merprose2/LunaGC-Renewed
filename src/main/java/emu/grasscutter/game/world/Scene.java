@@ -1224,9 +1224,14 @@ public class Scene {
 
         blossomManager.onTick();
 
-        var towerManager = getPlayers().get(0).getTowerManager();
-        if (towerManager != null && towerManager.isInProgress()) {
-            towerManager.onTick();
+        // A scene tick can run with no players in it - the last one can teleport away or drop
+        // during the tick - so the host lookup must not assume that index 0 exists.
+        var towerPlayers = this.getPlayers();
+        if (!towerPlayers.isEmpty()) {
+            var towerManager = towerPlayers.get(0).getTowerManager();
+            if (towerManager != null && towerManager.isInProgress()) {
+                towerManager.onTick();
+            }
         }
 
         this.checkNpcGroup();

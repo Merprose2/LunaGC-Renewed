@@ -195,7 +195,10 @@ public final class AbilityManager extends BasePlayerManager {
         Player player = getPlayer();
 
 
-        if (handler == mixinHandlers.get(AbilityMixinData.Type.SwitchHealToHPDebtsMixin)) {
+        // Compare against the mixin *type*: an unimplemented mixin has no handler, and comparing
+        // two nulls used to match here, which switched convertToHpDebt on for Clorinde (10000098)
+        // and Arlecchino (10000096) on every mixin that has no handler yet.
+        if (mixinData.type == AbilityMixinData.Type.SwitchHealToHPDebtsMixin) {
 
             if (target instanceof EntityAvatar avatar) {
 

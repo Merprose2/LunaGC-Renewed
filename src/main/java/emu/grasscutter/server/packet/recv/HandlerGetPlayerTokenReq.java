@@ -10,6 +10,7 @@ import emu.grasscutter.net.proto.GetPlayerTokenReqOuterClass.GetPlayerTokenReq;
 import emu.grasscutter.server.event.game.PlayerCreationEvent;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.game.GameSession.SessionState;
+import emu.grasscutter.server.game.GameSessionManager;
 import emu.grasscutter.server.packet.send.PacketGetPlayerTokenRsp;
 import emu.grasscutter.utils.*;
 import emu.grasscutter.utils.helpers.ByteHelper;
@@ -79,18 +80,64 @@ public class HandlerGetPlayerTokenReq extends PacketHandler {
         var event = new PlayerCreationEvent(session, Player.class);
         event.call();
 
-        var player = DatabaseHelper.getPlayerByAccount(account, event.getPlayerClass());
+        // The account's player document - and, for a first login, its creation - is a database
+        // round-trip. This handler runs on the logic thread that every session shares, so a slow
+        // lookup stalls every other player: look the player up on the database executor instead and
+        // only hop back to the logic thread once the character exists. Session state and packet
+        // writes stay single-threaded.
+        final var loginAccount = account;
+        DatabaseHelper.getEventExecutor()
+                .submit(
+                        () -> {
+                            Player loaded;
+                            try {
+                                loaded =
+                                        DatabaseHelper.getPlayerByAccount(
+                                                loginAccount, event.getPlayerClass());
 
-        if (player == null) {
-            var nextPlayerUid =
-                DatabaseHelper.getNextPlayerId(session.getAccount().getReservedPlayerUid());
+                                if (loaded == null) {
+                                    var nextPlayerUid =
+                                            DatabaseHelper.getNextPlayerId(
+                                                    loginAccount.getReservedPlayerUid());
 
-            player =
-                event.getPlayerClass().getDeclaredConstructor(GameSession.class).newInstance(session);
+                                    loaded =
+                                            event.getPlayerClass()
+                                                    .getDeclaredConstructor(GameSession.class)
+                                                    .newInstance(session);
 
-            DatabaseHelper.generatePlayerUid(player, nextPlayerUid);
-        }
+                                    DatabaseHelper.generatePlayerUid(loaded, nextPlayerUid);
+                                }
+                            } catch (Throwable exception) {
+                                Grasscutter.getLogger()
+                                        .error(
+                                                "Could not load the player of account {}: {}",
+                                                accountId,
+                                                exception.getMessage(),
+                                                exception);
+                                GameSessionManager.getLogicThread().execute(session::close);
+                                return;
+                            }
 
+                            var loadedPlayer = loaded;
+                            GameSessionManager.getLogicThread()
+                                    .execute(
+                                            () ->
+                                                    finishTokenRequest(
+                                                            session, loadedPlayer, keyId, clientRandKey));
+                        });
+    }
+
+    /**
+     * Answers a GetPlayerTokenReq once the account's player is available. Runs on the logic thread,
+     * after {@link #handle} has loaded the player on the database executor.
+     *
+     * @param session The session that requested the token.
+     * @param player The loaded, or freshly created, player of the account.
+     * @param keyId The RSA key id offered by the client, or 0 for an unencrypted exchange.
+     * @param clientRandKey The client's base64 encrypted seed, empty when {@code keyId} is 0.
+     */
+    private static void finishTokenRequest(
+            GameSession session, Player player, int keyId, String clientRandKey) {
         session.setPlayer(player);
 
         if (session.getAccount().isBanned()) {
