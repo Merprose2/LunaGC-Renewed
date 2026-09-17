@@ -68,6 +68,12 @@ public final class StygianOnslaughtManager extends BasePlayerManager {
     private static final long[] OFFICIAL_INFO_PARAMS = {2, 3};
     /** first_day_start_time = begin_time - 6h on the official ActivityInfo. */
     private static final int FIRST_DAY_START_OFFSET = 21600;
+    /**
+     * The excels only schedule a few weeks per entry (5269011 ends 2026-09-30 - the "12 days left"
+     * the client showed), so every reported end time is pushed 5 years further out to keep the mode
+     * open instead of letting the event expire.
+     */
+    private static final int SCHEDULE_DURATION_SECONDS = 5 * 365 * 86400;
 
     private static final int WATCHER_ID_TOTAL = 1526911;
     private static final int WATCHER_TOTAL_PROGRESS = 1200;
@@ -1182,7 +1188,7 @@ public final class StygianOnslaughtManager extends BasePlayerManager {
         var schedule = getScheduleData();
         int scheduleId = schedule != null ? schedule.getScheduleId() : 5269011;
         int beginTime = schedule != null ? schedule.getStartTime() : 0;
-        int endTime = schedule != null ? schedule.getEndTime() : 0;
+        int endTime = schedule != null ? schedule.getEndTime() + SCHEDULE_DURATION_SECONDS : 0;
 
         var detail =
                 _LeyLineChallengeDetailInfoOuterClass._LeyLineChallengeDetailInfo.newBuilder()
