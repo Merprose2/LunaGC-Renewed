@@ -389,6 +389,17 @@ public class ScriptLib {
         return 0;
     }
 
+	public boolean CheckIsInGroup(int groupId, int configId) {
+		logger.debug("[LUA] Call CheckIsInGroup with groupId={}, configId={}", groupId, configId);
+		var manager = getSceneScriptManager();
+		
+		if (manager == null || manager.getScene() == null) {
+			return false;
+		}
+		var entity = manager.getScene().getEntityByConfigId(configId, groupId);
+		return entity != null;
+	}
+
     public boolean CheckIsInMpMode() {
         logger.debug("[LUA] Call CheckIsInMpMode");
         return this.getSceneScriptManager().getScene().getWorld().isMultiplayer();

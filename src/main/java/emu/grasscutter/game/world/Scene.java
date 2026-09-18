@@ -1717,15 +1717,21 @@ public class Scene {
 			return true;
 		}
 
-		// For older regions (< 133300000), keep stock behavior so quest spawns are not blocked or duplicated
-		if (spawnGroup.getGroupId() < 133300000) {
-			return false;
-		}
-
-		// For newer regions (Fontaine, Natlan, Snezhnaya):
 		var group = scriptBlock.groups.get(spawnGroup.getGroupId());
+
 		if (group == null) {
 			return true;
+		}
+
+		/*
+		 * Dynamic old-region groups are normally quest/story/event groups.
+		 * They must NOT be recreated through the static SpawnData fallback.
+		 *
+		 * Non-dynamic old-region groups are ordinary overworld groups and
+		 * should be allowed to fall through to the checks below.
+		 */
+		if (spawnGroup.getGroupId() < 133300000 && group.dynamic_load) {
+			return false;
 		}
 		if (!group.isLoaded()) {
 			group.load(this.getId());
@@ -1884,8 +1890,7 @@ public class Scene {
 
     public void onLoadBlock(SceneBlock block, List<Player> players) {
         this.getScriptManager().loadBlockFromScript(block);
-        scriptManager.getLoadedGroupSetPerBlock().put(block.id, new HashSet<>());
-
+        scriptManager.getLoadedGroupSetPerBlock().computeIfAbsent(block.id, ignored -> ConcurrentHashMap.newKeySet());
         Grasscutter.getLogger().trace("Scene {} block {} loaded.", this.getId(), block.id);
     }
 
@@ -2045,13 +2050,20 @@ public class Scene {
             challenge.fail();
         }
 
-        scriptManager.getLoadedGroupSetPerBlock().get(block.id).remove(group);
-        this.loadedGroups.remove(group);
+		var loadedGroupsForBlock = scriptManager.getLoadedGroupSetPerBlock().get(block.id);
 
-        if (this.scriptManager.getLoadedGroupSetPerBlock().get(block.id).isEmpty()) {
-            this.scriptManager.getLoadedGroupSetPerBlock().remove(block.id);
-            Grasscutter.getLogger().trace("Scene {} block {} is unloaded.", this.getId(), block.id);
-        }
+		if (loadedGroupsForBlock != null) {
+			loadedGroupsForBlock.remove(group);
+
+			if (loadedGroupsForBlock.isEmpty()) {
+				scriptManager.getLoadedGroupSetPerBlock().remove(block.id, loadedGroupsForBlock);
+				Grasscutter.getLogger().trace("Scene {} block {} is unloaded.", this.getId(), block.id);
+			}
+		} else {
+			Grasscutter.getLogger().debug("Scene {} unloading group {} from block {}, but the block had no loaded-group bookkeeping entry.", this.getId(), group_id, block.id);
+		}
+
+		this.loadedGroups.remove(group);
 
         this.broadcastPacket(new PacketGroupUnloadNotify(List.of(group_id)));
         this.scriptManager.unregisterGroup(group);
