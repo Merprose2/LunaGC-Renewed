@@ -166,67 +166,244 @@ public final class DropSystem extends BaseGameSystem {
         return items;
     }
 
-    public boolean handleMonsterDrop(EntityMonster monster) {
-        int dropId;
+	public boolean handleMonsterDrop(EntityMonster monster) {
 		int level = monster.getLevel();
-		SceneMonster sceneMonster = monster.getMetaMonster();
 
+		SceneMonster sceneMonster =
+				monster.getMetaMonster();
+
+		/*
+		 * Lua/script-spawned monsters.
+		 *
+		 * These monsters can define their actual material drops through
+		 * drop_tag or an explicit drop_id.
+		 *
+		 * IMPORTANT:
+		 * MonsterData.killDropId is not a replacement for that loot table.
+		 * In the official 7.0 resources it commonly points to an adsorbate /
+		 * elemental-energy pickup table.
+		 */
 		if (sceneMonster != null) {
-			if (sceneMonster.drop_tag != null) {
-				dropId = queryDropData(sceneMonster.drop_tag, level, monsterDrop);
-			} else {
-				dropId = sceneMonster.drop_id;
+			int scriptDropId = 0;
+
+			String dropTag =
+					sceneMonster.drop_tag;
+
+			/*
+			 * Prefer a real non-empty drop_tag.
+			 *
+			 * Treat "" the same as no tag. The previous code only checked
+			 * for null, which could prevent an explicit drop_id from being
+			 * tried when resources supplied an empty string.
+			 */
+			if (dropTag != null
+					&& !dropTag.isBlank()) {
+
+				scriptDropId =
+						queryDropData(
+								dropTag,
+								level,
+								monsterDrop);
 			}
-		} else {
-			dropId = monster.getMonsterData().getKillDropId();
+
+			/*
+			 * If MonsterDrop.json did not recognize the tag, try the
+			 * explicit Lua drop_id before giving up on the script-defined
+			 * material drop.
+			 */
+			if ((scriptDropId <= 0
+							|| isDropTableEmpty(scriptDropId))
+					&& sceneMonster.drop_id > 0) {
+
+				scriptDropId =
+						sceneMonster.drop_id;
+			}
+
+			/*
+			 * A valid Lua material drop table exists.
+			 *
+			 * This is the normal modern-resource path and should remain
+			 * authoritative. Do NOT also invoke Drop.json here or older
+			 * working monsters would receive duplicate loot.
+			 */
+			if (scriptDropId > 0
+					&& !isDropTableEmpty(scriptDropId)) {
+
+				return processMonsterDropById(
+						monster,
+						scriptDropId);
+			}
+
+			/*
+			 * No usable Lua material-drop mapping was found.
+			 *
+			 * Preserve MonsterData.killDropId because 7.0 uses it for
+			 * adsorbate/energy pickups. However, successfully generating
+			 * that pickup must NOT count as successfully resolving the
+			 * monster's actual material loot.
+			 */
+			int killDropId =
+					monster.getMonsterData()
+							.getKillDropId();
+
+			if (killDropId > 0
+					&& !isDropTableEmpty(killDropId)) {
+
+				processMonsterDropById(
+						monster,
+						killDropId);
+			}
+
+			Grasscutter.getLogger()
+					.debug(
+							"[DropSystem] No usable Lua material drop for "
+									+ "monster_id={}, group_id={}, config_id={}, "
+									+ "drop_tag='{}', drop_id={}, kill_drop_id={}. "
+									+ "Delegating material loot to legacy Drop.json.",
+							monster.getMonsterData().getId(),
+							monster.getGroupId(),
+							monster.getConfigId(),
+							dropTag,
+							sceneMonster.drop_id,
+							killDropId);
+
+			/*
+			 * This is intentional.
+			 *
+			 * Scene.killEntity() interprets false as:
+			 *
+			 *     modern drop system could not resolve the monster loot
+			 *
+			 * and will then call DropSystemLegacy.callDrop(monster).
+			 *
+			 * The killDropId adsorbate may already have been generated
+			 * above, but the actual material loot has not.
+			 */
+			return false;
 		}
 
-		// If the resolved drop ID points to an empty table (e.g. MonsterDrop.json maps to a
-		// stale entry with no items), fall back to the official killDropId from MonsterData.
-		if ((dropId <= 0 || isDropTableEmpty(dropId))) {
-			int killDropId = monster.getMonsterData().getKillDropId();
-			if (killDropId > 0 && !isDropTableEmpty(killDropId)) {
-				Grasscutter.getLogger().warn(
-					"[DropSystem] drop_tag/drop_id={} resolved to empty table for monster_id={}; "
-					+ "falling back to killDropId={}",
-					dropId, monster.getMonsterData().getId(), killDropId);
-				dropId = killDropId;
-			}
+		/*
+		 * Monsters without SceneMonster metadata.
+		 *
+		 * Most static SpawnData monsters that have a Drop.json entry are
+		 * already intercepted by Scene.killEntity() and handled directly
+		 * by DropSystemLegacy before this method is called.
+		 *
+		 * For any remaining metadata-less monsters, retain native
+		 * killDropId handling.
+		 */
+		int killDropId =
+				monster.getMonsterData()
+						.getKillDropId();
+
+		if (killDropId <= 0
+				|| isDropTableEmpty(killDropId)) {
+			return false;
 		}
+
+		return processMonsterDropById(
+				monster,
+				killDropId);
+	}
+
+	private boolean processMonsterDropById(
+			EntityMonster monster,
+			int dropId) {
 
 		if (dropId <= 0) {
 			return false;
 		}
 
-		List<GameItem> items = new ArrayList<>();
+		List<GameItem> items =
+				new ArrayList<>();
+
 		boolean fallToGround;
 
-		var dropData = dropTable.get(dropId);
+		/*
+		 * First try the normal Excel drop table.
+		 */
+		var dropData =
+				dropTable.get(dropId);
+
 		if (dropData != null) {
-			processDrop(dropData, 1, items);
-			fallToGround = dropData.isFallToGround();
+			processDrop(
+					dropData,
+					1,
+					items);
+
+			fallToGround =
+					dropData.isFallToGround();
+
 		} else {
-			var serverDropData = serverDropTable.get(dropId);
+			/*
+			 * Otherwise use the Server/ copy supplied by the newer
+			 * resource packages.
+			 */
+			var serverDropData =
+					serverDropTable.get(dropId);
+
 			if (serverDropData == null) {
 				Grasscutter.getLogger()
 						.debug(
-								"No monster drop table found for drop_id = {}, monster_id = {}",
+								"[DropSystem] No drop table found for "
+										+ "drop_id={}, monster_id={}.",
 								dropId,
 								monster.getMonsterData().getId());
+
 				return false;
 			}
 
-			processDrop(serverDropData, 1, items);
-			fallToGround = serverDropData.isFallToGround();
+			processDrop(
+					serverDropData,
+					1,
+					items);
+
+			fallToGround =
+					serverDropData.isFallToGround();
+		}
+
+		/*
+		 * An empty result is not automatically an error.
+		 *
+		 * Some independent/random tables may legitimately roll no item,
+		 * so table existence — rather than items.isEmpty() — determines
+		 * whether this particular table was handled.
+		 */
+		if (items.isEmpty()) {
+			Grasscutter.getLogger()
+					.debug(
+							"[DropSystem] Drop table {} produced no items "
+									+ "for monster_id={}.",
+							dropId,
+							monster.getMonsterData().getId());
+
+			return true;
 		}
 
 		if (fallToGround) {
-			dropItems(items, ActionReason.MonsterDie, monster, monster.getScene().getPlayers().get(0), true);
+			var players =
+					monster.getScene()
+							.getPlayers();
+
+			if (!players.isEmpty()) {
+				dropItems(
+						items,
+						ActionReason.MonsterDie,
+						monster,
+						players.get(0),
+						true);
+			}
 		} else {
-			for (Player p : monster.getScene().getPlayers()) {
-				p.getInventory().addItems(items, ActionReason.MonsterDie);
+			for (Player player :
+					monster.getScene().getPlayers()) {
+
+				player.getInventory()
+						.addItems(
+								items,
+								ActionReason.MonsterDie);
 			}
 		}
+
 		return true;
 	}
 
