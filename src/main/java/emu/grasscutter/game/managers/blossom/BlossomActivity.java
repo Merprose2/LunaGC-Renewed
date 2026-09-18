@@ -25,6 +25,12 @@ public final class BlossomActivity {
     private final Queue<Integer> candidateMonsters = new ArrayDeque<>();
     private static final int BLOOMING_GADGET_ID = 70210109;
 
+    /**
+     * Level used for ley line monsters when the world level table has no entry, which is world level
+     * 0. Every other world level uses its own monster level, so the encounter scales with the player.
+     */
+    private static final int DEFAULT_MONSTER_LEVEL = 12;
+
     public BlossomActivity(
             EntityGadget entityGadget, List<Integer> monsters, int timeout, int worldLevel) {
         this.tempSceneGroup = new SceneGroup();
@@ -86,11 +92,14 @@ public final class BlossomActivity {
             if (generatedCount < goal) {
                 step++;
 
-                var worldLevelData = GameData.getWorldLevelDataMap().get(worldLevel);
-                int worldLevelOverride = 0;
-                if (worldLevelData != null) {
-                    worldLevelOverride = worldLevelData.getMonsterLevel();
-                }
+                /*
+                 * Ley line monsters follow the player's world level (world level 8 -> level 90).
+                 *
+                 * The camp scripts carry a placeholder level and Scene#getEntityLevel() applies the
+                 * world level table on top of a base level, which pushed the level 22 too low, so the
+                 * world level's monster level is taken directly instead.
+                 */
+                var level = scene.getLevelForMonster(0, DEFAULT_MONSTER_LEVEL);
 
                 List<EntityMonster> newMonsters = new ArrayList<>();
                 int willSpawn = Utils.randomRange(3, 5);
@@ -103,7 +112,6 @@ public final class BlossomActivity {
                     if (entry == null) continue;
 
                     var monsterData = GameData.getMonsterDataMap().get((int) entry);
-                    var level = scene.getEntityLevel(1, worldLevelOverride);
                     var entity =
                             new EntityMonster(scene, monsterData, pos.nearby2d(4f), Position.ZERO, level);
                     scene.addEntity(entity);

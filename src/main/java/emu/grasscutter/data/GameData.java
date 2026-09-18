@@ -181,6 +181,14 @@ public final class GameData {
             new Int2ObjectOpenHashMap<>();
 
     @Getter
+    private static final Int2ObjectMap<BlossomGroupsExcelConfigData>
+            blossomGroupsExcelConfigDataMap = new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<BlossomSectionOrderExcelConfigData>
+            blossomSectionOrderExcelConfigDataMap = new Int2ObjectOpenHashMap<>();
+
+    @Getter
     private static final Int2ObjectMap<BlossomRefreshExcelConfigData>
             blossomRefreshExcelConfigDataMap = new Int2ObjectOpenHashMap<>();
 
