@@ -253,9 +253,9 @@ public final class PacketOpcodes {
     public static final int WidgetCoolDownNotify = 805;
     public static final int AllWidgetDataNotify = 28785;
     public static final int WidgetGadgetDataNotify = 25053;
-    public static final int DoSetPlayerBornDataNotify = -19; // no 7.0 entry
+    public static final int DoSetPlayerBornDataNotify = 21591;
     public static final int SetPlayerBornDataReq = 21146;
-    public static final int SetPlayerBornDataRsp = -20; // no 7.0 entry
+    public static final int SetPlayerBornDataRsp = 21046;
     public static final int ScenePlayerLocationNotify = 427;
     public static final int WorldPlayerLocationNotify = 5072;
     public static final int SetPlayerPropReq = 128;

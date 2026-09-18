@@ -11,6 +11,7 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.SetPlayerBornDataReqOuterClass.SetPlayerBornDataReq;
 import emu.grasscutter.server.game.GameSession;
+import emu.grasscutter.server.packet.send.*;
 import java.util.Arrays;
 
 @Opcodes(PacketOpcodes.SetPlayerBornDataReq)
@@ -41,37 +42,45 @@ public class HandlerSetPlayerBornDataReq extends PacketHandler {
 
         // Get player object
         Player player = session.getPlayer();
-        player.setNickname(req.getNickName());
 
-        // Create avatar
-        if (player.getAvatars().getAvatarCount() == 0) {
-            Avatar mainCharacter = new Avatar(avatarId);
-
-            // Check if the default Anemo skill should be given.
-            if (!GAME_OPTIONS.questing.enabled) {
-                mainCharacter.setSkillDepotData(
-                        GameData.getAvatarSkillDepotDataMap().get(startingSkillDepot));
-            }
-
-            // Manually handle adding to team
-            player.addAvatar(mainCharacter, false);
-            player.setMainCharacterId(avatarId);
-            player.setHeadImage(avatarId);
-            player
-                    .getTeamManager()
-                    .getCurrentSinglePlayerTeamInfo()
-                    .getAvatars()
-                    .add(mainCharacter.getAvatarId());
-            player.save(); // TODO save player team in different object
-        } else {
+        // Only the very first avatar of the account is created through the born flow.
+        if (player.getAvatars().getAvatarCount() != 0) {
             return;
         }
 
-        // Login done
-        session.getPlayer().onLogin();
+        // Keep the name the player entered on the born screen.
+        player.setNickname(req.getNickName());
 
-        // Born resp packet
-        session.send(new BasePacket(PacketOpcodes.SetPlayerBornDataRsp));
+        // Create avatar
+        Avatar mainCharacter = new Avatar(avatarId);
+
+        // Check if the default Anemo skill should be given.
+        if (!GAME_OPTIONS.questing.enabled) {
+            mainCharacter.setSkillDepotData(
+                    GameData.getAvatarSkillDepotDataMap().get(startingSkillDepot));
+        }
+
+        // Manually handle adding to team
+        player.addAvatar(mainCharacter, false);
+        player.setMainCharacterId(avatarId);
+        player.setHeadImage(avatarId);
+        player
+                .getTeamManager()
+                .getCurrentSinglePlayerTeamInfo()
+                .getAvatars()
+                .add(mainCharacter.getAvatarId());
+        player.save(); // TODO save player team in different object
+
+        // Login done
+        player.onLogin();
+
+        // Born resp packet - tells the client its main character now exists, so it can leave the
+        // born screen and enter the world.
+        session.send(new PacketSetPlayerBornDataRsp());
+
+        // A normal login pushes the activity list right after PlayerLoginRsp; the born flow returns
+        // before that point, so push it here to keep both login paths identical.
+        session.send(new PacketGetActivityInfoRsp(player.getActivityManager()));
 
         // Default mail
         var welcomeMail = GAME_INFO.joinOptions.welcomeMail;
