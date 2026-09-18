@@ -6,7 +6,7 @@ import emu.grasscutter.Grasscutter;
 import emu.grasscutter.game.world.Position;
 import emu.grasscutter.scripts.*;
 import emu.grasscutter.server.event.game.SceneBlockLoadedEvent;
-import java.util.*;
+import java.util.Map;
 import java.util.stream.Collectors;
 import javax.script.*;
 import lombok.*;
@@ -40,119 +40,46 @@ public class SceneBlock {
                 && pos.getZ() >= (this.min.getZ() - range);
     }
 
-	public SceneBlock load(int sceneId, Bindings bindings) {
-		/*
-		 * SceneMeta is shared between SceneScriptManager instances.
-		 * Synchronizing on the shared bindings prevents two blocks belonging
-		 * to the same scene from evaluating Lua into the same bindings at
-		 * the same time.
-		 */
-		synchronized (bindings) {
-			if (this.loaded) {
-				return this;
-			}
+    public SceneBlock load(int sceneId, Bindings bindings) {
+        if (this.loaded) {
+            return this;
+        }
+        this.sceneId = sceneId;
+        this.setLoaded(true);
 
-			this.sceneId = sceneId;
+        CompiledScript cs =
+                ScriptLoader.getScript(
+                        "Scene/" + sceneId + "/scene" + sceneId + "_block" + this.id + ".lua");
 
-			CompiledScript cs =
-					ScriptLoader.getScript(
-							"Scene/"
-									+ sceneId
-									+ "/scene"
-									+ sceneId
-									+ "_block"
-									+ this.id
-									+ ".lua");
+        if (cs == null) {
+            return null;
+        }
 
-			if (cs == null) {
-				Grasscutter.getLogger()
-						.warn(
-								"No block script found for block {} in scene {}.",
-								this.id,
-								sceneId);
+        // Eval script
+        try {
+            ScriptLoader.eval(cs, bindings);
 
-				/*
-				 * Never leave groups as null.
-				 * An absent block script is treated as an empty block.
-				 */
-				this.groups = Collections.emptyMap();
+            // Set groups
+            this.groups =
+                    ScriptLoader.getSerializer().toList(SceneGroup.class, bindings.get("groups")).stream()
+                            .collect(Collectors.toMap(x -> x.id, y -> y, (a, b) -> a));
 
-				this.sceneGroupIndex =
-						SceneIndexManager.buildIndex(
-								3,
-								this.groups.values(),
-								g -> g.pos.toPoint());
+            this.groups.values().forEach(g -> g.block_id = this.id);
 
-				this.setLoaded(true);
-				return this;
-			}
+            var event = new SceneBlockLoadedEvent(this);
+            event.call();
 
-			try {
-				ScriptLoader.eval(cs, bindings);
-
-				this.groups =
-						ScriptLoader.getSerializer()
-								.toList(
-										SceneGroup.class,
-										bindings.get("groups"))
-								.stream()
-								.collect(
-										Collectors.toMap(
-												x -> x.id,
-												y -> y,
-												(a, b) -> a));
-
-				this.groups.values()
-						.forEach(g -> g.block_id = this.id);
-
-				var event =
-						new SceneBlockLoadedEvent(this);
-
-				event.call();
-
-				this.sceneGroupIndex =
-						SceneIndexManager.buildIndex(
-								3,
-								this.groups.values(),
-								g -> g.pos.toPoint());
-
-			} catch (ScriptException exception) {
-				Grasscutter.getLogger()
-						.error(
-								"An error occurred while loading block "
-										+ this.id
-										+ " in scene "
-										+ sceneId,
-								exception);
-
-				/*
-				 * A failed block must still be left in a safe state.
-				 */
-				this.groups = Collections.emptyMap();
-
-				this.sceneGroupIndex =
-						SceneIndexManager.buildIndex(
-								3,
-								this.groups.values(),
-								g -> g.pos.toPoint());
-			}
-
-			/*
-			 * IMPORTANT:
-			 * Do not publish loaded=true until groups and the spatial
-			 * index are completely initialized.
-			 */
-			this.setLoaded(true);
-
-			Grasscutter.getLogger()
-					.trace(
-							"Successfully loaded block {} in scene {}.",
-							this.id,
-							sceneId);
-
-			return this;
-		}
-	}
+            this.sceneGroupIndex =
+                    SceneIndexManager.buildIndex(3, this.groups.values(), g -> g.pos.toPoint());
+        } catch (ScriptException exception) {
+            Grasscutter.getLogger()
+                    .error(
+                            "An error occurred while loading block " + this.id + " in scene " + sceneId,
+                            exception);
+        }
+        Grasscutter.getLogger().trace("Successfully loaded block {} in scene {}.", this.id, sceneId);
+        return this;
+    }
 
     public Rectangle toRectangle() {
         return Rectangle.create(this.min.toXZDoubleArray(), this.max.toXZDoubleArray());
