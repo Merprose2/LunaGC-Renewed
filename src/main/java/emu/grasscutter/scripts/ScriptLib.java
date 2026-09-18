@@ -56,8 +56,7 @@ public class ScriptLib {
     }
 
     public SceneScriptManager getSceneScriptManager() {
-
-        return Optional.of(sceneScriptManager.get()).get();
+        return Optional.ofNullable(sceneScriptManager.get()).orElse(null);
     }
 
     private String printTable(LuaTable table) {
@@ -1151,7 +1150,9 @@ public class ScriptLib {
 
     public int SetGadgetEnableInteract(int groupId, int configId, boolean enable) {
         logger.debug("[LUA] Call SetGadgetEnableInteract with {} {} {}", groupId, configId, enable);
-        var entity = getSceneScriptManager().getScene().getEntityByConfigId(configId, groupId);
+        var scriptManager = getSceneScriptManager();
+        if (scriptManager == null) return -1;
+        var entity = scriptManager.getScene().getEntityByConfigId(configId, groupId);
         if (!(entity instanceof EntityGadget gadget)) {
             return -1;
         }

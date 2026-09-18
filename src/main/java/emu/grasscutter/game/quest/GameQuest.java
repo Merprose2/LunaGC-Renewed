@@ -298,9 +298,15 @@ public class GameQuest {
                         q -> {
                             q.clearProgress(notifyDelete);
                         });
-        clearProgress(notifyDelete);
-        this.start();
-        return true;
+        boolean didRewind = clearProgress(notifyDelete);
+        // Only re-start if the quest actually had progress to clear.
+        // If it was already UNSTARTED (brand-new quest just added this session),
+        // clearProgress() returns false and calling start() here would fire beginExec
+        // a second time, causing the beginning cutscene to play twice.
+        if (didRewind) {
+            this.start();
+        }
+        return didRewind;
     }
 
     /**
