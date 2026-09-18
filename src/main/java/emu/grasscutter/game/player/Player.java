@@ -213,6 +213,8 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter @Setter private int resinBuyCount;
     @Getter @Setter private int lastDailyReset;
 	@Getter @Setter private int lastBirthdayMailYear;
+
+	@Getter private Map<Integer, Integer> blossomConsumedCamps = new HashMap<>();
     @Getter private transient MpSettingType mpSetting = MpSettingType.MpSettingType_MP_SETTING_ENTER_AFTER_APPLY;
 
 	@Getter @Setter private int lastDailyCheckInDate;
@@ -1356,6 +1358,7 @@ public class Player implements PlayerHook, FieldFetch {
 		}
 
 		this.setLastDailyReset(currentTime);
+
 		this.save();
     }
 
@@ -1368,6 +1371,10 @@ public class Player implements PlayerHook, FieldFetch {
 		// Players saved before NRE persistence was added will not have this field.
 		if (this.lunchBoxSlotMaterialMap == null) {
 			this.lunchBoxSlotMaterialMap = new HashMap<>();
+		}
+		// Players saved before the ley line outcrop reset existed will not have this one either.
+		if (this.blossomConsumedCamps == null) {
+			this.blossomConsumedCamps = new HashMap<>();
 		}
 		this.getCodex().setPlayer(this);
 		this.getProgressManager().setPlayer(this);

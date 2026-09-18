@@ -636,6 +636,13 @@ public class Scene {
 		this.applySeiraiFallbackWeather(player, false);
 		this.applyDragonspineFallbackWeather(player, false);
 		this.applyOceanidFallbackWeather(player, false);
+
+        /*
+         * The client only learns about ley line outcrops from the packets the server pushes, so each
+         * player gets the full list of markers as soon as they enter the scene - not just the few they
+         * happen to walk past.
+         */
+        this.blossomManager.sendBlossomIcons(player);
     }
 
     public synchronized void removePlayer(Player player) {
@@ -753,13 +760,48 @@ public class Scene {
 
     private void addEntityDirectly(GameEntity entity) {
         getEntities().put(entity.getId(), entity);
+        this.initBlossomIfNeeded(entity);
         entity.onCreate();
+    }
+
+    /**
+     * Ley line outcrops (blossoms) are ordinary scene gadgets, but they only work once the blossom
+     * manager installed the "start the encounter" worktop option on them.
+     *
+     * <p>Static spawn data does that in {@link #checkSpawns()}, while every camp that comes from its
+     * own scene group (that is every camp of Sumeru, Fontaine, Natlan and Snezhnaya) is handed to the
+     * scene directly. Initialising them here is what makes those outcrops usable instead of being
+     * inert worktops.
+     */
+    private void initBlossomIfNeeded(GameEntity entity) {
+        if (!(entity instanceof EntityGadget gadget)) {
+            return;
+        }
+
+        if (!BlossomManager.isBlossomOperator(gadget.getGadgetId(), gadget.getGroupId())) {
+            return;
+        }
+
+        this.blossomManager.initBlossom(gadget);
+    }
+
+    /**
+     * Is this a ley line outcrop the host already harvested today? Such an outcrop must not return
+     * before the daily reset - not through a relog, a group reload or a spawn data entry.
+     */
+    public boolean isHarvestedBlossom(GameEntity entity) {
+        return entity instanceof EntityGadget gadget
+                && BlossomManager.isBlossomOperator(gadget.getGadgetId(), gadget.getGroupId())
+                && this.blossomManager.isCampHarvested(gadget.getGroupId());
     }
 
     public synchronized void addEntity(GameEntity entity) {
 		if (this.isBlockedPmaRouteBarrierEntity(entity)) {
 			return;
 		}
+        if (this.isHarvestedBlossom(entity)) {
+            return;
+        }
         this.addEntityDirectly(entity);
         this.broadcastPacket(new PacketSceneEntityAppearNotify(entity));
     }
@@ -823,6 +865,7 @@ public class Scene {
         var filteredEntities =
 				entities.stream()
 						.filter(entity -> !this.isBlockedPmaRouteBarrierEntity(entity))
+						.filter(entity -> !this.isHarvestedBlossom(entity))
 						.toList();
 
         if (filteredEntities.isEmpty()) {
@@ -1473,6 +1516,14 @@ public class Scene {
 		visible.removeIf(this::isBlockedPmaRouteBarrierSpawn);
 		visible.removeIf(this::isPrematureGoldenWolflordBlossomSpawn);
 
+		/*
+		 * An outcrop the host already harvested today must not return before the daily reset, so its
+		 * spawn data entries are skipped as well.
+		 */
+		visible.removeIf(
+				entry -> entry.getGroup() != null
+						&& this.blossomManager.isCampHarvested(entry.getGroup().getGroupId()));
+
 		WorldLevelData worldLevelData = GameData.getWorldLevelDataMap().get(getWorld().getWorldLevel());
 
 		int worldLevelOverride = 0;
@@ -1849,6 +1900,26 @@ public class Scene {
                                             // Quests handle all dynamic groups, and past events never load.
                                             if (group.id < 133300000) {
                                                 if (!group.dynamic_load) return group;
+
+                                                /*
+                                                 * Ley line outcrop camps are flagged as
+                                                 * dynamic_load in every region, even though they
+                                                 * are plain overworld content. Quests own the other
+                                                 * dynamic groups of the older nations, but the camps
+                                                 * have to stream in with the player - otherwise an
+                                                 * outcrop only exists where the hand written spawn
+                                                 * data happens to cover it (which is why blossoms
+                                                 * were limited to a few nations).
+                                                 */
+                                                if (!BlossomManager.isBlossomCampGroup(group.id)) {
+                                                    return null;
+                                                }
+                                                if (!group.isLoaded()) {
+                                                    group.load(this.getId());
+                                                }
+                                                if (group.init_config != null && group.init_config.suite > 0) {
+                                                    return group;
+                                                }
                                                 return null;
                                             }
 
@@ -2013,6 +2084,13 @@ public class Scene {
                     .refreshGroup(groupInstance, 0, false);
 
             this.loadedGroups.add(group);
+
+            /*
+             * A ley line camp keeps its blossom operator out of its suites, because the real server
+             * creates it when the camp is refreshed. Ask the blossom manager to do the same, so the
+             * camps of every nation have an outcrop.
+             */
+            this.blossomManager.onCampGroupLoaded(group);
         }
 
         this.scriptManager.meetEntities(entities);
