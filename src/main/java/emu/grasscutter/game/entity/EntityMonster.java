@@ -435,8 +435,7 @@ public class EntityMonster extends GameEntity {
         //  +100%: Floors 8 – 11
         //  +150%: Floor 12
         var dungeonManager = getScene().getDungeonManager();
-		var scenePlayers = getScene().getPlayers();
-		var towerManager = scenePlayers.isEmpty() ? null : scenePlayers.get(0).getTowerManager();
+        var towerManager = getScene().getPlayers().get(0).getTowerManager();
         if (dungeonManager != null && dungeonManager.isTowerDungeon() && towerManager != null) {
             var floor = towerManager.getCurrentFloorNumber();
             float additionalScaleFactor = 0f;
