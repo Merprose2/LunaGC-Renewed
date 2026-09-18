@@ -68,27 +68,48 @@ public class DropSystemLegacy extends BaseGameSystem {
         }
     }
 
-    private void processDrop(DropData dd, EntityMonster em, Player gp) {
-        int target = Utils.randomRange(1, 10000);
-        if (target >= dd.getMinWeight() && target < dd.getMaxWeight()) {
-            ItemData itemData = GameData.getItemDataMap().get(dd.getItemId());
-            int num = Utils.randomRange(dd.getMinCount(), dd.getMaxCount());
+	private void processDrop(DropData dd, EntityMonster em, Player gp) {
+		ItemData itemData = GameData.getItemDataMap().get(dd.getItemId());
+		if (itemData == null) {
+			return;
+		}
 
-            if (itemData == null) {
-                return;
-            }
-            if (itemData.isEquip()) {
-                for (int i = 0; i < num; i++) {
-                    float range = (2.5f + (.05f * num));
-                    Position pos = em.getPosition().nearby2d(range).addY(3f);
-                    addDropEntity(dd, em.getScene(), itemData, pos, num, gp);
-                }
-            } else {
-                Position pos = em.getPosition().clone().addY(3f);
-                addDropEntity(dd, em.getScene(), itemData, pos, num, gp);
-            }
-        }
-    }
+		/*
+		 * Drop.json does not contain monster-level requirements.
+		 *
+		 * Without this check its higher-quality enemy material entries
+		 * can roll even from very low-level monsters.
+		 */
+		if (!MonsterDropLevelRules.isUnlocked(itemData, em.getLevel())) {
+			Grasscutter.getLogger()
+					.trace(
+							"[MonsterDrop] Suppressed item {} from monster_id={} "
+									+ "at level {} because that material tier is not unlocked.",
+							dd.getItemId(),
+							em.getMonsterData().getId(),
+							em.getLevel());
+			return;
+		}
+
+		int target = Utils.randomRange(1, 10000);
+
+		if (target < dd.getMinWeight() || target >= dd.getMaxWeight()) {
+			return;
+		}
+
+		int num = Utils.randomRange(dd.getMinCount(), dd.getMaxCount());
+
+		if (itemData.isEquip()) {
+			for (int i = 0; i < num; i++) {
+				float range = 2.5f + (.05f * num);
+				Position pos = em.getPosition().nearby2d(range).addY(3f);
+				addDropEntity(dd, em.getScene(), itemData, pos, 1, gp);
+			}
+		} else {
+			Position pos = em.getPosition().clone().addY(3f);
+			addDropEntity(dd, em.getScene(), itemData, pos, num, gp);
+		}
+	}
 
     public void callDrop(EntityMonster em) {
         int id = em.getMonsterData().getId();

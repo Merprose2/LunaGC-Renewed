@@ -361,6 +361,54 @@ public final class DropSystem extends BaseGameSystem {
 			fallToGround =
 					serverDropData.isFallToGround();
 		}
+		
+		/*
+		 * Compatibility level filtering.
+		 *
+		 * The newer direct/server drop-table path lacks the old
+		 * MonsterDrop.json family+level selection information.
+		 *
+		 * If it resolves an item whose quality is impossible at this monster's
+		 * level, remove it before awarding the loot.
+		 */
+		int itemCountBeforeLevelFilter =
+				items.size();
+
+		items.removeIf(
+				item ->
+						!MonsterDropLevelRules.isUnlocked(
+								GameData.getItemDataMap()
+										.get(item.getItemId()),
+								monster.getLevel()));
+
+		boolean removedLockedItems =
+				items.size()
+						!= itemCountBeforeLevelFilter;
+
+		if (removedLockedItems) {
+			Grasscutter.getLogger()
+					.debug(
+							"[DropSystem] Filtered level-locked loot from "
+									+ "drop_id={} for monster_id={} at level={}.",
+							dropId,
+							monster.getMonsterData().getId(),
+							monster.getLevel());
+		}
+
+		/*
+		 * If the table actually generated loot but every generated item was too
+		 * high-level, report this path as unresolved.
+		 *
+		 * Scene.killEntity() may then use our now-level-aware Drop.json fallback.
+		 *
+		 * This is different from an ordinary random roll that legitimately
+		 * produces no items.
+		 */
+		if (items.isEmpty()
+				&& removedLockedItems) {
+
+			return false;
+		}
 
 		/*
 		 * An empty result is not automatically an error.
