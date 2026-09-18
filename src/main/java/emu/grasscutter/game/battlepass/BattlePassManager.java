@@ -225,7 +225,7 @@ public class BattlePassManager extends BasePlayerDataManager {
 
     public void takeReward(List<BattlePassRewardTakeOption> takeOptionList) {
         if (takeOptionList == null || takeOptionList.isEmpty()) {
-            getPlayer().sendPacket(new PacketTakeBattlePassRewardRsp(takeOptionList, null));
+            getPlayer().sendPacket(new PacketTakeBattlePassRewardRsp(List.of(), null));
             return;
         }
 
@@ -243,7 +243,18 @@ public class BattlePassManager extends BasePlayerDataManager {
 
             int level = tag.getLevel();
             if (level <= 0 || level > this.getLevel()) {
+                Grasscutter.getLogger()
+                        .debug(
+                                "BP takeReward: level {} not reached yet (current level {}).",
+                                level,
+                                this.getLevel());
                 continue;
+            }
+
+            // The client echoes the plan it is showing; fall back to the stored one when unset.
+            int optionPlan = option.getBattlePassPlan();
+            if (optionPlan <= 0 || optionPlan > 4) {
+                optionPlan = plan;
             }
 
             boolean isPaidReward = tag.getUnlockStatus() == BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID;
@@ -251,11 +262,18 @@ public class BattlePassManager extends BasePlayerDataManager {
                 continue;
             }
 
-            int lookupKey = plan * 100 + level;
+            int lookupKey = optionPlan * 100 + level;
             BattlePassRewardData rewardData = GameData.getBattlePassRewardDataMap().get(lookupKey);
             if (rewardData == null) {
                 rewardData = GameData.getBattlePassRewardDataMap().get(100 + level);
-                if (rewardData == null) continue;
+                if (rewardData == null) {
+                    Grasscutter.getLogger()
+                            .debug(
+                                    "BP takeReward: no reward config for plan {} level {}.",
+                                    optionPlan,
+                                    level);
+                    continue;
+                }
             }
 
             List<Integer> rewardIdsToGrant = new ArrayList<>();
@@ -311,6 +329,16 @@ public class BattlePassManager extends BasePlayerDataManager {
             this.save();
             getPlayer().getInventory().addItems(rewardItems);
             getPlayer().sendPacket(new PacketBattlePassCurScheduleUpdateNotify(getPlayer()));
+        }
+
+        if (acceptedOptions.isEmpty()) {
+            Grasscutter.getLogger()
+                    .warn(
+                            "BP takeReward: none of the {} requested reward option(s) could be granted "
+                                    + "(level {}, plan {}).",
+                            takeOptionList.size(),
+                            this.getLevel(),
+                            plan);
         }
 
         getPlayer().sendPacket(new PacketTakeBattlePassRewardRsp(acceptedOptions, rewardItems));
