@@ -182,7 +182,6 @@ public final class ResourceLoader {
         val talents = runStage("Talents", ResourceLoader::loadTalents);
         val openConfig = runStage("OpenConfig", ResourceLoader::loadOpenConfig);
         val abilityModifiers = runStage("AbilityModifiers", ResourceLoader::loadAbilityModifiers);
-        val excels = runStage("ExcelResources", ResourceLoader::loadResources);
         val dungeonDrops = runStage("DungeonDrops", ResourceLoader::loadDungeonDropData);
         val spawns = runStage("SpawnData", ResourceLoader::loadSpawnData);
         val quests = runStage("Quests", ResourceLoader::loadQuests);
@@ -212,6 +211,8 @@ public final class ResourceLoader {
                         luaExecutor);
 
         // ---- Dependent stages: scheduled as soon as their inputs are ready. ----
+        // AvatarSkillDepotData.onLoad reads player ability groups populated by AbilityEmbryos.
+        val excels = afterStage(abilityEmbryos, "ExcelResources", ResourceLoader::loadResources);
         val mergedEmbryos =
                 CompletableFuture.allOf(abilityEmbryos, abilityModifiers)
                         .thenRun(
