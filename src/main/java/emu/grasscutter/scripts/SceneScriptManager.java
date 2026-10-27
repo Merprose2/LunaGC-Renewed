@@ -117,6 +117,10 @@ public class SceneScriptManager {
     }
 
     public Map<Integer, SceneBlock> getBlocks() {
+        if (this.meta == null) {
+            return null;
+        }
+
         return meta.blocks;
     }
 
